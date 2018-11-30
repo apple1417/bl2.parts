@@ -4,7 +4,6 @@ html {
 
 body {
     font-family: Open Sans;
-    text-align: justify;
     color: #e7e8e9;
     background: #203a43;
     background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
@@ -46,18 +45,32 @@ br {
     color: red;
 }
 
-.smallImg {
-    max-width: 5.25em;
-    max-height: 5.25em;
-}
-.bigImg {
-    max-width: 12.5em;
-    max-height: 12.5em;
-}
-
 .text {
     max-width: 50em;
     margin: 0 auto;
+}
+
+img.small {
+    max-width: 5.25em;
+    max-height: 5.25em;
+}
+img.med {
+    max-width: 8.875em;
+    max-height: 8.875em;
+}
+img.big {
+    max-width: 12.5em;
+    max-height: 12.5em;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+img.left {
+    float: left;
+}
+img.right {
+    float: right;
 }
 
 #uncommon {
