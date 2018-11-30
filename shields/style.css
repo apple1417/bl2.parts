@@ -1,0 +1,67 @@
+body {
+    font-family: Open Sans;
+    text-align: justify;
+    color: #e7e8e9;
+    background: #203a43;
+    background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
+}
+
+table, td, th {
+    text-align: center;
+    padding: 0.3em;
+    margin: 0 auto;
+}
+table {
+    margin: 0.5em auto;
+}
+th {
+    min-width: 7em;
+    font-size: 1.05em;
+}
+
+h1, h3 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+h1 {
+    text-align: center;
+}
+
+br {
+    margin-bottom: 0.4em;
+}
+
+.good, .bad, .neutral {
+    font-size: 1.5em;
+}
+.good {
+    color: lime;
+}
+.bad {
+    color: red;
+}
+
+.smallImg {
+    max-width: 5.25em;
+    max-height: 5.25em;
+}
+.bigImg {
+    max-width: 12.5em;
+    max-height: 12.5em;
+}
+
+.text {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+#uncommon {
+    color: #3dd201;
+}
+#rare {
+    color: #3c8eff;
+}
+#veryRare {
+    color: #a83fe5;
+}
