@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
+</head>
+<body>
+    <h1>BL2/TPS Grenade Parts Guide (Full)</h1>
+    <div class="text">
+        This guide covers all grenade parts in-depth, and assumes you have read the base guide <a href="/bl2/grenades/">here</a>.
+        <br>
+        <br>
+        There are two important concepts that are going to be used here a lot:
+        <br>
+        Firstly, the formula for all stat boosts is as follows:
+        <br>
+        <br>
+        <code>
+            FINAL = (BASE + <span class="preAdd">PreAdd</span>)*SCALEVALUE + <span class="postAdd">PostAdd</span>
+            <br>
+            If <span class="scale">Scale</span> is positive:
+            SCALEVALUE = 1 + <span class="scale">Scale</span>
+            <br>
+            If <span class="scale">Scale</span> is negative:
+            SCALEVALUE = 1/(1 + <span class="scale">Scale</span>)
+        </code>
+        <br>
+        All scale bonuses from a single part are added together, scale bonuses from seperate parts are applied seperately.
+        <br>
+        <br>
+        The other concept is grades ("g" for short).
+        Grades are simply an easy way to have multiple ranks of bonuses for different parts.
+        A stat bonus will be defined by its base value and a per-grade bonus.
+        <br>
+        <code>
+            BASE + PERGRADE*<span class="grade">Grades</span>
+        </code>
+        <br>
+        <br>
+        <h3>Material</h3>
+        As mentioned in the basic guide, the only materials with stat boosts are the Torgue ones, which provide <span class="grade">+2</span> child count grades.
+        <br>
+        <br>
+        <h3>Blast Radius</h3>
+        The blast radius parts have grades ranging from <span class="grade">-1</span> to <span class="grade">+2</span>.
+        <br>
+        The base blast radius is 580, and each grade adds a further 120.
+        <br>
+        <br>
+        <h3>Child Count</h3>
+        The child count parts' grades corrolate directly to the amount of extra child grenades.
+        The parts have grades ranging from <span class="grade">0</span> to <span class="grade">+6</span>, and add from 0 to 6 extra child grenades.
+        <br>
+        The base child grenade count is 0, and each grade adds +1.
+        <br>
+        <br>
+        <h3>Delivery</h3>
+        Ignoring how the grenade is actually thrown, standard deliveries only affect the fuse time's grade and scale.
+        Unique deliveries mostly only affect damage and blast radius.
+        <br>
+        A full list of deliveries and their stats is available <a href="/bl2/grenades/deliveries">here</a>.
+        <br>
+        <br>
+        <h3>Accessory</h3>
+        The accessories define both the element of the grenade and the (unlisted) status effect chance.
+        This chance is per hit, so grenades that hit multiple times like teslas are much more likly to apply a DoT.
+        <br>
+        Each element has five accessories at different grades, and there's also an additional accessory for explosive.
+        <br>
+        The Pre Sequel has the only unique accessory, for the Monster Trap.
+        It provides no stat boosts, and is actually non-elemental, depite being displayed as explosive on the card.
+        <br>
+        The base status effect chance depends on what element is being used on what type of enemy.
+    </div>
+    <table><tr>
+        <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
+        <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
+    </tr><tr>
+        <td>Generic</td><td>20%</td><td>20%</td><td>20%</td><td>30%</td><td>15%</td>
+    </tr><tr>
+        <td>Flesh</td><td>30%</td><td>15%</td><td>15%</td><td>30%</td><td>15%</td>
+    </tr><tr>
+        <td>Armor</td><td>15%</td><td>15%</td><td>30%</td><td>30%</td><td>15%</td>
+    </tr><tr>
+        <td>Shield</td><td>15%</td><td>75%</td><td>15%</td><td>30%</td><td>5%</td>
+    </tr></table>
+    <div class="text">
+        The first grade of an accessory just enables that element, all others provide the following bonus:
+    </div>
+    <table><tr>
+        <th class="fire">Fire</th><th class="shock">Shock</th>
+        <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
+    </tr><tr>
+        <td class="scale">+0.13/g</td>
+        <td class="scale">+0.13/g</td>
+        <td class="scale">+0.115/g</td>
+        <td class="scale">+0.15/g</td>
+        <td class="scale">+0.1/g</td>
+    </tr></table>
+    <div class="text">
+        As there are no explosive DoTs, there is only one grade of explosive accessory, which has no bonus status effect chance.
+        <br>
+        <br>
+        <h3>Damage</h3>
+        There are eight possible damage parts, with grades from <span class="grade">0</span> to <span class="grade">+7</span>.
+        These parts add <span class="scale">+0.03/g</span> bonus damage.
+        <br>
+        The seraph grenades all use their own damage parts.
+        These parts have the exact same stats as standard ones of the same grade, they just don't overwrite the rarity.
+        <br>
+        The base damage, before anything is added or multipled is based entirely on the grenade's level.
+        Unfortuantly the exact formula changes slightly depending on game, but it can be worked out as follows:
+        <table><tr>
+            <th>BL2</th><th>TPS</th>
+        </tr><tr>
+            <td><code>100*(1.13^level)</code></td>
+            <td><code>100*(1.10^level)</code></td>
+        </tr></table>
+        <h3>Payload</h3>
+        The payload controls what exactly happens when the grenade explodes.
+        It also provides some stat boosts.
+        <br>
+        There are six standard payloads:
+        <br>
+        Area Effect, Bouncing Betty, MIRV, Singularity, Standard, and Transfusion
+        <br>
+        In the Pre Sequel there is an additional version of each of these payloads that can shatter air masks, but otherwise share all the same stats as their base versions.
+        There are also several unique payloads in both games.
+        <br>
+        Payloads are also what's used to enable child grenades, even with several bonuses no child grenades will spawn if the payload is incorrect.
+        All payloads with a child grenade count value enable them, even if that value is 0.
+        <br>
+        A full list of payloads and their stats is available <a href="/bl2/grenades/payloads/">here</a>
+        <br>
+        <br>
+        <h3>Status Effect Damage</h3>
+        There are six possible status effect damage parts.
+        These parts affect all elements but <span class="slag">slag</span> and <span class="explosive">explosive</span>.
+        <br>
+        The base status effect damage is always 20% of the grenade's base damage (see the damage section).
+        <br>
+        Each grade adds a set percentage of the base status effect damage, based on element:
+        <table><tr>
+            <th class="fire">Fire</th><th class="shock">Shock</th>
+            <th class="corrosive">Corrosive</th><th class="cryo">Cryo</th>
+        </tr><tr>
+            <td class="preAdd">+5%/g</td>
+            <td class="preAdd">+7%/g</td>
+            <td class="preAdd">+6%/g</td>
+            <td class="preAdd">+5%/g</td>
+        </tr></table>
+        <h3>Grenade Definition</h3>
+        Also known as "Type" in gibbed.
+        <br>
+        The grenade definition can be thought of as a prototype for each grenade.
+        It not only defines the parts each grenade can use, but also the base stats, and how different grades affect them.
+        <br>
+        So far everything on this page has come from the "Standard" definiton, which all non-unique grenades use.
+        Generally a lot of the stats are the same across definitions, so these numbers are usually correct, but some are overwritten in unique definition.
+        <br>
+        A full list of definitions and their stats is available <a href="/bl2/grenades/definitions/">here</a>
+    </div>
+</body>

@@ -1,0 +1,66 @@
+/* A collection of colours taken from various object dumps*/
+.common {
+    color: #ffffff;
+}
+.uncommon {
+    color: #3dd201;
+}
+.rare {
+    color: #3c8eff;
+}
+.veryRare {
+    color: #a83fe5;
+}
+.etech {
+    color: #ca00e8
+}
+.legendary {
+    color: #ffb400
+}
+.pearl, .missionItem {
+    color: #00ffff;
+}
+.seraph, .glitch {
+    color: #ff9ab8;
+}
+
+.explosive {
+    color: #f1d300;
+}
+.fire {
+    color: #f57500;
+}
+.shock {
+    color: #00bdf3;
+}
+.corrosive {
+    color: #79dc3d;
+}
+.slag {
+    color: #9b00de;
+}
+.cryo {
+    color: #00d2ff
+}
+
+.atmos {
+    color: #6c96e8;
+}
+.eridium {
+    color: #9132c8;
+}
+.health {
+    color: #e96464;
+}
+.money {
+    color: #ffff0d;
+}
+.moonstones {
+    color: #49f3bf;
+}
+.projectileCount {
+    color: #ffcc00;
+}
+.vacuum {
+    color: #ac8359;
+}

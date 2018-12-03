@@ -18,7 +18,6 @@ table {
     margin: 0.5em auto;
 }
 th {
-    min-width: 7em;
     font-size: 1.05em;
 }
 
@@ -35,19 +34,18 @@ br {
     margin-bottom: 0.4em;
 }
 
-.good, .bad, .neutral {
-    font-size: 1.5em;
+a {
+    color: palevioletred;
+    text-decoration: none;
 }
-.good {
-    color: lime;
+a:hover {
+    text-decoration: underline;
 }
-.bad {
-    color: red;
+a:active {
+    color: #e7e8e9;
 }
-
-.text {
-    max-width: 50em;
-    margin: 0 auto;
+a:visited {
+    color: darkred;
 }
 
 img.small {
@@ -73,12 +71,39 @@ img.right {
     float: right;
 }
 
-#uncommon {
-    color: #3dd201;
+sup, sub, .smallText {
+    font-size: 0.75em;
 }
-#rare {
-    color: #3c8eff;
+
+.text {
+    max-width: 50em;
+    margin: 0 auto;
 }
-#veryRare {
-    color: #a83fe5;
+.bigText {
+    font-size: 1.5em;
+}
+
+.good {
+    color: lime;
+}
+.bad {
+    color: red;
+}
+
+.preAdd {
+    color: #ff0000;
+}
+.scale {
+    color: #ffff00;
+}
+.postAdd {
+    color: #00ffff;
+}
+.grade {
+    color: #ff00ff;
+}
+
+
+#shieldParts th {
+    min-width: 7em;
 }
