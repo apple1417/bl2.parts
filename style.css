@@ -103,25 +103,13 @@ sup, sub, .smallText {
     color: #ff00ff;
 }
 
-
-#shieldParts th {
-    min-width: 7em;
+#choose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 96vh;
 }
-
-#chooseShield, #chooseGrenade {
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-#chooseShield img, #chooseGrenade img {
-    max-width: 100%;
-}
-#chooseShield {
-    left: 35%;
-    max-width: 75vw;
-}
-#chooseGrenade {
-    left: 80%;
-    max-width: 25vw;
+#choose a, #choose a:hover, #choose a:active, #choose a:visited {
+    color: #e7e8e9;
+    text-decoration: none;
 }
