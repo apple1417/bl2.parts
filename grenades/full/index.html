@@ -13,8 +13,8 @@
         <br>
         There are two important concepts that are going to be used here a lot:
         <br>
-        Firstly, the formula for all stat boosts is as follows:
         <br>
+        Firstly, the formula for all stat boosts except status effect chance is as follows:
         <br>
         <code>
             FINAL = (BASE + <span class="preAdd">PreAdd</span>)*SCALEVALUE + <span class="postAdd">PostAdd</span>
@@ -27,6 +27,8 @@
         </code>
         <br>
         All scale bonuses from a single part are added together, scale bonuses from seperate parts are applied seperately.
+        <br>
+        Status effect chance boosts directly multiply their base chance.
         <br>
         <br>
         The other concept is grades ("g" for short).
@@ -72,6 +74,23 @@
         It provides no stat boosts, and is actually non-elemental, depite being displayed as explosive on the card.
         <br>
         The base status effect chance depends on what element is being used on what type of enemy.
+        <br>
+        The first grade of an accessory just enables that element, all others provide the following bonus:
+    </div>
+    <table><tr>
+        <th class="fire">Fire</th><th class="shock">Shock</th>
+        <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
+    </tr><tr>
+        <td>+13%/g</td>
+        <td>+13%/g</td>
+        <td>+11.5%/g</td>
+        <td>+15%/g</td>
+        <td>+10%/g</td>
+    </tr></table>
+    <div class="text">
+        As there are no explosive DoTs, there is only one grade of explosive accessory, which has no bonus status effect chance.
+        <br>
+        This bonus directly multiplies the base status effect chance, which depends on the element and enemy type.
     </div>
     <table><tr>
         <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
@@ -86,22 +105,6 @@
         <td>Shield</td><td>15%</td><td>75%</td><td>15%</td><td>30%</td><td>5%</td>
     </tr></table>
     <div class="text">
-        The first grade of an accessory just enables that element, all others provide the following bonus:
-    </div>
-    <table><tr>
-        <th class="fire">Fire</th><th class="shock">Shock</th>
-        <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
-    </tr><tr>
-        <td class="scale">+0.13/g</td>
-        <td class="scale">+0.13/g</td>
-        <td class="scale">+0.115/g</td>
-        <td class="scale">+0.15/g</td>
-        <td class="scale">+0.1/g</td>
-    </tr></table>
-    <div class="text">
-        As there are no explosive DoTs, there is only one grade of explosive accessory, which has no bonus status effect chance.
-        <br>
-        <br>
         <h3>Damage</h3>
         There are eight possible damage parts, with grades from <span class="grade">0</span> to <span class="grade">+7</span>.
         These parts add <span class="scale">+0.03/g</span> bonus damage.
