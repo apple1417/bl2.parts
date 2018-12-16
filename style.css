@@ -102,14 +102,3 @@ sup, sub, .smallText {
 .grade {
     color: #ff00ff;
 }
-
-#choose {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 96vh;
-}
-#choose a, #choose a:hover, #choose a:active, #choose a:visited {
-    color: #e7e8e9;
-    text-decoration: none;
-}
