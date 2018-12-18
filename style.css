@@ -21,7 +21,7 @@ th {
     font-size: 1.05em;
 }
 
-h1, h3 {
+h1, h2, h3, h4, h5, h6 {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
 }
@@ -71,8 +71,20 @@ img.right {
     float: right;
 }
 
-sup, sub, .smallText {
+sup {
+    color: #999999;
+}
+
+.footnotes {
     font-size: 0.75em;
+}
+.footnotes sup {
+    display: inline-block;
+    position: relative;
+    left: -2em;
+    margin-right: -1.25em;
+    width: 1em;
+    text-align: right;
 }
 
 .text {

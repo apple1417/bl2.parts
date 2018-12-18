@@ -75,14 +75,15 @@ redirect_from:
     <br>
     <div class="text">
         <h1>More info</h1>
-        Note that the numbers in the table above only appy to the parts, the accessories have different stats.
+        Note that the numbers in the table above only apply to the parts, the accessories have different stats.
         Also note that all numbers on this page are relative as exact amounts change with level and shield type.
         <br>
         "Special" is the shield's special effect, which changes based on shield type.
         It is actually made of multiple different values, but they are almost always the same, so they are shown as one.
         <br>
         <br>
-        Shields are made out of 4 parts:
+        <br>
+        Shields are made out of 4 main parts:
         <br>
     </div>
     <table><tr>
@@ -96,26 +97,39 @@ redirect_from:
     <div class="text">
         Internally the Accessory and Body were swapped at some point, leading to the misleading names.
         <br>
+        There are also two additional 'parts' that affect stats: the Material and the Definition.
+        <br>
         <br>
         <h3>Accessory</h3>
-        The accessory decides what type of shield it is.
-        Its model is entirely based on manufacturer however, Spike and Nova accessories of the same manufacturer use the same model.
+        The accessory is based on what type of shield it is.
+        Its model is entirely based on manufacturer, however, Spike and Nova accessories of the same manufacturer use the same model.
         <br>
-        Unique shields each have their own accessory.
-        These accessories generally change stats from the base version, but sometimes they'll also change the model to that of a different manufacturer.
+        Some unique shields have their own accessory, which may not neccesarily use the model for their manufacturer.
         <br>
-        The Hide of Terramorphous is the only shield with more than one possible accessory.
-        It affects the Hide's extra special stats, Nova Radius and Spike Damage, which aren't affected by any other special boosts.
-        The different accessories have bonuses of -5, -3, 0, +3, and +5.
+        <br>
+        Most accessories provide no stat bonuses. There are a few exceptions however:
+        <br>
+        The Hide of Terramorphous has five accessories providing -5, -3, 0, +3, or +5 Nova Radius and Spike Damage.
+        No other special bonuses affect these stats.
+        The Hide is the only shield with more than one possible accessory.
+        <br>
+        The Order provides +5 Special.
+        Unlike most other special bonuses it does not improve "Special02", but as Roid Shields only have one special stat this has no effect.
+        <br>
+        The Manly Man Shield increases the elemental damage taken by the wearer by 65%.
+        Note that this does not include <span class="slag">slag</span> impact damage.
+        <br>
+        The Naught provides -20 Recharge Rate.
         <br>
         <br>
         <h3>Battery, Body, and Capacitor</h3>
-        The other parts of a shield only affect its stats, as can be seen in the table at the top of the page.
+        The Battery, Body, and Capacitor are completly unaffected by shield type, when farming a particular shield these will be the only parts that vary.
         <br>
+        The table at the top of the page shows how these parts affect stats.
         All parts of the same brand have the same effect.
         This means a shield with a Dahl battery and Pangolin body has the same stats as if it had a Pangolin battery and Dahl body.
         <br>
-        Maliwan capacitors always provide fire, shock, or corrosive resistance.
+        Maliwan capacitors always provide either fire, shock, or corrosive resistance.
         Torgue capacitors always provide explosive resistance.
         As neither of these capacitors have a model, this is the best way to tell them apart.
         <br>
@@ -136,15 +150,12 @@ redirect_from:
         <br>
         <br>
         <h3>Material</h3>
-        The material of a shield is based on its rarity.
+        The material of a shield is based on its rarity and manufacturer.
         <br>
-        Unique shields have their own materials.
-        Like accessories these will generally change stats, and sometimes they'll be based on a different material than the shield's rarity.
-        <br>
-        The material for non-unique shields affects stats as follows:
+        The manufacturer just affects the skin, while the rarity also affects stats as follows:
     </div>
     <table><tr>
-        <th>Material</th><th>Capacity</th><th>Special</th>
+        <th>Rarity</th><th>Capacity</th><th>Special</th>
     </tr><tr>
         <td class="uncommon">Uncommon</td><td>+4</td><td>+6</td>
     </tr><tr>
@@ -152,4 +163,82 @@ redirect_from:
     </tr><tr>
         <td class="veryRare">Very Rare</td><td>+12</td><td>+18</td>
     </tr></table>
+    <div class="text">
+        Some unique shields use the generic material for their shield type, but most have their own unique material.
+        For a full list of these unique materials and their stats click <a href="materials">here</a>.
+        <br>
+        <br>
+        <h3>Definition</h3>
+        Also known as "Type" in gibbed.
+        <br>
+        A few definitions increase shield stats.
+    </div>
+    <table><tr>
+        <th>Definition</th>
+        <th>Capacity</th>
+        <th>Recharge Rate</th>
+        <th>Recharge Delay</th>
+        <th>Special</th>
+    </tr><tr>
+        <td>Turtle</td>
+        <td class="good">+25</td>
+        <td>-</td><td>-</td><td>-</td>
+    </tr><tr>
+        <td>The Bee</td>
+        <td class="bad">-50</td>
+        <td class="good">+75</td>
+        <td class="bad">+26</td>
+        <td>-</td>
+    </tr><tr>
+        <td>The Cradle</td>
+        <td class="bad">-50</td>
+        <td class="good">150</td>
+        <td class="bad">+12</td>
+        <td>-</td>
+    </tr><tr>
+        <td>Fabled Tortoise</td>
+        <td class="good">+25</td>
+        <td>-</td><td>-</td><td>-</td>
+    </tr><tr>
+        <td>Hoplite</td>
+        <td class="good">+25</td>
+        <td>-</td><td>-</td><td>-</td>
+    </tr><tr>
+        <td>Antagonist</td>
+        <td class="good">+35</td>
+        <td class="good">+8</td>
+        <td class="good">-12</td>
+        <td>-</td>
+    </tr><tr>
+        <td>Blockade</td>
+        <td class="good">+20</td>
+        <td class="good">+20</td>
+        <td>-</td><td>-</td>
+    </tr><tr>
+        <td>Prismatic Bulwark</td>
+        <td>-</td><td>-</td><td>-</td>
+        <td><span class="good">+1</span><sup>1</sup></td>
+    </tr><tr>
+        <td>Rerouter</td>
+        <td class="bad">-10</td>
+        <td class="good">+75</td>
+        <td class="bad">+26</td>
+        <td>-</td>
+    </tr><tr>
+        <td>Shield of Ages</td>
+        <td class="good">+65</td>
+        <td class="good">+35</td>
+        <td>-</td>
+        <td><span class="good">-10</span><sup>2</sup></td>
+    </tr></table>
+    <div class="text">
+        <div class="footnotes">
+            <sup>1</sup> This only affects the Bulwark's extra special stats, Laser Damage and Laser Damage Resistace
+            <br>
+            <sup>2</sup> Unlike most other special bonuses this does not improve "Special02", but as turtle shields only have one special stat this has no effect
+        </div>
+        <br>
+        Definitions also define the shield's base stats, and how exactly different bonuses affect them.
+        For a guide on how you can calculate the shield stats using this information, click <a href="calculations">here</a>.
+    </div>
 </body>

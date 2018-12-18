@@ -15,21 +15,21 @@
         There are two important concepts that are going to be used here a lot:
         <br>
         <br>
-        Firstly, the formula for all stat boosts except status effect chance is as follows:
+        Firstly, the formula for all stat bonuses except status effect chance is as follows:
         <br>
         <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>)*SCALEVALUE + <span class="postAdd">PostAdd</span>
+            FINAL = (BASE + <span class="preAdd">PreAdd</span>)&times;SCALEVALUE + <span class="postAdd">PostAdd</span>
             <br>
             If <span class="scale">Scale</span> is positive:
             SCALEVALUE = 1 + <span class="scale">Scale</span>
             <br>
             If <span class="scale">Scale</span> is negative:
-            SCALEVALUE = 1/(1 + <span class="scale">Scale</span>)
+            SCALEVALUE = 1 &divide; (1 + <span class="scale">Scale</span>)
         </code>
         <br>
         All scale bonuses from a single part are added together, scale bonuses from seperate parts are applied seperately.
         <br>
-        Status effect chance boosts directly multiply their base chance.
+        Status effect chance bonuses directly multiply their base chance.
         <br>
         <br>
         The other concept is grades ("g" for short).
@@ -37,12 +37,15 @@
         A stat bonus will be defined by its base value and a per-grade bonus.
         <br>
         <code>
-            BASE + PERGRADE*<span class="grade">Grades</span>
+            BASE + PERGRADE&times;<span class="grade">Grades</span>
         </code>
+        <br>
+        All grades from all parts are added up before being applied.
+        This matters for scale bonuses, where only a single bonus will be applied.
         <br>
         <br>
         <h3>Material</h3>
-        As mentioned in the basic guide, the only materials with stat boosts are the Torgue ones, which provide <span class="grade">+2</span> child count grades.
+        As mentioned in the basic guide, the only materials with stat bonuses are the Torgue ones, which provide <span class="grade">+2</span> child count grades.
         <br>
         <br>
         <h3>Blast Radius</h3>
@@ -72,7 +75,7 @@
         Each element has five accessories at different grades, and there's also an additional accessory for explosive.
         <br>
         The Pre Sequel has the only unique accessory, for the Monster Trap.
-        It provides no stat boosts, and is actually non-elemental, depite being displayed as explosive on the card.
+        It provides no stat bonuses, and is actually non-elemental, depite being displayed as explosive on the card.
         <br>
         The base status effect chance depends on what element is being used on what type of enemy.
         <br>
@@ -118,12 +121,12 @@
         <table><tr>
             <th>BL2</th><th>TPS</th>
         </tr><tr>
-            <td><code>100*(1.13^level)</code></td>
-            <td><code>100*(1.10^level)</code></td>
+            <td><code>100&times;(1.13^level)</code></td>
+            <td><code>100&times;(1.10^level)</code></td>
         </tr></table>
         <h3>Payload</h3>
         The payload controls what exactly happens when the grenade explodes.
-        It also provides some stat boosts.
+        It also provides some stat bonuses.
         <br>
         There are six standard payloads:
         <br>

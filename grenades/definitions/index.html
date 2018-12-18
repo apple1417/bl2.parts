@@ -319,25 +319,27 @@
         <td class="preAdd">+5%/g</td>
     </tr></table>
     <div class="text">
-        <div class="smallText">
+        <div class="footnotes">
             <sup>1</sup> Used for the Fire Bee, Pandemic, and Storm Front.
             <br>
             <sup>2</sup> Used for the Dragon Keep grenade mods, the Fireball, Fire Storm, Lightning Bolt, Chain Lightning, x2 Magic Missile, and x4 Magic Missile
         </div>
         <br>
-        The formula for all stat boosts except status effect chance is as follows:
+        The formula for all stat bonuses except status effect chance is as follows:
         <br>
         <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>)*SCALEVALUE + <span class="postAdd">PostAdd</span>
+            FINAL = (BASE + <span class="preAdd">PreAdd</span>)&times;SCALEVALUE + <span class="postAdd">PostAdd</span>
             <br>
             If <span class="scale">Scale</span> is positive:
             SCALEVALUE = 1 + <span class="scale">Scale</span>
             <br>
             If <span class="scale">Scale</span> is negative:
-            SCALEVALUE = 1/(1 + <span class="scale">Scale</span>)
+            SCALEVALUE = 1 &divide; (1 + <span class="scale">Scale</span>)
         </code>
         <br>
         All scale bonuses from a single part are added together, scale bonuses from seperate parts are applied seperately.
+        <br>
+        All grades from all parts are added up before being applied as a single bonus.
         <br>
         <br>
         The base grenade damage is found using one of the following formulas:
@@ -345,8 +347,8 @@
     <table><tr>
         <th>BL2</th><th>TPS</th>
     </tr><tr>
-        <td><code>100*(1.13^level)</code></td>
-        <td><code>100*(1.10^level)</code></td>
+        <td><code>100&times;(1.13^level)</code></td>
+        <td><code>100&times;(1.10^level)</code></td>
     </tr></table>
     <div class="text">
         Status effect chance bonuses directly multiply the base status effect chance, which depends on the element and enemy type.
