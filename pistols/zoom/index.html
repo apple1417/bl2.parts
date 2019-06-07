@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>BL2/TPS Pistol Sight Zoom Comparsion</title>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
+    <style>
+        #container {
+            height: 90vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: safe center;
+            align-items: safe center;
+            margin-right: -1px;
+            margin: 0 auto;
+        }
+
+        #sidebar {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: safe center;
+            align-items: safe center;
+            overflow-y: auto;
+            margin-bottom: -1px;
+            margin-right: 1px;
+            padding: 0.5em;
+        }
+        #sidebar div, #sidebar img {
+            border: 1px solid black;
+            background: rgba(0, 8, 8, 0.5);
+            margin: 1px;
+            margin-bottom: 2px;
+        }
+        #sidebar div {
+            font-size: 1.25em;
+            width: 4.2em;
+            height: 4.2em;
+            line-height: 4.2em;
+            text-align: center;
+        }
+        #sidebar div span {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+        }
+        #sidebar img {
+            min-width: 5.25em;
+            min-height: 5.25em;
+        }
+        #sidebar .selected {
+            background: rgba(0, 8, 8, 0.75);
+            border-width: 2px;
+            margin: 0;
+            margin-bottom: 1px;
+        }
+
+        #display {
+            width: 75%;
+            margin-right: 1px;
+        }
+        #display img {
+            width: 100%;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        var current = 0;
+        function switchView(index) {
+            sidebar = document.getElementById("sidebar").children
+            display = document.getElementById("display").children
+            sidebar[current].classList.remove("selected");
+            sidebar[index].classList.add("selected");
+            display[current].hidden = true;
+            display[index].hidden = false;
+            current = index;
+        }
+    </script>
+</head>
+<body>
+    <h1>BL2/TPS Pistol Sight Zoom Comparsion</h1>
+    <div id="container">
+        <div id="sidebar">
+            <div onmouseover="switchView(0)" onclick="switchView(0)" class="selected"><span>110 FOV</span></div>
+            <div onmouseover="switchView(1)" onclick="switchView(1)"><span>No Sight</span></div>
+            <img onmouseover="switchView(2)" onclick="switchView(2)" class="small" src="/bl2/pistols/images/sights/bandit.png">
+            <img onmouseover="switchView(3)" onclick="switchView(3)" class="small" src="/bl2/pistols/images/sights/dahl.png">
+            <img onmouseover="switchView(4)" onclick="switchView(4)" class="small" src="/bl2/pistols/images/sights/hyperion.png">
+            <img onmouseover="switchView(5)" onclick="switchView(5)" class="small" src="/bl2/pistols/images/sights/jakobs.png">
+            <img onmouseover="switchView(6)" onclick="switchView(6)" class="small" src="/bl2/pistols/images/sights/maliwan.png">
+            <img onmouseover="switchView(7)" onclick="switchView(7)" class="small" src="/bl2/pistols/images/sights/tediore.png">
+            <img onmouseover="switchView(8)" onclick="switchView(8)" class="small" src="/bl2/pistols/images/sights/torgue.png">
+            <img onmouseover="switchView(9)" onclick="switchView(9)" class="small" src="/bl2/pistols/images/sights/vladof.png">
+        </div>
+        <div id="display">
+            <img src="/bl2/pistols/images/sights/zoom/base.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/none.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/bandit.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/dahl.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/hyperion.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/jakobs.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/maliwan.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/tediore.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/torgue.png">
+            <img hidden src="/bl2/pistols/images/sights/zoom/vladof.png">
+        </div>
+    </div>
+</body>

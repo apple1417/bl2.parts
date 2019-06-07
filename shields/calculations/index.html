@@ -18,20 +18,15 @@
         There are two important concepts that are going to be used here a lot:
         <br>
         <br>
-        The first thing is the different ways stat bonuses can be applied.
-        The formula for all stat bonuses is as follows:
+        Firstly, the general formula for all stat bonuses is as follows:
         <br>
         <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>)&times;SCALEVALUE + <span class="postAdd">PostAdd</span>
-            <br>
-            If <span class="scale">Scale</span> is positive:
-            SCALEVALUE = 1 + <span class="scale">Scale</span>
-            <br>
-            If <span class="scale">Scale</span> is negative:
-            SCALEVALUE = 1 &divide; (1 + <span class="scale">Scale</span>)
+            FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
+            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
+            + <span class="postAdd">PostAdd</span>
         </code>
         <br>
-        Positive and negative scale bonuses are applied seperately, ones of the same type are added together before being applied.
+        All bonuses in a specific category are added together before being applied.
         <br>
         <br>
         The other concept is grades ("g" for short).
@@ -45,7 +40,7 @@
         </code>
         <br>
         All grades from all parts are added up before being applied.
-        This matters for scale bonuses, where only a single bonus will be applied.
+        This matters for scale bonuses, where a positive base and negative per-grade value will eventually change the scale to a negative one, or vice versa.
         <br>
         <br>
         <h3>Capacity</h3>
