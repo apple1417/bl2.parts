@@ -131,7 +131,7 @@ redirect_from:
             <br><span class="good">+3 Burst Impluse</span>
         </td><td>
             <span class="good">&times;2 Weapon Damage</span>
-            <br><span class="bad"><i>&divide</i>1.5 Fire Rate</span>
+            <br><span class="bad"><i>&times</i>1.5 Fire Interval</span>
             <br><span class="good">&times;1.2 Status Effect Chance</span>
             <br><span class="bad">+1 Shot Cost</span>
         </td><td>
@@ -349,7 +349,7 @@ redirect_from:
         In TPS Hyperion actually has two materials per rarity, the standard one and an "Old Hyperion" one.
         Unique weapons also tend to have their own, forced, materials.
         <br>
-        Most materials provide no stat bonuses. There are two exceptions to this: Gemstone, and Old Hyperion materials. All variants of each of these have the same bonuses.
+        Most materials provide no stat bonuses. There are two exceptions to this: Gemstone and Old Hyperion materials. All variants of each of these have the same bonuses.
     </div>
     <table><tr>
         <th>Gemstone</th><th>Old Hyperion</th>
@@ -361,18 +361,18 @@ redirect_from:
             <br><span class="bad">-30% Bullet Relection Damage</span>
         </td><td>
             <span class="good">&times;1.5 Weapon Damage</span>
-            <br><span class="bad"><i>&divide</i>1.5 Fire Rate</span>
-            <br><span class="bad"><i>&divide</i>1.5 Reload Speed</span>
-            <br><span class="bad"><i>&divide</i>1.5 Weapon Spread</span>
-            <br><span class="bad"><i>&divide</i>3 Min Accuracy</span>
-            <br><span class="good">&times;1.3 Max Accuracy</span>
+            <br><span class="bad">&times;1.5 Fire Interval</span>
+            <br><span class="bad">&times;1.15 Reload Time</span>
+            <br><span class="bad">&times;1.5 Weapon Spread</span>
+            <br><span class="bad">&times;3 Min Accuracy</span>
+            <br><span class="good">&divide;1.3 Max Accuracy</span>
         </td>
     </tr></table>
     <div class="text">
         <br>
         <h3>Weapon Type Definition</h3>
         Like the name might suggest, the definition basically defines each weapon.
-        It defines how large exactly each bonus actually is, all the formulas for each stat, and what parts each weapon can accept,
+        It defines how large exactly each bonus actually is, all the formulas for each stat,
         as well as several other properties relating to how exactly the weapon behaves.
         <br>
         These get rather complicated and generally you only care about them when trying to calculate exact stats,
@@ -381,6 +381,11 @@ redirect_from:
         The only thing worth pointing out here is that Hyperion has inverted impulse accuracy.
         Any standard bonuses that use the concept of grades already account for this thanks to the definitions.
         Anything that doesn't, which has been specifically pointed out, will end up inverting the bonus - if it's good on other weapons it will be bad on Hyperion ones.
+        <br>
+        <br>
+        <h3>Weapon Balance</h3>
+        The Weapon Balance defines what parts a certain weapon can have.
+        Balances themselves do not affect stats, but are they very important for the actual generation of weapons.
         <br>
         <br>
         <h3>Manufacturer Bonuses</h3>
@@ -394,52 +399,52 @@ redirect_from:
             <th>Bandit</th>
             <td class="smallText">
                 <span class="good">&times;1.05 Weapon Damage</span>
-                <br><span class="good">&times;1.7 Impulse Accuracy</span>
+                <br><span class="good"><i>&divide;</i>1.7 Impulse Accuracy</span>
             </td><td class="smallText">
                 <span class="good">+4 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
             </td>
         </tr><tr>
         </tr><tr>
             <th>Dahl</th>
             <td class="smallText">
                 <span class="good">&times;1.1 Weapon Damage</span>
-                <br><span class="good">+30% Weapon Spread</span>
+                <br><span class="good">-30% Weapon Spread</span>
                 <br><span class="good">+2 Burst Count</span>
             </td><td class="smallText">
                 <span class="good">+3 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
             </td>
         </tr><tr>
             <th>Hyperion</th>
             <td class="smallText">
                 <span class="good">&times;1.1 Weapon Damage</span>
-                <br><span class="good">+15% Weapon Spread</span>
+                <br><span class="good">-15% Weapon Spread</span>
                 <br><span class="bad">-20% Impulse Accuracy</span><sup>1</sup>
             </td><td class="smallText">
                 <span class="good">+3 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
             </td>
         </tr><tr>
             <th>Jakobs</th>
             <td class="smallText">
                 <span class="good">&times;1.15 Weapon Damage</span>
-                <br><span class="good">+15% Weapon Spread</span>
+                <br><span class="good">-15% Weapon Spread</span>
                 <br><span class="good">-20% Impulse Accuracy</span>
             </td><td class="smallText">
                 <span class="good">+1 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
                 <br><span class="good">-20% Impulse Accuracy</span>
             </td>
         </tr><tr>
             <th>Maliwan</th>
             <td class="smallText">
                 <span class="good">&times;1.1 Weapon Damage</span>
-                <br><span class="good">+30% Weapon Spread</span>
+                <br><span class="good">-30% Weapon Spread</span>
                 <br><span class="good">+10% Status Effect Chance</span>
             </td><td class="smallText">
                 <span class="good">+3 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
             </td>
         </tr><tr>
             <th>Tediore</th>
@@ -452,11 +457,11 @@ redirect_from:
             <th>Torgue</th>
             <td class="smallText">
                 <span class="good">&times;1.2 Weapon Damage</span>
-                <br><span class="good">-0.05 Fire Interval</span><sup>2</sup>
+                <br><span class="good">-0.05 Fire Interval</span>
                 <br><span class="good">+3 Mag Size</span>
             </td><td class="smallText">
                 <span class="good">+3 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
             </td>
         </tr><tr>
             <th>Vladof</th>
@@ -466,14 +471,12 @@ redirect_from:
                 <br><span class="bad">-0.25 Barrel Spin-up Time</span>
             </td><td class="smallText">
                 <span class="good">+4 Mag Size</span>
-                <br><span class="good">&times;1.3 Reload Speed</span>
+                <br><span class="good">&divide;1.3 Reload Time</span>
             </td>
         </tr></table>
     <div class="text">
         <div class="footnotes">
             <sup>1</sup> This is an impulse accuracy bonus on Hyperion, so it ends up being inverted, meaning it's actually bad
-            <br>
-            <sup>2</sup> This reduces the amount of time between shots, increasing fire rate, though the exact amount depends on the existing fire rate
         </div>
         <br>
         Additionally, a few parts setup bonuses when on different manufacturers.
@@ -490,11 +493,11 @@ redirect_from:
         </td><td>
             <span class="good">+2.5 Barrel Spin-up Time</span>
         </td><td>
-            <span class="bad">-300% Weapon Spread</span>
+            <span class="bad">+300% Weapon Spread</span>
             <br><span class="bad">+1 Shot Cost</span>
             <br><span class="good">+1 Projectile Count</span>
         </td><td>
-            <span class="good">&times;1.15 Reload Speed</span>
+            <span class="good">&divide;1.15 Reload Time</span>
         </td>
     </tr></table>
     <div class="text">
@@ -508,13 +511,13 @@ redirect_from:
             <td>Increases the damage your weapon deals.</td>
         </tr><tr>
             <th>Fire Rate</th>
-            <td>Increaces how often your weapon fires.</td>
+            <td>Inverse of Fire Interval. Increaces how often your weapon fires.</td>
         </tr><tr>
             <th>Mag Size</th>
             <td>Increases the size of your weapon's magazine. This is not necessarily a 1 to 1 increase.<td>
         </tr><tr>
             <th>Reload Speed</th>
-            <td>Decreases the amount of time it takes to reload your weapon..<td>
+            <td>Inverse or Reload Time. Decreases the amount of time it takes to reload your weapon.<td>
         </tr><tr>
             <th>Weapon Spread</th>
             <td>A general form of the next three attributes that scales all of them together. This is the accuracy stat on the card.</td>
