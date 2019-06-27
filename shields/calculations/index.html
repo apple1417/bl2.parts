@@ -22,21 +22,20 @@
         <br>
         <code>
             FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)<i>&divide</i>(1 - <span class="scale">Negative Scale</span>)
+            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
             + <span class="postAdd">PostAdd</span>
         </code>
         <br>
         All bonuses in a specific category are added together before being applied.
         <br>
         <br>
-        The other concept is grades ("g" for short).
+        The other concept is grades.
         Grades are simply an easy way to have multiple ranks of bonuses for different parts.
-        Almost every bonus shown on the other shield pages has been in grades.
-        <br>
-        A stat bonus will be defined by its base value and a per-grade bonus:
+        They are still categorised into one of the three bonus types mentioned above.
+        A grade bonus will be defined by both its base and per-grade value.
         <br>
         <code>
-            BASE + PERGRADE&times;<span class="grade">Grades</span>
+            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
         </code>
         <br>
         All grades from all parts are added up before being applied.
@@ -321,7 +320,7 @@
         <br>
         Damage Resistance/Reduction is applied as a negative scale to the damage taken.
         If you have 50% resistance then you take
-        <code>DAMAGE &times; (1 <i>&divide</i> (1 + 0.5))</code>.
+        <code>DAMAGE &times; (1 &divide; (1 + 0.5))</code>.
         <br>
         Max health is applied on top of 125% of the base capacity.
         <br>
@@ -331,7 +330,7 @@
         <code>LEVEL&times;0.45 + 12</code>.
         Its Laser Damage Resistance in unique in that the calculated value is the direct damage multipler, not the displayed percentage.
         To get the displayed resistance use
-        <code>100 &times; (1 - 1<i>&divide</i>(1 + BASE&times;0.011))</code>.
+        <code>100 &times; (1 - 1&divide;(1 + BASE&times;0.011))</code>.
         <br>
         All forms of shield damage are applied onto a base value found using one of the following formulas:
     </div>
@@ -372,7 +371,7 @@
         <br>
         It can be calculated using:
         <br>
-        <code>(Level <i>&divide</i> 2) + 7.5</code>.
+        <code>(LEVEL &divide; 2) + 7.5</code>.
         <br>
         See the point on damage resitance above for how exactly this is applied.
     </div>

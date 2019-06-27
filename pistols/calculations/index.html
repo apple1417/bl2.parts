@@ -19,27 +19,32 @@
         <br>
         <code>
             FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)<i>&divide</i>(1 - <span class="scale">Negative Scale</span>)
+            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
             + <span class="postAdd">PostAdd</span>
         </code>
         <br>
         All bonuses in a specific category are added together before being applied.
         <br>
         <br>
-        The other big concept is grades ("g" for short).
+        The other concept is grades.
         Grades are simply an easy way to have multiple ranks of bonuses for different parts.
-        A stat bonus will be defined by its base value and a per-grade bonus.
+        They are still categorised into one of the three bonus types mentioned above.
+        A grade bonus will be defined by both its base and per-grade value.
         <br>
         <code>
-            BASE + PERGRADE&times;<span class="grade">Grades</span>
+            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
         </code>
         <br>
         All grades from all parts are added up before being applied.
         This matters for scale bonuses, where a positive base and negative per-grade value will eventually change the scale to a negative one, or vice versa.
         <br>
-        Note that the previous page lied a bit, inverting some bonuses to make all of that type have the same direction.
-        A positive grade bonus may well decrease the raw value.
-        The colour of each bonus (if it's good or bad) is still accurate however.
+        <br>
+        Note that the previous page did adjust some of the bonuses a bit:
+        <br>
+        It converted all grade bonuses to their actual final values (assuming nothing else added grades), to make it easier to compare them against non-grade bonuses.
+        <br>
+        It also converted all Fire <i>Interval</i> bonuses into Fire <i>Rate</i> ones.
+        The game actually tracks the amount of time between shots, and then just inverts the value to get the fire rate on the card.
         <br>
         <br>
         <h3>Weapon Type Definition</h3>
@@ -64,7 +69,7 @@
         <td>12&times;&beta; <span class="scale">+0.03/g</span></td>
         <td>17.6&times;&beta; <span class="scale">+0.03/g</span></td>
     </tr><tr>
-        <th>Fire Rate<sup>1</sup></th>
+        <th>Fire Interval</th>
         <td>0.23 <span class="scale">-0.03/g</span></td>
         <td>0.08 <span class="scale">-0.03/g</span></td>
         <td>0.2 <span class="scale">-0.03/g</span></td>
@@ -76,7 +81,7 @@
         <td>15 <span class="scale">+0.07/g</span></td>
         <td>6 <span class="scale">+0.07/g</span></td>
     </tr><tr>
-        <th>Reload Speed</th>
+        <th>Reload Time</th>
         <td>3 <span class="scale">-0.05/g</span></td>
         <td>1.85 <span class="scale">-0.05/g</span></td>
         <td>1.95 <span class="scale">-0.05/g</span></td>
@@ -94,7 +99,7 @@
         <td>16&times;&beta; <span class="scale">+0.03/g</span></td>
         <td>11.6&times;&beta; <span class="scale">+0.03/g</span></td>
     </tr><tr>
-        <th>Fire Rate<sup>1</sup></th>
+        <th>Fire Interval<sup>1</sup></th>
         <td>0.4 <span class="scale">-0.03/g</span></td>
         <td>0.21 <span class="scale">-0.03/g</span></td>
         <td>0.5 <span class="scale">-0.03/g</span></td>
@@ -106,17 +111,13 @@
         <td>7 <span class="scale">+0.07/g</span></td>
         <td>20 <span class="scale">+0.07/g</span></td>
     </tr><tr>
-        <th>Reload Speed</th>
+        <th>Reload Time</th>
         <td>2.1 <span class="scale">-0.05/g</span></td>
         <td>1.3 <span class="scale">-0.05/g</span></td>
         <td>2.2 <span class="scale">-0.05/g</span></td>
         <td>2.2 <span class="scale">-0.05/g</span></td>
     </tr></table>
     <div class="text">
-        <div class="footnotes">
-            <sup>1</sup> This is actually Fire <i>Interval</i>, after calculating it the inverse value is shown on the card as Fire Rate
-        </div>
-        <br>
         Weapon damage bonuses are applied to the same base scaling value called &beta; above. This changes slightly between games.
     </div>
     <table><tr>
@@ -213,7 +214,7 @@
             <br><span class="scale">+0.2</span> Bullet Speed
         </td><td>
             <span class="grade">-5</span> Weapon Damage
-            <br><span class="grade">-10</span> Fire Rate
+            <br><span class="grade">-10</span> Fire Interval
             <br><span class="preAdd">+2</span>, <span class="grade">+4</span> Mag Size
             <br><span class="preAdd">+1</span>, <span class="grade">-5</span> Weapon Spread
             <br><span class="grade">-5</span> Min Accuracy
@@ -232,13 +233,13 @@
             <br><span class="grade">+6</span> Impulse Accuracy
         </td><td>
             <span class="grade">+8</span> Mag Size
-            <br><span class="grade">-3</span> Reload Speed
+            <br><span class="grade">-3</span> Reload Time
         </td><td>
             <span class="grade">+6</span> Weapon Damage
             <br><span class="grade">-6</span> Impulse Accuracy
         </td><td>
             <span class="grade">-1</span> Weapon Damage
-            <br><span class="grade">+6</span> Fire Rate
+            <br><span class="grade">+6</span> Fire Interval
         </td>
     </tr></table>
     <div class="text">
@@ -268,7 +269,7 @@
             <br><span class="grade">+3</span> Burst Impluse
         </td><td>
             <span class="scale">+1</span> Weapon Damage
-            <br><span class="scale">+0.5</span> Fire Rate
+            <br><span class="scale">+0.5</span> Fire Interval
             <br><span class="scale">+0.2</span> Status Effect Chance
             <br><span class="preAdd">+1</span> Shot Cost
         </td><td>
@@ -279,7 +280,7 @@
             <br><span class="preAdd">+0.15</span> Crit Damage
         </td><td>
             <span class="grade">+6</span> Weapon Damage
-            <br><span class="grade">-12</span> Fire Rate
+            <br><span class="grade">-12</span> Fire Interval
             <br><span class="grade">+8</span> Weapon Spread
             <br><span class="grade">+5</span> Min Accuracy
             <br><span class="grade">-10</span> Impulse Accuracy
@@ -295,12 +296,12 @@
             -
         </td><td>
             <span class="grade">+8</span> Weapon Damage
-            <br><span class="grade">-3</span> Fire Rate
-            <br><span class="grade">-5</span> Reload Speed
+            <br><span class="grade">-3</span> Fire Interval
+            <br><span class="grade">-5</span> Reload Time
             <br><span class="grade">-8</span> Min Accuracy
             <br><span class="grade">-5</span> Impulse Accuracy
         </td><td>
-            <span class="grade">+10</span> Fire Rate
+            <span class="grade">+10</span> Fire Interval
             <br><span class="grade">+4</span> Mag Size
             <br><span class="grade">-4</span> Weapon Spread
             <br><span class="grade">+5</span> Impulse Accuracy
@@ -357,9 +358,9 @@
             <br><span class="grade">+7</span> Weapon Spread
         </td><td>
             <span class="grade">+15</span> Weapon Damage
-            <br><span class="grade">-10</span> Fire Rate
+            <br><span class="grade">-10</span> Fire Interval
             <br><span class="grade">+20</span> Weapon Spread
-            <br><span class="grade">+6</span> Weapon Zoom
+            <br><span class="grade">+6</span> Zoom FOV
             <br><span class="scale">-0.5</span> Status Effect Chance
             <br><span class="scale">+1</span> Status Effect Damage
         </td><td>
@@ -376,7 +377,7 @@
     </tr><tr class="smallText">
         <td>
             <span class="grade">+5</span> Mag Size
-            <br><span class="grade">-2</span> Reload Speed
+            <br><span class="grade">-2</span> Reload Time
             <br><span class="grade">-3</span> Weapon Spread
         </td><td>
             <span class="grade">-2</span> Weapon Damage
@@ -389,8 +390,8 @@
             <br><span class="grade">+2</span> Accuracy Regen
         </td><td>
             <span class="grade">+4</span> Weapon Damage
-            <br><span class="grade">-3</span> Fire Rate
-            <br><span class="grade">-1</span> Reload Speed
+            <br><span class="grade">-3</span> Fire Interval
+            <br><span class="grade">-1</span> Reload Time
             <br><span class="grade">-2</span> Impulse Accuracy
         </td>
     </tr><tr>
@@ -402,15 +403,15 @@
         </td><td>
             <span class="grade">-2</span> Weapon Damage
             <br><span class="grade">-2</span> Mag Size
-            <br><span class="grade">+4</span> Reload Speed
+            <br><span class="grade">+4</span> Reload Time
         </td><td>
             <span class="grade">+3</span> Weapon Damage
-            <br><span class="grade">-2</span> Reload Speed
+            <br><span class="grade">-2</span> Reload Time
             <br><span class="grade">-2</span> Weapon Spread
             <br><span class="grade">-3</span> Impulse Accuracy
         </td><td>
             <span class="grade">-2</span> Weapon Damage
-            <br><span class="grade">+4</span> Fire Rate
+            <br><span class="grade">+4</span> Fire Interval
             <br><span class="grade">-2</span> Accuracy Regen
         </td>
     </tr></table>
@@ -426,18 +427,18 @@
         <td>
             <span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+3</span> Weapon Zoom
+            <span class="grade">+3</span> Zoom FOV
             <br><span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+7</span> Weapon Zoom
+            <span class="grade">+7</span> Zoom FOV
             <br><span class="scale">-0.3</span> Weapon Spread
             <br><span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+18</span> Weapon Zoom
+            <span class="grade">+18</span> Zoom FOV
             <br><span class="scale">-0.4</span> Weapon Spread
             <br><span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+14</span> Weapon Zoom
+            <span class="grade">+14</span> Zoom FOV
             <br><span class="scale">-0.5</span> Weapon Spread
             <br><span class="scale">-2</span> Movement Speed
         </td>
@@ -445,18 +446,18 @@
         <th>Maliwan</th><th>Tediore</th><th>Torgue</th><th>Vladof</th>
     </tr><tr class="smallText">
         <td>
-            <span class="grade">+11</span> Weapon Zoom
+            <span class="grade">+11</span> Zoom FOV
             <br><span class="scale">-0.2</span> Weapon Spread
             <br><span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+6</span> Weapon Zoom
+            <span class="grade">+6</span> Zoom FOV
             <br><span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+4</span> Weapon Zoom
+            <span class="grade">+4</span> Zoom FOV
             <br><span class="scale">-0.2</span> Weapon Spread
             <br><span class="scale">-2</span> Movement Speed
         </td><td>
-            <span class="grade">+8</span> Weapon Zoom
+            <span class="grade">+8</span> Zoom FOV
             <br><span class="scale">-0.15</span> Weapon Spread
             <br><span class="scale">-2</span> Movement Speed
         </td>
@@ -487,7 +488,7 @@
             <br><span class="postAdd">-0.3</span> Bullet Relection Damage
         </td><td>
             <span class="scale">+0.5</span> Weapon Damage
-            <br><span class="scale">+0.5</span> Fire Rate
+            <br><span class="scale">+0.5</span> Fire Interval
             <br><span class="scale">+0.15</span> Reload Time
             <br><span class="scale">+0.5</span> Weapon Spread
             <br><span class="scale">+2</span> Min Accuracy
@@ -562,7 +563,7 @@
         <th>Torgue</th>
         <td class="smallText">
             <span class="scale">+0.2</span> Weapon Damage
-            <br><span class="preAdd">-0.05</span> Fire Rate
+            <br><span class="preAdd">-0.05</span> Fire Interval
             <br><span class="preAdd">+3</span> Mag Size
         </td><td class="smallText">
             <span class="preAdd">+3</span> Mag Size
@@ -631,10 +632,10 @@
         <td>
             On Torgue:
             <br><span class="scale">+0.2</span> Weapon Damage
-            <br><span class="preAdd">-0.05</span> Fire Rate
+            <br><span class="preAdd">-0.05</span> Fire Interval
         </td><td>
             On Torgue:
-            <br><span class="preAdd">-0.05</span> Fire Rate
+            <br><span class="preAdd">-0.05</span> Fire Interval
         </td><td>
             On Vladof:
             <br><span class="scale">+0.1</span> Weapon Damage
@@ -671,7 +672,7 @@
     </tr><tr class="smallText">
         <td>
             On Torgue:
-            <br><span class="preAdd">-0.05</span> Fire Rate
+            <br><span class="preAdd">-0.05</span> Fire Interval
         </td><td>
             On Jakobs:
             <br><span class="scale">-5</span> Weapon Damage
@@ -715,7 +716,7 @@
     <div class="text">
         There is one other unique part with manufacturer bonuses, the Cyber Eagle's grip. On Jakobs it gives
         <span class="preAdd">+1</span> Mag Size,
-        <span class="scale">-0.3</span> Reload Speed, and
+        <span class="scale">-0.3</span> Reload Time, and
         <span class="preAdd">-0.2</span> Impulse Accuracy.
     </div>
 </body>

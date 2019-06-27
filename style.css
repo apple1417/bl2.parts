@@ -95,6 +95,12 @@ sup {
     text-align: right;
 }
 
+/* Workaround for small divide signs looking too similar to pluses */
+.smallText *.divi::before {
+    content: "÷";
+    font-size: 1.1em;
+}
+
 .text {
     max-width: 50em;
     margin: 0 auto;

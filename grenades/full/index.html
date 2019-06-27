@@ -19,19 +19,20 @@
         <br>
         <code>
             FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)<i>&divide</i>(1 - <span class="scale">Negative Scale</span>)
+            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
             + <span class="postAdd">PostAdd</span>
         </code>
         <br>
         All bonuses in a specific category are added together before being applied.
         <br>
         <br>
-        The other concept is grades ("g" for short).
+        The other concept is grades.
         Grades are simply an easy way to have multiple ranks of bonuses for different parts.
-        A stat bonus will be defined by its base value and a per-grade bonus.
+        They are still categorised into one of the three bonus types mentioned above.
+        A grade bonus will be defined by both its base and per-grade value.
         <br>
         <code>
-            BASE + PERGRADE&times;<span class="grade">Grades</span>
+            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
         </code>
         <br>
         All grades from all parts are added up before being applied.
