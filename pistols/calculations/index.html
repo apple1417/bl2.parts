@@ -146,8 +146,13 @@
         <td>8&times;&beta;</td>
     </td></tr></table>
     <div class="text">
-        Status Effect Chance is a bit special, after calculating the final value it is further multipled by 0.6 and then one of the following values, based on element and enemy type.
-        The card will display the generic value.
+        Status Effect Chance is a bit special.
+        It is comprised of two values, the base and multiplier.
+        Everywhere that these pages refer to Status Effect Chance they mean the multiplier.
+        On pistols the base chance is always 0.6, only the muliplier is modified.
+        The final chance will multiply the base value with the multiplier and one of the following values, based on element and enemy type.
+        <br>
+        Note that the card will use the generic value.
     </div>
     <table><tr>
         <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
