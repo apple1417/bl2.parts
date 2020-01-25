@@ -25,6 +25,15 @@ th {
 td {
     vertical-align: top;
 }
+table.internalBorder {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+table.internalBorder td, table.internalBorder th {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+}
 tr.verticalCenter td, td.verticalCenter {
     vertical-align: middle;
 }
