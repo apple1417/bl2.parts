@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Borderlands Crowd Control</title>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+        #outer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 85vh;
+        }
+
+        #inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        #token {
+            font-family: Roboto Mono;
+            font-size: 50px;
+            text-align: center;
+            color: #e7e8e9;
+            width: 19em;
+            background: #444;
+            border: 3px solid #222;
+        }
+
+        #copy {
+            font-family: Roboto Mono;
+            font-size: 50px;
+            text-align: center;
+            color: #e7e8e9;
+            width: 3em;
+        }
+
+        .disabled {
+            background: red; /* limegreen */
+            border: 3px solid maroon; /* green */
+        }
+
+        .enabled {
+            background: limegreen;
+            border: 3px solid green;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        var tokenBox = null;
+        var copyButton = null;
+        var token = "";
+        window.addEventListener("load", function() {
+            tokenBox = document.getElementById("token");
+            copyButton = document.getElementById("copy");
+
+            var match = document.location.hash.match(/access_token=([a-z0-9]+)&/i);
+            if (match != null) {
+                token = match[1];
+                tokenBox.value = token
+
+                copyButton.disabled = false
+                copyButton.classList.replace("disabled", "enabled")
+            } else {
+                window.location.replace(
+                    "https://id.twitch.tv/oauth2/authorize?"
+                    + "client_id=q131zkxe0ozu8aqvvuav5ftt7g5lhj"
+                    + "&redirect_uri=https://apple1417.github.io/bl2/crowdcontrol/"
+                    + "&response_type=token"
+                    + "&scope=channel:read:redemptions"
+                    + "&force_verify=true"
+                );
+            }
+        });
+
+        function copy() {
+            var dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = token;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+        }
+    </script>
+</head>
+<body>
+    <div id="outer">
+        <h1>Your Token:</h1>
+        <div id="inner">
+            <input id="token" type="text" readonly value="ERROR">
+            <input id="copy" class="disabled" type="button" onclick="copy()" disabled value="COPY"></div>
+        </div>
+    </div>
+</body>
