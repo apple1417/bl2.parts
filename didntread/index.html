@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Missing Requirements</title>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <style>
+        h1 {
+            margin-bottom: 0.5em;
+        }
+
+        img {
+            padding-top: 0.5em;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: safe center;
+            height: 85vh;
+        }
+
+        #buffer {
+            height: 2em;
+        }
+    </style>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const possibleRequirements = ["au", "ow", "uf"];
+
+        window.addEventListener("load", function() {
+            document.getElementById("mod").textContent = decodeURI(urlParams.get("m"));
+            possibleRequirements.forEach((req) => {
+                if (urlParams.has(req)) {
+                    document.getElementById(req).hidden = false;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Missing Requirements</h1>
+        <div class="text">
+            <b id="mod">Unknown Mod Name</b> has requirements you must also install in order for it to load.
+        </div>
+        <table><tr><td hidden id="au">
+            <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/AsyncUtil/AsyncUtil.zip">AsyncUtil</a>
+        </td></tr><tr><td hidden id="ow">
+            <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/AAA_OptionsWrapper/OptionsWrapper.zip">OptionsWrapper</a>
+        </td></tr><tr><td hidden id="uf">
+            <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/UserFeedback/UserFeedback.zip">UserFeedback</a>
+        </td></tr></table>
+        <div id="buffer"></div>
+        <div class="text">
+            Requirements will always be listed on the mod download page.
+            <br>
+            <img class="center" src="plz.png">
+        </div>
+    </div>
+</body>
