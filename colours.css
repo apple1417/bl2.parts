@@ -20,8 +20,11 @@
 .pearl, .missionItem {
     color: #00ffff;
 }
-.seraph, .glitch {
+.seraph {
     color: #ff9ab8;
+}
+.glitch {
+    color: #ffa4e7
 }
 
 .explosive {
