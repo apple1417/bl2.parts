@@ -13,6 +13,10 @@
             padding-top: 0.5em;
         }
 
+        span {
+            font-size: 0.8em;
+        }
+
         #container {
             display: flex;
             flex-direction: column;
@@ -32,13 +36,28 @@
     <script>
         window.addEventListener("load", function() {
             urlParams = new URLSearchParams(window.location.search);
-            document.getElementById("mod").textContent = decodeURI(urlParams.get("m"));
+            document.getElementsByName("mod").forEach(m => m.textContent = decodeURI(urlParams.get("m")));
+
+            if (urlParams.has("update")) {
+                document.getElementsByName("missing").forEach(e => e.hidden = true);
+                document.getElementsByName("outdated").forEach(e => e.hidden = false);
+
+                document.title = "Outdated Requirements";
+                document.getElementById("header").innerText = document.title;
+            }
+
 
             links = document.getElementById("links").children[0].children;
             for (var i = 1; i < links.length; i++) {
                 if (urlParams.has(links[i].id)) {
-                    document.getElementById(links[i].id).hidden = false;
+                    links[i].hidden = false;
                     links[0].hidden = true;
+                    version = decodeURI(urlParams.get(links[i].id));
+                    if (version.length > 0) {
+                        span = document.createElement("span");
+                        span.innerText = `(at least ${version})`;
+                        links[i].children[0].insertAdjacentElement("beforeend", span);
+                    }
                 }
             }
         });
@@ -46,9 +65,12 @@
 </head>
 <body>
     <div id="container">
-        <h1>Missing Requirements</h1>
-        <div class="text">
-            <b id="mod">Unknown Mod Name</b> has requirements you must also install in order for it to load.
+        <h1 id="header">Missing Requirements</h1>
+        <div name="missing" class="text">
+            <b name="mod">Unknown Mod Name</b> has requirements you must also install in order for it to load.
+        </div>
+        <div name="outdated" class="text" hidden>
+            Some of the requirements for <b name="mod">Unknown Mod Name</b> are outdated, you will have to update to use it.
         </div>
         <table id="links"><tr id="notice"><td>
             Something went wrong, there should be mods listed here.
@@ -60,7 +82,7 @@
             <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/UserFeedback/UserFeedback.zip">UserFeedback</a>
         </td></tr></table>
         <div id="buffer"></div>
-        <div class="text">
+        <div name="missing" class="text">
             Requirements will always be listed on the mod download page.
             <br>
             <img class="center" src="plz.png">
