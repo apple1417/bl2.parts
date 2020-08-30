@@ -1,0 +1,58 @@
+---
+redirect_from:
+- /bl2/accuracy.html
+- /bl2/accuracy
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>BL2/TPS Accuracy Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
+</head>
+<body>
+    <h1>BL2/TPS Accuracy Mechanics</h1>
+    <div class="text">
+        Accuracy is actually a bit more complicated than you might think.
+        <br><br>
+        When you fire a shot, the direction of each projectile is picked in two passes.
+        First, the game picks a general direction for the "cluster" of bullets to go, then each individual projectile gets it's own offset from that.
+        Weapons with custom spread patterns may ignore the second pass.
+        <br>
+        As you fire your shots get more inaccurate - this is done by increasing your "cluster range".
+        Your cluster range rests at a base minimum value normally, but is then increased when you shoot, up to a maximum.
+        As it gets bigger, your shots fire further and further out.
+        You will naturally regen back towards the base value, so when you stop shooting you quickly get back to normal.
+        Hyperion weapons have this all inverted of course, they start at a max, lower to a min (getting more accurate), and regen upwards.
+        Almost all bonuses take this into account though, you can just consider them to be normal guns.
+        <br><br>
+        Accuracy is controlled by six attributes, listed below alongside with their effect when increased.
+        <table class="left">
+            <tr>
+                <th>Weapon Spread</th>
+                <td>Increases the offset range for each individual projectile, decreasing overall accuracy.</td>
+            </tr><tr>
+                <th>Min Accuracy</th>
+                <td>Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.</td>
+            </tr><tr>
+                <th>Max Accuracy</th>
+                <td>Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.</td>
+            </tr><tr>
+                <th>Accuracy Regen</th>
+                <td>Increases how quickly the cluster range recovers after each shot, increasing accuracy.</td>
+            </tr><tr>
+                <th>Impulse Accuracy</th>
+                <td>Increases the amount of the cluster range grows each time you shoot, decreasing accuracy.</td>
+            </tr><tr>
+                <th>Burst Impulse</th>
+                <td>Increases the amount of the cluster range grows each time you burst fire, decreasing accuracy.</td>
+            </tr>
+        </table>
+        <br>
+        The accuracy stat on the weapon card is controlled by weapon spread.
+        Crosshair size is controlled by a combination of the weapon spread and the current cluster range.
+        Weapon sway is controlled by the current cluster range.
+        Recoil is controlled by impulse accuracy and burst impulse, based on how you're firing.
+    </div>
+</body>

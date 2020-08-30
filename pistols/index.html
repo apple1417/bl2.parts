@@ -501,6 +501,8 @@ redirect_from:
         <h3>Weapon Attribute Refrence</h3>
         This table defines all the attributes that the rest of this page has refered to, and what exactly they do when a bonus makes their value larger.
         <br>
+        Also see <a href="/bl2/accuracy">this page</a> for a more detailed overview of how accuracy works.
+        <br>
         The attributes in the top half use grades, which affects when exactly their bonuses are applied. See the calculation guide for more info on this.
         <table class="left"><tr>
             <th>Weapon Damage</th>
@@ -516,25 +518,27 @@ redirect_from:
             <td>Increases the amount of time it takes to reload your weapon.<td>
         </tr><tr>
             <th>Weapon Spread</th>
-            <td>A general form of the next three attributes that scales all of them together. This is the accuracy stat on the card.</td>
-        </tr><tr>
+            <td>Increases the offset range for each individual projectile, decreasing overall accuracy.</td>
+        </tr>
+        <tr>
             <th>Min Accuracy</th>
-            <td>Increases the minimum size of your crosshair, the most accurate you can ever be, decreasing accuracy.</td>
-        </tr><tr>
+            <td>Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.</td>
+        </tr>
+        <tr>
             <th>Max Accuracy</th>
-            <td>Increases the maximum size of your crosshair, the least accurate you can ever be, decreasing accuracy.</td>
-        </tr><tr>
+            <td>Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.</td>
+        </tr>
+        <tr>
             <th>Accuracy Regen</th>
-            <td>Increases how quickly you recover accuracy after each shot, increasing accuracy.</td>
-        </tr><tr>
+            <td>Increases how quickly the cluster range recovers after each shot, increasing accuracy.</td>
+        </tr>
+        <tr>
             <th>Impulse Accuracy</th>
-            <td>
-                Increases the amount of accuracy you lose each time you shoot.
-                Note that Hyperion has this inverted, but all bonuses adjust for it anyway.
-            </td>
-        </tr><tr>
+            <td>Increases the amount of the cluster range grows each time you shoot, decreasing accuracy.</td>
+        </tr>
+        <tr>
             <th>Burst Impulse</th>
-            <td>Decreases the amount of accuracy you lose each time you burst fire.</td>
+            <td>Increases the amount of the cluster range grows each time you burst fire, decreasing accuracy.</td>
         </tr><tr>
             <th>Zoom FOV</th>
             <td>Increases your FOV while scoped, meaning you're less zoomed in.</td>
