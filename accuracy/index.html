@@ -15,18 +15,18 @@ redirect_from:
     <h1>BL2/TPS Accuracy Mechanics</h1>
     <div class="text">
         Accuracy is actually a bit more complicated than you might think.
-        <br><br>
+        <br>
+        <h3>Basics</h3>
         When you fire a shot, the direction of each projectile is picked in two passes.
         First, the game picks a general direction for the "cluster" of bullets to go, then each individual projectile gets it's own offset from that.
         Weapons with custom spread patterns may ignore the second pass.
         <br>
         As you fire your shots get more inaccurate - this is done by increasing your "cluster range".
-        Your cluster range rests at a base minimum value normally, but is then increased when you shoot, up to a maximum.
-        As it gets bigger, your shots fire further and further out.
-        You will naturally regen back towards the base value, so when you stop shooting you quickly get back to normal.
-        Hyperion weapons have this all inverted of course, they start at a max, lower to a min (getting more accurate), and regen upwards.
-        Almost all bonuses take this into account though, you can just consider them to be normal guns.
-        <br><br>
+        Your cluster range rests at a base value normally, but is then increased up to a maximum when you shoot.
+        As it gets bigger, your shots can fire further and further out.
+        On idle you will naturally regen back towards the base value, so once you stop shooting you eventually get back to normal.
+        <br>
+        <h3>Attributes</h3>
         Accuracy is controlled by six attributes, listed below alongside with their effect when increased.
         <table class="left">
             <tr>
@@ -40,7 +40,7 @@ redirect_from:
                 <td>Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.</td>
             </tr><tr>
                 <th>Accuracy Regen</th>
-                <td>Increases how quickly the cluster range recovers after each shot, increasing accuracy.</td>
+                <td>Decreases how quickly the cluster range recovers after each shot, decreasing accuracy. This is a negative value.</td>
             </tr><tr>
                 <th>Impulse Accuracy</th>
                 <td>Increases the amount the cluster range grows each time you shoot, decreasing accuracy.</td>
@@ -49,10 +49,21 @@ redirect_from:
                 <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy.</td>
             </tr>
         </table>
-        <br>
         The accuracy stat on the weapon card is controlled by weapon spread.
         Crosshair size is controlled by a combination of the weapon spread and the current cluster range.
         Weapon sway is controlled by the current cluster range.
-        Recoil is controlled by impulse accuracy and burst impulse, based on how you're firing.
+        Recoil is controlled by impulse accuracy or burst impulse, based on how you're firing.
+        <br>
+        It is possible to get weapons where the min accuracy is greater than the max.
+        When this happens the cluster range simply stays constant.
+        <br>
+        <h3>Hyperion</h3>
+        Hyperion guns gain their special effect simply by inverting impulse accuracy and accuracy regen - impulse will be a negative value and regen will be a positive.
+        When you equip a gun the game essentially pre-regenerates the accuracy, so you'll start at the max accuracy.
+        As impulse accuracy is negative, each shot decreases the cluster range, increasing accuracy until you reach the min.
+        Then on idle the positive accuracy regen will increasing the cluster range back to the maximum.
+        <br>
+        Grades are always set up to invert these attributes properly.
+        Raw attribute effects may not be, so may give the opposite effect on Hyperion guns to others.
     </div>
 </body>
