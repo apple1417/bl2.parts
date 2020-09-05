@@ -5,23 +5,45 @@
     <title>BL2</title>
     <link rel="stylesheet" type="text/css" href="/bl2/style.css">
     <style>
-        #choose {
+        table {
+            width: 25em;
+            border-collapse: collapse; 
+        }
+        tr.hr {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            height: 1px;
+        }
+        td {
+            height: 5em;
+        }
+
+        a, a:hover, a:active, a:visited {
+            color: #e7e8e9;
+            font-size: 2em;
+        }
+
+        #container {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            height: 96vh;
-        }
-        #choose a, #choose a:hover, #choose a:active, #choose a:visited {
-            color: #e7e8e9;
+            justify-content: safe center;
+            height: 90vh;
         }
     </style>
 </head>
 <body>
-    <div id="choose">
-        <div>
-            <a href="pistols"><h1>Pistols</h1></a>
-            <a href="grenades"><h1>Grenades</h1></a>
-            <a href="shields"><h1>Shields</h1></a>
-        <div>
+    <div id="container">
+        <table class="verticalCenter"><tr>
+            <td><img class="med" src="images/pistols.png"></td>
+            <td><a href="pistols">Pistols</a></td>
+        </tr><tr>
+            <td><img class="med" src="images/shields.png"></td>
+            <td><a href="shields">Shields</a></td>
+        </tr><tr>
+            <td><img class="med" src="images/grenades.png"></td>
+            <td><a href="grenades">Grenades</a></td>
+        </tr><tr class="hr"></tr><tr>
+            <td colspan="2"><a href="accuracy">Accuracy Mechanics</a></td>
+        </tr></table>
     </div>
 </body>
+</html>

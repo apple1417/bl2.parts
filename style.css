@@ -34,7 +34,7 @@ table.internalBorder td, table.internalBorder th {
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.5);
 }
-tr.verticalCenter td, td.verticalCenter {
+table.verticalCenter tr td, tr.verticalCenter td, td.verticalCenter {
     vertical-align: middle;
 }
 
