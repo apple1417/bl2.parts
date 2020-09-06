@@ -13,10 +13,6 @@
             padding-top: 0.5em;
         }
 
-        span {
-            font-size: 0.8em;
-        }
-
         #container {
             display: flex;
             flex-direction: column;
@@ -55,6 +51,7 @@
                     version = decodeURI(urlParams.get(links[i].id));
                     if (version.length > 0) {
                         span = document.createElement("span");
+                        span.classList.add("smallText")
                         span.innerText = `(at least ${version})`;
                         links[i].children[0].insertAdjacentElement("beforeend", span);
                     }
@@ -78,6 +75,7 @@
             <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/AsyncUtil/AsyncUtil.zip">AsyncUtil</a>
         </td></tr><tr hidden id="ow"><td>
             <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/AAA_OptionsWrapper/OptionsWrapper.zip">OptionsWrapper</a>
+            <span class="smallText"><br>OptionsWrapper is deprecated, are you sure <b name="mod">Unknown Mod Name</b> doesn't have an update available?</span>
         </td></tr><tr hidden id="uf"><td>
             <a href="https://github.com/apple1417/bl-sdk-mods/raw/master/UserFeedback/UserFeedback.zip">UserFeedback</a>
         </td></tr></table>

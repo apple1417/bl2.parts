@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
-    <title>BL2/TPS Unique Pistol Barrels</title>
+    <title>Unique Pistol Barrels</title>
     <link rel="stylesheet" type="text/css" href="/bl2/style.css">
     <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
 </head>
 <body>
-    <h1>BL2/TPS Unique Pistol Barrels</h1>
+    <h1>Unique Pistol Barrels</h1>
     <table><tr>
         <th>Basic Repeater</th>
         <th>Dahlminator</th>
-        <th>Fibber (Shotgun)</th>
-        <th>Fibber (Ricochet)</th>
-        <th>Fibber (Crit)</th>
+        <th>Fibber 1 (Shotgun)<sup>1</sup></th>
+        <th>Fibber 2 (Ricochet)<sup>1</sup></th>
+        <th>Fibber 3 (Crit)<sup>1</sup></th>
     </tr><tr>
         <td>Bandit Model</td>
         <td>E-Tech Model</td>
@@ -31,27 +31,43 @@
             <br><span class="preAdd">+1</span> Shot Cost
             <br><span class="scale">+0.2</span> Status Effect Chance
         </td><td>
-            Fake Stats:
-            <br><span class="scale">-4</span> Weapon Damage
+            <span class="scale">-4</span> Weapon Damage
             <br><span class="scale">-5</span> Fire Interval
             <br><span class="scale">-2</span> Mag Size
             <br><span class="scale">-2</span> Reload Time
             <br><span class="scale">-1</span> Weapon Spread
+            <br><b>On Create:</b>
+            <br><span class="scale">+3.6</span> Weapon Damage
+            <br><span class="scale">+10</span> Fire Interval
+            <br><span class="scale">-3.5</span> Mag Size
+            <br><span class="scale">+5</span> Reload Time
+            <br><span class="scale">+10</span> Weapon Spread
+            <br><span class="scale">+6</span> Projectile Count
         </td><td>
-            Fake Stats:
-            <br><span class="scale">+10</span> Weapon Damage
+            <span class="scale">+10</span> Weapon Damage
             <br><span class="scale">-5</span> Fire Interval
             <br><span class="scale">+99</span> Mag Size
             <br><span class="scale">+2</span> Reload Time
             <br><span class="scale">+3</span> Weapon Spread
+            <br><b>On Create:</b>
+            <br><span class="scale">-9.5</span> Weapon Damage
+            <br><span class="scale">+5</span> Fire Interval
+            <br><span class="scale">-100</span> Mag Size
+            <br><span class="scale">+2</span> Reload Time
+            <br><span class="scale">-3.5</span> Weapon Spread
         </td><td>
-            <span class="scale">+7</span> Crit Damage
-            <br>Fake Stats:
-            <br><span class="scale">-12</span> Weapon Damage
+            <span class="scale">-12</span> Weapon Damage
             <br><span class="scale">+20</span> Fire Interval
             <br><span class="scale">+130</span> Mag Size
             <br><span class="scale">-15</span> Reload Time
             <br><span class="scale">+10</span> Weapon Spread
+            <br><span class="scale">+7</span> Crit Damage
+            <br><b>On Create:</b>
+            <br><span class="scale">+13.5</span> Weapon Damage
+            <br><span class="scale">-19</span> Fire Interval
+            <br><span class="scale">-128</span> Mag Size
+            <br><span class="scale">+14.5</span> Reload Time
+            <br><span class="scale">-13</span> Weapon Spread
         </td>
     </tr><tr>
         <th>Gub</th>
@@ -342,7 +358,14 @@
             <br><span class="grade">-3</span> Burst Impulse
             <br><span class="scale">+0.25</span> Status Effect Chance
         </td>
-    </tr><tr>
+    </tr></table>
+    <div class="text">
+        <div class="footnotes">
+            <sup>1</sup> The top half of the stats on the fibber barrels are what is used to calculate the (fake) stats on the weapon card,
+                            the on create ones are applied seperately more like a skill afterwards. See <a href="/bl2/calculationorder">this page</a> for how this factors into calculation order.
+        </div>
+    </div>
+    <table><tr>
         <th>Blowfly</th>
         <th>Cyber Eagle</th>
         <th>Fragnum</th>

@@ -7,12 +7,12 @@ redirect_from:
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>BL2/TPS Accuracy Mechanics</title>
+    <title>Accuracy Mechanics</title>
     <link rel="stylesheet" type="text/css" href="/bl2/style.css">
     <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
 </head>
 <body>
-    <h1>BL2/TPS Accuracy Mechanics</h1>
+    <h1>Accuracy Mechanics</h1>
     <div class="text">
         Accuracy is actually a bit more complicated than you might think.
         <br>
@@ -63,7 +63,18 @@ redirect_from:
         As impulse accuracy is negative, each shot decreases the cluster range, increasing accuracy until you reach the min.
         Then on idle the positive accuracy regen will increase the cluster range back to the maximum, base accuracy.
         <br>
-        Grades are always set up to invert these attributes properly.
-        Raw attribute effects may not be, so may give the opposite effect on Hyperion guns to others.
+        <h4>Bonuses on Hyperion</h4>
+        <span class="grade">Grade</span> bonuses are always set up to invert these attributes properly.
+        <br>
+        <span class="preAdd">PreAdd</span> and <span class="postAdd">PostAdd</span> bonuses will continue working as intended.
+        On normal guns you want lower (positive) impulse accuracy to increase the cluster range slower.
+        On Hyperion guns you also want lower (negative) impulse accuracy, this time to decrease the cluster range quicker.
+        The same logic holds for accuracy regen.
+        <br>
+        <span class="scale">Scale</span> bonuses are the one type that may have issues - multiplying a positive number makes it bigger but multiplying a negative makes it smaller.
+        Sometimes Gearbox gives a part Hyperion manufacturer bonuses to invert the intended bonus properly, but sometimes they forget and it actually has the opposite effect.
+        <!-- TODO: are there examples of both? -->
+        <br>
+        It would theoretically be possible for various bonuses combined to push the impulse accuracy or accuracy regen back past 0, removing Hyperion's special behavior, but in practice this never happens.
     </div>
 </body>
