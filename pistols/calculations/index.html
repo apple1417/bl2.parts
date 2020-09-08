@@ -135,24 +135,26 @@
     </td><tr>
         <th>Projectile Count</th>
         <td>1</td>
-    </td></tr><tr>
+    </tr><tr>
         <th>Shot Cost</th>
         <td>1</td>
-    </td></tr><tr>
-        <th>Status Effect Chance</th>
+    </tr><tr>
+        <th>Status Chance Base</th>
+        <td>0.6</td>
+    </tr><tr>
+        <th>Status Chance Modifier</th>
         <td>1</td>
-    </td></tr><tr>
+    </tr><tr>
         <th>Status Effect Damage</th>
         <td>8&times;&beta;</td>
-    </td></tr></table>
+    </tr></table>
     <div class="text">
         Status Effect Chance is a bit special.
         It is comprised of two values, the base and multiplier.
-        Everywhere that these pages refer to Status Effect Chance they mean the multiplier.
-        On pistols the base chance is always 0.6, only the muliplier is modified.
+        Pistols only ever change the modifier.
         The final chance will multiply the base value with the multiplier and one of the following values, based on element and enemy type.
         <br>
-        Note that the card will use the generic value.
+        Note that the weapon card will use the generic value.
     </div>
     <table><tr>
         <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
@@ -181,16 +183,16 @@
         </td><td>
             <span class="preAdd">-1</span> Min Accuracy
             <br><span class="preAdd">+9</span> Accuracy Regen
-            <br><span class="preAdd">+0.6</span> Bullet Speed
+            <br><span class="preAdd">+0.6</span> Projectile Speed
         </td><td>
             <span class="preAdd">+2</span> Max Accuracy
-            <br><span class="preAdd">+0.3</span> Bullet Speed
+            <br><span class="preAdd">+0.3</span> Projectile Speed
             <br><span class="preAdd">0.5</span> Crit Damage
             <br>While Zoomed:
             <br><span class="scale">-1</span> Min Accuracy
         </td><td>
             <span class="preAdd">+1</span> Shot Cost
-            <br><span class="preAdd">+0.3</span> Status Effect Chance
+            <br><span class="preAdd">+0.3</span> Status Chance Modifier
             <br><span class="scale">+0.2</span> Status Effect Damage
         </td>
     </tr></table>
@@ -216,7 +218,7 @@
             <span class="grade">+8</span> Weapon Spread
             <br><span class="grade">+5</span> Min Accuracy
             <br><span class="grade">+5</span> Max Accuracy
-            <br><span class="scale">+0.2</span> Bullet Speed
+            <br><span class="scale">+0.2</span> Projectile Speed
         </td><td>
             <span class="grade">-5</span> Weapon Damage
             <br><span class="grade">-10</span> Fire Interval
@@ -276,7 +278,7 @@
         </td><td>
             <span class="scale">+1</span> Weapon Damage
             <br><span class="scale">+0.5</span> Fire Interval
-            <br><span class="scale">+0.2</span> Status Effect Chance
+            <br><span class="scale">+0.2</span> Status Chance Modifier
             <br><span class="preAdd">+1</span> Shot Cost
         </td><td>
             <span class="grade">-4</span> Weapon Damage
@@ -372,7 +374,7 @@
             <br><span class="grade">-10</span> Fire Interval
             <br><span class="grade">+20</span> Weapon Spread
             <br><span class="grade">+6</span> Zoom FOV
-            <br><span class="scale">-0.5</span> Status Effect Chance
+            <br><span class="scale">-0.5</span> Status Chance Modifier
             <br><span class="scale">+1</span> Status Effect Damage
         </td><td>
             -
@@ -410,7 +412,7 @@
     </tr><tr>
     </tr><tr class="smallText">
         <td>
-            <span class="scale">+0.15</span> Status Effect Chance
+            <span class="scale">+0.15</span> Status Chance Modifier
         </td><td>
             <span class="grade">-2</span> Weapon Damage
             <br><span class="grade">-2</span> Mag Size
@@ -481,7 +483,7 @@
         All parts except the non-elemental one give a penatly of <span class="scale">-0.2</span> Weapon Damage.
         <br>
         The unused "Fire Drill" and "Fire Infinity" pistols share a unique fire element part.
-        It gives <span class="scale">+40</span> Status Effect Chance.
+        It gives <span class="scale">+40</span> Status Chance Modifier.
         <br>
         The mission weapon in Hot Head has a unique copy of the standard cryo element part.
         It has the normal <span class="scale">-0.2</span> Weapon Damage penatly.
@@ -558,7 +560,7 @@
         <td class="smallText">
             <span class="scale">+0.1</span> Weapon Damage
             <br><span class="preAdd">-0.3</span> Weapon Spread
-            <br><span class="preAdd">+0.1</span> Status Effect Chance
+            <br><span class="preAdd">+0.1</span> Status Chance Modifier
         </td><td class="smallText">
             <span class="preAdd">+3</span> Mag Size
             <br><span class="scale">-0.3</span> Reload Time
@@ -634,7 +636,7 @@
         </td><td>
             On Maliwan:
             <br><span class="preAdd">-0.3</span> Weapon Spread
-            <br><span class="preAdd">+0.3</span> Status Effect Chance
+            <br><span class="preAdd">+0.3</span> Status Chance Modifier
             <br><span class="scale">+0.23</span> Status Effect Damage
         </td>
     </tr><tr>
@@ -714,7 +716,7 @@
             On Maliwan:
             <br><span class="scale">+0.25</span> Weapon Damage
             <br><span class="preAdd">-0.3</span> Weapon Spread
-            <br><span class="preAdd">+0.15</span> Status Effect Chance
+            <br><span class="preAdd">+0.15</span> Status Chance Modifier
         </td><td>
             On Jakobs:
             <br><span class="preAdd">-0.03</span> Weapon Spread

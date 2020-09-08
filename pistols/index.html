@@ -1,12 +1,3 @@
----
-redirect_from:
- - /bl2pistols/index.html
- - /bl2pistols.html
- - /bl2/pistols.html
- - /bl2pistols/
- - /bl2pistols
- - /bl2/pistols
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +49,7 @@ redirect_from:
             <span class="good">&times;1.4 Weapon Spread</span>
             <br><span class="good"><i class="divi"></i>1.25 Min Accuracy</span>
             <br><span class="good"><i class="divi"></i>1.25 Max Accuracy</span>
-            <br><span class="good">&times;1.2 Bullet Speed</span>
+            <br><span class="good">&times;1.2 Projectile Speed</span>
         </td><td>
             <span class="bad"><i class="divi"></i>1.15 Weapon Damage</span>
             <br><span class="bad"><i class="divi"></i>1.3 Fire Rate</span>
@@ -133,7 +124,7 @@ redirect_from:
         </td><td>
             <span class="good">&times;2 Weapon Damage</span>
             <br><span class="bad"><i class="divi"></i>1.5 Fire Rate</span>
-            <br><span class="good">&times;1.2 Status Effect Chance</span>
+            <br><span class="good">&times;1.2 Status Chance Modifier</span>
             <br><span class="bad">+1 Shot Cost</span>
         </td><td>
             <span class="bad"><i class="divi"></i>1.12 Weapon Damage</span>
@@ -443,7 +434,7 @@ redirect_from:
             <td class="smallText">
                 <span class="good">&times;1.1 Weapon Damage</span>
                 <br><span class="good">-0.3 Weapon Spread</span>
-                <br><span class="good">+10% Status Effect Chance</span>
+                <br><span class="good">+10% Status Chance Modifier</span>
             </td><td class="smallText">
                 <span class="good">+3 Mag Size</span>
                 <br><span class="good"><i class="divi"></i>1.3 Reload Time</span>
@@ -470,7 +461,7 @@ redirect_from:
             <td class="smallText">
                 <span class="good">&times;1.1 Weapon Damage</span>
                 <br><span class="good">+6 Mag Size</span>
-                <br>-0.25 Barrel Spin-up Time
+                <br>-0.25 Barrel Spin-up Time<sup>2</sup>
             </td><td class="smallText">
                 <span class="good">+4 Mag Size</span>
                 <br><span class="good"><i class="divi"></i>1.3 Reload Time</span>
@@ -479,9 +470,11 @@ redirect_from:
     <div class="text">
         <div class="footnotes">
             <sup>1</sup> This decreases the time between shots, increasing fire rate, but the exact amount depends on what the existing fire rate was.
+            <br>
+            <sup>2</sup> No pistols use spin up time, so this is completely neutral.
         </div>
         <br>
-        Additionally, a few parts setup bonuses when on different manufacturers.
+        Additionally, a few parts set up bonuses when on different manufacturers.
     </div>
     <table><tr>
         <th>Double Laser</th><th>Tech 3 Firerate</th><th colspan="2">Vladof Barrel</th><th>Vladof Grip</th>
@@ -493,7 +486,7 @@ redirect_from:
         </td><td class="good">
             +2 Additional Ricochets
         </td><td>
-            +2.5 Barrel Spin-up Time
+            +2.5 Barrel Spin Up Time
         </td><td>
             <span class="bad">+3 Weapon Spread</span>
             <br><span class="bad">+1 Shot Cost</span>
@@ -502,99 +495,5 @@ redirect_from:
             <i class="divi"></i>1.15 Reload Time
         </td>
     </tr></table>
-    <div class="text">
-        <br>
-        <h3>Weapon Attribute Refrence</h3>
-        This table defines all the attributes that the rest of this page has refered to, and what exactly they do when a bonus makes their value larger.
-        You can assume all values are positive unless stated otherwise.
-        <br>
-        Also see <a href="/bl2/accuracy">this page</a> for a more detailed overview of how accuracy works (including how Hyperion works).
-        <br>
-        The attributes in the top half use grades, which affects when exactly their bonuses are applied. See the calculation guide for more info on this.
-        <table class="left"><tr>
-            <th>Weapon Damage</th>
-            <td>Increases the damage your weapon deals.</td>
-        </tr><tr>
-            <th>Fire Rate</th>
-            <td>Increases how often your weapon fires.</td>
-        </tr><tr>
-            <th>Mag Size</th>
-            <td>Increases the size of your weapon's magazine.<td>
-        </tr><tr>
-            <th>Reload Time</th>
-            <td>Increases the amount of time it takes to reload your weapon.<td>
-        </tr><tr>
-            <th>Weapon Spread</th>
-            <td>Increases the offset range for each individual projectile, decreasing overall accuracy.</td>
-        </tr><tr>
-            <th>Min Accuracy</th>
-            <td>Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.</td>
-        </tr><tr>
-            <th>Max Accuracy</th>
-            <td>Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.</td>
-        </tr><tr>
-            <th>Accuracy Regen</th>
-            <td>Decreases how quickly the cluster range recovers after each shot, decreasing accuracy. This is a negative value.</td>
-        </tr><tr>
-            <th>Impulse Accuracy</th>
-            <td>Increases the amount the cluster range grows each time you shoot, decreasing accuracy.</td>
-        </tr><tr>
-            <th>Burst Impulse</th>
-            <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy.</td>
-        </tr><tr>
-            <th>Zoom FOV</th>
-            <td>Increases your FOV while scoped, meaning you're less zoomed in.</td>
-        </tr><tr><td colspan="100%" style="border-bottom: 1px solid rgba(255, 255, 255, 0.5);"></td><tr>
-            <th>Additional Ricochets</th>
-            <td>Increases the amount of times one of your bullets can ricochet</td>
-        </tr><tr>
-            <th>Barrel Spin-up Time</th>
-            <td>
-                Increases the time it takes your weapon to spin up to it's full fire rate.
-                Note that no pistol barrels actually support this so it will do nothing.
-            </td>
-        </tr><tr>
-            <th>Burst Count</th>
-            <td>Increases the amount of shots fired in each burst.</td>
-        </tr><tr>
-            <th>Bullet Speed</th>
-            <td>Increases the speed of your weapon's bullets.</td>
-        </tr><tr>
-            <th>Bullet Reflection Chance</th>
-            <td>Increases the chance that bullets will relect off you while holding your weapon.</td>
-        </tr><tr>
-            <th>Bullet Reflection Self Damage</th>
-            <td>Increases the amount of damage that bullets which relect off of you deal to you while holding your weapon.</td>
-        </tr><tr>
-            <th>Bullet Reflection Damage</th>
-            <td>Increases the amount of damage that bullets which relect off of you deal to enemies while holding your weapon.</td>
-        </tr><tr>
-            <th>Crit Damage</th>
-            <td>Increases the amount of damage critical hits deal. This is a multiplier of your regular damage - it's base value is 2.</td>
-        </tr><tr>
-            <th>Damage to Healing</th>
-            <td>Increases the percent of damage dealt that gets returned to you as healing.</td>
-        </tr><tr>
-            <th>Extra Shot Chance</th>
-            <td>Increases the chance that you actually fire two shots on a single trigger press.</td>
-        </tr><tr>
-            <th>Melee Damage</th>
-            <td>Increases the amount of damage you deal when meleeing while holding your weapon.</td>
-        </tr><tr>
-            <th>Movement Speed</th>
-            <td>Increases how quickly you move while holding your weapon.</td>
-        </tr><tr>
-            <th>Projectile Count</th>
-            <td>Increases the amount of projectiles your weapon shoots each shot.</td>
-        </tr><tr>
-            <th>Shot Cost</th>
-            <td>Increases the amount of ammo it takes to shoot your weapon once.</td>
-        </tr><tr>
-            <th>Status Effect Chance</th>
-            <td>Increases the chance that shooting an enemy will give them a DoT.</td>
-        </tr><tr>
-            <th>Status Effect Damage</th>
-            <td>Increases the damage dealt by DoTs inflicted by your weapon.</td>
-        </tr></table>
-    </div>
 </body>
+</html>

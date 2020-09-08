@@ -10,7 +10,7 @@
     <h1>Grenade Definitions</h1>
     <table class="internalBorder"><tr>
         <th colspan="5"></th>
-        <th colspan="5">Status Effect Chance</th><th colspan="4">Status Effect Damage</th>
+        <th colspan="5">Status Chance Modifier</th><th colspan="4">Status Effect Damage</th>
     </tr><tr>
         <th>Definition</th><th>Damage</th><th>Blast Radius</th>
         <th>Fuse Time</th><th>Child Count</th>
@@ -397,8 +397,8 @@
         <td><code>100&times;(1.10^level)</code></td>
     </tr></table>
     <div class="text">
-        The base status effect chance is 1.
-        The final value is then multipled by one of the following values, based on element and enemy type.
+        The status chance base and the default status change modifier are both 1.
+        The final values of each are multiplied together and then with one of the following values, based on element and enemy type.
     </div>
     <table><tr>
         <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
