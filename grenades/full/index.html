@@ -9,35 +9,10 @@
 <body>
     <h1>Grenade Parts Guide (Full)</h1>
     <div class="text">
-        This guide covers all grenade parts in-depth, and assumes you have read the base guide <a href="/bl2/grenades/">here</a>.
+        This guide covers all grenade parts in-depth, and assumes you have read the base guide
+        <a href="/bl2/grenades/">here</a>, as well as the general formulas guide <a href="/bl2/formulas/">here</a>.
         <br>
-        <br>
-        There are two important concepts that are going to be used here a lot:
-        <br>
-        <br>
-        Firstly, the general formula for all stat bonuses is as follows:
-        <br>
-        <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
-            + <span class="postAdd">PostAdd</span>
-        </code>
-        <br>
-        All bonuses in a specific category are added together before being applied.
-        <br>
-        <br>
-        The other concept is grades.
-        Grades are simply an easy way to have multiple ranks of bonuses for different parts.
-        They are still categorised into one of the three bonus types mentioned above.
-        A grade bonus will be defined by both its base and per-grade value.
-        <br>
-        <code>
-            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
-        </code>
-        <br>
-        All grades from all parts are added up before being applied.
-        This matters for scale bonuses, where a positive base and negative per-grade value will eventually change the scale to a negative one, or vice versa.
-        <br>
+        Firstly, let's re-define the values from the base guide, properly sorting them into their exact bonus type, and note down extra unique parts not mentioned in the base guide.
         <br>
         <h3>Material</h3>
         As mentioned in the basic guide, the only materials with stat bonuses are the Torgue ones, which provide <span class="grade">+2</span> child count grades.
@@ -77,6 +52,9 @@
         The Anemone DLC added exact copies of all trigger parts, with the exact same stat bonuses.
         <br>
         <br>
+        <br>
+        None of the following parts have models, and thus can only be told apart by calculation or checking in a save editor.
+        <br>
         <h3>Accessory</h3>
         The accessories define both the element of the grenade and the (unlisted) status chance modifier.
         This chance is per hit, so grenades that hit multiple times like teslas are much more likly to apply a DoT.
@@ -88,59 +66,35 @@
         The Monster Trap has the only other unique accessory.
         It provides no stat bonuses, and is actually non-elemental, depite being displayed as explosive on the card.
         <br>
-        The first grade of an accessory just enables that element, all others provide the following bonus:
+        The first grade of an accessory just enables that element, all others provide the following Status Chance Modifier bonuses:
     </div>
     <table><tr>
         <th class="fire">Fire</th><th class="shock">Shock</th>
         <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
     </tr><tr>
-        <td class="scale">+13%/g</td>
-        <td class="scale">+13%/g</td>
-        <td class="scale">+11.5%/g</td>
-        <td class="scale">+15%/g</td>
-        <td class="scale">+10%/g</td>
+        <td class="scale perGrade">+13%</td>
+        <td class="scale perGrade">+13%</td>
+        <td class="scale perGrade">+11.5%</td>
+        <td class="scale perGrade">+15%</td>
+        <td class="scale perGrade">+10%</td>
     </tr></table>
     <div class="text">
         As there are no explosive DoTs, there is only one grade of explosive accessory, which has no bonus status chance modifier.
         <br>
-        Status Effect Chance is comprised of two values, the base and modifier.
-        On grenades the base chance is always 1, only the modifier is changed.
-        The final chance will multiply the base value with the modifier and one of the following values, based on element and enemy type.
+        Both the Status Chance Base and the Status Chance Modifier are 1 by default.
         <br>
-        Note that the card will use the generic value.
-    </div>
-    <table><tr>
-        <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
-        <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
-    </tr><tr>
-        <td>Generic</td><td>20%</td><td>20%</td><td>20%</td><td>30%</td><td>15%</td>
-    </tr><tr>
-        <td>Flesh</td><td>30%</td><td>15%</td><td>15%</td><td>30%</td><td>15%</td>
-    </tr><tr>
-        <td>Armor</td><td>15%</td><td>15%</td><td>30%</td><td>30%</td><td>15%</td>
-    </tr><tr>
-        <td>Shield</td><td>15%</td><td>75%</td><td>15%</td><td>30%</td><td>5%</td>
-    </tr></table>
-    <div class="text">
+        <br>
         <h3>Damage</h3>
         There are eight possible damage parts, with grades from <span class="grade">0</span> to <span class="grade">+7</span>.
-        These parts add <span class="scale">+0.03/g</span> bonus damage.
+        These parts add <span class="scale perGrade">+0.03</span> bonus damage.
         <br>
         The seraph grenades all use their own damage parts.
         These parts have the exact same stats as standard ones of the same grade, they just don't overwrite the rarity.
         <br>
         Similarly, the Anemone DLC also added exact copies of all damage parts, with the exact same stat bonuses.
         <br>
-        The base damage, before anything is added or multipled is based entirely on the grenade's level.
-        Unfortuantly the exact formula changes slightly depending on game, but it can be worked out as follows:
-    </div>
-        <table><tr>
-            <th>BL2</th><th>TPS</th>
-        </tr><tr>
-            <td><code>100&times;(1.13^level)</code></td>
-            <td><code>100&times;(1.10^level)</code></td>
-        </tr></table>
-    <div class="text">
+        The base damage, before any bonuses are added, is equal to exactly 100&times;&beta;.
+        <br>
         <h3>Payload</h3>
         The payload controls what exactly happens when the grenade explodes.
         It also provides some stat bonuses.
@@ -162,7 +116,7 @@
         There are six possible status effect damage parts, with grades from <span class="grade">0</span> to <span class="grade">+5</span>.
         These parts affect all elements except <span class="slag">slag</span> and <span class="explosive">explosive</span>.
         <br>
-        The base status effect damage is always 20% of the grenade's base damage (see the damage section).
+        The base status effect damage is always equal to exactly 200&times;&beta;.
         <br>
         Each grade adds a set percentage of the base status effect damage, based on element:
     </div>
@@ -170,10 +124,10 @@
         <th class="fire">Fire</th><th class="shock">Shock</th>
         <th class="corrosive">Corrosive</th><th class="cryo">Cryo</th>
     </tr><tr>
-        <td class="preAdd">+5%/g</td>
-        <td class="preAdd">+7%/g</td>
-        <td class="preAdd">+6%/g</td>
-        <td class="preAdd">+5%/g</td>
+        <td class="preAdd perGrade">+5%</td>
+        <td class="preAdd perGrade">+7%</td>
+        <td class="preAdd perGrade">+6%</td>
+        <td class="preAdd perGrade">+5%</td>
     </tr></table>
     <div class="text">
         The Anemone DLC added exact copies of all status effect damage parts, with the exact same stat bonuses.

@@ -21,7 +21,7 @@
             <th colspan="2"><h2>Weapon Attributes</h3></th>
         </tr><tr>
             <th>Additional Ricochets</th>
-            <td>Increases the amount of times one of your bullets can ricochet</td>
+            <td>Increases the amount of times one of your bullets can ricochet. This does <i>not</i> aim towards an enemy, it's a pure ricochet.</td>
         </tr><tr>
             <th>Barrel Spin Up Time</th>
             <td>Increases the time it takes your weapon to spin up to it's full fire rate, if the barrel supports it.</td>
@@ -29,8 +29,8 @@
             <th>Burst Count</th>
             <td>Increases the amount of shots fired in each burst.</td>
         </tr><tr>
-            <th>Burst Impulse</th>
-            <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy.</td>
+            <th>Burst Impulse Scale</th>
+            <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy. This is a multiplier of the weapon's Impulse Accuracy.</td>
         </tr><tr>
             <th>Extra Shot Chance</th>
             <td>Increases the chance that you'll fire an extra shot on a single trigger press.</td>
@@ -57,10 +57,10 @@
             <td>Increases the amount of ammo it takes to shoot your weapon once.</td>
         </tr><tr>
             <th>Status Chance Base</th>
-            <td>Increases the chance that shooting an enemy will give them a DoT.</td>
+            <td>Increases the chance that shooting an enemy will give them a DoT. This is multiplied with the Status Chance Modifier, and a per-surface modifier.</td>
         </tr><tr>
             <th>Status Chance Modifier</th>
-            <td>Increases the chance that shooting an enemy will give them a DoT.</td>
+            <td>Increases the chance that shooting an enemy will give them a DoT. This is multiplied with the Status Chance Base, and a per-surface modifier. This always starts at 1.</td>
         </tr><tr>
             <th>Status Effect Damage</th>
             <td>Increases the damage dealt by DoTs inflicted by your weapon.</td>
@@ -104,17 +104,40 @@
         </tr><tr>
             <th colspan="2"><br><h2>Pawn Attributes</h2></th>
         </tr><tr>
-            <th>Bullet Reflection Chance</th>
-            <td>Increases the chance that bullets will relect off you.</td>
-        </tr><tr>
-            <th>Bullet Reflection Damage</th>
-            <td>Increases the amount of damage that reflected bullets deal.</td>
-        </tr><tr>
-            <th>Bullet Reflection Self Damage</th>
-            <td>Increases the amount of damage that reflected bullets deal to yourself.</td>
-        </tr><tr>
             <th>Movement Speed</th>
             <td>Increases your maximum move speed (but not acceleration).</td>
+        </tr><tr>
+            <th>Reflect Off Enemy Chance</th>
+            <td>Increases the chance that bullets which hit an enemy will reflect off and also hit another.</td>
+        </tr><tr>
+            <th>Reflect Off Enemy Damage</th>
+            <td>Increases the damage that enemy reflected bullets deal. This multiplies the original damage.</td>
+        </tr><tr>
+            <th>Reflect Off Self Chance</th>
+            <td>Increases the chance that bullets that hit you will relect off.</td>
+        </tr><tr>
+            <th>Reflect Off Self Damage</th>
+            <td>Increases the amount of damage that self reflected bullets deal. This multiplies the original damage.</td>
+        </tr><tr>
+            <th>Reflect Off Self Self Damage</th>
+            <td>Increases the amount of damage that self reflected bullets deal to yourself. This multiplies the original damage.</td>
+        </tr><tr>
+            <th>Ricochet To Enemy Chance</th>
+            <td>Increases the chance that bullets which miss will ricochet towards an enemy.</td>
+        </tr><tr>
+            <th>Ricochet To Enemy Damage</th>
+            <td>Increases the damage that ricocheted bullets deal. This multiplies the original damage.</td>
+        </tr><tr>
+            <th>Status Damage Resistance</th>
+            <td>There is a version of this for each element. Increases how much damage status effects of the relevant element deal.</td>
+        </tr><tr>
+            <th colspan="2"><br><h2>Character Class Attributes</h3></th>
+        </tr><tr>
+            <th>Status Chance Resistance</th>
+            <td>There is a version of this for each element. Increases the chance of being inflicted with a status effects of the relevant element.</td>
+        </tr><tr>
+            <th>Status Duration Resistance</th>
+            <td>There is a version of this for each element. Increases how long status effects of the relevant element last.</td>
         </tr></table>
     </div>
 </body>

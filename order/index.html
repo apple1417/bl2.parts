@@ -9,21 +9,12 @@
 <body>
     <h1>A Note on Calculation Order</h1>
     <div class="text">
-        If you've read through any of the detailed guides, you'll know there are two standard formulas used for all bonuses:
-        <br>
-        <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
-            + <span class="postAdd">PostAdd</span>
-            <br>
-            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
-        </code>
-        <br>
-        These forumlas work fine when just calculating using item/weapon parts, but if you try to add other bonuses into the mix, such as those from skills, you might start having issues.
-        This is because the game actually changes the base value of the calculation inbetween applying the bonuses.
+        If you've tried manually calculating item stats before, you might have noticed you start having issues if you try include other bonuses.
+        In fact, you'll probably have noticed only item/weapon parts seem to work as stated.
+        Why is this? Because the game actually changes the base value of these stats inbetween applying the bonuses.
         <br>
         At the start of item/weapon initalization, each attribute will have a certain base value, which you'll find listed in all the part guides.
-        The game applies all bonuses from the parts, to find the value that displays on the item card.
+        The game applies all bonuses from the parts, finding the value that displays on the item card.
         It then sets the base value to this calculated value, and removes all the part bonuses so they don't apply twice.
         Any bonus applied after item initalization will work off of this new base value instead.
         <br>
@@ -42,7 +33,7 @@
         The relevant numbers here are:
         <div class="smallText">
             15 Base Mag Size on Hyperion Pistols
-            <br>Mag Size Grades on Hyperion Pistols are <span class="scale">scales</span> with 0 base and +0.07 per-grade.
+            <br>Mag Size Grades on Hyperion Pistols have 0 base and <span class="scale perGrade">+0.07</span>.
             <br>Blue Hyperion Body gives <span class="grade">+5</span>.
             <br>The Crit Fibber's Barrel gives <span class="scale">+130</span>.
             <br>The Crit Fibber's BPD gives <span class="scale">-128</span>, which is applied after initalization.
@@ -51,13 +42,19 @@
         Using these numbers we can calculate both values we observed earlier as follows:
         <br>
         <code>
-            FINAL = (15 + [0]) &times; (1 + [130 + (0 + 0.07 &times; 5)]) &divide; (1 - [0]) + [0]
+            FINAL = (15 + <span class="preAdd">[0]</span>)
+                &times; (1 + <span class="scale">[130 + (0 + 0.07 <span class="grade">&times; [5]</span>)]</span>)
+                &divide; (1 - <span class="scale">[0]</span>)
+                + <span class="postAdd">[0]</span>
             <br>
-            NEWBASE = FINAL = 1970.25 = 1970
+            NEW_BASE = FINAL = 1970.25 = 1970
             <br>
-            FINAL = (1970 + [0]) &times; (1 + [0]) &divide; (1 - [-128]) + [0]
+            NEW_FINAL = (1970 + <span class="preAdd">[0]</span>)
+                &times; (1 + <span class="scale">[0]</span>)
+                &divide; (1 - <span class="scale">[-128]</span>)
+                + <span class="postAdd">[0]</span>
             <br>
-            FINAL = 15.271... = 15
+            NEW_FINAL = 15.271... = 15
         </code>
     </div>
 </body>

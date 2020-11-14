@@ -5,6 +5,11 @@
     <title>Accuracy Mechanics</title>
     <link rel="stylesheet" type="text/css" href="/bl2/style.css">
     <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
+    <style>
+        #reference-table th:first-child {
+            max-width: var(--img-size-small);
+        }
+    </style>
 </head>
 <body>
     <h1>Accuracy Mechanics</h1>
@@ -13,14 +18,29 @@
         <br>
         <h3>Basics</h3>
         When you fire a shot, the direction of each projectile is picked in two passes.
-        First, the game picks a general direction for the "cluster" of bullets to go, then each individual projectile gets it's own offset from that.
-        Weapons with custom spread patterns may ignore the second pass.
+        First, the game picks a general angle for the whole "cluster" of bullets to go, within the "cluster range".
+        Each individual projectile then adds it's own offset onto the general angle, adding the "weapon spread".
         <br>
-        As you fire your shots get more inaccurate - this is done by increasing your "cluster range".
+        Some weapons with custom spread patterns predefine angles for the first pass.
+        Others spawn additional projectiles around the original ones, taking into account the final angles.
+        <br>
+        As you fire your shots get more inaccurate - this is done by increasing your cluster range.
         Your cluster range rests at a base value normally, but is then increased up to a maximum when you shoot.
         As it gets bigger, your shots can fire further and further out.
         On idle you will naturally regen back towards the base value, so once you stop shooting you eventually get back to normal.
-        <br>
+    </div>
+    <table id="reference-table" class="verticalCenter"><tr>
+        <td></td><th>Low Cluster Range</th><th>High Cluster Range</th>
+    </tr><tr>
+        <th>Low Weapon Spread</th>
+        <td><img class="massive" src="^images/low_low.png"></td>
+        <td><img class="massive" src="^images/low_high.png"></td>
+    </tr><tr>
+        <th>High Weapon Spread</th>
+        <td><img class="massive" src="^images/high_low.png"></td>
+        <td><img class="massive" src="^images/high_high.png"></td>
+    </tr></table>
+    <div class="text">
         <h3>Attributes</h3>
         Accuracy is controlled by six attributes, listed below alongside with their effect when increased.
         <table class="left">
@@ -40,14 +60,14 @@
                 <th>Impulse Accuracy</th>
                 <td>Increases the amount the cluster range grows each time you shoot, decreasing accuracy.</td>
             </tr><tr>
-                <th>Burst Impulse</th>
-                <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy.</td>
+                <th>Burst Impulse Scale</th>
+                <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy. This is a multiplier of the gun's Impulse Accuracy.</td>
             </tr>
         </table>
         The accuracy stat on the weapon card is controlled by weapon spread.
         Crosshair size is controlled by a combination of the weapon spread and the current cluster range.
         Weapon sway is controlled by the current cluster range.
-        Recoil is controlled by impulse accuracy or burst impulse, based on how you're firing.
+        Recoil is controlled by impulse accuracy and sometimes burst impulse, based on how you're firing.
         <br>
         It is possible to get weapons where the min accuracy is greater than the max.
         When this happens the cluster range simply stays constant.
@@ -68,7 +88,7 @@
         <br>
         <span class="scale">Scale</span> bonuses are the one type that may have issues - multiplying a positive number makes it bigger but multiplying a negative makes it smaller.
         Sometimes Gearbox gives a part Hyperion manufacturer bonuses to invert the intended bonus properly, but sometimes they forget and it actually has the opposite effect.
-        <!-- TODO: are there examples of both? -->
+        <!-- TODO: are there actually examples where they forgot? -->
         <br>
         It would theoretically be possible for various bonuses combined to push the impulse accuracy or accuracy regen back past 0, removing Hyperion's special behavior, but in practice this never happens.
     </div>

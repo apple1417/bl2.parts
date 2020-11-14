@@ -9,37 +9,10 @@
 <body>
     <h1>Shield Calculation Guide</h1>
     <div class="text">
-        This guide covers how exactly to calculate shield stats.
+        This guide covers how exactly to calculate shield stats, and assumes you've already read the base guide
+        <a href="/bl2/shields/">here</a>, as well as the general formulas guide <a href="/bl2/formulas/">here</a>.
         <br>
         Any time this page references a shield it's going to be refering to the shield definition, which defines how exactly the stats on the other pages affect the final values.
-        <br>
-        <br>
-        <br>
-        There are two important concepts that are going to be used here a lot:
-        <br>
-        <br>
-        Firstly, the general formula for all stat bonuses is as follows:
-        <br>
-        <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
-            + <span class="postAdd">PostAdd</span>
-        </code>
-        <br>
-        All bonuses in a specific category are added together before being applied.
-        <br>
-        <br>
-        The other concept is grades.
-        Grades are simply an easy way to have multiple ranks of bonuses for different parts.
-        They are still categorised into one of the three bonus types mentioned above.
-        A grade bonus will be defined by both its base and per-grade value.
-        <br>
-        <code>
-            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
-        </code>
-        <br>
-        All grades from all parts are added up before being applied.
-        This matters for scale bonuses, where a positive base and negative per-grade value will eventually change the scale to a negative one, or vice versa.
         <br>
         <br>
         <h3>Capacity</h3>
@@ -48,11 +21,11 @@
     <table><tr>
         <th>BL2</th><th>TPS</th>
     </tr><tr>
-        <td><code>64&times;(1.13^level)</code></td>
-        <td><code>65.6&times;(1.10^level)</code></td>
+        <td><code>64&times;&beta;</code></td>
+        <td><code>65.6&times;&beta;</code></td>
     </tr></table>
     <div class="text">
-        The default bonus is <span class="scale">+0.03/g</span>, the following shields use unique ones:
+        The default bonus is <span class="scale perGrade">+0.03</span>, the following shields use unique ones:
     </div>
     <table><tr>
         <th>Definition</th>
@@ -62,13 +35,13 @@
         <td>0</td>
     </tr><tr>
         <td>Big Boom Blaster</td>
-        <td><span class="preAdd">+15%</span>, <span class="scale">0.12 +0.03/g</span></td>
+        <td><span class="preAdd">+15%</span>, <span class="scale perGrade">0.12 +0.03</span></td>
     </tr><tr>
         <td>Sponge</td>
-        <td class="scale">0.05 +0.03/g</td>
+        <td class="scale perGrade">0.05 +0.03</td>
     </tr><tr>
         <td>Rapid Release</td>
-        <td><span class="preAdd">-40%</span>, <span class="scale">+0.0015/g</span></td>
+        <td><span class="preAdd">-40%</span>, <span class="scale perGrade">+0.0015</span></td>
     </tr></table>
     <div class="text">
         The Rough Rider also has a unique base capacity of 100.
@@ -77,38 +50,38 @@
         <h3>Recharge Rate</h3>
         The base Recharge Rate is equal to 16% of the base capacity.
         <br>
-        The default bonus is <span class="scale">+0.03/g</span>, the following shields use unique ones:
+        The default bonus is <span class="scale perGrade">+0.03</span>, the following shields use unique ones:
     </div>
     <table><tr>
         <th>Definition</th>
         <th>Bonus</th>
     </tr><tr>
         <td>Roid</td>
-        <td><span class="preAdd">+10%</span>, <span class="scale">+0.03/g</span></td>
+        <td><span class="preAdd">+10%</span>, <span class="scale perGrade">+0.03</span></td>
     </tr><tr>
         <td>Evolution</td>
         <td class="preAdd">-90%</td>
     </tr><tr>
         <td>Big Boom Blaster</td>
-        <td class="scale">0.05 +0.03/g</td>
+        <td class="scale perGrade">0.05 +0.03</td>
     </tr><tr>
         <td>Pun-chee</td>
-        <td><span class="preAdd">+10%</span>, <span class="scale">2 +0.03/g</span></td>
+        <td><span class="preAdd">+10%</span>, <span class="scale perGrade">2 +0.03</span></td>
     </tr><tr>
         <td>Sponge</td>
-        <td class="scale">0.05 +0.03/g</td>
+        <td class="scale perGrade">0.05 +0.03</td>
     </tr><tr>
         <td>Rough Rider</td>
         <td>0</td>
     </tr><tr>
         <td>Rapid Release</td>
-        <td><span class="preAdd">+50%</span>, <span class="scale">+0.015/g</span></td>
+        <td><span class="preAdd">+50%</span>, <span class="scale perGrade">+0.015</span></td>
     </tr><tr>
         <td>The Shooting Star</td>
-        <td><span class="preAdd">+10%</span>, <span class="scale">+0.03/g</span></td>
+        <td><span class="preAdd">+10%</span>, <span class="scale perGrade">+0.03</span></td>
     </tr><tr>
         <td>Naught</td>
-        <td><span class="preAdd">-15%</span>, <span class="scale">+0.012/g</span></td>
+        <td><span class="preAdd">-15%</span>, <span class="scale perGrade">+0.012</span></td>
     </tr></table>
     <div class="text">
         The Rough Rider actually uses the normal recharge rate, but calculated from the normal base capacity, not its unique one.
@@ -117,32 +90,32 @@
         <h3>Recharge Delay</h3>
         The base Recharge Delay is 3.50s.
         <br>
-        The default bonus is <span class="scale">+0.04/g</span>, the following shields use unique ones:
+        The default bonus is <span class="scale perGrade">+0.04</span>, the following shields use unique ones:
     </div>
     <table><tr>
         <th>Definition</th>
         <th>Bonus</th>
     </tr><tr>
         <td>Roid</td>
-        <td><span class="preAdd">+15%</span>, <span class="scale">+0.04/g</span></td>
+        <td><span class="preAdd">+15%</span>, <span class="scale perGrade">+0.04</span></td>
     </tr><tr>
         <td>Big Boom Blaster</td>
-        <td class="scale">0.05 +0.04/g</td>
+        <td class="scale perGrade">0.05 +0.04</td>
     </tr><tr>
         <td>Pun-chee</td>
-        <td><span class="preAdd">+15%</span>, <span class="scale">0.3 +0.04/g</span></td>
+        <td><span class="preAdd">+15%</span>, <span class="scale perGrade">0.3 +0.04</span></td>
     </tr><tr>
         <td>Sponge</td>
-        <td class="scale">0.05 +0.04/g</td>
+        <td class="scale perGrade">0.05 +0.04</td>
     </tr><tr>
         <td>Rough Rider</td>
         <td>0</td>
     </tr><tr>
         <td>Rapid Release</td>
-        <td><span class="preAdd">-40%</span>, <span class="scale">+0.02/g</span></td>
+        <td><span class="preAdd">-40%</span>, <span class="scale perGrade">+0.02</span></td>
     </tr><tr>
         <td>The Shooting Star</td>
-        <td><span class="preAdd">+15%</span>, <span class="scale">+0.04/g</span></td>
+        <td><span class="preAdd">+15%</span>, <span class="scale perGrade">+0.04</span></td>
     </tr><tr>
         <td>Naught</td>
         <td>0</td>
@@ -165,35 +138,35 @@
         <th>Bonus</th><th>Type</th><th>Bonus</th><th>Type</th>
     </tr><tr>
         <td>Absorption</td>
-        <td>15 <span class="preAdd">+0.8/g</span></td><td>Absorb Chance</td>
+        <td>15 <span class="preAdd perGrade">+0.8</span></td><td>Absorb Chance</td>
         <td>100%</td><td>Damage Negation on Absorb</td>
     </tr><tr>
         <td>Adaptive</td>
-        <td>25 <span class="postAdd">+1.3/g</span><sup>1</sup></td><td>Elemental Resistance</td>
-        <td><span class="preAdd">20% + 1.1%/g</span><sup>1</sup></td><td>Max Health</td>
+        <td>25 <span class="postAdd perGrade">+1.3</span><sup>1</sup></td><td>Elemental Resistance</td>
+        <td><span class="preAdd perGrade">20% + 1.1%</span><sup>1</sup></td><td>Max Health</td>
     </tr><tr>
         <td>Amp</td>
-        <td class="postAdd">200% +9.5%/g</td><td>Amp Damage</td>
-        <td class="postAdd">30% -0.7%/g</td><td>Amp Drain</td>
+        <td class="postAdd perGrade">200% +9.5%</td><td>Amp Damage</td>
+        <td class="postAdd perGrade">30% -0.7%</td><td>Amp Drain</td>
     </tr><tr>
         <td>Booster</td>
-        <td>5 <span class="preAdd">+0.275/g</span></td><td>Booster Chance</td>
+        <td>5 <span class="preAdd perGrade">+0.275</span></td><td>Booster Chance</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Nova (Maliwan)</td>
-        <td class="preAdd">1000% +55%/g</td><td>Nova Damage</td>
-        <td>800 <span class="preAdd">+28/g</span></td><td>Nova Radius</td>
+        <td class="preAdd perGrade">1000% +55%</td><td>Nova Damage</td>
+        <td>800 <span class="preAdd perGrade">+28</span></td><td>Nova Radius</td>
     </tr><tr>
         <td>Nova (Torgue)</td>
-        <td class="preAdd">1300% +55%/g</td><td>Nova Damage</td>
-        <td>800 <span class="preAdd">+28/g</span></td><td>Nova Radius</td>
+        <td class="preAdd perGrade">1300% +55%</td><td>Nova Damage</td>
+        <td>800 <span class="preAdd perGrade">+28</span></td><td>Nova Radius</td>
     </tr><tr>
         <td>Roid</td>
-        <td><span class="postAdd">100% +8%/g</span><sup>2</sup></td><td>Roid Damage</td>
+        <td><span class="postAdd perGrade">100% +8%</span><sup>2</sup></td><td>Roid Damage</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Spike</td>
-        <td class="preAdd">500% +20%/g</td><td>Spike Damage</td>
+        <td class="preAdd perGrade">500% +20%</td><td>Spike Damage</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Standard</td>
@@ -201,22 +174,22 @@
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Turtle</td>
-        <td class="preAdd">(-40)% +0.9%/g</td><td>Max Health</td>
+        <td class="preAdd perGrade">(-40)% +0.9%</td><td>Max Health</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>The Bee</td>
-        <td class="postAdd">1000% +9.5%/g</td><td>Amp Damage</td>
+        <td class="postAdd perGrade">1000% +9.5%</td><td>Amp Damage</td>
         <td>0</td><td>Amp Drain</td>
     </tr><tr>
         <td rowspan="2" class="verticalCenter">Hide of Terramorphous</td>
-        <td><span class="postAdd">100% +8%/g</span><sup>2</sup></td><td>Roid Damage</td>
-        <td class="preAdd">1000% +55%/g</td><td>Nova Damage</td>
+        <td><span class="postAdd perGrade">100% +8%</span><sup>2</sup></td><td>Roid Damage</td>
+        <td class="preAdd perGrade">1000% +55%</td><td>Nova Damage</td>
     </tr><tr>
-        <td>800 <span class="preAdd">+28/g</span><sup>3</sup></td><td>Nova Radius</td>
-        <td><span class="preAdd">500% +20%/g</span><sup>3</sup></td><td>Spike Damage</td>
+        <td>800 <span class="preAdd perGrade">+28</span><sup>3</sup></td><td>Nova Radius</td>
+        <td><span class="preAdd perGrade">500% +20%</span><sup>3</sup></td><td>Spike Damage</td>
     </tr><tr>
         <td>Whisky Tango Foxtrot (BL2)</td>
-        <td>5 <span class="preAdd">+0.275/g</span></td><td>Booster Chance</td>
+        <td>5 <span class="preAdd perGrade">+0.275</span></td><td>Booster Chance</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Manly Man Shield</td>
@@ -224,90 +197,90 @@
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Big Boom Blaster</td>
-        <td>13 <span class="preAdd">+0.275/g</span></td><td>Booster Chance</td>
+        <td>13 <span class="preAdd perGrade">+0.275</span></td><td>Booster Chance</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Hoplite</td>
-        <td class="preAdd">(-50)% +0.9%/g</td><td>Max Health</td>
+        <td class="preAdd perGrade">(-50)% +0.9%</td><td>Max Health</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Pun-chee</td>
-        <td><span class="postAdd">105% +8%/g</span><sup>2</sup></td><td>Roid Damage</td>
+        <td><span class="postAdd perGrade">105% +8%</span><sup>2</sup></td><td>Roid Damage</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Sponge</td>
-        <td>20 <span class="preAdd">+0.8/g</span></td><td>Absorb Chance</td>
+        <td>20 <span class="preAdd perGrade">+0.8</span></td><td>Absorb Chance</td>
         <td>100%</td><td>Damage Negation on Absorb</td>
     </tr><tr>
         <td>Rough Rider</td>
         <td>20%</td><td>Damage Resistance</td>
-        <td><span class="preAdd">35% + 1.1%/g</span><sup>1</sup></td><td>Max Health</td>
+        <td><span class="preAdd perGrade">35% + 1.1%</span><sup>1</sup></td><td>Max Health</td>
     </tr><tr>
         <td>Antagonist</td>
-        <td class="postAdd">+700% +20%/g</td><td>Reflected Bullet Damage</td>
-        <td class="preAdd">+40% +1%/g<sup>1</sup></td><td>Damage Reduction</td>
+        <td class="postAdd perGrade">+700% +20%</td><td>Reflected Bullet Damage</td>
+        <td class="preAdd perGrade">+40% +1%<sup>1</sup></td><td>Damage Reduction</td>
     </tr><tr>
         <td>Blockade</td>
         <td>-</td><td>-</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Easy Mode</td>
-        <td class="preAdd">1000% +55%/g</td><td>Nova Damage</td>
-        <td>800 <span class="preAdd">+28/g</span></td><td>Nova Radius</td>
+        <td class="preAdd perGrade">1000% +55%</td><td>Nova Damage</td>
+        <td>800 <span class="preAdd perGrade">+28</span></td><td>Nova Radius</td>
     </tr><tr>
         <td>Retainer</td>
-        <td><span class="postAdd">100% +8%/g</span><sup>2</sup></td><td>Roid Damage</td>
+        <td><span class="postAdd perGrade">100% +8%</span><sup>2</sup></td><td>Roid Damage</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Asteroid Belt</td>
-        <td>25 <span class="preAdd">+1/g</span></td><td>Meteor Chance</td>
-        <td class="preAdd">200% +20%/g</td><td>Meteor Damage</td>
+        <td>25 <span class="preAdd perGrade">+1</span></td><td>Meteor Chance</td>
+        <td class="preAdd perGrade">200% +20%</td><td>Meteor Damage</td>
     </tr><tr>
         <td rowspan="2" class="verticalCenter">Avalanche</td>
-        <td><span class="postAdd">100% +8%/g</span><sup>2</sup></td><td>Roid Damage</td>
-        <td class="preAdd">1200% +65%/g</td><td>Nova Damage</td>
+        <td><span class="postAdd perGrade">100% +8%</span><sup>2</sup></td><td>Roid Damage</td>
+        <td class="preAdd perGrade">1200% +65%</td><td>Nova Damage</td>
     </tr><tr>
-        <td>800 <span class="preAdd">+28/g</span><sup>3</sup></td><td>Nova Radius</td>
-        <td><span class="preAdd">600% +24%/g</span><sup>3</sup></td><td>Spike Damage</td>
+        <td>800 <span class="preAdd perGrade">+28</span><sup>3</sup></td><td>Nova Radius</td>
+        <td><span class="preAdd perGrade">600% +24%</span><sup>3</sup></td><td>Spike Damage</td>
     </tr><tr>
         <td>Haymaker</td>
-        <td>25 <span class="postAdd">+1.3/g</span><sup>1</sup></td><td>Elemental Resistance</td>
-        <td><span class="preAdd">30% + 1.5%/g</span><sup>1</sup></td><td>Max Health</td>
+        <td>25 <span class="postAdd perGrade">+1.3</span><sup>1</sup></td><td>Elemental Resistance</td>
+        <td><span class="preAdd perGrade">30% + 1.5%</span><sup>1</sup></td><td>Max Health</td>
     </tr><tr>
         <td rowspan="2" class="verticalCenter">Prismatic Bulwark</td>
-        <td class="preAdd">24% +3%/g</td><td>Laser Absorb Chance</td>
+        <td class="preAdd perGrade">24% +3%</td><td>Laser Absorb Chance</td>
         <td>100%</td><td>Damage Negation on Absorb</td>
     </tr><tr>
-        <td><span class="scale">0.75 +0.075/g</span><sup>3</sup></td><td>Laser Damage</td>
-        <td><span class="scale">-1 -0.1/g</span><sup>3</sup></td><td>Laser Damage Resistance</td>
+        <td><span class="scale perGrade">0.75 +0.075</span><sup>3</sup></td><td>Laser Damage</td>
+        <td><span class="scale perGrade">-1 -0.1</span><sup>3</sup></td><td>Laser Damage Resistance</td>
     </tr><tr>
         <td>Slammer</td>
-        <td>9 <span class="preAdd">+0.275/g</span></td><td>Booster Chance</td>
+        <td>9 <span class="preAdd perGrade">+0.275</span></td><td>Booster Chance</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Sunshine</td>
-        <td class="preAdd">1500% +55%/g</td><td>Nova Damage</td>
-        <td>1500 <span class="preAdd">+38/g</span></td><td>Nova Radius</td>
+        <td class="preAdd perGrade">1500% +55%</td><td>Nova Damage</td>
+        <td>1500 <span class="preAdd perGrade">+38</span></td><td>Nova Radius</td>
     </tr><tr>
         <td>Supernova</td>
-        <td class="preAdd">1500% +55%/g</td><td>Nova Damage</td>
-        <td>1600 <span class="preAdd">+38/g</span></td><td>Nova Radius</td>
+        <td class="preAdd perGrade">1500% +55%</td><td>Nova Damage</td>
+        <td>1600 <span class="preAdd perGrade">+38</span></td><td>Nova Radius</td>
     </tr><tr>
         <td>The Shooting Star</td>
-        <td><span class="postAdd">125% +10.5%/g</span><sup>2</sup></td><td>Roid Damage</td>
+        <td><span class="postAdd perGrade">125% +10.5%</span><sup>2</sup></td><td>Roid Damage</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Whisky Tango Foxtrot (TPS)</td>
-        <td>9 <span class="preAdd">+0.275/g</span></td><td>Booster Chance</td>
+        <td>9 <span class="preAdd perGrade">+0.275</span></td><td>Booster Chance</td>
         <td>-</td><td>-</td>
     </tr><tr>
         <td>Rapid Release</td>
-        <td class="preAdd">500% +5%/g</td><td>Nova Damage</td>
-        <td>800 <span class="preAdd">+8/g</span></td><td>Nova Radius</td>
+        <td class="preAdd perGrade">500% +5%</td><td>Nova Damage</td>
+        <td>800 <span class="preAdd perGrade">+8</span></td><td>Nova Radius</td>
     </tr><tr>
         <td>Rerouter</td>
-        <td class="postAdd">1500% +9.5%/g</td><td>Amp Damage</td>
-        <td class="postAdd">60% -0.6%/g</td><td>Amp Drain</td>
+        <td class="postAdd perGrade">1500% +9.5%</td><td>Amp Damage</td>
+        <td class="postAdd perGrade">60% -0.6%</td><td>Amp Drain</td>
     </tr></table>
     <div class="text">
         <div class="footnotes">
@@ -332,18 +305,10 @@
         To get the displayed resistance use
         <code>100 &times; (1 - 1&divide;(1 + BASE&times;0.011))</code>.
         <br>
-        All forms of shield damage are applied onto a base value found using one of the following formulas:
-    </div>
-    <table><tr>
-        <th>BL2</th><th>TPS</th>
-    </tr><tr>
-        <td><code>8&times;(1.13^level)</code></td>
-        <td><code>8&times;(1.10^level)</code></td>
-    </tr></table>
-    <div class="text">
+        All forms of shield damage are applied onto a base value equal to 8&times;&beta;.
         Roid Damage has an extra &times;2.5 multiplier on top of this.
         <br>
-        The Antagonist is the only shield not to apply its bonus onto this value, instead it's applied onto the damage of the bullet it reflected.
+        The Antagonist is the only shield not to apply its damage bonus onto this value, instead it's applied onto the damage of the bullet it reflected.
         <br>
         <br>
         <h4>Extra Specials</h4>
@@ -368,11 +333,6 @@
         <br>
         The Blockade has an unlisted amount of damage reduction.
         Unlike what the card might suggest, the amount is only affected by shield level, not parts or current capacity.
-        <br>
-        It can be calculated using:
-        <br>
-        <code>(LEVEL &divide; 2) + 7.5</code>.
-        <br>
-        See the point on damage resitance above for how exactly this is applied.
+        It is equal to <code>(LEVEL &divide; 2) + 7.5</code>.
     </div>
 </body>

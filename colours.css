@@ -26,6 +26,20 @@
 .glitch {
     color: #ffa4e7
 }
+.effervescent, .rainbow {
+    animation: effervescent-colours 2s linear infinite;
+    color: #b1b151; /* Fallback */
+}
+@keyframes effervescent-colours {
+    /* Probably not 100% accurate, idk what interpolation this uses or what I actually need */
+    0% { color: #e95151; }
+    16.7% { color: #b1b151; }
+    33.3% { color: #51e951; }
+    50% { color: #51b1b1; }
+    66.7% { color: #5151e9; }
+    83.3% { color: #b151b1; }
+    100% { color: #e95151; }
+}
 
 .explosive {
     color: #f1d300;

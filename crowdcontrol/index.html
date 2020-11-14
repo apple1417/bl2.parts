@@ -28,47 +28,49 @@
             font-family: Roboto Mono;
             font-size: 50px;
             text-align: center;
-            color: #e7e8e9;
+            color: var(--main-text-colour);
             width: 19em;
             background: #444;
             border: 3px solid #222;
         }
 
-        #copy {
+        #copyRetry {
             font-family: Roboto Mono;
             font-size: 50px;
             text-align: center;
-            color: #e7e8e9;
-            width: 3em;
+            color: var(--main-text-colour);
+            width: 4em;
+            cursor: pointer;
         }
 
-        .disabled {
+        .error {
             background: red; /* limegreen */
             border: 3px solid maroon; /* green */
         }
 
-        .enabled {
+        .ok {
             background: limegreen;
             border: 3px solid green;
-            cursor: pointer;
         }
     </style>
     <script>
-        var tokenBox = null;
-        var copyButton = null;
         var token = "";
         window.addEventListener("load", function() {
-            tokenBox = document.getElementById("token");
-            copyButton = document.getElementById("copy");
+            var tokenBox = document.getElementById("token");
+            var copyRetryButton = document.getElementById("copyRetry");
 
-            var match = document.location.hash.match(/access_token=([a-z0-9]+)&/i);
+            var match = document.location.hash.match(/access_token=([a-z0-9]+)($|&)/i);
             if (match != null) {
                 token = match[1];
-                tokenBox.value = token
+                tokenBox.value = token;
 
-                copyButton.disabled = false
-                copyButton.classList.replace("disabled", "enabled")
-            } else {
+                copyRetryButton.classList.replace("error", "ok");
+                copyRetryButton.value = "COPY";
+            }
+        });
+
+        function copyRetry() {
+            if (token == "") {
                 window.location.replace(
                     "https://id.twitch.tv/oauth2/authorize?"
                     + "client_id=q131zkxe0ozu8aqvvuav5ftt7g5lhj"
@@ -77,16 +79,14 @@
                     + "&scope=channel:read:redemptions"
                     + "&force_verify=true"
                 );
+            } else {
+                var dummy = document.createElement("textarea");
+                document.body.appendChild(dummy);
+                dummy.value = token;
+                dummy.select();
+                document.execCommand("copy");
+                document.body.removeChild(dummy);
             }
-        });
-
-        function copy() {
-            var dummy = document.createElement("textarea");
-            document.body.appendChild(dummy);
-            dummy.value = token;
-            dummy.select();
-            document.execCommand("copy");
-            document.body.removeChild(dummy);
         }
     </script>
 </head>
@@ -95,7 +95,7 @@
         <h1>Your Token:</h1>
         <div id="inner">
             <input id="token" type="text" readonly value="ERROR">
-            <input id="copy" class="disabled" type="button" onclick="copy()" disabled value="COPY"></div>
+            <input id="copyRetry" class="error" type="button" onclick="copyRetry()" value="RETRY">
         </div>
     </div>
 </body>

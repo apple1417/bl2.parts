@@ -9,34 +9,8 @@
 <body>
     <h1>Pistol Calculation Guide</h1>
     <div class="text">
-        This guide covers how exactly to calculate pistol stats, and assumes you've already read the base guide <a href="/bl2/pistols/">here</a>.
-        <br>
-        <br>
-        There are two important concepts that are going to be used here a lot:
-        <br>
-        <br>
-        Firstly, the general formula for all stat bonuses is as follows:
-        <br>
-        <code>
-            FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
-            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
-            + <span class="postAdd">PostAdd</span>
-        </code>
-        <br>
-        All bonuses in a specific category are added together before being applied.
-        <br>
-        <br>
-        The other concept is grades.
-        Grades are simply an easy way to have multiple ranks of bonuses for different parts.
-        They are still categorised into one of the three bonus types mentioned above.
-        A grade bonus will be defined by both its base and per-grade value.
-        <br>
-        <code>
-            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
-        </code>
-        <br>
-        All grades from all parts are added up before being applied.
-        This matters for scale bonuses, where a positive base and negative per-grade value will eventually change the scale to a negative one, or vice versa.
+        This guide covers how exactly to calculate pistol stats, and assumes you've already read the base guide
+        <a href="/bl2/pistols/">here</a>, as well as the general formulas guide <a href="/bl2/formulas/">here</a>.
         <br>
         <br>
         Note that the previous page did adjust some of the bonuses a bit:
@@ -48,13 +22,12 @@
         <br>
         <br>
         <h3>Weapon Type Definition</h3>
-        Weapon Type Definitions are the most important part when it comes to calculating stats.
-        They define the formulas for the base values for each stat, as well as the base and per-grade bonuses.
-        This means even having the exact same parts on weapons with two different definitions can give you different stats.
+        The Weapon Type Definition is the most important part when it comes to calculating stats.
+        It defines all the formulas and base values for all the gun's stats.
+        It also sets up certain stats to use grades, and configures the base and per-grade bonuses.
+        This means that even if they have the exact same parts, two weapons with two different definitions can have you different stats.
         <br>
-         There are 8 different definitions, one for each manufacturer.
-         This table shows how each definition defines their base and per-grade stats.
-         There are more attributes which use grades, but their formulas are not fully known.
+        There are 8 different definitions, one for each manufacturer.
     </div>
     <table><tr>
         <th></th>
@@ -64,28 +37,76 @@
         <th>Jakobs</th>
     </tr><tr>
         <th>Weapon Damage</th>
-        <td>11.36&times;&beta; <span class="scale">+0.03/g</span></td>
-        <td>11.2&times;&beta; <span class="scale">+0.03/g</span></td>
-        <td>12&times;&beta; <span class="scale">+0.03/g</span></td>
-        <td>17.6&times;&beta; <span class="scale">+0.03/g</span></td>
+        <td>11.36&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>11.2&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>12&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>17.6&times;&beta; <span class="scale perGrade">+0.03</span></td>
     </tr><tr>
         <th>Fire Interval</th>
-        <td>0.23 <span class="scale">-0.03/g</span></td>
-        <td>0.08 <span class="scale">-0.03/g</span></td>
-        <td>0.2 <span class="scale">-0.03/g</span></td>
-        <td>0.06 <span class="scale">-0.03/g</span></td>
+        <td>0.23 <span class="scale perGrade">-0.03</span></td>
+        <td>0.08 <span class="scale perGrade">-0.03</span></td>
+        <td>0.2 <span class="scale perGrade">-0.03</span></td>
+        <td>0.06 <span class="scale perGrade">-0.03</span></td>
     </tr><tr>
         <th>Mag Size</th>
-        <td>36 <span class="scale">+0.07/g</span></td>
-        <td>16 <span class="scale">+0.07/g</span></td>
-        <td>15 <span class="scale">+0.07/g</span></td>
-        <td>6 <span class="scale">+0.07/g</span></td>
+        <td>36 <span class="scale perGrade">+0.07</span></td>
+        <td>16 <span class="scale perGrade">+0.07</span></td>
+        <td>15 <span class="scale perGrade">+0.07</span></td>
+        <td>6 <span class="scale perGrade">+0.07</span></td>
     </tr><tr>
         <th>Reload Time</th>
-        <td>3 <span class="scale">-0.05/g</span></td>
-        <td>1.85 <span class="scale">-0.05/g</span></td>
-        <td>1.95 <span class="scale">-0.05/g</span></td>
-        <td>2.1 <span class="scale">-0.05/g</span></td>
+        <td>3 <span class="scale perGrade">-0.05</span></td>
+        <td>1.85 <span class="scale perGrade">-0.05</span></td>
+        <td>1.95 <span class="scale perGrade">-0.05</span></td>
+        <td>2.1 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Weapon Spread</th>
+        <td>2.4 <span class="scale perGrade">-0.05</span></td>
+        <td>1.6 <span class="scale perGrade">-0.05</span></td>
+        <td>0.5 <span class="scale perGrade">-0.05</span></td>
+        <td>0.9 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Impulse Accuracy</th>
+        <td>2.3 <span class="scale perGrade">-0.05</span></td>
+        <td>1.8 <span class="scale perGrade">-0.05</span></td>
+        <td>-2.7 <span class="scale perGrade">+0.05</span></td>
+        <td>3 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Burst Impulse Scale</th>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+        <td>0.5 <span class="scale perGrade">-0.05</span></td>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Zoom FOV</th>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+    </tr><tr>
+        <th>Projectile Count</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr><tr>
+        <th>Shot Cost</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr><tr>
+        <th>Status Chance Base</th>
+        <td>0.6</td>
+        <td>0.6</td>
+        <td>0.6</td>
+        <td>0.6</td>
+    </tr><tr>
+        <th>Status Chance Damage</th>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
     </tr><tr>
         <th></th>
         <th>Maliwan</th>
@@ -94,82 +115,82 @@
         <th>Vladof</th>
     </tr><tr>
         <th>Weapon Damage</th>
-        <td>14.4&times;&beta; <span class="scale">+0.03/g</span></td>
-        <td>11.2&times;&beta; <span class="scale">+0.03/g</span></td>
-        <td>16&times;&beta; <span class="scale">+0.03/g</span></td>
-        <td>11.6&times;&beta; <span class="scale">+0.03/g</span></td>
+        <td>14.4&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>11.2&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>16&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>11.6&times;&beta; <span class="scale perGrade">+0.03</span></td>
     </tr><tr>
-        <th>Fire Interval<sup>1</sup></th>
-        <td>0.4 <span class="scale">-0.03/g</span></td>
-        <td>0.21 <span class="scale">-0.03/g</span></td>
-        <td>0.5 <span class="scale">-0.03/g</span></td>
-        <td>0.125 <span class="scale">-0.03/g</span></td>
+        <th>Fire Interval</th>
+        <td>0.4 <span class="scale perGrade">-0.03</span></td>
+        <td>0.21 <span class="scale perGrade">-0.03</span></td>
+        <td>0.5 <span class="scale perGrade">-0.03</span></td>
+        <td>0.125 <span class="scale perGrade">-0.03</span></td>
     </tr><tr>
         <th>Mag Size</th>
-        <td>6 <span class="scale">+0.07/g</span></td>
-        <td>13 <span class="scale">+0.07/g</span></td>
-        <td>7 <span class="scale">+0.07/g</span></td>
-        <td>20 <span class="scale">+0.07/g</span></td>
+        <td>6 <span class="scale perGrade">+0.07</span></td>
+        <td>13 <span class="scale perGrade">+0.07</span></td>
+        <td>7 <span class="scale perGrade">+0.07</span></td>
+        <td>20 <span class="scale perGrade">+0.07</span></td>
     </tr><tr>
         <th>Reload Time</th>
-        <td>2.1 <span class="scale">-0.05/g</span></td>
-        <td>1.3 <span class="scale">-0.05/g</span></td>
-        <td>2.2 <span class="scale">-0.05/g</span></td>
-        <td>2.2 <span class="scale">-0.05/g</span></td>
-    </tr></table>
-    <div class="text">
-        Weapon damage bonuses are applied to the same base scaling value called &beta; above. This changes slightly between games.
-    </div>
-    <table><tr>
-        <th>BL2</th><th>TPS</th>
+        <td>2.1 <span class="scale perGrade">-0.05</span></td>
+        <td>1.3 <span class="scale perGrade">-0.05</span></td>
+        <td>2.2 <span class="scale perGrade">-0.05</span></td>
+        <td>2.2 <span class="scale perGrade">-0.05</span></td>
     </tr><tr>
-        <td><code>1.13 ^ Level</code></td>
-        <td><code>1.10 ^ Level</code></td>
-    </tr></table>
-    <div class="text">
-        Some stats have a constant base value across all definitions. Note that none of these stats use grades.
-    </div>
-    <table><tr>
-        <th>Crit Damage</th>
-        <td>2</td>
-    </td><tr>
+        <th>Weapon Spread</th>
+        <td>1.5 <span class="scale perGrade">-0.05</span></td>
+        <td>2 <span class="scale perGrade">-0.05</span></td>
+        <td>2 <span class="scale perGrade">-0.05</span></td>
+        <td>2.1 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Impulse Accuracy</th>
+        <td>2.5 <span class="scale perGrade">-0.05</span></td>
+        <td>2.3 <span class="scale perGrade">-0.05</span></td>
+        <td>1.5 <span class="scale perGrade">-0.05</span></td>
+        <td>1.8 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Burst Impulse Scale</th>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+        <td>0 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Zoom FOV</th>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+        <td>50 <span class="scale perGrade">-0.13</span></td>
+    </tr><tr>
         <th>Projectile Count</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
         <td>1</td>
     </tr><tr>
         <th>Shot Cost</th>
         <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
     </tr><tr>
         <th>Status Chance Base</th>
         <td>0.6</td>
+        <td>0.6</td>
+        <td>0.6</td>
+        <td>0.6</td>
     </tr><tr>
-        <th>Status Chance Modifier</th>
-        <td>1</td>
-    </tr><tr>
-        <th>Status Effect Damage</th>
+        <th>Status Chance Damage</th>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
         <td>8&times;&beta;</td>
     </tr></table>
     <div class="text">
-        Status Effect Chance is a bit special.
-        It is comprised of two values, the base and multiplier.
-        Pistols only ever change the modifier.
-        The final chance will multiply the base value with the multiplier and one of the following values, based on element and enemy type.
+        This list is of course not exhaustive.
         <br>
-        Note that the weapon card will use the generic value.
-    </div>
-    <table><tr>
-        <th>Enemy Type</th><th class="fire">Fire</th><th class="shock">Shock</th>
-        <th class="corrosive">Corrosive</th><th class="slag">Slag</th><th class="cryo">Cryo</th>
-    </tr><tr>
-        <td>Generic</td><td>20%</td><td>20%</td><td>20%</td><td>30%</td><td>15%</td>
-    </tr><tr>
-        <td>Flesh</td><td>30%</td><td>15%</td><td>15%</td><td>30%</td><td>15%</td>
-    </tr><tr>
-        <td>Armor</td><td>15%</td><td>15%</td><td>30%</td><td>30%</td><td>15%</td>
-    </tr><tr>
-        <td>Shield</td><td>15%</td><td>75%</td><td>15%</td><td>30%</td><td>5%</td>
-    </tr></table>
-    <div class="text">
-        Some definitions have their own stat bonuses.
+        <br>
+        Some definitions also have their own stat bonuses, which always apply ontop of these base values.
     </div>
     <table><tr>
         <th>Dahl</th>
@@ -350,9 +371,9 @@
         <td class="grade">+7</td>
     </tr></table>
     <div class="text">
-        The <span class="pearl">Pearlescent</span> pistols each have their own unique body, but they all have the same bonuses.
+        The <span class="pearl">Pearlescent</span> pistols each use their own unique copy of the <span class="veryRare">Very Rare</span> body, with the same bonuses.
         <br>
-        The unused "Fire Drill" and "Fire Infinity" pistols share a unique copy of the <span class="veryRare">Very Rare</span> body, with the regular bonuses.
+        The unused "Fire Drill" and "Fire Infinity" pistols share a unique copy of the <span class="veryRare">Very Rare</span> body, with the same bonuses.
         <br>
         There are four bodies with different bonuses, two of the generic bandit bodies and two unique bodies.
     </div>
@@ -492,13 +513,18 @@
         <h3>Material</h3>
     </div>
     <table><tr>
-        <th>Gemstone</th><th>Old Hyperion</th>
+        <th>Quartz Gemstone</th><th>Other Gemstone</th><th>Old Hyperion</th>
     </tr><tr class="smallText">
         <td>
             <span class="postAdd">+0.15</span> Crit Damage
-            <br><span class="postAdd">+0.15</span> Bullet Reflection Chance
-            <br><span class="postAdd">-0.8</span> Bullet Reflection Self Damage
-            <br><span class="postAdd">-0.3</span> Bullet Reflection Damage
+            <br><span class="postAdd">+0.15</span> Reflect Off Self Chance
+            <br><span class="postAdd">-0.8</span> Reflect Off Self Self Damage
+            <br><span class="postAdd">-0.2</span> Reflect Off Self Damage
+        </td><td>
+            <span class="postAdd">+0.15</span> Crit Damage
+            <br><span class="postAdd">+0.15</span> Reflect Off Self Chance
+            <br><span class="postAdd">-0.8</span> Reflect Off Self Self Damage
+            <br><span class="postAdd">-0.3</span> Reflect Off Self Damage
         </td><td>
             <span class="scale">+0.5</span> Weapon Damage
             <br><span class="scale">+0.5</span> Fire Interval
@@ -523,7 +549,6 @@
             <span class="preAdd">+4</span> Mag Size
             <br><span class="scale">-0.3</span> Reload Time
         </td>
-    </tr><tr>
     </tr><tr>
         <th>Dahl</th>
         <td class="smallText">
@@ -570,7 +595,7 @@
         <td>-</td>
         <td class="smallText">
             <span class="preAdd">+2</span> Mag Size
-            <br><span class="scale">-0.15</span> Reload Time
+            <br><span class="preAdd">-0.15</span> Reload Time
         </td>
     </tr><tr>
         <th>Torgue</th>
@@ -596,140 +621,146 @@
     <br>
     <table><tr>
         <th>Double Laser</th><th>Tech 3 Firerate</th><th colspan="2">Vladof Barrel</th><th>Vladof Grip</th>
-    </tr><tr>
-        <td>On Hyperion</td><td>On Jakobs</td><td>On Bandit</td><td>On Jakobs</td><td>On Jakobs</td>
     </tr><tr class="smallText">
         <td>
-            <span class="preAdd">-4</span> Impulse accuracy
+            <b>On Hyperion</b>
+            <br><span class="preAdd">-4</span> Impulse accuracy
         </td><td>
-            <span class="preAdd">+2</span> Additional Ricochets
+            <b>On Jakobs</b>
+            <br><span class="preAdd">+2</span> Additional Ricochets
         </td><td>
-            <span class="preAdd">+2.5</span> Barrel Spin-up Time
+            <b>On Bandit</b>
+            <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
         </td><td>
-            <span class="preAdd">+3</span> Weapon Spread
+            <b>On Jakobs</b>
+            <br><span class="preAdd">+3</span> Weapon Spread
             <br><span class="preAdd">+1</span> Shot Cost
             <br><span class="preAdd">+1</span> Projectile Count
         </td><td>
-            <span class="scale">-0.15</span> Reload Time
+            <b>On Jakobs</b>
+            <br><span class="scale">-0.15</span> Reload Time
         </td>
     </tr></table>
     <div class="text">
-        <br>
-        There are several unique barrels with manufacturer bonuses.
+        There are several unique parts with manufacturer bonuses.
         As these are restricted to spawn on a single weapon with a set manufacturer these are of course either always or never active.
     </div>
     <table><tr>
-        <th>Hornet</th><th>Infinity</th><th>Logan's Gun</th><th>Thunderball Fists</th>
+        <th colspan="5"><h3>Barrels</h3></th>
+    </tr><tr>
+        <th>Hornet</th><th>Infinity</th><th>Logan's Gun</th><th>Thunderball Fists</th><th>Unkempt Harold</th>
     </tr><tr class="smallText">
         <td>
-            On Dahl:
+            <b>On Dahl</b>
             <br><span class="preAdd">+4</span> Burst Count
         </td><td>
-            On Bandit:
+            <b>On Bandit</b>
             <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
-            <br>On Vladof:
+            <br>On Vladof
             <br><span class="preAdd">-0.25</span> Barrel Spin-up Time
         </td><td>
-            On Hyperion:
+            <b>On Hyperion</b>
             <br><span class="preAdd">-0.15</span> Weapon Spread
             <br><span class="preAdd">-0.2</span> Impulse Accuracy
         </td><td>
-            On Maliwan:
+            <b>On Maliwan</b>
             <br><span class="preAdd">-0.3</span> Weapon Spread
             <br><span class="preAdd">+0.3</span> Status Chance Modifier
             <br><span class="scale">+0.23</span> Status Effect Damage
-        </td>
-    </tr><tr>
-        <th>Unkempt Harold</th><th>Pocket Rocket</th><th>Stinger</th><th>Fire Drill</th>
-    </tr><tr class="smallText">
-        <td>
-            On Torgue:
+        </td><td>
+            <b>On Torgue</b>
             <br><span class="scale">+0.2</span> Weapon Damage
             <br><span class="preAdd">-0.05</span> Fire Interval
-        </td><td>
-            On Torgue:
+        </td>
+    </tr><tr>
+        <th>Pocket Rocket</th><th>Stinger</th><th>Fire Drill</th><th>Fire Infinity</th><th>Hector's Paradise</th>
+    </tr><tr class="smallText">
+        <td>
+            <b>On Torgue</b>
             <br><span class="preAdd">-0.05</span> Fire Interval
         </td><td>
-            On Vladof:
+            <b>On Vladof</b>
             <br><span class="scale">+0.1</span> Weapon Damage
             <br><span class="preAdd">+6</span> Mag Size
             <br><span class="preAdd">+1</span> Barrel Spin-up Time
         </td><td>
-            On Bandit:
+            <b>On Bandit</b>
             <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
-            <br>On Vladof:
+            <br>On Vladof
             <br><span class="preAdd">-0.25</span> Barrel Spin-up Time
+        </td><td>
+            <b>On Bandit</b>
+            <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
+            <br><b>On Vladof</b>
+            <br><span class="preAdd">-0.25</span> Barrel Spin-up Time
+        </td><td>
+            <b>On Dahl</b>
+            <br><span class="preAdd">+4</span> Burst Count
         </td>
     </tr><tr>
-        <th>Fire Infinity</th><th>Hector's Paradise</th><th>Blowfly</th><th>Cyber Eagle</th>
+        <th>Blowfly</th><th>Cyber Eagle</th><th>Fragnum</th><th>Smasher</th><th>Taser</th>
     </tr><tr class="smallText">
         <td>
-            On Bandit:
-            <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
-            <br>On Vladof:
-            <br><span class="preAdd">-0.25</span> Barrel Spin-up Time
-        </td><td>
-            On Dahl:
-            <br><span class="preAdd">+4</span> Burst Count
-        </td><td>
-            On Dahl:
+            <b>On Dahl</b>
             <br><span class="preAdd">+5</span> Burst Count
         </td><td>
-            On Jakobs:
+            <b>On Jakobs</b>
             <br><span class="scale">+0.2</span> Weapon Damage
             <br><span class="preAdd">-3</span> Weapon Spread
             <br><span class="preAdd">-3</span> Impulse Accuracy
-        </td>
-    </tr><tr>
-        <th>Fragnum</th><th>Smasher</th><th>Taser</th><th>Proleterian Revolution</th>
-    </tr><tr class="smallText">
-        <td>
-            On Torgue:
+        </td><td>
+            <b>On Torgue</b>
             <br><span class="preAdd">-0.05</span> Fire Interval
         </td><td>
-            On Jakobs:
+            <b>On Jakobs</b>
             <br><span class="scale">-5</span> Weapon Damage
             <br><span class="preAdd">+2</span> Weapon Spread
             <br><span class="preAdd">-0.2</span> Impulse Accuracy
         </td><td>
-            On Hyperion:
+            <b>On Hyperion</b>
             <br><span class="scale">+0.1</span> Weapon Damage
             <br><span class="preAdd">-0.15</span> Weapon Spread
             <br><span class="preAdd">-0.2</span> Impulse Accuracy
-        </td><td rowspan="3">
-            On Bandit:
-            <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
-            <br><span class="preAdd">+1</span> Shot Cost
-            <br>On Jakobs:
-            <br><span class="preAdd">+3</span> Weapon Spread
-            <br><span class="preAdd">+1</span> Projectile Count
-            <br><span class="preAdd">+1</span> Shot Cost
-            <br>On Vladof:
-            <br><span class="scale">+0.1</span> Weapon Damage
-            <br><span class="preAdd">+6</span> Mag Size
-            <br><span class="preAdd">-0.25</span> Barrel Spin-up Time
         </td>
-    </tr><tr>
-        <th>Hard Reboot</th><th>Luck Cannon</th><th>Party Popper</th>
+    </tr></table><table><tr>
+        <th>Hard Reboot</th><th>Luck Cannon</th><th>Party Popper</th><th>Proleterian Revolution</th>
     </tr><tr class="smallText">
         <td>
-            On Maliwan:
+            <b>On Maliwan</b>
             <br><span class="scale">+0.25</span> Weapon Damage
             <br><span class="preAdd">-0.3</span> Weapon Spread
             <br><span class="preAdd">+0.15</span> Status Chance Modifier
         </td><td>
-            On Jakobs:
+            <b>On Jakobs</b>
             <br><span class="preAdd">-0.03</span> Weapon Spread
         </td><td>
-            On Bandit:
+            <b>On Bandit</b>
             <br><span class="scale">+0.05</span> Weapon Damage
             <br><span class="preAdd">-0.7</span> Impulse Accuracy
+        </td><td>
+            <b>On Bandit</b>
+            <br><span class="preAdd">+2.5</span> Barrel Spin-up Time
+            <br><span class="preAdd">+1</span> Shot Cost
+            <br><b>On Jakobs</b>
+            <br><span class="preAdd">+3</span> Weapon Spread
+            <br><span class="preAdd">+1</span> Projectile Count
+            <br><span class="preAdd">+1</span> Shot Cost
+            <br><b>On Vladof</b>
+            <br><span class="scale">+0.1</span> Weapon Damage
+            <br><span class="preAdd">+6</span> Mag Size
+            <br><span class="preAdd">-0.25</span> Barrel Spin-up Time
         </td>
+    </tr></table><table><tr>
+        <th><h3>Grips</h3></th>
+    </tr><tr>
+        <th>Cyber Eagle</th>
+    </tr><tr>
+        <td>
+            <b>On Jakobs</b>
+            <br><span class="preAdd">+1</span> Mag Size
+            <br><span class="scale">-0.3</span> Reload Time
+            <br><span class="preAdd">-0.2</span> Impulse Accuracy
+        <td>
     </tr></table>
-    <div class="text">
-        There is one other unique part with manufacturer bonuses, the Cyber Eagle's grip. On Jakobs it gives
-        <span class="preAdd">+1</span> Mag Size,
-        <span class="scale">-0.3</span> Reload Time, and
-        <span class="preAdd">-0.2</span> Impulse Accuracy.
-    </div>
 </body>
+</html>

@@ -5,51 +5,76 @@
     <title>BL2/TPS Parts Guides</title>
     <link rel="stylesheet" type="text/css" href="/bl2/style.css">
     <style>
-        table {
-            width: 22.5em;
-            border-collapse: collapse; 
-        }
-        tr.hr {
-            border-top: 1px solid rgba(255, 255, 255, 0.5);
-            height: 0.75em;
-        }
-
         h1 {
             font-size: 2.5em;
-        }
-
-        a, a:hover, a:active, a:visited {
-            color: #e7e8e9;
-            font-size: 1.75em;
+            margin-bottom: 0.2em;
         }
 
         #container {
             display: flex;
             flex-direction: column;
-            justify-content: safe center;
-            height: 90vh;
+        }
+
+        #links {
+            display: grid;
+            margin: 0 auto;
+            grid-template-columns: repeat(4, minmax(var(--img-size-med)/2, 0.5fr));
+            grid-gap: 1px;
+        }
+        #links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: var(--main-border-style);
+            border-style: hidden;
+            margin: -1px;
+        }
+        #links .L { border-left-style: solid; margin-left: -1px; }
+        #links .T { border-top-style: solid; margin-top: -1px; }
+        #links .R { border-right-style: solid; margin-right: -1px; }
+        #links .B { border-bottom-style: solid; margin-bottom: -1px; }
+
+        #info {
+            width: 21em;
+            border-top: var(--main-border-style);
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 1em;
+        }
+        #info a {
+            color: #e7e8e9;
+            font-size: 1.75em;
+            display: block;
+            margin-top: 0.25em;
+            margin-bottom: 0.25em;
+        }
+
+        #footer {
+            color: var(--main-footnote-colour);;
+            font-size: 0.75em;
+            margin: 1em auto;
         }
     </style>
 </head>
 <body>
     <div id="container">
         <h1>BL2/TPS Parts Guides</h1>
-        <table class="verticalCenter"><tr>
-            <td><img class="med" src="^images/pistols.png"></td>
-            <td><a href="pistols">Pistols</a></td>
-        </tr><tr>
-            <td><img class="med" src="^images/shields.png"></td>
-            <td><a href="shields">Shields</a></td>
-        </tr><tr>
-            <td><img class="med" src="^images/grenades.png"></td>
-            <td><a href="grenades">Grenades</a></td>
-        </tr><tr class="hr"></tr><tr>
-            <td colspan="2"><a href="accuracy">Accuracy Mechanics</a></td>
-        </tr><tr>
-            <td colspan="2"><a href="attributes">Attribute Reference</a></td>
-        </tr><tr>
-            <td colspan="2"><a href="order">Calculation Order</a></td>
-        </tr></table>
+        <div id="links">
+            <a style="grid-area: 1/1/2/3;" class="R B" href="pistols"><img class="med" src="^images/pistols.png"></a>
+            <a style="grid-area: 1/3/2/5;" class="B" href="shotguns"><img class="med" src="^images/shotguns.png"></a>
+            <a style="grid-area: 2/1/3/3;" class="R" href="shields"><img class="med" src="^images/shields.png"></a>
+            <a style="grid-area: 2/3/3/5;" href="grenades"><img class="med" src="^images/grenades.png"></a>
+        </div>
+        <div id="info">
+            <a href="accuracy">Accuracy Mechanics</a>
+            <a href="attributes">Attribute Reference</a>
+            <a href="formulas">General Formulas</a>
+            <a href="order">Calculation Order</a>
+            <a href="statuschance">Status Effect Chance</a>
+        </div>
+        <div id="footer">
+            Think you've found an error? Ask me on Discord, apple#7804
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>General Formulas</title>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
+</head>
+<body>
+    <div class="text">
+        <h1>General Formulas</h1>
+        There are three general formulas used all over the game.
+        <br>
+        <h3>Base Scaling Formula</h3>
+        As you level up, most numbers in the game tend to get bigger.
+        The base values for all these numbers all eventually come from the Base Scaling Formula.
+        <br>
+        For convience, other pages refer to this formula by &beta;.
+    </div>
+    <table><tr>
+        <th>BL2</th><th>TPS</th>
+    </tr><tr>
+        <td><code>&beta; = 1.13 ^ Level</code></td>
+        <td><code>&beta; = 1.10 ^ Level</code></td>
+    </tr></table>
+    <div class="text">
+        <h3>Attribute Bonus Formula</h3>
+        Any attribute in the game uses this formula to calculate it's final value from it's various bonuses.
+        Some stats are comprised of multiple attributes, this is not always the final value.
+        <br>
+        <code>
+            FINAL = (BASE + <span class="preAdd">PreAdd</span>) &times;
+            (1 + <span class="scale">Positive Scale</span>)&divide;(1 - <span class="scale">Negative Scale</span>)
+            + <span class="postAdd">PostAdd</span>
+        </code>
+        <br>
+        Any bonus falls into one of these four modifier types, and all bonuses of a type are summed together before being applied.
+        The detailed calculation pages colour code bonuses based on their modifier type.
+        <br>
+        Note that the game only distingishes between positive and negative scale values based on the final value of the bonus.
+        This means that if a scale bonus is based on some complex formula, it will be treated differently if the formula resolves to a positive value than if it resolves to a negative.
+        <br>
+        <h3>Grade Bonus Formula</h3>
+        Weapons and Items use a concept called Grades.
+        Each part can add or remove grades of a particular name, and if the weapon or item has defined a grade bonus using that name it gets converted into a standard bonus.
+        <br>
+        Grades are defined by three things: their modifier type, their base value, and a per-grade multiplier.
+        <br>
+        <code>
+            BONUS = BASE + PERGRADE&times;<span class="grade">Grades</span>
+        </code>
+        <br>
+        The detailed calculation pages again colour code grade bonuses.
+    </div>
+</body>
+</html>

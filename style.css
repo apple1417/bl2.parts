@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+:root {
+    --main-text-colour: #e7e8e9;
+    --main-footnote-colour: #999999;
+    --main-border-style: 1px solid rgba(255, 255, 255, 0.5);
+
+    --img-size-small: 5.25em;
+    --img-size-med: 8.875em;
+    --img-size-big: 12.5em;
+    --img-size-massive: 16.125em;
+}
+
 html {
     min-height: 100%;
 }
 
 body {
     font-family: Open Sans;
-    color: #e7e8e9;
+    color: var(--main-text-colour);
     background: #203a43;
     background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
 }
@@ -30,9 +41,7 @@ table.internalBorder {
     border-style: hidden;
 }
 table.internalBorder td, table.internalBorder th {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.5);
+    border: var(--main-border-style);
 }
 table.verticalCenter tr td, tr.verticalCenter td, td.verticalCenter {
     vertical-align: middle;
@@ -59,23 +68,27 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: #e7e8e9;
+    color: var(--main-text-colour);
 }
 a:visited {
     color: darkred;
 }
 
 img.small {
-    max-width: 5.25em;
-    max-height: 5.25em;
+    max-width: var(--img-size-small);
+    max-height: var(--img-size-small);
 }
 img.med {
-    max-width: 8.875em;
-    max-height: 8.875em;
+    max-width: var(--img-size-med);
+    max-height: var(--img-size-med);
 }
 img.big {
-    max-width: 12.5em;
-    max-height: 12.5em;
+    max-width: var(--img-size-big);
+    max-height: var(--img-size-big);
+}
+img.massive {
+    max-width: var(--img-size-massive);
+    max-height: var(--img-size-massive);
 }
 img.center {
     display: block;
@@ -89,7 +102,7 @@ img.right {
 }
 
 sup {
-    color: #999999;
+    color: var(--main-footnote-colour);
 }
 
 .smallText, .footnotes {
@@ -105,9 +118,10 @@ sup {
 }
 
 /* Workaround for small divide signs looking too similar to pluses */
-.smallText *.divi::before {
+.smallText .divi::before {
     content: "÷";
     font-size: 1.1em;
+    font-style: italic;
 }
 
 .text {
@@ -140,6 +154,12 @@ sup {
 .postAdd {
     color: #00ffff;
 }
-.grade {
+.grade, .perGrade::after {
     color: #ff00ff;
+}
+
+.perGrade::after {
+    content: "/g";
+    vertical-align: sub;
+    font-size: 0.83em;
 }

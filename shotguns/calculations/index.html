@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Shotgun Calculation Guide</title>
+    <link rel="stylesheet" type="text/css" href="/bl2/style.css">
+    <link rel="stylesheet" type="text/css" href="/bl2/colours.css">
+</head>
+<body>
+    <h1>Shotgun Calculation Guide</h1>
+    <div class="text">
+        This guide covers how exactly to calculate shotgun stats, and assumes you've already read the base guide
+        <a href="/bl2/shotguns/">here</a>, as well as the general formulas guide <a href="/bl2/formulas/">here</a>.
+        <br>
+        <br>
+        Note that the previous page did adjust some of the bonuses a bit:
+        <br>
+        It converted all grade bonuses to their actual final values (assuming nothing else added grades), to make it easier to compare them against non-grade bonuses.
+        <br>
+        It also converted all Fire <i>Interval</i> bonuses into Fire <i>Rate</i> ones.
+        The game actually tracks the amount of time between shots, and then just inverts the value to get the fire rate on the card.
+        <br>
+        <br>
+        <h3>Weapon Type Definition</h3>
+        The Weapon Type Definition is the most important part when it comes to calculating stats.
+        It defines all the formulas and base values for all the gun's stats.
+        It also sets up certain stats to use grades, and configures the base and per-grade bonuses.
+        This means that even if they have the exact same parts, two weapons with two different definitions can have you different stats.
+        <br>
+        There are 5 different definitions, one for each manufacturer.
+    </div>
+    <table><tr>
+        <th></th>
+        <th>Bandit</th>
+        <th>Hyperion</th>
+        <th>Jakobs</th>
+        <th>Tediore</th>
+        <th>Torgue</th>
+    </tr><tr>
+        <th>Weapon Damage</th>
+        <td>8&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>6&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>8.8&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>7.12&times;&beta; <span class="scale perGrade">+0.03</span></td>
+        <td>8.8&times;&beta; <span class="scale perGrade">+0.03</span></td>
+    </tr><tr>
+        <th>Fire Interval</th>
+        <td>0.8 <span class="scale perGrade">-0.03</span></td>
+        <td>0.28 <span class="scale perGrade">-0.03</span></td>
+        <td>0.06 <span class="scale perGrade">-0.03</span></td>
+        <td>0.66 <span class="scale perGrade">-0.03</span></td>
+        <td>1 <span class="scale perGrade">-0.03</span></td>
+    </tr><tr>
+        <th>Mag Size</th>
+        <td>10 <span class="scale perGrade">+0.07</span></td>
+        <td>7 <span class="scale perGrade">+0.07</span></td>
+        <td>2 <span class="scale perGrade">+0.07</span></td>
+        <td>5 <span class="scale perGrade">+0.07</span></td>
+        <td>4 <span class="scale perGrade">+0.07</span></td>
+    </tr><tr>
+        <th>Reload Time</th>
+        <td>4.1 <span class="scale perGrade">-0.05</span></td>
+        <td>3.5 <span class="scale perGrade">-0.05</span></td>
+        <td>2.8 <span class="scale perGrade">-0.05</span></td>
+        <td>2.5 <span class="scale perGrade">-0.05</span></td>
+        <td>3.8 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Weapon Spread</th>
+        <td>8 <span class="scale perGrade">-0.05</span></td>
+        <td>6 <span class="scale perGrade">-0.05</span></td>
+        <td>7.4 <span class="scale perGrade">-0.05</span></td>
+        <td>6.7 <span class="scale perGrade">-0.05</span></td>
+        <td>7.1 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Impulse Accuracy</th>
+        <td>9.5 <span class="scale perGrade">-0.05</span></td>
+        <td>-5 <span class="scale perGrade">+0.05</span></td>
+        <td>11 <span class="scale perGrade">-0.05</span></td>
+        <td>8 <span class="scale perGrade">-0.05</span></td>
+        <td>8 <span class="scale perGrade">-0.05</span></td>
+    </tr><tr>
+        <th>Zoom FOV</th>
+        <td>60 <span class="scale perGrade">-0.13</span></td>
+        <td>60 <span class="scale perGrade">-0.13</span></td>
+        <td>60 <span class="scale perGrade">-0.13</span></td>
+        <td>60 <span class="scale perGrade">-0.13</span></td>
+        <td>60 <span class="scale perGrade">-0.13</span></td>
+    </tr><tr>
+        <th>Projectile Count</th>
+        <td>6</td>
+        <td>6</td>
+        <td>7</td>
+        <td>6</td>
+        <td>5</td>
+    </tr><tr>
+        <th>Shot Cost</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr><tr>
+        <th>Status Chance Base</th>
+        <td>0.4</td>
+        <td>0.4</td>
+        <td>0.4</td>
+        <td>0.4</td>
+        <td>0.4</td>
+    </tr><tr>
+        <th>Status Chance Damage</th>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+        <td>8&times;&beta;</td>
+    </tr></table>
+    <div class="text">
+        This list is of course not exhaustive.
+        <br>
+        <br>
+        Definitions also have their own stat bonuses, which always apply ontop of these base values.
+    </div>
+    <table><tr>
+        <th>Bandit</th>
+        <th>Hyperion</th>
+        <th>Jakobs</th>
+        <th>Tediore</th>
+        <th>Torgue</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="preAdd">+2</span> Min Accuracy
+            <br><span class="preAdd">+2</span> Max Accuracy
+            <br>While Zoomed:
+            <br><span class="scale">-1</span> Min Accuracy
+        </td><td>
+            <span class="preAdd">+10</span> Accuracy Regen
+            <br><span class="preAdd">+0.6</span> Projectile Speed
+            <br>While Zoomed:
+            <br><span class="preAdd">-1.2</span> Weapon Spread
+            <br><span class="scale">-1</span> Min Accuracy
+        </td><td>
+            <span class="preAdd">+1</span> Min Accuracy
+            <br><span class="preAdd">+5</span> Max Accuracy
+            <br><span class="preAdd">+1</span> Accuracy Regen
+            <br><span class="preAdd">+0.3</span> Crit Damage
+            <br><span class="scale">+0.5</span> Projectile Speed
+            <br>While Zoomed: 
+            <br><span class="scale">-1</span> Min Accuracy
+        </td><td>
+            <span class="preAdd">+2</span> Min Accuracy
+            <br><span class="preAdd">+2</span> Max Accuracy
+            <br>While Zoomed:
+            <br><span class="scale">-1</span> Min Accuracy
+        </td><td>
+            <span class="preAdd">+2</span> Min Accuracy
+            <br><span class="preAdd">+2</span> Max Accuracy
+            <br>While Zoomed:
+            <br><span class="scale">-1</span> Min Accuracy
+        </td>
+    </tr></table>
+    <div class="text">
+        The rest of this page will re-define the values from the base guide, properly sorting them into their exact bonus type.
+        It will also show stats for unique parts.
+        <br>
+        <br>
+        <br>
+        <h3>Accessory</h3>
+    </div>
+    <table><tr>
+        <th>Bayonet 1</th><th>Bayonet 2</th><th>Moon Clip</th><th>Shotgun Shell</th>
+    </tr><tr class="smallText">
+        <td><span class="preAdd">+0.5</span> Melee Damage</td>
+        <td><span class="preAdd">+0.5</span> Melee Damage</td>
+        <td>
+            <span class="grade">+6</span> Mag Size
+            <br><span class="grade">-3</span> Reload Time
+        </td><td>
+            <span class="grade">+1</span> Weapon Damage
+            <br><span class="grade">+1</span> Fire Interval
+            <br><span class="grade">+1</span> Mag Size
+            <br><span class="grade">+1</span> Reload Time
+        </td>
+    </tr><tr>
+        <th>Tech 1</th><th>Tech 2</th><th>Tech 3</th><th>Vertical Grip</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="grade">-5</span> Weapon Damage
+            <br><span class="grade">+4</span> Fire Interval
+            <br><span class="grade">+8</span> Weapon Spread
+            <br><span class="grade">+3</span> Zoom FOV
+        </td><td>
+            <span class="grade">+2</span> Weapon Spread
+            <br><span class="grade">+3</span> Zoom FOV
+            <br><span class="scale">+0.5</span> Crit Damage
+        </td><td>
+            <span class="grade">-1</span> Weapon Damage
+            <br><span class="grade">+2</span> Fire Interval
+            <br><span class="grade">+2</span> Mag Size
+            <br><span class="grade">+5</span> Reload Time
+        </td><td>
+            <span class="grade">+7</span> Fire Interval
+            <br><span class="grade">-6</span> Weapon Spread
+            <br><span class="grade">-3</span> Min Accuracy
+            <br><span class="grade">+6</span> Max Accuracy
+            <br><span class="preAdd">+2</span> Projectile Count
+        </td>
+    </tr></table>
+    <div class="text">
+        There is one unique accessory, the Carnage has a variant of a Vertical Grip that gives an additional
+        <span class="preAdd">+3</span> Mag Size, <span class="preAdd">+4</span> Weapon Spread, and <span class="preAdd">+2</span> Shot Cost
+        on top of the original bonuses.
+        <br>
+        <br>
+        <h3>Barrel</h3>
+    </div>
+    <table><tr>
+        <th>Bandit</th>
+        <th>E-Tech</th>
+        <th>E-Tech Hyperion</th>
+        <th>Hyperion</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="grade">+4</span> Weapon Damage
+            <br><span class="grade">-8</span> Fire Interval
+            <br><span class="preAdd">+1</span> Mag Size
+            <br><span class="grade">-14</span> Weapon Spread
+            <br><span class="grade">-3</span> Min Accuracy
+            <br><span class="grade">-10</span> Impulse Accuracy
+            <br><span class="preAdd">+8</span> Projectile count
+            <br><span class="preAdd">+2</span> Shot Cost
+        </td><td>
+            <span class="scale">+3.5</span> Weapon Damage
+            <br><span class="grade">-3</span> Fire Interval
+            <br><span class="grade">-5</span> Reload Time
+            <br><span class="grade">-5</span> Impulse Accuracy
+            <br><span class="preAdd">-5</span> Projectile Count
+            <br><span class="scale">+1</span> Shot Cost
+            <br><span class="preAdd">+2</span> Status Effect Chance
+        </td><td>
+            <span class="scale">+5</span> Weapon Damage
+            <br><span class="preAdd">+0.5</span>, <span class="grade">-3</span> Fire Interval
+            <br><span class="grade">-5</span> Reload Time
+            <br><span class="scale">-2</span> Weapon Spread
+            <br><span class="scale">-0.5</span> Max Accuracy
+            <br><span class="grade">-5</span> Impulse Accuracy
+            <br><span class="preAdd">-5</span> Projectile Count
+            <br><span class="scale">+1</span> Shot Cost
+            <br><span class="preAdd">+2</span> Status Effect Chance
+        </td><td>
+            <span class="grade">-4</span> Weapon Damage
+            <br><span class="grade">-2</span> Mag Size
+            <br><span class="grade">+7</span> Weapon Spread
+            <br><span class="grade">+5</span> Min Accuracy
+            <br><span class="grade">+2</span> Impulse Accuracy
+        </td>
+    </tr></table><table><tr>
+        <th>Jakobs</th>
+        <th>Tediore</th>
+        <th>Torgue</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="grade">+2</span> Weapon Damage
+            <br><span class="grade">-5</span> Fire Interval
+            <br><span class="grade">-10</span> Weapon Spread
+            <br><span class="grade">-2</span> Min Accuracy
+            <br><span class="grade">-15</span> Impulse Accuracy
+            <br><span class="preAdd">+4</span> Projectile Count
+            <br><span class="preAdd">+1</span> Shot Cost
+        </td><td>
+            -
+        </td><td>
+            <span class="grade">+6</span> Weapon Damage
+            <br><span class="grade">-12</span> Fire Interval
+            <br><span class="preAdd">+2</span> Mag Size
+            <br><span class="grade">-18</span> Weapon Spread
+            <br><span class="grade">-4</span> Min Accuracy
+            <br><span class="grade">-18</span> Impulse Accuracy
+            <br><span class="preAdd">+11</span> Projectile Count
+            <br><span class="preAdd">+3</span> Shot Cost
+        </td>
+    </tr></table>
+    <div class="text">
+        <br>
+        Pretty much every unique weapon has it's own unique barrel, click <a href="/bl2/shotguns/barrels/">here</a> for full list of them and their stats.
+        <br>
+        <br>
+        <h3>Bodies</h3>
+    </div>
+    <table><tr>
+        <th>Rarity</th><th>Weapon Damage</th><th>Mag Size</th><th>Weapon Spread</th>
+    </tr><tr>
+        <td class="common">Common</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr><tr>
+        <td class="uncommon">Uncommon</td>
+        <td class="grade">+8</td>
+        <td class="grade">+3</td>
+        <td class="grade">+3</td>
+    </tr><tr>
+        <td class="rare">Rare</td>
+        <td class="grade">+16</td>
+        <td class="grade">+5</td>
+        <td class="grade">+5</td>
+    </tr><tr class="verticalCenter">
+        <td>
+            <span class="veryRare">Very Rare</span>
+            <br>
+            <span class="pearl">Pearlescent</span>
+            <br>
+            <span class="rainbow">Effervescent</span>
+        </td>
+        <td class="grade">+24</td>
+        <td class="grade">+7</td>
+        <td class="grade">+7</td>
+    </tr></table>
+    <div class="text">
+        The <span class="pearl">Pearlescent</span> and <span class="rainbow">Effervescent</span> shotguns each use their own unique copy of the <span class="veryRare">Very Rare</span> body, all with the same bonuses.
+        <br>
+        The Overcompensator uses a unique copy of the <span class="veryRare">Very Rare</span> body, with the same bonuses.
+        <br>
+        The Moonface uses a unique copy of the <span class="rare">Rare</span> body, with the same bonuses.
+        <br>
+        The Boomacorn and Too Scoops both use their own unique bodies with no bonuses.
+        <br>
+        <br>
+        <h3>Grips</h3>
+    </div>
+    <table><tr>
+        <th>Bandit</th><th>Hyperion</th><th>Jakobs</th><th>Tediore</th><th>Torgue</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="grade">+5</span> Mag Size
+            <br><span class="grade">-2</span> Reload Time
+            <br><span class="grade">-3</span> Weapon Spread
+        </td><td>
+            <span class="grade">-3</span> Weapon Damage
+            <br><span class="grade">+3</span> Weapon Spread
+            <br><span class="grade">+2</span> Accuracy Regen
+        </td><td>
+            <span class="grade">+4</span> Weapon Damage
+            <br><span class="grade">-3</span> Fire Inteval
+            <br><span class="grade">-1</span> Reload Time
+            <br><span class="grade">-2</span> Impulse Accuracy
+        </td><td>
+            <span class="grade">-2</span> Weapon Damage
+            <br><span class="grade">-2</span> Mag Size
+            <br><span class="grade">+4</span> Reload Time
+        </td><td>
+            <span class="grade">+3</span> Weapon Damage
+            <br><span class="grade">-2</span> Reload Time
+            <br><span class="grade">-2</span> Weapon Spread
+            <br><span class="grade">-3</span> Impulse Accuracy
+        </td>
+    </tr></table>
+    <div class="text">
+        The Bullpup uses a unique copy of a Hyperion grip, with an additional <span class="scale">-0.3</span> Reload Time and <span class="preAdd">+10</span> Mag Size on top of the original bonuses.
+        <br>
+        The Boomacorn and Too Scoops both use their own unique copies of a Jakobs grip, with the same bonuses.
+        <br>
+        <br>
+        <h3>Sights</h3>
+    </div>
+    <table><tr>
+        <th>None</th><th>Bandit</th><th>Hyperion</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="scale">-0.25</span> Weapon Spread
+            <br><span class="scale">-2</span> Movement Speed
+        </td><td>
+            <span class="grade">+3</span> Zoom FOV
+            <br><span class="scale">-0.25</span> Weapon Spread
+            <br><span class="scale">-2</span> Movement Speed
+        </td><td>
+            <span class="grade">+18</span> Zoom FOV
+            <br><span class="scale">-0.4</span> Weapon Spread
+            <br><span class="scale">-2</span> Movement Speed
+        </td>
+    </tr><tr>
+        <th>Jakobs</th><th>Tediore</th><th>Torgue</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="grade">+14</span> Zoom FOV
+            <br><span class="scale">-0.5</span> Weapon Spread
+            <br><span class="scale">-2</span> Movement Speed
+        </td><td>
+            <span class="grade">+6</span> Zoom FOV
+            <br><span class="scale">-2</span> Movement Speed
+        </td><td>
+            <span class="grade">+4</span> Zoom FOV
+            <br><span class="scale">-0.2</span> Weapon Spread
+            <br><span class="scale">-2</span> Movement Speed
+        </td>
+    </tr></table>
+    <div class="text">
+        <br>
+        <br>
+        <h3>Stocks</h3>
+    </div>
+    <table><tr>
+        <th>Bandit</th><th>Hyperion</th><th>Jakobs</th><th>Tediore</th><th>Torgue</th>
+    </tr><tr class="smallText">
+        <td>
+            -
+        </td><td>
+            <span class="grade">+8</span> Min Accuracy
+            <br><span class="grade">+4</span> Accuracy Regen
+        </td><td>
+            <span class="grade">+10</span> Min Accuracy
+            <br><span class="grade">-5</span> Max Accuracy
+            <br><span class="grade">-5</span> Accuracy Regen
+            <br><span class="grade">-2</span> Impulse Accuracy
+        </td><td>
+            <span class="grade">-3</span> Min Accuracy
+            <br><span class="grade">-3</span> Max Accuracy
+            <br><span class="grade">+2</span> Impulse Accuracy
+        </td><td>
+            <span class="grade">-4</span> Accuracy Regen
+            <br><span class="grade">+5</span> Impulse Accuracy
+        </td>
+    </tr></table>
+    <div class="text">
+        The Boomacorn and Too Scoops both use their own unique copies of a Jakobs stock, with the same bonuses.
+        <br>
+        <br>
+        <h3>Element</h3>
+        There are no unique elements, and none of the non-unique ones have any bonuses.
+        <br>
+        <br>
+        <h3>Material</h3>
+    </div>
+    <table><tr>
+        <th>Quartz Gemstone</th><th>Other Gemstone</th><th>Old Hyperion</th>
+    </tr><tr class="smallText">
+        <td>
+            <span class="postAdd">+0.15</span> Crit Damage
+            <br><span class="postAdd">+0.15</span> Reflect Off Self Chance
+            <br><span class="postAdd">-0.8</span> Reflect Off Self Self Damage
+            <br><span class="postAdd">-0.2</span> Reflect Off Self Damage
+        </td><td>
+            <span class="postAdd">+0.15</span> Crit Damage
+            <br><span class="postAdd">+0.15</span> Reflect Off Self Chance
+            <br><span class="postAdd">-0.8</span> Reflect Off Self Self Damage
+            <br><span class="postAdd">-0.3</span> Reflect Off Self Damage
+        </td><td>
+            <span class="scale">+0.7</span> Weapon Damage
+            <br><span class="scale">+0.5</span> Fire Interval
+            <br><span class="scale">+0.15</span> Reload Time
+            <br><span class="scale">+0.5</span> Weapon Spread
+            <br><span class="scale">+2</span> Min Accuracy
+            <br><span class="scale">-0.3</span> Max Accuracy
+        </td>
+    </tr></table>
+    <div class="text">
+        <br>
+        <h3>Manufacturer Bonuses</h3>
+    </div>
+    <table><tr>
+        <th>Manufacturer</th><th>Barrel</th><th>Grip</th>
+    </tr><tr>
+        <th>Bandit</th>
+        <td class="smallText">
+            <span class="scale">+0.05</span> Weapon Damage
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+        </td><td class="smallText">
+            <span class="preAdd">+3</span> Mag Size
+            <br><span class="scale">-0.3</span> Reload Time
+        </td>
+    </tr><tr>
+        <th>Hyperion</th>
+        <td class="smallText">
+            <span class="scale">+0.1</span> Weapon Damage
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">+0.2</span> Impulse Accuracy
+        </td><td class="smallText">
+            <span class="preAdd">+1</span> Mag Size
+            <br><span class="scale">-0.3</span> Reload Time
+        </td>
+    </tr><tr>
+        <th>Jakobs</th>
+        <td class="smallText">
+            <span class="scale">+0.1</span> Weapon Damage
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+            <br><span class="preAdd">+2</span> Projectile Count
+        </td><td class="smallText">
+            <span class="preAdd">+1</span> Mag Size
+            <br><span class="scale">-0.3</span> Reload Time
+            <br><span class="preAdd">-0.2</span> Impulse Accuracy
+        </td>
+    </tr><tr>
+        <th>Tediore</th>
+        <td>-</td>
+        <td class="smallText">
+            <span class="preAdd">+2</span> Mag Size
+            <br><span class="preAdd">-0.15</span> Reload Time
+        </td>
+    </tr><tr>
+        <th>Torgue</th>
+        <td class="smallText">
+            <span class="scale">+0.2</span> Weapon Damage
+            <br><span class="preAdd">-0.05</span> Fire Interval
+        </td><td class="smallText">
+            <span class="preAdd">+1</span> Mag Size
+            <br><span class="scale">-0.3</span> Reload Time
+        </td>
+    </tr></table>
+    <br>
+    <table><tr>
+        <th>E-Tech Barrel</th><th>Hyperion Barrel</th>
+    </tr><tr class="smallText">
+        <td>
+            <b>On Bandit</b>
+            <br><span class="preAdd">+3</span> Mag Size
+            <br><span class="preAdd">+4</span> Weapon Spread
+            <br><span class="preAdd">+2</span> Projectile Count
+            <br><span class="preAdd">+1</span> Shot Cost
+        </td><td>
+            <b>On Jakobs</b>
+            <br><span class="scale">-0.4</span> Weapon Spread
+        </td>
+    </tr></table>
+    <div class="text">
+        There are several unique parts with manufacturer bonuses.
+        As these are restricted to spawn on a single weapon with a set manufacturer these are of course either always or never active.
+    </div>
+    <table><tr>
+        <th colspan="5"><h3>Barrels</h3></th>
+    </tr><tr>
+        <th>Conference Call</th><th>Dog</th><th>Tidal Wave</th><th>Boganella</th><th>Bullpup</th>
+    </tr><tr class="smallText">
+        <td>
+            <b>On Hyperion</b>
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">+0.2</span> Impulse Accuracy
+        </td><td>
+            <b>On Bandit</b>
+            <br><span class="scale">+0.05</span> Weapon Damage
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+        </td><td>
+            <b>On Jakobs</b>
+            <br><span class="scale">+0.5</span> Weapon Damage
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+            <br><span class="preAdd">+2</span> Projectile Count
+        </td><td>
+            <b>On Bandit</b>
+            <br><span class="scale">+0.05</span> Weapon Damage
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+        </td><td>
+            <b>On Jakobs</b>
+            <br><span class="scale">+2.3</span> Weapon Damage
+            <br><span class="scale">-0.7</span> Weapon Spread
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+        </td>
+    </tr><tr>
+        <th>Bullpup</th><th>Jack O' Cannon</th><th>Too Scoops</th><th>Viral Marketer</th><th>Party Line</th>
+    </tr><tr class="smallText">
+        <td>
+            <b>On Hyperion</b>
+            <br><span class="scale">+0.2</span> Weapon Damage
+            <br><span class="scale">-0.25</span> Weapon Spread
+            <br><span class="scale">+0.25</span> Impulse Accuracy
+        </td><td>
+            <b>On Torgue</b>
+            <br><span class="scale">+6.8</span> Weapon Damage
+            <br><span class="scale">-0.05</span> Fire Interval
+        </td><td>
+            <b>On Jakobs</b>
+            <br><span class="scale">+0.1</span> Weapon Damage
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+        </td><td>
+            <b>On Hyperion</b>
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">+0.2</span> Impulse Accuracy
+        </td><td>
+            <b>On Hyperion</b>
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">+0.2</span> Impulse Accuracy
+        </td>
+    </tr><tr>
+        <th></th><th></th><th>Flayer</th>
+    </tr><tr class="smallText">
+        <td></td><td></td><td>
+            <b>On Jakobs</b>
+            <br><span class="scale">+0.1</span> Weapon Damage
+            <br><span class="scale">-0.15</span> Weapon Spread
+            <br><span class="scale">-0.2</span> Impulse Accuracy
+            <br><span class="preAdd">+4</span> Projectile Count
+        </td>
+    </tr></table><table><tr>
+        <th colspan="2"><h3>Grips</h3></th>
+    </tr><tr>
+        <th>Boomacorn</th><th>Too Scoops</th>
+    </tr><tr class="smallText">
+        <td>
+            <b>On Jakobs</b>
+            <br><span class="scale">-0.3</span> Reload Time
+            <br><span class="preAdd">-0.2</span> Impulse Accuracy
+        </td><td>
+            <b>On Jakobs</b>
+            <br><span class="scale">-0.3</span> Reload Time
+            <br><span class="preAdd">-0.2</span> Impulse Accuracy
+        </td>
+    </tr></table>
+</body>
+</html>
