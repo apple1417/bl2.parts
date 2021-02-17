@@ -12,10 +12,10 @@ function setupZoomPage(entries) {
 
         mainSheet.rel = "stylesheet";
         mainSheet.type = "text/css";
-        mainSheet.href = "/bl2/style.css";
+        mainSheet.href = "/style.css";
         zoomSheet.rel = "stylesheet";
         zoomSheet.type = "text/css";
-        zoomSheet.href = "/bl2/zoom.css";
+        zoomSheet.href = "/zoom.css";
 
         container.appendChild(sidebar);
         container.appendChild(display);
