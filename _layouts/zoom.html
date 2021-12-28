@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <style>
+        #container {
+            height: 90vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: safe center;
+            align-items: safe center;
+            margin: 0 auto;
+        }
+
+        #sidebar {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: safe center;
+            align-items: safe center;
+            overflow-y: auto;
+            padding: 0.5em;
+        }
+        #sidebar div, #sidebar img {
+            border: 1px solid black;
+            background: rgba(0, 8, 8, 0.5);
+            margin: 1px;
+            margin-bottom: 2px;
+        }
+        #sidebar div {
+            font-size: 1.25em;
+            width: 4.2em;
+            height: 4.2em;
+            line-height: 4.2em;
+            text-align: center;
+        }
+        #sidebar div span {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+        }
+        #sidebar img {
+            min-width: 5.25em;
+            min-height: 5.25em;
+        }
+        #sidebar .selected {
+            background: rgba(0, 8, 8, 0.75);
+            border-width: 2px;
+            margin: 0;
+            margin-bottom: 1px;
+        }
+
+        #display {
+            width: 75%;
+        }
+        #display img {
+            width: 100%;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        var currentIdx = 0;
+        function switchView(newIdx) {
+            sidebar = document.getElementById("sidebar").children;
+            display = document.getElementById("display").children;
+
+            sidebar[currentIdx].classList.remove("selected");
+            sidebar[newIdx].classList.add("selected");
+
+            display[currentIdx].hidden = true;
+            display[newIdx].hidden = false;
+
+            currentIdx = newIdx;
+        }
+    </script>
+</head>
+<body>
+    <h1>{{ page.title }}</h1>
+    <div id="container">
+        <div id="sidebar">
+            {% for sight in page.sights %}
+                {% if sight.icon %}
+                    <img onmouseover="switchView({{ forloop.index0 }})"
+                        onclick="switchView({{ forloop.index0 }})"
+                    {% if forloop.first %}
+                        class="small selected"
+                    {% else %}
+                        class="small"
+                    {% endif %}
+                        src="{{ sight.icon }}"
+                        title="{{ sight.name }}"
+                    >
+                {% else %}
+                    <div onmouseover="switchView({{ forloop.index0 }})"
+                        onclick="switchView({{ forloop.index0 }})"
+                    {% if forloop.first %}
+                        class="selected"
+                    {% endif %}
+                    >
+                        <span>{{ sight.name }}</span>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div id="display">
+            {% for sight in page.sights %}
+                <img src="{{ sight.src }}"
+                {% unless forloop.first %}
+                    hidden
+                {% endunless %}
+                >
+            {% endfor %}
+        </div>
+    </div>
+</body>
