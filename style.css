@@ -145,6 +145,9 @@ nav a {
     color: var(--main-text-colour);
     font-size: 1.2em;
 }
+nav a:visited {
+    color: var(--main-text-colour);
+}
 nav a.navMisc {
     font-size: 1em;
 }
