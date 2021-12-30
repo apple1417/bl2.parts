@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/colours.css">
 </head>
 <body>
+    {% include nav.html %}
+    <div class="content">
     <h1>Shield Calculation Guide</h1>
     <div class="text">
         This guide covers how exactly to calculate shield stats, and assumes you've already read the base guide
@@ -334,5 +338,6 @@
         The Blockade has an unlisted amount of damage reduction.
         Unlike what the card might suggest, the amount is only affected by shield level, not parts or current capacity.
         It is equal to <code>(LEVEL &divide; 2) + 7.5</code>.
+    </div>
     </div>
 </body>

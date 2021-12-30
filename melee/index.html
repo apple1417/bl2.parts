@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/colours.css">
 </head>
 <body>
+    {% include nav.html %}
+    <div class="content">
     <div class="text">
         <h1>Melee Damage</h1>
         Melee Damage depends on 4 values: the Melee Definition; the Attacker's Level; and the Melee Damage and Roid Damage bonuses.
@@ -64,6 +68,7 @@
         <br>
         In practice, these formulas almost always end up also multiplying the calculated damage by 2.5, so it is possible to rearrange them to take the displayed value instead.
         Roid Shields are the only vanilla items to give this bonus type, so this should always still line up.
+    </div>
     </div>
 </body>
 </html>
