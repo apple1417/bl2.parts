@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,12 +68,10 @@
             <a style="grid-area: 2/3/3/5;" href="grenades"><img class="med" src="^images/grenades.png"></a>
         </div>
         <div id="info">
-            <a href="accuracy">Accuracy Mechanics</a>
-            <a href="attributes">Attribute Reference</a>
-            <a href="formulas">General Formulas</a>
-            <a href="order">Calculation Order</a>
-            <a href="melee">Melee Damage</a>
-            <a href="statuschance">Status Effect Chance</a>
+            {% assign sorted_items = site.data.nav.misc | sort_natural: "title" %}
+            {% for item in sorted_items %}
+                <a href="{{item.url}}">{{item.title}}</a>
+            {% endfor %}
         </div>
         <div id="footer">
             Think you've found an error? Ask me on Discord, apple#7804

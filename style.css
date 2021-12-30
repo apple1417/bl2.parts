@@ -9,6 +9,8 @@
     --img-size-med: 8.875em;
     --img-size-big: 12.5em;
     --img-size-massive: 16.125em;
+
+    --navbar-size: 10em;
 }
 
 html {
@@ -103,6 +105,52 @@ img.right {
 
 sup {
     color: var(--main-footnote-colour);
+}
+
+body > aside.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: var(--navbar-size);
+    max-width: var(--navbar-size);
+    height: 100%;
+    overflow-y: auto;
+    padding: 0.5em 0.75em;
+    background: rgba(0, 0, 0, 0.5);
+    border-right: 1px solid #000;
+}
+body > aside.navbar > :last-child {
+    margin-bottom: 1em;
+}
+body > div.content {
+    margin-left: var(--navbar-size);
+    padding-left: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav > * ul {
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+nav h1 {
+    text-align: left;
+    font-size: 1.5em;
+}
+nav a {
+    color: var(--main-text-colour);
+    font-size: 1.2em;
+}
+nav a.navMisc {
+    font-size: 1em;
+}
+nav a.navCurrent {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .smallText, .footnotes {

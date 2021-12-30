@@ -1,0 +1,18 @@
+<ul>
+    {% assign sorted_items = include.nav | sort_natural: "title" %}
+    {% for item in sorted_items %}
+        <li>
+            {% capture classes %}
+                {{include.classes}}
+                {% if item.url == page.url %}
+                    navCurrent
+                {% endif %}
+            {% endcapture %}
+
+            <a href="{{ item.url }}" class="{{classes}}">{{ item.title }}</a>
+        </li>
+        {% if item.sub %}
+            {% include nav_nest.html nav=item.sub classes=include.classes %}
+        {% endif %}
+    {% endfor %}
+</ul>

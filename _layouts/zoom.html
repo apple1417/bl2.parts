@@ -31,9 +31,9 @@
         }
         #sidebar div {
             font-size: 1.25em;
-            width: 4.2em;
-            height: 4.2em;
-            line-height: 4.2em;
+            width: 4em;
+            height: 4em;
+            line-height: 4em;
             text-align: center;
         }
         #sidebar div span {
@@ -42,8 +42,8 @@
             line-height: normal;
         }
         #sidebar img {
-            min-width: 5.25em;
-            min-height: 5.25em;
+            width: 5em;
+            height: 5em;
         }
         #sidebar .selected {
             background: rgba(0, 8, 8, 0.75);
@@ -77,6 +77,8 @@
     </script>
 </head>
 <body>
+    {% include nav.html %}
+    <div class="content">
     <h1>{{ page.title }}</h1>
     <div id="container">
         <div id="sidebar">
@@ -85,9 +87,7 @@
                     <img onmouseover="switchView({{ forloop.index0 }})"
                         onclick="switchView({{ forloop.index0 }})"
                     {% if forloop.first %}
-                        class="small selected"
-                    {% else %}
-                        class="small"
+                        class="selected"
                     {% endif %}
                         src="{{ sight.icon }}"
                         title="{{ sight.name }}"
@@ -113,5 +113,6 @@
                 >
             {% endfor %}
         </div>
+    </div>
     </div>
 </body>
