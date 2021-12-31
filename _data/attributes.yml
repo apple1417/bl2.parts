@@ -1,0 +1,46 @@
+resolvers:
+  - name: Weapon
+    class: WeaponAttributeContextResolver
+  - name: Controller
+    classes: ControllerAttributeContextResolver
+  - name: Player Controller
+    classes: PlayerControllerAttributeContextResolver
+  - name: Resource Pool
+    class: ResourcePoolAttributeContextResolver
+  - name: Weapon Resource Pool
+    class: WeaponResourcePoolAttributeContextResolver
+  - name: Pawn
+    class: PawnAttributeContextResolver
+  - name: Status Effect Chance
+    class: StatusEffectChanceModifierResolver
+
+attributes:
+  - attribute: WeaponSpread
+    resolver: WeaponAttributeContextResolver
+    name: Weapon Spread
+    description: Increases the offset range for each individual projectile, decreasing overall accuracy.
+
+  - attribute: AccuracyMinValue
+    resolver: WeaponResourcePoolAttributeContextResolver
+    name: Min Accuracy
+    description: Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.
+
+  - attribute: AccuracyMaxValue
+    resolver: WeaponResourcePoolAttributeContextResolver
+    name: Max Accuracy
+    description: Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.
+
+  - attribute: AccuracyOnIdleRegenerationRate
+    resolver: WeaponResourcePoolAttributeContextResolver
+    name: Accuracy Regen
+    description: Decreases how quickly the cluster range recovers after each shot, decreasing accuracy. This is a negative value.
+
+  - attribute: WeaponPerShotAccuracyImpulse
+    resolver: WeaponAttributeContextResolver
+    name: Impulse Accuracy
+    description: Increases the amount the cluster range grows each time you shoot, decreasing accuracy.
+
+  - attribute: WeaponBurstShotAccuracyImpulseScale
+    resolver: WeaponAttributeContextResolver
+    name: Burst Impulse Scale
+    description: Increases the amount the cluster range grows each time you burst fire, decreasing accuracy. This is a multiplier of the gun's Impulse Accuracy.

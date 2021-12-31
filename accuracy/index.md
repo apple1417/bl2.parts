@@ -1,4 +1,11 @@
 ---
+accuracy_attributes:
+  - WeaponSpread
+  - AccuracyMinValue
+  - AccuracyMaxValue
+  - AccuracyOnIdleRegenerationRate
+  - WeaponPerShotAccuracyImpulse
+  - WeaponBurstShotAccuracyImpulseScale
 ---
 
 # Accuracy Mechanics
@@ -22,8 +29,8 @@ On idle you will naturally regen back towards the base value, so once you stop s
     max-width: var(--img-size-small);
 }
 #cluster_spread_table img {
-    max-width: calc(var(--img-size-big) + var(--image-size-increment));
-    max-height: calc(var(--img-size-big) + var(--image-size-increment));
+    max-width: calc(var(--img-size-big) + var(--img-size-increment));
+    max-height: calc(var(--img-size-big) + var(--img-size-increment));
 }
 </style>
 <table id="cluster_spread_table"><tr>
@@ -41,27 +48,7 @@ On idle you will naturally regen back towards the base value, so once you stop s
 # Attributes
 Accuracy is controlled by six attributes, listed below alongside with their effect when increased.
 
-<table class="left">
-    <tr>
-        <th>Weapon Spread</th>
-        <td>Increases the offset range for each individual projectile, decreasing overall accuracy.</td>
-    </tr><tr>
-        <th>Min Accuracy</th>
-        <td>Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.</td>
-    </tr><tr>
-        <th>Max Accuracy</th>
-        <td>Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.</td>
-    </tr><tr>
-        <th>Accuracy Regen</th>
-        <td>Decreases how quickly the cluster range recovers after each shot, decreasing accuracy. This is a negative value.</td>
-    </tr><tr>
-        <th>Impulse Accuracy</th>
-        <td>Increases the amount the cluster range grows each time you shoot, decreasing accuracy.</td>
-    </tr><tr>
-        <th>Burst Impulse Scale</th>
-        <td>Increases the amount the cluster range grows each time you burst fire, decreasing accuracy. This is a multiplier of the gun's Impulse Accuracy.</td>
-    </tr>
-</table>
+{% include attributes.html filter=page.accuracy_attributes %}
 
 The accuracy stat on the weapon card is controlled by weapon spread.
 Crosshair size is controlled by a combination of the weapon spread and the current cluster range.
@@ -87,6 +74,6 @@ The same logic holds for accuracy regen.
 
 *Scale*{:.scale} bonuses are the one type that may have issues - multiplying a positive number makes it bigger but multiplying a negative makes it smaller.
 Sometimes Gearbox gives a part Hyperion manufacturer bonuses to invert the intended bonus properly, but sometimes they forget and it actually has the opposite effect.
-<!-- TODO: are there actually examples where they forgot? -->
+{% comment %} TODO: are there actually examples where they forgot? {% endcomment %}
 
 It would theoretically be possible for various bonuses combined to push the impulse accuracy or accuracy regen back past 0, removing Hyperion's special behavior, but in practice this never happens.

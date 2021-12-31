@@ -11,12 +11,12 @@
     --footnote-colour: #999999;
     --border-format: 1px solid rgba(255, 255, 255, 0.5);
 
-    --image-size-base: 9em;
-    --image-size-increment: 3.5em;
+    --img-size-base: 9em;
+    --img-size-increment: 3.5em;
 
-    --img-size-small: calc(var(--image-size-base) - var(--image-size-increment));
-    --img-size-standard: var(--image-size-base);
-    --img-size-big: calc(var(--image-size-base) + var(--image-size-increment));
+    --img-size-small: calc(var(--img-size-base) - var(--img-size-increment));
+    --img-size-standard: var(--img-size-base);
+    --img-size-big: calc(var(--img-size-base) + var(--img-size-increment));
 
     --nav-width: 10em;
 }
@@ -149,7 +149,6 @@ table.border td, table.border th {
 }
 table.left, table.left td, table.left th {
     text-align: left;
-    vertical-align: top;
     margin: revert;
 }
 
@@ -198,6 +197,6 @@ sup {
     font-size: 0.83em;
 }
 
-em.good, em.bad, em.pre-add, em.scale, em.post-add, em.grade, em.per-grade {
+em.good, em.bad, em.pre-add, em.scale, em.post-add, em.grade, em.per-grade, em.no-i {
     font-style: normal;
 }

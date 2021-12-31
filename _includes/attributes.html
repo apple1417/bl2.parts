@@ -1,0 +1,18 @@
+{% assign attributes = site.data.attributes.attributes | sort_natural: "name" %}
+{% if include.filter %}
+    {% if include.filter[0] %}
+        {% assign filters = include.filter %}
+    {% else %}
+        {% assign filters = include.filter | split: "," %}
+    {% endif %}
+    {% assign attributes = attributes | where_exp: "item", "filters contains item.attribute" %}
+{% endif %}
+
+<table class="left">
+    {% for attr in attributes %}
+        <tr>
+            <th>{{ attr.name | markdownify | remove: "<p>" | remove: "</p>" }}</th>
+            <td>{{ attr.description | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+        </tr>
+    {% endfor %}
+</table>
