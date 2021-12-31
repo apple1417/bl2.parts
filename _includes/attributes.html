@@ -9,10 +9,16 @@
 {% endif %}
 
 <table class="left">
-    {% for attr in attributes %}
+{% if include.by_resolver %}
+    {% assign grouped_attributes = attributes | group_by: "resolver" | sort_natural: "name" %}
+    {% for group in grouped_attributes %}
+        {% assign resolver = site.data.attributes.resolvers | where: "class", group.name | first %}
         <tr>
-            <th>{{ attr.name | markdownify | remove: "<p>" | remove: "</p>" }}</th>
-            <td>{{ attr.description | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+            <th colspan="2"><h3>{{resolver.name}} Resolver</h3></th>
         </tr>
+        {% include _attribute_iter.html attributes=group.items %}
     {% endfor %}
+{% else %}
+    {% include _attribute_iter.html attributes=attributes %}
+{% endif %}
 </table>

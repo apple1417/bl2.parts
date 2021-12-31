@@ -1,0 +1,6 @@
+{% for attr in include.attributes %}
+    <tr>
+        <th>{{ attr.name | markdownify | remove: "<p>" | remove: "</p>" }}</th>
+        <td>{{ attr.description | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+    </tr>
+{% endfor %}

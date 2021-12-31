@@ -2,9 +2,9 @@ resolvers:
   - name: Weapon
     class: WeaponAttributeContextResolver
   - name: Controller
-    classes: ControllerAttributeContextResolver
+    class: ControllerAttributeContextResolver
   - name: Player Controller
-    classes: PlayerControllerAttributeContextResolver
+    class: PlayerControllerAttributeContextResolver
   - name: Resource Pool
     class: ResourcePoolAttributeContextResolver
   - name: Weapon Resource Pool
