@@ -2,12 +2,10 @@
     {% assign sorted_items = include.nav | sort_natural: "title" %}
     {% for item in sorted_items %}
         <li>
-            {% capture classes %}
-                {{include.classes}}
-                {% if item.url == page.url %}
-                    navCurrent
-                {% endif %}
-            {% endcapture %}
+            {% assign classes = include.classes %}
+            {% if item.url == page.url %}
+                {% assign classes = classes | append: " nav-current" %}
+            {% endif %}
 
             <a href="{{ item.url }}" class="{{classes}}">{{ item.title }}</a>
         </li>

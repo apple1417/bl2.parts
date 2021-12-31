@@ -5,10 +5,13 @@
     --main-footnote-colour: #999999;
     --main-border-style: 1px solid rgba(255, 255, 255, 0.5);
 
-    --img-size-small: 5.25em;
-    --img-size-med: 8.875em;
-    --img-size-big: 12.5em;
-    --img-size-massive: 16.125em;
+    --image-size-base: 12.5em;
+    --image-size-increment: 3.5em;
+
+    --img-size-small: calc(var(--image-size-base) - var(--image-size-increment) * 2);
+    --img-size-med: calc(var(--image-size-base) - var(--image-size-increment));
+    --img-size-big: var(--image-size-base);
+    --img-size-massive: calc(var(--image-size-base) + var(--image-size-increment));
 
     --navbar-size: 10em;
 }
@@ -107,7 +110,7 @@ sup {
     color: var(--main-footnote-colour);
 }
 
-body > aside.navbar {
+body > aside.nav-container {
     position: fixed;
     left: 0;
     top: 0;
@@ -119,7 +122,7 @@ body > aside.navbar {
     background: rgba(0, 0, 0, 0.5);
     border-right: 1px solid #000;
 }
-body > aside.navbar > :last-child {
+body > aside.nav-container > :last-child {
     margin-bottom: 1em;
 }
 body > div.content {
@@ -148,10 +151,10 @@ nav a {
 nav a:visited {
     color: var(--main-text-colour);
 }
-nav a.navMisc {
+nav a.nav-misc {
     font-size: 1em;
 }
-nav a.navCurrent {
+nav a.nav-current {
     font-weight: bold;
     text-decoration: underline;
 }

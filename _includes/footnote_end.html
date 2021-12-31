@@ -1,0 +1,9 @@
+<div class="footnotes">
+    {%- for id in footnotes -%}
+        <sup>{{forloop.index}}</sup><span markdown=1>{{include | map: id | first}}</span>
+        {%- unless forloop.last -%}
+            <br>
+        {%- endunless -%}
+    {%- endfor -%}
+</div>
+{%- assign footnotes = "" | split: "" -%}

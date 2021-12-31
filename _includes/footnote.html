@@ -1,0 +1,14 @@
+{%- unless footnotes -%}
+    {%- assign footnotes = "" | split: "" -%}
+{%- endunless -%}
+{%- if footnotes contains include.id -%}
+    {%- for footnote_id in footnotes -%}
+        {%- if footnote_id == include.id -%}
+            <sup>{{forloop.index}}</sup>
+            {% break %}
+        {%- endif -%}
+    {%- endfor -%}
+{%- else -%}
+    {%- assign footnotes = footnotes | push: include.id -%}
+    <sup>{{footnotes.size}}</sup>
+{%- endif -%}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@700&display=swap');
+
+:root {
+    --main-font-family: 'Open Sans', sans-serif;
+    --main-font-weight: normal;
+
+    --header-font-family: 'Roboto Slab', serif;
+    --header-font-weight: bold;
+
+    --text-colour: #e7e8e9;
+    --footnote-colour: #999999;
+    --border-format: 1px solid rgba(255, 255, 255, 0.5);
+
+    --image-size-base: 9em;
+    --image-size-increment: 3.5em;
+
+    --img-size-small: calc(var(--image-size-base) - var(--image-size-increment));
+    --img-size-standard: var(--image-size-base);
+    --img-size-big: calc(var(--image-size-base) + var(--image-size-increment));
+
+    --nav-width: 10em;
+}
+
+
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight);
+    font-display: swap;
+    color: var(--text-colour);
+    background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family);
+    font-weight: var(--header-font-weight);
+}
+h1 {
+    text-align: center;
+}
+
+th {
+    font-family: var(--header-font-family);
+    font-weight: var(--header-font-weight);
+}
+
+a {
+    color: palevioletred;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: var(--text-colour);
+}
+a:visited {
+    color: darkred;
+}
+
+
+
+body > aside.nav-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: var(--nav-width);
+    max-width: var(--nav-width);
+    height: 100%;
+    overflow-y: auto;
+    padding: 0.5em 0.75em;
+    background: rgba(0, 0, 0, 0.5);
+    border-right: 1px solid #000;
+}
+body > aside.nav-container > :last-child {
+    margin-bottom: 1em;
+}
+body > div.nav-offset {
+    margin-left: var(--nav-width);
+    padding-left: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav > * ul {
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+nav h1 {
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0.25em auto;
+}
+nav a {
+    color: var(--text-colour);
+    font-size: 1.2em;
+}
+nav a:visited {
+    color: var(--text-colour);
+}
+nav a.nav-misc {
+    font-size: 1em;
+}
+nav a.nav-current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.content {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+
+
+img.small {
+    max-width: var(--img-size-small);
+    max-height: var(--img-size-small);
+}
+img {
+    max-width: var(--img-size-standard);
+    max-height: var(--img-size-standard);
+}
+img.big {
+    max-width: var(--img-size-big);
+    max-height: var(--img-size-big);
+}
+
+
+
+table, td, th {
+    text-align: center;
+    margin: 0 auto;
+}
+table.border {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+table.border td, table.border th {
+    border: var(--border-format);
+}
+table.left, table.left td, table.left th {
+    text-align: left;
+    vertical-align: top;
+    margin: revert;
+}
+
+
+
+sup {
+    color: var(--footnote-colour);
+}
+.footnotes {
+    font-size: 0.75em;
+}
+.footnotes sup {
+    display: inline-block;
+    position: relative;
+    left: -2em;
+    margin-right: -1.25em;
+    width: 1em;
+    text-align: right;
+}
+
+
+
+.good {
+    color: lime;
+}
+.bad {
+    color: red;
+}
+
+.pre-add {
+    color: #ff0000;
+}
+.scale {
+    color: #ffff00;
+}
+.post-add {
+    color: #00ffff;
+}
+.grade, .per-grade::after {
+    color: #ff00ff;
+}
+
+.per-grade::after {
+    content: "/g";
+    vertical-align: sub;
+    font-size: 0.83em;
+}
+
+em.good, em.bad, em.pre-add, em.scale, em.post-add, em.grade, em.per-grade {
+    font-style: normal;
+}
