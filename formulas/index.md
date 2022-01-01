@@ -78,7 +78,7 @@ Bonus = Base + (PerGrade &times; *Grades*{:.grade})
 </code>
 
 $$
-\text{Bonus} = \text{Base} + \left(\text{PerGrade} \times \class{grade}{\text{Grades}}\right)
+\text{Bonus} = \text{Base} + \left(\text{PerGrade} \times \sum \class{grade}{\text{Grades}}\right)
 $$
 {:hidden="1" .latex-content}
 
