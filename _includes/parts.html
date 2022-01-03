@@ -1,0 +1,65 @@
+{% assign id = "" %}
+{% if include.id %}
+    {% assign id = 'id="' | append: include.id | append: '"'%}
+{% endif %}
+
+<div {{id}} class="part-container">
+    {% assign sorted_parts = include.parts | sort_natural: "_obj_name" %}
+    {% unless include.uniques %}
+        {% assign sorted_parts = sorted_parts | where: "unique", false %}
+    {% endunless %}
+    {% for part in sorted_parts %}
+        <div class="part-block">
+            <h4>{{part._obj_name | split: "." | last}}</h4>
+
+            {% assign mesh = include.meta.meshes | map: part.mesh | first %}
+            {% if include.mesh_image %}
+                <img class="{{include.image_class}}" src="{{mesh.src}}">
+            {% endif %}
+            {% if include.mesh_name %}
+                {% if include.mesh_image %}
+                    <br>
+                {% endif %}
+                {% if mesh %}
+                    {{mesh.name}} Mesh
+                {% elsif part.mesh %}
+                    {{part.mesh}} Mesh
+                {% else %}
+                    No Mesh
+                {% endif %}
+            {% endif %}
+
+            {% unless include.hide_bonuses %}
+                <div class="part-bonuses">
+                    {% if part.bonuses %}
+                        {% assign grouped_bonuses = part.bonuses
+                                                    | group_by: "restrict"
+                                                    | sort_natural: "name" %}
+                        {% for group in grouped_bonuses %}
+                            {% if group.name != "" %}
+                                {% unless include.show_restricted %}
+                                    {% break %}
+                                {% endunless %}
+                                <strong>On {{group.name}}:</strong><br>
+                            {% endif %}
+                            {% assign sorted_group = group.items
+                                                     | sort_natural: "slot"
+                                                     | sort_natural: "attribute" %}
+                            {% for bonus in group.items %}
+                                <span class="{{bonus.type}}">
+                                    {% if bonus.value > 0 %}
+                                        +
+                                    {%- endif -%}
+                                    {{bonus.value}}
+                                </span>
+                                {{bonus.slot}}{{bonus.attribute | split: "." | last}}<br>
+                            {% endfor %}
+                        {% endfor %}
+                    {% else %}
+                    -
+                    {% endif %}
+                </div>
+            {% endunless %}
+        </div>
+    {% endfor %}
+</div>

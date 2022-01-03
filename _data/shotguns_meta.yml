@@ -1,0 +1,168 @@
+standard_definition:
+  _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
+  grades:
+  - attribute: WeaponDamage
+    base: 0
+    per_grade: 0.03
+    slot: WeaponDamage
+    type: scale
+  - attribute: WeaponFireInterval
+    base: 0
+    per_grade: -0.03
+    slot: WeaponFireRate
+    type: scale
+  - attribute: WeaponClipSize
+    base: 0
+    per_grade: 0.05
+    slot: WeaponMagSize
+    type: scale
+  - attribute: WeaponReloadSpeed
+    base: 0
+    per_grade: -0.05
+    slot: WeaponReloadSpeed
+    type: scale
+  - attribute: WeaponSpread
+    base: 0
+    per_grade: -0.05
+    slot: WeaponSpread
+    type: scale
+  - attribute: AccuracyMinValue
+    base: 0
+    per_grade: -0.05
+    slot: AccuracyMin
+    type: scale
+  - attribute: AccuracyMaxValue
+    base: 0
+    per_grade: -0.05
+    slot: AccuracyMax
+    type: scale
+  - attribute: AccuracyOnIdleRegenerationRate
+    base: 0
+    per_grade: 0.05
+    slot: AccuracyRegen
+    type: scale
+  - attribute: WeaponPerShotAccuracyImpulse
+    base: 0
+    per_grade: -0.05
+    slot: WeaponAccuracyImpulse
+    type: scale
+  - attribute: WeaponBurstShotAccuracyImpulseScale
+    base: 0
+    per_grade: -0.05
+    slot: WeaponBurstImpulse
+    type: scale
+  - attribute: WeaponZoomEndFOV
+    base: 0
+    per_grade: -0.13
+    slot: WeaponZoomFOV
+    type: scale
+part_reference:
+  - name: Accessory
+    src: /shotguns/^images/parts/accessory.png
+  - name: Barrel
+    src: /shotguns/^images/parts/barrel.png
+  - name: Body
+    src: /shotguns/^images/parts/body.png
+  - name: Grip
+    src: /shotguns/^images/parts/grip.png
+  - name: Sight
+    src: /shotguns/^images/parts/sight.png
+  - name: Stock
+    src: /shotguns/^images/parts/stock.png
+meshes:
+  Acc_Bayonet1:
+    name: Bayonet 1
+    src: /shotguns/^images/accessories/bayonet_1.png
+  Acc_Bayonet2:
+    name: Bayonet 2
+    src: /shotguns/^images/accessories/bayonet_2.png
+  Acc_Tech1:
+    name: Tech 1
+    src: /shotguns/^images/accessories/tech_1.png
+  Acc_Tech2:
+    name: Tech 2
+    src: /shotguns/^images/accessories/tech_2.png
+  Acc_Tech3:
+    name: Tech 3
+    src: /shotguns/^images/accessories/tech_3.png
+  Acc_VerticalGrip:
+    name: Vertical Grip
+    src: /shotguns/^images/parts/accessory.png
+  SG_Barrel_Bandit:
+    name: Bandit
+    src: /shotguns/^images/barrels/bandit.png
+  SG_Barrel_Alien:
+    name: E-Tech
+    src: /shotguns/^images/barrels/etech.png
+  SG_Barrel_Hyperion:
+    name: Hyperion
+    src: /shotguns/^images/barrels/hyperion.png
+  SG_Barrel_Jakobs:
+    name: Jakobs
+    src: /shotguns/^images/barrels/jakobs.png
+  SG_Barrel_Tediore:
+    name: Tediore
+    src: /shotguns/^images/barrels/tediore.png
+  SG_Barrel_Torgue:
+    name: Torgue
+    src: /shotguns/^images/barrels/torgue.png
+  SG_Body_Bandit:
+    name: Bandit
+    src: /shotguns/^images/bodies/bandit.png
+  SG_Body_Hyperion:
+    name: Hyperion
+    src: /shotguns/^images/bodies/hyperion.png
+  SG_Body_Jakobs:
+    name: Jakobs
+    src: /shotguns/^images/bodies/jakobs.png
+  SG_Body_Tediore:
+    name: Tediore
+    src: /shotguns/^images/bodies/tediore.png
+  SG_Body_Torgue:
+    name: Torgue
+    src: /shotguns/^images/bodies/torgue.png
+  SG_FrontGrip_Bandit:
+    name: Bandit
+    src: /shotguns/^images/grips/bandit.png
+  SG_FrontGrip_Hyperion:
+    name: Hyperion
+    src: /shotguns/^images/grips/hyperion.png
+  SG_FrontGrip_Jakobs:
+    name: Jakobs
+    src: /shotguns/^images/grips/jakobs.png
+  SG_FrontGrip_Tediore:
+    name: Tediore
+    src: /shotguns/^images/grips/tediore.png
+  SG_FrontGrip_Torgue:
+    name: Torgue
+    src: /shotguns/^images/grips/torgue.png
+  SG_Scope_Bandit:
+    name: Bandit
+    src: /shotguns/^images/sights/bandit.png
+  SG_Scope_Hyperion:
+    name: Hyperion
+    src: /shotguns/^images/sights/hyperion.png
+  SG_Scope_Jakobs:
+    name: Jakobs
+    src: /shotguns/^images/sights/jakobs.png
+  SG_Scope_Tediore:
+    name: Tediore
+    src: /shotguns/^images/sights/tediore.png
+  SG_Scope_Torgue:
+    name: Torgue
+    src: /shotguns/^images/sights/torgue.png
+  SG_Stock_Bandit:
+    name: Bandit
+    src: /shotguns/^images/stocks/bandit.png
+  SG_Stock_Hyperion:
+    name: Hyperion
+    src: /shotguns/^images/stocks/hyperion.png
+  SG_Stock_Jakobs:
+    name: Jakobs
+    src: /shotguns/^images/stocks/jakobs.png
+  SG_Stock_Tediore:
+    name: Tediore
+    src: /shotguns/^images/stocks/tediore.png
+  SG_Stock_Torgue:
+    name: Torgue
+    src: /shotguns/^images/stocks/torgue.png

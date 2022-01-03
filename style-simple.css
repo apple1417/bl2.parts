@@ -11,6 +11,8 @@
     --footnote-colour: #999999;
     --border-format: 1px solid rgba(255, 255, 255, 0.5);
 
+    --small-text-size: 0.75em;
+
     --img-size-base: 9em;
     --img-size-increment: 3.5em;
 
@@ -19,6 +21,7 @@
     --img-size-big: calc(var(--img-size-base) + var(--img-size-increment));
 
     --nav-width: 10em;
+    --content-width: 50em;
 }
 
 
@@ -30,7 +33,6 @@ html {
 body {
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
-    font-display: swap;
     color: var(--text-colour);
     background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
 }
@@ -115,7 +117,7 @@ nav a.nav-current {
 }
 
 div.content {
-    max-width: 50em;
+    max-width: var(--content-width);
     margin: 0 auto;
 }
 
@@ -158,7 +160,7 @@ sup {
     color: var(--footnote-colour);
 }
 .footnotes {
-    font-size: 0.75em;
+    font-size: var(--small-text-size);
 }
 .footnotes sup {
     display: inline-block;
@@ -167,6 +169,38 @@ sup {
     margin-right: -1.25em;
     width: 1em;
     text-align: right;
+}
+
+
+
+div.part-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    row-gap: 1em;
+}
+div.part-block {
+    text-align: center;
+    width: fit-content;
+}
+div.part-block h4 {
+    margin: 0;
+}
+div.part-block img[src=""] {
+    visibility: hidden;
+    min-width: var(--img-size-standard);
+    min-height: var(--img-size-standard);
+}
+div.part-block img.small[src=""] {
+    min-width: var(--img-size-small);
+    min-height: var(--img-size-small);
+}
+div.part-block img.big[src=""] {
+    min-width: var(--img-size-big);
+    min-height: var(--img-size-big);
+}
+div.part-block div.part-bonuses {
+    font-size: var(--small-text-size);
 }
 
 
