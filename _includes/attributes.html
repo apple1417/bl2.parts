@@ -1,24 +1,17 @@
-{% assign attributes = site.data.attributes.attributes | sort_natural: "name" %}
+{% assign attributes = site.data.attributes | sort_natural: "name" %}
 {% if include.filter %}
-    {% if include.filter[0] %}
-        {% assign filters = include.filter %}
-    {% else %}
-        {% assign filters = include.filter | split: "," %}
-    {% endif %}
-    {% assign attributes = attributes | where_exp: "item", "filters contains item.attribute" %}
+    {% assign attributes = attributes | where_exp: "item", "include.filter contains item.obj" %}
+{% endif %}
+{% assign classes = "left" %}
+{% if include.table_classes %}
+    {% assign classes = classes | append: " " | append: include.table_classes %}
 {% endif %}
 
-<table class="left">
-{% if include.by_resolver %}
-    {% assign grouped_attributes = attributes | group_by: "resolver" | sort_natural: "name" %}
-    {% for group in grouped_attributes %}
-        {% assign resolver = site.data.attributes.resolvers | where: "class", group.name | first %}
+<table class="{{classes}}">
+    {% for attr in attributes %}
         <tr>
-            <th colspan="2"><h3>{{resolver.name}} Resolver</h3></th>
+            <th>{{ attr.name | markdownify | remove: "<p>" | remove: "</p>" }}</th>
+            <td>{{ attr.description | markdownify | remove: "<p>" | remove: "</p>" }}</td>
         </tr>
-        {% include _attribute_iter.html attributes=group.items %}
     {% endfor %}
-{% else %}
-    {% include _attribute_iter.html attributes=attributes %}
-{% endif %}
 </table>

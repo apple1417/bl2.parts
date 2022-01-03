@@ -1,46 +1,195 @@
-resolvers:
-  - name: Weapon
-    class: WeaponAttributeContextResolver
-  - name: Controller
-    class: ControllerAttributeContextResolver
-  - name: Player Controller
-    class: PlayerControllerAttributeContextResolver
-  - name: Resource Pool
-    class: ResourcePoolAttributeContextResolver
-  - name: Weapon Resource Pool
-    class: WeaponResourcePoolAttributeContextResolver
-  - name: Pawn
-    class: PawnAttributeContextResolver
-  - name: Status Effect Chance
-    class: StatusEffectChanceModifierResolver
+- obj: D_Attributes.Weapon.WeaponDamage
+  name: Weapon Damage
+  description: Increases the damage your weapon deals.
+  percent: false
+  add_good: true
+  multi_good: true
 
-attributes:
-  - attribute: WeaponSpread
-    resolver: WeaponAttributeContextResolver
-    name: Weapon Spread
-    description: Increases the offset range for each individual projectile, decreasing overall accuracy.
+- obj: D_Attributes.Weapon.WeaponFireInterval
+  name: Fire Interval
+  description: Increases the interval between seperate shots, decreasing *fire rate*.
+  percent: false
+  add_good: false
+  multi_good: false
 
-  - attribute: AccuracyMinValue
-    resolver: WeaponResourcePoolAttributeContextResolver
-    name: Min Accuracy
-    description: Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.
+- obj: D_Attributes.Weapon.WeaponClipSize
+  name: Mag Size
+  description: Increases the size of your weapon's magazine.
+  percent: false
+  add_good: true
+  multi_good: true
 
-  - attribute: AccuracyMaxValue
-    resolver: WeaponResourcePoolAttributeContextResolver
-    name: Max Accuracy
-    description: Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.
+- obj: D_Attributes.Weapon.WeaponReloadSpeed
+  name: Reload Time
+  description: Increases the amount of time it takes to reload your weapon.
+  percent: false
+  add_good: false
+  multi_good: false
 
-  - attribute: AccuracyOnIdleRegenerationRate
-    resolver: WeaponResourcePoolAttributeContextResolver
-    name: Accuracy Regen
-    description: Decreases how quickly the cluster range recovers after each shot, decreasing accuracy. This is a negative value.
+- obj: D_Attributes.Weapon.WeaponSpread
+  name: Weapon Spread
+  description: Increases the offset range for each individual projectile, decreasing overall accuracy.
+  percent: false
+  add_good: false
+  multi_good: false
 
-  - attribute: WeaponPerShotAccuracyImpulse
-    resolver: WeaponAttributeContextResolver
-    name: Impulse Accuracy
-    description: Increases the amount the cluster range grows each time you shoot, decreasing accuracy.
+- obj: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+  name: Min Accuracy
+  description: Increases the minimum cluster range, the most accurate you can ever be, decreasing accuracy.
+  percent: false
+  add_good: false
+  multi_good: false
 
-  - attribute: WeaponBurstShotAccuracyImpulseScale
-    resolver: WeaponAttributeContextResolver
-    name: Burst Impulse Scale
-    description: Increases the amount the cluster range grows each time you burst fire, decreasing accuracy. This is a multiplier of the gun's Impulse Accuracy.
+- obj: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+  name: Max Accuracy
+  description: Increases the maximum cluster range, the least accurate you can ever be, decreasing accuracy.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+  name: Accuracy Regen
+  description: Decreases how quickly the cluster range recovers after each shot, decreasing accuracy. This is a negative value.
+  percent: false
+  add_good: false
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+  name: Impulse Accuracy
+  description: Increases the amount the cluster range grows each time you shoot, decreasing accuracy.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+  name: Burst Impulse Scale
+  description: Increases the amount the cluster range grows each time you burst fire, decreasing accuracy. This is a multiplier of the gun's Impulse Accuracy.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.Weapon.WeaponZoomEndFOV
+  name: Zoom FOV
+  description: Increases your FOV while scoped, decreasing how zoomed in you are.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+  name: Melee Damage
+  description: Increases the amount of damage you deal when meleeing multiplicatively.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+  name: Crit Damage
+  description: Increases the amount of damage critical hits deal. This is a multiplier of your regular damage - it's base value is 2.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponProjectilesPerShot
+  name: Projectile Count
+  description: Increases the amount of projectiles your weapon shoots each shot.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponShotCost
+  name: Shot Cost
+  description: Increases the amount of ammo it takes to take a single shot.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.GameplayAttributes.FootSpeed
+  name: Movement Speed
+  description: Increases your maximum move speed (but not acceleration).
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+  name: Status Chance Base
+  description: Increases the chance that shooting an enemy will give them a DoT. This is multiplied with the Status Chance Modifier, and a per-surface modifier.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+  name: Status Chance Modifier
+  description: Multiplicatively increases the chance that shooting an enemy will give them a DoT. This is multiplied with the Status Chance Base, and a per-surface modifier.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.StatusEffectModifiers.AmpChanceResistanceModifier
+  name: Status Chance Resistance (*Slag*{:.no-i.slag})
+  description: Increases the chance of being inflicted with *slag*{:.no-i.slag} status effects multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+  name: Status Chance Resistance (*Corrosive*{:.no-i.corrosive})
+  description: Increases the chance of being inflicted with *corrosive*{:.no-i.corrosive} status effects multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+  name: Status Chance Resistance (*Fire*{:.no-i.fire})
+  description: Increases the chance of being inflicted with *fire*{:.no-i.fire} status effects multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+  name: Status Chance Resistance (*Shock*{:.no-i.shock})
+  description: Increases the chance of being inflicted with *shock*{:.no-i.shock} status effects multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+  name: Status Chance Resistance (*Cryo*{:.no-i.cryo})
+  description: Increases the chance of being inflicted with *cryo*{:.no-i.cryo} status effects multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+  name: Damage to Healing
+  description: Increases the percent of damage dealt that gets returned to you as healing.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponAutomaticBurstCount
+  name: Burst Count
+  description: Increases the amount of shots fired in each burst.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+  name: Reflect Off Self Chance
+  description: Increases the chance that bullets that hit you will relect off.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+  name: Reflect Off Self Damage
+  description: Increases the amount of damage that self reflected bullets deal. This multiplies the original damage.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+  name: Reflect Off Self Self Damage
+  description: Increases the amount of damage that self reflected bullets deal to yourself. This multiplies the original damage.
+  percent: true
+  add_good: false
+  multi_good: False

@@ -1,11 +1,11 @@
 ---
-accuracy_attributes:
-  - WeaponSpread
-  - AccuracyMinValue
-  - AccuracyMaxValue
-  - AccuracyOnIdleRegenerationRate
-  - WeaponPerShotAccuracyImpulse
-  - WeaponBurstShotAccuracyImpulseScale
+attributes:
+  - D_Attributes.Weapon.WeaponSpread
+  - D_Attributes.AccuracyResourcePool.AccuracyMinValue
+  - D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+  - D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+  - D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+  - D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
 ---
 
 # Accuracy Mechanics
@@ -48,7 +48,7 @@ On idle you will naturally regen back towards the base value, so once you stop s
 # Attributes
 Accuracy is controlled by six attributes, listed below alongside with their effect when increased.
 
-{% include attributes.html filter=page.accuracy_attributes %}
+{% include attributes.html filter=page.attributes %}
 
 The accuracy stat on the weapon card is controlled by weapon spread.
 Crosshair size is controlled by a combination of the weapon spread and the current cluster range.

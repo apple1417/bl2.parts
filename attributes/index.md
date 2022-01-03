@@ -3,8 +3,8 @@ This page lists all the attributes that the various part pages refer to, what th
 exactly happens when a bonus makes their value larger (more positive). You can assume all attributes
 use positive values unless stated otherwise.
 
-Attributes are sorted based on their resolver - this has minor implications on calculation order,
-but can usually be ignored.
+Any attributes which are said affect something "multiplicatively" have a base value of 1, and
+directly multiply the relevant stat.
 
 Note that this list is not exhaustive, but should cover everything present in the current guides.
 
@@ -12,4 +12,4 @@ Also see the [Accuracy Mechanics](/accuracy/) page for a more detailed overview 
 accuracy attributes (including how Hyperion works), and the [Melee Damage](/melee/) page for how the
 various melee attributes are combined.
 
-{% include attributes.html by_resolver=true %}
+{% include attributes.html table_classes="border-x" %}

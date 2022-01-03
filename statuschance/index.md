@@ -1,14 +1,27 @@
+---
+chance_attributes:
+- D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+- D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+resistance_attributes:
+- D_Attributes.StatusEffectModifiers.AmpChanceResistanceModifier
+- D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+- D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+- D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+- D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+---
+
 # Status Effect Chance
 
-Status Effect Chance isn't just made of a single modifier like the other attributes.
+Status Effect Chance isn't just made of a single modifier like the other attributes. There are in
+fact 8 different attributes that contribute to the final chance, which all get multiplied together.
 
-There are 4 values that contribute to the final chance, which all get multiplied together.
-- Status Chance Base
-- Status Chance Modifier
-- Surface Chance Modifier
-- Target's Status Chance Resistance
+{% include attributes.html filter=page.chance_attributes %}
 
-The Surface Chance Modifier is hardcoded, based on element.
+The Target's Status Chance Resistance also plays a role.
+
+{% include attributes.html filter=page.resistance_attributes %}
+
+The final value is the Surface Chance Modifier, which is hardcoded based on element and surface.
 
 Surface Type | *Fire*{:.no-i.fire} | *Shock*{:.no-i.shock} | *Corrosive*{:.no-i.corrosive} | *Slag*{:.no-i.slag} | *Cryo*{:.no-i.cryo}
 ---|---|---|---|---|---

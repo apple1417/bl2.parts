@@ -1,3 +1,8 @@
+{% unless include.parts and include.meta %}
+<span style="font-size: 20em; color: red">ERROR</span>
+    {% break %}
+{% endunless %}
+
 {% assign id = "" %}
 {% if include.id %}
     {% assign id = 'id="' | append: include.id | append: '"'%}
@@ -40,19 +45,74 @@
                                 {% unless include.show_restricted %}
                                     {% break %}
                                 {% endunless %}
+                                <br>
                                 <strong>On {{group.name}}:</strong><br>
                             {% endif %}
-                            {% assign sorted_group = group.items
-                                                     | sort_natural: "slot"
-                                                     | sort_natural: "attribute" %}
+
+                            {%- comment -%}
+                            We want to sort by attribute names.
+                            This is an absolute mess because you can't sort off of an expression,
+                             and you can't create mappings.
+
+                            First we work out the attribute name and value we want
+                            We then join these into a string, in *reverse*, with the name first
+                            We add all of these strings into a single array
+                            Sorting this array then sorts by attribute name
+                            We can then split up each entry again, and reverse them to get value
+                             in front again in the formal we actually output
+                            {%- endcomment -%}
+
+                            {% assign fake_dict_seperator = "&|^|&" %}
+                            {% assign fake_dict = "" | split: "" %}
                             {% for bonus in group.items %}
-                                <span class="{{bonus.type}}">
-                                    {% if bonus.value > 0 %}
-                                        +
-                                    {%- endif -%}
-                                    {{bonus.value}}
-                                </span>
-                                {{bonus.slot}}{{bonus.attribute | split: "." | last}}<br>
+                                {% if bonus.slot %}
+                                    {% assign grade_stats = include.meta.standard_definition.grades
+                                                            | where: "slot", bonus.slot
+                                                            | first %}
+                                    {% assign attr = site.data.attributes
+                                                     | where: "obj", grade_stats.attribute
+                                                     | first %}
+                                {% else %}
+                                    {% assign attr = site.data.attributes
+                                                     | where: "obj", bonus.attribute
+                                                     | first %}
+                                {% endif %}
+
+                                {% assign value = '<span class="'
+                                                  | append: bonus.type
+                                                  | append: '">' %}
+                                {% if bonus.value > 0 %}
+                                    {% assign value = value | append: "+" %}
+                                {%- endif -%}
+                                {% assign value = value | append: bonus.value | append: "</span>" %}
+
+                                {% if attr %}
+                                    {% assign name = attr.name %}
+                                {% elsif bonus.attribute %}
+                                    {% assign name = bonus.attribute | split: "." | last %}
+                                    {% assign value = '<span style="background: #00F">'
+                                                      | append: value
+                                                      | append: "</span>" %}
+                                {% else %}
+                                    {% assign name = bonus.slot %}
+                                    {% assign value = '<span style="background: #00F">'
+                                                      | append: value
+                                                      | append: "</span>" %}
+                                {% endif %}
+
+                                {% assign fake_dict_entry = name
+                                                            | append: fake_dict_seperator
+                                                            | append: value %}
+                                {% assign fake_dict = fake_dict | push: fake_dict_entry %}
+                            {% endfor %}
+
+                            {% assign fake_dict = fake_dict | sort_natural %}
+                            {% for entry in fake_dict %}
+                                {% assign entry_parts = entry | split: fake_dict_seperator %}
+                                {{entry_parts[1]}} {{entry_parts[0]}}
+                                {% unless forloop.last %}
+                                    <br>
+                                {% endunless %}
                             {% endfor %}
                         {% endfor %}
                     {% else %}

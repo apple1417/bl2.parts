@@ -20,6 +20,7 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
     object-fit: contain;
     min-width: var(--img-size-standard);
     min-height: var(--img-size-standard);
+    max-width: var(--img-size-big);
 }
 </style>
 {% include parts.html 
@@ -81,7 +82,7 @@ There are 5 non-unique stocks.
     mesh_image=true
 %}
 
-# Element
+### Element
 Element is one of the miscellaneous parts. They have no model, but instead add lights over the
 weapon in that element's colours. There are six non-unique element parts, one for each element, and
 one for no element. None of them give any bonuses. 

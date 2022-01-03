@@ -1,57 +1,57 @@
 standard_definition:
   _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
   grades:
-  - attribute: WeaponDamage
+  - attribute: D_Attributes.Weapon.WeaponDamage
     base: 0
     per_grade: 0.03
     slot: WeaponDamage
     type: scale
-  - attribute: WeaponFireInterval
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
     base: 0
     per_grade: -0.03
     slot: WeaponFireRate
     type: scale
-  - attribute: WeaponClipSize
+  - attribute: D_Attributes.Weapon.WeaponClipSize
     base: 0
     per_grade: 0.05
     slot: WeaponMagSize
     type: scale
-  - attribute: WeaponReloadSpeed
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
     base: 0
     per_grade: -0.05
     slot: WeaponReloadSpeed
     type: scale
-  - attribute: WeaponSpread
+  - attribute: D_Attributes.Weapon.WeaponSpread
     base: 0
     per_grade: -0.05
     slot: WeaponSpread
     type: scale
-  - attribute: AccuracyMinValue
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
     base: 0
     per_grade: -0.05
     slot: AccuracyMin
     type: scale
-  - attribute: AccuracyMaxValue
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
     base: 0
     per_grade: -0.05
     slot: AccuracyMax
     type: scale
-  - attribute: AccuracyOnIdleRegenerationRate
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
     base: 0
     per_grade: 0.05
     slot: AccuracyRegen
     type: scale
-  - attribute: WeaponPerShotAccuracyImpulse
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
     base: 0
     per_grade: -0.05
     slot: WeaponAccuracyImpulse
     type: scale
-  - attribute: WeaponBurstShotAccuracyImpulseScale
+  - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
     base: 0
     per_grade: -0.05
     slot: WeaponBurstImpulse
     type: scale
-  - attribute: WeaponZoomEndFOV
+  - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
     base: 0
     per_grade: -0.13
     slot: WeaponZoomFOV

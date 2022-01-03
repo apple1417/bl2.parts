@@ -142,12 +142,19 @@ table, td, th {
     text-align: center;
     margin: 0 auto;
 }
-table.border {
+table.border, table.border-x, table.border-y {
     border-collapse: collapse;
     border-style: hidden;
 }
-table.border td, table.border th {
-    border: var(--border-format);
+table.border td, table.border th, table.border-x td, table.border-x th {
+    border-top: var(--border-format);
+    border-bottom: var(--border-format);
+    padding: 3px;
+}
+table.border td, table.border th, table.border-y td, table.border-y th {
+    border-left: var(--border-format);
+    border-right: var(--border-format);
+    padding: 3px;
 }
 table.left, table.left td, table.left th {
     text-align: left;
