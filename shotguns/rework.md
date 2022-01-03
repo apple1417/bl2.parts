@@ -31,6 +31,7 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
     uniques=false
     mesh_image=true
     mesh_name=false
+    simple_bonuses=true
     hide_bonuses=false
     show_restricted_bonuses=false
 %}
@@ -47,6 +48,7 @@ There are 7 non-unique barrels.
     parts=site.data.shotguns.barrels
     meta=site.data.shotguns_meta
     mesh_image=true
+    simple_bonuses=true
 %}
 
 ### Bodies
@@ -59,6 +61,7 @@ There are 5 non-unique grips.
     parts=site.data.shotguns.grips
     meta=site.data.shotguns_meta
     mesh_image=true
+    simple_bonuses=true
 %}
 
 ### Sights
@@ -69,6 +72,7 @@ only applied while aiming.
     parts=site.data.shotguns.sights
     meta=site.data.shotguns_meta
     mesh_image=true
+    simple_bonuses=true
     show_restricted=true
 %}
 
@@ -80,6 +84,7 @@ There are 5 non-unique stocks.
     parts=site.data.shotguns.stocks
     meta=site.data.shotguns_meta
     mesh_image=true
+    simple_bonuses=true
 %}
 
 ### Element
