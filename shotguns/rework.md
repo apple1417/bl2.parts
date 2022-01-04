@@ -1,3 +1,12 @@
+---
+purple_body_names:
+ - GD_Weap_Shotgun.Body.SG_Body_Bandit_4
+ - GD_Weap_Shotgun.Body.SG_Body_Hyperion_4
+ - GD_Weap_Shotgun.Body.SG_Body_Jakobs_4
+ - GD_Weap_Shotgun.Body.SG_Body_Tediore_4
+ - GD_Weap_Shotgun.Body.SG_Body_Torgue_4
+---
+
 # Shotgun Parts Guide
 Shotguns are made out of 6 main visible parts.
 
@@ -17,7 +26,6 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
 
 <style>
 #accessories img {
-    object-fit: contain;
     min-width: var(--img-size-standard);
     min-height: var(--img-size-standard);
     max-width: var(--img-size-big);
@@ -47,7 +55,33 @@ There are 7 non-unique barrels.
 %}
 
 ### Bodies
-TODO
+There are 20 non-unique bodies, one for each rarity-manufacturer combination. All bodies of the
+same rarity share the same stats.
+
+<style>
+#bodies > div:nth-child(2) > img {
+    max-width: var(--img-size-big);
+    min-height: var(--img-size-standard)
+}
+</style>
+{% assign purple_bodies = site.data.shotguns.bodies
+                          | where_exp: "body", "page.purple_body_names contains body._obj_name" %}
+{% include parts.html
+    id="bodies"
+    parts=purple_bodies
+    meta=site.data.shotguns_meta
+    mesh_image=true
+    hide_bonuses=true
+%}
+
+{% include body_table.html 
+    meta=site.data.shotguns_meta
+    common="GD_Weap_Shotgun.Body.SG_Body_Bandit"
+    uncommon="GD_Weap_Shotgun.Body.SG_Body_Bandit_2"
+    rare="GD_Weap_Shotgun.Body.SG_Body_Bandit_3"
+    very_rare="GD_Weap_Shotgun.Body.SG_Body_Bandit_4"
+    simple_bonuses=true
+%}
 
 ### Grips
 There are 5 non-unique grips.

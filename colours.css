@@ -8,7 +8,7 @@
 .rare {
     color: #3c8eff;
 }
-.veryRare {
+.very-rare {
     color: #a83fe5;
 }
 .etech {
@@ -17,7 +17,7 @@
 .legendary {
     color: #ffb400
 }
-.pearl, .missionItem {
+.pearl, .mission-item {
     color: #00ffff;
 }
 .seraph {
@@ -75,7 +75,7 @@
 .moonstones {
     color: #49f3bf;
 }
-.projectileCount {
+.projectile-count {
     color: #ffcc00;
 }
 .vacuum {
