@@ -25,15 +25,10 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
 </style>
 {% include parts.html 
     id="accessories"
-    image_class=""
     parts=site.data.shotguns.accessories
     meta=site.data.shotguns_meta
-    uniques=false
     mesh_image=true
-    mesh_name=false
     simple_bonuses=true
-    hide_bonuses=false
-    show_restricted_bonuses=false
 %}
 
 All accessories have set prefixes associated with them based on manufacturer, which, assuming they
@@ -73,7 +68,7 @@ only applied while aiming.
     meta=site.data.shotguns_meta
     mesh_image=true
     simple_bonuses=true
-    show_restricted=true
+    allowed_restrictions="Zoom"
 %}
 
 Click [here](/shotguns/zoom/) for a comparison of the zoom level of each sight.

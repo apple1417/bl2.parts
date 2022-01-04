@@ -39,8 +39,10 @@
                     {% include bonuses.html
                         part=part
                         meta=include.meta
-                        show_restricted=include.show_restricted
                         simple=include.simple_bonuses
+                        allowed_restrictions=include.allowed_restrictions
+                        hide_no_restriction=include.hide_no_restriction
+                        show_all_restrictions=include.show_all_restrictions
                     %}
                 </div>
             {% endunless %}
