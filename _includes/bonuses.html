@@ -1,3 +1,16 @@
+{%- comment -%}
+Creates a part bonus block from it's part entry.
+
+Args:
+    part: The part entry.
+    meta: The relevant weapon metadata.
+    simple: Display simple bonuses, which calculate the exact bonus value and only display good/bad
+             instead of proper bonus type.
+    allowed_restrictions: A comma seperated list of bonus restrictions which can be displayed.
+                          Bonuses without a restriction are displayed regardless of this arg.
+    hide_no_restriction: Hide all bonuses which don't have a restriction.
+    show_all_restrictions: Show all restrictions, overwriting the previous two args.
+{%- endcomment -%}
 
 {% assign allowed_restrictions = "" | split: "" %}
 {% unless include.hide_no_restriction %}

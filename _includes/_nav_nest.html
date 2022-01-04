@@ -1,3 +1,11 @@
+{%- comment -%}
+Recursively nests nav entries.
+
+Args:
+    nav: A list of nav entries.
+    classes: A string of custom classes to apply to all anchor tags.
+{%- endcomment -%}
+
 <ul>
     {% assign sorted_items = include.nav | sort_natural: "title" %}
     {% for item in sorted_items %}

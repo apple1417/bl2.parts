@@ -1,3 +1,26 @@
+{%- comment -%}
+Displays a part block, with all their relevant bonuses.
+
+Args:
+    parts: An array of part entries to display.
+    meta: The relevant weapon metadata.
+    id: An id to give the surrounding div. If not defined, no id is given.
+    uniques: If unique parts from the array should be included.
+    mesh_image: If to display an image of the part's mesh.
+    image_class: A string of custom classes to apply to mesh images.
+    mesh_name: If to display the name of the part's mesh.
+    hide_bonuses: If to hide the bonuses block.
+
+Passthrough args to `bonuses.html`:
+    simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
+                     good/bad instead of proper bonus type.
+    allowed_restrictions: A comma seperated list of bonus restrictions which can be displayed.
+                          Bonuses without a restriction are displayed regardless of this arg.
+    hide_no_restriction: Hide all bonuses which don't have a restriction.
+    show_all_restrictions: Show all restrictions, overwriting the previous two args.
+{%- endcomment -%}
+
+
 {% unless include.parts and include.meta %}
 <span style="font-size: 20em; color: red">ERROR</span>
     {% break %}

@@ -1,3 +1,10 @@
+{%- comment -%}
+End a footnote block, displaying descriptions.
+
+Args:
+    <footnote ids>: The description for the relevant footnote id. May contain markdown.
+{%- endcomment -%}
+
 <div class="footnotes">
     {%- for id in footnotes -%}
         <sup>{{forloop.index}}</sup><span markdown=1>{{include | map: id | first}}</span>

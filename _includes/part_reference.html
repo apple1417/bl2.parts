@@ -1,3 +1,14 @@
+{%- comment -%}
+Displays a part reference block.
+
+Args:
+    id: An id to give the surrounding div. If not defined, no id is given.
+    image_class: A string of custom classes to apply to reference images. If not defined, defaults
+                  to `big`.
+    parts: An array of part reference entries to display.
+{%- endcomment -%}
+
+
 {% assign id = "" %}
 {% if include.id %}
     {% assign id = 'id="' | append: include.id | append: '"'%}

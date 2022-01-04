@@ -1,3 +1,11 @@
+{%- comment -%}
+Creates a table describing known attributes.
+
+Args:
+    filter: A list of attribute object names to include. If not defined, shows everything.
+    table_classes: A string of custom classes to apply to the attribute table.
+{%- endcomment -%}
+
 {% assign attributes = site.data.attributes | sort_natural: "name" %}
 {% if include.filter %}
     {% assign attributes = attributes | where_exp: "item", "include.filter contains item.obj" %}
