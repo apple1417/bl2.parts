@@ -117,6 +117,34 @@ There are 5 non-unique stocks.
 %}
 
 ### Element
-Element is one of the miscellaneous parts. They have no model, but instead add lights over the
-weapon in that element's colours. There are six non-unique element parts, one for each element, and
-one for no element. None of them give any bonuses. 
+The element parts have no model, but instead add lights over the weapon in their relevant colours.
+There are six non-unique element parts, one for each element, and one for no element. None of them
+give any stat bonuses, good or bad. 
+
+### Material
+The material parts also have no model, instead defining the actual textures applied ontop of all the
+other models.
+
+There are 29 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
+combination. In Tina DLC, each manufactuer gets an additional gemstone material, and in TPS,
+Hyperion has an additional "Old Hyperion" material per rarity.
+
+Most materials provide no stat bonuses. The exceptions are listed below.
+{% assign bonus_materials = site.data.shotguns.materials | where_exp: "part", "part.bonuses" %}
+{% include parts.html
+    parts=bonus_materials
+    meta=site.data.shotguns_meta
+    simple_bonuses=true
+    uniques=true
+%}
+
+### Weapon Balance
+The Weapon Balance defines what parts a certain weapon can have. Balances themselves do not affect
+stats, but are they very important for the actual generation of weapons.
+
+### Weapon Type Definition
+Like the name might suggest, the definition basically defines each weapon type. It defines all the
+base values of each stat, how exactly certain bonuses affect those stats, as well as several other
+properties relating to how exactly the weapon behaves. There is one weapon type per manufactuerer.
+
+On top of everything else, weapon types can also provide bonuses of their own.
