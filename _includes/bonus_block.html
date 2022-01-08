@@ -93,9 +93,9 @@ Each override entry can have the following fields:
             {% endif %}
             {{bonus_str}}
 
-            {% if overrides.footnote %}
-                {% include footnote.html id=overrides.footnote %}
-            {% endif %}
+            {%- if overrides.footnote -%}
+                {%- include footnote.html id=overrides.footnote -%}
+            {%- endif -%}
 
             {% unless forloop.last %}
                 <br>

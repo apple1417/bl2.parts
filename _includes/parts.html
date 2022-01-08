@@ -54,14 +54,14 @@ Each override entry can have the following fields:
         {% assign overrides = include.overrides | where: "idx", forloop.index | first %}
         <div class="part-block">
             <h4>
-                {% if overrides.name %}
+                {%- if overrides.name -%}
                     {{overrides.name}}
-                {% else %}
+                {%- else -%}
                     {{part.name}}
-                {% endif %}
-                {% if overrides.footnote %}
-                    {% include footnote.html id=overrides.footnote %}
-                {% endif %}
+                {%- endif -%}
+                {%- if overrides.footnote -%}
+                    {%- include footnote.html id=overrides.footnote -%}
+                {%- endif -%}
             </h4>
 
             {% assign mesh = include.meta.meshes | map: part.mesh | first %}
