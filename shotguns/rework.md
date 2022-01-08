@@ -98,6 +98,7 @@ There are 6 non-unique sights, including a "no sight" part with no model. Some s
 only applied while aiming.
 
 {% include parts.html 
+    image_class="small"
     parts=site.data.shotguns.sights
     meta=site.data.shotguns_meta
     mesh_image=true
@@ -146,4 +147,10 @@ Like the name might suggest, the definition basically defines each weapon type. 
 base values of each stat, how exactly certain bonuses affect those stats, as well as several other
 properties relating to how exactly the weapon behaves. There is one weapon type per manufactuerer.
 
-On top of everything else, weapon types can also provide bonuses of their own.
+On top of everything else, weapon definitions can also provide bonuses of their own.
+
+{% include parts.html
+    parts=site.data.shotguns.definitions
+    meta=site.data.shotguns_meta
+    simple_bonuses=true
+%}

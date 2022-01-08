@@ -28,13 +28,17 @@ Passthrough args to `bonus.html`:
 {% endif %}
 
 <div {{id}} class="part-container">
-    {% assign sorted_parts = include.parts | sort_natural: "_obj_name" %}
-    {% unless include.uniques %}
-        {% assign sorted_parts = sorted_parts | where: "unique", false %}
-    {% endunless %}
-    {% for part in sorted_parts %}
+    {% assign sorted_parts = include.parts | sort_natural: "name" %}
+    {% if include.uniques %}
+        {% assign non_unique_parts = sorted_parts | where: "unique", false %}
+        {% assign unique_parts = sorted_parts | where: "unique", true %}
+        {% assign ordered_parts = non_unique_parts | concat: unique_parts %}
+    {% else %}
+        {% assign ordered_parts = sorted_parts | where: "unique", false %}
+    {% endif %}
+    {% for part in ordered_parts %}
         <div class="part-block">
-            <h4>{{part._obj_name | split: "." | last}}</h4>
+            <h4>{{part.name}}</h4>
 
             {% assign mesh = include.meta.meshes | map: part.mesh | first %}
             {% if include.mesh_image %}

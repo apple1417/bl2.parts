@@ -193,3 +193,10 @@
   percent: true
   add_good: false
   multi_good: False
+
+- obj: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+  name: Projectile Speed
+  description: Increases the speed of your weapon's projectiles multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: False
