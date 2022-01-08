@@ -10,10 +10,24 @@ Args:
     image_class: A string of custom classes to apply to mesh images.
     mesh_name: If to display the name of the part's mesh.
     hide_bonuses: If to hide the bonuses block.
+    overrides: A list of overrides. See below.
 
 Passthrough args to `bonus.html`:
     simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
                      good/bad instead of proper bonus type.
+
+Overrides
+=========
+Some manual adjustments might need to be made to the layout this generates - most commonly adding
+ footnotes to oddities. This can be done using the `overrides` arg.
+
+Each override entry can have the following fields:
+- idx: 0            # Required. The index in the container of the part to adjust (1-indexed). Must
+                    #  be unique - only the first matching index will ever be used.
+  name: ""          # A replacement part name to use.
+  footnote: ""      # The id of a footnote to put after the part name.
+  image_src: ""     # A replacement url for the part mesh image.
+  bonus_block: {}   # Passthrough to `bonus_block.html`.
 {%- endcomment -%}
 
 
@@ -37,12 +51,26 @@ Passthrough args to `bonus.html`:
         {% assign ordered_parts = sorted_parts | where: "unique", false %}
     {% endif %}
     {% for part in ordered_parts %}
+        {% assign overrides = include.overrides | where: "idx", forloop.index | first %}
         <div class="part-block">
-            <h4>{{part.name}}</h4>
+            <h4>
+                {% if overrides.name %}
+                    {{overrides.name}}
+                {% else %}
+                    {{part.name}}
+                {% endif %}
+                {% if overrides.footnote %}
+                    {% include footnote.html id=overrides.footnote %}
+                {% endif %}
+            </h4>
 
             {% assign mesh = include.meta.meshes | map: part.mesh | first %}
             {% if include.mesh_image %}
-                <img class="{{include.image_class}}" src="{{mesh.src}}">
+                {% if overrides.image_src %}
+                    <img class="{{include.image_class}}" src="{{overrides.image_src}}">
+                {% else %}
+                    <img class="{{include.image_class}}" src="{{mesh.src}}">
+                {% endif %}
             {% endif %}
             {% if include.mesh_name %}
                 {% if include.mesh_image %}
@@ -63,6 +91,7 @@ Passthrough args to `bonus.html`:
                         part=part
                         meta=include.meta
                         simple_bonuses=include.simple_bonuses
+                        overrides=overrides.bonus_block
                     %}
                 </div>
             {% endunless %}

@@ -1,10 +1,53 @@
 ---
-purple_body_names:
- - GD_Weap_Shotgun.Body.SG_Body_Bandit_4
- - GD_Weap_Shotgun.Body.SG_Body_Hyperion_4
- - GD_Weap_Shotgun.Body.SG_Body_Jakobs_4
- - GD_Weap_Shotgun.Body.SG_Body_Tediore_4
- - GD_Weap_Shotgun.Body.SG_Body_Torgue_4
+accessory_overrides:
+- idx: 4
+  footnote: same_model
+- idx: 5
+  footnote: same_model
+- idx: 6
+  footnote: same_model
+barrel_overrides:
+- idx: 2
+  footnote: same_etech_model
+- idx: 3
+  footnote: same_etech_model
+  image_src: /shotguns/^images/barrels/etech_hyperion.png
+  bonus_block:
+    - group_idx: 1
+      overrides:
+        - idx: 1
+          footnote: different_times
+        - idx: 2
+          footnote: different_times
+- idx: 5
+  bonus_block:
+    - group_idx: 1
+      overrides:
+        # Jakobs barrel has two seperate impulse grades, which we can combine into one
+        - idx: 2
+          ignore: true
+        - idx: 3
+          replace:
+            from: "&times;1.5"
+            to: "&times;1.75"
+body_overrides:
+- idx: 1
+  name: Bandit
+- idx: 2
+  name: Hyperion
+- idx: 3
+  name: Jakobs
+- idx: 4
+  name: Tediore
+- idx: 5
+  name: Torgue
+
+body_names:
+ - GD_Weap_Shotgun.Body.SG_Body_Bandit
+ - GD_Weap_Shotgun.Body.SG_Body_Hyperion
+ - GD_Weap_Shotgun.Body.SG_Body_Jakobs
+ - GD_Weap_Shotgun.Body.SG_Body_Tediore
+ - GD_Weap_Shotgun.Body.SG_Body_Torgue
 ---
 
 # Shotgun Parts Guide
@@ -37,6 +80,10 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
     meta=site.data.shotguns_meta
     mesh_image=true
     simple_bonuses=true
+    overrides=page.accessory_overrides
+%}
+{% include footnote_end.html
+    same_model="These all use the same model."
 %}
 
 All accessories have set prefixes associated with them based on manufacturer, which, assuming they
@@ -52,6 +99,11 @@ There are 7 non-unique barrels.
     meta=site.data.shotguns_meta
     mesh_image=true
     simple_bonuses=true
+    overrides=page.barrel_overrides
+%}
+{% include footnote_end.html
+    same_etech_model="These both use the same model, but (unsupringly) the Hyperion version only spawns on Hyperion guns."
+    different_times="The two bonuses are applied at different times in the calculation."
 %}
 
 ### Bodies
@@ -64,14 +116,15 @@ same rarity share the same stats.
     min-height: var(--img-size-standard)
 }
 </style>
-{% assign purple_bodies = site.data.shotguns.bodies
-                          | where_exp: "body", "page.purple_body_names contains body._obj_name" %}
+{% assign bodies = site.data.shotguns.bodies
+                   | where_exp: "body", "page.body_names contains body._obj_name" %}
 {% include parts.html
     id="bodies"
-    parts=purple_bodies
+    parts=bodies
     meta=site.data.shotguns_meta
     mesh_image=true
     hide_bonuses=true
+    overrides=page.body_overrides
 %}
 
 {% include body_table.html 

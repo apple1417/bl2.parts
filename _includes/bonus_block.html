@@ -4,10 +4,30 @@ Creates a part bonus block from it's part entry.
 Args:
     part: The part entry.
     meta: The relevant weapon metadata.
+    overrides: A list of overrides. See below.
 
 Passthrough args to `bonus.html`:
     simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
                      good/bad instead of proper bonus type.
+
+Overrides
+=========
+Some manual adjustments might need to be made to the layout this generates - most commonly adding
+ footnotes to oddities. This can be done using the `overrides` arg.
+
+Each override entry can have the following fields:
+- group_idx: 0      # Required. The index of the restriction group to adjust (1-indexed). Must be
+                    #  unique - only the first matching index will ever be used.
+  header:           # A replacement restriction header. Can be used to add one to the "no
+                    #  restrictions group.
+  overrides:        # Required. Overrides within this restriction group
+    idx:            # Required. The index of the bonus to adjust (1-indexed). Must be unique - only
+                    #  the first matching index will ever be used.
+    ignore: false   # Ignore this bonus completely
+    footnote: ""    # The id of a footnote to put after the bonus.
+    replace:        # Replace part of the bonus string. Run on the final html string right before
+        from: ""    #  it's written to the page.
+        to: ""
 {%- endcomment -%}
 
 {% if include.part.bonuses %}
@@ -15,12 +35,18 @@ Passthrough args to `bonus.html`:
 
     {% assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" %}
     {% for group in grouped_bonuses %}
+        {% assign group_overrides = include.overrides | where: "group_idx", forloop.index | first %}
+
         {% unless forloop.first %}
             <br>
         {% endunless %}
 
-        {% if group.name != "" %}
-            <strong>On {{group.name}}:</strong><br>
+        {% if group_overrides.header %}
+            <strong>{{group_overrides.header}}</strong><br>
+        {% else %}
+            {% if group.name != "" %}
+                <strong>On {{group.name}}:</strong><br>
+            {% endif %}
         {% endif %}
 
         {%- comment -%}
@@ -55,7 +81,22 @@ Passthrough args to `bonus.html`:
 
         {% assign fake_dict = fake_dict | sort_natural %}
         {% for entry in fake_dict %}
-            {{entry | split: BONUS_SEPERATOR | reverse | join: " "}}
+            {% assign overrides = group_overrides.overrides | where: "idx", forloop.index | first %}
+            {% if overrides.ignore %}
+                {% continue %}
+            {% endif %}
+
+            {% assign bonus_str = entry | split: BONUS_SEPERATOR | reverse | join: " " %}
+            {% if overrides.replace.to and overrides.replace.from %}
+                {% assign bonus_str = bonus_str
+                                      | replace: overrides.replace.from, overrides.replace.to %}
+            {% endif %}
+            {{bonus_str}}
+
+            {% if overrides.footnote %}
+                {% include footnote.html id=overrides.footnote %}
+            {% endif %}
+
             {% unless forloop.last %}
                 <br>
             {% endunless %}

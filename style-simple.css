@@ -165,6 +165,7 @@ table.left, table.left td, table.left th {
 
 
 sup {
+    font-family: var(--main-font-family);
     color: var(--footnote-colour);
 }
 .footnotes {
@@ -173,7 +174,7 @@ sup {
 .footnotes sup {
     display: inline-block;
     position: relative;
-    left: -2em;
+    left: -1.5em;
     margin-right: -1.25em;
     width: 1em;
     text-align: right;
