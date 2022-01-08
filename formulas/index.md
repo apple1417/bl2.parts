@@ -5,7 +5,7 @@ latex: true
 # General Formulas
 There are three general formulas used all over the game.
 
-### Base Scaling Formula
+## Base Scaling Formula
 As you level up, most numbers in the game tend to get bigger. The base values for all these numbers
 are just multiples of the Base Scaling Formula.
 
@@ -34,7 +34,7 @@ $$\beta = 1.10 ^ \text{Level}$${:hidden="1" .latex-content}
 </td>
 </tr></tbody></table>
 
-### Attribute Bonus Formula
+## Attribute Bonus Formula
 Any attribute in the game uses this formula to calculate it's final value from it's various bonuses.
 Some stats are comprised of multiple attributes, this is not always the final value.
 
@@ -66,7 +66,7 @@ Note that the game only distingishes between positive and negative scale values 
 value of the bonus. This means that if a scale bonus is based on some complex formula, it will be
 treated differently if the formula resolves to a positive value than if it resolves to a negative.
 
-### Grade Bonus Formula
+## Grade Bonus Formula
 Weapons and Items use a concept called Grades. Each part can add or remove grades of a particular
 name, and if the weapon or item has defined a grade bonus using that name, it gets converted into a
 standard bonus.

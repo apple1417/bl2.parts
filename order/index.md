@@ -19,7 +19,7 @@ Note that this does not affect all attributes, testing shows that it's only thos
 weapon/item. Unfortuantly the functions controlling this do not decompile, so this can't be 100%
 confirmed.
 
-### Example
+## Example
 The Fibber is a great example of how this works. The barrel gives many large bonuses, which are
 incorporated into the new base value that is shown on the card. A BPD then enables extra bonuses
 after item initalization to give it it's actual stats.

@@ -64,7 +64,7 @@ Shotguns are made out of 6 main visible parts.
 
 Other parts include the element, the material, weapon balance, and the weapon type definition.
 
-### Accessory
+## Accessory
 There are 9 non-unique accessories, including a "no accessory" part with no model.
 
 <style>
@@ -90,7 +90,7 @@ All accessories have set prefixes associated with them based on manufacturer, wh
 don't get overwritten, are a simple way to tell which one exactly a weapon has. Click
 [here](/shotguns/prefixes/) for a table showing these.
 
-### Barrel
+## Barrel
 There are 7 non-unique barrels.
 
 {% include parts.html 
@@ -106,7 +106,7 @@ There are 7 non-unique barrels.
     different_times="The two bonuses are applied at different times in the calculation."
 %}
 
-### Bodies
+## Bodies
 There are 20 non-unique bodies, one for each rarity-manufacturer combination. All bodies of the
 same rarity share the same stats.
 
@@ -136,7 +136,7 @@ same rarity share the same stats.
     simple_bonuses=true
 %}
 
-### Grips
+## Grips
 There are 5 non-unique grips.
 
 {% include parts.html 
@@ -146,7 +146,7 @@ There are 5 non-unique grips.
     simple_bonuses=true
 %}
 
-### Sights
+## Sights
 There are 6 non-unique sights, including a "no sight" part with no model. Some sight bonuses are
 only applied while aiming.
 
@@ -160,7 +160,7 @@ only applied while aiming.
 
 Click [here](/shotguns/zoom/) for a comparison of the zoom level of each sight.
 
-### Stocks
+## Stocks
 There are 5 non-unique stocks.
 {% include parts.html 
     parts=site.data.shotguns.stocks
@@ -169,12 +169,12 @@ There are 5 non-unique stocks.
     simple_bonuses=true
 %}
 
-### Element
+## Element
 The element parts have no model, but instead add lights over the weapon in their relevant colours.
 There are six non-unique element parts, one for each element, and one for no element. None of them
 give any stat bonuses, good or bad. 
 
-### Material
+## Material
 The material parts also have no model, instead defining the actual textures applied ontop of all the
 other models.
 
@@ -191,11 +191,11 @@ Most materials provide no stat bonuses. The exceptions are listed below.
     uniques=true
 %}
 
-### Weapon Balance
+## Weapon Balance
 The Weapon Balance defines what parts a certain weapon can have. Balances themselves do not affect
 stats, but are they very important for the actual generation of weapons.
 
-### Weapon Type Definition
+## Weapon Type Definition
 Like the name might suggest, the definition basically defines each weapon type. It defines all the
 base values of each stat, how exactly certain bonuses affect those stats, as well as several other
 properties relating to how exactly the weapon behaves. There is one weapon type per manufactuerer.

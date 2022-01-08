@@ -178,7 +178,7 @@ melee damage. Most of these have the same standard formula, but some are slightl
                 Deathtrap formula."
 %}
 
-### A Note on Roid Shields
+## A Note on Roid Shields
 When following these formulas, it would make sense to plug in the value straight from your shield's
 item cards right? Well this is Gearbox we're talking about.
 

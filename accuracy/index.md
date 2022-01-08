@@ -11,7 +11,7 @@ attributes:
 # Accuracy Mechanics
 Accuracy is actually a bit more complicated than you might think.
 
-### Basics
+## Basics
 When you fire a shot, the direction of each projectile is picked in two passes.
 First, the game picks a general angle for the whole "cluster" of bullets to go, within the "cluster range".
 Each individual projectile then adds it's own offset onto the general angle, adding the "weapon spread".
@@ -45,7 +45,7 @@ On idle you will naturally regen back towards the base value, so once you stop s
     <td><img src="^images/high_high.png"></td>
 </tr></table>
 
-# Attributes
+## Attributes
 Accuracy is controlled by six attributes, listed below alongside with their effect when increased.
 
 {% include attributes.html filter=page.attributes %}
@@ -58,13 +58,13 @@ Recoil is controlled by impulse accuracy and sometimes burst impulse, based on h
 It is possible to get weapons where the min accuracy is greater than the max.
 When this happens the cluster range simply stays constant.
 
-### Hyperion
+## Hyperion
 Hyperion guns gain their special effect simply by inverting impulse accuracy and accuracy regen - impulse will be a negative value and regen will be a positive.
 When you equip a gun the game essentially pre-regenerates the accuracy, so you'll start at the max accuracy.
 As impulse accuracy is negative, each shot decreases the cluster range, increasing accuracy until you reach the min.
 Then on idle the positive accuracy regen will increase the cluster range back to the maximum, base accuracy.
 
-#### Bonuses on Hyperion
+### Bonuses on Hyperion
 *Grade*{:.grade} bonuses are always set up to invert these attributes properly.
 
 *PreAdd*{:.pre-add} and *PostAdd*{:.post-add} bonuses will continue working as intended.
