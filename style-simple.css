@@ -244,6 +244,7 @@ div.part-block div.part-bonuses {
     font-size: 0.83em;
 }
 
-em.good, em.bad, em.pre-add, em.scale, em.post-add, em.grade, em.per-grade, em.no-i {
+em.good, em.bad, em.pre-add, em.scale, em.post-add, em.grade, em.per-grade,
+em.fire, em.shock, em.corrosive, em.slag, em.cryo {
     font-style: normal;
 }

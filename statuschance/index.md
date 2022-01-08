@@ -23,7 +23,7 @@ The Target's Status Chance Resistance also plays a role.
 
 The final value is the Surface Chance Modifier, which is hardcoded based on element and surface.
 
-Surface Type | *Fire*{:.no-i.fire} | *Shock*{:.no-i.shock} | *Corrosive*{:.no-i.corrosive} | *Slag*{:.no-i.slag} | *Cryo*{:.no-i.cryo}
+Surface Type | *Fire*{:.fire} | *Shock*{:.shock} | *Corrosive*{:.corrosive} | *Slag*{:.slag} | *Cryo*{:.cryo}
 ---|---|---|---|---|---
 Generic | 20% | 20% | 20% | 30% | 15%
 Flesh   | 30% | 15% | 15% | 30% | 15%

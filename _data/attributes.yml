@@ -125,36 +125,36 @@
   multi_good: true
 
 - obj: D_Attributes.StatusEffectModifiers.AmpChanceResistanceModifier
-  name: Status Chance Resistance (*Slag*{:.no-i.slag})
-  description: Increases the chance of being inflicted with *slag*{:.no-i.slag} status effects multiplicatively.
+  name: Status Chance Resistance (*Slag*{:.slag})
+  description: Increases the chance of being inflicted with *slag*{:.slag} status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
-  name: Status Chance Resistance (*Corrosive*{:.no-i.corrosive})
-  description: Increases the chance of being inflicted with *corrosive*{:.no-i.corrosive} status effects multiplicatively.
+  name: Status Chance Resistance (*Corrosive*{:.corrosive})
+  description: Increases the chance of being inflicted with *corrosive*{:.corrosive} status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
-  name: Status Chance Resistance (*Fire*{:.no-i.fire})
-  description: Increases the chance of being inflicted with *fire*{:.no-i.fire} status effects multiplicatively.
+  name: Status Chance Resistance (*Fire*{:.fire})
+  description: Increases the chance of being inflicted with *fire*{:.fire} status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
-  name: Status Chance Resistance (*Shock*{:.no-i.shock})
-  description: Increases the chance of being inflicted with *shock*{:.no-i.shock} status effects multiplicatively.
+  name: Status Chance Resistance (*Shock*{:.shock})
+  description: Increases the chance of being inflicted with *shock*{:.shock} status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
-  name: Status Chance Resistance (*Cryo*{:.no-i.cryo})
-  description: Increases the chance of being inflicted with *cryo*{:.no-i.cryo} status effects multiplicatively.
+  name: Status Chance Resistance (*Cryo*{:.cryo})
+  description: Increases the chance of being inflicted with *cryo*{:.cryo} status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
