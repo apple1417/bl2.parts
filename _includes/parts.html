@@ -14,11 +14,6 @@ Args:
 Passthrough args to `bonus.html`:
     simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
                      good/bad instead of proper bonus type.
-Passthrough args to `bonus_block.html`:
-    allowed_restrictions: A comma seperated list of bonus restrictions which can be displayed.
-                          Bonuses without a restriction are displayed regardless of this arg.
-    hide_no_restriction: Hide all bonuses which don't have a restriction.
-    show_all_restrictions: Show all restrictions, overwriting the previous two args.
 {%- endcomment -%}
 
 
@@ -64,9 +59,6 @@ Passthrough args to `bonus_block.html`:
                         part=part
                         meta=include.meta
                         simple_bonuses=include.simple_bonuses
-                        allowed_restrictions=include.allowed_restrictions
-                        hide_no_restriction=include.hide_no_restriction
-                        show_all_restrictions=include.show_all_restrictions
                     %}
                 </div>
             {% endunless %}

@@ -102,7 +102,6 @@ only applied while aiming.
     meta=site.data.shotguns_meta
     mesh_image=true
     simple_bonuses=true
-    allowed_restrictions="Zoom"
 %}
 
 Click [here](/shotguns/zoom/) for a comparison of the zoom level of each sight.

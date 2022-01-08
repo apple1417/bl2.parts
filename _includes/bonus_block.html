@@ -4,81 +4,63 @@ Creates a part bonus block from it's part entry.
 Args:
     part: The part entry.
     meta: The relevant weapon metadata.
-    allowed_restrictions: A comma seperated list of bonus restrictions which can be displayed.
-                          Bonuses without a restriction are displayed regardless of this arg.
-    hide_no_restriction: Hide all bonuses which don't have a restriction.
-    show_all_restrictions: Show all restrictions, overwriting the previous two args.
 
 Passthrough args to `bonus.html`:
     simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
                      good/bad instead of proper bonus type.
 {%- endcomment -%}
 
-{% assign allowed_restrictions = "" | split: "" %}
-{% unless include.hide_no_restriction %}
-    {% assign allowed_restrictions = allowed_restrictions | push: "" %}
-{% endunless %}
-{% if include.allowed_restrictions %}
-    {% assign restrict_args = include.allowed_restrictions | split: "," %}
-    {% assign allowed_restrictions = allowed_restrictions | concat: restrict_args %}
-{% endif %}
+{% if include.part.bonuses %}
+    {% assign inital_restriction = true %}
 
-{% assign inital_restriction = true %}
-
-{% assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" %}
-{% for group in grouped_bonuses %}
-    {% unless allowed_restrictions contains group.name or include.show_all_restrictions %}
-        {% continue %}
-    {% endunless %}
-
-    {% unless inital_restriction %}
-        <br>
-    {% endunless %}
-    {% assign inital_restriction = false %}
-
-    {% if group.name != "" %}
-        <strong>On {{group.name}}:</strong><br>
-    {% endif %}
-
-    {%- comment -%}
-    We want to sort by attribute names.
-    This is an absolute mess because you can't sort off of an expression, and you can't create
-     mappings.
-
-    First we grab the bonus data, but reverse the entries, putting name first
-    We add all of these reversed strings into a single array
-    Sorting this array then sorts by attribute name
-    In another loop we can then split up each string again, and reverse them back to normal to get
-     the format we actually output
-    {%- endcomment -%}
-
-    {% assign fake_dict = "" | split: "" %}
-    {% for bonus in group.items %}
-        {%- capture bonus_data -%}
-            {%- include bonus.html
-                bonus=bonus
-                meta=include.meta
-                simple_bonuses=include.simple_bonuses
-            -%}
-        {%- endcapture -%}
-
-        {% assign fake_dict_entry = bonus_data
-                                    | strip
-                                    | split: BONUS_SEPERATOR
-                                    | reverse
-                                    | join: BONUS_SEPERATOR %}
-        {% assign fake_dict = fake_dict | push: fake_dict_entry %}
-    {% endfor %}
-
-    {% assign fake_dict = fake_dict | sort_natural %}
-    {% for entry in fake_dict %}
-        {{entry | split: BONUS_SEPERATOR | reverse | join: " "}}
-        {% unless forloop.last %}
+    {% assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" %}
+    {% for group in grouped_bonuses %}
+        {% unless forloop.first %}
             <br>
         {% endunless %}
-    {% endfor %}
-{% endfor %}
 
-{% if inital_restriction %}
+        {% if group.name != "" %}
+            <strong>On {{group.name}}:</strong><br>
+        {% endif %}
+
+        {%- comment -%}
+        We want to sort by attribute names.
+        This is an absolute mess because you can't sort off of an expression, and you can't create
+        mappings.
+
+        First we grab the bonus data, but reverse the entries, putting name first
+        We add all of these reversed strings into a single array
+        Sorting this array then sorts by attribute name
+        In another loop we can then split up each string again, and reverse them back to normal to get
+        the format we actually output
+        {%- endcomment -%}
+
+        {% assign fake_dict = "" | split: "" %}
+        {% for bonus in group.items %}
+            {%- capture bonus_data -%}
+                {%- include bonus.html
+                    bonus=bonus
+                    meta=include.meta
+                    simple_bonuses=include.simple_bonuses
+                -%}
+            {%- endcapture -%}
+
+            {% assign fake_dict_entry = bonus_data
+                                        | strip
+                                        | split: BONUS_SEPERATOR
+                                        | reverse
+                                        | join: BONUS_SEPERATOR %}
+            {% assign fake_dict = fake_dict | push: fake_dict_entry %}
+        {% endfor %}
+
+        {% assign fake_dict = fake_dict | sort_natural %}
+        {% for entry in fake_dict %}
+            {{entry | split: BONUS_SEPERATOR | reverse | join: " "}}
+            {% unless forloop.last %}
+                <br>
+            {% endunless %}
+        {% endfor %}
+    {% endfor %}
+{% else %}
 -
 {% endif %}
