@@ -1,0 +1,99 @@
+{%- comment -%}
+Creates a table showing off the per grade values for all definitions.
+
+Assumes the slots in the standard definition are contained in all other definitions too.
+
+Args:
+    meta: The relevant weapon metadata.
+{%- endcomment -%}
+
+{% assign COLUMN_SEPERATOR = "&|^|&" %}
+{% assign TYPE_SEPERATOR = ":^:" %}
+
+{% assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] %}
+{% assign sorted_definitions = include.meta.definitions | sort_natural: "name" %}
+
+{%- comment -%}
+Same concept as in `bonus_block.html` - to sort by expression we squash everything into an array
+of strings, with the key at the front.
+{%- endcomment -%}
+
+{% assign all_rows = "" | split: "" %}
+{% for standard_grade_stats in standard_definition.grades %}
+    {% assign attr = site.data.attributes
+                     | where: "obj", standard_grade_stats.attribute
+                     | first %}
+    {% assign row = attr.name | append: COLUMN_SEPERATOR %}
+
+    {% for definition in sorted_definitions %}
+        {% assign inner_grade_stats = definition.grades
+                                      | where: "slot", standard_grade_stats.slot
+                                      | first %}
+
+        {% if inner_grade_stats.base > 0 %}
+            {% assign base = "+" | append: inner_grade_stats.base %}
+        {% else %}
+            {% assign base = inner_grade_stats.base | replace: "-", "&minus;" %}
+        {% endif %}
+
+        {% if inner_grade_stats.per_grade > 0 %}
+            {% assign per_grade = "+" | append: inner_grade_stats.per_grade %}
+        {% else %}
+            {% assign per_grade = inner_grade_stats.per_grade | replace: "-", "&minus;" %}
+        {% endif %}
+
+        {% assign row = row
+                        | append: base
+                        | append: " "
+                        | append: per_grade
+                        | append: TYPE_SEPERATOR
+                        | append: inner_grade_stats.type
+                        | append: COLUMN_SEPERATOR %}
+    {% endfor %}
+
+    {% assign all_rows = all_rows | push: row %}
+{% endfor %}
+
+<table class="border">
+    <thead><tr>
+        <th></th>
+        {% for definition in sorted_definitions %}
+            <th>{{definition.name}}</th>
+        {% endfor %}
+    </tr></thead>
+    <tbody>
+        {% assign sorted_rows = all_rows | sort_natural %}
+        {% for row in sorted_rows %}
+            <tr>
+                {% assign split_row = row | split: COLUMN_SEPERATOR %}
+                {% assign header = split_row.first %}
+                {% assign split_row = split_row | shift %}
+
+                <th>{{header}}</th>
+
+                {% assign last_colspan = 0 %}
+                {% for column in split_row %}
+                    {%- comment -%} Merge identical cells into one {%- endcomment -%}
+                    {% if last_colspan > 0 %}
+                        {% assign last_colspan = last_colspan | minus: 1 %}
+                        {% continue %}
+                    {% endif %}
+
+                    {% for searching_column in split_row offset: forloop.index %}
+                        {% if column == searching_column %}
+                            {% assign last_colspan = last_colspan | plus: 1 %}
+                        {% else %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% assign split_column = column | split: TYPE_SEPERATOR %}
+                    {% assign bonus = split_column[0] %}
+                    {% assign type = split_column[1] | append: " per-grade" %}
+
+                    <td class="{{type}}" colspan="{{last_colspan | plus: 1}}">{{bonus}}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

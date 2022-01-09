@@ -42,6 +42,20 @@ body_overrides:
 - idx: 5
   name: Torgue
 
+part_reference:
+  - name: Accessory
+    src: /shotguns/^images/parts/accessory.png
+  - name: Barrel
+    src: /shotguns/^images/parts/barrel.png
+  - name: Body
+    src: /shotguns/^images/parts/body.png
+  - name: Grip
+    src: /shotguns/^images/parts/grip.png
+  - name: Sight
+    src: /shotguns/^images/parts/sight.png
+  - name: Stock
+    src: /shotguns/^images/parts/stock.png
+
 body_names:
  - GD_Weap_Shotgun.Body.SG_Body_Bandit
  - GD_Weap_Shotgun.Body.SG_Body_Hyperion
@@ -60,7 +74,7 @@ Shotguns are made out of 6 main visible parts.
     min-height: revert;
 }
 </style>
-{% include part_reference.html id="part_reference" parts=site.data.shotguns_meta.part_reference %}
+{% include part_reference.html id="part_reference" parts=page.part_reference %}
 
 Other parts include the element, the material, weapon balance, and the weapon type definition.
 
@@ -196,14 +210,22 @@ The Weapon Balance defines what parts a certain weapon can have. Balances themse
 stats, but are they very important for the actual generation of weapons.
 
 ## Weapon Type Definition
-Like the name might suggest, the definition basically defines each weapon type. It defines all the
-base values of each stat, how exactly certain bonuses affect those stats, as well as several other
-properties relating to how exactly the weapon behaves. There is one weapon type per manufactuerer.
+Like the name might suggest, the definition essentialy defines all the unique properties of each
+weapon type. There is one definition per manufacturer.
 
-On top of everything else, weapon definitions can also provide bonuses of their own.
+Definitions may provide stat bonuses. 
 
 {% include parts.html
     parts=site.data.shotguns.definitions
     meta=site.data.shotguns_meta
     simple_bonuses=true
 %}
+
+Definitions are also very important if you're trying to calculate exact stats. To start with, they
+define the base values used by all stats stored on the weapon.
+
+{% include definition_base_table.html meta=site.data.shotguns_meta %}
+
+They also define all grade bonuses, and how exactly they get converted into standard bonuses.
+
+{% include definition_grade_table.html meta=site.data.shotguns_meta %}

@@ -2,5 +2,6 @@ _site/
 Gemfile
 Gemfile.lock
 .vscode
+.jekyll-metadata
 
 *.xcf

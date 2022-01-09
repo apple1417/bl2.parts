@@ -1,3 +1,11 @@
+- obj: FAKE:Status Damage
+  name: Status Damage
+  fake: true
+
+- obj: FAKE:Status Chance Resistance
+  name: Status Chance Resistance
+  fake: true
+
 - obj: D_Attributes.Weapon.WeaponDamage
   name: Weapon Damage
   description: Increases the damage your weapon deals.

@@ -14,8 +14,9 @@ Args:
 {%- endcomment -%}
 
 {%- assign BONUS_SEPERATOR = "&|^|&" -%}
+{%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
 {%- if bonus.slot -%}
-    {%- assign grade_stats = include.meta.standard_definition.grades
+    {%- assign grade_stats = standard_definition.grades
                             | where: "slot", bonus.slot
                             | first -%}
     {%- assign attr = site.data.attributes
