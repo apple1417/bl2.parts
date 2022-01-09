@@ -41,7 +41,7 @@ Using these numbers we can calculate both values we observed earlier as follows:
 <code markdown="span" class="latex-fallback">
     Card = floor((15 + *[0]*{:.pre-add})
         &times; (1 + <span class="scale">[130 + (0 + 0.07 &times; *[5]*{:.grade})]</span>)
-        &divide; (1 - *[0]*{:.scale})
+        &divide; (1 &minus; *[0]*{:.scale})
         + *[0]*{:.post-add})
     <br>
     Card = floor(15 &times; (1 + *130.35*{:.scale}))
@@ -51,10 +51,10 @@ Using these numbers we can calculate both values we observed earlier as follows:
     <br>
     Final = floor((1970 + *[0]*{:.pre-add})
         &times; (1 + *[0]*{:.scale})
-        &divide; (1 - *[-128]*{:.scale})
+        &divide; (1 &minus; *[&minus;128]*{:.scale})
         + *[0]*{:.post-add})
     <br>
-    Final = floor(1970 &divide; (1 - *-128*{:.scale}))
+    Final = floor(1970 &divide; (1 &minus; *&minus;128*{:.scale}))
     <br>
     Final = floor(15.271...) = 15
 </code>

@@ -40,7 +40,7 @@ Some stats are comprised of multiple attributes, this is not always the final va
 
 <code markdown="span" class="latex-fallback">
 Final = [(Base + *PreAdd*{:.pre-add}) &times;
-(1 + *Positive Scale*{:.scale})&divide;(1 - *Negative Scale*{:.scale})]
+(1 + *Positive Scale*{:.scale})&divide;(1 &minus; *Negative Scale*{:.scale})]
 \+ *PostAdd*{:.post-add})
 </code>
 

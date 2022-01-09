@@ -75,6 +75,8 @@ Args:
         {%- endif -%}
         {%- if positive -%}
             {%- assign actual_value = "+" | append: actual_value -%}
+        {%- else -%}
+            {%- assign actual_value = actual_value | replace: "-", "&minus;" -%}
         {%- endif -%}
     {%- endif -%}
 
