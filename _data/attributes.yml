@@ -192,11 +192,11 @@
   description: Increases the amount of damage that self reflected bullets deal to yourself. This multiplies the original damage.
   percent: true
   add_good: false
-  multi_good: False
+  multi_good: false
 
 - obj: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
   name: Projectile Speed
   description: Increases the speed of your weapon's projectiles multiplicatively.
   percent: true
-  add_good: false
-  multi_good: False
+  add_good: true
+  multi_good: true
