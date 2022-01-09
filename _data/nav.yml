@@ -31,12 +31,8 @@ parts:
   - title: Shotguns
     url: /shotguns/
     sub:
-      - title: Barrels
-        url: /shotguns/barrels/
-      - title: Calculation Guide
-        url: /shotguns/calculations/
-      - title: Prefixes
-        url: /shotguns/prefixes/
+      - title: Full Parts Reference
+        url: /shotguns/all_parts/
       - title: Zoom Comparsion
         url: /shotguns/zoom/
 misc:
