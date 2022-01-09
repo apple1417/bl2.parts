@@ -50,6 +50,8 @@ th {
     font-weight: var(--header-font-weight);
 }
 
+
+
 a {
     color: palevioletred;
     text-decoration: none;
@@ -215,6 +217,16 @@ div.part-block img.big[src=""] {
 }
 div.part-block div.part-bonuses {
     font-size: var(--small-text-size);
+}
+
+
+
+details > summary {
+    cursor: pointer;
+    border: var(--border-format);
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    margin-bottom: 2px;
 }
 
 

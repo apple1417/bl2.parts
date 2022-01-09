@@ -1,0 +1,69 @@
+{%- comment -%}
+Create a prefix table for the provided parts, hidden in a details element. Only parts with defined
+prefixes are shown.
+
+Args:
+    parts: The relevant parts list.
+{%- endcomment -%}
+
+{% assign restrictions = "" | split: "" %}
+{% assign any_no_restriction = false %}
+
+{% for part in include.parts %}
+    {% for prefix in part.prefixes %}
+        {% unless prefix.restrict %}
+            {% assign any_no_restriction = true %}
+            {% continue %}
+        {% endunless %}
+        {% unless restrictions contains prefix.restrict %}
+            {% assign restrictions = restrictions | push: prefix.restrict %}
+        {% endunless %}
+    {% endfor %}
+{% endfor %}
+
+{% assign sorted_restrictions = restrictions | sort_natural %}
+{% assign sorted_parts = include.parts
+                         | sort_natural: "name"
+                         | where_exp: "part", "part.prefixes" %}
+
+<details>
+    <summary>Expand</summary>
+    <table class="border">
+        <thead><tr>
+            <th></th>
+            {% for part in sorted_parts %}
+                <th>{{part.name}}</th>
+            {% endfor %}
+        </tr></thead>
+        <tbody>
+            {% if any_no_restriction %}
+                <tr>
+                    <th>Default</th>
+                    {% for part in sorted_parts %}
+                    {% assign prefix = part.prefixes
+                                       | where_exp: "part", "restrictions contains part.restrict"
+                                       | first %}
+                    {% if prefix %}
+                        <td>{{prefix.name}}</td>
+                    {% else %}
+                        <td>-</td>
+                    {% endif %}
+                {% endfor %}
+                </tr>
+            {% endif %}
+            {% for restrict in sorted_restrictions %}
+                <tr>
+                    <th>{{restrict}}</th>
+                    {% for part in sorted_parts %}
+                        {% assign prefix = part.prefixes | where: "restrict", restrict | first %}
+                        {% if prefix %}
+                            <td>{{prefix.name}}</td>
+                        {% else %}
+                            <td>-</td>
+                        {% endif %}
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</details>

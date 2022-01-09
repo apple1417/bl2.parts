@@ -101,8 +101,13 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
 %}
 
 All accessories have set prefixes associated with them based on manufacturer, which, assuming they
-don't get overwritten, are a simple way to tell which one exactly a weapon has. Click
-[here](/shotguns/prefixes/) for a table showing these.
+don't get overwritten, are a simple way to tell which one exactly a weapon has.
+
+{% include prefixes.html
+    parts=site.data.shotguns.accessories
+    msg="Click here to expand a table showing these."
+%}
+
 
 ## Barrel
 There are 7 non-unique barrels.
@@ -221,11 +226,17 @@ Definitions may provide stat bonuses.
     simple_bonuses=true
 %}
 
-Definitions are also very important if you're trying to calculate exact stats. To start with, they
-define the base values used by all stats stored on the weapon.
+Definitions are also very important if you're trying to calculate exact stats.
+
+<details>
+    <summary>Expand</summary>
+
+To start with, they define the base values used by all stats stored on the weapon.
 
 {% include definition_base_table.html meta=site.data.shotguns_meta %}
 
 They also define all grade bonuses, and how exactly they get converted into standard bonuses.
 
 {% include definition_grade_table.html meta=site.data.shotguns_meta %}
+
+</details>

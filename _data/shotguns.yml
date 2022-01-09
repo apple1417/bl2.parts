@@ -35,6 +35,13 @@ accessories:
     value: 0.5
   mesh: Acc_Bayonet1
   name: Bayonet 1
+  prefixes:
+  - name: Restructuring
+    restrict: Hyperion
+  - name: Barbed
+    restrict: Jakobs
+  - name: Swiss
+    restrict: Tediore
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Bayonet_2
   bonuses:
@@ -43,6 +50,11 @@ accessories:
     value: 0.5
   mesh: Acc_Bayonet2
   name: Bayonet 2
+  prefixes:
+  - name: Slising
+    restrict: Bandit
+  - name: Bad Touch
+    restrict: Torgue
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_MoonClip
   bonuses:
@@ -54,6 +66,17 @@ accessories:
     value: -3
   mesh: Acc_Tech1
   name: Moon Clip
+  prefixes:
+  - name: Drumed
+    restrict: Bandit
+  - name: Scalable
+    restrict: Hyperion
+  - name: Sidewinder
+    restrict: Jakobs
+  - name: Extra Large
+    restrict: Tediore
+  - name: Desperate
+    restrict: Torgue
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_None
   name: '"No Accessory"'
@@ -74,6 +97,17 @@ accessories:
     value: 1
   mesh: Acc_Tech1
   name: Shotgun Shell
+  prefixes:
+  - name: Redy Stedy
+    restrict: Bandit
+  - name: Social
+    restrict: Hyperion
+  - name: Well Kept
+    restrict: Jakobs
+  - name: New and Improved
+    restrict: Tediore
+  - name: Sinewy
+    restrict: Torgue
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Tech_1
   bonuses:
@@ -91,6 +125,17 @@ accessories:
     value: 3
   mesh: Acc_Tech1
   name: Tech 1
+  prefixes:
+  - name: Sketer
+    restrict: Bandit
+  - name: Potential
+    restrict: Hyperion
+  - name: Huntin'
+    restrict: Jakobs
+  - name: Original
+    restrict: Tediore
+  - name: Potent
+    restrict: Torgue
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Tech_2
   bonuses:
@@ -105,6 +150,17 @@ accessories:
     value: 0.5
   mesh: Acc_Tech2
   name: Tech 2
+  prefixes:
+  - name: Critikal Hit
+    restrict: Bandit
+  - name: Critical
+    restrict: Hyperion
+  - name: Doc's
+    restrict: Jakobs
+  - name: Royal
+    restrict: Tediore
+  - name: Juicy
+    restrict: Torgue
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Tech_3
   bonuses:
@@ -122,6 +178,17 @@ accessories:
     value: -1
   mesh: Acc_Tech3
   name: Tech 3
+  prefixes:
+  - name: Quik Loadeder
+    restrict: Bandit
+  - name: Reactive
+    restrict: Hyperion
+  - name: Texas
+    restrict: Jakobs
+  - name: Basic
+    restrict: Tediore
+  - name: Impetuous
+    restrict: Torgue
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_VerticalGrip
   bonuses:
@@ -142,6 +209,17 @@ accessories:
     value: 2
   mesh: Acc_VerticalGrip
   name: Vertical Grip
+  prefixes:
+  - name: Assssult
+    restrict: Bandit
+  - name: Practicable
+    restrict: Hyperion
+  - name: Rustler's
+    restrict: Jakobs
+  - name: Gentle
+    restrict: Tediore
+  - name: Casual
+    restrict: Torgue
   unique: false
 barrels:
 - _obj_name: GD_Anemone_Weapons.Shotgun.Overcompensator.SG_Barrel_Torgue_Overcompensator
