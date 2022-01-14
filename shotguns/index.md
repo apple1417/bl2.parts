@@ -19,6 +19,15 @@ barrel_overrides:
           footnote: different_times
         - idx: 2
           footnote: different_times
+- idx: 4
+  bonus_block:
+    - group_idx: 2
+      overrides:
+        - idx: 1
+          footnote: hyperion_inverse_impulse
+          replace:
+            from: class="bad"
+            to: class="good"
 - idx: 5
   bonus_block:
     - group_idx: 1
@@ -123,6 +132,7 @@ There are 7 non-unique barrels.
 {% include footnote_end.html
     same_etech_model="These both use the same model, but (unsupringly) the Hyperion version only spawns on Hyperion guns."
     different_times="The two bonuses are applied at different times in the calculation."
+    hyperion_inverse_impulse="While this type of bonus would be bad on all other manufacturers, on Hyperion it's actually good. See the [accuracy guide](/accuracy/#hyperion) for more. "
 %}
 
 ## Bodies
