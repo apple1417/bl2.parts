@@ -10,12 +10,13 @@ h2 {
 <h1>{{page.title}}</h1>
 Note that this page omits all element and material parts that don't provide any bonuses for brevity.
 
-{% assign meta = site.data | map: page.meta | first %}
-{% assign parts_list = site.data | map: page.parts | first %}
-{% for group in parts_list %}
+{% assign parts_file = site.data | map: page.parts | first %}
+{% for group in parts_file %}
     {% assign name = group[0] %}
     {% assign parts = group[1] %}
-    {% if name == "elements" or name == "materials" %}
+    {% if name == "meta" %}
+        {% continue %}
+    {% elsif name == "elements" or name == "materials" %}
         {% assign parts = parts | where_exp: "part", "part.bonuses" %}
     {% endif %}
     {% if parts.size == 0 %}
@@ -25,7 +26,7 @@ Note that this page omits all element and material parts that don't provide any 
     <h2>{{name | capitalize}}</h2>
     {% include parts.html
         parts=parts
-        meta=meta
+        meta=parts_file.meta
         uniques=true
         mesh_name=true
     %}

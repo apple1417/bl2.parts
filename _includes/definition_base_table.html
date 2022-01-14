@@ -27,8 +27,8 @@ This time though, we can leave each string as the table row directly, without ne
                                       | first %}
 
         {% assign row = row | append: "<td>" | append: inner_base.value %}
-        {% if inner_base.scales %}
-            {% assign row = row | append: "&times;&beta;" %}
+        {% if inner_base.scale %}
+            {% assign row = row | append: "&times;" | append: inner_base.scale %}
         {% endif %}
         {% assign row = row | append: "</td>" %}
     {% endfor %}

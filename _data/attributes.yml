@@ -190,14 +190,14 @@
 
 - obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
   name: Reflect Off Self Damage
-  description: Increases the amount of damage that self reflected bullets deal. This multiplies the original damage.
+  description: Increases the amount of damage that self reflected bullets deal multiplicatively.
   percent: true
   add_good: true
   multi_good: true
 
 - obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
   name: Reflect Off Self Self Damage
-  description: Increases the amount of damage that self reflected bullets deal to yourself. This multiplies the original damage.
+  description: Increases the amount of damage that self reflected bullets deal to yourself multiplicatively.
   percent: true
   add_good: false
   multi_good: false
@@ -205,6 +205,34 @@
 - obj: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
   name: Projectile Speed
   description: Increases the speed of your weapon's projectiles multiplicatively.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletReflection.BulletReflectionOffEnemyChance
+  name: Reflect Off Enemy Chance
+  description: Increases the chance that bullets which hit an enemy will reflect off and also hit another.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletReflection.BulletReflectedOffEnemyDamageScale
+  name: Reflect Off Enemy Damage
+  description: Increases the damage that enemy reflected bullets deal multiplicatively.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletRicochet.BulletRicochetTowardsEnemyChance
+  name: Ricochet To Enemy Chance
+  description: Increases the chance that bullets which miss will ricochet towards an enemy.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.BulletRicochet.BulletRicochetedTowardsEnemyDamageScale
+  name: Ricochet To Enemy Damage
+  description: Increases the damage that ricocheted bullets deal multiplicatively.
   percent: true
   add_good: true
   multi_good: true

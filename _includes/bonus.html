@@ -15,23 +15,23 @@ Args:
 
 {%- assign BONUS_SEPERATOR = "&|^|&" -%}
 {%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
-{%- if bonus.slot -%}
+{%- if include.bonus.slot -%}
     {%- assign grade_stats = standard_definition.grades
-                            | where: "slot", bonus.slot
+                            | where: "slot", include.bonus.slot
                             | first -%}
     {%- assign attr = site.data.attributes
                         | where: "obj", grade_stats.attribute
                         | first -%}
-    {%- assign actual_value = bonus.value
+    {%- assign actual_value = include.bonus.value
                         | times: grade_stats.per_grade
                         | plus: grade_stats.base -%}
     {%- assign actual_bonus_type = grade_stats.type -%}
 {%- else -%}
     {%- assign attr = site.data.attributes
-                        | where: "obj", bonus.attribute
+                        | where: "obj", include.bonus.attribute
                         | first -%}
-    {%- assign actual_value = bonus.value -%}
-    {%- assign actual_bonus_type = bonus.type -%}
+    {%- assign actual_value = include.bonus.value -%}
+    {%- assign actual_bonus_type = include.bonus.type -%}
 {%- endif -%}
 
 {%- if include.simple_bonuses and attr%}
@@ -80,6 +80,9 @@ Args:
             {%- assign actual_value = actual_value | replace: "-", "&minus;" -%}
         {%- endif -%}
     {%- endif -%}
+    {%- if include.bonus.scale -%}
+        {%- assign actual_value = actual_value | append: "&times;" | append: include.bonus.scale -%}
+    {%- endif -%}
 
     {%- if positive -%}
         {%- if positive_good -%}
@@ -99,21 +102,27 @@ Args:
     {%- comment -%} Deliberately leave the span unclosed for now {%- endcomment -%}
 
 {%- else -%}
-    <span class="{{bonus.type}}">
-    {%- if bonus.value > 0 -%}
+    <span class="{{include.bonus.type}}">
+    {%- if include.bonus.value > 0 -%}
         +
     {%- endif -%}
-    {{bonus.value}}</span>
+    {{include.bonus.value}}
+    {%- if include.bonus.scale -%}
+        &times;{{include.bonus.scale}}
+    {%- endif -%}
+    </span>
 {%- endif -%}
 
 {{BONUS_SEPERATOR}}
 
 {%- if attr -%}
     {{attr.name}}
-{%- elsif bonus.slot -%}
-    <span style="font-size: 2em; color: red">{{bonus.slot}}</span>
+{%- elsif include.bonus.slot -%}
+    <span style="font-size: 2em; color: red">{{include.bonus.slot}}</span>
 {%- else -%}
-    <span style="font-size: 2em; color: red">{{bonus.attribute | split: "." | last}}</span>
+    <span style="font-size: 2em; color: red">{{include.bonus.attribute
+                                                 | split: "."
+                                                 | last}}</span>
 {%- endif -%}
 
 {%- if include.simple_bonuses -%}

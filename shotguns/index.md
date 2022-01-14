@@ -91,7 +91,7 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
 {% include parts.html 
     id="accessories"
     parts=site.data.shotguns.accessories
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     mesh_image=true
     simple_bonuses=true
     overrides=page.accessory_overrides
@@ -115,7 +115,7 @@ There are 7 non-unique barrels.
 {% include parts.html 
     image_class="big"
     parts=site.data.shotguns.barrels
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     mesh_image=true
     simple_bonuses=true
     overrides=page.barrel_overrides
@@ -140,14 +140,14 @@ same rarity share the same stats.
 {% include parts.html
     id="bodies"
     parts=bodies
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     mesh_image=true
     hide_bonuses=true
     overrides=page.body_overrides
 %}
 
 {% include body_table.html 
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     common="GD_Weap_Shotgun.Body.SG_Body_Bandit"
     uncommon="GD_Weap_Shotgun.Body.SG_Body_Bandit_2"
     rare="GD_Weap_Shotgun.Body.SG_Body_Bandit_3"
@@ -160,7 +160,7 @@ There are 5 non-unique grips.
 
 {% include parts.html 
     parts=site.data.shotguns.grips
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     mesh_image=true
     simple_bonuses=true
 %}
@@ -172,7 +172,7 @@ only applied while aiming.
 {% include parts.html 
     image_class="small"
     parts=site.data.shotguns.sights
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     mesh_image=true
     simple_bonuses=true
 %}
@@ -183,7 +183,7 @@ Click [here](/shotguns/zoom/) for a comparison of the zoom level of each sight.
 There are 5 non-unique stocks.
 {% include parts.html 
     parts=site.data.shotguns.stocks
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     mesh_image=true
     simple_bonuses=true
 %}
@@ -205,7 +205,7 @@ Most materials provide no stat bonuses. The exceptions are listed below.
 {% assign bonus_materials = site.data.shotguns.materials | where_exp: "part", "part.bonuses" %}
 {% include parts.html
     parts=bonus_materials
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     simple_bonuses=true
     uniques=true
 %}
@@ -218,11 +218,17 @@ stats, but are they very important for the actual generation of weapons.
 Like the name might suggest, the definition essentialy defines all the unique properties of each
 weapon type. There is one definition per manufacturer.
 
-Definitions may provide stat bonuses. 
+Definitions may provide stat bonuses.
 
+<style>
+#definitions div.part-block {
+    flex-basis: calc(20% - 10px);
+}
+</style>
 {% include parts.html
+    id="definitions"
     parts=site.data.shotguns.definitions
-    meta=site.data.shotguns_meta
+    meta=site.data.shotguns.meta
     simple_bonuses=true
 %}
 
@@ -233,10 +239,10 @@ Definitions are also very important if you're trying to calculate exact stats.
 
 To start with, they define the base values used by all stats stored on the weapon.
 
-{% include definition_base_table.html meta=site.data.shotguns_meta %}
+{% include definition_base_table.html meta=site.data.shotguns.meta %}
 
 They also define all grade bonuses, and how exactly they get converted into standard bonuses.
 
-{% include definition_grade_table.html meta=site.data.shotguns_meta %}
+{% include definition_grade_table.html meta=site.data.shotguns.meta %}
 
 </details>

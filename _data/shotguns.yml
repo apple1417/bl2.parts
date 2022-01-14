@@ -40,6 +40,8 @@ accessories:
     restrict: Hyperion
   - name: Barbed
     restrict: Jakobs
+  - name: Downsizing
+    restrict: Old Hyperion
   - name: Swiss
     restrict: Tediore
   unique: false
@@ -53,6 +55,8 @@ accessories:
   prefixes:
   - name: Slising
     restrict: Bandit
+  - name: Cutting
+    restrict: Scav
   - name: Bad Touch
     restrict: Torgue
   unique: false
@@ -73,6 +77,10 @@ accessories:
     restrict: Hyperion
   - name: Sidewinder
     restrict: Jakobs
+  - name: Expandable
+    restrict: Old Hyperion
+  - name: Fair-Go
+    restrict: Scav
   - name: Extra Large
     restrict: Tediore
   - name: Desperate
@@ -104,6 +112,10 @@ accessories:
     restrict: Hyperion
   - name: Well Kept
     restrict: Jakobs
+  - name: Conglomerate
+    restrict: Old Hyperion
+  - name: Mateship
+    restrict: Scav
   - name: New and Improved
     restrict: Tediore
   - name: Sinewy
@@ -132,6 +144,10 @@ accessories:
     restrict: Hyperion
   - name: Huntin'
     restrict: Jakobs
+  - name: Executive
+    restrict: Old Hyperion
+  - name: Skeet
+    restrict: Scav
   - name: Original
     restrict: Tediore
   - name: Potent
@@ -157,6 +173,10 @@ accessories:
     restrict: Hyperion
   - name: Doc's
     restrict: Jakobs
+  - name: Decisive
+    restrict: Old Hyperion
+  - name: Bloody Oath
+    restrict: Scav
   - name: Royal
     restrict: Tediore
   - name: Juicy
@@ -185,6 +205,10 @@ accessories:
     restrict: Hyperion
   - name: Texas
     restrict: Jakobs
+  - name: Streamlined
+    restrict: Old Hyperion
+  - name: Kwik-Load'd
+    restrict: Scav
   - name: Basic
     restrict: Tediore
   - name: Impetuous
@@ -216,6 +240,10 @@ accessories:
     restrict: Hyperion
   - name: Rustler's
     restrict: Jakobs
+  - name: Enforceable
+    restrict: Old Hyperion
+  - name: Battler
+    restrict: Scav
   - name: Gentle
     restrict: Tediore
   - name: Casual
@@ -311,6 +339,446 @@ barrels:
   mesh: SG_Barrel_Alien
   name: Swordsplosion
   unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Bandit_Boganella
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -9
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -10
+  - slot: WeaponFireRate
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 9
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Bandit
+    type: scale
+    value: -0.2
+  mesh: SG_Barrel_Bandit
+  name: Boganella
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Bandit_Torgemada
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -14
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -10
+  - slot: WeaponFireRate
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -0.3
+  mesh: SG_Barrel_Bandit
+  name: Torgemada
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_Bullpup
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Hyperion
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Hyperion
+    type: scale
+    value: -0.25
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.25
+  mesh: SG_Barrel_Hyperion
+  name: Bullpup
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_ConferenceCall
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Hyperion
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffEnemyChance
+    type: pre-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffEnemyDamageScale
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.BulletRicochet.BulletRicochetTowardsEnemyChance
+    type: pre-add
+    value: 0.15
+  - attribute: D_Attributes.BulletRicochet.BulletRicochetedTowardsEnemyDamageScale
+    type: pre-add
+    value: -0.5
+  mesh: SG_Barrel_Hyperion
+  name: Viral Marketer
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_Striker
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: -4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.5
+  mesh: SG_Barrel_Hyperion
+  name: Striker (TPS)
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Boomacorn
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -10
+  - slot: AccuracyMin
+    type: grade
+    value: -2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -10
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: scale
+    value: -1000
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: post-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Jakobs
+    type: scale
+    value: 2.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Jakobs
+    type: scale
+    value: -0.7
+  mesh: SG_Barrel_Jakobs
+  name: Boomacorn
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Sledges
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -10
+  - slot: WeaponFireRate
+    type: grade
+    value: -50
+  - slot: AccuracyMin
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -10
+  mesh: SG_Barrel_Jakobs
+  name: Sledge's Shotgun (TPS)
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_TooScoops
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -10
+  - slot: AccuracyMin
+    type: grade
+    value: -2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -10
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: scale
+    value: -1000
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: post-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Jakobs
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Jakobs
+    type: scale
+    value: -0.15
+  mesh: SG_Barrel_Jakobs
+  name: Too Scoops
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Wombat
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.3
+  mesh: SG_Barrel_Jakobs
+  name: Wombat
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Torgue_JackOCannon
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -18
+  - slot: AccuracyMin
+    type: grade
+    value: -4
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -18
+  - slot: WeaponFireRate
+    type: grade
+    value: -12
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: scale
+    value: -10000
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: post-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict: Torgue
+    type: pre-add
+    value: -0.05
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Torgue
+    type: scale
+    value: 6.8
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: -2
+  mesh: SG_Barrel_Torgue
+  name: Jack-o'-Cannon
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Moonface
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireInterval
+    type: grade
+    value: -20
+  - slot: ProjectilesPerShot
+    type: grade
+    value: 5
+  mesh: SG_Barrel_Torgue
+  name: Moonface
+  unique: true
+- _obj_name: GD_Cypressure_Weapons.A_Weapons_Unique.SG_Barrel_Hyperion_CompanyMan
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: -4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 18
+  mesh: SG_Barrel_Hyperion
+  name: Company Man
+  unique: true
+- _obj_name: GD_Cypressure_Weapons.A_Weapons_Unique.SG_Barrel_Jakobs_Landscaper2
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 7
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  mesh: SG_Barrel_Jakobs
+  name: Moonscaper
+  unique: true
 - _obj_name: GD_Gladiolus_Weapons.Shotgun.SG_Barrel_Torgue_Butcher
   bonuses:
   - slot: WeaponDamage
@@ -391,6 +859,54 @@ barrels:
     value: 10
   mesh: SG_Barrel_Torgue
   name: Carnage
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.SG_Barrel_Jakobs_5_Flayer
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -10
+  - slot: AccuracyMin
+    type: grade
+    value: -2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -10
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Jakobs
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict: Jakobs
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Jakobs
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  mesh: SG_Barrel_Jakobs
+  name: Flayer
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.Shotgun.SG_Barrel_Bandit_JollyRoger
   bonuses:
@@ -866,7 +1382,7 @@ barrels:
     type: scale
     value: 0.5
   mesh: SG_Barrel_Hyperion
-  name: Striker
+  name: Striker (BL2)
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs
   bonuses:
@@ -1004,7 +1520,7 @@ barrels:
     type: scale
     value: -6
   mesh: SG_Barrel_Jakobs
-  name: Sledge's Shotgun
+  name: Sledge's Shotgun (BL2)
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_TidalWave
   bonuses:
@@ -1206,6 +1722,28 @@ bodies:
     value: 7
   mesh: SG_Body_Hyperion
   name: Overcompensator
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Body.SG_Body_Jakobs_3_Moonface
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SG_Body_Jakobs
+  name: Moonface
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Body.SG_Body_Jakobs_Boomacorn
+  mesh: SG_Body_Jakobs
+  name: Boomacorn
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Body.SG_Body_Jakobs_TooScoops
+  mesh: SG_Body_Jakobs
+  name: Too Scoops
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Shotgun.SG_Body_Hyperion_6
   bonuses:
@@ -1519,7 +2057,30 @@ definitions:
     restrict: Zoom
     type: scale
     value: -1
-  name: Jakobs
+  name: Jakobs (BL2)
+  unique: false
+- _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Jakobs (TPS)
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
   bonuses:
@@ -1533,7 +2094,21 @@ definitions:
     restrict: Zoom
     type: scale
     value: -1
-  name: Tediore
+  name: Tediore (BL2)
+  unique: false
+- _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Tediore (TPS)
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
   bonuses:
@@ -1547,7 +2122,21 @@ definitions:
     restrict: Zoom
     type: scale
     value: -1
-  name: Torgue
+  name: Torgue (BL2)
+  unique: false
+- _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Torgue (TPS)
   unique: false
 elements:
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Corrosive
@@ -1557,6 +2146,10 @@ elements:
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Fire
   mesh: Acc_Barrel_Elemental1
   name: Fire
+  unique: false
+- _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Ice
+  mesh: Acc_Barrel_Elemental3
+  name: Cryo
   unique: false
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_None
   name: '"No Element"'
@@ -1570,6 +2163,76 @@ elements:
   name: Slag
   unique: false
 grips:
+- _obj_name: GD_Cork_Weap_Shotgun.Grip.SG_Grip_Hyperion_Bullpup
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 10
+  mesh: SG_FrontGrip_Hyperion
+  name: Bullpup
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Grip.SG_Grip_Jakobs_Boomacorn
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -1
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  mesh: SG_FrontGrip_Jakobs
+  name: Boomacorn
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Grip.SG_Grip_Jakobs_TooScoops
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -1
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  mesh: SG_FrontGrip_Jakobs
+  name: Too Scoops
+  unique: true
 - _obj_name: GD_Weap_Shotgun.Grip.SG_Grip_Bandit
   bonuses:
   - slot: WeaponSpread
@@ -1783,6 +2446,30 @@ materials:
     value: -0.3
   name: Rock
   unique: false
+- _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_Boomacorn
+  name: Boomacorn
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_Moonface
+  name: Moon Face
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_TooScoopz
+  name: Too Scoops
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_JackOCannon
+  name: Jack-o'-Cannon
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_Torgemada
+  name: Torgemada
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_Wombat
+  name: Wombat
+  unique: true
+- _obj_name: GD_Cypressure_Weapons.ManufacturerMaterials.Shotgun.Mat_Hyperion_3_CompanyMan
+  name: Company Man
+  unique: true
+- _obj_name: GD_Cypressure_Weapons.ManufacturerMaterials.Shotgun.Mat_Torgue_3_Landscaper2
+  name: Moonscaper
+  unique: true
 - _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Hyperion_6_Butcher
   name: Butcher
   unique: true
@@ -1792,6 +2479,27 @@ materials:
 - _obj_name: GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Torgue_Pearl_Carnage
   name: Carnage
   unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Jakobs_5_Legendary_Flayer
+  name: Flayer
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Bandit_6_Glitch
+  name: Bandit (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Hyperion_6_Glitch
+  name: Hyperion (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Jakobs_6_Glitch
+  name: Jakobs (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Old_Hyperion_6_Glitch
+  name: Old Hyperion (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Tediore_6_Glitch
+  name: Tediore (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Torgue_6_Glitch
+  name: Torgue (Glitch)
+  unique: false
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Bandit_3_JollyRoger
   name: Jolly Roger
   unique: true
@@ -1855,6 +2563,9 @@ materials:
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_5_Legendary
   name: Conference Call
   unique: true
+- _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_5_Legendary
+  name: Viral Marketer
+  unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_1
   name: Jakobs (Common)
   unique: false
@@ -1876,6 +2587,94 @@ materials:
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_5_Legendary
   name: Striker
   unique: true
+- _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Common)
+  unique: false
+- _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_2
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_3
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_4
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Very Rare)
+  unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_1
   name: Tediore (Common)
   unique: false
@@ -2005,6 +2804,40 @@ sights:
   name: Torgue
   unique: false
 stocks:
+- _obj_name: GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_Boomacorn
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  mesh: SG_Stock_Jakobs
+  name: Boomacorn
+  unique: true
+- _obj_name: GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_TooScoops
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  mesh: SG_Stock_Jakobs
+  name: Too Scoops
+  unique: true
 - _obj_name: GD_Weap_Shotgun.Stock.SG_Stock_Bandit
   mesh: SG_Stock_Bandit
   name: Bandit
@@ -2062,3 +2895,528 @@ stocks:
   mesh: SG_Stock_Torgue
   name: Torgue
   unique: false
+meta:
+  standard_definition_idx: 0
+  definitions:
+  - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 10
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4.1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: FAKE:Status Damage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.4
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Bandit
+  - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Hyperion_Shotgun
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.28
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.5
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 6
+    - attribute: FAKE:Status Damage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.4
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: 0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Hyperion
+  - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.06
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.8
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 7.4
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 11
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 8.8
+    - attribute: FAKE:Status Damage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.4
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Jakobs
+  - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.66
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.5
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 6.7
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 7.12
+    - attribute: FAKE:Status Damage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.4
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Tediore
+  - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.8
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 7.1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 8.8
+    - attribute: FAKE:Status Damage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.4
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Torgue
+  meshes:
+    Acc_Bayonet1:
+      name: Bayonet 1
+      src: /shotguns/^images/accessories/bayonet_1.png
+    Acc_Bayonet2:
+      name: Bayonet 2
+      src: /shotguns/^images/accessories/bayonet_2.png
+    Acc_Tech1:
+      name: Tech 1
+      src: /shotguns/^images/accessories/tech_1.png
+    Acc_Tech2:
+      name: Tech 2
+      src: /shotguns/^images/accessories/tech_2.png
+    Acc_Tech3:
+      name: Tech 3
+      src: /shotguns/^images/accessories/tech_3.png
+    Acc_VerticalGrip:
+      name: Vertical Grip
+      src: /shotguns/^images/parts/accessory.png
+    SG_Barrel_Bandit:
+      name: Bandit
+      src: /shotguns/^images/barrels/bandit.png
+    SG_Barrel_Alien:
+      name: E-Tech
+      src: /shotguns/^images/barrels/etech.png
+    SG_Barrel_Hyperion:
+      name: Hyperion
+      src: /shotguns/^images/barrels/hyperion.png
+    SG_Barrel_Jakobs:
+      name: Jakobs
+      src: /shotguns/^images/barrels/jakobs.png
+    SG_Barrel_Tediore:
+      name: Tediore
+      src: /shotguns/^images/barrels/tediore.png
+    SG_Barrel_Torgue:
+      name: Torgue
+      src: /shotguns/^images/barrels/torgue.png
+    SG_Body_Bandit:
+      name: Bandit
+      src: /shotguns/^images/bodies/bandit.png
+    SG_Body_Hyperion:
+      name: Hyperion
+      src: /shotguns/^images/bodies/hyperion.png
+    SG_Body_Jakobs:
+      name: Jakobs
+      src: /shotguns/^images/bodies/jakobs.png
+    SG_Body_Tediore:
+      name: Tediore
+      src: /shotguns/^images/bodies/tediore.png
+    SG_Body_Torgue:
+      name: Torgue
+      src: /shotguns/^images/bodies/torgue.png
+    SG_FrontGrip_Bandit:
+      name: Bandit
+      src: /shotguns/^images/grips/bandit.png
+    SG_FrontGrip_Hyperion:
+      name: Hyperion
+      src: /shotguns/^images/grips/hyperion.png
+    SG_FrontGrip_Jakobs:
+      name: Jakobs
+      src: /shotguns/^images/grips/jakobs.png
+    SG_FrontGrip_Tediore:
+      name: Tediore
+      src: /shotguns/^images/grips/tediore.png
+    SG_FrontGrip_Torgue:
+      name: Torgue
+      src: /shotguns/^images/grips/torgue.png
+    SG_Scope_Bandit:
+      name: Bandit
+      src: /shotguns/^images/sights/bandit.png
+    SG_Scope_Hyperion:
+      name: Hyperion
+      src: /shotguns/^images/sights/hyperion.png
+    SG_Scope_Jakobs:
+      name: Jakobs
+      src: /shotguns/^images/sights/jakobs.png
+    SG_Scope_Tediore:
+      name: Tediore
+      src: /shotguns/^images/sights/tediore.png
+    SG_Scope_Torgue:
+      name: Torgue
+      src: /shotguns/^images/sights/torgue.png
+    SG_Stock_Bandit:
+      name: Bandit
+      src: /shotguns/^images/stocks/bandit.png
+    SG_Stock_Hyperion:
+      name: Hyperion
+      src: /shotguns/^images/stocks/hyperion.png
+    SG_Stock_Jakobs:
+      name: Jakobs
+      src: /shotguns/^images/stocks/jakobs.png
+    SG_Stock_Tediore:
+      name: Tediore
+      src: /shotguns/^images/stocks/tediore.png
+    SG_Stock_Torgue:
+      name: Torgue
+      src: /shotguns/^images/stocks/torgue.png
