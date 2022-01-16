@@ -1,11 +1,3 @@
-- obj: FAKE:Status Damage
-  name: Status Damage
-  fake: true
-
-- obj: FAKE:Status Chance Resistance
-  name: Status Chance Resistance
-  fake: true
-
 - obj: D_Attributes.Weapon.WeaponDamage
   name: Weapon Damage
   description: Increases the damage your weapon deals.
@@ -234,5 +226,47 @@
   name: Ricochet To Enemy Damage
   description: Increases the damage that ricocheted bullets deal multiplicatively.
   percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponAdditionalRicochets
+  name: Additional Ricochets
+  description: Increases the amount of times one of your bullets can ricochet. This does *not* aim towards an enemy, it's a pure ricochet.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponStatusEffectDamage
+  name: Status Effect Damage
+  description: Increases the damage dealt by DoTs inflicted by your weapon.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+  name: Barrel Spin Up Time
+  description: Increases the time it takes your weapon to spin up to it's full fire rate, if the it supports spin up.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.Weapon.WeaponExtraShotChance
+  name: Extra Shot Chance
+  description: Increases the chance that you'll fire an extra shot on a single trigger press multiplicatively.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Attributes.Attr_AequitasEquipped
+  name: Veritases Equipped
+  description: Increases the global amount of Veritases equipped, used in the calculation for the Aequitas bonuses.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Cork_Weap_Pistol.Attributes.Att_MoxiProbe_Equipped
+  name: Probes Equipped
+  description: Increases the global amount of Probes equipped.
+  percent: false
   add_good: true
   multi_good: true

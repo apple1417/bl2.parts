@@ -1,4 +1,18 @@
 ---
+part_reference:
+  - name: Accessory
+    src: /shotguns/^images/parts/accessory.png
+  - name: Barrel
+    src: /shotguns/^images/parts/barrel.png
+  - name: Body
+    src: /shotguns/^images/parts/body.png
+  - name: Grip
+    src: /shotguns/^images/parts/grip.png
+  - name: Sight
+    src: /shotguns/^images/parts/sight.png
+  - name: Stock
+    src: /shotguns/^images/parts/stock.png
+
 accessory_overrides:
 - idx: 4
   footnote: same_model
@@ -6,6 +20,7 @@ accessory_overrides:
   footnote: same_model
 - idx: 6
   footnote: same_model
+
 barrel_overrides:
 - idx: 2
   footnote: same_etech_model
@@ -39,6 +54,14 @@ barrel_overrides:
           replace:
             from: "&times;1.5"
             to: "&times;1.75"
+
+body_names:
+ - GD_Weap_Shotgun.Body.SG_Body_Bandit
+ - GD_Weap_Shotgun.Body.SG_Body_Hyperion
+ - GD_Weap_Shotgun.Body.SG_Body_Jakobs
+ - GD_Weap_Shotgun.Body.SG_Body_Tediore
+ - GD_Weap_Shotgun.Body.SG_Body_Torgue
+
 body_overrides:
 - idx: 1
   name: Bandit
@@ -50,27 +73,6 @@ body_overrides:
   name: Tediore
 - idx: 5
   name: Torgue
-
-part_reference:
-  - name: Accessory
-    src: /shotguns/^images/parts/accessory.png
-  - name: Barrel
-    src: /shotguns/^images/parts/barrel.png
-  - name: Body
-    src: /shotguns/^images/parts/body.png
-  - name: Grip
-    src: /shotguns/^images/parts/grip.png
-  - name: Sight
-    src: /shotguns/^images/parts/sight.png
-  - name: Stock
-    src: /shotguns/^images/parts/stock.png
-
-body_names:
- - GD_Weap_Shotgun.Body.SG_Body_Bandit
- - GD_Weap_Shotgun.Body.SG_Body_Hyperion
- - GD_Weap_Shotgun.Body.SG_Body_Jakobs
- - GD_Weap_Shotgun.Body.SG_Body_Tediore
- - GD_Weap_Shotgun.Body.SG_Body_Torgue
 ---
 
 # Shotgun Parts Guide
@@ -112,11 +114,7 @@ There are 9 non-unique accessories, including a "no accessory" part with no mode
 All accessories have set prefixes associated with them based on manufacturer, which, assuming they
 don't get overwritten, are a simple way to tell which one exactly a weapon has.
 
-{% include prefixes.html
-    parts=site.data.shotguns.accessories
-    msg="Click here to expand a table showing these."
-%}
-
+{% include prefixes.html parts=site.data.shotguns.accessories %}
 
 ## Barrel
 There are 7 non-unique barrels.
@@ -131,7 +129,7 @@ There are 7 non-unique barrels.
 %}
 {% include footnote_end.html
     same_etech_model="These both use the same model, but (unsupringly) the Hyperion version only spawns on Hyperion guns."
-    different_times="The two bonuses are applied at different times in the calculation."
+    different_times="The two bonuses are applied at different times of the calculation."
     hyperion_inverse_impulse="While this type of bonus would be bad on all other manufacturers, on Hyperion it's actually good. See the [accuracy guide](/accuracy/#hyperion) for more. "
 %}
 
@@ -157,6 +155,7 @@ same rarity share the same stats.
 %}
 
 {% include body_table.html 
+    body_list=site.data.shotguns.bodies
     meta=site.data.shotguns.meta
     common="GD_Weap_Shotgun.Body.SG_Body_Bandit"
     uncommon="GD_Weap_Shotgun.Body.SG_Body_Bandit_2"
@@ -217,7 +216,6 @@ Most materials provide no stat bonuses. The exceptions are listed below.
     parts=bonus_materials
     meta=site.data.shotguns.meta
     simple_bonuses=true
-    uniques=true
 %}
 
 ## Weapon Balance

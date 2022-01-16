@@ -2921,7 +2921,7 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponDamage
       scale: '&beta;'
       value: 8
-    - attribute: FAKE:Status Damage
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
       scale: '&beta;'
       value: 8
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
@@ -3006,7 +3006,7 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponDamage
       scale: '&beta;'
       value: 6
-    - attribute: FAKE:Status Damage
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
       scale: '&beta;'
       value: 8
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
@@ -3091,7 +3091,7 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponDamage
       scale: '&beta;'
       value: 8.8
-    - attribute: FAKE:Status Damage
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
       scale: '&beta;'
       value: 8
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
@@ -3176,7 +3176,7 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponDamage
       scale: '&beta;'
       value: 7.12
-    - attribute: FAKE:Status Damage
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
       scale: '&beta;'
       value: 8
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
@@ -3261,7 +3261,7 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponDamage
       scale: '&beta;'
       value: 8.8
-    - attribute: FAKE:Status Damage
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
       scale: '&beta;'
       value: 8
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier

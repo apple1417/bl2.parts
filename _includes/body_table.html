@@ -3,6 +3,7 @@ Displays the body stats table.
 
 Args:
     meta: The relevant weapon metadata.
+    body_list: The list of body parts.
     common: The name of an arbitrary common body.
     uncommon: The name of an arbitrary uncommon body.
     rare: The name of an arbitrary rare body.
@@ -26,7 +27,7 @@ Passthrough args to `bonus.html`:
         <tr>
             <td class="{{rarity}}">{{rarity | capitalize}}</td>
             {% assign part_name = include | map: rarity | first %}
-            {% assign part = site.data.shotguns.bodies | where: "_obj_name", part_name | first %}
+            {% assign part = include.body_list | where: "_obj_name", part_name | first %}
             {% include _stat_table_row.html
                 part=part
                 meta=include.meta
@@ -38,7 +39,7 @@ Passthrough args to `bonus.html`:
     {%- comment -%} Manually doing very rare cause the space makes things awkward {%- endcomment -%}
     <tr>
         <td class="very-rare">Very Rare</td>
-        {% assign part = site.data.shotguns.bodies
+        {% assign part = include.body_list
                          | where: "_obj_name", include.very_rare
                          | first %}
         {% include _stat_table_row.html

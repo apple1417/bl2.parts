@@ -13,12 +13,8 @@ parts:
   - title: Pistols
     url: /pistols/
     sub:
-      - title: Barrels
-        url: /pistols/barrels/
-      - title: Calculation Guide
-        url: /pistols/calculations/
-      - title: Prefixes
-        url: /pistols/prefixes/
+      - title: Full Parts Reference
+        url: /pistols/all_parts/
       - title: Zoom Comparsion
         url: /pistols/zoom/
   - title: Shields

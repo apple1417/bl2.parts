@@ -22,7 +22,7 @@ Some manual adjustments might need to be made to the layout this generates - mos
  footnotes to oddities. This can be done using the `overrides` arg.
 
 Each override entry can have the following fields:
-- idx: 0            # Required. The index in the container of the part to adjust (1-indexed). Must
+- idx: 1            # Required. The index in the container of the part to adjust (1-indexed). Must
                     #  be unique - only the first matching index will ever be used.
   name: ""          # A replacement part name to use.
   footnote: ""      # The id of a footnote to put after the part name.
@@ -55,7 +55,7 @@ Each override entry can have the following fields:
         <div class="part-block">
             <h4>
                 {%- if overrides.name -%}
-                    {{overrides.name}}
+                    {{overrides.name | markdownify}}
                 {%- else -%}
                     {{part.name}}
                 {%- endif -%}

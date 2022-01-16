@@ -3,18 +3,14 @@ Create a prefix table for the provided parts, hidden in a details element. Only 
 prefixes are shown.
 
 Args:
+    id: An id to give the surrounding details element. If not defined, no id is given.
     parts: The relevant parts list.
 {%- endcomment -%}
 
 {% assign restrictions = "" | split: "" %}
-{% assign any_no_restriction = false %}
 
 {% for part in include.parts %}
     {% for prefix in part.prefixes %}
-        {% unless prefix.restrict %}
-            {% assign any_no_restriction = true %}
-            {% continue %}
-        {% endunless %}
         {% unless restrictions contains prefix.restrict %}
             {% assign restrictions = restrictions | push: prefix.restrict %}
         {% endunless %}
@@ -26,7 +22,12 @@ Args:
                          | sort_natural: "name"
                          | where_exp: "part", "part.prefixes" %}
 
-<details>
+{% assign id = "" %}
+{% if include.id %}
+    {% assign id = 'id="' | append: include.id | append: '"'%}
+{% endif %}
+
+<details {{id}}>
     <summary>Expand</summary>
     <table class="border">
         <thead><tr>
@@ -36,21 +37,6 @@ Args:
             {% endfor %}
         </tr></thead>
         <tbody>
-            {% if any_no_restriction %}
-                <tr>
-                    <th>Default</th>
-                    {% for part in sorted_parts %}
-                    {% assign prefix = part.prefixes
-                                       | where_exp: "part", "restrictions contains part.restrict"
-                                       | first %}
-                    {% if prefix %}
-                        <td>{{prefix.name}}</td>
-                    {% else %}
-                        <td>-</td>
-                    {% endif %}
-                {% endfor %}
-                </tr>
-            {% endif %}
             {% for restrict in sorted_restrictions %}
                 <tr>
                     <th>{{restrict}}</th>
