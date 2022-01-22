@@ -116,7 +116,11 @@ Args:
 {{BONUS_SEPERATOR}}
 
 {%- if attr -%}
-    {{attr.name}}
+    {%- assign name = attr.name -%}
+    {%- if include.bonus.slot and grade_stats.constraint -%}
+        {%- assign name = name | append: " (" | append: grade_stats.constraint | append: ")" -%}
+    {%- endif -%}
+    {{name}}
 {%- elsif include.bonus.slot -%}
     <span style="font-size: 2em; color: red">{{include.bonus.slot}}</span>
 {%- else -%}

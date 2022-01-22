@@ -270,3 +270,52 @@
   percent: false
   add_good: true
   multi_good: true
+
+- obj: D_Attributes.GrenadeMod.GrenadeDamage
+  name: Grenade Damage
+  description: Increases the damage your grenade deals.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GrenadeMod.BlastRadius
+  name: Blast Radius
+  description: Increases the radius of your grenade's blast. This is a value in game units.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GrenadeMod.FuseTime
+  name: Fuse Time
+  description: Increases how long your grenade takes to explode after being thrown.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.GrenadeMod.NumberOfChildProjectiles
+  name: Child Count
+  description: Increases the amount of child projectiles your grenade spawns (if supported).
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GrenadeMod.GrenadeModBaseStatusEffectChanceModifier
+  name: Grenade Status Chance Base
+  description: Increases the chance that hitting an enemy with your grenade will give them a DoT. This is multiplied with the Grenade Status Chance Modifier, and a per-surface modifier.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GrenadeMod.GrenadeModStatusEffectChanceModifier
+  name: Grenade Status Chance Modifier
+  description: Multiplicatively increases the chance that hitting an enemy with your grenade will give them a DoT. This is multiplied with the Grenade Status Chance Base, and a per-surface modifier.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
+  name: Grenade Status Effect Damage
+  description: Increases the damage dealt by DoTs inflicted by your grenade.
+  percent: false
+  add_good: true
+  multi_good: true

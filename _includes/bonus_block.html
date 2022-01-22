@@ -52,13 +52,13 @@ Each override entry can have the following fields:
         {%- comment -%}
         We want to sort by attribute names.
         This is an absolute mess because you can't sort off of an expression, and you can't create
-        mappings.
+         mappings.
 
         First we grab the bonus data, but reverse the entries, putting name first
         We add all of these reversed strings into a single array
         Sorting this array then sorts by attribute name
-        In another loop we can then split up each string again, and reverse them back to normal to get
-        the format we actually output
+        In another loop we can then split up each string again, and reverse them back to normal to
+         get the format we actually output
         {%- endcomment -%}
 
         {% assign fake_dict = "" | split: "" %}

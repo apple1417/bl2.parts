@@ -1,5 +1,8 @@
 ---
 layout: default
+hidden_parts:
+    - Elements
+    - Materials
 ---
 <style>
 h2 {
@@ -8,22 +11,41 @@ h2 {
 </style>
 
 <h1>{{page.title}}</h1>
-Note that this page omits all element and material parts that don't provide any bonuses for brevity.
+
+{% if page.hidden_parts %}
+    {% assign hidden_parts = page.hidden_parts %}
+{% else %}
+    {% assign hidden_parts = layout.hidden_parts %}
+{% endif %}
+{% assign hidden_parts_sentence = hidden_parts
+                                  | sort_natural
+                                  | array_to_sentence_string: "and"
+                                  | downcase %}
+
+Note that this page omits all {{hidden_parts_sentence}} which don't provide any bonuses for brevity.
 
 {% assign parts_file = site.data | map: page.parts | first %}
 {% for group in parts_file %}
-    {% assign name = group[0] %}
+    {% assign slot = group[0] %}
     {% assign parts = group[1] %}
-    {% if name == "meta" %}
+
+    {% assign name_mapping = parts_file.meta.slot_names | map: slot | first %}
+    {% if name_mapping %}
+        {% assign name = name_mapping  %}
+    {% else %}
+        {% assign name = slot | capitalize %}
+    {% endif %}
+
+    {% if name == "Meta" %}
         {% continue %}
-    {% elsif name == "elements" or name == "materials" %}
+    {% elsif hidden_parts contains name %}
         {% assign parts = parts | where_exp: "part", "part.bonuses" %}
     {% endif %}
     {% if parts.size == 0 %}
         {% continue %}
     {% endif %}
 
-    <h2>{{name | capitalize}}</h2>
+    <h2>{{name}}</h2>
     {% include parts.html
         parts=parts
         meta=parts_file.meta
