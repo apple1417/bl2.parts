@@ -37,17 +37,12 @@ body {
     background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th {
     font-family: var(--header-font-family);
     font-weight: var(--header-font-weight);
 }
 h1 {
     text-align: center;
-}
-
-th {
-    font-family: var(--header-font-family);
-    font-weight: var(--header-font-weight);
 }
 
 
@@ -215,7 +210,7 @@ div.part-block img.big[src=""] {
     min-width: var(--img-size-big);
     min-height: var(--img-size-big);
 }
-div.part-block div.part-bonuses {
+.part-bonuses {
     font-size: var(--small-text-size);
 }
 

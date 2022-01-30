@@ -1,10 +1,11 @@
 {%- comment -%}
 Creates a table showing off the per grade values for all definitions.
 
-Assumes the slots in the standard definition are contained in all other definitions too.
+Assumes the standard definition containes all slots used in other definitions.
 
 Args:
     meta: The relevant item metadata.
+    ignored_grades: An array of grade slot names to ignore.
 {%- endcomment -%}
 
 {% assign COLUMN_SEPERATOR = "&|^|&" %}
@@ -20,15 +21,39 @@ of strings, with the key at the front.
 
 {% assign all_rows = "" | split: "" %}
 {% for standard_grade_stats in standard_definition.grades %}
+    {% if include.ignored_grades contains standard_grade_stats.slot %}
+        {% continue %}
+    {% endif %}
+
     {% assign attr = site.data.attributes
                      | where: "obj", standard_grade_stats.attribute
                      | first %}
-    {% assign row = attr.name | append: COLUMN_SEPERATOR %}
+    {% if attr %}
+        {% assign row = attr.name %}
+    {% else %}
+        {% assign row = standard_grade_stats.attribute | split: "." | last %}
+    {% endif %}
+
+    {% if standard_grade_stats.constraint %}
+        {% assign row = row
+                        | append: " ("
+                        | append: standard_grade_stats.constraint
+                        | append: ")" %}
+    {% endif %}
+    {% assign row = row | append: COLUMN_SEPERATOR %}
+
 
     {% for definition in sorted_definitions %}
         {% assign inner_grade_stats = definition.grades
                                       | where: "slot", standard_grade_stats.slot
                                       | first %}
+        {% unless inner_grade_stats %}
+            {% assign row = row
+                            | append: "-"
+                            | append: TYPE_SEPERATOR
+                            | append: COLUMN_SEPERATOR %}
+            {% continue %}
+        {% endunless %}
 
         {%- capture grade_str -%}
             {%- include grade.html grade_stats=inner_grade_stats -%}
@@ -79,7 +104,10 @@ of strings, with the key at the front.
 
                     {% assign split_column = column | split: TYPE_SEPERATOR %}
                     {% assign bonus = split_column[0] %}
-                    {% assign type = split_column[1] | append: " per-grade" %}
+                    {% assign type = split_column[1] %}
+                    {% if bonus != "-" %}
+                        {% assign type = type | append: " per-grade" %}
+                    {% endif %}
 
                     <td class="{{type}}" colspan="{{last_colspan | plus: 1}}">{{bonus}}</td>
                 {% endfor %}

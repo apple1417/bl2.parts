@@ -2273,7 +2273,7 @@ zeta:
   name: Small
   unique: false
 meta:
-  standard_definition_idx: 0
+  standard_definition_idx: 4
   definitions:
   - _obj_name: GD_Anemone_GrenadeMods.A_Item.GrenadeMod_Standard
     base: []

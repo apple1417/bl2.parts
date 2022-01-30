@@ -23,8 +23,7 @@ Args:
                         | where: "obj", grade_stats.attribute
                         | first -%}
     {%- assign actual_value = include.bonus.value
-                        | times: grade_stats.per_grade
-                        | plus: grade_stats.base -%}
+                        | times: grade_stats.per_grade -%}
     {%- assign actual_bonus_type = grade_stats.type -%}
 {%- else -%}
     {%- assign attr = site.data.attributes

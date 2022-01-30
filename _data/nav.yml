@@ -2,14 +2,8 @@ parts:
   - title: Grenades
     url: /grenades/
     sub:
-      - title: Definitions
-        url: /grenades/definitions/
-      - title: Deliveries
-        url: /grenades/deliveries/
-      - title: In-Depth Guide
-        url: /grenades/full/
-      - title: Payloads
-        url: /grenades/payloads/
+      - title: Full Parts Reference
+        url: /grenades/all_parts/
   - title: Pistols
     url: /pistols/
     sub:

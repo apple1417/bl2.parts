@@ -1,0 +1,40 @@
+{%- comment -%}
+Creates a table of parts, showing their full bonuses.
+
+Args:
+    table: An array of rows, where each row is an array of parts.
+    row_headers: An array of headers to use for columns. May contain markdown.
+    column_headers: An array of headers to use for columns. May contain markdown.
+    meta: The relevant item metadata.
+
+Passthrough args to `bonus_block.html`:
+    simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
+                     good/bad instead of proper bonus type.
+{%- endcomment -%}
+
+<table><thead><tr>
+    <th></th>
+    {% for column in include.column_headers %}
+        <th>{{column | markdownify | remove: "<p>" | remove: "</p>"}}</th>
+    {% endfor %}
+</tr></thead><tbody>
+    {% for row in include.table %}
+        <tr>
+            <th>
+                {{include.row_headers[forloop.index0]
+                  | markdownify
+                  | remove: "<p>"
+                  | remove: "</p>"}}
+            </th>
+            {% for part in row %}
+                <td class="part-bonuses">
+                    {% include bonus_block.html
+                        part=part
+                        meta=include.meta
+                        simple_bonuses=include.simple_bonuses
+                    %}
+                </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</tbody></table>
