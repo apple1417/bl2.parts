@@ -25,9 +25,18 @@ h2 {
 Note that this page omits all {{hidden_parts_sentence}} which don't provide any bonuses for brevity.
 
 {% assign parts_file = site.data | map: page.parts | first %}
+
+{%- comment -%}
+Same concept as in `bonus_block.html` - to sort by expression we squash everything into an array
+of strings, with the key at the front.
+{%- endcomment -%}
+{% assign SLOT_NAME_SEPERATOR = ".|^|." %}
+{% assign slot_order = "" | split: "" %}
 {% for group in parts_file %}
     {% assign slot = group[0] %}
-    {% assign parts = group[1] %}
+    {% if slot == "meta" %}
+        {% continue %}
+    {% endif %}
 
     {% assign name_mapping = parts_file.meta.slot_names | map: slot | first %}
     {% if name_mapping %}
@@ -36,9 +45,17 @@ Note that this page omits all {{hidden_parts_sentence}} which don't provide any 
         {% assign name = slot | capitalize %}
     {% endif %}
 
-    {% if name == "Meta" %}
-        {% continue %}
-    {% elsif hidden_parts contains name %}
+    {% assign order_entry = name | append: SLOT_NAME_SEPERATOR | append: slot %}
+    {% assign slot_order = slot_order | push: order_entry %}
+{% endfor %}
+{% assign slot_order = slot_order | sort_natural %}
+
+{% for slot_data in slot_order %}
+    {% assign split_slot_data = slot_data | split: SLOT_NAME_SEPERATOR %}
+    {% assign name = split_slot_data[0] %}
+    {% assign parts = parts_file | map: split_slot_data[1] | first %}
+
+    {% if hidden_parts contains name %}
         {% assign parts = parts | where_exp: "part", "part.bonuses" %}
     {% endif %}
     {% if parts.size == 0 %}
