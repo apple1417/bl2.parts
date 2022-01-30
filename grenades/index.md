@@ -91,20 +91,26 @@ accessories:
     - idx: 1
       name: "*Explosive*{:.explosive}"
 
-definition_slot_order:
-  - DamageRadius
-  - ChildCount
-  - FuseTime
-  - Damage
-  - StatusEffectChanceModifier_Corrosive
-  - StatusEffectChanceModifier_Ice
-  - StatusEffectChanceModifier_Incendiary
-  - StatusEffectChanceModifier_Shock
-  - StatusEffectChanceModifier_Slag
-  - StatusEffectDamage_Corrosive
-  - StatusEffectDamage_Ice
-  - StatusEffectDamage_Incendiary
-  - StatusEffectDamage_Shock
+definitions:
+  slot_order:
+    - DamageRadius
+    - ChildCount
+    - FuseTime
+    - Damage
+    - StatusEffectChanceModifier_Corrosive
+    - StatusEffectChanceModifier_Ice
+    - StatusEffectChanceModifier_Incendiary
+    - StatusEffectChanceModifier_Shock
+    - StatusEffectChanceModifier_Slag
+    - StatusEffectDamage_Corrosive
+    - StatusEffectDamage_Ice
+    - StatusEffectDamage_Incendiary
+    - StatusEffectDamage_Shock
+  footnotes:
+    "Exterminator": exterm
+    "Exterminator (Anemone)": exterm_anemone
+    "Magic Spell": magic
+    "Standard (Anemone)": standard_anemone
 ---
 # Grenade Parts Guide
 Grenades are made up of up to 10 different parts. Unfortunately only 5 of these slots use parts with
@@ -318,10 +324,16 @@ With the table transposed, we also don't really care about merging identical cel
                                | unshift: standard_definition %}
 {% for definition in sorted_definitions %}
     <tr>
-        <th>{{definition.name}}</th>
+        <th>
+          {{definition.name}}
+          {%- if page.definitions.footnotes contains definition.name -%}
+              {%- assign footnote_id = page.definitions.footnotes | map: definition.name | first -%}
+              {%- include footnote.html id=footnote_id -%}
+          {%- endif -%}
+        </th>
 
         {% assign row = "" | split: "" %}
-        {% for slot in page.definition_slot_order %}
+        {% for slot in page.definitions.slot_order %}
             {% assign grade_stats = definition.grades | where: "slot", slot | first %}
             {% unless grade_stats %}
                 <td>-</td>
@@ -337,5 +349,12 @@ With the table transposed, we also don't really care about merging identical cel
 </tbody>
 </table>
 </div>
+
+{% include footnote_end.html 
+    exterm="Used for the Fire Bee, Pandemic, and Storm Front."
+    exterm_anemone="Used for the Antifection and Electric Chair."
+    magic="Used for the Dragon Keep grenade mods, the Fireball, Fire Storm, Lightning Bolt, Chain Lightning, x2 Magic Missile, and x4 Magic Missile."
+    standard_anemone="Only appears on grenades used by New Pandora Pyros."
+%}
 
 </details>
