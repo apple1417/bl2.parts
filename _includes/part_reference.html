@@ -15,7 +15,7 @@ Args:
 {% endif %}
 {% assign image_class = "big" %}
 {% if include.image_class %}
-    {% assign image_class = image_class %}
+    {% assign image_class = include.image_class %}
 {% endif %}
 
 <div {{id}} class="part-container">
