@@ -30,22 +30,12 @@ of strings, with the key at the front.
                                       | where: "slot", standard_grade_stats.slot
                                       | first %}
 
-        {% if inner_grade_stats.base > 0 %}
-            {% assign base = "+" | append: inner_grade_stats.base %}
-        {% else %}
-            {% assign base = inner_grade_stats.base | replace: "-", "&minus;" %}
-        {% endif %}
-
-        {% if inner_grade_stats.per_grade > 0 %}
-            {% assign per_grade = "+" | append: inner_grade_stats.per_grade %}
-        {% else %}
-            {% assign per_grade = inner_grade_stats.per_grade | replace: "-", "&minus;" %}
-        {% endif %}
+        {%- capture grade_str -%}
+            {%- include grade.html grade_stats=inner_grade_stats -%}
+        {%- endcapture -%}
 
         {% assign row = row
-                        | append: base
-                        | append: " "
-                        | append: per_grade
+                        | append: grade_str
                         | append: TYPE_SEPERATOR
                         | append: inner_grade_stats.type
                         | append: COLUMN_SEPERATOR %}

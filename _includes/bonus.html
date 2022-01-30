@@ -81,7 +81,15 @@ Args:
         {%- endif -%}
     {%- endif -%}
     {%- if include.bonus.scale -%}
-        {%- assign actual_value = actual_value | append: "&times;" | append: include.bonus.scale -%}
+        {%- if actual_value == "+1" -%}
+            {%- assign actual_value = "+" | append: include.bonus.scale -%}
+        {% elsif actual_value == "&minus;1" %}
+            {%- assign actual_value = "&minus;" | append: include.bonus.scale -%}
+        {%- else -%}
+            {%- assign actual_value = actual_value
+                                      | append: "&times;"
+                                      | append: include.bonus.scale -%}
+        {%- endif -%}
     {%- endif -%}
 
     {%- if positive -%}
@@ -106,9 +114,16 @@ Args:
     {%- if include.bonus.value > 0 -%}
         +
     {%- endif -%}
-    {{include.bonus.value}}
     {%- if include.bonus.scale -%}
-        &times;{{include.bonus.scale}}
+        {%- if include.bonus.value == 1 -%}
+            {{inner_base.scale}}
+        {%- elsif include.bonus.value == -1 -%}
+            &minus;{{inner_base.scale}}
+        {%- else -%}
+            {{include.bonus.value}}&times;{{include.bonus.scale}}
+        {%- endif -%}
+    {%- else -%}
+        {{include.bonus.value}}
     {%- endif -%}
     </span>
 {%- endif -%}

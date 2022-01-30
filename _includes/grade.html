@@ -1,0 +1,44 @@
+{%- comment -%}
+Formats the base/pergrade of a grade stat entry. Intended to be captured into a variable.
+
+Args:
+    grade_stats: The grade stat entry to process.
+{%- endcomment -%}
+
+{%- if include.grade_stats -%}
+    {%- if include.grade_stats.base > 0 -%}
+        {%- assign base = "+" | append: include.grade_stats.base -%}
+    {%- else -%}
+        {%- assign base = include.grade_stats.base | replace: "-", "&minus;" -%}
+    {%- endif -%}
+
+    {%- if include.grade_stats.per_grade > 0 -%}
+        {%- assign per_grade = "+" | append: include.grade_stats.per_grade -%}
+    {%- else -%}
+        {%- assign per_grade = include.grade_stats.per_grade | replace: "-", "&minus;" -%}
+    {%- endif -%}
+
+    {%- if include.grade_stats.scale -%}
+        {%- if base == "+1" -%}
+            {%- assign base = "+" | append: include.grade_stats.scale -%}
+        {%- elsif base == "&minus;1" -%}
+            {%- assign base = "&minus;" | append: include.grade_stats.scale -%}
+        {%- else -%}
+            {%- assign base = base | append: "&times;" | append: include.grade_stats.scale -%}
+        {%- endif -%}
+
+        {%- if per_grade == "+1" -%}
+            {%- assign per_grade = "+" | append: include.grade_stats.scale -%}
+        {%- elsif per_grade == "&minus;1" -%}
+            {%- assign per_grade = "&minus;" | append: include.grade_stats.scale -%}
+        {%- else -%}
+            {%- assign per_grade = per_grade
+                            | append: "&times;"
+                            | append: include.grade_stats.scale -%}
+        {%- endif -%}
+    {%- endif -%}
+
+    {{base}} {{per_grade}}
+{%- else -%}
+    -
+{%- endif -%}
