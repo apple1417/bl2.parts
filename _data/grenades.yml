@@ -2351,6 +2351,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -2358,6 +2359,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -2365,6 +2367,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -2429,6 +2432,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -2436,6 +2440,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -2443,6 +2448,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -2523,6 +2529,7 @@ meta:
       base: 30
       constraint: Fire
       per_grade: 1.3
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -2530,6 +2537,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -2537,6 +2545,7 @@ meta:
       base: 30
       constraint: Shock
       per_grade: 9
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -2636,6 +2645,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -2643,6 +2653,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -2650,6 +2661,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -2668,6 +2680,7 @@ meta:
       base: 20
       constraint: Cryo
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
@@ -2782,6 +2795,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -2789,6 +2803,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -2796,6 +2811,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -2933,6 +2949,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -2940,6 +2957,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -2947,6 +2965,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3056,6 +3075,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3063,6 +3083,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3070,6 +3091,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3150,6 +3172,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3157,6 +3180,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3164,6 +3188,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3228,6 +3253,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3235,6 +3261,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3242,6 +3269,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3306,6 +3334,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3313,6 +3342,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3320,6 +3350,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3362,6 +3393,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3442,6 +3474,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3449,6 +3482,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3456,6 +3490,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3520,6 +3555,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3527,6 +3563,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3534,6 +3571,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3552,6 +3590,7 @@ meta:
       base: 20
       constraint: Cryo
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
@@ -3632,6 +3671,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3639,6 +3679,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3646,6 +3687,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3688,6 +3730,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3797,6 +3840,7 @@ meta:
       base: 21
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3804,6 +3848,7 @@ meta:
       base: 21
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3811,6 +3856,7 @@ meta:
       base: 21
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -3920,6 +3966,7 @@ meta:
       base: 21
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -3927,6 +3974,7 @@ meta:
       base: 21
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -3934,6 +3982,7 @@ meta:
       base: 21
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -4003,6 +4052,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -4010,6 +4060,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -4017,6 +4068,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -4035,6 +4087,7 @@ meta:
       base: 20
       constraint: Cryo
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
@@ -4109,6 +4162,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -4116,6 +4170,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -4123,6 +4178,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
@@ -4141,6 +4197,7 @@ meta:
       base: 20
       constraint: Cryo
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
@@ -4226,6 +4283,7 @@ meta:
       base: 20
       constraint: Fire
       per_grade: 1
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
@@ -4233,6 +4291,7 @@ meta:
       base: 20
       constraint: Corrosive
       per_grade: 1.2
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
@@ -4240,6 +4299,7 @@ meta:
       base: 20
       constraint: Shock
       per_grade: 1.4
+      per_grade_scale: '&beta;'
       scale: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
