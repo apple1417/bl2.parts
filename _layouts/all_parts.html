@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+{%- comment -%}
+Displays a list of all parts for an item type.
+
+Args:
+    parts: The name of the parts file to display.
+    slot_names: An mapping of slot names to custom display names for their category.
+    hidden_parts: A list of display names to hide parts with no bonuses in.
+{%- endcomment -%}
+
 <style>
 h2 {
     text-align: center;
