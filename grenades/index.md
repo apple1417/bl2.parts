@@ -192,7 +192,7 @@ There are 6 non-unique triggers.
 ## Accessories
 The accessories define both the element of the grenade and it's (unlisted) status chance modifier.
 
-There are 26 non-unique accessories - Each element has 5 parts at different grades, and there's a
+There are 26 non-unique accessories - each element has 5 parts at different grades, and there's a
 single part for explosive.
 
 {% assign explosive_accessory = site.data.grenades.delta | where: "name", "Explosive" %}

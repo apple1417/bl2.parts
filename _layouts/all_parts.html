@@ -1,8 +1,5 @@
 ---
 layout: default
-hidden_parts:
-    - Elements
-    - Materials
 ---
 <style>
 h2 {
@@ -13,16 +10,12 @@ h2 {
 <h1>{{page.title}}</h1>
 
 {% if page.hidden_parts %}
-    {% assign hidden_parts = page.hidden_parts %}
-{% else %}
-    {% assign hidden_parts = layout.hidden_parts %}
+    {% assign hidden_parts_sentence = page.hidden_parts
+                                    | sort_natural
+                                    | array_to_sentence_string: "and"
+                                    | downcase %}
+    Note that this page omits all {{hidden_parts_sentence}} which don't provide any bonuses for brevity.
 {% endif %}
-{% assign hidden_parts_sentence = hidden_parts
-                                  | sort_natural
-                                  | array_to_sentence_string: "and"
-                                  | downcase %}
-
-Note that this page omits all {{hidden_parts_sentence}} which don't provide any bonuses for brevity.
 
 {% assign parts_file = site.data | map: page.parts | first %}
 
@@ -38,7 +31,7 @@ of strings, with the key at the front.
         {% continue %}
     {% endif %}
 
-    {% assign name_mapping = parts_file.meta.slot_names | map: slot | first %}
+    {% assign name_mapping = page.slot_names | map: slot | first %}
     {% if name_mapping %}
         {% assign name = name_mapping  %}
     {% else %}
@@ -55,7 +48,7 @@ of strings, with the key at the front.
     {% assign name = split_slot_data[0] %}
     {% assign parts = parts_file | map: split_slot_data[1] | first %}
 
-    {% if hidden_parts contains name %}
+    {% if page.hidden_parts contains name %}
         {% assign parts = parts | where_exp: "part", "part.bonuses" %}
     {% endif %}
     {% if parts.size == 0 %}
