@@ -17,9 +17,6 @@ Args:
 
 <table class="{{classes}}">
     {% for attr in attributes %}
-        {% if attr.fake %}
-            {% continue %}
-        {% endif %}
         <tr>
             <th>{{ attr.name | markdownify | remove: "<p>" | remove: "</p>" }}</th>
             <td>{{ attr.description | markdownify | remove: "<p>" | remove: "</p>" }}</td>
