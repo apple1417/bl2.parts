@@ -85,8 +85,25 @@ Field | Usage
 Field | Usage
 :---|:---
 `definitions` | An array of definitions. Note that there is generally also a part slot called `definitions`, but it contains the bonuses the definitions give, while this one contains what they defines.
+`grade_overrides` | A mapping of grade slot names to custom data which overwrites looking up the attribute in the definition.
 `meshes` | A mapping of mesh names to their display names and images.
 `standard_definition_idx` | An index into the definitions array to use as the "standard defintiion", used when converting grade bonuses.
+
+### Grade Override Entries
+```yml
+grade_overrides:
+  Special01:
+    name: Special 01
+    add_good: true
+```
+
+Field | Usage
+:---|:---
+`name` | The grade slot's display name.
+`add_good` | If adding to the value gives a good outcome.
+
+When displaying simple bonuses, any grades defined using these won't get their values converted, they'll show the raw grade bonus.
+Technically you can add the `percent` field too, these entries get interpreted by some of the same scripts as attributes, but it would be nonsensical.
 
 ### Mesh Entries
 ```yml

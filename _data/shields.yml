@@ -1,0 +1,6861 @@
+alpha:
+- _obj_name: GD_Anemone_Shields.Body.Body1_Tediore
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 1
+  - slot: Special02
+    type: grade
+    value: 1
+  name: Tediore (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Body.Body3_Vladof
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -1
+  - slot: RechargeRate
+    type: grade
+    value: 3
+  - slot: RechargeDelay
+    type: grade
+    value: -1
+  mesh: Shield_Accessory_Vladof
+  name: Vladof (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Body.Body4_Dahl
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -2
+  - slot: RechargeRate
+    type: grade
+    value: -1
+  - slot: RechargeDelay
+    type: grade
+    value: 7
+  - slot: Special01
+    type: grade
+    value: -1
+  - slot: Special02
+    type: grade
+    value: -1
+  mesh: Shield_Accessory_Dahl
+  name: Dahl (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Body.Body5_Anshin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 2
+  mesh: Shield_Accessory_Anshin
+  name: Anshin (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Body.Body5_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  mesh: Shield_Accessory02_Pangolin
+  name: Maliwan (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Body.Body7_Hyperion
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: -2
+  - slot: RechargeDelay
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 3
+  - slot: Special02
+    type: grade
+    value: 3
+  mesh: Shield_Accessory_Hyperion
+  name: Hyperion (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Body.Body8_Pangolin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: -7
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: -3
+  - slot: Special02
+    type: grade
+    value: -3
+  mesh: Shield_Accessory01_Pangolin
+  name: Pangolin (Anemone)
+  unique: true
+- _obj_name: GD_Shields.Body.Body1_Tediore
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 1
+  - slot: Special02
+    type: grade
+    value: 1
+  name: Tediore
+  unique: true
+- _obj_name: GD_Shields.Body.Body2_Bandit
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 1
+  - slot: RechargeRate
+    type: grade
+    value: 8
+  - slot: RechargeDelay
+    type: grade
+    value: -2
+  - slot: Special01
+    type: grade
+    value: -6
+  - slot: Special02
+    type: grade
+    value: -6
+  mesh: Shield_Accessory_Bandit
+  name: Bandit
+  unique: true
+- _obj_name: GD_Shields.Body.Body3_Vladof
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -1
+  - slot: RechargeRate
+    type: grade
+    value: 3
+  - slot: RechargeDelay
+    type: grade
+    value: -1
+  mesh: Shield_Accessory_Vladof
+  name: Vladof
+  unique: true
+- _obj_name: GD_Shields.Body.Body4_Dahl
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -2
+  - slot: RechargeRate
+    type: grade
+    value: -1
+  - slot: RechargeDelay
+    type: grade
+    value: 7
+  - slot: Special01
+    type: grade
+    value: -1
+  - slot: Special02
+    type: grade
+    value: -1
+  mesh: Shield_Accessory_Dahl
+  name: Dahl
+  unique: true
+- _obj_name: GD_Shields.Body.Body5_Anshin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 2
+  mesh: Shield_Accessory_Anshin
+  name: Anshin
+  unique: true
+- _obj_name: GD_Shields.Body.Body5_Anshin_RoidLegendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 5
+  mesh: Shield_Accessory_Anshin
+  name: Anshin (Bigg Thumppr)
+  unique: true
+- _obj_name: GD_Shields.Body.Body5_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  mesh: Shield_Accessory02_Pangolin
+  name: Maliwan
+  unique: true
+- _obj_name: GD_Shields.Body.Body6_Torgue
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 3
+  - slot: RechargeRate
+    type: grade
+    value: 2
+  - slot: RechargeDelay
+    type: grade
+    value: -2
+  - slot: Special01
+    type: grade
+    value: -5
+  - slot: Special02
+    type: grade
+    value: -5
+  mesh: Shield_Accessory_Torgue
+  name: Torgue
+  unique: true
+- _obj_name: GD_Shields.Body.Body7_Hyperion
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: -2
+  - slot: RechargeDelay
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 3
+  - slot: Special02
+    type: grade
+    value: 3
+  mesh: Shield_Accessory_Hyperion
+  name: Hyperion
+  unique: true
+- _obj_name: GD_Shields.Body.Body8_Pangolin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: -7
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: -3
+  - slot: Special02
+    type: grade
+    value: -3
+  mesh: Shield_Accessory01_Pangolin
+  name: Pangolin
+  unique: true
+beta:
+- _obj_name: GD_Anemone_Shields.Battery.Battery1_Tediore
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 1
+  - slot: Special02
+    type: grade
+    value: 1
+  mesh: Shield_Battery_Tediore
+  name: Tediore (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Battery.Battery3_Vladof
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -1
+  - slot: RechargeRate
+    type: grade
+    value: 3
+  - slot: RechargeDelay
+    type: grade
+    value: -1
+  mesh: Shield_Battery_Vladof
+  name: Vladof (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Battery.Battery4_Dahl
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -2
+  - slot: RechargeRate
+    type: grade
+    value: -1
+  - slot: RechargeDelay
+    type: grade
+    value: 7
+  - slot: Special01
+    type: grade
+    value: -1
+  - slot: Special02
+    type: grade
+    value: -1
+  mesh: Shield_Battery_Dahl
+  name: Dahl (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Battery.Battery5_Anshin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 2
+  mesh: Shield_Battery_Anshin
+  name: Anshin (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Battery.Battery5_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  mesh: Shield_Battery_Pangolin
+  name: Maliwan (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Battery.Battery7_Hyperion
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: -2
+  - slot: RechargeDelay
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 3
+  - slot: Special02
+    type: grade
+    value: 3
+  mesh: Shield_Battery_Hyperion
+  name: Hyperion (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Shields.Battery.Battery8_Pangolin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: -7
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: -3
+  - slot: Special02
+    type: grade
+    value: -3
+  mesh: Shield_Battery_Pangolin
+  name: Pangolin (Anemone)
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery1_Tediore
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 1
+  - slot: Special02
+    type: grade
+    value: 1
+  mesh: Shield_Battery_Tediore
+  name: Tediore
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery2_Bandit
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 1
+  - slot: RechargeRate
+    type: grade
+    value: 8
+  - slot: RechargeDelay
+    type: grade
+    value: -2
+  - slot: Special01
+    type: grade
+    value: -6
+  - slot: Special02
+    type: grade
+    value: -6
+  mesh: Shield_Battery_Bandit
+  name: Bandit
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery3_Vladof
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -1
+  - slot: RechargeRate
+    type: grade
+    value: 3
+  - slot: RechargeDelay
+    type: grade
+    value: -1
+  mesh: Shield_Battery_Vladof
+  name: Vladof
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery4_Dahl
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -2
+  - slot: RechargeRate
+    type: grade
+    value: -1
+  - slot: RechargeDelay
+    type: grade
+    value: 7
+  - slot: Special01
+    type: grade
+    value: -1
+  - slot: Special02
+    type: grade
+    value: -1
+  mesh: Shield_Battery_Dahl
+  name: Dahl
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery5_Anshin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 2
+  mesh: Shield_Battery_Anshin
+  name: Anshin
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery5_Anshin_RoidLegendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 5
+  mesh: Shield_Battery_Anshin
+  name: Anshin (Neogenator)
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery5_Anshin_RoidLegendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 5
+  mesh: Shield_Battery_Anshin
+  name: Anshin (Bigg Thumppr / M0RQ / Reogenator)
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery5_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  mesh: Shield_Battery_Pangolin
+  name: Maliwan
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery6_Torgue
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 3
+  - slot: RechargeRate
+    type: grade
+    value: 2
+  - slot: RechargeDelay
+    type: grade
+    value: -2
+  - slot: Special01
+    type: grade
+    value: -5
+  - slot: Special02
+    type: grade
+    value: -5
+  mesh: Shield_Battery_Torgue
+  name: Torgue
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery7_Hyperion
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: -2
+  - slot: RechargeDelay
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 3
+  - slot: Special02
+    type: grade
+    value: 3
+  mesh: Shield_Battery_Hyperion
+  name: Hyperion
+  unique: true
+- _obj_name: GD_Shields.Battery.Battery8_Pangolin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: -7
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: -3
+  - slot: Special02
+    type: grade
+    value: -3
+  mesh: Shield_Battery_Pangolin
+  name: Pangolin
+  unique: true
+definition:
+- _obj_name: GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  - attribute: GD_Anemone_Shields.Attributes.Attr_EasyModeEquipped
+    type: post-add
+    value: 1
+  name: Easy Mode
+  unique: true
+- _obj_name: GD_Anemone_Shields.A_Item.Shield_Worming
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Retainer
+  unique: true
+- _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 35
+  - slot: RechargeRate
+    type: grade
+    value: 8
+  - slot: RechargeDelay
+    type: grade
+    value: 12
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Antagonist
+  unique: true
+- _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 20
+  - slot: RechargeRate
+    type: grade
+    value: 20
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Blockade
+  unique: true
+- _obj_name: GD_Cork_Shields.A_Item.Shield_Nova_Ice
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Nova (Cryo)
+  unique: false
+- _obj_name: GD_Cork_Shields.A_Item.Shield_Spike_Ice
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Spike (Cryo)
+  unique: false
+- _obj_name: GD_Cork_Shields.A_Item_Custom.Shield_RapidRelease
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 39.36
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 2.1
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 15.744
+  name: Rapid Release
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 73.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Big Boom Blaster
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 25
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  - attribute: GD_Iris_SeraphItems.Attributes.Attr_HopliteEquipped
+    type: pre-add
+    value: 1
+  name: Hoplite
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 4.025
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 11.264
+  name: Pun-chee
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Sponge
+  unique: true
+- _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Chimera_05_M0RQ
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: M0RQ
+  unique: true
+- _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Impact_05_Rerouter
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -10
+  - slot: RechargeRate
+    type: grade
+    value: 75
+  - slot: RechargeDelay
+    type: grade
+    value: -26
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Rerouter
+  unique: true
+- _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Juggernaut_03_ShieldOfAges
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 65
+  - slot: RechargeRate
+    type: grade
+    value: 35
+  - slot: Special01
+    type: grade
+    value: -10
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Shield of Ages
+  unique: true
+- _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Standard_Naught
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 8.9216
+  name: Naught
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 6.4
+  name: Evolution
+  unique: true
+- _obj_name: GD_Orchid_Shields.A_Item_Custom.Shield_Blade
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Manly Man Shield
+  unique: true
+- _obj_name: GD_Sage_Shields.A_Item_Custom.Shield_Buckler
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    type: pre-add
+    value: 100
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  - attribute: D_Attributes.ShieldResourcePool.ShieldConsumptionRate
+    type: post-add
+    value: 100000
+  name: Rough Rider
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Absorption (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Absorption
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Absorption (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Sham (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Sham (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Transformer
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Kala
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_1340
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: 1340 Shield
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_Aequitas
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  - attribute: GD_Shields.Attributes.Attr_AequitasEquipped
+    type: pre-add
+    value: 1
+  name: Aequitas
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Absorption_PrismaticBulwark
+  bonuses:
+  - slot: Special03
+    type: grade
+    value: 1
+  - slot: Special04
+    type: grade
+    value: 1
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Prismatic Bulwark
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Booster
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Booster (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Booster
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Booster (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Whisky Tango Foxtrot (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Whisky Tango Foxtrot (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Booster_AsteroidBelt
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Asteroid Belt
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Booster_MoxxisSlammer
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Moxxi's Slammer
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Booster_PotOGold
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Pot O' Gold
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Chimera
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Adaptive (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Chimera
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Adaptive (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Neogenator
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Reogenator
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Chimera_Haymaker
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Haymaker
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Impact
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Amp (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Impact
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Amp (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Impact_05_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -50
+  - slot: RechargeRate
+    type: grade
+    value: 75
+  - slot: RechargeDelay
+    type: grade
+    value: -26
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Bee
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 25
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Turtle (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 25
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Turtle (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 25
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Fabled Tortoise (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 25
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Fabled Tortoise (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Nova (Corrosive, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Nova (Corrosive, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Nova (Explosive, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Nova (Explosive, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Deadly Bloom (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Deadly Bloom (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Nova (Fire, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Nova (Fire, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Phoenix
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Flame of the Firehawk
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Sunshine
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Sunshine
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Supernova
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Supernova
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Nova (Shock, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Nova (Shock, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Black Hole (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Black Hole (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Roid
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 4.025
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 11.264
+  name: Roid (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Roid
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 4.025
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 11.5456
+  name: Roid (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Roid_05_Legendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Bigg Thumppr
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Roid_05_ThresherRaid
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Hide of Terramorphous
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Roid_Avalanche
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Avalanche
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Roid_LoveThumper
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Love Thumper
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Roid_Order
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Order
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Roid_ShootingStar
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 4.025
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 11.5456
+  name: Shooting Star
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Spike (Corrosive, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Spike (Corrosive, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Impaler (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Impaler (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Spike (Explosive, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Spike (Explosive, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Spike (Fire, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Spike (Fire, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Spike (Shock, BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Spike (Shock, TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Standard
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Standard (BL2)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Standard
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Standard (TPS)
+  unique: false
+- _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -50
+  - slot: RechargeRate
+    type: grade
+    value: 150
+  - slot: RechargeDelay
+    type: grade
+    value: -12
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Cradle (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -50
+  - slot: RechargeRate
+    type: grade
+    value: 150
+  - slot: RechargeDelay
+    type: grade
+    value: -12
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Cradle (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 64
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.24
+  name: Cracked Sash (BL2)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: Cracked Sash (TPS)
+  unique: true
+- _obj_name: GD_Shields.A_Item.Shield_Standard_MyFirst
+  bonuses:
+  - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+    scale: '&beta;'
+    type: pre-add
+    value: 65.6
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+    type: pre-add
+    value: 3.5
+  - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+    scale: '&beta;'
+    type: pre-add
+    value: 10.496
+  name: My First Shield
+  unique: true
+delta:
+- _obj_name: GD_Anemone_Shields.Accessory.Accessory2_Roid_Order
+  bonuses:
+  - slot: Special01
+    type: grade
+    value: 5
+  mesh: Shield_Body_Hyperion
+  name: Retainer
+  unique: true
+- _obj_name: GD_Anemone_Shields.Accessory.Accessory6_Nova_Singularity
+  mesh: Shield_Body_Anshin
+  name: Easy Mode
+  unique: true
+- _obj_name: GD_Aster_Shields.Accessory.Accessory_Antagonist
+  mesh: Shield_Body_Anshin
+  name: Antagonist
+  unique: true
+- _obj_name: GD_Aster_Shields.Accessory.Accessory_Blockade
+  mesh: Shield_Body_Hyperion
+  name: Blockade
+  unique: true
+- _obj_name: GD_Cork_Shields.Accessory.Accessory1_Spike_Ice
+  mesh: Shield_Body_Anshin
+  name: Spike (Cryo)
+  unique: true
+- _obj_name: GD_Cork_Shields.Accessory.Accessory6_Nova_Ice
+  mesh: Shield_Body_Anshin
+  name: Nova (Cryo)
+  unique: true
+- _obj_name: GD_Cork_Shields.Accessory.Accessory6_RapidRelease
+  mesh: Shield_Body_Hyperion
+  name: Rapid Release
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster_Accessory4_Booster
+  mesh: Shield_Body_Dahl
+  name: Big Boom Blaster
+  unique: true
+- _obj_name: GD_Ma_Shields.Accessory.Accessory5_Chimera_M0RQ
+  bonuses:
+  - attribute: GD_Ma_Shields.Misc.Des_ShieldIsM0RQ
+    type: post-add
+    value: 1
+  mesh: Shield_Body_Anshin
+  name: M0RQ
+  unique: true
+- _obj_name: GD_Ma_Shields.Accessory.Accessory7_Impact_Rerouter
+  mesh: Shield_Body_Hyperion
+  name: Rerouter
+  unique: true
+- _obj_name: GD_Ma_Shields.Accessory.Accessory8_Juggernaut_ShieldOfAges
+  mesh: Shield_Body_Hyperion
+  name: Shield of Ages
+  unique: true
+- _obj_name: GD_Ma_Shields.Accessory.Accessory_Naught
+  bonuses:
+  - slot: RechargeRate
+    type: grade
+    value: -20
+  mesh: Shield_Body_Tediore
+  name: Naught
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield_Accessory
+  mesh: Shield_Body_Anshin
+  name: Evolution
+  unique: true
+- _obj_name: GD_Orchid_Shields.Accessory.Accessory_Blade
+  bonuses:
+  - attribute: D_Attributes.DamageTypeModifers.IncendiaryImpactDamageModifier
+    type: scale
+    value: 0.65
+  - attribute: D_Attributes.DamageTypeModifers.IncendiaryStatusEffectDamageModifier
+    type: scale
+    value: 0.65
+  - attribute: D_Attributes.DamageTypeModifers.CorrosiveImpactDamageModifier
+    type: scale
+    value: 0.65
+  - attribute: D_Attributes.DamageTypeModifers.CorrosiveStatusEffectDamageModifier
+    type: scale
+    value: 0.65
+  - attribute: D_Attributes.DamageTypeModifers.ShockImpactDamageModifier
+    type: scale
+    value: 0.65
+  - attribute: D_Attributes.DamageTypeModifers.ShockStatusEffectDamageModifier
+    type: scale
+    value: 0.65
+  mesh: Shield_Body_Torgue
+  name: Manly Man Shield
+  unique: true
+- _obj_name: GD_Sage_Shields.Accessory.Accessory_Buckler
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.BaseArmor
+    type: post-add
+    value: 25
+  mesh: Shield_Body_Pangolin
+  name: Rough Rider
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory0_CrackedSash
+  mesh: Shield_Body_Tediore
+  name: Cracked Sash
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory0_None
+  mesh: Shield_Body_Tediore
+  name: Standard
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory0_StandardLegendary
+  mesh: Shield_Body_Tediore
+  name: Cradle
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory1_Spike_Corrosive
+  mesh: Shield_Body_Anshin
+  name: Spike (Corrosive)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory1_Spike_Corrosive_Legendary
+  mesh: Shield_Body_Anshin
+  name: Impaler
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory1_Spike_Explosive
+  mesh: Shield_Body_Torgue
+  name: Spike (Explosive)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory1_Spike_Fire
+  mesh: Shield_Body_Anshin
+  name: Spike (Fire)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory1_Spike_Shock
+  mesh: Shield_Body_Anshin
+  name: Spike (Shock)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory2_Roid
+  mesh: Shield_Body_Bandit
+  name: Roid
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory2_Roid_Avalanche
+  mesh: Shield_Body_Bandit
+  name: Avalanche
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory2_Roid_Legendary
+  mesh: Shield_Body_Bandit
+  name: Bigg Thumppr
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory2_Roid_LoveThumper
+  mesh: Shield_Body_Torgue
+  name: Love Thumper
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory2_Roid_Order
+  bonuses:
+  - slot: Special01
+    type: grade
+    value: 5
+  mesh: Shield_Body_Hyperion
+  name: Order
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory2_Roid_ShootingStar
+  mesh: Shield_Body_Bandit
+  name: Shooting Star
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption
+  mesh: Shield_Body_Vladof
+  name: Absorption
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption_1340
+  mesh: Shield_Body_Hyperion
+  name: 1340 Shield
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption_Aequitas
+  mesh: Shield_Body_Vladof
+  name: Aequitas
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption_LegendaryNormal
+  mesh: Shield_Body_Vladof
+  name: Sham
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption_LegendaryShock
+  mesh: Shield_Body_Vladof
+  name: Transformer
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption_LegendaryShock
+  mesh: Shield_Body_Vladof
+  name: Kala
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory3_Absorption_PrismaticBulwark
+  mesh: Shield_Body_Vladof
+  name: Prismatic Bulwark
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory4_Booster
+  mesh: Shield_Body_Dahl
+  name: Booster
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory4_Booster_AsteroidBelt
+  mesh: Shield_Body_Dahl
+  name: Asteroid Belt
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory4_Booster_Legendary
+  mesh: Shield_Body_Dahl
+  name: Whisky Tango Foxtrot
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory4_Booster_PotOGold
+  mesh: Shield_Body_Bandit
+  name: Pot O' Gold
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory5_Chimera
+  mesh: Shield_Body_Anshin
+  name: Adaptive
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory5_ChimeraLegendary
+  mesh: Shield_Body_Anshin
+  name: Neogenator
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory5_ChimeraLegendary
+  mesh: Shield_Body_Anshin
+  name: Reogenator
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory5_Chimera_Haymaker
+  mesh: Shield_Body_Anshin
+  name: Haymaker
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Corrosive
+  mesh: Shield_Body_Anshin
+  name: Nova (Corrosive)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Explosive
+  mesh: Shield_Body_Torgue
+  name: Nova (Explosive)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Explosive_DeadlyBloom
+  mesh: Shield_Body_Torgue
+  name: Deadly Bloom
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Fire
+  mesh: Shield_Body_Anshin
+  name: Nova (Fire)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Phoenix
+  mesh: Shield_Body_Anshin
+  name: Flame of the Firehawk
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Shock
+  mesh: Shield_Body_Anshin
+  name: Nova (Shock)
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Singularity
+  mesh: Shield_Body_Anshin
+  name: Black Hole
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Sunshine
+  mesh: Shield_Body_Anshin
+  name: Sunshine
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory6_Nova_Supernova
+  mesh: Shield_Body_Anshin
+  name: Supernova
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory7_Impact
+  mesh: Shield_Body_Hyperion
+  name: Amp
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory7_Impact_Legendary
+  mesh: Shield_Body_Hyperion
+  name: Bee
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory8_Juggernaut
+  mesh: Shield_Body_Pangolin
+  name: Turtle
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory8_Juggernaut_Legendary
+  mesh: Shield_Body_Pangolin
+  name: Fabled Tortoise
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory9_01_Roid_ThresherRaid
+  bonuses:
+  - slot: Special03
+    type: grade
+    value: -5
+  - slot: Special04
+    type: grade
+    value: -5
+  mesh: Shield_Body_Bandit
+  name: Hide of Terramorphous 01
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory9_02_Roid_ThresherRaid
+  bonuses:
+  - slot: Special03
+    type: grade
+    value: -3
+  - slot: Special04
+    type: grade
+    value: -3
+  mesh: Shield_Body_Bandit
+  name: Hide of Terramorphous 02
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory9_03_Roid_ThresherRaid
+  mesh: Shield_Body_Bandit
+  name: Hide of Terramorphous 03
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory9_04_Roid_ThresherRaid
+  bonuses:
+  - slot: Special03
+    type: grade
+    value: 3
+  - slot: Special04
+    type: grade
+    value: 3
+  mesh: Shield_Body_Bandit
+  name: Hide of Terramorphous 04
+  unique: true
+- _obj_name: GD_Shields.Accessory.Accessory9_05_Roid_ThresherRaid
+  bonuses:
+  - slot: Special03
+    type: grade
+    value: 5
+  - slot: Special04
+    type: grade
+    value: 5
+  mesh: Shield_Body_Bandit
+  name: Hide of Terramorphous 05
+  unique: true
+- _obj_name: GD_Shields.Titles.Accessory4_Booster_MoxxisSlammer
+  mesh: Shield_Body_Dahl
+  name: Moxxi's Slammer
+  unique: true
+gamma:
+- _obj_name: GD_Anemone_Shields.Capacitor.Capacitor5_Maliwan_CorrosiveRes
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  name: Maliwan (Corrosive, Anemone)
+  unique: true
+- _obj_name: GD_Cork_Shields.Capacitor.Capacitor5_Maliwan_IceRes
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  name: Maliwan (Cryo)
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor1_Tediore
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 1
+  - slot: Special02
+    type: grade
+    value: 1
+  mesh: Shield_Capacitor_Tediore
+  name: Tediore
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor2_Bandit
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 1
+  - slot: RechargeRate
+    type: grade
+    value: 8
+  - slot: RechargeDelay
+    type: grade
+    value: -2
+  - slot: Special01
+    type: grade
+    value: -6
+  - slot: Special02
+    type: grade
+    value: -6
+  mesh: Shield_Capacitor_Bandit
+  name: Bandit
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor3_Vladof
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -1
+  - slot: RechargeRate
+    type: grade
+    value: 3
+  - slot: RechargeDelay
+    type: grade
+    value: -1
+  mesh: Shield_Capacitor_Vladof
+  name: Vladof
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor4_Dahl
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -2
+  - slot: RechargeRate
+    type: grade
+    value: -1
+  - slot: RechargeDelay
+    type: grade
+    value: 7
+  - slot: Special01
+    type: grade
+    value: -1
+  - slot: Special02
+    type: grade
+    value: -1
+  mesh: Shield_Capacitor_Dahl
+  name: Dahl
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Anshin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 2
+  mesh: Shield_Capacitor_Anshin
+  name: Anshin
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Anshin_RoidLegendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -7
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 5
+  mesh: Shield_Capacitor_Anshin
+  name: Anshin (Bigg Thumppr)
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_CorrosiveRes
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  name: Maliwan (Corrosive)
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  name: Maliwan (Fire)
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes_Sunshine
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  name: Sunshine
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: 8
+  - slot: Special02
+    type: grade
+    value: 8
+  name: Maliwan (Shock)
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  name: Transformer
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: 1
+  name: Kala
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor6_Torgue_ExplosiveRes
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 3
+  - slot: RechargeRate
+    type: grade
+    value: 2
+  - slot: RechargeDelay
+    type: grade
+    value: -2
+  - slot: Special01
+    type: grade
+    value: -5
+  - slot: Special02
+    type: grade
+    value: -5
+  name: ''
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor7_Hyperion
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -4
+  - slot: RechargeRate
+    type: grade
+    value: -2
+  - slot: RechargeDelay
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 3
+  - slot: Special02
+    type: grade
+    value: 3
+  mesh: Shield_Capacitor_Hyperion
+  name: Hyperion
+  unique: true
+- _obj_name: GD_Shields.Capacitor.Capacitor8_Pangolin
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: -7
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: -3
+  - slot: Special02
+    type: grade
+    value: -3
+  mesh: Shield_Capacitor_Pangolin
+  name: Pangolin
+  unique: true
+material:
+- _obj_name: GD_Anemone_Shields.Material.Material3_Rare_Roid
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Retainer
+  unique: true
+- _obj_name: GD_Anemone_Shields.Material.Material5_Legendary_Nova_Singularity
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 16
+  - slot: Special01
+    type: grade
+    value: 30
+  name: Easy Mode
+  unique: true
+- _obj_name: GD_Aster_Shields.Material.Aster_Seraph_Antagonist_Shield_Material
+  name: Antagonist
+  unique: true
+- _obj_name: GD_Aster_Shields.Material.Aster_Seraph_Blockade_Shield_Material
+  name: Blockade
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster_Material
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: RechargeDelay
+    type: grade
+    value: -5
+  - slot: RechargeRate
+    type: grade
+    value: -5
+  - slot: Special01
+    type: grade
+    value: 9
+  - slot: Special02
+    type: grade
+    value: 9
+  name: Big Boom Blaster
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut_Material
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 104
+  - slot: RechargeRate
+    type: grade
+    value: 50
+  - slot: RechargeDelay
+    type: grade
+    value: 15
+  - slot: Special01
+    type: grade
+    value: -30
+  name: Hoplite
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee_Part_Material
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Pun-chee
+  unique: true
+- _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge_Part_Material
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Sponge
+  unique: true
+- _obj_name: GD_Ma_Shields.Material.Material3_Rare_Naught
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  name: Naught
+  unique: true
+- _obj_name: GD_Ma_Shields.Material.Material3_Rare_ShieldOfAges
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Shield of Ages
+  unique: true
+- _obj_name: GD_Ma_Shields.Material.Material5_Legendary_Chimera_M0RQ
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -25
+  - slot: RechargeDelay
+    type: grade
+    value: 20
+  - slot: Special01
+    type: grade
+    value: 28
+  - slot: Special02
+    type: grade
+    value: 30
+  name: M0RQ
+  unique: true
+- _obj_name: GD_Ma_Shields.Material.Material5_Legendary_Rerouter
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Rerouter
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield_Material
+  bonuses:
+  - slot: RechargeDelay
+    type: grade
+    value: 30
+  - slot: Special01
+    type: grade
+    value: 28
+  - slot: Special02
+    type: grade
+    value: 30
+  name: Evolution
+  unique: true
+- _obj_name: GD_Orchid_Shields.Material.Material3_Rare_Blade
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 10
+  - slot: RechargeRate
+    type: grade
+    value: 5
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  name: Manly Man Shield
+  unique: true
+- _obj_name: GD_Sage_Shields.Material.Material3_Rare_Buckler
+  bonuses:
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Rough Rider
+  unique: true
+- _obj_name: GD_Shields.Material.Material1_Common
+  name: Tediore (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_Absorption
+  name: Vladof (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_Booster
+  name: Dahl (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_Chimera
+  name: Anshin (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_Impact
+  name: Hyperion (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_Juggernaut
+  name: Pangolin (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_NovaSpike_Maliwan
+  name: Maliwan (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_NovaSpike_Torgue
+  name: Torgue (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material1_Common_Roid
+  name: Bandit (Common)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Absorption
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Vladof (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Balanced
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 3
+  - slot: RechargeRate
+    type: grade
+    value: 2
+  - slot: RechargeDelay
+    type: grade
+    value: 2
+  name: Uncommon Balanced
+  unique: true
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Booster
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Dahl (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Capacity
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 5
+  name: Uncommon Capacity
+  unique: true
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Chimera
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Anshin (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Delay
+  bonuses:
+  - slot: RechargeDelay
+    type: grade
+    value: 5
+  name: Uncommon Delay
+  unique: true
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Impact
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 3
+  - slot: RechargeDelay
+    type: grade
+    value: 3
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Pangolin (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_NoSpecial
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: RechargeRate
+    type: grade
+    value: 2
+  - slot: RechargeDelay
+    type: grade
+    value: 2
+  name: Tediore (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_NovaSpike_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Maliwan (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_NovaSpike_Torgue
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Torgue (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Rate
+  bonuses:
+  - slot: RechargeRate
+    type: grade
+    value: 5
+  name: Uncommon Recharge Rate
+  unique: true
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Roid
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 4
+  - slot: Special01
+    type: grade
+    value: 6
+  - slot: Special02
+    type: grade
+    value: 6
+  name: Bandit (Uncommon)
+  unique: false
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Special01
+  bonuses:
+  - slot: Special01
+    type: grade
+    value: 4
+  - slot: Special02
+    type: grade
+    value: 1
+  name: Uncommon Special 01
+  unique: true
+- _obj_name: GD_Shields.Material.Material2_Uncommon_Special02
+  bonuses:
+  - slot: Special01
+    type: grade
+    value: 2
+  - slot: Special02
+    type: grade
+    value: 4
+  name: Uncommon Special 02
+  unique: true
+- _obj_name: GD_Shields.Material.Material3_Rare_Absorption
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Vladof (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_Booster
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Dahl (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_Chimera
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Anshin (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_Impact
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 6
+  - slot: RechargeDelay
+    type: grade
+    value: 6
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Pangolin (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_NoSpecial
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: 4
+  - slot: RechargeDelay
+    type: grade
+    value: 4
+  name: Tediore (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_NovaSpike_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Maliwan (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_NovaSpike_Torgue
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Torgue (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_Roid
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Bandit (Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material3_Rare_Special
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Sunshine
+  unique: true
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Absorption
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Vladof (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Booster
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Dahl (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Booster_PotOGold
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  name: Pot O' Gold
+  unique: true
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Chimera
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Anshin (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Impact
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 9
+  - slot: RechargeDelay
+    type: grade
+    value: 9
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Hyperion (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Pangolin (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_NoSpecial
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -20
+  - slot: RechargeRate
+    type: grade
+    value: 150
+  - slot: RechargeDelay
+    type: grade
+    value: 40
+  name: Tediore (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_NovaSpike_Maliwan
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Maliwan (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_NovaSpike_Torgue
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Torgue (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Nova_Phoenix
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Flame of the Firehawk
+  unique: true
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Roid
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Bandit (Very Rare)
+  unique: false
+- _obj_name: GD_Shields.Material.Material4_VeryRare_Roid_LoveThumper
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: RechargeDelay
+    type: grade
+    value: -1500
+  - slot: Special01
+    type: grade
+    value: 18
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Love Thumper
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 15
+  - slot: RechargeDelay
+    type: grade
+    value: 9
+  - slot: Special01
+    type: grade
+    value: 28
+  - slot: Special01
+    type: grade
+    value: 18
+  name: Prismatic Bulwark
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_AbsorptionNormal
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -15
+  - slot: RechargeDelay
+    type: grade
+    value: 15
+  - slot: Special01
+    type: grade
+    value: 80
+  name: Sham
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_AbsorptionShock
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 15
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: 18
+  name: Transformer
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_AbsorptionShock
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 15
+  - slot: RechargeRate
+    type: grade
+    value: -8
+  - slot: RechargeDelay
+    type: grade
+    value: -8
+  - slot: Special01
+    type: grade
+    value: 18
+  name: Kala
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Booster
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 28
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Whisky Tango Foxtrot
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Chimera
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -25
+  - slot: RechargeDelay
+    type: grade
+    value: 20
+  - slot: Special01
+    type: grade
+    value: 28
+  - slot: Special02
+    type: grade
+    value: 30
+  name: Neogenator
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Chimera
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: -25
+  - slot: RechargeDelay
+    type: grade
+    value: 20
+  - slot: Special01
+    type: grade
+    value: 28
+  - slot: Special02
+    type: grade
+    value: 30
+  name: Reogenator
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Impact
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 30
+  - slot: RechargeDelay
+    type: grade
+    value: 9
+  - slot: Special01
+    type: grade
+    value: 20
+  name: Bee
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 125
+  - slot: RechargeRate
+    type: grade
+    value: 50
+  - slot: RechargeDelay
+    type: grade
+    value: 15
+  - slot: Special01
+    type: grade
+    value: -25
+  name: Fabled Tortoise (BL2)
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Juggernaut
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 30
+  - slot: RechargeRate
+    type: grade
+    value: 5
+  - slot: RechargeDelay
+    type: grade
+    value: 1
+  - slot: Special01
+    type: grade
+    value: -25
+  name: Fabled Tortoise (TPS)
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Nova_DeadlyBloom
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 12
+  - slot: RechargeRate
+    type: grade
+    value: 50
+  - slot: RechargeDelay
+    type: grade
+    value: -10
+  - slot: Special01
+    type: grade
+    value: 12
+  - slot: Special02
+    type: grade
+    value: 12
+  name: Deadly Bloom
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Nova_Singularity
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 16
+  - slot: Special01
+    type: grade
+    value: 30
+  name: Black Hole
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Roid
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: 50
+  - slot: RechargeDelay
+    type: grade
+    value: -40
+  - slot: Special01
+    type: grade
+    value: 44
+  name: Avalanche / Bigg Thumppr
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Roid_ShootingStar
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 8
+  - slot: RechargeRate
+    type: grade
+    value: 50
+  - slot: RechargeDelay
+    type: grade
+    value: -40
+  - slot: Special01
+    type: grade
+    value: 25
+  name: Shooting Star
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Roid_ThresherRaid
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 15
+  - slot: RechargeRate
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 40
+  - slot: Special02
+    type: grade
+    value: 30
+  - slot: Special03
+    type: grade
+    value: 22
+  - slot: Special04
+    type: grade
+    value: 10
+  name: Hide of Terramorphous
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Spike
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 15
+  - slot: RechargeDelay
+    type: grade
+    value: 12
+  - slot: Special01
+    type: grade
+    value: 20
+  - slot: Special02
+    type: grade
+    value: 18
+  name: Impaler
+  unique: true
+- _obj_name: GD_Shields.Material.Material5_Legendary_Standard
+  bonuses:
+  - slot: Capacity
+    type: grade
+    value: 15
+  - slot: RechargeDelay
+    type: grade
+    value: 9
+  name: Cradle
+  unique: true
+meta:
+  definitions:
+  - _obj_name: GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    name: Easy Mode
+  - _obj_name: GD_Anemone_Shields.A_Item.Shield_Worming
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Anemone_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    name: Retainer
+  - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+      base: 0.5
+      per_grade: 0
+      slot: DeflectChance
+      type: post-add
+    - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+      base: 7
+      per_grade: 0.2
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+      base: -0.4
+      per_grade: -0.01
+      slot: Special02
+      type: post-add
+    name: Antagonist
+  - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.DamageTypeModifers.NormalImpactDamageModifier
+      base: -0.005
+      offset: -0.075
+      per_grade: 0
+      scale: '[Shield Level]'
+      slot: NormalDamageResist
+      type: scale
+    - attribute: D_Attributes.DamageTypeModifers.IncendiaryImpactDamageModifier
+      base: -0.005
+      offset: -0.075
+      per_grade: 0
+      scale: '[Shield Level]'
+      slot: FireDamageResist
+      type: scale
+    - attribute: D_Attributes.DamageTypeModifers.ShockImpactDamageModifier
+      base: -0.005
+      offset: -0.075
+      per_grade: 0
+      scale: '[Shield Level]'
+      slot: ShockDamageResist
+      type: scale
+    - attribute: D_Attributes.DamageTypeModifers.CorrosiveImpactDamageModifier
+      base: -0.005
+      offset: -0.075
+      per_grade: 0
+      scale: '[Shield Level]'
+      slot: CorrosiveDamageResist
+      type: scale
+    - attribute: D_Attributes.DamageTypeModifers.ExplosiveImpactDamageModifier
+      base: -0.005
+      offset: -0.075
+      per_grade: 0
+      scale: '[Shield Level]'
+      slot: ExplosiveDamageResist
+      type: scale
+    - attribute: D_Attributes.DamageTypeModifers.AmpImpactDamageModifier
+      base: -0.005
+      offset: -0.075
+      per_grade: 0
+      scale: '[Shield Level]'
+      slot: SlagDamageResist
+      type: scale
+    name: Blockade
+  - _obj_name: GD_Cork_Shields.A_Item.Shield_Nova_Ice
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaDamage_Ice
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaSize_Ice
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    name: Nova (Cryo)
+  - _obj_name: GD_Cork_Shields.A_Item.Shield_Spike_Ice
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Cork_Shields.Misc.Att_ShieldSpikeDamage_Ice
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Spike (Cryo)
+  - _obj_name: GD_Cork_Shields.A_Item_Custom.Shield_RapidRelease
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.015
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.015
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.02
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
+      base: 40
+      per_grade: 0.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
+      base: 800
+      per_grade: 8
+      slot: Special02
+      type: pre-add
+    name: Rapid Release
+  - _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0.12
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0.05
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: -0.05
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.2625
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_BoosterShield_ProcChance
+      base: 0.13
+      per_grade: 0.00275
+      slot: Special01
+      type: post-add
+    name: Big Boom Blaster
+  - _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue_Player
+      base: -40
+      per_grade: 0.72
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Hoplite
+  - _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0.05
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 2
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: -0.3
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8.4
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    name: Pun-chee
+  - _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0.05
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0.05
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: -0.05
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.2625
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.2
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    name: Sponge
+  - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Chimera_05_M0RQ
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 16.4
+      per_grade: 0.902
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: M0RQ
+  - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Impact_05_Rerouter
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
+      base: 120
+      per_grade: 0.76
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
+      base: 39.36
+      per_grade: -0.3936
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: post-add
+    name: Rerouter
+  - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Juggernaut_03_ShieldOfAges
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: -32.8
+      per_grade: 0.738
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Shield of Ages
+  - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Standard_Naught
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.012
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: 0
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    name: Naught
+  - _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue_Player
+      base: 16
+      per_grade: 0.88
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Evolution
+  - _obj_name: GD_Orchid_Shields.A_Item_Custom.Shield_Blade
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    name: Manly Man Shield
+  - _obj_name: GD_Sage_Shields.A_Item_Custom.Shield_Buckler
+    base: []
+    grades:
+    - attribute: GD_Sage_Shields.Attributes.Attr_BucklerShieldCapacityProxy
+      base: 0
+      per_grade: 0
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: 0
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Sage_Shields.Attributes.Attr_BucklerShieldDamageResistance
+      base: 0.2
+      per_grade: 0
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 28
+      per_grade: 0.88
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Rough Rider
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.15
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Absorption
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.15
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Sham
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.15
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    name: Transformer
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.15
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    name: Kala
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption_1340
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.15
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    name: 1340 Shield
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption_Aequitas
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+      base: 0.15
+      per_grade: 0.008
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    name: Aequitas
+  - _obj_name: GD_Shields.A_Item.Shield_Absorption_PrismaticBulwark
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.PercentChanceToAbsorbLaser
+      base: 0.00108
+      offset: 0.0288
+      per_grade: 0.000135
+      per_grade_offset: 0.0036
+      per_grade_scale: '[Shield Level]'
+      scale: '[Shield Level]'
+      slot: Special01
+      type: pre-add
+    - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+      base: 1
+      per_grade: 0
+      slot: Special02
+      type: pre-add
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0.003375
+      constraint: Laser
+      offset: 0.09
+      per_grade: 0.0003375
+      per_grade_offset: 0.009
+      per_grade_scale: '[Shield Level]'
+      scale: '[Shield Level]'
+      slot: Special03
+      type: scale
+    - attribute: D_Attributes.DamageSourceModifiers.ReceivedLaserDamageModifier
+      base: -0.0045
+      offset: -0.12
+      per_grade: -0.00045
+      per_grade_offset: -0.012
+      per_grade_scale: '[Shield Level]'
+      scale: '[Shield Level]'
+      slot: Special04
+      type: scale
+    name: Prismatic Bulwark
+  - _obj_name: GD_Shields.A_Item.Shield_Booster
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_BoosterShield_ProcChance
+      base: 0.05
+      per_grade: 0.00275
+      slot: Special01
+      type: post-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Booster
+  - _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_BoosterShield_ProcChance
+      base: 0.05
+      per_grade: 0.00275
+      slot: Special01
+      type: post-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_BoosterShield_ProcChance
+      base: 0.09
+      per_grade: 0.00275
+      slot: Special01
+      type: post-add
+    name: Whisky Tango Foxtrot
+  - _obj_name: GD_Shields.A_Item.Shield_Booster_AsteroidBelt
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Attributes.Attr_AsteroidBeltChance
+      base: 0.25
+      per_grade: 0.01
+      slot: Special01
+      type: post-add
+    - attribute: GD_Shields.Attributes.Attr_AsteroidBeltDamage
+      base: 16
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: post-add
+    name: Asteroid Belt
+  - _obj_name: GD_Shields.A_Item.Shield_Booster_MoxxisSlammer
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_BoosterShield_ProcChance
+      base: 0.09
+      per_grade: 0.00275
+      slot: Special01
+      type: post-add
+    name: Moxxi's Slammer
+  - _obj_name: GD_Shields.A_Item.Shield_Booster_PotOGold
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0.25
+      per_grade: 0.04
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_BoosterShield_ProcChance
+      base: 0.05
+      per_grade: 0.00275
+      slot: Special01
+      type: post-add
+    name: Pot O' Gold
+  - _obj_name: GD_Shields.A_Item.Shield_Chimera
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 16
+      per_grade: 0.88
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Adaptive (BL2)
+  - _obj_name: GD_Shields.A_Item.Shield_Chimera
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 16.4
+      per_grade: 0.902
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Adaptive (TPS)
+  - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 16
+      per_grade: 0.88
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Neogenator
+  - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 16.4
+      per_grade: 0.902
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Reogenator
+  - _obj_name: GD_Shields.A_Item.Shield_Chimera_Haymaker
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ChimeraShield_Resistance
+      base: -0.25
+      per_grade: -0.013
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 24.6
+      per_grade: 1.312
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Haymaker
+  - _obj_name: GD_Shields.A_Item.Shield_Impact
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
+      base: 16
+      per_grade: 0.76
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
+      base: 19.2
+      per_grade: -0.448
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: post-add
+    name: Amp (BL2)
+  - _obj_name: GD_Shields.A_Item.Shield_Impact
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
+      base: 16
+      per_grade: 0.76
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
+      base: 19.68
+      per_grade: -0.4592
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: post-add
+    name: Amp (TPS)
+  - _obj_name: GD_Shields.A_Item.Shield_Impact_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
+      base: 80
+      per_grade: 0.76
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
+      base: 0
+      per_grade: 0
+      slot: Special02
+      type: post-add
+    name: Bee
+  - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: -32
+      per_grade: 0.72
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Turtle (BL2)
+  - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: -32.8
+      per_grade: 0.738
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Turtle (TPS)
+  - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: -32
+      per_grade: 0.72
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Fabled Tortoise (BL2)
+  - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: -32.8
+      per_grade: 0.738
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    name: Fabled Tortoise (TPS)
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Corrosive
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Corrosive
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Nova (Corrosive)
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Attributes.DamageTypeModifers.ExplosiveImpactDamageModifier
+      base: -0.3
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Explosive
+      base: 104
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Explosive
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Nova (Explosive)
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Explosive
+      base: 104
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Explosive
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Deadly Bloom
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Nova (Fire)
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Phoenix
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    name: Flame of the Firehawk
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Sunshine
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
+      base: 120
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
+      base: 1600
+      per_grade: 38
+      slot: Special02
+      type: pre-add
+    name: Sunshine
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Supernova
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
+      base: 120
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
+      base: 1600
+      per_grade: 38
+      slot: Special02
+      type: pre-add
+    name: Supernova
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Nova (Shock)
+  - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
+      base: 800
+      per_grade: 28
+      slot: Special02
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Black Hole
+  - _obj_name: GD_Shields.A_Item.Shield_Roid
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Roid
+  - _obj_name: GD_Shields.A_Item.Shield_Roid_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
+      base: 16.4
+      per_grade: 0.902
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    name: Bigg Thumppr
+  - _obj_name: GD_Shields.A_Item.Shield_Roid_05_ThresherRaid
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
+      base: 80
+      per_grade: 4.4
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
+      base: 800
+      per_grade: 28
+      slot: Special03
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Fire
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special04
+      type: pre-add
+    name: Hide of Terramorphous
+  - _obj_name: GD_Shields.A_Item.Shield_Roid_Avalanche
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaDamage_Ice
+      base: 96
+      per_grade: 5.2
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special02
+      type: pre-add
+    - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaSize_Ice
+      base: 800
+      per_grade: 28
+      slot: Special03
+      type: pre-add
+    - attribute: GD_Cork_Shields.Misc.Att_ShieldSpikeDamage_Ice
+      base: 48
+      per_grade: 1.92
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special04
+      type: pre-add
+    name: Avalanche
+  - _obj_name: GD_Shields.A_Item.Shield_Roid_LoveThumper
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    name: Love Thumper
+  - _obj_name: GD_Shields.A_Item.Shield_Roid_Order
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 8
+      per_grade: 0.64
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    name: Order
+  - _obj_name: GD_Shields.A_Item.Shield_Roid_ShootingStar
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Attributes.Shield.RoidMeleeDamage
+      base: 10
+      per_grade: 0.84
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: post-add
+    name: Shooting Star
+  - _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Corrosive
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Spike (Corrosive)
+  - _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Corrosive
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Impaler
+  - _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Explosive
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Spike (Explosive)
+  - _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Fire
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Spike (Fire)
+  - _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Shock
+      base: 40
+      per_grade: 1.6
+      per_grade_scale: '&beta;'
+      scale: '&beta;'
+      slot: Special01
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Spike (Shock)
+  - _obj_name: GD_Shields.A_Item.Shield_Standard
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Standard
+  - _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Cradle
+  - _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    name: Cracked Sash
+  - _obj_name: GD_Shields.A_Item.Shield_Standard_MyFirst
+    base: []
+    grades:
+    - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
+      base: 0
+      per_grade: 0.03
+      slot: Capacity
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.03
+      slot: RechargeRate
+      type: scale
+    - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+      base: 0
+      per_grade: -0.04
+      slot: RechargeDelay
+      type: scale
+    - attribute: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: FireResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: ShockResist
+      type: pre-add
+    - attribute: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: CorrosiveResist
+      type: pre-add
+    - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
+      base: -1
+      per_grade: 0
+      slot: IceResist
+      type: pre-add
+    - attribute: GD_Shields.Misc.Att_Shield_ExplosiveDamageResistance
+      base: 0
+      per_grade: 0
+      slot: ExplosiveDamageResistance
+      type: scale
+    name: My First Shield
+  grade_overrides:
+    Special01:
+      name: Special 01
+      add_good: true
+    Special02:
+      name: Special 02
+      add_good: true
+    Special03:
+      name: Special 03
+      add_good: true
+    Special04:
+      name: Special 04
+      add_good: true
+  standard_definition_idx: 63

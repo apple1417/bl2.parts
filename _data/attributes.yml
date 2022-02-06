@@ -266,7 +266,7 @@
 
 - obj: GD_Cork_Weap_Pistol.Attributes.Att_MoxiProbe_Equipped
   name: Probes Equipped
-  description: Increases the global amount of Probes equipped.
+  description: Increases the amount of Probes you've got equipped.
   percent: false
   add_good: true
   multi_good: true
@@ -319,3 +319,150 @@
   percent: false
   add_good: true
   multi_good: true
+
+- obj: D_Attributes.ShieldResourcePool.ShieldMaxValue
+  name: Shield Capacity
+  description: Increases the capacity of your shield.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
+  name: Shield Recharge Rate
+  description: Increases how quickly your shield recharges on idle.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
+  name: Shield Recharge Delay
+  description: Increases how long it takes for your shield to start recharging after it takes damage.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.ShieldResourcePool.ShieldConsumptionRate
+  name: Shield Consumption
+  description: Increases how quickly your shield capacity gets drained. This is a constant drain which happens in all states.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.GameplayAttributes.BaseArmor
+  name: Base Armour
+  description: Decreases how much damage you take from all sources. This acts as a divisor, it's base value is 1.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: GD_Ma_Shields.Misc.Des_ShieldIsM0RQ
+  name: M0RQs Equipped
+  description: Increases the amount of M0RQs you've got equipped.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Anemone_Shields.Attributes.Attr_EasyModeEquipped
+  name: Easy Modes Equipped
+  description: Increases the amount of Easy Modes you've got equipped, used to active the set bonuses on the Hard Carry.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Iris_SeraphItems.Attributes.Attr_HopliteEquipped
+  name: Hoplites Equipped
+  description: Increases the global amount of Hoplites equipped, used to increase bonuses as more players equip them.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.DamageTypeModifers.NormalImpactDamageModifier
+  name: Impact Damage Modifier (Non-Elemental)
+  description: Increases the damage getting hit by non-elemental projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.AmpImpactDamageModifier
+  name: Impact Damage Modifier (*Slag*{:.slag})
+  description: Increases the damage getting hit by slag projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.CorrosiveImpactDamageModifier
+  name: Impact Damage Modifier (*Corrosive*{:.corrosive})
+  description: Increases the damage getting hit by corrosive projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.ExplosiveImpactDamageModifier
+  name: Impact Damage Modifier (*Explosive*{:.explosive})
+  description: Increases the damage getting hit by explosive projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.IceImpactDamageModifier
+  name: Impact Damage Modifier (*Cryo*{:.cryo})
+  description: Increases the damage getting hit by cryo projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.IncendiaryImpactDamageModifier
+  name: Impact Damage Modifier (*Fire*{:.fire})
+  description: Increases the damage getting hit by fire projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.ShockImpactDamageModifier
+  name: Impact Damage Modifier (*Shock*{:.shock})
+  description: Increases the damage getting hit by shock projectiles deals multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.NormalStatusEffectDamageModifier
+  name: Status Damage Modifier (Non-Elemental)
+  description: Increases the damage non-elemental status effects deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.AmpStatusEffectDamageModifier
+  name: Status Damage Modifier (*Slag*{:.slag})
+  description: Increases the damage slag status effects deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.CorrosiveStatusEffectDamageModifier
+  name: Status Damage Modifier (*Corrosive*{:.corrosive})
+  description: Increases the damage corrosive status effects deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.IceStatusEffectDamageModifier
+  name: Status Damage Modifier (*Cryo*{:.corrosive})
+  description: Increases the damage cryo status effects deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.IncendiaryStatusEffectDamageModifier
+  name: Status Damage Modifier (*Fire*{:.fire})
+  description: Increases the damage fire status effects deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageTypeModifers.ShockStatusEffectDamageModifier
+  name: Status Damage Modifier (*Shock*{:.shock})
+  description: Increases the damage shock status effects deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false

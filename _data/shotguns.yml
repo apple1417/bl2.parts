@@ -2896,7 +2896,6 @@ stocks:
   name: Torgue
   unique: false
 meta:
-  standard_definition_idx: 0
   definitions:
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
     base:
@@ -3420,3 +3419,4 @@ meta:
     SG_Stock_Torgue:
       name: Torgue
       src: /shotguns/^images/stocks/torgue.png
+  standard_definition_idx: 0

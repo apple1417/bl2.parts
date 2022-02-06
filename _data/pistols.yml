@@ -3441,7 +3441,6 @@ sights:
   name: Vladof
   unique: false
 meta:
-  standard_definition_idx: 0
   definitions:
   - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Bandit_Pistol
     base:
@@ -4251,3 +4250,4 @@ meta:
       name: "No"
     Acc_Barrel_Elemental3:
       name: "No"
+  standard_definition_idx: 0

@@ -16,15 +16,32 @@ Args:
 {%- assign BONUS_SEPERATOR = "&|^|&" -%}
 {%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
 {%- if include.bonus.slot -%}
+    {%- assign grade_override = include.meta.grade_overrides | map: include.bonus.slot | first -%}
     {%- assign grade_stats = standard_definition.grades
-                            | where: "slot", include.bonus.slot
-                            | first -%}
-    {%- assign attr = site.data.attributes
-                        | where: "obj", grade_stats.attribute
-                        | first -%}
-    {%- assign actual_value = include.bonus.value
-                        | times: grade_stats.per_grade -%}
-    {%- assign actual_bonus_type = grade_stats.type -%}
+        | where: "slot", include.bonus.slot
+        | first -%}
+
+    {%- if grade_override -%}
+        {%- assign attr = grade_override -%}
+        {%- assign actual_value = include.bonus.value -%}
+        {%- assign actual_bonus_type = include.bonus.type -%}
+
+        {%- assign grade_stats = nil -%}
+    {%- elsif grade_stats -%}
+        {%- assign attr = site.data.attributes
+                | where: "obj", grade_stats.attribute
+                | first -%}
+        {%- assign actual_value = include.bonus.value | times: grade_stats.per_grade -%}
+        {%- assign actual_bonus_type = grade_stats.type -%}
+    {%- else -%}
+        {%- comment -%}
+        Fallback - clear everything in case of multiple invocations. Only really matters when just
+         starting out making a guide, when we're not finding stuff properly.
+        {%- endcomment -%}
+        {%- assign attr = nil -%}
+        {%- assign actual_value = include.bonus.value -%}
+        {%- assign actual_bonus_type = include.bonus.type -%}
+    {%- endif -%}
 {%- else -%}
     {%- assign attr = site.data.attributes
                         | where: "obj", include.bonus.attribute
@@ -134,7 +151,7 @@ Args:
     {%- if include.bonus.slot and grade_stats.constraint -%}
         {%- assign name = name | append: " (" | append: grade_stats.constraint | append: ")" -%}
     {%- endif -%}
-    {{name}}
+    {{name | markdownify | remove: "<p>" | remove: "</p>"}}
 {%- elsif include.bonus.slot -%}
     <span style="font-size: 2em; color: red">{{include.bonus.slot}}</span>
 {%- else -%}
