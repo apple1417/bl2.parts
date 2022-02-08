@@ -2380,6 +2380,9 @@ gamma:
   - slot: Special02
     type: grade
     value: 8
+  - slot: CorrosiveResist
+    type: grade
+    value: 0
   name: Maliwan (Corrosive, Anemone)
   unique: true
 - _obj_name: GD_Cork_Shields.Capacitor.Capacitor5_Maliwan_IceRes
@@ -2396,6 +2399,9 @@ gamma:
   - slot: Special02
     type: grade
     value: 8
+  - slot: IceResist
+    type: grade
+    value: 0
   name: Maliwan (Cryo)
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor1_Tediore
@@ -2526,6 +2532,9 @@ gamma:
   - slot: Special02
     type: grade
     value: 8
+  - slot: CorrosiveResist
+    type: grade
+    value: 0
   name: Maliwan (Corrosive)
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes
@@ -2542,6 +2551,9 @@ gamma:
   - slot: Special02
     type: grade
     value: 8
+  - slot: FireResist
+    type: grade
+    value: 0
   name: Maliwan (Fire)
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes_Sunshine
@@ -2558,6 +2570,9 @@ gamma:
   - slot: Special02
     type: grade
     value: 8
+  - slot: FireResist
+    type: grade
+    value: 0
   name: Sunshine
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes
@@ -2574,6 +2589,9 @@ gamma:
   - slot: Special02
     type: grade
     value: 8
+  - slot: ShockResist
+    type: grade
+    value: 0
   name: Maliwan (Shock)
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
@@ -2584,6 +2602,9 @@ gamma:
   - slot: RechargeRate
     type: grade
     value: 1
+  - slot: ShockResist
+    type: grade
+    value: 0
   name: Transformer
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
@@ -2594,6 +2615,9 @@ gamma:
   - slot: RechargeRate
     type: grade
     value: 1
+  - slot: ShockResist
+    type: grade
+    value: 0
   name: Kala
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor6_Torgue_ExplosiveRes

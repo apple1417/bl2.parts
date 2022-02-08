@@ -1,5 +1,6 @@
 {%- comment -%}
-Creates a single row of a stats table.
+Creates a single row of cells for a stats table. Does not include the table row tags, so you can add
+ custom cells before/after.
 
 Args:
     part: The part to pull stats from.
@@ -12,10 +13,7 @@ Passthrough args to `bonus.html`:
 {%- endcomment -%}
 
 {%- for stat in include.stats -%}
-    {%- unless include.part.bonuses -%}
-        <td>-</td>
-        {%- continue -%}
-    {%- endunless -%}
+    {%- assign found_bonus = false -%}
     {%- for bonus in include.part.bonuses -%}
         {%- capture bonus_data -%}
             {%- include bonus.html
@@ -32,6 +30,11 @@ Passthrough args to `bonus.html`:
                     </span>
                 {%- endif -%}
             </td>
+            {%- assign found_bonus = true -%}
+            {%- break -%}
         {%- endif -%}
     {%- endfor -%}
+    {%- unless found_bonus -%}
+        <td>-</td>
+    {%- endunless -%}
 {%- endfor -%}
