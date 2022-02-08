@@ -216,7 +216,7 @@ single part for explosive.
     simple_bonuses=true
 %}
 
-## Damage
+## Damage Parts
 There are 8 non-unique damage parts.
 
 {% include parts.html 
@@ -225,7 +225,7 @@ There are 8 non-unique damage parts.
     simple_bonuses=true
 %}
 
-## Payload
+## Payloads
 The payload controls what exactly happens when a grenade expodes. Most unique grenades use unique
 payloads to implement their behaviour. Payloads also determine if child grenades are supported -
 even with several bonuses, none will spawn if the payload is incorrect.
@@ -239,7 +239,7 @@ masks, meaning there are to a total of 12 non-unique payload parts.
     simple_bonuses=true
 %}
 
-## Status Damage
+## Status Damage parts
 There are 6 non-unique status damage parts.
 
 {% include parts.html 
@@ -248,11 +248,11 @@ There are 6 non-unique status damage parts.
     simple_bonuses=true
 %}
 
-## Inventory Balance
+## Inventory Balances
 The Inventory Balance defines what parts a certain item can have. Balances themselves do not affect
 stats, but are they very important for the actual generation of items.
 
-## Grenade Definition
+## Grenade Definitions
 Like the name might suggest, the definition essentialy defines all the unique properties of each
 grenade type. There is one standard definition used by all non-unique grenades, while most unique
 grenades use their own unique definition.

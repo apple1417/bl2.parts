@@ -104,7 +104,7 @@ Pistols are made out of 5 main visible parts.
     image_class="big"
 %}
 
-## Accessory
+## Accessories
 There are 9 non-unique accessories, including a "no accessory" part with no model.
 
 <style>
@@ -132,7 +132,7 @@ don't get overwritten, are a simple way to tell which one exactly a weapon has.
 </style>
 {% include prefixes.html parts=site.data.pistols.accessories id="prefixes" %}
 
-## Barrel
+## Barrels
 There are 10 non-unique barrels.
 
 {% include parts.html 
@@ -206,7 +206,7 @@ only applied while aiming.
 
 Click [here](/pistols/zoom/) for a comparison of the zoom level of each sight.
 
-## Element
+## Elements
 The element parts have no model, but instead add lights over the weapon in their relevant colours.
 There are six non-unique element parts, one for each element, and one for no element.
 
@@ -216,7 +216,7 @@ There are six non-unique element parts, one for each element, and one for no ele
     simple_bonuses=true
 %}
 
-## Material
+## Materials
 The material parts also have no model, instead defining the actual textures applied ontop of all the
 other models.
 
@@ -233,11 +233,11 @@ Most materials provide no stat bonuses. The exceptions are listed below.
     simple_bonuses=true
 %}
 
-## Weapon Balance
+## Weapon Balances
 The Weapon Balance defines what parts a certain weapon can have. Balances themselves do not affect
 stats, but are they very important for the actual generation of weapons.
 
-## Weapon Type Definition
+## Weapon Type Definitions
 Like the name might suggest, the definition essentialy defines all the unique properties of each
 weapon type. There is one definition per manufacturer.
 
