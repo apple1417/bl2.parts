@@ -2982,6 +2982,7 @@ meta:
       slot: WeaponZoomFOV
       type: scale
     name: Bandit
+    unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Hyperion_Shotgun
     base:
     - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -3067,6 +3068,7 @@ meta:
       slot: WeaponZoomFOV
       type: scale
     name: Hyperion
+    unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
     base:
     - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -3152,6 +3154,7 @@ meta:
       slot: WeaponZoomFOV
       type: scale
     name: Jakobs
+    unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
     base:
     - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -3237,6 +3240,7 @@ meta:
       slot: WeaponZoomFOV
       type: scale
     name: Tediore
+    unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
     base:
     - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -3322,6 +3326,7 @@ meta:
       slot: WeaponZoomFOV
       type: scale
     name: Torgue
+    unique: false
   meshes:
     Acc_Bayonet1:
       name: Bayonet 1

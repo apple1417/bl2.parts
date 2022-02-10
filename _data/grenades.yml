@@ -2371,6 +2371,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Standard (Anemone)
+    unique: true
   - _obj_name: GD_Anemone_GrenadeMods.A_Item_Legendary.GrenadeMod_Exterminator
     base: []
     grades:
@@ -2452,6 +2453,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Exterminator (Anemone)
+    unique: true
   - _obj_name: GD_Aster_GrenadeMods.A_Item.GrenadeMod_MagicSpell
     base: []
     grades:
@@ -2549,6 +2551,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Magic Spell
+    unique: true
   - _obj_name: GD_Cork_GrenadeMods.A_Item_Custom.GrenadeMod_MonsterTrap
     base: []
     grades:
@@ -2568,6 +2571,7 @@ meta:
       slot: FuseTime
       type: pre-add
     name: Monster Trap
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item.GrenadeMod_Standard
     base: []
     grades:
@@ -2689,6 +2693,7 @@ meta:
       slot: OxygenDamage
       type: scale
     name: Standard
+    unique: false
   - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_BabyBoomer
     base: []
     grades:
@@ -2718,6 +2723,7 @@ meta:
       slot: IsExplosive
       type: scale
     name: Baby Boomer
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_FusterCluck
     base: []
     grades:
@@ -2815,6 +2821,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Fuster Cluck
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_SkyRocket
     base: []
     grades:
@@ -2888,6 +2895,7 @@ meta:
       slot: StatusEffectChanceModifier_Slag
       type: scale
     name: Sky Rocket
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_Snowball
     base: []
     grades:
@@ -2969,6 +2977,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Snowball
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BonusPackage
     base: []
     grades:
@@ -2998,6 +3007,7 @@ meta:
       slot: IsExplosive
       type: scale
     name: Bonus Package
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BouncingBonny
     base: []
     grades:
@@ -3095,6 +3105,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Bouncing Bonny
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BouncingBonny
     base: []
     grades:
@@ -3192,6 +3203,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Bouncing Bazza
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Exterminator
     base: []
     grades:
@@ -3273,6 +3285,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Exterminator
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball
     base: []
     grades:
@@ -3354,6 +3367,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Fastball
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_FlameSpurt
     base: []
     grades:
@@ -3397,6 +3411,7 @@ meta:
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     name: Breath of Terramorphous
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_FourSeasons
     base: []
     grades:
@@ -3494,6 +3509,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Four Seasons
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Leech
     base: []
     grades:
@@ -3594,6 +3610,7 @@ meta:
       slot: StatusEffectDamage_Ice
       type: pre-add
     name: Leech
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_NastySurprise
     base: []
     grades:
@@ -3691,6 +3708,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Nasty Surprise
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Quasar
     base: []
     grades:
@@ -3734,6 +3752,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Quasar
+    unique: true
   - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_RollingThunder
     base: []
     grades:
@@ -3763,6 +3782,7 @@ meta:
       slot: IsExplosive
       type: scale
     name: Rolling Thunder
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.Crossfire.Iris_Seraph_GrenadeMod_Crossfire
     base: []
     grades:
@@ -3860,6 +3880,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Crossfire
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower
     base: []
     grades:
@@ -3889,6 +3910,7 @@ meta:
       slot: IsExplosive
       type: scale
     name: Meteor Shower
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.ONegative.Iris_Seraph_GrenadeMod_ONegative
     base: []
     grades:
@@ -3986,6 +4008,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: O-Negative
+    unique: true
   - _obj_name: GD_Ma_GrenadeMods.A_Item_Legendary.GrenadeMod_Meganade
     base: []
     grades:
@@ -4096,6 +4119,7 @@ meta:
       slot: OxygenDamage
       type: scale
     name: Meganade
+    unique: true
   - _obj_name: GD_Ma_GrenadeMods.A_Item_Unique.GrenadeMod_DataScrubber
     base: []
     grades:
@@ -4206,6 +4230,7 @@ meta:
       slot: OxygenDamage
       type: scale
     name: Data Scrubber
+    unique: true
   - _obj_name: GD_Orchid_GrenadeMods.A_Item_Custom.GrenadeMod_Blade
     base: []
     grades:
@@ -4303,6 +4328,7 @@ meta:
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Midnight Star
+    unique: true
   meshes:
     Grenade_Homing:
       name: Homing
