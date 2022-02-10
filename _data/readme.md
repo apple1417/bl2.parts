@@ -135,6 +135,7 @@ Field | Usage
       slot: WeaponDamage
       type: scale
     name: Bandit
+    unique: false
 ```
 
 Field | Usage
@@ -143,6 +144,7 @@ Field | Usage
 `base` | An array of base values for various stats that the definition defines.
 `grades` | An array of grades the definition defines.
 `name` | The definition's display name.
+`unique` | If the part is a unique part, which generic items can't spawn with.
 
 ### Definition Base Entries
 Field | Usage

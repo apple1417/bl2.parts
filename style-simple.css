@@ -189,6 +189,7 @@ div.part-container {
 div.part-block {
     text-align: center;
     width: fit-content;
+    padding: 0 0.1em;
 }
 div.part-block:nth-last-child(n+11),
 div.part-block:nth-last-child(n+11) ~ div.part-block {

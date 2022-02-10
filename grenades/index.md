@@ -304,15 +304,15 @@ With the table transposed, we also don't really care about merging identical cel
   <th colspan="5">Grenade Status Chance Modifier</th>
   <th colspan="4">Grenade Status Effect Damage</th>
 </tr><tr>
-    <th class="corrosive">Corrosive</th>
-    <th class="cryo">Cryo</th>
-    <th class="fire">Fire</th>
-    <th class="shock">Shock</th>
-    <th class="slag">Slag</th>
-    <th class="corrosive">Corrosive</th>
-    <th class="cryo">Cryo</th>
-    <th class="fire">Fire</th>
-    <th class="shock">Shock</th>
+  <th class="corrosive">Corrosive</th>
+  <th class="cryo">Cryo</th>
+  <th class="fire">Fire</th>
+  <th class="shock">Shock</th>
+  <th class="slag">Slag</th>
+  <th class="corrosive">Corrosive</th>
+  <th class="cryo">Cryo</th>
+  <th class="fire">Fire</th>
+  <th class="shock">Shock</th>
 </tr></thead>
 <tbody>
 
@@ -332,7 +332,6 @@ With the table transposed, we also don't really care about merging identical cel
           {%- endif -%}
         </th>
 
-        {% assign row = "" | split: "" %}
         {% for slot in page.definitions.slot_order %}
             {% assign grade_stats = definition.grades | where: "slot", slot | first %}
             {% unless grade_stats %}

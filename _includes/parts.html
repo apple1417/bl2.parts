@@ -79,7 +79,7 @@ Each override entry can have the following fields:
                 {% if mesh %}
                     {{mesh.name}} Mesh
                 {% elsif part.mesh %}
-                    {{part.mesh}} Mesh
+                    <span style="font-size: 2em; color: red">{{part.mesh}}</span> Mesh
                 {% else %}
                     No Mesh
                 {% endif %}

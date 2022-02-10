@@ -93,6 +93,15 @@ materials:
       - Capacity
       - Recharge Rate
       - Recharge Delay
+
+definition_slot_order:
+  - Capacity
+  - RechargeRate
+  - RechargeDelay
+  - Special01
+  - Special02
+  - Special03
+  - Special04
 ---
 # Shield Parts Guide
 
@@ -202,6 +211,85 @@ mostly ignored.
 <details open markdown="1">
 <summary>Expand</summary>
 
+To start with, they define the base values for all stats stored on the grenade. Unlike with
+weapons, this is simply done using regular *pre-add*{:.pre-add} bonuses, so see the
+[full parts reference](/shields/all_parts/#definitions) for details.
 
+They also define all grade bonuses, and how exactly they get converted into standard bonuses. This
+is especially important as shields make great use of generic special slots, which map into whatever
+effect the shield type actually has. There are actually 4 special slots, so far this page has
+simplified them all into one. Most parts (including all non-uniques) boost Special 01 and 02
+equally, and don't touch 03 and 04. Again, see the [full parts reference](/shields/all_parts/) for
+exceptions.
+
+<style>
+    #grades {
+        overflow-x: scroll;
+    }
+</style>
+<div id="grades">
+<table class="border"><thead>
+  <tr>
+    <th rowspan="2"></th>
+    <th rowspan="2">Capacity</th>
+    <th rowspan="2">Recharge Delay</th>
+    <th rowspan="2">Recharge Rate</th>
+    <th colspan="4">Special</th>
+  </tr><tr>
+    <th>01</th>
+    <th>02</th>
+    <th>03</th>
+    <th>04</th>
+  </tr>
+</thead><tbody>
+
+{% assign non_unique_definitions = site.data.shields.meta.definitions
+                                   | where: "unique", false
+                                   | sort_natural: "name" %}
+{% assign unique_definitions = site.data.shields.meta.definitions
+                               | where: "unique", true
+                               | sort_natural: "name" %}
+{% assign ordered_definitions = non_unique_definitions | concat: unique_definitions %}
+{% for definition in ordered_definitions %}
+    <tr>
+        <td>{{definition.name}}</td>
+            {% for slot in page.definition_slot_order %}
+                {% assign grade_stats = definition.grades | where: "slot", slot | first %}
+                {% unless grade_stats %}
+                    <td>-</td>
+                    {% continue %}
+                {% endunless %}
+
+                {% assign attr = site.data.attributes
+                                 | where: "obj", grade_stats.attribute
+                                 | first %}
+                {% if attr %}
+                    {% assign attr_name = attr.name %}
+                {% else %}
+                    {% assign attr_name = '<span style="color: blue">'
+                                          | append: grade_stats.attribute
+                                          | append: "</span>" %}
+                {% endif %}
+                {% if grade_stats.constraint %}
+                    {% assign attr_name = attr_name
+                                          | append: " ("
+                                          | append: grade_stats.constraint
+                                          | append: ")" %}
+                {% endif %}
+
+                <td>
+                    <span class="{{grade_stats.type}} per-grade">
+                        {%- include grade.html grade_stats=grade_stats -%}
+                    </span>
+                    {%- if forloop.index > 3 -%}
+                        <br>{{attr_name}}
+                    {%- endif -%}
+                </td>
+            {% endfor %}
+    </tr>
+{% endfor %}
+
+</tbody></table>
+</div>
 
 </details>

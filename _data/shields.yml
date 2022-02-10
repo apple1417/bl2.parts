@@ -147,7 +147,7 @@ alpha:
     type: grade
     value: 1
   name: Tediore
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body2_Bandit
   bonuses:
   - slot: Capacity
@@ -167,7 +167,7 @@ alpha:
     value: -6
   mesh: Shield_Accessory_Bandit
   name: Bandit
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body3_Vladof
   bonuses:
   - slot: Capacity
@@ -181,7 +181,7 @@ alpha:
     value: -1
   mesh: Shield_Accessory_Vladof
   name: Vladof
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body4_Dahl
   bonuses:
   - slot: Capacity
@@ -201,7 +201,7 @@ alpha:
     value: -1
   mesh: Shield_Accessory_Dahl
   name: Dahl
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body5_Anshin
   bonuses:
   - slot: Capacity
@@ -221,7 +221,7 @@ alpha:
     value: 2
   mesh: Shield_Accessory_Anshin
   name: Anshin
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body5_Anshin_RoidLegendary
   bonuses:
   - slot: Capacity
@@ -258,7 +258,7 @@ alpha:
     value: 8
   mesh: Shield_Accessory02_Pangolin
   name: Maliwan
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body6_Torgue
   bonuses:
   - slot: Capacity
@@ -278,7 +278,7 @@ alpha:
     value: -5
   mesh: Shield_Accessory_Torgue
   name: Torgue
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body7_Hyperion
   bonuses:
   - slot: Capacity
@@ -298,7 +298,7 @@ alpha:
     value: 3
   mesh: Shield_Accessory_Hyperion
   name: Hyperion
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Body.Body8_Pangolin
   bonuses:
   - slot: Capacity
@@ -318,7 +318,7 @@ alpha:
     value: -3
   mesh: Shield_Accessory01_Pangolin
   name: Pangolin
-  unique: true
+  unique: false
 beta:
 - _obj_name: GD_Anemone_Shields.Battery.Battery1_Tediore
   bonuses:
@@ -470,7 +470,7 @@ beta:
     value: 1
   mesh: Shield_Battery_Tediore
   name: Tediore
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery2_Bandit
   bonuses:
   - slot: Capacity
@@ -490,7 +490,7 @@ beta:
     value: -6
   mesh: Shield_Battery_Bandit
   name: Bandit
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery3_Vladof
   bonuses:
   - slot: Capacity
@@ -504,7 +504,7 @@ beta:
     value: -1
   mesh: Shield_Battery_Vladof
   name: Vladof
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery4_Dahl
   bonuses:
   - slot: Capacity
@@ -524,7 +524,7 @@ beta:
     value: -1
   mesh: Shield_Battery_Dahl
   name: Dahl
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery5_Anshin
   bonuses:
   - slot: Capacity
@@ -544,7 +544,7 @@ beta:
     value: 2
   mesh: Shield_Battery_Anshin
   name: Anshin
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery5_Anshin_RoidLegendary
   bonuses:
   - slot: Capacity
@@ -601,7 +601,7 @@ beta:
     value: 8
   mesh: Shield_Battery_Pangolin
   name: Maliwan
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery6_Torgue
   bonuses:
   - slot: Capacity
@@ -621,7 +621,7 @@ beta:
     value: -5
   mesh: Shield_Battery_Torgue
   name: Torgue
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery7_Hyperion
   bonuses:
   - slot: Capacity
@@ -641,7 +641,7 @@ beta:
     value: 3
   mesh: Shield_Battery_Hyperion
   name: Hyperion
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Battery.Battery8_Pangolin
   bonuses:
   - slot: Capacity
@@ -661,7 +661,7 @@ beta:
     value: -3
   mesh: Shield_Battery_Pangolin
   name: Pangolin
-  unique: true
+  unique: false
 definition:
 - _obj_name: GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak
   bonuses:
@@ -2069,11 +2069,11 @@ delta:
 - _obj_name: GD_Cork_Shields.Accessory.Accessory1_Spike_Ice
   mesh: Shield_Body_Anshin
   name: Spike (Cryo)
-  unique: true
+  unique: false
 - _obj_name: GD_Cork_Shields.Accessory.Accessory6_Nova_Ice
   mesh: Shield_Body_Anshin
   name: Nova (Cryo)
-  unique: true
+  unique: false
 - _obj_name: GD_Cork_Shields.Accessory.Accessory6_RapidRelease
   mesh: Shield_Body_Hyperion
   name: Rapid Release
@@ -2148,7 +2148,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory0_None
   mesh: Shield_Body_Tediore
   name: Standard
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory0_StandardLegendary
   mesh: Shield_Body_Tediore
   name: Cradle
@@ -2156,7 +2156,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Corrosive
   mesh: Shield_Body_Anshin
   name: Spike (Corrosive)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Corrosive_Legendary
   mesh: Shield_Body_Anshin
   name: Impaler
@@ -2164,19 +2164,19 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Explosive
   mesh: Shield_Body_Torgue
   name: Spike (Explosive)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Fire
   mesh: Shield_Body_Anshin
   name: Spike (Fire)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Shock
   mesh: Shield_Body_Anshin
   name: Spike (Shock)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid
   mesh: Shield_Body_Bandit
   name: Roid
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid_Avalanche
   mesh: Shield_Body_Bandit
   name: Avalanche
@@ -2204,7 +2204,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption
   mesh: Shield_Body_Vladof
   name: Absorption
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_1340
   mesh: Shield_Body_Hyperion
   name: 1340 Shield
@@ -2232,7 +2232,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory4_Booster
   mesh: Shield_Body_Dahl
   name: Booster
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory4_Booster_AsteroidBelt
   mesh: Shield_Body_Dahl
   name: Asteroid Belt
@@ -2248,7 +2248,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory5_Chimera
   mesh: Shield_Body_Anshin
   name: Adaptive
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory5_ChimeraLegendary
   mesh: Shield_Body_Anshin
   name: Neogenator
@@ -2264,11 +2264,11 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Corrosive
   mesh: Shield_Body_Anshin
   name: Nova (Corrosive)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Explosive
   mesh: Shield_Body_Torgue
   name: Nova (Explosive)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Explosive_DeadlyBloom
   mesh: Shield_Body_Torgue
   name: Deadly Bloom
@@ -2276,7 +2276,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Fire
   mesh: Shield_Body_Anshin
   name: Nova (Fire)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Phoenix
   mesh: Shield_Body_Anshin
   name: Flame of the Firehawk
@@ -2284,7 +2284,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Shock
   mesh: Shield_Body_Anshin
   name: Nova (Shock)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Singularity
   mesh: Shield_Body_Anshin
   name: Black Hole
@@ -2300,7 +2300,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory7_Impact
   mesh: Shield_Body_Hyperion
   name: Amp
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory7_Impact_Legendary
   mesh: Shield_Body_Hyperion
   name: Bee
@@ -2308,7 +2308,7 @@ delta:
 - _obj_name: GD_Shields.Accessory.Accessory8_Juggernaut
   mesh: Shield_Body_Pangolin
   name: Turtle
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Accessory.Accessory8_Juggernaut_Legendary
   mesh: Shield_Body_Pangolin
   name: Fabled Tortoise
@@ -2403,7 +2403,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Cryo)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor1_Tediore
   bonuses:
   - slot: Capacity
@@ -2423,7 +2423,7 @@ gamma:
     value: 1
   mesh: Shield_Capacitor_Tediore
   name: Tediore
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor2_Bandit
   bonuses:
   - slot: Capacity
@@ -2443,7 +2443,7 @@ gamma:
     value: -6
   mesh: Shield_Capacitor_Bandit
   name: Bandit
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor3_Vladof
   bonuses:
   - slot: Capacity
@@ -2457,7 +2457,7 @@ gamma:
     value: -1
   mesh: Shield_Capacitor_Vladof
   name: Vladof
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor4_Dahl
   bonuses:
   - slot: Capacity
@@ -2477,7 +2477,7 @@ gamma:
     value: -1
   mesh: Shield_Capacitor_Dahl
   name: Dahl
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Anshin
   bonuses:
   - slot: Capacity
@@ -2497,7 +2497,7 @@ gamma:
     value: 2
   mesh: Shield_Capacitor_Anshin
   name: Anshin
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Anshin_RoidLegendary
   bonuses:
   - slot: Capacity
@@ -2536,7 +2536,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Corrosive)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes
   bonuses:
   - slot: Capacity
@@ -2555,7 +2555,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Fire)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes_Sunshine
   bonuses:
   - slot: Capacity
@@ -2593,7 +2593,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Shock)
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
   bonuses:
   - slot: Capacity
@@ -2637,8 +2637,8 @@ gamma:
   - slot: Special02
     type: grade
     value: -5
-  name: ''
-  unique: true
+  name: Torgue
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor7_Hyperion
   bonuses:
   - slot: Capacity
@@ -2658,7 +2658,7 @@ gamma:
     value: 3
   mesh: Shield_Capacitor_Hyperion
   name: Hyperion
-  unique: true
+  unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor8_Pangolin
   bonuses:
   - slot: Capacity
@@ -2678,7 +2678,7 @@ gamma:
     value: -3
   mesh: Shield_Capacitor_Pangolin
   name: Pangolin
-  unique: true
+  unique: false
 material:
 - _obj_name: GD_Anemone_Shields.Material.Material3_Rare_Roid
   bonuses:
@@ -3664,6 +3664,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Easy Mode
+    unique: true
   - _obj_name: GD_Anemone_Shields.A_Item.Shield_Worming
     base: []
     grades:
@@ -3710,6 +3711,7 @@ meta:
       slot: Special01
       type: post-add
     name: Retainer
+    unique: true
   - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
     base: []
     grades:
@@ -3744,6 +3746,7 @@ meta:
       slot: Special02
       type: post-add
     name: Antagonist
+    unique: true
   - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
     base: []
     grades:
@@ -3805,6 +3808,7 @@ meta:
       slot: SlagDamageResist
       type: scale
     name: Blockade
+    unique: true
   - _obj_name: GD_Cork_Shields.A_Item.Shield_Nova_Ice
     base: []
     grades:
@@ -3861,6 +3865,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Nova (Cryo)
+    unique: false
   - _obj_name: GD_Cork_Shields.A_Item.Shield_Spike_Ice
     base: []
     grades:
@@ -3912,6 +3917,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Spike (Cryo)
+    unique: false
   - _obj_name: GD_Cork_Shields.A_Item_Custom.Shield_RapidRelease
     base: []
     grades:
@@ -3968,6 +3974,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Rapid Release
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster
     base: []
     grades:
@@ -4012,6 +4019,7 @@ meta:
       slot: Special01
       type: post-add
     name: Big Boom Blaster
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut
     base: []
     grades:
@@ -4058,6 +4066,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Hoplite
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee
     base: []
     grades:
@@ -4104,6 +4113,7 @@ meta:
       slot: Special01
       type: post-add
     name: Pun-chee
+    unique: true
   - _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge
     base: []
     grades:
@@ -4153,6 +4163,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Sponge
+    unique: true
   - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Chimera_05_M0RQ
     base: []
     grades:
@@ -4184,6 +4195,7 @@ meta:
       slot: Special02
       type: pre-add
     name: M0RQ
+    unique: true
   - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Impact_05_Rerouter
     base: []
     grades:
@@ -4242,6 +4254,7 @@ meta:
       slot: Special02
       type: post-add
     name: Rerouter
+    unique: true
   - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Juggernaut_03_ShieldOfAges
     base: []
     grades:
@@ -4293,6 +4306,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Shield of Ages
+    unique: true
   - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Standard_Naught
     base: []
     grades:
@@ -4337,6 +4351,7 @@ meta:
       slot: ExplosiveDamageResistance
       type: scale
     name: Naught
+    unique: true
   - _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield
     base: []
     grades:
@@ -4368,6 +4383,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Evolution
+    unique: true
   - _obj_name: GD_Orchid_Shields.A_Item_Custom.Shield_Blade
     base: []
     grades:
@@ -4387,6 +4403,7 @@ meta:
       slot: RechargeDelay
       type: scale
     name: Manly Man Shield
+    unique: true
   - _obj_name: GD_Sage_Shields.A_Item_Custom.Shield_Buckler
     base: []
     grades:
@@ -4418,6 +4435,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Rough Rider
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Absorption
     base: []
     grades:
@@ -4472,6 +4490,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Absorption
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
     base: []
     grades:
@@ -4526,6 +4545,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Sham
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
     base: []
     grades:
@@ -4575,6 +4595,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Transformer
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
     base: []
     grades:
@@ -4629,6 +4650,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Kala
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Absorption_1340
     base: []
     grades:
@@ -4678,6 +4700,7 @@ meta:
       slot: Special02
       type: pre-add
     name: 1340 Shield
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Absorption_Aequitas
     base: []
     grades:
@@ -4727,6 +4750,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Aequitas
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Absorption_PrismaticBulwark
     base: []
     grades:
@@ -4804,6 +4828,7 @@ meta:
       slot: Special04
       type: scale
     name: Prismatic Bulwark
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Booster
     base: []
     grades:
@@ -4853,6 +4878,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Booster
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
     base: []
     grades:
@@ -4907,6 +4933,7 @@ meta:
       slot: Special01
       type: post-add
     name: Whisky Tango Foxtrot
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Booster_AsteroidBelt
     base: []
     grades:
@@ -4963,6 +4990,7 @@ meta:
       slot: Special02
       type: post-add
     name: Asteroid Belt
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Booster_MoxxisSlammer
     base: []
     grades:
@@ -5012,6 +5040,7 @@ meta:
       slot: Special01
       type: post-add
     name: Moxxi's Slammer
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Booster_PotOGold
     base: []
     grades:
@@ -5056,6 +5085,7 @@ meta:
       slot: Special01
       type: post-add
     name: Pot O' Gold
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Chimera
     base: []
     grades:
@@ -5087,6 +5117,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Adaptive (BL2)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Chimera
     base: []
     grades:
@@ -5118,6 +5149,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Adaptive (TPS)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
     base: []
     grades:
@@ -5149,6 +5181,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Neogenator
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
     base: []
     grades:
@@ -5180,6 +5213,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Reogenator
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Chimera_Haymaker
     base: []
     grades:
@@ -5211,6 +5245,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Haymaker
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Impact
     base: []
     grades:
@@ -5264,6 +5299,7 @@ meta:
       slot: Special02
       type: post-add
     name: Amp (BL2)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Impact
     base: []
     grades:
@@ -5322,6 +5358,7 @@ meta:
       slot: Special02
       type: post-add
     name: Amp (TPS)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Impact_05_Legendary
     base: []
     grades:
@@ -5373,6 +5410,7 @@ meta:
       slot: Special02
       type: post-add
     name: Bee
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
     base: []
     grades:
@@ -5419,6 +5457,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Turtle (BL2)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
     base: []
     grades:
@@ -5470,6 +5509,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Turtle (TPS)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
     base: []
     grades:
@@ -5516,6 +5556,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Fabled Tortoise (BL2)
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
     base: []
     grades:
@@ -5567,6 +5608,7 @@ meta:
       slot: Special01
       type: pre-add
     name: Fabled Tortoise (TPS)
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
     base: []
     grades:
@@ -5623,6 +5665,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Nova (Corrosive)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
     base: []
     grades:
@@ -5679,6 +5722,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Nova (Explosive)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
     base: []
     grades:
@@ -5735,6 +5779,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Deadly Bloom
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
     base: []
     grades:
@@ -5791,6 +5836,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Nova (Fire)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Phoenix
     base: []
     grades:
@@ -5842,6 +5888,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Flame of the Firehawk
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Sunshine
     base: []
     grades:
@@ -5898,6 +5945,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Sunshine
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Supernova
     base: []
     grades:
@@ -5954,6 +6002,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Supernova
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
     base: []
     grades:
@@ -6010,6 +6059,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Nova (Shock)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
     base: []
     grades:
@@ -6066,6 +6116,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Black Hole
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Roid
     base: []
     grades:
@@ -6117,6 +6168,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Roid
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Roid_05_Legendary
     base: []
     grades:
@@ -6175,6 +6227,7 @@ meta:
       slot: Special02
       type: pre-add
     name: Bigg Thumppr
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Roid_05_ThresherRaid
     base: []
     grades:
@@ -6235,6 +6288,7 @@ meta:
       slot: Special04
       type: pre-add
     name: Hide of Terramorphous
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Roid_Avalanche
     base: []
     grades:
@@ -6300,6 +6354,7 @@ meta:
       slot: Special04
       type: pre-add
     name: Avalanche
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Roid_LoveThumper
     base: []
     grades:
@@ -6346,6 +6401,7 @@ meta:
       slot: Special01
       type: post-add
     name: Love Thumper
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Roid_Order
     base: []
     grades:
@@ -6392,6 +6448,7 @@ meta:
       slot: Special01
       type: post-add
     name: Order
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Roid_ShootingStar
     base: []
     grades:
@@ -6443,6 +6500,7 @@ meta:
       slot: Special01
       type: post-add
     name: Shooting Star
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
     base: []
     grades:
@@ -6494,6 +6552,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Spike (Corrosive)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
     base: []
     grades:
@@ -6545,6 +6604,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Impaler
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
     base: []
     grades:
@@ -6596,6 +6656,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Spike (Explosive)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
     base: []
     grades:
@@ -6642,6 +6703,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Spike (Fire)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
     base: []
     grades:
@@ -6693,6 +6755,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Spike (Shock)
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Standard
     base: []
     grades:
@@ -6737,6 +6800,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Standard
+    unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
     base: []
     grades:
@@ -6781,6 +6845,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Cradle
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
     base: []
     grades:
@@ -6825,6 +6890,7 @@ meta:
       slot: IceResist
       type: pre-add
     name: Cracked Sash
+    unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Standard_MyFirst
     base: []
     grades:
@@ -6869,6 +6935,7 @@ meta:
       slot: ExplosiveDamageResistance
       type: scale
     name: My First Shield
+    unique: true
   grade_overrides:
     Special01:
       name: Special 01
@@ -6882,4 +6949,67 @@ meta:
     Special04:
       name: Special 04
       add_good: true
+  meshes:
+    Shield_Accessory_Anshin:
+      name: Anshin
+    Shield_Accessory_Bandit:
+      name: Bandit
+    Shield_Accessory_Dahl:
+      name: Dahl
+    Shield_Accessory_Hyperion:
+      name: Hyperion
+    Shield_Accessory01_Pangolin:
+      name: Pangolin
+    Shield_Accessory02_Pangolin:
+      name: Maliwan
+    Shield_Accessory_Torgue:
+      name: Torgue
+    Shield_Accessory_Vladof:
+      name: Vladof
+    Shield_Battery_Anshin:
+      name: Anshin
+    Shield_Battery_Bandit:
+      name: Bandit
+    Shield_Battery_Dahl:
+      name: Dahl
+    Shield_Battery_Hyperion:
+      name: Hyperion
+    Shield_Battery_Pangolin:
+      name: Pangolin
+    Shield_Battery_Tediore:
+      name: Tediore
+    Shield_Battery_Torgue:
+      name: Torgue
+    Shield_Battery_Vladof:
+      name: Vladof
+    Shield_Body_Anshin:
+      name: Anshin
+    Shield_Body_Bandit:
+      name: Bandit
+    Shield_Body_Dahl:
+      name: Dahl
+    Shield_Body_Hyperion:
+      name: Hyperion
+    Shield_Body_Pangolin:
+      name: Pangolin
+    Shield_Body_Tediore:
+      name: Tediore
+    Shield_Body_Torgue:
+      name: Torgue
+    Shield_Body_Vladof:
+      name: Vladof
+    Shield_Capacitor_Anshin:
+      name: Anshin
+    Shield_Capacitor_Bandit:
+      name: Bandit
+    Shield_Capacitor_Dahl:
+      name: Dahl
+    Shield_Capacitor_Hyperion:
+      name: Hyperion
+    Shield_Capacitor_Pangolin:
+      name: Pangolin
+    Shield_Capacitor_Tediore:
+      name: Tediore
+    Shield_Capacitor_Vladof:
+      name: Vladof
   standard_definition_idx: 63
