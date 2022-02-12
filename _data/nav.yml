@@ -28,10 +28,8 @@ misc:
     url: /accuracy/
   - title: Attribute Reference
     url: /attributes/
-  - title: Calculation Order
-    url: /order/
-  - title: General Formulas
-    url: /formulas/
+  - title: Calculations Guide
+    url: /calculations/
   - title: Melee Damage
     url: /melee/
   - title: Status Effect Chance
