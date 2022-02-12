@@ -208,7 +208,7 @@ shield type.
 Definitions are very important if you’re trying to calculate exact stats, but otherwise can be
 mostly ignored.
 
-<details open markdown="1">
+<details markdown="1">
 <summary>Expand</summary>
 
 To start with, they define the base values for all stats stored on the grenade. Unlike with
@@ -282,7 +282,7 @@ exceptions.
                         {%- include grade.html grade_stats=grade_stats -%}
                     </span>
                     {%- if forloop.index > 3 -%}
-                        <br>{{attr_name}}
+                        <br>{{attr_name | markdownify | remove: "<p>" | remove: "</p>"}}
                     {%- endif -%}
                 </td>
             {% endfor %}

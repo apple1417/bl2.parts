@@ -14,10 +14,8 @@ parts:
   - title: Shields
     url: /shields/
     sub:
-      - title: Calculation Guide
-        url: /shields/calculations/
-      - title: Materials
-        url: /shields/materials/
+      - title: Full Parts Reference
+        url: /shields/all_parts/
   - title: Shotguns
     url: /shotguns/
     sub:

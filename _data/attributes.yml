@@ -126,35 +126,35 @@
 
 - obj: D_Attributes.StatusEffectModifiers.AmpChanceResistanceModifier
   name: Status Chance Resistance (*Slag*{:.slag})
-  description: Increases the chance of being inflicted with *slag*{:.slag} status effects multiplicatively.
+  description: Increases the chance of being inflicted with slag status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Attributes.StatusEffectModifiers.CorrosiveChanceResistanceModifier
   name: Status Chance Resistance (*Corrosive*{:.corrosive})
-  description: Increases the chance of being inflicted with *corrosive*{:.corrosive} status effects multiplicatively.
+  description: Increases the chance of being inflicted with corrosive status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Attributes.StatusEffectModifiers.IgniteChanceResistanceModifier
   name: Status Chance Resistance (*Fire*{:.fire})
-  description: Increases the chance of being inflicted with *fire*{:.fire} status effects multiplicatively.
+  description: Increases the chance of being inflicted with fire status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Attributes.StatusEffectModifiers.ShockChanceResistanceModifier
   name: Status Chance Resistance (*Shock*{:.shock})
-  description: Increases the chance of being inflicted with *shock*{:.shock} status effects multiplicatively.
+  description: Increases the chance of being inflicted with shock status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
 
 - obj: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
   name: Status Chance Resistance (*Cryo*{:.cryo})
-  description: Increases the chance of being inflicted with *cryo*{:.cryo} status effects multiplicatively.
+  description: Increases the chance of being inflicted with cryo status effects multiplicatively.
   percent: true
   add_good: false
   multi_good: false
@@ -188,7 +188,7 @@
   multi_good: true
 
 - obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
-  name: Reflect Off Self Self Damage
+  name: Reflect Off Self Self-Damage
   description: Increases the amount of damage that self reflected bullets deal to yourself multiplicatively.
   percent: true
   add_good: false
@@ -258,8 +258,8 @@
   multi_good: true
 
 - obj: GD_Shields.Attributes.Attr_AequitasEquipped
-  name: Veritases Equipped
-  description: Increases the global amount of Veritases equipped, used in the calculation for the Aequitas bonuses.
+  name: Aequitas/Veritases Equipped
+  description: Increases the global amount of Aequitases and Veritases equipped, used to calculate the bonus FFYL time.
   percent: false
   add_good: true
   multi_good: true
@@ -350,7 +350,7 @@
 
 - obj: D_Attributes.GameplayAttributes.BaseArmor
   name: Base Armour
-  description: Decreases how much damage you take from all sources. This acts as a divisor, it's base value is 1.
+  description: Decreases how much damage you take from all sources. This acts as a percentage divisor, it's base value is 100.
   percent: false
   add_good: false
   multi_good: false
@@ -447,7 +447,7 @@
   multi_good: false
 
 - obj: D_Attributes.DamageTypeModifers.IceStatusEffectDamageModifier
-  name: Status Damage Modifier (*Cryo*{:.corrosive})
+  name: Status Damage Modifier (*Cryo*{:.cryo})
   description: Increases the damage cryo status effects deal multiplicatively.
   percent: true
   add_good: false
@@ -466,3 +466,207 @@
   percent: true
   add_good: false
   multi_good: false
+
+- obj: D_Attributes.Shield.PercentChanceToAbsorbAmmo
+  name: Absorb Chance
+  description: Increases the chance that you'll absorb ammo when you get hit.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
+  name: Absorb Damage Reduction
+  description: Decreases the damage you take from projectiles which you absorbing the ammo of multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: GD_Shields.Misc.Att_ChimeraShield_Resistance
+  name: Adaptive Elemental Resistance
+  description: Increases the damage you take from the element your adative shield protects against multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.HealthResourcePool.HealthMaxValue
+  name: Max Health
+  description: Increases your max health.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.HealthResourcePool.HealthMaxValue_Player
+  name: Max Health (Player Only)
+  description: Increases your max health. Does not apply to enemies with the same part equipped.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Shield.ImpactShield_DamageBonus
+  name: Amp Damage
+  description: Increases the weapon damage bonus amp shields give when full.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
+  name: Amp Drain
+  description: Increases the amount of your shield that's drained when you make an amped shot.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: GD_Shields.Misc.Att_BoosterShield_ProcChance
+  name: Booster Chance
+  description: Increases the chance that taking damage will cause your shield to drop a booster.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaDamage_Corrosive
+  name: Nova Damage (*Corrosive*{:.corrosive})
+  description: Increases the damage of corrosive novas.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaSize_Corrosive
+  name: Nova Raidus (*Corrosive*{:.corrosive})
+  description: Increases the radius of corrosive novas. This is a value in game units.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Cork_Shields.Misc.Att_ShieldNovaDamage_Ice
+  name: Nova Damage (*Cryo*{:.cryo})
+  description: Increases the damage of cryo novas.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Cork_Shields.Misc.Att_ShieldNovaSize_Ice
+  name: Nova Raidus (*Cryo*{:.cryo})
+  description: Increases the radius of cryo novas. This is a value in game units.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaDamage_Explosive
+  name: Nova Damage (*Explosive*{:.explosive})
+  description: Increases the damage of explosive novas.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaSize_Explosive
+  name: Nova Raidus (*Explosive*{:.explosive})
+  description: Increases the radius of explosive novas. This is a value in game units.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
+  name: Nova Damage (*Fire*{:.fire})
+  description: Increases the damage of fire novas.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaSize_Fire
+  name: Nova Raidus (*Fire*{:.fire})
+  description: Increases the radius of fire novas. This is a value in game units.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
+  name: Nova Damage (*Shock*{:.shock})
+  description: Increases the damage of shock novas.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldNovaSize_Shock
+  name: Nova Raidus (*Shock*{:.shock})
+  description: Increases the radius of shock novas. This is a value in game units.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Shield.RoidMeleeDamage
+  name: Roid Damage
+  description: Increases the melee damage bonus roid shields give while empty.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldSpikeDamage_Corrosive
+  name: Spike Damage (*Corrosive*{:.corrosive})
+  description: Increases the corrosive damage done to melee attackers.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Cork_Shields.Misc.Att_ShieldSpikeDamage_Ice
+  name: Spike Damage (*Cryo*{:.cryo})
+  description: Increases the cryo damage done to melee attackers.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldSpikeDamage_Explosive
+  name: Spike Damage (*Explosive*{:.explosive})
+  description: Increases the explosive damage done to melee attackers.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldSpikeDamage_Fire
+  name: Spike Damage (*Fire*{:.fire})
+  description: Increases the fire damage done to melee attackers.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Misc.Att_ShieldSpikeDamage_Shock
+  name: Spike Damage (*Shock*{:.shock})
+  description: Increases the shock damage done to melee attackers.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Attributes.Attr_AsteroidBeltChance
+  name: Meteor Chance
+  description: Increases the chance that taking damage will cause the Asteroid Belt to spawn a meteor.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: GD_Shields.Attributes.Attr_AsteroidBeltDamage
+  name: Meteor Damage
+  description: Increases the damage that the Asteroid Belt's meteors deal.
+  percent: false
+  add_good: true
+  multi_good: true
+
+
+- obj: D_Attributes.Shield.PercentChanceToAbsorbLaser
+  name: Laser Absorb Chance
+  description: Increases the chance that you'll absorb ammo when you get hit by laser projectiles.
+  percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.DamageSourceModifiers.ReceivedLaserDamageModifier
+  name: Laser Damage Modifier
+  description: Increases the damage laser projectiles deal multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: GD_Sage_Shields.Attributes.Attr_BucklerShieldDamageResistance
+  name: Rough Rider Visual Resistance
+  description: Has no actual effect, only used for displaying the Rough Rider's damage resistance. Is not synced with the actual bonus value.
+  percent: true
+  add_good: true
+  multi_good: true
