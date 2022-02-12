@@ -83,6 +83,17 @@ body > div.nav-offset {
     padding-left: 1.5em;
 }
 
+@media (max-width: 900px) {
+    body > aside.nav-container  {
+        display: none;
+    }
+
+    body > div.nav-offset {
+        margin-left: unset;
+        padding-left: unset;
+    }
+}
+
 nav ul {
     list-style: none;
     margin: 0;
