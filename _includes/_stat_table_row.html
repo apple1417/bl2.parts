@@ -1,0 +1,40 @@
+{%- comment -%}
+Creates a single row of cells for a stats table. Does not include the table row tags, so you can add
+ custom cells before/after.
+
+Args:
+    part: The part to pull stats from.
+    meta: The relevant item metadata.
+    stats: An array of attribute names, in the order they should be exported
+
+Passthrough args to `bonus.html`:
+    simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
+                     good/bad instead of proper bonus type.
+{%- endcomment -%}
+
+{%- for stat in include.stats -%}
+    {%- assign found_bonus = false -%}
+    {%- for bonus in include.part.bonuses -%}
+        {%- capture bonus_data -%}
+            {%- include bonus.html
+                bonus=bonus
+                meta=include.meta
+                simple_bonuses=include.simple_bonuses
+            -%}
+        {%- endcapture -%}
+        {%- assign bonus_parts = bonus_data | strip | split: BONUS_SEPERATOR -%}
+        {%- if bonus_parts[1] contains stat -%}
+            <td>
+                {{bonus_parts[0]}}
+                {%- if include.simple_bonuses -%}
+                    </span>
+                {%- endif -%}
+            </td>
+            {%- assign found_bonus = true -%}
+            {%- break -%}
+        {%- endif -%}
+    {%- endfor -%}
+    {%- unless found_bonus -%}
+        <td>-</td>
+    {%- endunless -%}
+{%- endfor -%}

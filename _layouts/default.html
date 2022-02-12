@@ -1,0 +1,46 @@
+---
+---
+{%- comment -%}
+Default page layout.
+
+Args:
+    latex: If to include MathJax to display latex.
+{%- endcomment -%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/colours.css">
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    {% if page.latex %}
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <script>
+            window.MathJax = {
+                startup: {
+                    pageReady: () => {
+                        return MathJax.startup.defaultPageReady().then(() => {
+                            Array.from(document.getElementsByClassName("latex-fallback")).forEach(
+                                x => x.hidden = true
+                            );
+                            Array.from(document.getElementsByClassName("latex-content")).forEach(
+                                x => x.hidden = false
+                            );
+                        });
+                    }
+                }
+            };
+        </script>
+    {% endif %}
+</head>
+<body>
+    {% include nav.html %}
+    <div class="nav-offset">
+        <div class="content">
+            {{content}}
+        </div>
+    </div>
+    <script>anchors.add("h2, h3");</script>
+</body>

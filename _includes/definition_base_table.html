@@ -1,0 +1,66 @@
+{%- comment -%}
+Creates a table showing off the base values for all definitions.
+
+Args:
+    meta: The relevant item metadata.
+{%- endcomment -%}
+
+{% assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] %}
+{% assign sorted_definitions = include.meta.definitions | sort_natural: "name" %}
+
+{%- comment -%}
+Same concept as in `bonus_block.html` - to sort by expression we squash everything into an array
+of strings, with the key at the front.
+This time though, we can leave each string as the table row directly, without needing to process it.
+{%- endcomment -%}
+
+{% assign all_rows = "" | split: "" %}
+{% for standard_base in standard_definition.base %}
+    {% assign attr = site.data.attributes
+                     | where: "obj", standard_base.attribute
+                     | first %}
+    {% assign row = "<tr><th>" | append: attr.name | append: "</th>" %}
+
+    {% for definition in sorted_definitions %}
+        {% assign inner_base = definition.base
+                                      | where: "attribute", standard_base.attribute
+                                      | first %}
+
+        {% assign row = row | append: "<td>" %}
+        {% if inner_base.scale %}
+            {% if inner_base.value == 1 %}
+                {% assign row = row | append: inner_base.scale %}
+            {% elsif inner_base.value == -1 %}
+                {% assign row = row | append: "&minus;" | append: inner_base.scale %}
+            {% else %}
+                {% assign row = row
+                                | append: inner_base.value
+                                | append: "&times;"
+                                | append: inner_base.scale %}
+            {% endif %}
+        {% else %}
+            {% assign row = row | append: inner_base.value %}
+        {% endif %}
+        {% assign row = row | append: "</td>" %}
+    {% endfor %}
+
+    {% assign row = row | append: "</tr>" %}
+    {% assign all_rows = all_rows | push: row %}
+{% endfor %}
+
+<table class="border">
+    <thead><tr>
+        <th></th>
+        {% for definition in sorted_definitions %}
+            <th>{{definition.name}}</th>
+        {% endfor %}
+    </tr></thead>
+    <tbody>
+        {{ all_rows | sort_natural | join: "" }}
+    </tbody>
+    <tfoot><tr>
+        <td class="footnotes" colspan="{{include.meta.definitions.size | plus: 1}}">
+            This table is not exhaustive.
+        </td>
+    </tr></tfoot>
+</table>

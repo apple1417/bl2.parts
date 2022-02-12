@@ -1,0 +1,31 @@
+{%- comment -%}
+Creates a table of grade stats for different parts.
+
+Does not convert grades to their actual bonus values. Always displays positive grades as good,
+negative as bad, and missing values as a neutral zero.
+
+Args:
+    parts: An array of parts, each to be it's own row
+    grades: An array of grade slot names, in the order they should be exported.
+    row_names: An array of name to use for each row. May contain markdown.
+    column_headers: An array of headers to use for each column, including the names column. May
+                     contain markdown.
+{%- endcomment -%}
+
+<table><thead><tr>
+    {% for column in include.column_headers %}
+        <th>{{column | markdownify | remove: "<p>" | remove: "</p>"}}</th>
+    {% endfor %}
+</tr></thead><tbody>
+    {% for part in include.parts %}
+        <tr>
+            <td>
+                {{include.row_names[forloop.index0]
+                  | markdownify
+                  | remove: "<p>"
+                  | remove: "</p>"}}
+            </td>
+            {% include _grade_stat_table_row.html part=part grades=include.grades %}
+        </tr>
+    {% endfor %}
+</tbody></table>

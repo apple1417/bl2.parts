@@ -1,0 +1,29 @@
+{%- comment -%}
+Displays a part reference block.
+
+Args:
+    id: An id to give the surrounding div. If not defined, no id is given.
+    image_class: A string of custom classes to apply to reference images. If not defined, defaults
+                  to `big`.
+    parts: An array of part reference entries to display.
+{%- endcomment -%}
+
+
+{% assign id = "" %}
+{% if include.id %}
+    {% assign id = 'id="' | append: include.id | append: '"'%}
+{% endif %}
+{% assign image_class = "big" %}
+{% if include.image_class %}
+    {% assign image_class = include.image_class %}
+{% endif %}
+
+<div {{id}} class="part-container">
+    {% assign sorted_parts = include.parts | sort_natural: "name" %}
+    {% for part in sorted_parts %}
+        <div class="part-block">
+            <h4>{{part.name}}</h4>
+            <img class="{{image_class}}" src="{{part.src}}">
+        </div>
+    {% endfor %}
+</div>

@@ -2,41 +2,25 @@ parts:
   - title: Grenades
     url: /grenades/
     sub:
-      - title: Definitions
-        url: /grenades/definitions/
-      - title: Deliveries
-        url: /grenades/deliveries/
-      - title: In-Depth Guide
-        url: /grenades/full/
-      - title: Payloads
-        url: /grenades/payloads/
+      - title: Full Parts Reference
+        url: /grenades/all_parts/
   - title: Pistols
     url: /pistols/
     sub:
-      - title: Barrels
-        url: /pistols/barrels/
-      - title: Calculation Guide
-        url: /pistols/calculations/
-      - title: Prefixes
-        url: /pistols/prefixes/
+      - title: Full Parts Reference
+        url: /pistols/all_parts/
       - title: Zoom Comparsion
         url: /pistols/zoom/
   - title: Shields
     url: /shields/
     sub:
-      - title: Calculation Guide
-        url: /shields/calculations/
-      - title: Materials
-        url: /shields/materials/
+      - title: Full Parts Reference
+        url: /shields/all_parts/
   - title: Shotguns
     url: /shotguns/
     sub:
-      - title: Barrels
-        url: /shotguns/barrels/
-      - title: Calculation Guide
-        url: /shotguns/calculations/
-      - title: Prefixes
-        url: /shotguns/prefixes/
+      - title: Full Parts Reference
+        url: /shotguns/all_parts/
       - title: Zoom Comparsion
         url: /shotguns/zoom/
 misc:
@@ -44,10 +28,8 @@ misc:
     url: /accuracy/
   - title: Attribute Reference
     url: /attributes/
-  - title: Calculation Order
-    url: /order/
-  - title: General Formulas
-    url: /formulas/
+  - title: Calculations Guide
+    url: /calculations/
   - title: Melee Damage
     url: /melee/
   - title: Status Effect Chance

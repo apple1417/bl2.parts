@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{%- comment -%}
+Displays a list of all parts for an item type.
+
+Args:
+    parts: The name of the parts file to display.
+    slot_names: An mapping of slot names to custom display names for their category.
+    hidden_parts: A list of display names to hide parts with no bonuses in.
+{%- endcomment -%}
+
+<style>
+h2 {
+    text-align: center;
+}
+</style>
+
+<h1>{{page.title}}</h1>
+
+{% if page.hidden_parts %}
+    {% assign hidden_parts_sentence = page.hidden_parts
+                                    | sort_natural
+                                    | array_to_sentence_string: "and"
+                                    | downcase %}
+    Note that this page omits all {{hidden_parts_sentence}} which don't provide any bonuses for brevity.
+{% endif %}
+
+{% assign parts_file = site.data | map: page.parts | first %}
+
+{%- comment -%}
+Same concept as in `bonus_block.html` - to sort by expression we squash everything into an array
+of strings, with the key at the front.
+{%- endcomment -%}
+{% assign SLOT_NAME_SEPERATOR = ".|^|." %}
+{% assign slot_order = "" | split: "" %}
+{% for group in parts_file %}
+    {% assign slot = group[0] %}
+    {% if slot == "meta" %}
+        {% continue %}
+    {% endif %}
+
+    {% assign name_mapping = page.slot_names | map: slot | first %}
+    {% if name_mapping %}
+        {% assign name = name_mapping  %}
+    {% else %}
+        {% assign name = slot | capitalize %}
+    {% endif %}
+
+    {% assign order_entry = name | append: SLOT_NAME_SEPERATOR | append: slot %}
+    {% assign slot_order = slot_order | push: order_entry %}
+{% endfor %}
+{% assign slot_order = slot_order | sort_natural %}
+
+{% for slot_data in slot_order %}
+    {% assign split_slot_data = slot_data | split: SLOT_NAME_SEPERATOR %}
+    {% assign name = split_slot_data[0] %}
+    {% assign parts = parts_file | map: split_slot_data[1] | first %}
+
+    {% if page.hidden_parts contains name %}
+        {% assign parts = parts | where_exp: "part", "part.bonuses" %}
+    {% endif %}
+    {% if parts.size == 0 %}
+        {% continue %}
+    {% endif %}
+
+    <h2>{{name}}</h2>
+    {% include parts.html
+        parts=parts
+        meta=parts_file.meta
+        uniques=true
+        mesh_name=true
+    %}
+{% endfor %}

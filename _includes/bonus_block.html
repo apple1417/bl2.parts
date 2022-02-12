@@ -1,0 +1,107 @@
+{%- comment -%}
+Creates a part bonus block from it's part entry.
+
+Args:
+    part: The part entry.
+    meta: The relevant item metadata.
+    overrides: A list of overrides. See below.
+
+Passthrough args to `bonus.html`:
+    simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
+                     good/bad instead of proper bonus type.
+
+Overrides
+=========
+Some manual adjustments might need to be made to the layout this generates - most commonly adding
+ footnotes to oddities. This can be done using the `overrides` arg.
+
+Each override entry can have the following fields:
+- group_idx: 1      # Required. The index of the restriction group to adjust (1-indexed). Must be
+                    #  unique - only the first matching index will ever be used.
+  header:           # A replacement restriction header. Can be used to add one to the "no
+                    #  restrictions group.
+  overrides:        # Required. Overrides within this restriction group
+    idx:            # Required. The index of the bonus to adjust (1-indexed). Must be unique - only
+                    #  the first matching index will ever be used.
+    ignore: false   # Ignore this bonus completely
+    footnote: ""    # The id of a footnote to put after the bonus.
+    replace:        # Replace part of the bonus string. Run on the final html string right before
+      from: ""      #  it's written to the page.
+      to: ""
+{%- endcomment -%}
+
+{% if include.part.bonuses %}
+    {% assign inital_restriction = true %}
+
+    {% assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" %}
+    {% for group in grouped_bonuses %}
+        {% assign group_overrides = include.overrides | where: "group_idx", forloop.index | first %}
+
+        {% unless forloop.first %}
+            <br>
+        {% endunless %}
+
+        {% if group_overrides.header %}
+            <strong>{{group_overrides.header}}</strong><br>
+        {% else %}
+            {% if group.name != "" %}
+                <strong>On {{group.name}}:</strong><br>
+            {% endif %}
+        {% endif %}
+
+        {%- comment -%}
+        We want to sort by attribute names.
+        This is an absolute mess because you can't sort off of an expression, and you can't create
+         mappings.
+
+        First we grab the bonus data, but reverse the entries, putting name first
+        We add all of these reversed strings into a single array
+        Sorting this array then sorts by attribute name
+        In another loop we can then split up each string again, and reverse them back to normal to
+         get the format we actually output
+        {%- endcomment -%}
+
+        {% assign fake_dict = "" | split: "" %}
+        {% for bonus in group.items %}
+            {%- capture bonus_data -%}
+                {%- include bonus.html
+                    bonus=bonus
+                    meta=include.meta
+                    simple_bonuses=include.simple_bonuses
+                -%}
+            {%- endcapture -%}
+
+            {% assign fake_dict_entry = bonus_data
+                                        | strip
+                                        | split: BONUS_SEPERATOR
+                                        | reverse
+                                        | join: BONUS_SEPERATOR %}
+            {% assign fake_dict = fake_dict | push: fake_dict_entry %}
+        {% endfor %}
+
+        {% assign fake_dict = fake_dict | sort_natural %}
+        {% for entry in fake_dict %}
+            {% assign overrides = group_overrides.overrides | where: "idx", forloop.index | first %}
+            {% if overrides.ignore %}
+                {% continue %}
+            {% endif %}
+
+            {% assign bonus_str = entry | split: BONUS_SEPERATOR | reverse | join: " " %}
+            {% if overrides.replace.to and overrides.replace.from %}
+                {% assign bonus_str = bonus_str
+                                      | replace: overrides.replace.from, overrides.replace.to %}
+            {% endif %}
+            {{bonus_str}}
+
+            {%- if overrides.footnote -%}
+                {%- include footnote.html id=overrides.footnote -%}
+            {%- endif -%}
+
+            {% unless forloop.last %}
+                <br>
+            {% endunless %}
+        {% endfor %}
+    {% endfor %}
+{% else %}
+-
+{% endif %}

@@ -1,0 +1,165 @@
+{%- comment -%}
+Gets the exact value of a bonus entry and it's attribute name. Intended to be captured into a
+variable.
+
+Outputs in the format `<value>&|^|&<name>`.
+The seperator `&|^|&` is exported in the variable `BONUS_SEPERATOR`. You can convert to a usable
+ string by simply replacing it with a space.
+
+Args:
+    bonus: The bonus entry to process.
+    meta: The relevant item metadata.
+    simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
+                     good/bad instead of proper bonus type.
+{%- endcomment -%}
+
+{%- assign BONUS_SEPERATOR = "&|^|&" -%}
+{%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
+{%- if include.bonus.slot -%}
+    {%- assign grade_override = include.meta.grade_overrides | map: include.bonus.slot | first -%}
+    {%- assign grade_stats = standard_definition.grades
+        | where: "slot", include.bonus.slot
+        | first -%}
+
+    {%- if grade_override -%}
+        {%- assign attr = grade_override -%}
+        {%- assign actual_value = include.bonus.value -%}
+        {%- assign actual_bonus_type = include.bonus.type -%}
+
+        {%- assign grade_stats = nil -%}
+    {%- elsif grade_stats -%}
+        {%- assign attr = site.data.attributes
+                | where: "obj", grade_stats.attribute
+                | first -%}
+        {%- assign actual_value = include.bonus.value | times: grade_stats.per_grade -%}
+        {%- assign actual_bonus_type = grade_stats.type -%}
+    {%- else -%}
+        {%- comment -%}
+        Fallback - clear everything in case of multiple invocations. Only really matters when just
+         starting out making a guide, when we're not finding stuff properly.
+        {%- endcomment -%}
+        {%- assign attr = nil -%}
+        {%- assign actual_value = include.bonus.value -%}
+        {%- assign actual_bonus_type = include.bonus.type -%}
+    {%- endif -%}
+{%- else -%}
+    {%- assign attr = site.data.attributes
+                        | where: "obj", include.bonus.attribute
+                        | first -%}
+    {%- assign actual_value = include.bonus.value -%}
+    {%- assign actual_bonus_type = include.bonus.type -%}
+{%- endif -%}
+
+{%- if include.simple_bonuses and attr%}
+    {%- if actual_value > 0 -%}
+        {%- assign positive = true -%}
+    {%- else -%}
+        {%- assign positive = false -%}
+    {%- endif -%}
+
+    {%- if actual_bonus_type == "scale" -%}
+        {%- assign positive_good = attr.multi_good -%}
+        {%- if positive -%}
+            {%- assign actual_value = 1 | plus: actual_value -%}
+            {%- assign actual_value = "&times;" | append: actual_value -%}
+        {%- else -%}
+            {%- assign actual_value = 1 | minus: actual_value -%}
+            {%- assign actual_value = "&divide;" | append: actual_value -%}
+        {%- endif -%}
+    {%- else -%}
+        {%- assign positive_good = attr.add_good -%}
+        {%- if attr.percent -%}
+            {%- comment -%}
+            Normally we'd turn float 0.5 into the value 50.0%
+            We want to round that, but we also want to keep 0.123 -> 12.3%
+            This mess grabs the amount of decimals, so we can round extras away if needed
+            {%- endcomment -%}
+
+            {%- assign decimals = actual_value
+                                    | floor
+                                    | minus: actual_value
+                                    | times: -1
+                                    | append: ""
+                                    | size
+                                    | minus: 2
+                                    | at_least: 0 -%}
+
+            {%- assign actual_value = actual_value | times: 100 -%}
+            {%- if decimals <= 2 -%}
+                {%- assign actual_value = actual_value | round -%}
+            {%- endif -%}
+            {%- assign actual_value = actual_value | append: "%" -%}
+        {%- endif -%}
+        {%- if positive -%}
+            {%- assign actual_value = "+" | append: actual_value -%}
+        {%- else -%}
+            {%- assign actual_value = actual_value | replace: "-", "&minus;" -%}
+        {%- endif -%}
+    {%- endif -%}
+    {%- if include.bonus.scale -%}
+        {%- if actual_value == "+1" -%}
+            {%- assign actual_value = "+" | append: include.bonus.scale -%}
+        {% elsif actual_value == "&minus;1" %}
+            {%- assign actual_value = "&minus;" | append: include.bonus.scale -%}
+        {%- else -%}
+            {%- assign actual_value = actual_value
+                                      | append: "&times;"
+                                      | append: include.bonus.scale -%}
+        {%- endif -%}
+    {%- endif -%}
+
+    {%- if positive -%}
+        {%- if positive_good -%}
+            {%- assign bonus_class = "good" -%}
+        {%- else -%}
+            {%- assign bonus_class = "bad" -%}
+        {%- endif -%}
+    {%- else -%}
+        {%- if positive_good -%}
+            {%- assign bonus_class = "bad" -%}
+        {%- else -%}
+            {%- assign bonus_class = "good" -%}
+        {%- endif -%}
+    {%- endif -%}
+
+    <span class="{{bonus_class}}">{{actual_value}}
+    {%- comment -%} Deliberately leave the span unclosed for now {%- endcomment -%}
+
+{%- else -%}
+    <span class="{{include.bonus.type}}">
+    {%- if include.bonus.value > 0 -%}
+        +
+    {%- endif -%}
+    {%- if include.bonus.scale -%}
+        {%- if include.bonus.value == 1 -%}
+            {{inner_base.scale}}
+        {%- elsif include.bonus.value == -1 -%}
+            &minus;{{inner_base.scale}}
+        {%- else -%}
+            {{include.bonus.value}}&times;{{include.bonus.scale}}
+        {%- endif -%}
+    {%- else -%}
+        {{include.bonus.value}}
+    {%- endif -%}
+    </span>
+{%- endif -%}
+
+{{BONUS_SEPERATOR}}
+
+{%- if attr -%}
+    {%- assign name = attr.name -%}
+    {%- if include.bonus.slot and grade_stats.constraint -%}
+        {%- assign name = name | append: " (" | append: grade_stats.constraint | append: ")" -%}
+    {%- endif -%}
+    {{name | markdownify | remove: "<p>" | remove: "</p>"}}
+{%- elsif include.bonus.slot -%}
+    <span style="font-size: 2em; color: red">{{include.bonus.slot}}</span>
+{%- else -%}
+    <span style="font-size: 2em; color: red">{{include.bonus.attribute
+                                                 | split: "."
+                                                 | last}}</span>
+{%- endif -%}
+
+{%- if include.simple_bonuses -%}
+    </span>
+{%- endif -%}

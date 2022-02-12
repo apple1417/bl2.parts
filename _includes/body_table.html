@@ -1,0 +1,52 @@
+{%- comment -%}
+Displays the body stats table.
+
+Args:
+    meta: The relevant item metadata.
+    body_list: The list of body parts.
+    common: The name of an arbitrary common body.
+    uncommon: The name of an arbitrary uncommon body.
+    rare: The name of an arbitrary rare body.
+    very_rare: The name of an arbitrary very_rare body.
+
+Passthrough args to `bonus.html`:
+    simple_bonuses: Display simple bonuses, which calculate the exact bonus value and only display
+                     good/bad instead of proper bonus type.
+{%- endcomment -%}
+
+{% assign BONUS_ORDER = "Mag Size,Weapon Damage,Weapon Spread" | split: "," | sort_natural %}
+{% assign RARITY_ORDER = "common,uncommon,rare" | split: "," %}
+
+<table><thead><tr>
+    <th>Rarity</th>
+    {% for bonus in BONUS_ORDER %}
+        <th>{{bonus}}</th>
+    {% endfor %}
+</tr></thead><tbody>
+    {% for rarity in RARITY_ORDER %}
+        <tr>
+            <td class="{{rarity}}">{{rarity | capitalize}}</td>
+            {% assign part_name = include | map: rarity | first %}
+            {% assign part = include.body_list | where: "_obj_name", part_name | first %}
+            {% include _stat_table_row.html
+                part=part
+                meta=include.meta
+                stats=BONUS_ORDER
+                simple_bonuses=include.simple_bonuses
+            %}
+        </tr>
+    {% endfor %}
+    {%- comment -%} Manually doing very rare cause the space makes things awkward {%- endcomment -%}
+    <tr>
+        <td class="very-rare">Very Rare</td>
+        {% assign part = include.body_list
+                         | where: "_obj_name", include.very_rare
+                         | first %}
+        {% include _stat_table_row.html
+            part=part
+            meta=include.meta
+            stats=BONUS_ORDER
+            simple_bonuses=include.simple_bonuses
+        %}
+    </tr>
+</tbody></table>
