@@ -107,8 +107,6 @@ Pistols are made out of 5 main visible parts.
 ## Accessories
 There are 9 non-unique accessories, including a "no accessory" part with no model.
 
-<style>
-</style>
 {% include parts.html 
     parts=site.data.pistols.accessories
     meta=site.data.pistols.meta
