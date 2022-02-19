@@ -6,8 +6,10 @@ Args:
     image_class: A string of custom classes to apply to reference images. If not defined, defaults
                   to `big`.
     parts: An array of part reference entries to display.
+    alt_format: A string to format each image's alt text as. The string "%PART%" is replaced with
+                 the part name. Defaults to `%TITLE% %PART% Part`, where `%TITLE%` is the first word
+                 of the page's title.
 {%- endcomment -%}
-
 
 {%- assign id = "" -%}
 {%- if include.id -%}
@@ -17,13 +19,19 @@ Args:
 {%- if include.image_class -%}
     {%- assign image_class = include.image_class -%}
 {%- endif -%}
+{%- assign alt_format = page.title | split: " " | first | append: " %PART% Part" -%}
+{%- if include.alt_format -%}
+    {%- assign alt_format = include.alt_format -%}
+{%- endif -%}
 
 <div {{- " " | append: id -}} class="part-container">
     {%- assign sorted_parts = include.parts | sort_natural: "name" -%}
     {%- for part in sorted_parts -%}
         <div class="part-block">
             <h4>{{- part.name -}}</h4>
-            <img class="{{- image_class -}}" src="{{- part.src -}}">
+            <img class="{{- image_class -}}"
+                 src="{{- part.src -}}"
+                 alt="{{- alt_format | replace: "%PART%", part.name -}}">
         </div>
     {%- endfor -%}
 </div>

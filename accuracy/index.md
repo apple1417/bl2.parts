@@ -37,12 +37,12 @@ On idle you will naturally regen back towards the base value, so once you stop s
     <td></td><th>Low Cluster Range</th><th>High Cluster Range</th>
 </tr><tr>
     <th>Low Weapon Spread</th>
-    <td><img src="^images/low_low.png"></td>
-    <td><img src="^images/low_high.png"></td>
+    <td><img src="^images/low_low.png" alt="Low Weapon Spread, Low Cluster Range"></td>
+    <td><img src="^images/low_high.png" alt="Low Weapon Spread, High Cluster Range"></td>
 </tr><tr>
     <th>High Weapon Spread</th>
-    <td><img src="^images/high_low.png"></td>
-    <td><img src="^images/high_high.png"></td>
+    <td><img src="^images/high_low.png" alt="High Weapon Spread, Low Cluster Range"></td>
+    <td><img src="^images/high_high.png" alt="High Weapon Spread, High Cluster Range"></td>
 </tr></table>
 
 ## Attributes

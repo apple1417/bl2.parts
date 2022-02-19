@@ -122,8 +122,8 @@ This table is unique enough that it's easier to just create it here.
     {% for part in sorted_part_table %}
         <tr>
             <td>{{ part.name }}</td>
-            <td><img class="small" src="/shields/^images/accessories/{{ part.img }}"></td>
-            <td><img class="small" src="/shields/^images/parts/{{ part.img }}"></td>
+            <td><img class="small" src="/shields/^images/accessories/{{ part.img }}" alt="{{ part.name }} Accessory"></td>
+            <td><img class="small" src="/shields/^images/parts/{{ part.img }}" alt="{{ part.name }} Parts"></td>
             {% assign body = site.data.shields.alpha | where: "_obj_name", part.body | first %}
             {% include _grade_stat_table_row.html part=body grades=page.part_table.grades %}
         </tr>

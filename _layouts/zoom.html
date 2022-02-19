@@ -103,6 +103,7 @@ Each sight entry has the following fields:
                 {%- endif -%}
                     src="{{- sight.icon -}}"
                     title="{{- sight.name -}}"
+                    alt="{{- sight.name -}}"
                 >
             {%- else -%}
                 <div onmouseover="switchView({{- forloop.index0 -}})"
@@ -119,6 +120,7 @@ Each sight entry has the following fields:
     <div id="display">
         {%- for sight in page.sights -%}
             <img src="{{- sight.src -}}"
+                alt="{{- sight.name | append: " " -}} Zoom Reference"
             {%- unless forloop.first -%}
                 hidden
             {%- endunless -%}

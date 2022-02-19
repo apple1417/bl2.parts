@@ -65,23 +65,34 @@ Each override entry can have the following fields:
             </h4>
 
             {%- assign mesh = include.meta.meshes | map: part.mesh | first -%}
+            {%- if mesh -%}
+                {%- assign mesh_name = mesh.name | append: " Mesh" -%}
+            {%- elsif part.mesh -%}
+                {%- assign mesh_name = part.mesh | append: " Mesh" -%}
+            {%- else -%}
+                {%- assign mesh_name = "No Mesh" -%}
+            {%- endif -%}
             {%- if include.mesh_image -%}
                 {%- if overrides.image_src -%}
-                    <img class="{{- include.image_class -}}" src="{{- overrides.image_src -}}">
+                    <img class="{{- include.image_class -}}"
+                         src="{{- overrides.image_src -}}"
+                         alt="{{- mesh_name -}}">
+                {%- elsif mesh -%}
+                    <img class="{{- include.image_class -}}"
+                         src="{{- mesh.src -}}"
+                         alt="{{- mesh_name -}}">
                 {%- else -%}
-                    <img class="{{- include.image_class -}}" src="{{- mesh.src -}}">
+                    <img class="{{- include.image_class -}}" src="">
                 {%- endif -%}
             {%- endif -%}
             {%- if include.mesh_name -%}
                 {%- if include.mesh_image -%}
                     <br>
                 {%- endif -%}
-                {%- if mesh -%}
-                    {{- mesh.name | append: " " -}} Mesh
-                {%- elsif part.mesh -%}
-                    <span style="font-size: 2em; color: red">{{- part.mesh -}}</span> Mesh
+                {%- if mesh == nil and part.mesh -%}
+                    <span style="font-size: 2em; color: red">{{- mesh_name -}}</span>
                 {%- else -%}
-                    No Mesh
+                    {{- mesh_name -}}
                 {%- endif -%}
             {%- endif -%}
 
