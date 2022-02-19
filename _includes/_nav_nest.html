@@ -7,18 +7,18 @@ Args:
 {%- endcomment -%}
 
 <ul>
-    {% assign sorted_items = include.nav | sort_natural: "title" %}
-    {% for item in sorted_items %}
+    {%- assign sorted_items = include.nav | sort_natural: "title" -%}
+    {%- for item in sorted_items -%}
         <li>
-            {% assign classes = include.classes %}
-            {% if item.url == page.url %}
-                {% assign classes = classes | append: " nav-current" %}
-            {% endif %}
+            {%- assign classes = include.classes -%}
+            {%- if item.url == page.url -%}
+                {%- assign classes = classes | append: " nav-current" -%}
+            {%- endif -%}
 
-            <a href="{{ item.url }}" class="{{classes}}">{{ item.title }}</a>
+            <a href="{{- item.url -}}" class="{{- classes -}}">{{- item.title -}}</a>
         </li>
-        {% if item.sub %}
-            {% include _nav_nest.html nav=item.sub classes=include.classes %}
-        {% endif %}
-    {% endfor %}
+        {%- if item.sub -%}
+            {%- include _nav_nest.html nav=item.sub classes=include.classes -%}
+        {%- endif -%}
+    {%- endfor -%}
 </ul>

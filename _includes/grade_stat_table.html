@@ -13,19 +13,19 @@ Args:
 {%- endcomment -%}
 
 <table><thead><tr>
-    {% for column in include.column_headers %}
-        <th>{{column | markdownify | remove: "<p>" | remove: "</p>"}}</th>
-    {% endfor %}
+    {%- for column in include.column_headers -%}
+        <th>{{- column | markdownify | remove: "<p>" | remove: "</p>" -}}</th>
+    {%- endfor -%}
 </tr></thead><tbody>
-    {% for part in include.parts %}
+    {%- for part in include.parts -%}
         <tr>
             <td>
-                {{include.row_names[forloop.index0]
-                  | markdownify
-                  | remove: "<p>"
-                  | remove: "</p>"}}
+                {{- include.row_names[forloop.index0]
+                    | markdownify
+                    | remove: "<p>"
+                    | remove: "</p>" -}}
             </td>
-            {% include _grade_stat_table_row.html part=part grades=include.grades %}
+            {%- include _grade_stat_table_row.html part=part grades=include.grades -%}
         </tr>
-    {% endfor %}
+    {%- endfor -%}
 </tbody></table>

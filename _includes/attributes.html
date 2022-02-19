@@ -6,20 +6,20 @@ Args:
     table_classes: A string of custom classes to apply to the attribute table.
 {%- endcomment -%}
 
-{% assign attributes = site.data.attributes | sort_natural: "name" %}
-{% if include.filter %}
-    {% assign attributes = attributes | where_exp: "item", "include.filter contains item.obj" %}
-{% endif %}
-{% assign classes = "left" %}
-{% if include.table_classes %}
-    {% assign classes = classes | append: " " | append: include.table_classes %}
-{% endif %}
+{%- assign attributes = site.data.attributes | sort_natural: "name" -%}
+{%- if include.filter -%}
+    {%- assign attributes = attributes | where_exp: "item", "include.filter contains item.obj" -%}
+{%- endif -%}
+{%- assign classes = "left" -%}
+{%- if include.table_classes -%}
+    {%- assign classes = classes | append: " " | append: include.table_classes -%}
+{%- endif -%}
 
-<table class="{{classes}}">
-    {% for attr in attributes %}
+<table class="{{- classes -}}">
+    {%- for attr in attributes -%}
         <tr>
-            <th>{{ attr.name | markdownify | remove: "<p>" | remove: "</p>" }}</th>
-            <td>{{ attr.description | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+            <th>{{- attr.name | markdownify | remove: "<p>" | remove: "</p>" -}}</th>
+            <td>{{- attr.description | markdownify | remove: "<p>" | remove: "</p>" -}}</td>
         </tr>
-    {% endfor %}
+    {%- endfor -%}
 </table>

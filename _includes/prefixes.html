@@ -7,49 +7,49 @@ Args:
     parts: The relevant parts list.
 {%- endcomment -%}
 
-{% assign restrictions = "" | split: "" %}
+{%- assign restrictions = "" | split: "" -%}
 
-{% for part in include.parts %}
-    {% for prefix in part.prefixes %}
-        {% unless restrictions contains prefix.restrict %}
-            {% assign restrictions = restrictions | push: prefix.restrict %}
-        {% endunless %}
-    {% endfor %}
-{% endfor %}
+{%- for part in include.parts -%}
+    {%- for prefix in part.prefixes -%}
+        {%- unless restrictions contains prefix.restrict -%}
+            {%- assign restrictions = restrictions | push: prefix.restrict -%}
+        {%- endunless -%}
+    {%- endfor -%}
+{%- endfor -%}
 
-{% assign sorted_restrictions = restrictions | sort_natural %}
-{% assign sorted_parts = include.parts
-                         | sort_natural: "name"
-                         | where_exp: "part", "part.prefixes" %}
+{%- assign sorted_restrictions = restrictions | sort_natural -%}
+{%- assign sorted_parts = include.parts
+                          | sort_natural: "name"
+                          | where_exp: "part", "part.prefixes" -%}
 
-{% assign id = "" %}
-{% if include.id %}
-    {% assign id = 'id="' | append: include.id | append: '"'%}
-{% endif %}
+{%- assign id = "" -%}
+{%- if include.id -%}
+    {%- assign id = ' id="' | append: include.id | append: '"'-%}
+{%- endif -%}
 
-<details {{id}}>
+<details {{- id -}}>
     <summary>Expand</summary>
     <table class="border">
         <thead><tr>
             <th></th>
-            {% for part in sorted_parts %}
-                <th>{{part.name}}</th>
-            {% endfor %}
+            {%- for part in sorted_parts -%}
+                <th>{{- part.name -}}</th>
+            {%- endfor -%}
         </tr></thead>
         <tbody>
-            {% for restrict in sorted_restrictions %}
+            {%- for restrict in sorted_restrictions -%}
                 <tr>
-                    <th>{{restrict}}</th>
-                    {% for part in sorted_parts %}
-                        {% assign prefix = part.prefixes | where: "restrict", restrict | first %}
-                        {% if prefix %}
-                            <td>{{prefix.name}}</td>
-                        {% else %}
+                    <th>{{- restrict -}}</th>
+                    {%- for part in sorted_parts -%}
+                        {%- assign prefix = part.prefixes | where: "restrict", restrict | first -%}
+                        {%- if prefix -%}
+                            <td>{{- prefix.name -}}</td>
+                        {%- else -%}
                             <td>-</td>
-                        {% endif %}
-                    {% endfor %}
+                        {%- endif -%}
+                    {%- endfor -%}
                 </tr>
-            {% endfor %}
+            {%- endfor -%}
         </tbody>
     </table>
 </details>

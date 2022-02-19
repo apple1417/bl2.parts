@@ -30,24 +30,24 @@ Each override entry can have the following fields:
       to: ""
 {%- endcomment -%}
 
-{% if include.part.bonuses %}
-    {% assign inital_restriction = true %}
+{%- if include.part.bonuses -%}
+    {%- assign inital_restriction = true -%}
 
-    {% assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" %}
-    {% for group in grouped_bonuses %}
-        {% assign group_overrides = include.overrides | where: "group_idx", forloop.index | first %}
+    {%- assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" -%}
+    {%- for group in grouped_bonuses -%}
+        {%- assign group_overrides = include.overrides | where: "group_idx", forloop.index | first -%}
 
-        {% unless forloop.first %}
+        {%- unless forloop.first -%}
             <br>
-        {% endunless %}
+        {%- endunless -%}
 
-        {% if group_overrides.header %}
-            <strong>{{group_overrides.header}}</strong><br>
-        {% else %}
-            {% if group.name != "" %}
-                <strong>On {{group.name}}:</strong><br>
-            {% endif %}
-        {% endif %}
+        {%- if group_overrides.header -%}
+            <strong>{{- group_overrides.header -}}</strong><br>
+        {%- else -%}
+            {%- if group.name != "" -%}
+                <strong>On {{- " " | append: group.name -}}:</strong><br>
+            {%- endif -%}
+        {%- endif -%}
 
         {%- comment -%}
         We want to sort by attribute names.
@@ -61,8 +61,8 @@ Each override entry can have the following fields:
          get the format we actually output
         {%- endcomment -%}
 
-        {% assign fake_dict = "" | split: "" %}
-        {% for bonus in group.items %}
+        {%- assign fake_dict = "" | split: "" -%}
+        {%- for bonus in group.items -%}
             {%- capture bonus_data -%}
                 {%- include bonus.html
                     bonus=bonus
@@ -71,37 +71,37 @@ Each override entry can have the following fields:
                 -%}
             {%- endcapture -%}
 
-            {% assign fake_dict_entry = bonus_data
-                                        | strip
-                                        | split: BONUS_SEPERATOR
-                                        | reverse
-                                        | join: BONUS_SEPERATOR %}
-            {% assign fake_dict = fake_dict | push: fake_dict_entry %}
-        {% endfor %}
+            {%- assign fake_dict_entry = bonus_data
+                                         | strip
+                                         | split: BONUS_SEPERATOR
+                                         | reverse
+                                         | join: BONUS_SEPERATOR -%}
+            {%- assign fake_dict = fake_dict | push: fake_dict_entry -%}
+        {%- endfor -%}
 
-        {% assign fake_dict = fake_dict | sort_natural %}
-        {% for entry in fake_dict %}
-            {% assign overrides = group_overrides.overrides | where: "idx", forloop.index | first %}
-            {% if overrides.ignore %}
-                {% continue %}
-            {% endif %}
+        {%- assign fake_dict = fake_dict | sort_natural -%}
+        {%- for entry in fake_dict -%}
+            {%- assign overrides = group_overrides.overrides | where: "idx", forloop.index | first -%}
+            {%- if overrides.ignore -%}
+                {%- continue -%}
+            {%- endif -%}
 
-            {% assign bonus_str = entry | split: BONUS_SEPERATOR | reverse | join: " " %}
-            {% if overrides.replace.to and overrides.replace.from %}
-                {% assign bonus_str = bonus_str
-                                      | replace: overrides.replace.from, overrides.replace.to %}
-            {% endif %}
-            {{bonus_str}}
+            {%- assign bonus_str = entry | split: BONUS_SEPERATOR | reverse | join: " " -%}
+            {%- if overrides.replace.to and overrides.replace.from -%}
+                {%- assign bonus_str = bonus_str
+                                       | replace: overrides.replace.from, overrides.replace.to -%}
+            {%- endif -%}
+            {{- bonus_str -}}
 
             {%- if overrides.footnote -%}
                 {%- include footnote.html id=overrides.footnote -%}
             {%- endif -%}
 
-            {% unless forloop.last %}
+            {%- unless forloop.last -%}
                 <br>
-            {% endunless %}
-        {% endfor %}
-    {% endfor %}
-{% else %}
+            {%- endunless -%}
+        {%- endfor -%}
+    {%- endfor -%}
+{%- else -%}
 -
-{% endif %}
+{%- endif -%}

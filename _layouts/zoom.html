@@ -91,38 +91,38 @@ Each sight entry has the following fields:
     }
 </script>
 
-<h1>{{page.title}}</h1>
+<h1>{{- page.title -}}</h1>
 <div id="container">
     <div id="sidebar">
-        {% for sight in page.sights %}
-            {% if sight.icon %}
-                <img onmouseover="switchView({{ forloop.index0 }})"
-                    onclick="switchView({{ forloop.index0 }})"
-                {% if forloop.first %}
+        {%- for sight in page.sights -%}
+            {%- if sight.icon -%}
+                <img onmouseover="switchView({{- forloop.index0 -}})"
+                    onclick="switchView({{- forloop.index0 -}})"
+                {%- if forloop.first -%}
                     class="selected"
-                {% endif %}
-                    src="{{ sight.icon }}"
-                    title="{{ sight.name }}"
+                {%- endif -%}
+                    src="{{- sight.icon -}}"
+                    title="{{- sight.name -}}"
                 >
-            {% else %}
-                <div onmouseover="switchView({{ forloop.index0 }})"
-                    onclick="switchView({{ forloop.index0 }})"
-                {% if forloop.first %}
+            {%- else -%}
+                <div onmouseover="switchView({{- forloop.index0 -}})"
+                    onclick="switchView({{- forloop.index0 -}})"
+                {%- if forloop.first -%}
                     class="selected"
-                {% endif %}
+                {%- endif -%}
                 >
-                    <span>{{ sight.name }}</span>
+                    <span>{{- sight.name -}}</span>
                 </div>
-            {% endif %}
-        {% endfor %}
+            {%- endif -%}
+        {%- endfor -%}
     </div>
     <div id="display">
-        {% for sight in page.sights %}
-            <img src="{{ sight.src }}"
-            {% unless forloop.first %}
+        {%- for sight in page.sights -%}
+            <img src="{{- sight.src -}}"
+            {%- unless forloop.first -%}
                 hidden
-            {% endunless %}
+            {%- endunless -%}
             >
-        {% endfor %}
+        {%- endfor -%}
     </div>
 </div>

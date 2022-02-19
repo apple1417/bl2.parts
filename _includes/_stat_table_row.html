@@ -25,7 +25,7 @@ Passthrough args to `bonus.html`:
         {%- assign bonus_parts = bonus_data | strip | split: BONUS_SEPERATOR -%}
         {%- if bonus_parts[1] contains stat -%}
             <td>
-                {{bonus_parts[0]}}
+                {{- bonus_parts[0] -}}
                 {%- if include.simple_bonuses -%}
                     </span>
                 {%- endif -%}

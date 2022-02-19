@@ -7,18 +7,18 @@ Args:
     grades: An array of grade slot names, in the order they should be exported.
 {%- endcomment -%}
 
-{% for grade in include.grades %}
-    {% assign bonus = include.part.bonuses | where: "slot", grade | first %}
-    {% unless bonus %}
+{%- for grade in include.grades -%}
+    {%- assign bonus = include.part.bonuses | where: "slot", grade | first -%}
+    {%- unless bonus -%}
         <td>0</td>
-        {% continue %}
-    {% endunless %}
-    {% if bonus.value > 0 %}
-        {% assign class = "good" %}
-        {% assign value = "+" | append: bonus.value %}
-    {% else %}
-        {% assign class = "bad" %}
-        {% assign value = bonus.value | replace: "-", "&minus;" %}
-    {% endif %}
-    <td class="{{class}}">{{value}}</td>
-{% endfor %}
+        {%- continue -%}
+    {%- endunless -%}
+    {%- if bonus.value > 0 -%}
+        {%- assign class = "good" -%}
+        {%- assign value = "+" | append: bonus.value -%}
+    {%- else -%}
+        {%- assign class = "bad" -%}
+        {%- assign value = bonus.value | replace: "-", "&minus;" -%}
+    {%- endif -%}
+    <td class="{{- class -}}">{{- value -}}</td>
+{%- endfor -%}

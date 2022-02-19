@@ -11,11 +11,11 @@ Args:
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>{{page.title}}</title>
+    <title>{{- page.title -}}</title>
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="/colours.css">
     <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
-    {% if page.latex %}
+    {%- if page.latex -%}
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
         <script>
             window.MathJax = {
@@ -33,13 +33,13 @@ Args:
                 }
             };
         </script>
-    {% endif %}
+    {%- endif -%}
 </head>
 <body>
-    {% include nav.html %}
+    {%- include nav.html -%}
     <div class="nav-offset">
         <div class="content">
-            {{content}}
+            {{- content -}}
         </div>
     </div>
     <script>anchors.add("h2, h3");</script>

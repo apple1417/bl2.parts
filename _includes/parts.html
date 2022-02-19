@@ -31,70 +31,70 @@ Each override entry can have the following fields:
 {%- endcomment -%}
 
 
-{% unless include.parts and include.meta %}
+{%- unless include.parts and include.meta -%}
 <span style="font-size: 20em; color: red">ERROR</span>
-    {% break %}
-{% endunless %}
+    {%- break -%}
+{%- endunless -%}
 
-{% assign id = "" %}
-{% if include.id %}
-    {% assign id = 'id="' | append: include.id | append: '"'%}
-{% endif %}
+{%- assign id = "" -%}
+{%- if include.id -%}
+    {%- assign id = 'id="' | append: include.id | append: '" '-%}
+{%- endif -%}
 
-<div {{id}} class="part-container">
-    {% assign sorted_parts = include.parts | sort_natural: "name" %}
-    {% if include.uniques %}
-        {% assign non_unique_parts = sorted_parts | where: "unique", false %}
-        {% assign unique_parts = sorted_parts | where: "unique", true %}
-        {% assign ordered_parts = non_unique_parts | concat: unique_parts %}
-    {% else %}
-        {% assign ordered_parts = sorted_parts | where: "unique", false %}
-    {% endif %}
-    {% for part in ordered_parts %}
-        {% assign overrides = include.overrides | where: "idx", forloop.index | first %}
+<div {{- " " | append: id -}} class="part-container">
+    {%- assign sorted_parts = include.parts | sort_natural: "name" -%}
+    {%- if include.uniques -%}
+        {%- assign non_unique_parts = sorted_parts | where: "unique", false -%}
+        {%- assign unique_parts = sorted_parts | where: "unique", true -%}
+        {%- assign ordered_parts = non_unique_parts | concat: unique_parts -%}
+    {%- else -%}
+        {%- assign ordered_parts = sorted_parts | where: "unique", false -%}
+    {%- endif -%}
+    {%- for part in ordered_parts -%}
+        {%- assign overrides = include.overrides | where: "idx", forloop.index | first -%}
         <div class="part-block">
             <h4>
                 {%- if overrides.name -%}
-                    {{overrides.name | markdownify}}
+                    {{- overrides.name | markdownify -}}
                 {%- else -%}
-                    {{part.name}}
+                    {{- part.name -}}
                 {%- endif -%}
                 {%- if overrides.footnote -%}
                     {%- include footnote.html id=overrides.footnote -%}
                 {%- endif -%}
             </h4>
 
-            {% assign mesh = include.meta.meshes | map: part.mesh | first %}
-            {% if include.mesh_image %}
-                {% if overrides.image_src %}
-                    <img class="{{include.image_class}}" src="{{overrides.image_src}}">
-                {% else %}
-                    <img class="{{include.image_class}}" src="{{mesh.src}}">
-                {% endif %}
-            {% endif %}
-            {% if include.mesh_name %}
-                {% if include.mesh_image %}
+            {%- assign mesh = include.meta.meshes | map: part.mesh | first -%}
+            {%- if include.mesh_image -%}
+                {%- if overrides.image_src -%}
+                    <img class="{{- include.image_class -}}" src="{{- overrides.image_src -}}">
+                {%- else -%}
+                    <img class="{{- include.image_class -}}" src="{{- mesh.src -}}">
+                {%- endif -%}
+            {%- endif -%}
+            {%- if include.mesh_name -%}
+                {%- if include.mesh_image -%}
                     <br>
-                {% endif %}
-                {% if mesh %}
-                    {{mesh.name}} Mesh
-                {% elsif part.mesh %}
-                    <span style="font-size: 2em; color: red">{{part.mesh}}</span> Mesh
-                {% else %}
+                {%- endif -%}
+                {%- if mesh -%}
+                    {{- mesh.name | append: " " -}} Mesh
+                {%- elsif part.mesh -%}
+                    <span style="font-size: 2em; color: red">{{- part.mesh -}}</span> Mesh
+                {%- else -%}
                     No Mesh
-                {% endif %}
-            {% endif %}
+                {%- endif -%}
+            {%- endif -%}
 
-            {% unless include.hide_bonuses %}
+            {%- unless include.hide_bonuses -%}
                 <div class="part-bonuses">
-                    {% include bonus_block.html
+                    {%- include bonus_block.html
                         part=part
                         meta=include.meta
                         simple_bonuses=include.simple_bonuses
                         overrides=overrides.bonus_block
-                    %}
+                    -%}
                 </div>
-            {% endunless %}
+            {%- endunless -%}
         </div>
-    {% endfor %}
+    {%- endfor -%}
 </div>

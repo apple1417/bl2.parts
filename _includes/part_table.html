@@ -14,27 +14,27 @@ Passthrough args to `bonus_block.html`:
 
 <table><thead><tr>
     <th></th>
-    {% for column in include.column_headers %}
-        <th>{{column | markdownify | remove: "<p>" | remove: "</p>"}}</th>
-    {% endfor %}
+    {%- for column in include.column_headers -%}
+        <th>{{- column | markdownify | remove: "<p>" | remove: "</p>" -}}</th>
+    {%- endfor -%}
 </tr></thead><tbody>
-    {% for row in include.table %}
+    {%- for row in include.table -%}
         <tr>
             <th>
-                {{include.row_headers[forloop.index0]
-                  | markdownify
-                  | remove: "<p>"
-                  | remove: "</p>"}}
+                {{- include.row_headers[forloop.index0]
+                    | markdownify
+                    | remove: "<p>"
+                    | remove: "</p>" -}}
             </th>
-            {% for part in row %}
+            {%- for part in row -%}
                 <td class="part-bonuses">
-                    {% include bonus_block.html
+                    {%- include bonus_block.html
                         part=part
                         meta=include.meta
                         simple_bonuses=include.simple_bonuses
-                    %}
+                    -%}
                 </td>
-            {% endfor %}
+            {%- endfor -%}
         </tr>
-    {% endfor %}
+    {%- endfor -%}
 </tbody></table>

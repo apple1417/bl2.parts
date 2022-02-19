@@ -5,8 +5,8 @@ Inserts the navbar. Should be followed by something with the `nav-offset` class.
 <aside class="nav-container">
     <nav>
         <h1><a href="/">bl2.parts</a></h1>
-        {% include _nav_nest.html nav=site.data.nav.parts %}
+        {%- include _nav_nest.html nav=site.data.nav.parts -%}
         <hr>
-        {% include _nav_nest.html nav=site.data.nav.misc classes="nav-misc" %}
+        {%- include _nav_nest.html nav=site.data.nav.misc classes="nav-misc" -%}
     </nav>
 </aside>

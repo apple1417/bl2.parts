@@ -9,21 +9,21 @@ Args:
 {%- endcomment -%}
 
 
-{% assign id = "" %}
-{% if include.id %}
-    {% assign id = 'id="' | append: include.id | append: '"'%}
-{% endif %}
-{% assign image_class = "big" %}
-{% if include.image_class %}
-    {% assign image_class = include.image_class %}
-{% endif %}
+{%- assign id = "" -%}
+{%- if include.id -%}
+    {%- assign id = 'id="' | append: include.id | append: '" '-%}
+{%- endif -%}
+{%- assign image_class = "big" -%}
+{%- if include.image_class -%}
+    {%- assign image_class = include.image_class -%}
+{%- endif -%}
 
-<div {{id}} class="part-container">
-    {% assign sorted_parts = include.parts | sort_natural: "name" %}
-    {% for part in sorted_parts %}
+<div {{- " " | append: id -}} class="part-container">
+    {%- assign sorted_parts = include.parts | sort_natural: "name" -%}
+    {%- for part in sorted_parts -%}
         <div class="part-block">
-            <h4>{{part.name}}</h4>
-            <img class="{{image_class}}" src="{{part.src}}">
+            <h4>{{- part.name -}}</h4>
+            <img class="{{- image_class -}}" src="{{- part.src -}}">
         </div>
-    {% endfor %}
+    {%- endfor -%}
 </div>

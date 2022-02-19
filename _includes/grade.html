@@ -46,8 +46,8 @@ Args:
             {%- assign per_grade = "&minus;" | append: include.grade_stats.per_grade_scale -%}
         {%- else -%}
             {%- assign per_grade = per_grade
-                            | append: "&times;"
-                            | append: include.grade_stats.per_grade_scale -%}
+                                   | append: "&times;"
+                                   | append: include.grade_stats.per_grade_scale -%}
         {%- endif -%}
     {%- endif -%}
 
@@ -65,7 +65,7 @@ Args:
         {%- assign per_grade = per_grade | append: ")" -%}
     {%- endif -%}
 
-    {{base}} {{per_grade}}
+    {{- base -}}{{- " " -}}{{- per_grade -}}
 {%- else -%}
     -
 {%- endif -%}

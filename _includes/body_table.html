@@ -14,39 +14,39 @@ Passthrough args to `bonus.html`:
                      good/bad instead of proper bonus type.
 {%- endcomment -%}
 
-{% assign BONUS_ORDER = "Mag Size,Weapon Damage,Weapon Spread" | split: "," | sort_natural %}
-{% assign RARITY_ORDER = "common,uncommon,rare" | split: "," %}
+{%- assign BONUS_ORDER = "Mag Size,Weapon Damage,Weapon Spread" | split: "," | sort_natural -%}
+{%- assign RARITY_ORDER = "common,uncommon,rare" | split: "," -%}
 
 <table><thead><tr>
     <th>Rarity</th>
-    {% for bonus in BONUS_ORDER %}
-        <th>{{bonus}}</th>
-    {% endfor %}
+    {%- for bonus in BONUS_ORDER -%}
+        <th>{{- bonus -}}</th>
+    {%- endfor -%}
 </tr></thead><tbody>
-    {% for rarity in RARITY_ORDER %}
+    {%- for rarity in RARITY_ORDER -%}
         <tr>
-            <td class="{{rarity}}">{{rarity | capitalize}}</td>
-            {% assign part_name = include | map: rarity | first %}
-            {% assign part = include.body_list | where: "_obj_name", part_name | first %}
-            {% include _stat_table_row.html
+            <td class="{{- rarity -}}">{{- rarity | capitalize -}}</td>
+            {%- assign part_name = include | map: rarity | first -%}
+            {%- assign part = include.body_list | where: "_obj_name", part_name | first -%}
+            {%- include _stat_table_row.html
                 part=part
                 meta=include.meta
                 stats=BONUS_ORDER
                 simple_bonuses=include.simple_bonuses
-            %}
+            -%}
         </tr>
-    {% endfor %}
+    {%- endfor -%}
     {%- comment -%} Manually doing very rare cause the space makes things awkward {%- endcomment -%}
     <tr>
         <td class="very-rare">Very Rare</td>
-        {% assign part = include.body_list
-                         | where: "_obj_name", include.very_rare
-                         | first %}
-        {% include _stat_table_row.html
+        {%- assign part = include.body_list
+                          | where: "_obj_name", include.very_rare
+                          | first -%}
+        {%- include _stat_table_row.html
             part=part
             meta=include.meta
             stats=BONUS_ORDER
             simple_bonuses=include.simple_bonuses
-        %}
+        -%}
     </tr>
 </tbody></table>
