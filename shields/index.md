@@ -110,9 +110,9 @@ definition_slot_order:
         font-size: 1.4em;
     }
 </style>
-{%- comment -%}
+{% comment %}
 This table is unique enough that it's easier to just create it here.
-{%- endcomment -%}
+{% endcomment %}
 <table id="part-table" class="border"><thead><tr>
     <th>Manufacturer</th>
     <th>Accessory</th><th>Battery <br> Body <br> Capacitor</th>
@@ -121,9 +121,9 @@ This table is unique enough that it's easier to just create it here.
     {% assign sorted_part_table = page.part_table.entries | sort_natural: "name" %}
     {% for part in sorted_part_table %}
         <tr>
-            <td>{{part.name}}</td>
-            <td><img class="small" src="/shields/^images/accessories/{{part.img}}"></td>
-            <td><img class="small" src="/shields/^images/parts/{{part.img}}"></td>
+            <td>{{ part.name }}</td>
+            <td><img class="small" src="/shields/^images/accessories/{{ part.img }}"></td>
+            <td><img class="small" src="/shields/^images/parts/{{ part.img }}"></td>
             {% assign body = site.data.shields.alpha | where: "_obj_name", part.body | first %}
             {% include _grade_stat_table_row.html part=body grades=page.part_table.grades %}
         </tr>
@@ -252,7 +252,7 @@ exceptions.
 {% assign ordered_definitions = non_unique_definitions | concat: unique_definitions %}
 {% for definition in ordered_definitions %}
     <tr>
-        <td>{{definition.name}}</td>
+        <td>{{ definition.name }}</td>
             {% for slot in page.definition_slot_order %}
                 {% assign grade_stats = definition.grades | where: "slot", slot | first %}
                 {% unless grade_stats %}
@@ -278,11 +278,11 @@ exceptions.
                 {% endif %}
 
                 <td>
-                    <span class="{{grade_stats.type}} per-grade">
-                        {%- include grade.html grade_stats=grade_stats -%}
+                    <span class="{{ grade_stats.type }} per-grade">
+                        {% include grade.html grade_stats=grade_stats %}
                     </span>
                     {%- if forloop.index > 3 -%}
-                        <br>{{attr_name | markdownify | remove: "<p>" | remove: "</p>"}}
+                        <br>{{ attr_name | markdownify | remove: "<p>" | remove: "</p>" }}
                     {%- endif -%}
                 </td>
             {% endfor %}

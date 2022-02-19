@@ -271,7 +271,7 @@ They also define all grade bonuses, and how exactly they get converted into stan
 Definitions do not neccessarily define all grade slots, if a slot's undefined then no grade bonuses
 will be applied to it.
 
-{%- comment -%}
+{% comment %}
 This is heavily based on the definition table, but there are enough differences that it's easier to
 just recreate it here.
 
@@ -282,7 +282,7 @@ We also want one definition per row, rather than per column, cause otherwise the
 wider than the rest of the page.
 
 With the table transposed, we also don't really care about merging identical cells anymore.
-{%- endcomment -%}
+{% endcomment %}
 <style>
     #grades {
         overflow-x: scroll;
@@ -325,7 +325,7 @@ With the table transposed, we also don't really care about merging identical cel
 {% for definition in sorted_definitions %}
     <tr>
         <th>
-          {{definition.name}}
+          {{ definition.name }}
           {%- if page.definitions.footnotes contains definition.name -%}
               {%- assign footnote_id = page.definitions.footnotes | map: definition.name | first -%}
               {%- include footnote.html id=footnote_id -%}
@@ -339,7 +339,7 @@ With the table transposed, we also don't really care about merging identical cel
                 {% continue %}
             {% endunless %}
 
-            <td class="{{grade_stats.type}} per-grade">
+            <td class="{{ grade_stats.type }} per-grade">
                 {%- include grade.html grade_stats=grade_stats -%}
             </td>
         {% endfor %}

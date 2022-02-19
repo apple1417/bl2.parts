@@ -70,7 +70,7 @@
         <div id="info">
             {% assign sorted_items = site.data.nav.misc | sort_natural: "title" %}
             {% for item in sorted_items %}
-                <a href="{{item.url}}">{{item.title}}</a>
+                <a href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
         </div>
         <div id="footer">

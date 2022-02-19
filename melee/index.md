@@ -20,7 +20,7 @@ melee damage. Most of these have the same standard formula, but some are slightl
 }
 </style>
 <table id="melee_formula_table" class="left"><tr>
-    <th>Standard {%- include footnote.html id="accessory" %}</th>
+    <th>Standard{% include footnote.html id="accessory" %}</th>
     <td>
         <code class="latex-fallback">
             Melee Bonus &times; 2.5 &times; (8 &times; &beta; + Roid Bonus)
@@ -48,7 +48,7 @@ melee damage. Most of these have the same standard formula, but some are slightl
         </div>
     </td>
 </tr><tr>
-    <th>Nisha {%- include footnote.html id="thunder_crackdown" %}</th>
+    <th>Nisha{% include footnote.html id="thunder_crackdown" %}</th>
     <td>
         <code class="latex-fallback">
             Melee Bonus &times; 1.875 &times; (8 &times; &beta; + Roid Bonus)
@@ -90,7 +90,7 @@ melee damage. Most of these have the same standard formula, but some are slightl
         </div>
     </td>
 </tr><tr>
-    <th>Deathtrap Frenzy{%- include footnote.html id="frenzy_end" %}</th>
+    <th>Deathtrap Frenzy{% include footnote.html id="frenzy_end" %}</th>
     <td>
         <code class="latex-fallback">
             Melee Bonus &times; 0.62 &times;
