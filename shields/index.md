@@ -137,7 +137,7 @@ This table is unique enough that it's easier to just create it here.
 # More Info
 Shields are made out of 4 main visible parts.
 
-{% include part_reference.html parts=page.part_reference %}
+{% include part_reference.html parts=page.part_reference image_class="med" %}
 
 Internally the Accessory and Body were swapped at some point, leading to the misleading names.
 
