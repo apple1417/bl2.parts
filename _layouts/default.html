@@ -4,6 +4,7 @@
 Default page layout.
 
 Args:
+    hide_sidebar: If to hide the sidebar.
     latex: If to include MathJax to display latex.
 {%- endcomment -%}
 
@@ -36,11 +37,15 @@ Args:
     {%- endif -%}
 </head>
 <body>
-    {%- include nav.html -%}
-    <div class="nav-offset">
-        <div class="content">
-            {{- content -}}
+    {%- unless page.hide_sidebar -%}
+        {%- include nav.html -%}
+        <div class="nav-offset">
+    {%- endunless -%}
+            <div class="content">
+                {{- content -}}
+            </div>
+    {%- unless page.hide_sidebar -%}
         </div>
-    </div>
+    {%- endunless -%}
     <script>anchors.add("h2, h3");</script>
 </body>
