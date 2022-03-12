@@ -377,7 +377,7 @@
   multi_good: true
 
 - obj: D_Attributes.DamageTypeModifers.NormalImpactDamageModifier
-  name: Impact Damage Modifier (Non-Elemental)
+  name: Impact Damage Modifier (*Non-Elemental*{:.non-elemental})
   description: Increases the damage getting hit by non-elemental projectiles deals multiplicatively.
   percent: true
   add_good: false

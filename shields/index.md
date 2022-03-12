@@ -94,14 +94,31 @@ materials:
       - Recharge Rate
       - Recharge Delay
 
-definition_slot_order:
-  - Capacity
-  - RechargeRate
-  - RechargeDelay
-  - Special01
-  - Special02
-  - Special03
-  - Special04
+definitions:
+  main_slot_order:
+    - Capacity
+    - RechargeRate
+    - RechargeDelay
+    - Special01
+    - Special02
+    - Special03
+    - Special04
+    - CorrosiveResist
+    - IceResist
+    - FireResist
+    - ShockResist
+  activate_only:
+    - obj: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
+      slots:
+        - DeflectChance
+    - obj: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
+      slots:
+        - NormalDamageResist
+        - FireDamageResist
+        - ShockDamageResist
+        - CorrosiveDamageResist
+        - ExplosiveDamageResist
+        - SlagDamageResist
 ---
 # Shield Parts Guide
 
@@ -215,12 +232,18 @@ To start with, they define the base values for all stats stored on the grenade. 
 weapons, this is simply done using regular *pre-add*{:.pre-add} bonuses, so see the
 [full parts reference](/shields/all_parts/#definitions) for details.
 
-They also define all grade bonuses, and how exactly they get converted into standard bonuses. This
-is especially important as shields make great use of generic special slots, which map into whatever
-effect the shield type actually has. There are actually 4 special slots, so far this page has
-simplified them all into one. Most parts (including all non-uniques) boost Special 01 and 02
-equally, and don't touch 03 and 04. Again, see the [full parts reference](/shields/all_parts/) for
-exceptions.
+They also define all grade bonuses, and how exactly they get converted into standard bonuses. Grade
+bonuses have a few special uses on shields.
+
+Shield special is perhaps the best use of the grade system. A single generic special slot can have
+different effects based on the shield type, so the non unique parts can provide bonuses to any of
+them. There are actually 4 special slots, so far this page has simplified them all into one. Most
+parts (including all non-uniques) boost Special 01 and 02 equally, and don't touch 03 and 04, though
+again, see the [full parts reference](/shields/all_parts/) for exceptions.
+
+Elemental immunities are another interesting use of grades. The immunity is defined entirely by the
+base value of the grade bonus, and parts simply *activate* the slot, without adding any grades.
+Because of this, a bonus with value 0 actually still has an effect.
 
 <style>
     #grades {
@@ -235,61 +258,135 @@ exceptions.
     <th rowspan="2">Recharge Delay</th>
     <th rowspan="2">Recharge Rate</th>
     <th colspan="4">Special</th>
+    <th colspan="4">Status Chance Resistance</th>
   </tr><tr>
     <th>01</th>
     <th>02</th>
     <th>03</th>
     <th>04</th>
+    <th>Corrosive</th>
+    <th>Cryo</th>
+    <th>Fire</th>
+    <th>Shock</th>
   </tr>
 </thead><tbody>
 
-{% assign non_unique_definitions = site.data.shields.meta.definitions
-                                   | where: "unique", false
-                                   | sort_natural: "name" %}
-{% assign unique_definitions = site.data.shields.meta.definitions
-                               | where: "unique", true
-                               | sort_natural: "name" %}
-{% assign ordered_definitions = non_unique_definitions | concat: unique_definitions %}
-{% for definition in ordered_definitions %}
+{%- assign non_unique_definitions = site.data.shields.meta.definitions
+                                    | where: "unique", false
+                                    | sort_natural: "name" -%}
+{%- assign unique_definitions = site.data.shields.meta.definitions
+                                | where: "unique", true
+                                | sort_natural: "name" -%}
+{%- assign ordered_definitions = non_unique_definitions | concat: unique_definitions -%}
+{%- for definition in ordered_definitions -%}
     <tr>
-        <td>{{ definition.name }}</td>
-            {% for slot in page.definition_slot_order %}
-                {% assign grade_stats = definition.grades | where: "slot", slot | first %}
-                {% unless grade_stats %}
+        <td>{{- definition.name -}}</td>
+            {%- for slot in page.definitions.main_slot_order -%}
+                {%- assign grade_stats = definition.grades | where: "slot", slot | first -%}
+                {%- unless grade_stats -%}
                     <td>-</td>
-                    {% continue %}
-                {% endunless %}
+                    {%- continue -%}
+                {%- endunless -%}
 
-                {% assign attr = site.data.attributes
-                                 | where: "obj", grade_stats.attribute
-                                 | first %}
-                {% if attr %}
-                    {% assign attr_name = attr.name %}
-                {% else %}
-                    {% assign attr_name = '<span style="color: blue">'
-                                          | append: grade_stats.attribute
-                                          | append: "</span>" %}
-                {% endif %}
-                {% if grade_stats.constraint %}
-                    {% assign attr_name = attr_name
-                                          | append: " ("
-                                          | append: grade_stats.constraint
-                                          | append: ")" %}
-                {% endif %}
+                {%- assign attr = site.data.attributes
+                                  | where: "obj", grade_stats.attribute
+                                  | first -%}
+                {%- if attr -%}
+                    {%- assign attr_name = attr.name -%}
+                {%- else -%}
+                    {%- assign attr_name = '<span style="color: blue">'
+                                           | append: grade_stats.attribute
+                                           | append: "</span>" -%}
+                {%- endif -%}
+                {%- if grade_stats.constraint -%}
+                    {%- assign attr_name = attr_name
+                                           | append: " ("
+                                           | append: grade_stats.constraint
+                                           | append: ")" -%}
+                {%- endif -%}
 
                 <td>
-                    <span class="{{ grade_stats.type }} per-grade">
-                        {% include grade.html grade_stats=grade_stats %}
+                    <span class="{{- grade_stats.type | append: " " -}} per-grade">
+                        {%- include grade.html grade_stats=grade_stats -%}
                     </span>
                     {%- if forloop.index > 3 -%}
-                        <br>{{ attr_name | markdownify | remove: "<p>" | remove: "</p>" }}
+                        <br>{{- attr_name | markdownify | remove: "<p>" | remove: "</p>" -}}
                     {%- endif -%}
                 </td>
-            {% endfor %}
+            {%- endfor -%}
     </tr>
-{% endfor %}
+{%- endfor -%}
 
 </tbody></table>
 </div>
+
+A few shields have some extra unique grade slots, which only get activated by their definitions, but
+nothing else, and never have any grades added. These are essentially just extra constant bonuses,
+which go through the grade system as an extra step.
+
+{%- assign DEF_GRADES_SEPERATOR = ":^:" -%}
+{%- assign GRADES_SEPERATOR = "&|^|&" -%}
+{%- assign activate_only_defs = "" | split: "" -%}
+{%- for def_info in page.definitions.activate_only -%}
+    {%- assign definition = site.data.shields.meta.definitions
+                           | where: "_obj_name", def_info.obj
+                           | first -%}
+    {%- assign all_grade_bonuses = "" | split: "" -%}
+    {%- for slot in def_info.slots -%}
+        {%- assign grade_stats = definition.grades | where: "slot", slot | first -%}
+        {%- assign attr = site.data.attributes
+                         | where: "obj", grade_stats.attribute
+                         | first -%}
+
+        {%- capture grade_bonus -%}
+            {{- attr.name | markdownify | remove: "<p>" | remove: "</p>" | prepend: " " -}}
+            {{- GRADES_SEPERATOR -}}
+            <span class="{{- grade_stats.type | append: " " -}} per-grade">
+                {%- include grade.html grade_stats=grade_stats -%}
+            </span><br>
+        {%- endcapture -%}
+
+        {%- assign all_grade_bonuses = all_grade_bonuses | push: grade_bonus -%}
+    {%- endfor -%}
+
+    {%- assign all_grade_bonuses = all_grade_bonuses | sort_natural -%}
+    {%- assign row = definition.name | append: DEF_GRADES_SEPERATOR -%}
+    {%- for grade_bonus in all_grade_bonuses -%}
+        {%- assign grade_data = grade_bonus | split: GRADES_SEPERATOR | reverse | join: "" -%}
+        {%- assign row = row | append: grade_data -%}
+        {%- unless forloop.last -%}
+            {%- assign row = row | append: "<br>" -%}
+        {%- endunless -%}
+    {%- endfor -%}
+
+    {%- assign activate_only_defs = activate_only_defs | push: row -%}
+{%- endfor -%}
+
+{% assign activate_only_defs = activate_only_defs | sort_natural %}
+<div class="part-container">
+    {%- for def in activate_only_defs -%}
+        {%- assign def_data = def | split: DEF_GRADES_SEPERATOR -%}
+        <div class="part-block">
+            <h4>{{- def_data[0] -}}</h4>
+            <div class="part-bonuses">{{- def_data[1] -}}</div>
+        </div>
+    {%- endfor -%}
+</div>
+
+{%- comment -%}
+{% assign ignored_slots = "ExplosiveDamageResistance" | split: "," %}
+{% for definition in ordered_definitions %}
+    {% assign extra_slots = "" | split: "" %}
+    {% for stats in definition.grades %}
+        {% unless page.definitions.main_slot_order contains stats.slot
+                  or ignored_slots contains stats.slot %}
+            {% assign extra_slots = extra_slots | push: stats.slot %}
+        {% endunless %}
+    {% endfor %}
+    {% if extra_slots %}
+        {{definition.name}} - {{extra_slots | join: " "}}
+    {% endif %}
+{% endfor %}
+{%- endcomment -%}
 
 </details>
