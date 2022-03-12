@@ -23,11 +23,14 @@ The Target's Status Chance Resistance also plays a role.
 
 The final value is the Surface Chance Modifier, which is hardcoded based on element and surface.
 
-Surface Type | *Fire*{:.fire} | *Shock*{:.shock} | *Corrosive*{:.corrosive} | *Slag*{:.slag} | *Cryo*{:.cryo}
+Surface Type | *Corrosive*{:.corrosive} | *Cryo*{:.cryo} | *Fire*{:.fire} | *Shock*{:.shock} | *Slag*{:.slag} 
 ---|---|---|---|---|---
-Generic | 20% | 20% | 20% | 30% | 15%
-Flesh   | 30% | 15% | 15% | 30% | 15%
-Armor   | 15% | 15% | 30% | 30% | 15%
-Shield  | 15% | 75% | 15% | 30% |  5%
+Generic | 20% | 15% | 20% | 20% | 30% 
+Flesh   | 15% | 15% | 30% | 15% | 30% 
+Armor   | 30% | 15% | 15% | 15% | 30% 
+Shield  | 15% |  5% | 15% | 75% | 30% 
 
 Item cards use the Generic value, along with a Target Status Chance Resistance of 1.
+
+
+Impact Damage Modifier (*Non-Elemental*{:.n})
