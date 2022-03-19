@@ -3327,6 +3327,12 @@ meta:
       type: scale
     name: Torgue
     unique: false
+  grade_overrides:
+   # Both used by the Moonface
+    ProjectilesPerShot:
+      hide: true
+    WeaponFireInterval:
+      hide: true
   meshes:
     Acc_Bayonet1:
       name: Bayonet 1

@@ -6,6 +6,8 @@ Outputs in the format `<value>&|^|&<name>`.
 The seperator `&|^|&` is exported in the variable `BONUS_SEPERATOR`. You can convert to a usable
  string by simply replacing it with a space.
 
+May output an empty string, if the bonus is a grade which is hidden by the item metadata.
+
 Args:
     bonus: The bonus entry to process.
     meta: The relevant item metadata.
@@ -15,6 +17,7 @@ Args:
 
 {%- assign BONUS_SEPERATOR = "&|^|&" -%}
 {%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
+{%- assign output = "" -%}
 {%- if include.bonus.slot -%}
     {%- assign grade_override = include.meta.grade_overrides | map: include.bonus.slot | first -%}
     {%- assign grade_stats = standard_definition.grades
@@ -122,44 +125,64 @@ Args:
         {%- endif -%}
     {%- endif -%}
 
-    <span class="{{- bonus_class -}}">{{- actual_value -}}
+    {%- assign output = output
+                       | append: '<span class="'
+                       | append: bonus_class
+                       | append: '">'
+                       | append: actual_value -%}
     {%- comment -%} Deliberately leave the span unclosed for now {%- endcomment -%}
 
 {%- else -%}
-    <span class="{{- include.bonus.type -}}">
+    {%- assign output = output
+                       | append: '<span class="'
+                       | append: include.bonus.type
+                       | append: '">' -%}
     {%- if include.bonus.value > 0 -%}
-        +
+        {%- assign output = output | append: "+" -%}
     {%- endif -%}
     {%- if include.bonus.scale -%}
         {%- if include.bonus.value == 1 -%}
-            {{- inner_base.scale -}}
+            {%- assign output = output | append: include.bonus.scale -%}
         {%- elsif include.bonus.value == -1 -%}
-            &minus;{{- inner_base.scale -}}
+            {%- assign output = output | append: "&minus;" | append: include.bonus.scale -%}
         {%- else -%}
-            {{- include.bonus.value -}}&times;{{- include.bonus.scale -}}
+            {%- assign output = output
+                               | append: include.bonus.value
+                               | append: "&times;"
+                               | append: include.bonus.scale -%}
         {%- endif -%}
     {%- else -%}
-        {{- include.bonus.value -}}
+        {%- assign output = output | append: include.bonus.value -%}
     {%- endif -%}
-    </span>
+    {%- assign output = output | append: "</span>" -%}
 {%- endif -%}
 
-{{- BONUS_SEPERATOR -}}
+{%- assign output = output | append: BONUS_SEPERATOR -%}
 
 {%- if attr -%}
     {%- assign name = attr.name -%}
     {%- if include.bonus.slot and grade_stats.constraint -%}
         {%- assign name = name | append: " (" | append: grade_stats.constraint | append: ")" -%}
     {%- endif -%}
-    {{- name | markdownify | remove: "<p>" | remove: "</p>" -}}
+    {%- assign name = name | markdownify | remove: "<p>" | remove: "</p>" -%}
+    {%- assign output = output | append: name -%}
 {%- elsif include.bonus.slot -%}
-    <span style="font-size: 2em; color: red">{{- include.bonus.slot -}}</span>
+    {%- assign output = output
+                        | append: '<span style="font-size: 2em; color: red">'
+                        | append: include.bonus.slot
+                        | append: '</span>' -%}
 {%- else -%}
-    <span style="font-size: 2em; color: red">{{- include.bonus.attribute
-                                                   | split: "."
-                                                   | last -}}</span>
+    {%- assign attr_name = include.bonus.attribute | split: "." | last -%}
+    {%- assign output = output
+                    | append: '<span style="font-size: 2em; color: red">'
+                    | append: attr_name
+                    | append: '</span>' -%}
 {%- endif -%}
 
 {%- if include.simple_bonuses -%}
-    </span>
+    {%- assign output = output | append: "</span>" -%}
 {%- endif -%}
+
+{%- unless include.bonus.slot and grade_override.hide -%}
+    {{- output -}}
+{%- endunless -%}

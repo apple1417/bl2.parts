@@ -95,12 +95,14 @@ grade_overrides:
   Special01:
     name: Special 01
     add_good: true
+    hide: false
 ```
 
 Field | Usage
 :---|:---
 `name` | The grade slot's display name.
 `add_good` | If adding to the value gives a good outcome.
+`hide` | If to hide the grade slot - to be used if it doesn't actually exist.
 
 When displaying simple bonuses, any grades defined using these won't get their values converted, they'll show the raw grade bonus.
 Technically you can add the `percent` field too, these entries get interpreted by some of the same scripts as attributes, but it would be nonsensical.

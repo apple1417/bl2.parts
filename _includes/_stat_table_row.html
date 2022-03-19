@@ -22,6 +22,9 @@ Passthrough args to `bonus.html`:
                 simple_bonuses=include.simple_bonuses
             -%}
         {%- endcapture -%}
+        {%- if bonus_data == "" -%}
+            {%- continue -%}
+        {%- endif -%}
         {%- assign bonus_parts = bonus_data | strip | split: BONUS_SEPERATOR -%}
         {%- if bonus_parts[1] contains stat -%}
             <td>
