@@ -1,4 +1,5 @@
 ---
+description: How accuracy, and the various accuracy attributes, work.
 attributes:
   - D_Attributes.Weapon.WeaponSpread
   - D_Attributes.AccuracyResourcePool.AccuracyMinValue

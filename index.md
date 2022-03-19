@@ -1,5 +1,6 @@
 ---
 hide_sidebar: true
+title: Home
 ---
 
 # BL2/TPS Parts Guides

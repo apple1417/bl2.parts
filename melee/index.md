@@ -1,4 +1,5 @@
 ---
+description: How melee damage, and the various melee attributes, work.
 latex: true
 ---
 

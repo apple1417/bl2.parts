@@ -1,3 +1,7 @@
+---
+description: All attributes that item parts boost, and their effects.
+---
+
 # Attribute Reference
 This page lists all the attributes that the various part pages refer to, what they control, and what
 exactly happens when a bonus makes their value larger (more positive). You can assume all attributes

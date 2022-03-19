@@ -1,4 +1,5 @@
 ---
+description: How to calculate item stats from scratch.
 latex: true
 ---
 # Calculation Guide

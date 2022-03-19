@@ -1,4 +1,5 @@
 ---
+description: How status effect chance, and the various status chance attributes, work.
 chance_attributes:
 - D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
 - D_Attributes.Weapon.WeaponStatusEffectChanceModifier

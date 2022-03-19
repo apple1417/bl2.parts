@@ -1,6 +1,19 @@
 plugins:
   - jekyll-seo-tag
-tagline: BL2/TPS Part Guides
 theme: null
 title: bl2parts
 url: https://bl2.parts
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      description: BL2/TPS Part Guides
+  - scope:
+      path: "*/all_parts/index.md"
+    values:
+      description: All parts, including uniques, and the exact bonuses they give.
+  - scope:
+      path: "*/zoom/index.md"
+    values:
+      description: Just how far each sight zooms you in.
