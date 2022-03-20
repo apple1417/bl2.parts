@@ -33,5 +33,7 @@ misc:
         url: /attributes/melee/
       - title: Status Effect Chance
         url: /attributes/statuschance/
+      - title: Continuous Damage
+        url: /attributes/continuous/
   - title: Calculations Guide
     url: /calculations/

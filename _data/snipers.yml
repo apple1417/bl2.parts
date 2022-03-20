@@ -1,0 +1,3595 @@
+accessories:
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Bayonet1
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Barrel_Bayonet1
+  name: Bayonet (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod1_Accuracy
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: Acc_Barrel_Bipod
+  name: Bipod 1 Accuracy (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod2_Critical
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.2
+  mesh: Acc_Barrel_Bipod2
+  name: Bipod 2 Crit (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Foregrip_Stability
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 6
+  - slot: AccuracyMax
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  mesh: Acc_Barrel_ForeGrip
+  name: Foregrip (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount1_Mag
+  bonuses:
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -3
+  mesh: Acc_Scope_Mount1
+  name: Mount 1 Mag (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount2_FireRate
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 6
+  - slot: WeaponDamage
+    type: grade
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponAdditionalRicochets
+    restrict: Jakobs
+    type: pre-add
+    value: 2
+  mesh: Acc_Scope_Mount2
+  name: Mount 2 Firerate (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount3_Damage
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -6
+  mesh: Acc_Scope_Mount3
+  name: Mount 3 Damage (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniperl_Accessory_None
+  name: '"No Accessory" (Anemone)'
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Bayonet1
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Barrel_Bayonet1
+  name: Bayonet
+  prefixes:
+  - name: Cartel
+    restrict: Dahl
+  - name: Contingent
+    restrict: Hyperion
+  - name: Tl'kope
+    restrict: Jakobs
+  - name: Sublime
+    restrict: Maliwan
+  - name: Conditional
+    restrict: Old Hyperion
+  - name: Britva
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod1_Accuracy
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: Acc_Barrel_Bipod
+  name: Bipod 1 Accuracy
+  prefixes:
+  - name: Surgical
+    restrict: Dahl
+  - name: Longitudinal
+    restrict: Hyperion
+  - name: Siah-siah
+    restrict: Jakobs
+  - name: Dandy
+    restrict: Maliwan
+  - name: Client-Focused
+    restrict: Old Hyperion
+  - name: Zammechat
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod2_Critical
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.2
+  mesh: Acc_Barrel_Bipod2
+  name: Bipod 2 Crit
+  prefixes:
+  - name: Night
+    restrict: Dahl
+  - name: Venture
+    restrict: Hyperion
+  - name: Tumtum
+    restrict: Jakobs
+  - name: Gentleman's
+    restrict: Maliwan
+  - name: Enterprise
+    restrict: Old Hyperion
+  - name: Razrez
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Foregrip_Stability
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 6
+  - slot: AccuracyMax
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  mesh: Acc_Barrel_ForeGrip
+  name: Foregrip
+  prefixes:
+  - name: Liquid
+    restrict: Dahl
+  - name: Cohesion
+    restrict: Hyperion
+  - name: Chikamin
+    restrict: Jakobs
+  - name: Fashionable
+    restrict: Maliwan
+  - name: Stability
+    restrict: Old Hyperion
+  - name: Dobby
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount1_Mag
+  bonuses:
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -3
+  mesh: Acc_Scope_Mount1
+  name: Mount 1 Mag
+  prefixes:
+  - name: Operational
+    restrict: Dahl
+  - name: Resource
+    restrict: Hyperion
+  - name: Hyiu
+    restrict: Jakobs
+  - name: Monstrous
+    restrict: Maliwan
+  - name: Capital
+    restrict: Old Hyperion
+  - name: Bolshy
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount2_FireRate
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 6
+  - slot: WeaponDamage
+    type: grade
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponAdditionalRicochets
+    restrict: Jakobs
+    type: pre-add
+    value: 2
+  mesh: Acc_Scope_Mount2
+  name: Mount 2 Firerate
+  prefixes:
+  - name: Suppressive
+    restrict: Dahl
+  - name: Operational
+    restrict: Hyperion
+  - name: Klook
+    restrict: Jakobs
+  - name: Banbury
+    restrict: Maliwan
+  - name: Streamlined
+    restrict: Old Hyperion
+  - name: Skorry
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount3_Damage
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -6
+  mesh: Acc_Scope_Mount3
+  name: Mount 3 Damage
+  prefixes:
+  - name: Pacifying
+    restrict: Dahl
+  - name: Auditing
+    restrict: Hyperion
+  - name: Skookum
+    restrict: Jakobs
+  - name: Barking
+    restrict: Maliwan
+  - name: Investment
+    restrict: Old Hyperion
+  - name: Gromky
+    restrict: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Accessory.Sniperl_Accessory_None
+  name: '"No Accessory"'
+  unique: false
+barrels:
+- _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Dahl
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Dahl
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Dahl + Zoom
+    type: pre-add
+    value: 2
+  mesh: SR_Barrel_Dahl
+  name: Dahl (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 3
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Hyperion
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Hyperion
+    type: pre-add
+    value: -0.15
+  mesh: SR_Barrel_Hyperion
+  name: Hyperion (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Morde_Lt
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.WeaponBullet.WeaponBulletSpeed
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.DamageSourceShieldPenetration.PercentChanceInstigatedBulletDmgIgnoresShields
+    type: pre-add
+    value: 100
+  mesh: SR_Barrel_Hyperion
+  name: 'Amigo Sincero '
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Jakobs
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Jakobs
+    type: pre-add
+    value: -0.15
+  mesh: SR_Barrel_Jakobs
+  name: Jakobs (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict: Maliwan
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: SR_Barrel_Maliwan
+  name: Maliwan (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Vladof
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: WeaponFireRate
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Vladof
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 4
+  mesh: SR_Barrel_Vladof
+  name: Vladof (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weapons.sniper.SR_Barrel_Dahl_Chaude_Mama
+  bonuses:
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - slot: WeaponFireRate
+    type: grade
+    value: 31
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 7
+  mesh: SR_Barrel_Dahl
+  name: Hot Mama
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_WetWeek
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: -5
+  mesh: SR_Barrel_Dahl
+  name: Wet Week
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Invader
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Zoom
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict: Zoom
+    type: scale
+    value: -7
+  mesh: SR_Barrel_Hyperion
+  name: Invader (TPS)
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Razorback
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.5
+  mesh: SR_Barrel_Jakobs
+  name: Razorback
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Skullmasher
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 1
+  mesh: SR_Barrel_Jakobs
+  name: Skullmasher (TPS)
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan_Magma
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.05
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict: Maliwan
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: SR_Barrel_Maliwan
+  name: Magma
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Vladof_Longnail
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: WeaponFireRate
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: -20
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.DamageSourceShieldPenetration.PercentChanceInstigatedBulletDmgIgnoresShields
+    type: pre-add
+    value: 100
+  mesh: SR_Barrel_Vladof
+  name: Longnail
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Vladof_TheMachine
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: WeaponFireRate
+    type: grade
+    value: 20
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Vladof
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: pre-add
+    value: 0.05
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: pre-add
+    value: 1
+  mesh: SR_Barrel_Vladof
+  name: The Machine
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.sniper.SR_Barrel_Maliwan_Storm
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: SR_Barrel_Maliwan
+  name: Storm
+  unique: true
+- _obj_name: GD_Iris_Weapons.SniperRifles.SR_Barrel_Dahl_Cobra
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  mesh: SR_Barrel_Dahl
+  name: Cobra
+  unique: true
+- _obj_name: GD_Lobelia_Weapons.sniper.SR_Barrel_Dahl_Godfinger
+  bonuses:
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -1.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.3
+  mesh: SR_Barrel_Dahl
+  name: Godfinger
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.SR_Barrel_Hyperion_5_OmniCannon
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 3
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Hyperion
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -3
+  mesh: SR_Barrel_Hyperion
+  name: Omni-Cannon
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.SniperRifles.SR_Barrel_Dahl_Pimpernel
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Dahl
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Dahl + Zoom
+    type: pre-add
+    value: 2
+  mesh: SR_Barrel_Dahl
+  name: Pimpernel
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.sniper.Patriot.Orchid_Seraph_Patriot_Barrel
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -20
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.6
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 2.5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.35
+  mesh: SR_Barrel_Vladof
+  name: Patriot
+  unique: true
+- _obj_name: GD_Petunia_Weapons.Snipers.SR_Barrel_Plunkett
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -2
+  - slot: WeaponMagSize
+    type: grade
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Jakobs
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Jakobs
+    type: pre-add
+    value: -0.15
+  mesh: SR_Barrel_Jakobs
+  name: Plunkett
+  unique: true
+- _obj_name: GD_Sage_RaidWeapons.sniper.Sniper_Barrel_HawkEye
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponSpread
+    type: grade
+    value: 10
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+    type: pre-add
+    value: -10
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 4.2
+  mesh: SR_Barrel_Jakobs
+  name: Hawk Eye
+  unique: true
+- _obj_name: GD_Sage_Weapons.SniperRifles.SR_Barrel_Hyperion_ElephantGun
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.35
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.1
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 0.75
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: -1
+  mesh: SR_Barrel_Hyperion
+  name: Elephant Gun
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Alien_Longbow
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.35
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -0.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.8
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.5
+  mesh: SR_Barrel_Alien
+  name: Longbow
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Alien_RailGun
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -1
+  mesh: SR_Barrel_Alien
+  name: E-Tech
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Dahl
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Dahl + Zoom
+    type: pre-add
+    value: 2
+  mesh: SR_Barrel_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_FremingtonsEdge
+  bonuses:
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict: Zoom
+    type: scale
+    value: 0.75
+  mesh: SR_Barrel_Dahl
+  name: Fremington's Edge
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_Pitchfork
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Dahl + Zoom
+    type: pre-add
+    value: 1
+  mesh: SR_Barrel_Dahl
+  name: Pitchfork
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_Sloth
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: -5
+  mesh: SR_Barrel_Dahl
+  name: Sloth
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 3
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Hyperion
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Hyperion
+    type: pre-add
+    value: -0.15
+  mesh: SR_Barrel_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 3
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.02
+  mesh: SR_Barrel_Hyperion
+  name: Chère-amie
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Invader
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Hyperion
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Zoom
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict: Zoom
+    type: scale
+    value: -7
+  mesh: SR_Barrel_Hyperion
+  name: Invader
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Tresspasser
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.WeaponBullet.WeaponBulletSpeed
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.DamageSourceShieldPenetration.PercentChanceInstigatedBulletDmgIgnoresShields
+    type: pre-add
+    value: 100
+  mesh: SR_Barrel_Hyperion
+  name: Trespasser
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Jakobs
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Jakobs
+    type: pre-add
+    value: -0.15
+  mesh: SR_Barrel_Jakobs
+  name: Jakobs
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Buffalo
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.5
+  mesh: SR_Barrel_Jakobs
+  name: Buffalo
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Skullmasher
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 1
+  mesh: SR_Barrel_Jakobs
+  name: Skullmasher
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict: Maliwan
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: SR_Barrel_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan_Morningstar
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Barrel_Maliwan
+  name: Morningstar
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan_Volcano
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.05
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict: Maliwan
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: SR_Barrel_Maliwan
+  name: Volcano
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Vladof
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: WeaponFireRate
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict: Vladof
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 4
+  mesh: SR_Barrel_Vladof
+  name: Vladof
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Vladof_Lyudmila
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: WeaponFireRate
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 20
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.25
+  mesh: SR_Barrel_Vladof
+  name: Lyuda
+  unique: true
+bodies:
+- _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Common, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Uncommon, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Rare, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Very Rare, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weapons.sniper.SR_Body_Jakobs_6_Chaude_Mama
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - slot: WeaponSpread
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  mesh: SR_Body_Jakobs
+  name: Hot Mama
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.sniper.SR_Body_Maliwan_6_Storm
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Maliwan
+  name: Storm
+  unique: true
+- _obj_name: GD_Lobelia_Weapons.sniper.SR_Body_Jakobs_6_GodFinger
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Body_Jakobs
+  name: Godfinger
+  unique: true
+- _obj_name: GD_Sage_Weapons.SniperRifles.SR_Body_Jakobs_ElephantGun
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Body_Jakobs
+  name: Elephant Gun
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl
+  mesh: SR_Body_Dahl
+  name: Dahl (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SR_Body_Dahl
+  name: Dahl (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SR_Body_Dahl
+  name: Dahl (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Dahl
+  name: Dahl (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Gearbox
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.2
+  mesh: SR_Body_Jakobs
+  name: Gearbox
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion
+  mesh: SR_Body_Hyperion
+  name: Hyperion (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SR_Body_Hyperion
+  name: Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SR_Body_Hyperion
+  name: Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Hyperion
+  name: Hyperion (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Jakobs
+  name: Jakobs (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan
+  mesh: SR_Body_Maliwan
+  name: Maliwan (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SR_Body_Maliwan
+  name: Maliwan (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SR_Body_Maliwan
+  name: Maliwan (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Maliwan
+  name: Maliwan (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof
+  mesh: SR_Body_Vladof
+  name: Vladof (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SR_Body_Vladof
+  name: Vladof (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SR_Body_Vladof
+  name: Vladof (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SR_Body_Vladof
+  name: Vladof (Very Rare)
+  unique: false
+definitions:
+- _obj_name: GD_Anemone_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.7
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Hot Mama
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Zoom
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Zoom
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 12
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict: Zoom
+    type: pre-add
+    value: -3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict: Zoom
+    type: pre-add
+    value: -5.5
+  name: Hyperion (BL2)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 12
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict: Zoom
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict: Zoom
+    type: pre-add
+    value: -5.5
+  name: Hyperion (TPS)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.7
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Jakobs
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Maliwan_Sniper
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Vladof_Sniper
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: pre-add
+    value: -0.7
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Vladof
+  unique: false
+elements:
+- _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Corrosive
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Corrosive
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Fire
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental1
+  name: Fire
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Ice
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Cryo
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_None
+  name: '"No Element"'
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Shock
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2
+  name: Shock
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Slag
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Slag
+  unique: false
+grips:
+- _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Dahl
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Dahl
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Dahl
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Dahl
+  name: Dahl (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Hyperion
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Hyperion
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Hyperion
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Hyperion
+  name: Hyperion (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Jakobs
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -1
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Jakobs
+    type: pre-add
+    value: 1
+  mesh: SR_Grip_Jakobs
+  name: Jakobs (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Maliwan
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Maliwan
+  name: Maliwan (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: AccuracyRegen
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Vladof
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Vladof
+  name: Vladof (Anemone)
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Grip.SR_Grip_Vladof_TheMachine
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: AccuracyRegen
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Vladof
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 6
+  mesh: SR_Grip_Vladof
+  name: The Machine
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Dahl
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Dahl
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Dahl
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Hyperion
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Hyperion
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Hyperion
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Jakobs
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -1
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Jakobs
+    type: pre-add
+    value: 1
+  mesh: SR_Grip_Jakobs
+  name: Jakobs
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Maliwan
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: AccuracyRegen
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Jakobs
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict: Vladof
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict: Vladof
+    type: pre-add
+    value: 3
+  mesh: SR_Grip_Vladof
+  name: Vladof
+  unique: false
+materials:
+- _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_1
+  name: Jakobs (Common, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_2
+  name: Jakobs (Uncommon, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3
+  name: Jakobs (Rare, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_4
+  name: Jakobs (Very Rare, Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Godfinger
+  name: Hot Mama
+  unique: true
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_SR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Emerald
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Hyperion_4_Diamond_SR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Diamond
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Jakobs_4_Citrine_SR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Citrine
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Vladof_4_Garnet_SR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Garnet
+  unique: false
+- _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_3_WetWeek
+  name: Wet Week
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3_Razorback
+  name: Razorback
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_3_TheMachine
+  name: The Machine
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_5_Legendary_Longnail
+  name: Longnail
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Maliwan_6_Storm
+  name: Storm
+  unique: true
+- _obj_name: GD_Iris_Weapons.ManufacturerMaterials.Material_Jakobs_2_Cobra
+  name: Cobra
+  unique: true
+- _obj_name: GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Godfinger
+  name: Godfinger
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Dahl_6_Glitch
+  name: Dahl (Glitch)
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Hyperion_6_Glitch
+  name: Hyperion (Glitch)
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Jakobs_6_Glitch
+  name: Jakobs (Glitch)
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Maliwan_6_Glitch
+  name: Maliwan (Glitch)
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Old_Hyperion_5_OmniCannon
+  name: Omni-Cannon
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Vladof_6_Glitch
+  name: Vladof (Glitch)
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Maliwan_3_Pimpernel
+  name: Pimpernel
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Material_Vladof_1_Patriot
+  name: Patriot
+  unique: true
+- _obj_name: GD_Petunia_Weapons.ManufacturerMaterials.sniper.Mat_Jakobs_3_Plunkett
+  name: Plunkett
+  unique: true
+- _obj_name: GD_Sage_RaidWeapons.ManufacturerMaterials.Material_Jakobs_1_HawkEye
+  name: Hawk Eye
+  unique: true
+- _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Material_Jakobs_2_ElephantGun
+  name: Elephant Gun
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Mat_Gearbox_1
+  name: Gearbox (Common)
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_1
+  name: Dahl (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_2
+  name: Dahl (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_3
+  name: Dahl (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_3_Sloth
+  name: Sloth
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_4
+  name: Dahl (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_5_Legendary
+  name: Pitchfork
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_1
+  name: Hyperion (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_2
+  name: Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3
+  name: Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3_FremingtonsEdge
+  name: Fremington's Edge
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3_Longbow
+  name: Longbow
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3_Morningstar
+  name: Morningstar
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_4
+  name: Hyperion (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_5_Legendary
+  name: Invader
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_1
+  name: Jakobs (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_2
+  name: Jakobs (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3
+  name: Jakobs (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3_Buffalo
+  name: Buffalo
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3_Trespasser
+  name: Trespasser
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_4
+  name: Jakobs (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_5_Legendary
+  name: Skullmasher
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_1
+  name: Maliwan (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_2
+  name: Maliwan (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_3
+  name: Maliwan (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_3_ChereAmie
+  name: Chère-amie
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_4
+  name: Maliwan (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_5_Legendary
+  name: Volcano
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_5_Legendary
+  name: Magma
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.75
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.1
+  name: Old Hyperion (Common)
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_2
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.75
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.1
+  name: Old Hyperion (Uncommon)
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_3
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.75
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.1
+  name: Old Hyperion (Rare)
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_4
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.75
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.1
+  name: Old Hyperion (Very Rare)
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_1
+  name: Vladof (Common)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_2
+  name: Vladof (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_3
+  name: Vladof (Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_4
+  name: Vladof (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_5_Legendary
+  name: Lyuda
+  unique: true
+sights:
+- _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Dahl
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Dahl
+  name: Dahl (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Hyperion
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 18
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Hyperion
+  name: Hyperion (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Jakobs
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 14
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Jakobs
+  name: Jakobs (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Maliwan
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 11
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Maliwan
+  name: Maliwan (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Vladof
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Vladof
+  name: Vladof (Anemone)
+  unique: true
+- _obj_name: GD_Cork_Weap_SniperRifles.Sight.Sniper_Sight_None_Razorback
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 6
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Razorback
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Dahl
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Hyperion
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 18
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Hyperion_FremingtonsEdge
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -3
+  mesh: SR_Scope_Hyperion
+  name: Fremington's Edge
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Jakobs
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 14
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Jakobs
+  name: Jakobs
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Maliwan
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 11
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_None_Buffalo
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 6
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Buffalo
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_None_Longbow
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 6
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -1
+  name: Longbow
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Vladof
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict: Zoom
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict: Zoom
+    type: scale
+    value: -2
+  mesh: SR_Scope_Vladof
+  name: Vladof
+  unique: false
+stocks:
+- _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Dahl
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Dahl + Zoom
+    type: pre-add
+    value: 1
+  mesh: SR_Stock_Dahl
+  name: Dahl (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Hyperion
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 8
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  mesh: SR_Stock_Hyperion
+  name: Hyperion (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Jakobs
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  mesh: SR_Stock_Jakobs
+  name: Jakobs (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Maliwan
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: SR_Stock_Maliwan
+  name: Maliwan (Anemone)
+  unique: true
+- _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Vladof
+  bonuses:
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  mesh: SR_Stock_Vladof
+  name: Vladof (Anemone)
+  unique: true
+- _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Dahl
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict: Dahl + Zoom
+    type: pre-add
+    value: 1
+  mesh: SR_Stock_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Hyperion
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 8
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  mesh: SR_Stock_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Jakobs
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  mesh: SR_Stock_Jakobs
+  name: Jakobs
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Maliwan
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: SR_Stock_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Vladof
+  bonuses:
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  mesh: SR_Stock_Vladof
+  name: Vladof
+  unique: false
+meta:
+  definitions:
+  - _obj_name: GD_Anemone_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 32
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 32
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Hot Mama
+    unique: false
+  - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.15
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0.1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 36
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 25.6
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Dahl
+    unique: false
+  - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -3.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 30
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 29.6
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: 0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Hyperion
+    unique: false
+  - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 32
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 32
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Jakobs
+    unique: false
+  - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Maliwan_Sniper
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.7
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 34
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 26.4
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Maliwan
+    unique: false
+  - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Vladof_Sniper
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.25
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 38
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      scale: '&beta;'
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      scale: '&beta;'
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Vladof
+    unique: false
+  meshes:
+    Acc_Barrel_Bayonet1:
+      name: Bayonet
+      src: /snipers/^images/accessories/bayonet.png
+    Acc_Barrel_Bipod:
+      name: Bipod 1
+      src: /snipers/^images/accessories/bipod_1_accuracy.png
+    Acc_Barrel_Bipod2:
+      name: Bipod 2
+      src: /snipers/^images/accessories/bipod_2_crit.png
+    Acc_Barrel_ForeGrip:
+      name: Foregrip
+      src: /snipers/^images/accessories/foregrip.png
+    Acc_Scope_Mount1:
+      name: Mount 1
+      src: /snipers/^images/accessories/mount_1_mag.png
+    Acc_Scope_Mount2:
+      name: Mount 2
+      src: /snipers/^images/accessories/mount_2_firerate.png
+    Acc_Scope_Mount3:
+      name: Mount 3
+      src: /snipers/^images/accessories/mount_3_damage.png
+    SR_Barrel_Dahl:
+      name: Dahl
+      src: /snipers/^images/barrels/dahl.png
+    SR_Barrel_Alien:
+      name: E-Tech
+      src: /snipers/^images/barrels/etech.png
+    SR_Barrel_Hyperion:
+      name: Hyperion
+      src: /snipers/^images/barrels/hyperion.png
+    SR_Barrel_Jakobs:
+      name: Jakobs
+      src: /snipers/^images/barrels/jakobs.png
+    SR_Barrel_Maliwan:
+      name: Maliwan
+      src: /snipers/^images/barrels/maliwan.png
+    SR_Barrel_Vladof:
+      name: Vladof
+      src: /snipers/^images/barrels/vladof.png
+    SR_Body_Dahl:
+      name: Dahl
+      src: /snipers/^images/bodies/dahl.png
+    SR_Body_Hyperion:
+      name: Hyperion
+      src: /snipers/^images/bodies/hyperion.png
+    SR_Body_Jakobs:
+      name: Jakobs
+      src: /snipers/^images/bodies/jakobs.png
+    SR_Body_Maliwan:
+      name: Maliwan
+      src: /snipers/^images/bodies/maliwan.png
+    SR_Body_Vladof:
+      name: Vladof
+      src: /snipers/^images/bodies/vladof.png
+    SR_Grip_Dahl:
+      name: Dahl
+      src: /snipers/^images/grips/dahl.png
+    SR_Grip_Hyperion:
+      name: Hyperion
+      src: /snipers/^images/grips/hyperion.png
+    SR_Grip_Jakobs:
+      name: Jakobs
+      src: /snipers/^images/grips/jakobs.png
+    SR_Grip_Maliwan:
+      name: Maliwan
+      src: /snipers/^images/grips/maliwan.png
+    SR_Grip_Vladof:
+      name: Vladof
+      src: /snipers/^images/grips/vladof.png
+    SR_Scope_Dahl:
+      name: Dahl
+      src: /snipers/^images/sights/dahl.png
+    SR_Scope_Hyperion:
+      name: Hyperion
+      src: /snipers/^images/sights/hyperion.png
+    SR_Scope_Jakobs:
+      name: Jakobs
+      src: /snipers/^images/sights/jakobs.png
+    SR_Scope_Maliwan:
+      name: Maliwan
+      src: /snipers/^images/sights/maliwan.png
+    SR_Scope_Vladof:
+      name: Vladof
+      src: /snipers/^images/sights/vladof.png
+    SR_Stock_Dahl:
+      name: Dahl
+      src: /snipers/^images/stocks/dahl.png
+    SR_Stock_Hyperion:
+      name: Hyperion
+      src: /snipers/^images/stocks/hyperion.png
+    SR_Stock_Jakobs:
+      name: Jakobs
+      src: /snipers/^images/stocks/jakobs.png
+    SR_Stock_Maliwan:
+      name: Maliwan
+      src: /snipers/^images/stocks/maliwan.png
+    SR_Stock_Vladof:
+      name: Vladof
+      src: /snipers/^images/stocks/vladof.png
+    # Cheating a bit to hide these
+    Acc_Barrel_Elemental1:
+      name: "No"
+    Acc_Barrel_Elemental2:
+      name: "No"
+    Acc_Barrel_Elemental3:
+      name: "No"
+  standard_definition_idx: 1

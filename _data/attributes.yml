@@ -1,3 +1,6 @@
+- obj: D_Attributes.WeaponBullet.WeaponBulletSpeed
+  invalid: true
+
 - obj: D_Attributes.Weapon.WeaponDamage
   name: Weapon Damage
   description: Increases the damage your weapon deals.
@@ -668,5 +671,26 @@
   name: Rough Rider Visual Resistance
   description: Has no actual effect, only used for displaying the Rough Rider's damage resistance. Is not synced with the actual bonus value.
   percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.DamageSourceShieldPenetration.PercentChanceInstigatedBulletDmgIgnoresShields
+  name: Ignore Shield Percent
+  description: Increases the chance that bullet damage will ignore shields. This uses a scale of 0-100, not 0-1 like most other stats.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponContinuousDamageScale
+  name: Continuous Damage Impulse
+  description: Increases the amount the continuous damage counter grows each time you hit a shot.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+  name: Continuous Damage Max
+  description: Increases the maximum value of the continuous damage counter.
+  percent: false
   add_good: true
   multi_good: true

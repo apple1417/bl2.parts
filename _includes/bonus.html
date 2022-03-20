@@ -6,7 +6,8 @@ Outputs in the format `<value>&|^|&<name>`.
 The seperator `&|^|&` is exported in the variable `BONUS_SEPERATOR`. You can convert to a usable
  string by simply replacing it with a space.
 
-May output an empty string, if the bonus is a grade which is hidden by the item metadata.
+May output an empty string, if the bonus uses an invalid attribute, or if it's a grade which is
+ hidden by the item metadata.
 
 Args:
     bonus: The bonus entry to process.
@@ -183,6 +184,9 @@ Args:
     {%- assign output = output | append: "</span>" -%}
 {%- endif -%}
 
-{%- unless include.bonus.slot and grade_override.hide -%}
+{%- comment -%} Don't ask me why or'ing these in an unless doesn't work {%- endcomment -%}
+{%- if (include.bonus.slot and grade_override.hide) -%}
+{%- elsif attr.invalid -%}
+{%- else -%}
     {{- output -}}
-{%- endunless -%}
+{%- endif -%}

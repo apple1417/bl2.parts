@@ -10,6 +10,7 @@ This entire file is an array of attribute data entries.
   percent: false
   add_good: true
   multi_good: true
+  invalid: false
 ```
 
 Field | Usage
@@ -20,6 +21,9 @@ Field | Usage
 `percent` | If to display simple addition bonuses as a percentage.
 `add_good` | If adding to the value gives a good outcome.
 `multi_good` | If multipling the value gives a good outcome.
+`invalid` | If this attribute definition is invalid, and doesn't even resolve to a field. Ignores all bonuses to this attribute.
+
+Attributes which resolve to a valid field but don't appear to do anything should still be defined normally, don't set invalid on them - it's always possible they actually do something minor, and mods can use them as input to something else.
 
 ## `nav.yml`
 This file contains two arrays of navbar entries. The `parts` array is displayed at the top of the navbar, and the `misc` array is displayed below, below a `<hr>`.
