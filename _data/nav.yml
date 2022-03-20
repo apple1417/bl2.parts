@@ -24,13 +24,14 @@ parts:
       - title: Zoom Comparsion
         url: /shotguns/zoom/
 misc:
-  - title: Accuracy Mechanics
-    url: /accuracy/
   - title: Attribute Reference
     url: /attributes/
+    sub:
+      - title: Accuracy Mechanics
+        url: /attributes/accuracy/
+      - title: Melee Damage
+        url: /attributes/melee/
+      - title: Status Effect Chance
+        url: /attributes/statuschance/
   - title: Calculations Guide
     url: /calculations/
-  - title: Melee Damage
-    url: /melee/
-  - title: Status Effect Chance
-    url: /statuschance/

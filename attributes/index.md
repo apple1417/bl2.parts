@@ -12,8 +12,15 @@ directly multiply the relevant stat.
 
 Note that this list is not exhaustive, but should cover everything present in the current guides.
 
-Also see the [Accuracy Mechanics](/accuracy/) page for a more detailed overview of the various
-accuracy attributes (including how Hyperion works), and the [Melee Damage](/melee/) page for how the
-various melee attributes are combined.
+Also see the following pages for more detailed overviews of their relevant attributes:
+
+{% assign subpages = site.data.nav.misc
+                     | where: "title", "Attribute Reference"
+                     | first
+                     | map: "sub"
+                     | sort_natural: "title" %}
+{%- for subpage in subpages -%}
+- [{{ subpage.title }}]({{ subpage.url }})
+{% endfor %}
 
 {% include attributes.html table_classes="border-x" %}

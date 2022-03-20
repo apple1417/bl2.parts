@@ -1,5 +1,9 @@
 ---
 description: How melee damage, and the various melee attributes, work.
+
+redirect_from:
+  - /melee/
+
 latex: true
 ---
 

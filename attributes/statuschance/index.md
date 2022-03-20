@@ -1,5 +1,9 @@
 ---
 description: How status effect chance, and the various status chance attributes, work.
+
+redirect_from:
+  - /statuschance/
+
 chance_attributes:
 - D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
 - D_Attributes.Weapon.WeaponStatusEffectChanceModifier
@@ -32,6 +36,3 @@ Armor   | 30% | 15% | 15% | 15% | 30%
 Shield  | 15% |  5% | 15% | 75% | 30% 
 
 Item cards use the Generic value, along with a Target Status Chance Resistance of 1.
-
-
-Impact Damage Modifier (*Non-Elemental*{:.n})

@@ -1,4 +1,5 @@
 plugins:
+  - jekyll-redirect-from
   - jekyll-seo-tag
 theme: null
 title: bl2parts
