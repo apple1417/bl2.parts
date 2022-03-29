@@ -93,14 +93,14 @@ Other parts include the element, the material, weapon balance, and the weapon ty
 There are 9 non-unique accessories, including a "no accessory" part with no model.
 
 <style>
-#accessories img {
+#accessories_table img {
     min-width: var(--img-size-standard);
     min-height: var(--img-size-standard);
     max-width: var(--img-size-big);
 }
 </style>
 {% include parts.html 
-    id="accessories"
+    id="accessories_table"
     parts=site.data.shotguns.accessories
     meta=site.data.shotguns.meta
     mesh_image=true
@@ -138,7 +138,7 @@ There are 20 non-unique bodies, one for each rarity-manufacturer combination. Al
 same rarity share the same stats.
 
 <style>
-#bodies > div:nth-child(2) > img {
+#bodies_table > div:nth-child(2) > img {
     max-width: var(--img-size-big);
     min-height: var(--img-size-standard)
 }
@@ -146,7 +146,7 @@ same rarity share the same stats.
 {% assign bodies = site.data.shotguns.bodies
                    | where_exp: "body", "page.body_names contains body._obj_name" %}
 {% include parts.html
-    id="bodies"
+    id="bodies_table"
     parts=bodies
     meta=site.data.shotguns.meta
     mesh_image=true

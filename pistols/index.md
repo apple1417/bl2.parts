@@ -243,7 +243,6 @@ Definitions may provide stat bonuses. Those which do are listed below.
 
 {% assign bonus_definitions = site.data.pistols.definitions | where_exp: "part", "part.bonuses" %}
 {% include parts.html
-    id="definitions"
     parts=bonus_definitions
     meta=site.data.pistols.meta
     simple_bonuses=true
