@@ -3,7 +3,7 @@ title: Shotgun Sight Zoom Comparsion
 layout: zoom
 sights:
   - name: 110 FOV
-    src: /shotguns/^images/sights/zoom/base.png
+    src: /^images/zoom/base.png
   - name: No Sight
     src: /shotguns/^images/sights/zoom/none.png
   - name: Bandit
