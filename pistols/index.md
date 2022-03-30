@@ -219,7 +219,7 @@ The material parts also have no model, instead defining the actual textures appl
 other models.
 
 There are 44 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
-combination. In Tina DLC, each manufactuer gets an additional gemstone material, and in TPS,
+combination. In Tina DLC, each manufacturer gets an additional gemstone material, and in TPS,
 Hyperion has an additional "Old Hyperion" material per rarity.
 
 Most materials provide no stat bonuses. The exceptions are listed below.

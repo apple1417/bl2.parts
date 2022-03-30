@@ -207,7 +207,7 @@ The material parts also have no model, instead defining the actual textures appl
 other models.
 
 There are 29 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
-combination. In Tina DLC, each manufactuer gets an additional gemstone material, and in TPS,
+combination. In Tina DLC, each manufacturer gets an additional gemstone material, and in TPS,
 Hyperion has an additional "Old Hyperion" material per rarity.
 
 Most materials provide no stat bonuses. The exceptions are listed below.
@@ -225,8 +225,6 @@ stats, but are they very important for the actual generation of weapons.
 ## Weapon Type Definitions
 Like the name might suggest, the definition essentialy defines all the unique properties of each
 weapon type. There is one definition per manufacturer.
-
-Definitions may provide stat bonuses.
 
 <style>
 #definitions div.part-block {
