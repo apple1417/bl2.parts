@@ -6,13 +6,28 @@ Assumes the standard definition containes all slots used in other definitions.
 Args:
     meta: The relevant item metadata.
     ignored_grades: An array of grade slot names to ignore.
+    overrides: A list of overrides. See below.
+
+Overrides
+=========
+Some manual adjustments might need to be made to the layout this generates - most commonly adding
+ footnotes to oddities. This can be done using the `overrides` arg.
+
+Each override entry can have the following fields:
+- idx: 1            # Required. The index in the container of the definition to adjust (1-indexed).
+                    #  Must be unique - only the first matching index will ever be used.
+  footnote: ""      # The id of a footnote to put after the definition name.
 {%- endcomment -%}
 
 {%- assign COLUMN_SEPERATOR = "&|^|&" -%}
 {%- assign TYPE_SEPERATOR = ":^:" -%}
 
 {%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
+
 {%- assign sorted_definitions = include.meta.definitions | sort_natural: "name" -%}
+{%- assign non_unique_definitions = sorted_definitions | where: "unique", false -%}
+{%- assign unique_definitions = sorted_definitions | where: "unique", true -%}
+{%- assign ordered_definitions = non_unique_definitions | concat: unique_definitions -%}
 
 {%- comment -%}
 Same concept as in `bonus_block.html` - to sort by expression we squash everything into an array
@@ -43,7 +58,7 @@ of strings, with the key at the front.
     {%- assign row = row | append: COLUMN_SEPERATOR -%}
 
 
-    {%- for definition in sorted_definitions -%}
+    {%- for definition in ordered_definitions -%}
         {%- assign inner_grade_stats = definition.grades
                                       | where: "slot", standard_grade_stats.slot
                                       | first -%}
@@ -72,8 +87,14 @@ of strings, with the key at the front.
 <table class="border">
     <thead><tr>
         <th></th>
-        {%- for definition in sorted_definitions -%}
-            <th>{{- definition.name -}}</th>
+        {%- for definition in ordered_definitions -%}
+            {%- assign overrides = include.overrides | where: "idx", forloop.index | first -%}
+            <th>
+                {{- definition.name -}}
+                {%- if overrides.footnote -%}
+                    {%- include footnote.html id=overrides.footnote -%}
+                {%- endif -%}
+            </th>
         {%- endfor -%}
     </tr></thead>
     <tbody>
