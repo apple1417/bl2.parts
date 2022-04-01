@@ -19,6 +19,7 @@
     --img-size-small: calc(var(--img-size-base) - var(--img-size-increment));
     --img-size-standard: var(--img-size-base);
     --img-size-big: calc(var(--img-size-base) + var(--img-size-increment));
+    --img-size-massive: calc(var(--img-size-base) + 2*var(--img-size-increment));
 
     --nav-width: 10em;
     --content-width: 50em;
@@ -144,6 +145,10 @@ img.big {
     max-width: var(--img-size-big);
     max-height: var(--img-size-big);
 }
+img.massive {
+    max-width: var(--img-size-massive);
+    max-height: var(--img-size-massive);
+}
 
 
 
@@ -221,6 +226,10 @@ div.part-block img.small[src=""] {
 div.part-block img.big[src=""] {
     min-width: var(--img-size-big);
     min-height: var(--img-size-big);
+}
+div.part-block img.massive[src=""] {
+    min-width: var(--img-size-massive);
+    min-height: var(--img-size-massive);
 }
 .part-bonuses {
     font-size: var(--small-text-size);

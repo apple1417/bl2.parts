@@ -78,14 +78,7 @@ body_overrides:
 # Shotgun Parts Guide
 Shotguns are made out of 6 main visible parts.
 
-<style>
-#part_reference img {
-    max-width: calc(var(--img-size-big) + var(--img-size-increment));
-    max-height: calc(var(--img-size-big) + var(--img-size-increment));
-    min-height: revert;
-}
-</style>
-{% include part_reference.html id="part_reference" parts=page.part_reference %}
+{% include part_reference.html parts=page.part_reference image_class="massive" %}
 
 Other parts include the element, the material, weapon balance, and the weapon type definition.
 
