@@ -1072,7 +1072,7 @@ barrels:
     value: -6
   - attribute: D_Attributes.Weapon.WeaponDamage
     type: scale
-    value: 0.75
+    value: 1
   - attribute: D_Attributes.Weapon.WeaponShotCost
     type: pre-add
     value: 3

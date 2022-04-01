@@ -910,15 +910,15 @@ barrels:
   - slot: WeaponReloadSpeed
     type: grade
     value: 8
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 10
   - attribute: D_Attributes.Weapon.WeaponClipSize
     type: pre-add
     value: 2
   - attribute: D_Attributes.Weapon.WeaponDamage
     type: scale
     value: -1
-  - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-    type: pre-add
-    value: -10
   - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
     type: scale
     value: 4.2
@@ -1859,7 +1859,7 @@ definitions:
     type: scale
     value: -1
   name: Hot Mama
-  unique: false
+  unique: true
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
   bonuses:
   - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
@@ -2378,6 +2378,22 @@ materials:
     value: -0.3
   name: Citrine
   unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Malwan_4_Aquamarine_SR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Aquamarine
+  unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Vladof_4_Garnet_SR
   bonuses:
   - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
@@ -2417,22 +2433,22 @@ materials:
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Dahl_6_Glitch
   name: Dahl (Glitch)
-  unique: true
+  unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Hyperion_6_Glitch
   name: Hyperion (Glitch)
-  unique: true
+  unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Jakobs_6_Glitch
   name: Jakobs (Glitch)
-  unique: true
+  unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Maliwan_6_Glitch
   name: Maliwan (Glitch)
-  unique: true
+  unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Old_Hyperion_5_OmniCannon
   name: Omni-Cannon
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Vladof_6_Glitch
   name: Vladof (Glitch)
-  unique: true
+  unique: false
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Maliwan_3_Pimpernel
   name: Pimpernel
   unique: true
@@ -2550,7 +2566,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Common)
-  unique: true
+  unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_2
   bonuses:
   - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -2566,7 +2582,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Uncommon)
-  unique: true
+  unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_3
   bonuses:
   - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -2582,7 +2598,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Rare)
-  unique: true
+  unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_4
   bonuses:
   - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -2598,7 +2614,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Very Rare)
-  unique: true
+  unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_1
   name: Vladof (Common)
   unique: false
@@ -3054,7 +3070,7 @@ meta:
       slot: WeaponZoomFOV
       type: scale
     name: Hot Mama
-    unique: false
+    unique: true
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
     base:
     - attribute: D_Attributes.Weapon.WeaponFireInterval
@@ -3494,7 +3510,7 @@ meta:
       src: /snipers/^images/accessories/bipod_1_accuracy.png
     Acc_Barrel_Bipod2:
       name: Bipod 2
-      src: /snipers/^images/accessories/bipod_2_crit.png
+      src: /snipers/^images/parts/accessory.png
     Acc_Barrel_ForeGrip:
       name: Foregrip
       src: /snipers/^images/accessories/foregrip.png
@@ -3592,4 +3608,4 @@ meta:
       name: "No"
     Acc_Barrel_Elemental3:
       name: "No"
-  standard_definition_idx: 1
+  standard_definition_idx: 2
