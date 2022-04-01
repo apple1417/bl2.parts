@@ -105,10 +105,8 @@ nav > * ul {
     padding-left: 1em;
     font-size: 0.8em;
 }
-nav h1 {
-    text-align: left;
-    font-size: 1.5em;
-    margin: 0.25em auto;
+nav img {
+    max-width: 100%;
 }
 nav a {
     color: var(--text-colour);
