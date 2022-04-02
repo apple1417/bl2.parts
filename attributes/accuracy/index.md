@@ -57,7 +57,7 @@ Weapon sway is controlled by the current cluster range.
 Recoil is controlled by impulse accuracy and sometimes burst impulse, based on how you're firing.
 
 It is possible to get weapons where the min accuracy is greater than the max.
-When this happens the cluster range simply stays constant.
+When this happens the cluster range simply stays constant, at the min accuracy value.
 
 ## Hyperion
 Hyperion guns gain their special effect simply by inverting impulse accuracy and accuracy regen - impulse will be a negative value and regen will be a positive.
