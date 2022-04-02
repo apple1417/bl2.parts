@@ -10,7 +10,7 @@ part_reference:
     src: /snipers/^images/parts/grip.png
   - name: Sight
     src: /snipers/^images/parts/sight.png
-  - name: Sight
+  - name: Stock
     src: /snipers/^images/parts/stock.png
 
 barrel_overrides:
