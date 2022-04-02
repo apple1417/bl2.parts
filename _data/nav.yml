@@ -23,6 +23,13 @@ parts:
         url: /shotguns/all_parts/
       - title: Zoom Comparsion
         url: /shotguns/zoom/
+  - title: Snipers
+    url: /snipers/
+    sub:
+      - title: Full Parts Reference
+        url: /snipers/all_parts/
+      - title: Zoom Comparsion
+        url: /snipers/zoom/
 misc:
   - title: Attribute Reference
     url: /attributes/
