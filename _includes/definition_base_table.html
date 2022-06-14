@@ -41,22 +41,15 @@ This time though, we can leave each string as the table row directly, without ne
                                 | where: "attribute", standard_base.attribute
                                 | first -%}
 
-        {%- assign row = row | append: "<td>" -%}
-        {%- if inner_base.scale -%}
-            {%- if inner_base.value == 1 -%}
-                {%- assign row = row | append: inner_base.scale -%}
-            {%- elsif inner_base.value == -1 -%}
-                {%- assign row = row | append: "&minus;" | append: inner_base.scale -%}
-            {%- else -%}
-                {%- assign row = row
-                                 | append: inner_base.value
-                                 | append: "&times;"
-                                 | append: inner_base.scale -%}
-            {%- endif -%}
-        {%- else -%}
-            {%- assign row = row | append: inner_base.value -%}
-        {%- endif -%}
-        {%- assign row = row | append: "</td>" -%}
+        {%- capture value_str -%}
+            {%- include value_formula.html
+                value=inner_base.value
+                formula=inner_base.value_formula
+                brackets=false
+            -%}
+        {%- endcapture -%}
+
+        {%- assign row = row | append: "<td>" | append: value_str | append: "</td>" -%}
     {%- endfor -%}
 
     {%- assign row = row | append: "</tr>" -%}

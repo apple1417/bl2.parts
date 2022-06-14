@@ -39,8 +39,23 @@ Each override entry can have the following fields:
         {%- if group_overrides.header -%}
             <strong>{{- group_overrides.header -}}</strong><br>
         {%- else -%}
-            {%- if group.name != "" -%}
-                <strong>On {{- " " | append: group.name -}}:</strong><br>
+            {%- comment -%}
+            For some reason `group.name` gets flattened into a string, so need to grab restrictions
+             off of the first object instead.
+            {%- endcomment -%}
+            {%- assign restrict = group.items | first | map: "restrict" | first -%}
+            {%- if group.name != empty -%}
+                {%- assign restrictions = "" | split: "" -%}
+                {%- if restrict.post_init -%}
+                    {%- assign restrictions = restrictions | push: "Post-Init" -%}
+                {%- endif -%}
+                {%- if restrict.manu -%}
+                    {%- assign restrictions = restrictions | push: restrict.manu -%}
+                {%- endif -%}
+                {%- if restrict.zoom -%}
+                    {%- assign restrictions = restrictions | push: "Zoom" -%}
+                {%- endif -%}
+                <strong>On {{- restrictions | join: " + " | prepend: " " -}}:</strong><br>
             {%- endif -%}
         {%- endif -%}
 

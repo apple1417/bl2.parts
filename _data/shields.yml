@@ -666,16 +666,18 @@ definition:
 - _obj_name: GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: GD_Anemone_Shields.Attributes.Attr_EasyModeEquipped
     type: post-add
     value: 1
@@ -684,16 +686,18 @@ definition:
 - _obj_name: GD_Anemone_Shields.A_Item.Shield_Worming
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Retainer
   unique: true
 - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
@@ -707,17 +711,22 @@ definition:
   - slot: RechargeDelay
     type: grade
     value: 12
+  - slot: DeflectChance
+    type: grade
+    value: 0
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Antagonist
   unique: true
 - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
@@ -728,77 +737,105 @@ definition:
   - slot: RechargeRate
     type: grade
     value: 20
+  - slot: NormalDamageResist
+    type: grade
+    value: 0
+  - slot: FireDamageResist
+    type: grade
+    value: 0
+  - slot: ShockDamageResist
+    type: grade
+    value: 0
+  - slot: CorrosiveDamageResist
+    type: grade
+    value: 0
+  - slot: ExplosiveDamageResist
+    type: grade
+    value: 0
+  - slot: SlagDamageResist
+    type: grade
+    value: 0
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Blockade
   unique: true
 - _obj_name: GD_Cork_Shields.A_Item.Shield_Nova_Ice
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Cryo)
   unique: false
 - _obj_name: GD_Cork_Shields.A_Item.Shield_Spike_Ice
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Cryo)
   unique: false
 - _obj_name: GD_Cork_Shields.A_Item_Custom.Shield_RapidRelease
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 39.36
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 2.1
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 15.744
+    value_formula:
+      multiplier_str: '&beta;'
   name: Rapid Release
   unique: true
 - _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 73.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Big Boom Blaster
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut
@@ -807,16 +844,18 @@ definition:
     type: grade
     value: 25
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: GD_Iris_SeraphItems.Attributes.Attr_HopliteEquipped
     type: pre-add
     value: 1
@@ -825,46 +864,52 @@ definition:
 - _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 4.025
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 11.264
+    value_formula:
+      multiplier_str: '&beta;'
   name: Pun-chee
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Sponge
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Chimera_05_M0RQ
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: M0RQ
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Impact_05_Rerouter
@@ -879,16 +924,18 @@ definition:
     type: grade
     value: -26
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Rerouter
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Juggernaut_03_ShieldOfAges
@@ -903,61 +950,69 @@ definition:
     type: grade
     value: -10
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Shield of Ages
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Standard_Naught
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 8.9216
+    value_formula:
+      multiplier_str: '&beta;'
   name: Naught
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 6.4
+    value_formula:
+      multiplier_str: '&beta;'
   name: Evolution
   unique: true
 - _obj_name: GD_Orchid_Shields.A_Item_Custom.Shield_Blade
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Manly Man Shield
   unique: true
 - _obj_name: GD_Sage_Shields.A_Item_Custom.Shield_Buckler
@@ -969,132 +1024,161 @@ definition:
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldConsumptionRate
     type: post-add
     value: 100000
   name: Rough Rider
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption
+  _original:
+    game: BL2
+    name: Absorption
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Absorption (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Absorption
+  _original:
+    game: TPS
+    name: Absorption
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Absorption (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
+  _original:
+    game: BL2
+    name: Sham
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Sham (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
+  _original:
+    game: TPS
+    name: Sham
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Sham (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Transformer
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Kala
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_1340
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: 1340 Shield
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_Aequitas
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: GD_Shields.Attributes.Attr_AequitasEquipped
     type: pre-add
     value: 1
@@ -1109,226 +1193,280 @@ definition:
     type: grade
     value: 1
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Prismatic Bulwark
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster
+  _original:
+    game: BL2
+    name: Booster
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Booster (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Booster
+  _original:
+    game: TPS
+    name: Booster
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Booster (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
+  _original:
+    game: BL2
+    name: Whisky Tango Foxtrot
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Whisky Tango Foxtrot (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
+  _original:
+    game: TPS
+    name: Whisky Tango Foxtrot
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Whisky Tango Foxtrot (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_AsteroidBelt
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Asteroid Belt
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_MoxxisSlammer
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Moxxi's Slammer
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_PotOGold
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Pot O' Gold
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Chimera
+  _original:
+    game: BL2
+    name: Adaptive
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Adaptive (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Chimera
+  _original:
+    game: TPS
+    name: Adaptive
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Adaptive (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Neogenator
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Reogenator
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Chimera_Haymaker
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Haymaker
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Impact
+  _original:
+    game: BL2
+    name: Amp
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Amp (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Impact
+  _original:
+    game: TPS
+    name: Amp
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Amp (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Impact_05_Legendary
@@ -1343,616 +1481,789 @@ definition:
     type: grade
     value: -26
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Bee
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+  _original:
+    game: BL2
+    name: Turtle
   bonuses:
   - slot: Capacity
     type: grade
     value: 25
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Turtle (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+  _original:
+    game: TPS
+    name: Turtle
   bonuses:
   - slot: Capacity
     type: grade
     value: 25
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Turtle (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+  _original:
+    game: BL2
+    name: Fabled Tortoise
   bonuses:
   - slot: Capacity
     type: grade
     value: 25
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Fabled Tortoise (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+  _original:
+    game: TPS
+    name: Fabled Tortoise
   bonuses:
   - slot: Capacity
     type: grade
     value: 25
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Fabled Tortoise (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
+  _original:
+    game: BL2
+    name: Nova (Corrosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Corrosive, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
+  _original:
+    game: TPS
+    name: Nova (Corrosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Corrosive, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
+  _original:
+    game: BL2
+    name: Nova (Explosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Explosive, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
+  _original:
+    game: TPS
+    name: Nova (Explosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Explosive, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
+  _original:
+    game: BL2
+    name: Deadly Bloom
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Deadly Bloom (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
+  _original:
+    game: TPS
+    name: Deadly Bloom
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Deadly Bloom (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
+  _original:
+    game: BL2
+    name: Nova (Fire)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Fire, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
+  _original:
+    game: TPS
+    name: Nova (Fire)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Fire, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Phoenix
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Flame of the Firehawk
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Sunshine
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Sunshine
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Supernova
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Supernova
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
+  _original:
+    game: BL2
+    name: Nova (Shock)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Shock, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
+  _original:
+    game: TPS
+    name: Nova (Shock)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Nova (Shock, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
+  _original:
+    game: BL2
+    name: Black Hole
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Black Hole (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
+  _original:
+    game: TPS
+    name: Black Hole
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Black Hole (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid
+  _original:
+    game: BL2
+    name: Roid
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 4.025
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 11.264
+    value_formula:
+      multiplier_str: '&beta;'
   name: Roid (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Roid
+  _original:
+    game: TPS
+    name: Roid
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 4.025
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 11.5456
+    value_formula:
+      multiplier_str: '&beta;'
   name: Roid (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Roid_05_Legendary
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Bigg Thumppr
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_05_ThresherRaid
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Hide of Terramorphous
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_Avalanche
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Avalanche
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_LoveThumper
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Love Thumper
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_Order
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Order
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_ShootingStar
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 4.025
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 11.5456
+    value_formula:
+      multiplier_str: '&beta;'
   name: Shooting Star
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
+  _original:
+    game: BL2
+    name: Spike (Corrosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Corrosive, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
+  _original:
+    game: TPS
+    name: Spike (Corrosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Corrosive, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
+  _original:
+    game: BL2
+    name: Impaler
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Impaler (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
+  _original:
+    game: TPS
+    name: Impaler
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Impaler (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
+  _original:
+    game: BL2
+    name: Spike (Explosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Explosive, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
+  _original:
+    game: TPS
+    name: Spike (Explosive)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Explosive, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
+  _original:
+    game: BL2
+    name: Spike (Fire)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Fire, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
+  _original:
+    game: TPS
+    name: Spike (Fire)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Fire, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
+  _original:
+    game: BL2
+    name: Spike (Shock)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Shock, BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
+  _original:
+    game: TPS
+    name: Spike (Shock)
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Spike (Shock, TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Standard
+  _original:
+    game: BL2
+    name: Standard
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Standard (BL2)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Standard
+  _original:
+    game: TPS
+    name: Standard
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Standard (TPS)
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
+  _original:
+    game: BL2
+    name: Cradle
   bonuses:
   - slot: Capacity
     type: grade
@@ -1964,19 +2275,24 @@ definition:
     type: grade
     value: -12
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Cradle (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
+  _original:
+    game: TPS
+    name: Cradle
   bonuses:
   - slot: Capacity
     type: grade
@@ -1988,61 +2304,75 @@ definition:
     type: grade
     value: -12
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Cradle (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
+  _original:
+    game: BL2
+    name: Cracked Sash
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 64
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.24
+    value_formula:
+      multiplier_str: '&beta;'
   name: Cracked Sash (BL2)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
+  _original:
+    game: TPS
+    name: Cracked Sash
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: Cracked Sash (TPS)
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_MyFirst
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
-    scale: '&beta;'
     type: pre-add
     value: 65.6
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationDelay
     type: pre-add
     value: 3.5
   - attribute: D_Attributes.ShieldResourcePool.ShieldOnIdleRegenerationRate
-    scale: '&beta;'
     type: pre-add
     value: 10.496
+    value_formula:
+      multiplier_str: '&beta;'
   name: My First Shield
   unique: true
 delta:
@@ -3471,6 +3801,9 @@ material:
   name: Bee
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Juggernaut
+  _original:
+    game: BL2
+    name: Fabled Tortoise
   bonuses:
   - slot: Capacity
     type: grade
@@ -3487,6 +3820,9 @@ material:
   name: Fabled Tortoise (BL2)
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Juggernaut
+  _original:
+    game: TPS
+    name: Fabled Tortoise
   bonuses:
   - slot: Capacity
     type: grade
@@ -3653,9 +3989,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
@@ -3705,9 +4043,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     name: Retainer
@@ -3767,44 +4107,50 @@ meta:
       type: scale
     - attribute: D_Attributes.DamageTypeModifers.NormalImpactDamageModifier
       base: -0.005
-      offset: -0.075
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: -0.075
       per_grade: 0
-      scale: '[Shield Level]'
       slot: NormalDamageResist
       type: scale
     - attribute: D_Attributes.DamageTypeModifers.IncendiaryImpactDamageModifier
       base: -0.005
-      offset: -0.075
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: -0.075
       per_grade: 0
-      scale: '[Shield Level]'
       slot: FireDamageResist
       type: scale
     - attribute: D_Attributes.DamageTypeModifers.ShockImpactDamageModifier
       base: -0.005
-      offset: -0.075
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: -0.075
       per_grade: 0
-      scale: '[Shield Level]'
       slot: ShockDamageResist
       type: scale
     - attribute: D_Attributes.DamageTypeModifers.CorrosiveImpactDamageModifier
       base: -0.005
-      offset: -0.075
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: -0.075
       per_grade: 0
-      scale: '[Shield Level]'
       slot: CorrosiveDamageResist
       type: scale
     - attribute: D_Attributes.DamageTypeModifers.ExplosiveImpactDamageModifier
       base: -0.005
-      offset: -0.075
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: -0.075
       per_grade: 0
-      scale: '[Shield Level]'
       slot: ExplosiveDamageResist
       type: scale
     - attribute: D_Attributes.DamageTypeModifers.AmpImpactDamageModifier
       base: -0.005
-      offset: -0.075
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: -0.075
       per_grade: 0
-      scale: '[Shield Level]'
       slot: SlagDamageResist
       type: scale
     name: Blockade
@@ -3854,9 +4200,11 @@ meta:
       type: scale
     - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaDamage_Ice
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaSize_Ice
@@ -3911,9 +4259,11 @@ meta:
       type: scale
     - attribute: GD_Cork_Shields.Misc.Att_ShieldSpikeDamage_Ice
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Spike (Cryo)
@@ -3963,9 +4313,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
@@ -4060,9 +4412,11 @@ meta:
       type: scale
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue_Player
       base: -40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.72
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Hoplite
@@ -4107,9 +4461,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8.4
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     name: Pun-chee
@@ -4189,9 +4545,11 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 16.4
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.902
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: M0RQ
@@ -4241,16 +4599,20 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
       base: 120
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.76
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
       base: 39.36
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: -0.3936
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: post-add
     name: Rerouter
@@ -4300,9 +4662,11 @@ meta:
       type: scale
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: -32.8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.738
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Shield of Ages
@@ -4377,9 +4741,11 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue_Player
       base: 16
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.88
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Evolution
@@ -4429,9 +4795,11 @@ meta:
       type: pre-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 28
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.88
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Rough Rider
@@ -4796,11 +5164,13 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.PercentChanceToAbsorbLaser
       base: 0.00108
-      offset: 0.0288
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: 0.12
       per_grade: 0.000135
-      per_grade_offset: 0.0036
-      per_grade_scale: '[Shield Level]'
-      scale: '[Shield Level]'
+      per_grade_formula:
+        multiplier_str: '[Shield Level]'
+        offset: 0.12
       slot: Special01
       type: pre-add
     - attribute: D_Attributes.Shield.PercentDamageToNegateWhenAmmoAbsorbed
@@ -4810,21 +5180,25 @@ meta:
       type: pre-add
     - attribute: D_Attributes.Weapon.WeaponDamage
       base: 0.003375
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: 0.12
       constraint: Laser
-      offset: 0.09
       per_grade: 0.0003375
-      per_grade_offset: 0.009
-      per_grade_scale: '[Shield Level]'
-      scale: '[Shield Level]'
+      per_grade_formula:
+        multiplier_str: '[Shield Level]'
+        offset: 0.12
       slot: Special03
       type: scale
     - attribute: D_Attributes.DamageSourceModifiers.ReceivedLaserDamageModifier
       base: -0.0045
-      offset: -0.12
+      base_formula:
+        multiplier_str: '[Shield Level]'
+        offset: 0.12
       per_grade: -0.00045
-      per_grade_offset: -0.012
-      per_grade_scale: '[Shield Level]'
-      scale: '[Shield Level]'
+      per_grade_formula:
+        multiplier_str: '[Shield Level]'
+        offset: 0.12
       slot: Special04
       type: scale
     name: Prismatic Bulwark
@@ -4984,9 +5358,11 @@ meta:
       type: post-add
     - attribute: GD_Shields.Attributes.Attr_AsteroidBeltDamage
       base: 16
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: post-add
     name: Asteroid Belt
@@ -5087,6 +5463,9 @@ meta:
     name: Pot O' Gold
     unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Chimera
+    _original:
+      game: BL2
+      name: Adaptive
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5111,14 +5490,19 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 16
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.88
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Adaptive (BL2)
     unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Chimera
+    _original:
+      game: TPS
+      name: Adaptive
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5143,9 +5527,11 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 16.4
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.902
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Adaptive (TPS)
@@ -5175,9 +5561,11 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 16
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.88
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Neogenator
@@ -5207,9 +5595,11 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 16.4
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.902
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Reogenator
@@ -5239,14 +5629,19 @@ meta:
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 24.6
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.312
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Haymaker
     unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Impact
+    _original:
+      game: BL2
+      name: Amp
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5286,21 +5681,28 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
       base: 16
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.76
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
       base: 19.2
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: -0.448
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: post-add
     name: Amp (BL2)
     unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Impact
+    _original:
+      game: TPS
+      name: Amp
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5345,16 +5747,20 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
       base: 16
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.76
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
       base: 19.68
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: -0.4592
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: post-add
     name: Amp (TPS)
@@ -5399,9 +5805,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.ImpactShield_DamageBonus
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.76
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: D_Attributes.Shield.ImpactShield_ConsumptionOnEmpower
@@ -5412,6 +5820,9 @@ meta:
     name: Bee
     unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+    _original:
+      game: BL2
+      name: Turtle
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5451,14 +5862,19 @@ meta:
       type: scale
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: -32
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.72
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Turtle (BL2)
     unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
+    _original:
+      game: TPS
+      name: Turtle
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5503,14 +5919,19 @@ meta:
       type: scale
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: -32.8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.738
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Turtle (TPS)
     unique: false
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+    _original:
+      game: BL2
+      name: Fabled Tortoise
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5550,14 +5971,19 @@ meta:
       type: scale
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: -32
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.72
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Fabled Tortoise (BL2)
     unique: true
   - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
+    _original:
+      game: TPS
+      name: Fabled Tortoise
     base: []
     grades:
     - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue
@@ -5602,9 +6028,11 @@ meta:
       type: scale
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: -32.8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.738
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     name: Fabled Tortoise (TPS)
@@ -5649,9 +6077,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Corrosive
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Corrosive
@@ -5706,9 +6136,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Explosive
       base: 104
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Explosive
@@ -5763,9 +6195,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Explosive
       base: 104
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Explosive
@@ -5820,9 +6254,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
@@ -5877,9 +6313,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
@@ -5934,9 +6372,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
       base: 120
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
@@ -5991,9 +6431,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
       base: 120
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
@@ -6043,9 +6485,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
@@ -6100,9 +6544,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Shock
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Shock
@@ -6157,9 +6603,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
@@ -6214,16 +6662,20 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: D_Attributes.HealthResourcePool.HealthMaxValue
       base: 16.4
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.902
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     name: Bigg Thumppr
@@ -6263,16 +6715,20 @@ meta:
       type: pre-add
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaDamage_Fire
       base: 80
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 4.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldNovaSize_Fire
@@ -6282,9 +6738,11 @@ meta:
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Fire
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special04
       type: pre-add
     name: Hide of Terramorphous
@@ -6329,16 +6787,20 @@ meta:
       type: pre-add
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaDamage_Ice
       base: 96
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 5.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special02
       type: pre-add
     - attribute: GD_Cork_Shields.Misc.Att_ShieldNovaSize_Ice
@@ -6348,9 +6810,11 @@ meta:
       type: pre-add
     - attribute: GD_Cork_Shields.Misc.Att_ShieldSpikeDamage_Ice
       base: 48
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.92
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special04
       type: pre-add
     name: Avalanche
@@ -6395,9 +6859,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     name: Love Thumper
@@ -6442,9 +6908,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 8
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.64
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     name: Order
@@ -6494,9 +6962,11 @@ meta:
       type: scale
     - attribute: D_Attributes.Shield.RoidMeleeDamage
       base: 10
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 0.84
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: post-add
     name: Shooting Star
@@ -6541,9 +7011,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Corrosive
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
@@ -6593,9 +7065,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Corrosive
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
@@ -6645,9 +7119,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Explosive
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
@@ -6692,9 +7168,11 @@ meta:
       type: pre-add
     - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Fire
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
@@ -6744,9 +7222,11 @@ meta:
       type: scale
     - attribute: GD_Shields.Misc.Att_ShieldSpikeDamage_Shock
       base: 40
+      base_formula:
+        multiplier_str: '&beta;'
       per_grade: 1.6
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: Special01
       type: pre-add
     - attribute: D_Cork_Attributes.StatusEffectModifiers.FreezeChanceResistanceModifier
@@ -6936,19 +7416,6 @@ meta:
       type: scale
     name: My First Shield
     unique: true
-  grade_overrides:
-    Special01:
-      name: Special 01
-      add_good: true
-    Special02:
-      name: Special 02
-      add_good: true
-    Special03:
-      name: Special 03
-      add_good: true
-    Special04:
-      name: Special 04
-      add_good: true
   meshes:
     Shield_Accessory_Anshin:
       name: Anshin

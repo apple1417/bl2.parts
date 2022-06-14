@@ -1,0 +1,45 @@
+{%- comment -%}
+Formats a value + formula into it's string. Intended to be captured into a variable.
+
+May automatically add brackets around the entire value to improve clarity.
+
+Args:
+    value: The base value.
+    formula: The value's associated formula dict.
+    brackets: If to allow adding outermost brackets.
+{%- endcomment -%}
+
+{%- if include.value > 0 -%}
+    {%- assign value_str = "+" | append: include.value -%}
+{%- else -%}
+    {%- assign value_str = include.value | replace: "-", "&minus;" -%}
+{%- endif -%}
+
+{%- if include.formula.multiplier_str -%}
+    {%- if value_str == "+1" -%}
+        {%- assign value_str = "+" | append: include.formula.multiplier_str -%}
+    {%- elsif value_str == "&minus;1" -%}
+        {%- assign value_str = "&minus;" | append: include.formula.multiplier_str -%}
+    {%- else -%}
+        {%- assign value_str = value_str
+                        | append: "&times;"
+                        | append: include.formula.multiplier_str -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- if include.formula.offset -%}
+    {%- if include.brackets -%}
+        {%- assign value_str = "(" | append: value_str | append: " " -%}
+    {%- endif -%}
+    {%- if include.formula.offset > 0 -%}
+        {%- assign value_str = value_str | append: "+" | append: include.formula.offset -%}
+    {%- else -%}
+        {%- assign minus_replacement = include.formula.offset | replace: "-", "&minus;" -%}
+        {%- assign value_str = value_str | append: minus_replacement -%}
+    {%- endif -%}
+    {%- if include.brackets -%}
+        {%- assign value_str = value_str | append: ")" -%}
+    {%- endif -%}
+{%- endif -%}
+
+{{- value_str -}}

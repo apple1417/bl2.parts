@@ -100,15 +100,32 @@ Args:
             {%- assign actual_value = actual_value | replace: "-", "&minus;" -%}
         {%- endif -%}
     {%- endif -%}
-    {%- if include.bonus.scale -%}
+
+    {%- comment -%}
+    This is pretty similar to `value_formula.html`, but we need to deal with the preformatted value.
+    {%- endcomment -%}
+    {%- if include.bonus.value_formula.multiplier_str -%}
         {%- if actual_value == "+1" -%}
-            {%- assign actual_value = "+" | append: include.bonus.scale -%}
+            {%- assign actual_value = "+" | append: include.bonus.value_formula.multiplier_str -%}
         {%- elsif actual_value == "&minus;1" -%}
-            {%- assign actual_value = "&minus;" | append: include.bonus.scale -%}
+            {%- assign actual_value = "&minus;"
+                                      | append: include.bonus.value_formula.multiplier_str -%}
         {%- else -%}
             {%- assign actual_value = actual_value
                                       | append: "&times;"
-                                      | append: include.bonus.scale -%}
+                                      | append: include.bonus.value_formula.multiplier_str -%}
+        {%- endif -%}
+    {%- endif -%}
+
+    {%- if include.bonus.value_formula.offset -%}
+        {%- if include.bonus.value_formula.offset > 0 -%}
+            {%- assign actual_value = actual_value
+                                      | append: "+"
+                                      | append: include.bonus.value_formula.offset -%}
+        {%- else -%}
+            {%- assign minus_replacement = include.bonus.value_formula.offset
+                                           | replace: "-", "&minus;" -%}
+            {%- assign actual_value = actual_value | append: minus_replacement -%}
         {%- endif -%}
     {%- endif -%}
 
@@ -138,24 +155,16 @@ Args:
                        | append: '<span class="'
                        | append: include.bonus.type
                        | append: '">' -%}
-    {%- if include.bonus.value > 0 -%}
-        {%- assign output = output | append: "+" -%}
-    {%- endif -%}
-    {%- if include.bonus.scale -%}
-        {%- if include.bonus.value == 1 -%}
-            {%- assign output = output | append: include.bonus.scale -%}
-        {%- elsif include.bonus.value == -1 -%}
-            {%- assign output = output | append: "&minus;" | append: include.bonus.scale -%}
-        {%- else -%}
-            {%- assign output = output
-                               | append: include.bonus.value
-                               | append: "&times;"
-                               | append: include.bonus.scale -%}
-        {%- endif -%}
-    {%- else -%}
-        {%- assign output = output | append: include.bonus.value -%}
-    {%- endif -%}
-    {%- assign output = output | append: "</span>" -%}
+
+    {%- capture value_str -%}
+        {%- include value_formula.html
+            value=include.bonus.value
+            formula=include.bonus.value_formula
+            brackets=false
+        -%}
+    {%- endcapture -%}
+
+    {%- assign output = output | append: value_str | append: "</span>" -%}
 {%- endif -%}
 
 {%- assign output = output | append: BONUS_SEPERATOR -%}

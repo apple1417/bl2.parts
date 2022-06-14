@@ -72,7 +72,8 @@ accessories:
     type: grade
     value: -1
   - attribute: D_Attributes.Weapon.WeaponAdditionalRicochets
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: 2
   mesh: Acc_Scope_Mount2
@@ -230,7 +231,8 @@ accessories:
     type: grade
     value: -1
   - attribute: D_Attributes.Weapon.WeaponAdditionalRicochets
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: 2
   mesh: Acc_Scope_Mount2
@@ -298,15 +300,19 @@ barrels:
     type: grade
     value: 3
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Dahl + Zoom
+    restrict:
+      manu: Dahl
+      zoom: true
     type: pre-add
     value: 2
   mesh: SR_Barrel_Dahl
@@ -330,15 +336,18 @@ barrels:
     type: grade
     value: 2
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: -0.15
   mesh: SR_Barrel_Hyperion
@@ -394,15 +403,18 @@ barrels:
     type: grade
     value: -6
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.15
   mesh: SR_Barrel_Jakobs
@@ -420,19 +432,23 @@ barrels:
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: -0.3
   mesh: SR_Barrel_Maliwan
@@ -453,11 +469,13 @@ barrels:
     type: grade
     value: 10
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 4
   mesh: SR_Barrel_Vladof
@@ -507,7 +525,8 @@ barrels:
     type: scale
     value: 0.7
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
@@ -517,6 +536,9 @@ barrels:
   name: Wet Week
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Invader
+  _original:
+    game: TPS
+    name: Invader
   bonuses:
   - slot: AccuracyMin
     type: grade
@@ -534,15 +556,18 @@ barrels:
     type: scale
     value: -1
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: 5
   - attribute: D_Attributes.Weapon.WeaponFireInterval
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -7
   mesh: SR_Barrel_Hyperion
@@ -575,6 +600,9 @@ barrels:
   name: Razorback
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Skullmasher
+  _original:
+    game: TPS
+    name: Skullmasher
   bonuses:
   - slot: WeaponSpread
     type: grade
@@ -621,11 +649,13 @@ barrels:
     type: scale
     value: -0.05
   - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: -0.3
   mesh: SR_Barrel_Maliwan
@@ -649,7 +679,8 @@ barrels:
     type: grade
     value: -20
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 4
   - attribute: D_Attributes.DamageSourceShieldPenetration.PercentChanceInstigatedBulletDmgIgnoresShields
@@ -673,11 +704,13 @@ barrels:
     type: grade
     value: 10
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 8
   - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
@@ -707,7 +740,8 @@ barrels:
     type: scale
     value: 0.25
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: -0.3
   mesh: SR_Barrel_Maliwan
@@ -751,7 +785,8 @@ barrels:
     type: scale
     value: -1.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.3
   mesh: SR_Barrel_Dahl
@@ -781,11 +816,13 @@ barrels:
     type: scale
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
@@ -821,15 +858,19 @@ barrels:
     type: grade
     value: 3
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Dahl + Zoom
+    restrict:
+      manu: Dahl
+      zoom: true
     type: pre-add
     value: 2
   mesh: SR_Barrel_Dahl
@@ -885,15 +926,18 @@ barrels:
     type: grade
     value: -7
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.15
   mesh: SR_Barrel_Jakobs
@@ -1021,15 +1065,19 @@ barrels:
     type: grade
     value: 3
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Dahl + Zoom
+    restrict:
+      manu: Dahl
+      zoom: true
     type: pre-add
     value: 2
   mesh: SR_Barrel_Dahl
@@ -1050,7 +1098,8 @@ barrels:
     type: grade
     value: 3
   - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: 0.75
   mesh: SR_Barrel_Dahl
@@ -1083,11 +1132,14 @@ barrels:
     type: scale
     value: -0.25
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Dahl + Zoom
+    restrict:
+      manu: Dahl
+      zoom: true
     type: pre-add
     value: 1
   mesh: SR_Barrel_Dahl
@@ -1114,7 +1166,8 @@ barrels:
     type: scale
     value: 0.7
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
@@ -1141,15 +1194,18 @@ barrels:
     type: grade
     value: 2
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: -0.15
   mesh: SR_Barrel_Hyperion
@@ -1199,15 +1255,18 @@ barrels:
     type: scale
     value: -1
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: 5
   - attribute: D_Attributes.Weapon.WeaponFireInterval
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -7
   mesh: SR_Barrel_Hyperion
@@ -1260,15 +1319,18 @@ barrels:
     type: grade
     value: -6
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.15
   mesh: SR_Barrel_Jakobs
@@ -1347,19 +1409,23 @@ barrels:
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: -0.3
   mesh: SR_Barrel_Maliwan
@@ -1391,11 +1457,13 @@ barrels:
     type: scale
     value: -0.05
   - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: 0.2
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: -0.3
   mesh: SR_Barrel_Maliwan
@@ -1416,11 +1484,13 @@ barrels:
     type: grade
     value: 10
   - attribute: D_Attributes.Weapon.WeaponDamage
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: scale
     value: 0.1
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 4
   mesh: SR_Barrel_Vladof
@@ -1444,7 +1514,8 @@ barrels:
     type: scale
     value: 0.25
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 4
   - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
@@ -1851,11 +1922,13 @@ definitions:
     type: scale
     value: 1.6
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.7
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Hot Mama
@@ -1866,24 +1939,31 @@ definitions:
     type: scale
     value: 1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.8
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: 3
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: 2
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Dahl
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
+  _original:
+    game: BL2
+    name: Hyperion
   bonuses:
   - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
     type: pre-add
@@ -1898,24 +1978,31 @@ definitions:
     type: scale
     value: 1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.8
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -3
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -5.5
   name: Hyperion (BL2)
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
+  _original:
+    game: TPS
+    name: Hyperion
   bonuses:
   - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
     type: pre-add
@@ -1930,19 +2017,23 @@ definitions:
     type: scale
     value: 1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.8
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -1
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -5.5
   name: Hyperion (TPS)
@@ -1962,11 +2053,13 @@ definitions:
     type: scale
     value: 1.6
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.7
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Jakobs
@@ -1983,11 +2076,13 @@ definitions:
     type: scale
     value: 1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.8
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Maliwan
@@ -1998,11 +2093,13 @@ definitions:
     type: scale
     value: 1
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: pre-add
     value: -0.7
   - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Vladof
@@ -2067,11 +2164,13 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: 3
   mesh: SR_Grip_Dahl
@@ -2089,11 +2188,13 @@ grips:
     type: grade
     value: 2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 3
   mesh: SR_Grip_Hyperion
@@ -2114,15 +2215,18 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.2
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: 1
   mesh: SR_Grip_Jakobs
@@ -2134,11 +2238,13 @@ grips:
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: 3
   mesh: SR_Grip_Maliwan
@@ -2156,15 +2262,18 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: -0.15
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 3
   mesh: SR_Grip_Vladof
@@ -2182,15 +2291,18 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: -0.15
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 6
   mesh: SR_Grip_Vladof
@@ -2211,11 +2323,13 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Dahl
+    restrict:
+      manu: Dahl
     type: pre-add
     value: 3
   mesh: SR_Grip_Dahl
@@ -2233,11 +2347,13 @@ grips:
     type: grade
     value: 2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Hyperion
+    restrict:
+      manu: Hyperion
     type: pre-add
     value: 3
   mesh: SR_Grip_Hyperion
@@ -2258,15 +2374,18 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: -0.2
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: pre-add
     value: 1
   mesh: SR_Grip_Jakobs
@@ -2278,11 +2397,13 @@ grips:
     type: scale
     value: 0.15
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Maliwan
+    restrict:
+      manu: Maliwan
     type: pre-add
     value: 3
   mesh: SR_Grip_Maliwan
@@ -2300,15 +2421,18 @@ grips:
     type: grade
     value: -2
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Jakobs
+    restrict:
+      manu: Jakobs
     type: scale
     value: -0.15
   - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: scale
     value: -0.3
   - attribute: D_Attributes.Weapon.WeaponClipSize
-    restrict: Vladof
+    restrict:
+      manu: Vladof
     type: pre-add
     value: 3
   mesh: SR_Grip_Vladof
@@ -2637,11 +2761,13 @@ sights:
     type: grade
     value: 7
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.3
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Dahl
@@ -2653,11 +2779,13 @@ sights:
     type: grade
     value: 18
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.4
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Hyperion
@@ -2669,11 +2797,13 @@ sights:
     type: grade
     value: 14
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.5
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Jakobs
@@ -2685,11 +2815,13 @@ sights:
     type: grade
     value: 11
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.2
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Maliwan
@@ -2701,11 +2833,13 @@ sights:
     type: grade
     value: 8
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.15
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Vladof
@@ -2717,7 +2851,8 @@ sights:
     type: grade
     value: 6
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Razorback
@@ -2728,11 +2863,13 @@ sights:
     type: grade
     value: 7
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.3
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Dahl
@@ -2744,11 +2881,13 @@ sights:
     type: grade
     value: 18
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.4
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Hyperion
@@ -2760,11 +2899,13 @@ sights:
     type: grade
     value: 25
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -3
   mesh: SR_Scope_Hyperion
@@ -2776,11 +2917,13 @@ sights:
     type: grade
     value: 14
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.5
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Jakobs
@@ -2792,11 +2935,13 @@ sights:
     type: grade
     value: 11
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.2
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Maliwan
@@ -2808,7 +2953,8 @@ sights:
     type: grade
     value: 6
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Buffalo
@@ -2819,7 +2965,8 @@ sights:
     type: grade
     value: 6
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -1
   name: Longbow
@@ -2830,11 +2977,13 @@ sights:
     type: grade
     value: 8
   - attribute: D_Attributes.Weapon.WeaponSpread
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -0.15
   - attribute: D_Attributes.GameplayAttributes.FootSpeed
-    restrict: Zoom
+    restrict:
+      zoom: true
     type: scale
     value: -2
   mesh: SR_Scope_Vladof
@@ -2856,7 +3005,9 @@ stocks:
     type: grade
     value: 4
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Dahl + Zoom
+    restrict:
+      manu: Dahl
+      zoom: true
     type: pre-add
     value: 1
   mesh: SR_Stock_Dahl
@@ -2927,7 +3078,9 @@ stocks:
     type: grade
     value: 4
   - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
-    restrict: Dahl + Zoom
+    restrict:
+      manu: Dahl
+      zoom: true
     type: pre-add
     value: 1
   mesh: SR_Stock_Dahl
@@ -3006,11 +3159,13 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
     - attribute: D_Attributes.Weapon.WeaponDamage
-      scale: '&beta;'
       value: 32
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
-      scale: '&beta;'
       value: 8
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
       value: 1.5
     grades:
@@ -3092,11 +3247,13 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
     - attribute: D_Attributes.Weapon.WeaponDamage
-      scale: '&beta;'
       value: 25.6
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
-      scale: '&beta;'
       value: 8
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
       value: 1.5
     grades:
@@ -3178,11 +3335,13 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
     - attribute: D_Attributes.Weapon.WeaponDamage
-      scale: '&beta;'
       value: 29.6
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
-      scale: '&beta;'
       value: 8
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
       value: 1.5
     grades:
@@ -3264,11 +3423,13 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
     - attribute: D_Attributes.Weapon.WeaponDamage
-      scale: '&beta;'
       value: 32
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
-      scale: '&beta;'
       value: 8
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
       value: 1.5
     grades:
@@ -3350,11 +3511,13 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
     - attribute: D_Attributes.Weapon.WeaponDamage
-      scale: '&beta;'
       value: 26.4
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
-      scale: '&beta;'
       value: 8
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
       value: 1.5
     grades:
@@ -3436,11 +3599,13 @@ meta:
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
     - attribute: D_Attributes.Weapon.WeaponDamage
-      scale: '&beta;'
       value: 24
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
-      scale: '&beta;'
       value: 8
+      value_formula:
+        multiplier_str: '&beta;'
     - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
       value: 1.5
     grades:

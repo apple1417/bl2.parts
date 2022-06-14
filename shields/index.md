@@ -108,17 +108,8 @@ definitions:
     - FireResist
     - ShockResist
   activate_only:
-    - obj: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
-      slots:
-        - DeflectChance
-    - obj: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
-      slots:
-        - NormalDamageResist
-        - FireDamageResist
-        - ShockDamageResist
-        - CorrosiveDamageResist
-        - ExplosiveDamageResist
-        - SlagDamageResist
+    - GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
+    - GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
 ---
 # Shield Parts Guide
 
@@ -327,13 +318,19 @@ which go through the grade system as an extra step.
 {%- assign DEF_GRADES_SEPERATOR = ":^:" -%}
 {%- assign GRADES_SEPERATOR = "&|^|&" -%}
 {%- assign activate_only_defs = "" | split: "" -%}
-{%- for def_info in page.definitions.activate_only -%}
-    {%- assign definition = site.data.shields.meta.definitions
-                           | where: "_obj_name", def_info.obj
-                           | first -%}
+{%- for def in page.definitions.activate_only -%}
+    {%- assign def_part = site.data.shields.definition
+                          | where: "_obj_name", def
+                          | first -%}
+    {%- assign def_meta = site.data.shields.meta.definitions
+                          | where: "_obj_name", def
+                          | first -%}
     {%- assign all_grade_bonuses = "" | split: "" -%}
-    {%- for slot in def_info.slots -%}
-        {%- assign grade_stats = definition.grades | where: "slot", slot | first -%}
+    {%- for bonus in def_part.bonuses -%}
+        {%- if bonus.value != 0 -%}
+            {%- continue -%}
+        {%- endif -%}
+        {%- assign grade_stats = def_meta.grades | where: "slot", bonus.slot | first -%}
         {%- assign attr = site.data.attributes
                          | where: "obj", grade_stats.attribute
                          | first -%}
@@ -350,7 +347,7 @@ which go through the grade system as an extra step.
     {%- endfor -%}
 
     {%- assign all_grade_bonuses = all_grade_bonuses | sort_natural -%}
-    {%- assign row = definition.name | append: DEF_GRADES_SEPERATOR -%}
+    {%- assign row = def_part.name | append: DEF_GRADES_SEPERATOR -%}
     {%- for grade_bonus in all_grade_bonuses -%}
         {%- assign grade_data = grade_bonus | split: GRADES_SEPERATOR | reverse | join: "" -%}
         {%- assign row = row | append: grade_data -%}

@@ -687,9 +687,10 @@ definition:
 - _obj_name: GD_Anemone_GrenadeMods.A_Item.GrenadeMod_Standard
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -704,9 +705,10 @@ definition:
 - _obj_name: GD_Anemone_GrenadeMods.A_Item_Legendary.GrenadeMod_Exterminator
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 60
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -721,9 +723,10 @@ definition:
 - _obj_name: GD_Aster_GrenadeMods.A_Item.GrenadeMod_MagicSpell
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -741,9 +744,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item.GrenadeMod_Standard
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -758,9 +762,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_BabyBoomer
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 410
@@ -775,9 +780,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_FusterCluck
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -792,9 +798,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_SkyRocket
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 1100
@@ -809,9 +816,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_Snowball
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 350
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 120
@@ -826,9 +834,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BonusPackage
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 135
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -843,9 +852,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BouncingBonny
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -860,9 +870,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BouncingBonny
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -877,9 +888,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Exterminator
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 60
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -894,9 +906,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 1200
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 120
@@ -911,9 +924,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_FlameSpurt
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 300
@@ -928,9 +942,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_FourSeasons
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -945,9 +960,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Leech
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 30
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 250
@@ -962,9 +978,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_NastySurprise
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -979,9 +996,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Quasar
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -996,9 +1014,10 @@ definition:
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_RollingThunder
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 410
@@ -1013,9 +1032,10 @@ definition:
 - _obj_name: GD_Iris_SeraphItems.Crossfire.Iris_Seraph_GrenadeMod_Crossfire
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -1030,9 +1050,10 @@ definition:
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 135
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -1047,9 +1068,10 @@ definition:
 - _obj_name: GD_Iris_SeraphItems.ONegative.Iris_Seraph_GrenadeMod_ONegative
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 610
@@ -1064,9 +1086,10 @@ definition:
 - _obj_name: GD_Ma_GrenadeMods.A_Item_Legendary.GrenadeMod_Meganade
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 150
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -1081,9 +1104,10 @@ definition:
 - _obj_name: GD_Ma_GrenadeMods.A_Item_Unique.GrenadeMod_DataScrubber
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 150
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -1098,9 +1122,10 @@ definition:
 - _obj_name: GD_Orchid_GrenadeMods.A_Item_Custom.GrenadeMod_Blade
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
-    scale: '&beta;'
     type: pre-add
     value: 100
+    value_formula:
+      multiplier_str: '&beta;'
   - attribute: D_Attributes.GrenadeMod.BlastRadius
     type: pre-add
     value: 580
@@ -2348,26 +2373,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Standard (Anemone)
@@ -2430,26 +2461,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Exterminator (Anemone)
@@ -2528,26 +2565,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 30
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1.3
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 30
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 9
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Magic Spell
@@ -2646,26 +2689,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeDamage
@@ -2681,10 +2730,12 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Cryo
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModOxygenDamage
@@ -2798,26 +2849,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Fuster Cluck
@@ -2954,26 +3011,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Snowball
@@ -3082,26 +3145,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Bouncing Bonny
@@ -3180,26 +3249,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Bouncing Bazza
@@ -3262,26 +3337,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Exterminator
@@ -3344,26 +3425,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Fastball
@@ -3404,10 +3491,12 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     name: Breath of Terramorphous
@@ -3486,26 +3575,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Four Seasons
@@ -3568,26 +3663,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeDamage
@@ -3603,10 +3704,12 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Cryo
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
     name: Leech
@@ -3685,26 +3788,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Nasty Surprise
@@ -3745,10 +3854,12 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Quasar
@@ -3857,26 +3968,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 21
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 21
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 21
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Crossfire
@@ -3985,26 +4102,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 21
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 21
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 21
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: O-Negative
@@ -4072,26 +4195,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeDamage
@@ -4107,10 +4236,12 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Cryo
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModOxygenDamage
@@ -4183,26 +4314,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeDamage
@@ -4218,10 +4355,12 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Cryo
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Ice
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModOxygenDamage
@@ -4305,26 +4444,32 @@ meta:
       type: scale
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Fire
       per_grade: 1
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Incendiary
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Corrosive
       per_grade: 1.2
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Corrosive
       type: pre-add
     - attribute: D_Attributes.GrenadeMod.GrenadeModStatusEffectDamage
       base: 20
+      base_formula:
+        multiplier_str: '&beta;'
       constraint: Shock
       per_grade: 1.4
-      per_grade_scale: '&beta;'
-      scale: '&beta;'
+      per_grade_formula:
+        multiplier_str: '&beta;'
       slot: StatusEffectDamage_Shock
       type: pre-add
     name: Midnight Star
