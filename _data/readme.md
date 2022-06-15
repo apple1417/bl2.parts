@@ -44,6 +44,30 @@ Field | Usage
 ## Item Type Files
 The remaining files define all the data for a certain item type. Each file consists of a mapping of slots to a list of parts for that slot. The special key `meta` is an exception, instead holding metadata on the item type.
 
+### Formulas
+The part data is filled with numbers. In a most cases, these will be constant. If this is not the case, an additional formula block is used, named using the base field with `_formula` suffixed.
+
+```yml
+my_value: 123
+my_value_formula:
+  multiplier_str: &beta;
+  offset: 4.56
+```
+
+All fields within the formula object are optional, but at least one must exist if the formula field is defined. If the formula field is not defined, the base value is simply taken as constant.
+
+Field | Usage
+:---|:---
+`multiplier_str` | A string to display as a multiplier of the value, mostly intended for bonuses which scale with the base scaling constant.
+`offset` | A constant offset to add to the end of the base value. Is not multiplied by `multiplier_str`.
+
+The above example defines the formula `(123 * &beta;) + 4.56`.
+
+`multiplier_str` Value | Meaning
+:---|:---
+`&beta;` | The base scaling constant.
+`[Shield Level]` | The level of the shield this bonus is on.
+
 ### Part Data
 ```yml
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Bayonet_2
@@ -72,12 +96,28 @@ Field | Usage
 Field | Usage
 :---|:---
 `attribute` | The object name for the attribute this bonus affects. Optional.
-`scale` | A string to display as a multiplier of the value, mostly intended for bonuses which scale with the base scaling constant. Optional.
 `slot` | The name of the grade slot this bonus affects. Optional.
 `type` | The type of the bonus (using the css class names).
+`restrict` | A restriction object holding restrictions on this bonus. Optional, no restrictions if not defined.
 `value` | The value of the bonus.
+`value_formula` | An additional formula object, used to work out the actual value. Optional.
 
 If a bonus' `type` is `grade`, `slot` must be defined and `attribute` must not, otherwise `attribute` must be and `slot` must not.
+
+### Bonus Restrictions
+```yml
+restrict:
+  manu: Dahl
+  zoom: true
+```
+
+As with formulas, all fields are optional, but at least one must exist.
+
+Field | Usage
+:---|:---
+`manu` | A string holding the manufacturer this bonus applies on. 
+`post_init` | If true, this bonus only applies after item initalization (and doesn't show on the item card).
+`zoom` | If true, this bonus only applies while zoomed.
 
 ### Prefix Entries
 Field | Usage
@@ -104,12 +144,14 @@ grade_overrides:
 
 Field | Usage
 :---|:---
+`attr` | The object name of the attribute this grade slot should be assigned to. To be used if it doesn't exist in the standard definition. Optional.
 `name` | The grade slot's display name.
 `add_good` | If adding to the value gives a good outcome.
-`hide` | If to hide the grade slot - to be used if it doesn't actually exist.
+`hide` | If to hide the grade slot - to be used if it doesn't actually exist. Optional.
+
+If `attr` is defined (and points to a valid object), the other fields are ignored.
 
 When displaying simple bonuses, any grades defined using these won't get their values converted, they'll show the raw grade bonus.
-Technically you can add the `percent` field too, these entries get interpreted by some of the same scripts as attributes, but it would be nonsensical.
 
 ### Mesh Entries
 ```yml
@@ -156,18 +198,20 @@ Field | Usage
 Field | Usage
 :---|:---
 `attribute` | The object name for the attribute this entry sets the base value of.
-`scale` | A string to display as a multiplier of the value, mostly intended for bonuses which scale with the base scaling constant. Optional.
 `value` | The base value.
+`value_formula` | An additional formula object, used to work out the actual value. Optional.
 
 ### Definition Grade Entries
 ```yml
 - attribute: D_Attributes.Shield.PercentChanceToAbsorbLaser
   base: 0.00108
-  offset: 0.0288
+  base_formula:
+    multiplier_str: '[Shield Level]'
+    offset: 0.12
   per_grade: 0.000135
-  per_grade_offset: 0.0036
-  per_grade_scale: '[Shield Level]'
-  scale: '[Shield Level]'
+  per_grade_formula:
+    multiplier_str: '[Shield Level]'
+    offset: 0.12
   slot: Special01
   type: pre-add
 ```
@@ -176,10 +220,8 @@ Field | Usage
 :---|:---
 `attribute` | The object name for the attribute this grade affects.
 `base` | The base value of the grade, which is always applied.
-`offset` | A constant offset to add to the end of the base value. Is not multiplied by `scale`. Optional.
+`base_formula` | An additional formula object, used to work out the actual base value. Optional.
 `per_grade` | The per-grade value of the grade.
-`per_grade_offset` | Same as `offset`, but for the per-grade value. Optional.
-`per_grade_scale` |  Same as `scale`, but for the per-grade value. Optional.
-`scale` | A string to display as a multiplier of the value, mostly intended for bonuses which scale with the base scaling constant. Optional.
+`per_grade_formula` | An additional formula object, used to work out the actual per-grade value. Optional.
 `slot` | The grade's slot name.
 `type` | The type of the bonus the grade maps to.
