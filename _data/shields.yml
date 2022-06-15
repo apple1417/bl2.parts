@@ -7416,6 +7416,33 @@ meta:
       type: scale
     name: My First Shield
     unique: true
+  grade_overrides:
+    Special01:
+      name: Special 01
+      add_good: true
+    Special02:
+      name: Special 02
+      add_good: true
+    Special03:
+      name: Special 03
+      add_good: true
+    Special04:
+      name: Special 04
+      add_good: true
+    DeflectChance:
+      attr: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    NormalDamageResist:
+      attr: D_Attributes.DamageTypeModifers.NormalImpactDamageModifier
+    FireDamageResist:
+      attr: D_Attributes.DamageTypeModifers.IncendiaryImpactDamageModifier
+    ShockDamageResist:
+      attr: D_Attributes.DamageTypeModifers.ShockImpactDamageModifier
+    CorrosiveDamageResist:
+      attr: D_Attributes.DamageTypeModifers.CorrosiveImpactDamageModifier
+    ExplosiveDamageResist:
+      attr: D_Attributes.DamageTypeModifers.ExplosiveImpactDamageModifier
+    SlagDamageResist:
+      attr: D_Attributes.DamageTypeModifers.AmpImpactDamageModifier
   meshes:
     Shield_Accessory_Anshin:
       name: Anshin

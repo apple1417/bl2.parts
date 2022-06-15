@@ -26,7 +26,13 @@ Args:
                              | first -%}
 
     {%- if grade_override -%}
-        {%- assign attr = grade_override -%}
+        {%- if grade_override.attr -%}
+            {%- assign attr = site.data.attributes
+                              | where: "obj", grade_override.attr
+                              | first -%}
+        {%- else -%}
+            {%- assign attr = grade_override -%}
+        {%- endif -%}
         {%- assign actual_value = include.bonus.value -%}
         {%- assign actual_bonus_type = include.bonus.type -%}
 
@@ -54,7 +60,7 @@ Args:
     {%- assign actual_bonus_type = include.bonus.type -%}
 {%- endif -%}
 
-{%- if include.simple_bonuses and attr%}
+{%- if include.simple_bonuses and attr -%}
     {%- if actual_value > 0 -%}
         {%- assign positive = true -%}
     {%- else -%}
