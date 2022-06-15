@@ -1,0 +1,3141 @@
+accessories:
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Bayonet_1
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Barrel_Bayonet1
+  name: Bayonet 1
+  prefixes:
+  - name: Bladed
+    restrict: Dahl
+  - name: Bladed
+    restrict: Default
+  - name: Cutting Edge
+    restrict: Hyperion
+  - name: Acuminous
+    restrict: Maliwan
+  - name: Forthright
+    restrict: Old Hyperion
+  - name: Perma-Sharp
+    restrict: Tediore
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Bayonet_2
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Barrel_Bayonet1
+  name: Bayonet 2
+  prefixes:
+  - name: Cuting
+    restrict: Bandit
+  - name: Bladed
+    restrict: Default
+  - name: Slicing
+    restrict: Scav
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Body1_Accurate
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponMeleeDamage
+    type: scale
+    value: 1
+  mesh: Acc_Body
+  name: Body 1 Accuracy
+  prefixes:
+  - name: Akurate
+    restrict: Bandit
+  - name: Deft
+    restrict: Dahl
+  - name: Focused
+    restrict: Default
+  - name: Analytical
+    restrict: Hyperion
+  - name: Guileless
+    restrict: Maliwan
+  - name: Considered
+    restrict: Old Hyperion
+  - name: Spot-On
+    restrict: Scav
+  - name: Guaranteed
+    restrict: Tediore
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Body2_Damage
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -3
+  mesh: Acc_Body
+  name: Body 2 Damage
+  prefixes:
+  - name: Murduring
+    restrict: Bandit
+  - name: Stopping
+    restrict: Dahl
+  - name: Deadly
+    restrict: Default
+  - name: Rightsizing
+    restrict: Hyperion
+  - name: Consummate
+    restrict: Maliwan
+  - name: All-In
+    restrict: Old Hyperion
+  - name: True-Blue
+    restrict: Scav
+  - name: Hefty
+    restrict: Tediore
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Body3_Accelerated
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: 0.5
+  mesh: Acc_Body
+  name: Body 3 Accelerated
+  prefixes:
+  - name: Bulets Go Fasterifed
+    restrict: Bandit
+  - name: Flying
+    restrict: Dahl
+  - name: Accelerated
+    restrict: Default
+  - name: Proactive
+    restrict: Hyperion
+  - name: Impetuous
+    restrict: Maliwan
+  - name: Promotional
+    restrict: Old Hyperion
+  - name: Kwikner
+    restrict: Scav
+  - name: Brisk
+    restrict: Tediore
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_None
+  name: '"No Accessory"'
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Stock1_Stabilized
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  mesh: Acc_Stock
+  name: Stock 1 Stability
+  prefixes:
+  - name: Ballanced
+    restrict: Bandit
+  - name: Stoic
+    restrict: Dahl
+  - name: Balanced
+    restrict: Default
+  - name: Corporate
+    restrict: Hyperion
+  - name: Lucid
+    restrict: Maliwan
+  - name: Incorporated
+    restrict: Old Hyperion
+  - name: Steady
+    restrict: Scav
+  - name: Quality
+    restrict: Tediore
+  unique: false
+- _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Stock2_Reload
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 1
+  mesh: Acc_Stock
+  name: Stock 2 Reload
+  prefixes:
+  - name: Agresive
+    restrict: Bandit
+  - name: Skirmish
+    restrict: Dahl
+  - name: Social
+    restrict: Hyperion
+  - name: Apt
+    restrict: Maliwan
+  - name: Accessible
+    restrict: Old Hyperion
+  - name: Kwik-Load'd
+    restrict: Scav
+  - name: Refill
+    restrict: Tediore
+  unique: false
+alt_accessories:
+- _obj_name: GD_Weap_Accessories.Moonstone_Unique.Moonstone_Attachment_MareksMouth
+  bonuses:
+  - attribute: GD_Balance.Weighting.GearDrops_RareWeightModifier
+    type: pre-add
+    value: 0.05
+  - attribute: GD_Balance.Weighting.GearDrops_CommonWeightModifier
+    type: scale
+    value: -0.6
+  name: Marek's Mouth
+  unique: true
+barrels:
+- _obj_name: GD_Anemone_Weapons.Barrel.SMG_Barrel_Maliwan_HellFire
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - slot: WeaponMagSize
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  mesh: SMG_Barrel_Maliwan
+  name: Nirvana
+  unique: true
+- _obj_name: GD_Anemone_Weapons.SMG.SMG_Barrel_Hyperion_Infection_Cleaner
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 2
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 10
+  - attribute: D_Attributes.AmmoResource_Patrol_SMG.Ammo_Patrol_SMG_RegenerationRate
+    type: pre-add
+    value: 1.5
+  mesh: SMG_Barrel_Hyperion
+  name: Infection Cleaner
+  unique: true
+- _obj_name: GD_Aster_RaidWeapons.SMGs.SMG_Barrel_Alien_Florentine
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.9
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  mesh: SMG_Barrel_Alien
+  name: Florentine
+  unique: true
+- _obj_name: GD_Aster_Weapons.SMGs.SMG_Barrel_Dahl_Orc
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 1
+  mesh: SMG_Barrel_Dahl
+  name: Orc
+  unique: true
+- _obj_name: GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.33
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 1.5
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.025
+  mesh: SMG_Barrel_Hyperion
+  name: Crit
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Bandit_MareksMouth
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Bandit
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: SMG_Barrel_Bandit
+  name: Marek's Mouth
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Bandit_MeatGrinder
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -20
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -20
+  - slot: WeaponDamage
+    type: grade
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 4
+  mesh: SMG_Barrel_Bandit
+  name: Meat Grinder
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Dahl_Torrent
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 18
+  - slot: WeaponFireRate
+    type: grade
+    value: 15
+  - slot: WeaponSpread
+    type: grade
+    value: -10
+  - slot: WeaponMagSize
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 0.2
+  mesh: SMG_Barrel_Dahl
+  name: Torrent
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Hyperion_Bitch
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 8
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.35
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.75
+  mesh: SMG_Barrel_Hyperion
+  name: Fatale
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Hyperion_BlackSnake
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -1
+  mesh: SMG_Barrel_Hyperion
+  name: Black Snake
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Tediore_IVF
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.35
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: scale
+    value: -0.25
+  mesh: SMG_Barrel_Tediore
+  name: IVF
+  unique: true
+- _obj_name: GD_Cypressure_Weapons.A_Weapons_Unique.SMG_Barrel_Dahl_FastTalker
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: -0.07
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: -1.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  mesh: SMG_Barrel_Dahl
+  name: Fast Talker
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.SMG.SMG_Barrel_Hyperion_Avenger
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 2
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 10
+  - attribute: D_Attributes.AmmoResource_Patrol_SMG.Ammo_Patrol_SMG_RegenerationRate
+    type: pre-add
+    value: 1.5
+  mesh: SMG_Barrel_Hyperion
+  name: Avenger
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.SMG_Barrel_Hyperion_CheatCode
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 8
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: -15
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.35
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.75
+  mesh: SMG_Barrel_Hyperion
+  name: Cheat Code
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.SMG.SMG_Barrel_Bandit_SandHawk
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponBurstInterval
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.2
+  mesh: SMG_Barrel_Bandit
+  name: Sand Hawk
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.SMG.Actualizer.Orchid_Seraph_Actualizer_Barrel
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -20
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.4
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 1
+  mesh: SMG_Barrel_Hyperion
+  name: Actualizer
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.SMG.Tattler.Orchid_Seraph_Tattler_Barrel
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -20
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.35
+  mesh: SMG_Barrel_Bandit
+  name: Tattler
+  unique: true
+- _obj_name: GD_Sage_Weapons.SMG.SMG_Barrel_Alien_YellowJacket
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 3
+  mesh: SMG_Barrel_Alien
+  name: Yellow Jacket
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Alien
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 3
+  mesh: SMG_Barrel_Alien
+  name: E-Tech
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Alien_Bandit
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 3
+  mesh: SMG_Barrel_Alien
+  name: E-Tech (Bandit)
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: SMG_Barrel_Bandit
+  name: Bandit
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_BoneShredder
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -20
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -20
+  - slot: WeaponDamage
+    type: grade
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 4
+  mesh: SMG_Barrel_Bandit
+  name: Bone Shredder
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_Fridgia
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 20
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: -2.1
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1.5
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 6
+  mesh: SMG_Barrel_Bandit
+  name: Fridgia
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_Lascaux
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 20
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: pre-add
+    value: -2.1
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1.5
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 6
+  mesh: SMG_Barrel_Bandit
+  name: Lascaux
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_Slagga
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 12
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.7
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.6
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 18
+  mesh: SMG_Barrel_Bandit
+  name: Slagga
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Chulainn
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - slot: WeaponFireRate
+    type: grade
+    value: 7
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 3
+  - attribute: GD_Weap_SMG.Attribute.Att_IrishSwordEquipped
+    type: post-add
+    value: 1
+  mesh: SMG_Barrel_Tediore
+  name: Chulainn
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Dahl
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 1
+  mesh: SMG_Barrel_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Dahl_Bane
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -2
+  - slot: AccuracyMax
+    type: grade
+    value: -10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 14
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    type: scale
+    value: -5
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -50
+  mesh: SMG_Barrel_Dahl
+  name: Bane
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Dahl_Emperor
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 20
+  - slot: WeaponFireRate
+    type: grade
+    value: -10
+  - slot: WeaponSpread
+    type: grade
+    value: -10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.35
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 3
+  mesh: SMG_Barrel_Dahl
+  name: Emperor
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Frostfire
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - slot: WeaponFireRate
+    type: grade
+    value: 7
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  mesh: SMG_Barrel_Tediore
+  name: Frostfire
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Hyperion
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.15
+  mesh: SMG_Barrel_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Hyperion_Bitch
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 8
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.35
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.75
+  mesh: SMG_Barrel_Hyperion
+  name: Bitch
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.15
+  mesh: SMG_Barrel_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.02
+  mesh: SMG_Barrel_Maliwan
+  name: Bad Touch
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.33
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.025
+  mesh: SMG_Barrel_Maliwan
+  name: Good Touch
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_HellFire
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - slot: WeaponMagSize
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  mesh: SMG_Barrel_Maliwan
+  name: HellFire
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Tediore
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: scale
+    value: -0.25
+  mesh: SMG_Barrel_Tediore
+  name: Tediore
+  unique: false
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Tediore_BabyMaker
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.35
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: scale
+    value: -0.25
+  mesh: SMG_Barrel_Tediore
+  name: Baby Maker
+  unique: true
+- _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Tediore_Commerce
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: scale
+    value: -0.25
+  mesh: SMG_Barrel_Tediore
+  name: 'Commerce '
+  unique: true
+bodies:
+- _obj_name: GD_Anemone_Weapons.Body.SMG_Body_Maliwan_VarC
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Maliwan
+  name: Nirvana
+  unique: true
+- _obj_name: GD_Anemone_Weapons.SMG.SMG_Body_Tediore_6_Infection_Cleaner
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Tediore
+  name: Infection Cleaner
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Body.SMG_Body_Dahl_Torrent
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SMG_Body_Dahl
+  name: Torrent
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Body.SMG_Body_Hyperion_BlackSnake
+  mesh: SMG_Body_Hyperion
+  name: Black Snake
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.SMG.SMG_Body_Tediore_6_Avenger
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Tediore
+  name: Avenger
+  unique: true
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit
+  mesh: SMG_Body_Bandit
+  name: Bandit (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit_VarA
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SMG_Body_Bandit
+  name: Bandit (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit_VarB
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SMG_Body_Bandit
+  name: Bandit (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit_VarC
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Bandit
+  name: Bandit (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl
+  mesh: SMG_Body_Dahl
+  name: Dahl (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl_VarA
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SMG_Body_Dahl
+  name: Dahl (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl_VarB
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SMG_Body_Dahl
+  name: Dahl (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl_VarC
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Dahl
+  name: Dahl (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Gearbox_1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.2
+  mesh: SMG_Body_Hyperion
+  name: Gearbox
+  unique: true
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion
+  mesh: SMG_Body_Hyperion
+  name: Hyperion (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion_VarA
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SMG_Body_Hyperion
+  name: Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion_VarB
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SMG_Body_Hyperion
+  name: Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion_VarC
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Hyperion
+  name: Hyperion (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan
+  mesh: SMG_Body_Maliwan
+  name: Maliwan (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan_VarA
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SMG_Body_Maliwan
+  name: Maliwan (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan_VarB
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SMG_Body_Maliwan
+  name: Maliwan (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan_VarC
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Maliwan
+  name: Maliwan (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore
+  mesh: SMG_Body_Tediore
+  name: Tediore (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore_VarA
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: SMG_Body_Tediore
+  name: Tediore (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore_VarB
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: SMG_Body_Tediore
+  name: Tediore (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore_VarC
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: SMG_Body_Tediore
+  name: Tediore (Very Rare)
+  unique: false
+definitions:
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Bandit
+  _original:
+    game: BL2
+    name: Bandit
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Bandit (BL2)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Bandit
+  _original:
+    game: TPS
+    name: Bandit
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Bandit (TPS)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Dahl
+  _original:
+    game: BL2
+    name: Dahl
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.07
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Dahl (BL2)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Dahl
+  _original:
+    game: TPS
+    name: Dahl
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.07
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Dahl (TPS)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Hyperion
+  _original:
+    game: BL2
+    name: Hyperion
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 18
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Hyperion (BL2)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Hyperion
+  _original:
+    game: TPS
+    name: Hyperion
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 18
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Hyperion (TPS)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Maliwan
+  _original:
+    game: BL2
+    name: Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Maliwan (BL2)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Maliwan
+  _original:
+    game: TPS
+    name: Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Maliwan (TPS)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Tediore
+  _original:
+    game: BL2
+    name: Tediore
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Tediore (BL2)
+  unique: false
+- _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Tediore
+  _original:
+    game: TPS
+    name: Tediore
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Tediore (TPS)
+  unique: false
+elements:
+- _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Corrosive
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Corrosive
+  unique: false
+- _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Fire
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental1
+  name: Fire
+  unique: false
+- _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Ice
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Cryo
+  unique: false
+- _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_None
+  name: '"No Element"'
+  unique: false
+- _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Shock
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2b
+  name: Shock
+  unique: false
+- _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Slag
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Slag
+  unique: false
+grips:
+- _obj_name: GD_Cork_Weap_SMG.Grip.SMG_Grip_Bandit_MareksMouth
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -2
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 48
+  mesh: SMG_Grip_Bandit
+  name: Marek's Mouth
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.Grip.SMG_Grip_Hyperion_BlackSnake
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: 4
+  mesh: SMG_Grip_Hyperion
+  name: Black Snake
+  unique: true
+- _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Bandit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -2
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Bandit
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 6
+  mesh: SMG_Grip_Bandit
+  name: Bandit
+  unique: false
+- _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Dahl
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 4
+  mesh: SMG_Grip_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Hyperion
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: 4
+  mesh: SMG_Grip_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 4
+  mesh: SMG_Grip_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Tediore
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 4
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: 3
+  mesh: SMG_Grip_Tediore
+  name: Tediore
+  unique: false
+materials:
+- _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Maliwan_5_Legendary
+  name: Nirvana
+  unique: true
+- _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Tediore_6_Infection_Cleaner
+  name: Infection Cleaner
+  unique: true
+- _obj_name: GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Maliwan_5_Florentine
+  name: Florentine
+  unique: true
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_BanditMade_3_Orc
+  name: Orc
+  unique: true
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Bandit_4_Quartz_SMG
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.2
+  name: Quartz
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_SMG
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Emerald
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Hyperion_4_Diamond_SMG
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Diamond
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Maliwan_3_Crit
+  name: Crit
+  unique: true
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Malwan_4_Aquamarine_SMG
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Aquamarine
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Tediore_4_CubicZerconia_SMG
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Cubic Zerconia
+  unique: false
+- _obj_name: GD_Cork_Weap_SMG.ManufacturerMaterials.Mat_Bandit_3_MeatGrinder
+  name: Meat Grinder
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.ManufacturerMaterials.Mat_Dahl_5_Legendary_Torrent
+  name: Torrent
+  unique: true
+- _obj_name: GD_Cork_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_3_BlackSnake
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Black Snake
+  unique: true
+- _obj_name: GD_Cypressure_Weapons.ManufacturerMaterials.SMG.Mat_BanditMade_FastTalker
+  name: Fast Talker
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Tediore_6_Avenger
+  name: Avenger
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Hyperion_5_Legendary_CheatCode
+  name: Cheat Code
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Bandit_6_Glitch
+  name: Bandit (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Bandit_6_Glitch_CutieKiller
+  name: '%Cu+ie^_^ki||er'
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Dahl_6_Glitch
+  name: Dahl (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Hyperion_6_Glitch
+  name: Hyperion (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Maliwan_6_Glitch
+  name: Maliwan (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Old_Hyperion_6_Glitch
+  name: Old Hyperion (Glitch)
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Tediore_6_Glitch
+  name: Tediore (Glitch)
+  unique: false
+- _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Dahl_3_SandHawk
+  name: Sand Hawk
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Bandit_1_Tattler
+  name: Tattler
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Hyperion_1_Actualizer
+  name: Actualizer
+  unique: true
+- _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_Hyperion_3_YellowJacket
+  name: Yellow Jacket
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_1
+  name: Bandit (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_2
+  name: Bandit (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_3
+  name: Bandit (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_3_BoneShredder
+  name: Bone Shredder
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_4
+  name: Bandit (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_5_Legendary
+  name: Slagga
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_1
+  name: Dahl (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_2
+  name: Dahl (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_3
+  name: Dahl (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_3_Fridgia
+  name: Fridgia
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_3_Lascaux
+  name: Lascaux
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_4
+  name: Dahl (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_5_Legendary
+  name: Emperor
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Gearbox_1
+  name: Gearbox
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_1
+  name: Hyperion (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_2
+  name: Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_3
+  name: Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_3_Bane
+  name: Bane
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_3_Commerce
+  name: 'Commerce '
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_4
+  name: Hyperion (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_5_Legendary
+  name: Bitch
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_1
+  name: Maliwan (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_2
+  name: Maliwan (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3
+  name: Maliwan (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_BadTouch
+  name: Bad Touch
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_Chulainn
+  name: Chulainn
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_Frostfire
+  name: Frostfire
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_GoodTouch
+  name: Good Touch
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_4
+  name: Maliwan (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_5_Legendary
+  name: HellFire
+  unique: true
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_2
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_3
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_4
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 2
+  name: Old Hyperion (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_1
+  name: Tediore (Common)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_2
+  name: Tediore (Uncommon)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_3
+  name: Tediore (Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_4
+  name: Tediore (Very Rare)
+  unique: false
+- _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_5_Legendary
+  name: Baby Maker
+  unique: true
+sights:
+- _obj_name: GD_Cork_Weap_SMG.Sight.SMG_Sight_Hyperion_BlackSnake
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 18
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: SMG_Scope_Hyperion
+  name: Black Snake
+  unique: true
+- _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Bandit
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: SMG_Scope_Bandit
+  name: Bandit
+  unique: false
+- _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Dahl
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: SMG_Scope_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Hyperion
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 18
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: SMG_Scope_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Maliwan
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 11
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: SMG_Scope_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SMG.Sight.SMG_Sight_None
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  name: '"No Sight"'
+  unique: false
+- _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Tedior
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 6
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: SMG_Scope_Tediore
+  name: Tediore
+  unique: false
+stocks:
+- _obj_name: GD_Cork_Weap_SMG.Stock.SMG_Stock_Hyperion_BlackSnake
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 8
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  mesh: SMG_Stock_Hyperion
+  name: Black Snake
+  unique: true
+- _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Bandit
+  mesh: SMG_Stock_Bandit
+  name: Bandit
+  unique: false
+- _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Dahl
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 1
+  mesh: SMG_Stock_Dahl
+  name: Dahl
+  unique: false
+- _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Hyperion
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 8
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  mesh: SMG_Stock_Hyperion
+  name: Hyperion
+  unique: false
+- _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Maliwan
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: SMG_Stock_Maliwan
+  name: Maliwan
+  unique: false
+- _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Tediore
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  mesh: SMG_Stock_Tediore
+  name: Tediore
+  unique: false
+meta:
+  definitions:
+  - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Bandit
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.13
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 56
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4.2
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 2.2
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 7.44
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Bandit
+    unique: false
+  - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Dahl
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.14
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 27
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.7
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.65
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0.2
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 7.2
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Dahl
+    unique: false
+  - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Hyperion
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.115
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.7
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -0.8
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 7.28
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: 0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Hyperion
+    unique: false
+  - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Maliwan
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.125
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 20
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.2
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.8
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 6.8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Maliwan
+    unique: false
+  - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Tediore
+    base:
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.12
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 1.9
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.6
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.9
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 6.88
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.5
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Tediore
+    unique: false
+  standard_definition_idx: 0
