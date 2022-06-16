@@ -3,7 +3,7 @@
     color: #ffffff;
 }
 .uncommon {
-    color: #3dd201;
+    color: #3dd20b;
 }
 .rare {
     color: #3c8eff;
@@ -12,7 +12,7 @@
     color: #a83fe5;
 }
 .etech {
-    color: #ca00e8
+    color: #ca00a8
 }
 .legendary {
     color: #ffb400
@@ -60,20 +60,24 @@
     color: #00d2ff
 }
 
-.atmos {
-    color: #6c96e8;
-}
 .eridium {
     color: #9132c8;
 }
 .health {
-    color: #e96464;
+    color: #cf4747;
 }
 .money {
     color: #ffff0d;
 }
 .moonstones {
     color: #49f3bf;
+}
+.oxygen {
+    color: #9dbdff;
+}
+
+.atmos {
+    color: #6c96e8;
 }
 .projectile-count {
     color: #ffcc00;
