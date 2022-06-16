@@ -19,6 +19,7 @@ accessories:
     restrict: Old Hyperion
   - name: Perma-Sharp
     restrict: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Bayonet_2
   bonuses:
@@ -34,6 +35,7 @@ accessories:
     restrict: Default
   - name: Slicing
     restrict: Scav
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Body1_Accurate
   bonuses:
@@ -65,6 +67,7 @@ accessories:
     restrict: Scav
   - name: Guaranteed
     restrict: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Body2_Damage
   bonuses:
@@ -93,6 +96,7 @@ accessories:
     restrict: Scav
   - name: Hefty
     restrict: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Body3_Accelerated
   bonuses:
@@ -121,9 +125,11 @@ accessories:
     restrict: Scav
   - name: Brisk
     restrict: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_None
   name: '"No Accessory"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Stock1_Stabilized
   bonuses:
@@ -152,6 +158,7 @@ accessories:
     restrict: Scav
   - name: Quality
     restrict: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Accessory.SMG_Accessory_Stock2_Reload
   bonuses:
@@ -178,6 +185,7 @@ accessories:
     restrict: Scav
   - name: Refill
     restrict: Tediore
+  rarity: 0
   unique: false
 alt_accessories:
 - _obj_name: GD_Weap_Accessories.Moonstone_Unique.Moonstone_Attachment_MareksMouth
@@ -189,6 +197,7 @@ alt_accessories:
     type: scale
     value: -0.6
   name: Marek's Mouth
+  rarity: 0
   unique: true
 barrels:
 - _obj_name: GD_Anemone_Weapons.Barrel.SMG_Barrel_Maliwan_HellFire
@@ -213,6 +222,7 @@ barrels:
     value: 0.2
   mesh: SMG_Barrel_Maliwan
   name: Nirvana
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.SMG.SMG_Barrel_Hyperion_Infection_Cleaner
   bonuses:
@@ -242,6 +252,7 @@ barrels:
     value: 1.5
   mesh: SMG_Barrel_Hyperion
   name: Infection Cleaner
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_RaidWeapons.SMGs.SMG_Barrel_Alien_Florentine
   bonuses:
@@ -262,6 +273,7 @@ barrels:
     value: -2
   mesh: SMG_Barrel_Alien
   name: Florentine
+  rarity: 497
   unique: true
 - _obj_name: GD_Aster_Weapons.SMGs.SMG_Barrel_Dahl_Orc
   bonuses:
@@ -295,6 +307,7 @@ barrels:
     value: 1
   mesh: SMG_Barrel_Dahl
   name: Orc
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.SMGs.SMG_Barrel_Hyperion_Crit
   bonuses:
@@ -339,6 +352,7 @@ barrels:
     value: 0.025
   mesh: SMG_Barrel_Hyperion
   name: Crit
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Bandit_MareksMouth
   bonuses:
@@ -368,6 +382,7 @@ barrels:
     value: -0.7
   mesh: SMG_Barrel_Bandit
   name: Marek's Mouth
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Bandit_MeatGrinder
   bonuses:
@@ -391,6 +406,7 @@ barrels:
     value: 4
   mesh: SMG_Barrel_Bandit
   name: Meat Grinder
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Dahl_Torrent
   bonuses:
@@ -439,6 +455,7 @@ barrels:
     value: 0.2
   mesh: SMG_Barrel_Dahl
   name: Torrent
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Hyperion_Bitch
   bonuses:
@@ -481,6 +498,7 @@ barrels:
     value: 0.75
   mesh: SMG_Barrel_Hyperion
   name: Fatale
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Hyperion_BlackSnake
   bonuses:
@@ -520,6 +538,7 @@ barrels:
     value: -1
   mesh: SMG_Barrel_Hyperion
   name: Black Snake
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Barrel.SMG_Barrel_Tediore_IVF
   bonuses:
@@ -544,6 +563,7 @@ barrels:
     value: -0.25
   mesh: SMG_Barrel_Tediore
   name: IVF
+  rarity: 5
   unique: true
 - _obj_name: GD_Cypressure_Weapons.A_Weapons_Unique.SMG_Barrel_Dahl_FastTalker
   bonuses:
@@ -576,6 +596,7 @@ barrels:
     value: -2
   mesh: SMG_Barrel_Dahl
   name: Fast Talker
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.SMG.SMG_Barrel_Hyperion_Avenger
   bonuses:
@@ -605,6 +626,7 @@ barrels:
     value: 1.5
   mesh: SMG_Barrel_Hyperion
   name: Avenger
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.SMG_Barrel_Hyperion_CheatCode
   bonuses:
@@ -650,6 +672,7 @@ barrels:
     value: 0.75
   mesh: SMG_Barrel_Hyperion
   name: Cheat Code
+  rarity: 5
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.SMG.SMG_Barrel_Bandit_SandHawk
   bonuses:
@@ -681,6 +704,7 @@ barrels:
     value: -0.2
   mesh: SMG_Barrel_Bandit
   name: Sand Hawk
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.SMG.Actualizer.Orchid_Seraph_Actualizer_Barrel
   bonuses:
@@ -707,6 +731,7 @@ barrels:
     value: 1
   mesh: SMG_Barrel_Hyperion
   name: Actualizer
+  rarity: 497
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.SMG.Tattler.Orchid_Seraph_Tattler_Barrel
   bonuses:
@@ -736,6 +761,7 @@ barrels:
     value: 0.35
   mesh: SMG_Barrel_Bandit
   name: Tattler
+  rarity: 497
   unique: true
 - _obj_name: GD_Sage_Weapons.SMG.SMG_Barrel_Alien_YellowJacket
   bonuses:
@@ -761,6 +787,7 @@ barrels:
     value: 3
   mesh: SMG_Barrel_Alien
   name: Yellow Jacket
+  rarity: 2
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Alien
   bonuses:
@@ -786,6 +813,7 @@ barrels:
     value: 3
   mesh: SMG_Barrel_Alien
   name: E-Tech
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Alien_Bandit
   bonuses:
@@ -811,6 +839,7 @@ barrels:
     value: 3
   mesh: SMG_Barrel_Alien
   name: E-Tech (Bandit)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit
   bonuses:
@@ -835,6 +864,7 @@ barrels:
     value: -0.7
   mesh: SMG_Barrel_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_BoneShredder
   bonuses:
@@ -858,6 +888,7 @@ barrels:
     value: 4
   mesh: SMG_Barrel_Bandit
   name: Bone Shredder
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_Fridgia
   bonuses:
@@ -895,6 +926,7 @@ barrels:
     value: 6
   mesh: SMG_Barrel_Bandit
   name: Fridgia
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_Lascaux
   bonuses:
@@ -926,6 +958,7 @@ barrels:
     value: 6
   mesh: SMG_Barrel_Bandit
   name: Lascaux
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Bandit_Slagga
   bonuses:
@@ -958,6 +991,7 @@ barrels:
     value: 18
   mesh: SMG_Barrel_Bandit
   name: Slagga
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Chulainn
   bonuses:
@@ -987,6 +1021,7 @@ barrels:
     value: 1
   mesh: SMG_Barrel_Tediore
   name: Chulainn
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Dahl
   bonuses:
@@ -1020,6 +1055,7 @@ barrels:
     value: 1
   mesh: SMG_Barrel_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Dahl_Bane
   bonuses:
@@ -1051,6 +1087,7 @@ barrels:
     value: -50
   mesh: SMG_Barrel_Dahl
   name: Bane
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Dahl_Emperor
   bonuses:
@@ -1090,6 +1127,7 @@ barrels:
     value: 3
   mesh: SMG_Barrel_Dahl
   name: Emperor
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Frostfire
   bonuses:
@@ -1119,6 +1157,7 @@ barrels:
     value: 1
   mesh: SMG_Barrel_Tediore
   name: Frostfire
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Hyperion
   bonuses:
@@ -1154,6 +1193,7 @@ barrels:
     value: -0.15
   mesh: SMG_Barrel_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Hyperion_Bitch
   bonuses:
@@ -1196,6 +1236,7 @@ barrels:
     value: 0.75
   mesh: SMG_Barrel_Hyperion
   name: Bitch
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan
   bonuses:
@@ -1228,6 +1269,7 @@ barrels:
     value: -0.15
   mesh: SMG_Barrel_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_BadTouch
   bonuses:
@@ -1251,6 +1293,7 @@ barrels:
     value: 0.02
   mesh: SMG_Barrel_Maliwan
   name: Bad Touch
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_GoodTouch
   bonuses:
@@ -1274,6 +1317,7 @@ barrels:
     value: 0.025
   mesh: SMG_Barrel_Maliwan
   name: Good Touch
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Maliwan_HellFire
   bonuses:
@@ -1297,6 +1341,7 @@ barrels:
     value: 0.2
   mesh: SMG_Barrel_Maliwan
   name: HellFire
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Tediore
   bonuses:
@@ -1321,6 +1366,7 @@ barrels:
     value: -0.25
   mesh: SMG_Barrel_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Tediore_BabyMaker
   bonuses:
@@ -1345,6 +1391,7 @@ barrels:
     value: -0.25
   mesh: SMG_Barrel_Tediore
   name: Baby Maker
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SMG.Barrel.SMG_Barrel_Tediore_Commerce
   bonuses:
@@ -1366,6 +1413,7 @@ barrels:
     value: -0.25
   mesh: SMG_Barrel_Tediore
   name: 'Commerce '
+  rarity: 0
   unique: true
 bodies:
 - _obj_name: GD_Anemone_Weapons.Body.SMG_Body_Maliwan_VarC
@@ -1381,6 +1429,7 @@ bodies:
     value: 7
   mesh: SMG_Body_Maliwan
   name: Nirvana
+  rarity: 506
   unique: true
 - _obj_name: GD_Anemone_Weapons.SMG.SMG_Body_Tediore_6_Infection_Cleaner
   bonuses:
@@ -1395,6 +1444,7 @@ bodies:
     value: 7
   mesh: SMG_Body_Tediore
   name: Infection Cleaner
+  rarity: 506
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Body.SMG_Body_Dahl_Torrent
   bonuses:
@@ -1409,10 +1459,12 @@ bodies:
     value: 5
   mesh: SMG_Body_Dahl
   name: Torrent
+  rarity: 4
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Body.SMG_Body_Hyperion_BlackSnake
   mesh: SMG_Body_Hyperion
   name: Black Snake
+  rarity: 3
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.SMG.SMG_Body_Tediore_6_Avenger
   bonuses:
@@ -1427,10 +1479,12 @@ bodies:
     value: 7
   mesh: SMG_Body_Tediore
   name: Avenger
+  rarity: 500
   unique: true
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit
   mesh: SMG_Body_Bandit
   name: Bandit (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit_VarA
   bonuses:
@@ -1445,6 +1499,7 @@ bodies:
     value: 3
   mesh: SMG_Body_Bandit
   name: Bandit (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit_VarB
   bonuses:
@@ -1459,6 +1514,7 @@ bodies:
     value: 5
   mesh: SMG_Body_Bandit
   name: Bandit (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Bandit_VarC
   bonuses:
@@ -1473,10 +1529,12 @@ bodies:
     value: 7
   mesh: SMG_Body_Bandit
   name: Bandit (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl
   mesh: SMG_Body_Dahl
   name: Dahl (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl_VarA
   bonuses:
@@ -1491,6 +1549,7 @@ bodies:
     value: 3
   mesh: SMG_Body_Dahl
   name: Dahl (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl_VarB
   bonuses:
@@ -1505,6 +1564,7 @@ bodies:
     value: 5
   mesh: SMG_Body_Dahl
   name: Dahl (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Dahl_VarC
   bonuses:
@@ -1519,6 +1579,7 @@ bodies:
     value: 7
   mesh: SMG_Body_Dahl
   name: Dahl (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Gearbox_1
   bonuses:
@@ -1533,10 +1594,12 @@ bodies:
     value: 0.2
   mesh: SMG_Body_Hyperion
   name: Gearbox
+  rarity: 1
   unique: true
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion
   mesh: SMG_Body_Hyperion
   name: Hyperion (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion_VarA
   bonuses:
@@ -1551,6 +1614,7 @@ bodies:
     value: 3
   mesh: SMG_Body_Hyperion
   name: Hyperion (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion_VarB
   bonuses:
@@ -1565,6 +1629,7 @@ bodies:
     value: 5
   mesh: SMG_Body_Hyperion
   name: Hyperion (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Hyperion_VarC
   bonuses:
@@ -1579,10 +1644,12 @@ bodies:
     value: 7
   mesh: SMG_Body_Hyperion
   name: Hyperion (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan
   mesh: SMG_Body_Maliwan
   name: Maliwan (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan_VarA
   bonuses:
@@ -1597,6 +1664,7 @@ bodies:
     value: 3
   mesh: SMG_Body_Maliwan
   name: Maliwan (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan_VarB
   bonuses:
@@ -1611,6 +1679,7 @@ bodies:
     value: 5
   mesh: SMG_Body_Maliwan
   name: Maliwan (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Maliwan_VarC
   bonuses:
@@ -1625,10 +1694,12 @@ bodies:
     value: 7
   mesh: SMG_Body_Maliwan
   name: Maliwan (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore
   mesh: SMG_Body_Tediore
   name: Tediore (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore_VarA
   bonuses:
@@ -1643,6 +1714,7 @@ bodies:
     value: 3
   mesh: SMG_Body_Tediore
   name: Tediore (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore_VarB
   bonuses:
@@ -1657,6 +1729,7 @@ bodies:
     value: 5
   mesh: SMG_Body_Tediore
   name: Tediore (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SMG.Body.SMG_Body_Tediore_VarC
   bonuses:
@@ -1671,6 +1744,7 @@ bodies:
     value: 7
   mesh: SMG_Body_Tediore
   name: Tediore (Very Rare)
+  rarity: 4
   unique: false
 definitions:
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Bandit
@@ -1695,6 +1769,7 @@ definitions:
     type: scale
     value: -0.15
   name: Bandit (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Bandit
   _original:
@@ -1713,6 +1788,7 @@ definitions:
     type: scale
     value: -1
   name: Bandit (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Dahl
   _original:
@@ -1759,6 +1835,7 @@ definitions:
     type: scale
     value: -0.15
   name: Dahl (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Dahl
   _original:
@@ -1800,6 +1877,7 @@ definitions:
     type: scale
     value: -1
   name: Dahl (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Hyperion
   _original:
@@ -1826,6 +1904,7 @@ definitions:
     type: scale
     value: -0.15
   name: Hyperion (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Hyperion
   _original:
@@ -1847,6 +1926,7 @@ definitions:
     type: scale
     value: -1
   name: Hyperion (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Maliwan
   _original:
@@ -1879,6 +1959,7 @@ definitions:
     type: scale
     value: -0.15
   name: Maliwan (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Maliwan
   _original:
@@ -1906,6 +1987,7 @@ definitions:
     type: scale
     value: -1
   name: Maliwan (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Tediore
   _original:
@@ -1929,6 +2011,7 @@ definitions:
     type: scale
     value: -0.15
   name: Tediore (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Tediore
   _original:
@@ -1947,6 +2030,7 @@ definitions:
     type: scale
     value: -1
   name: Tediore (TPS)
+  rarity: 0
   unique: false
 elements:
 - _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Corrosive
@@ -1956,6 +2040,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Corrosive
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Fire
   bonuses:
@@ -1964,6 +2049,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental1
   name: Fire
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Ice
   bonuses:
@@ -1972,9 +2058,11 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Cryo
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_None
   name: '"No Element"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Shock
   bonuses:
@@ -1983,6 +2071,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental2b
   name: Shock
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.elemental.SMG_Elemental_Slag
   bonuses:
@@ -1991,6 +2080,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Slag
+  rarity: 0
   unique: false
 grips:
 - _obj_name: GD_Cork_Weap_SMG.Grip.SMG_Grip_Bandit_MareksMouth
@@ -2012,6 +2102,7 @@ grips:
     value: 48
   mesh: SMG_Grip_Bandit
   name: Marek's Mouth
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.Grip.SMG_Grip_Hyperion_BlackSnake
   bonuses:
@@ -2036,6 +2127,7 @@ grips:
     value: 4
   mesh: SMG_Grip_Hyperion
   name: Black Snake
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Bandit
   bonuses:
@@ -2060,6 +2152,7 @@ grips:
     value: 6
   mesh: SMG_Grip_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Dahl
   bonuses:
@@ -2087,6 +2180,7 @@ grips:
     value: 4
   mesh: SMG_Grip_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Hyperion
   bonuses:
@@ -2111,6 +2205,7 @@ grips:
     value: 4
   mesh: SMG_Grip_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Maliwan
   bonuses:
@@ -2129,6 +2224,7 @@ grips:
     value: 4
   mesh: SMG_Grip_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Grip.SMG_Grip_Tediore
   bonuses:
@@ -2153,19 +2249,24 @@ grips:
     value: 3
   mesh: SMG_Grip_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 materials:
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Maliwan_5_Legendary
   name: Nirvana
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Tediore_6_Infection_Cleaner
   name: Infection Cleaner
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Maliwan_5_Florentine
   name: Florentine
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_BanditMade_3_Orc
   name: Orc
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Bandit_4_Quartz_SMG
   bonuses:
@@ -2182,6 +2283,7 @@ materials:
     type: post-add
     value: -0.2
   name: Quartz
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_SMG
   bonuses:
@@ -2198,6 +2300,7 @@ materials:
     type: post-add
     value: -0.3
   name: Emerald
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Hyperion_4_Diamond_SMG
   bonuses:
@@ -2214,9 +2317,11 @@ materials:
     type: post-add
     value: -0.3
   name: Diamond
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Maliwan_3_Crit
   name: Crit
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Malwan_4_Aquamarine_SMG
   bonuses:
@@ -2233,6 +2338,7 @@ materials:
     type: post-add
     value: -0.3
   name: Aquamarine
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Tediore_4_CubicZerconia_SMG
   bonuses:
@@ -2249,12 +2355,15 @@ materials:
     type: post-add
     value: -0.3
   name: Cubic Zerconia
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Weap_SMG.ManufacturerMaterials.Mat_Bandit_3_MeatGrinder
   name: Meat Grinder
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.ManufacturerMaterials.Mat_Dahl_5_Legendary_Torrent
   name: Torrent
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_3_BlackSnake
   bonuses:
@@ -2277,138 +2386,183 @@ materials:
     type: scale
     value: 2
   name: Black Snake
+  rarity: 0
   unique: true
 - _obj_name: GD_Cypressure_Weapons.ManufacturerMaterials.SMG.Mat_BanditMade_FastTalker
   name: Fast Talker
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Tediore_6_Avenger
   name: Avenger
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Hyperion_5_Legendary_CheatCode
   name: Cheat Code
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Bandit_6_Glitch
   name: Bandit (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Bandit_6_Glitch_CutieKiller
   name: '%Cu+ie^_^ki||er'
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Dahl_6_Glitch
   name: Dahl (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Hyperion_6_Glitch
   name: Hyperion (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Maliwan_6_Glitch
   name: Maliwan (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Old_Hyperion_6_Glitch
   name: Old Hyperion (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SMG_Tediore_6_Glitch
   name: Tediore (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Dahl_3_SandHawk
   name: Sand Hawk
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Bandit_1_Tattler
   name: Tattler
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Hyperion_1_Actualizer
   name: Actualizer
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_Hyperion_3_YellowJacket
   name: Yellow Jacket
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_1
   name: Bandit (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_2
   name: Bandit (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_3
   name: Bandit (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_3_BoneShredder
   name: Bone Shredder
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_4
   name: Bandit (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Bandit_5_Legendary
   name: Slagga
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_1
   name: Dahl (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_2
   name: Dahl (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_3
   name: Dahl (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_3_Fridgia
   name: Fridgia
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_3_Lascaux
   name: Lascaux
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_4
   name: Dahl (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Dahl_5_Legendary
   name: Emperor
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Gearbox_1
   name: Gearbox
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_1
   name: Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_2
   name: Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_3
   name: Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_3_Bane
   name: Bane
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_3_Commerce
   name: 'Commerce '
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_4
   name: Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Hyperion_5_Legendary
   name: Bitch
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_1
   name: Maliwan (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_2
   name: Maliwan (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3
   name: Maliwan (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_BadTouch
   name: Bad Touch
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_Chulainn
   name: Chulainn
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_Frostfire
   name: Frostfire
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_3_GoodTouch
   name: Good Touch
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_4
   name: Maliwan (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Maliwan_5_Legendary
   name: HellFire
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_1
   bonuses:
@@ -2431,6 +2585,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_2
   bonuses:
@@ -2453,6 +2608,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_3
   bonuses:
@@ -2475,6 +2631,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Old_Hyperion_4
   bonuses:
@@ -2497,21 +2654,27 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_1
   name: Tediore (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_2
   name: Tediore (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_3
   name: Tediore (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_4
   name: Tediore (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.ManufacturerMaterials.Mat_Tedior_5_Legendary
   name: Baby Maker
+  rarity: 0
   unique: true
 sights:
 - _obj_name: GD_Cork_Weap_SMG.Sight.SMG_Sight_Hyperion_BlackSnake
@@ -2531,6 +2694,7 @@ sights:
     value: -2
   mesh: SMG_Scope_Hyperion
   name: Black Snake
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Bandit
   bonuses:
@@ -2544,6 +2708,7 @@ sights:
     value: -2
   mesh: SMG_Scope_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Dahl
   bonuses:
@@ -2562,6 +2727,7 @@ sights:
     value: -2
   mesh: SMG_Scope_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Hyperion
   bonuses:
@@ -2580,6 +2746,7 @@ sights:
     value: -2
   mesh: SMG_Scope_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Maliwan
   bonuses:
@@ -2598,6 +2765,7 @@ sights:
     value: -2
   mesh: SMG_Scope_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Sight.SMG_Sight_None
   bonuses:
@@ -2607,6 +2775,7 @@ sights:
     type: scale
     value: -2
   name: '"No Sight"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Sight.SMG_Sight_Tedior
   bonuses:
@@ -2620,6 +2789,7 @@ sights:
     value: -2
   mesh: SMG_Scope_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 stocks:
 - _obj_name: GD_Cork_Weap_SMG.Stock.SMG_Stock_Hyperion_BlackSnake
@@ -2632,10 +2802,12 @@ stocks:
     value: 4
   mesh: SMG_Stock_Hyperion
   name: Black Snake
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Bandit
   mesh: SMG_Stock_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Dahl
   bonuses:
@@ -2659,6 +2831,7 @@ stocks:
     value: 1
   mesh: SMG_Stock_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Hyperion
   bonuses:
@@ -2670,6 +2843,7 @@ stocks:
     value: 4
   mesh: SMG_Stock_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Maliwan
   bonuses:
@@ -2681,6 +2855,7 @@ stocks:
     value: 2
   mesh: SMG_Stock_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SMG.Stock.SMG_Stock_Tediore
   bonuses:
@@ -2695,6 +2870,7 @@ stocks:
     value: 2
   mesh: SMG_Stock_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 meta:
   definitions:

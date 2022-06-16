@@ -23,6 +23,7 @@ accessories:
     restrict: Tediore
   - name: Patriot's
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Bayonet_1_Law
   bonuses:
@@ -31,6 +32,7 @@ accessories:
     value: 1
   mesh: Acc_Barrel_Blade1
   name: Law Bayonet
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Bayonet_2
   bonuses:
@@ -48,6 +50,7 @@ accessories:
     restrict: Scav
   - name: Thrusting
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Laser_Accuracy
   bonuses:
@@ -88,6 +91,7 @@ accessories:
     restrict: Torgue
   - name: Righteous
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Laser_Double
   bonuses:
@@ -154,6 +158,7 @@ accessories:
     restrict: Torgue
   - name: Dva
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Laser_Double_DvaInfinity
   bonuses:
@@ -162,9 +167,11 @@ accessories:
     value: 0.25
   mesh: Acc_Barrel_Laser
   name: Infinity Double Laser
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_None
   name: '"No Accessory"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Stock_Stability
   bonuses:
@@ -202,6 +209,7 @@ accessories:
     restrict: Torgue
   - name: Resolute
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Tech_1_Mag
   bonuses:
@@ -236,6 +244,7 @@ accessories:
     restrict: Torgue
   - name: Unending
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Tech_2_Damage
   bonuses:
@@ -270,6 +279,7 @@ accessories:
     restrict: Torgue
   - name: Purging
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Accessory.Pistol_Accessory_Tech_3_Firerate
   bonuses:
@@ -309,6 +319,7 @@ accessories:
     restrict: Torgue
   - name: Vengeful
     restrict: Vladof
+  rarity: 0
   unique: false
 barrels:
 - _obj_name: GD_Anemone_Weapons.Barrel.Pistol_Barrel_Dahl_Hornet_Hector
@@ -342,6 +353,7 @@ barrels:
     value: 4
   mesh: Pistol_Barrel_Dahl
   name: Hector's Paradise
+  rarity: 5
   unique: true
 - _obj_name: GD_Anemone_Weapons.Barrel.Pistol_Barrel_Vladof_Fire
   bonuses:
@@ -372,6 +384,7 @@ barrels:
     value: -3
   mesh: Pistol_Barrel_Vladof
   name: Fire Infinity
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.Barrel.Pistol_Barrel_Vladof_Infinity
   bonuses:
@@ -402,6 +415,7 @@ barrels:
     value: -3
   mesh: Pistol_Barrel_Vladof
   name: Fire Drill
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_RaidWeapons.Pistols.Pistol_Barrel_Vladof_Stinger
   bonuses:
@@ -440,6 +454,7 @@ barrels:
     value: -1.5
   mesh: Pistol_Barrel_Vladof
   name: Stinger
+  rarity: 497
   unique: true
 - _obj_name: GD_Aster_Weapons.Pistols.Pistol_Barrel_Bandit_GrogNozzle
   bonuses:
@@ -469,6 +484,7 @@ barrels:
     value: 0.65
   mesh: Pistol_Barrel_Bandit
   name: Grog Nozzle
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Bandit_Zim
   bonuses:
@@ -492,6 +508,7 @@ barrels:
     value: -1
   mesh: Pistol_Barrel_Bandit
   name: Zim
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Blowfly
   bonuses:
@@ -524,6 +541,7 @@ barrels:
     value: 5
   mesh: Pistol_Barrel_Dahl
   name: Blowfly
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Globber
   bonuses:
@@ -550,6 +568,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Dahl
   name: Globber
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Hyperion_GwensOtherHead
   bonuses:
@@ -595,6 +614,7 @@ barrels:
     value: 5
   mesh: Pistol_Barrel_Maliwan
   name: Gwen's Other Head
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Jakobs_CyberColt
   bonuses:
@@ -630,6 +650,7 @@ barrels:
     value: -3
   mesh: Pistol_Barrel_Jakobs
   name: Cyber Eagle
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Jakobs_Smasher
   bonuses:
@@ -668,6 +689,7 @@ barrels:
     value: 2
   mesh: Pistol_Barrel_Jakobs
   name: Smasher
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Scav_Moxxis_Probe
   bonuses:
@@ -694,6 +716,7 @@ barrels:
     value: 0.05
   mesh: Pistol_Barrel_Tediore
   name: Probe
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Tediore_Shooterang
   bonuses:
@@ -708,6 +731,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Tediore
   name: Shooterang
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Barrel.Pistol_Barrel_Torgue_88Fragnum
   bonuses:
@@ -748,6 +772,7 @@ barrels:
     value: 0.25
   mesh: Pistol_Barrel_Torgue
   name: Fragnum
+  rarity: 5
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Pistol.Pistol_Barrel_Jakobs_Unforgiven
   bonuses:
@@ -786,6 +811,7 @@ barrels:
     value: 0.75
   mesh: Pistol_Barrel_Jakobs
   name: Unforgiven
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Pistol.Pistol_Barrel_Stalker
   bonuses:
@@ -812,6 +838,7 @@ barrels:
     value: 0.15
   mesh: Pistol_Barrel_Maliwan
   name: Stalker
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_Weapons.Pistols.Pistol_Barrel_Torgue_PocketRocket
   bonuses:
@@ -843,6 +870,7 @@ barrels:
     value: 0.8
   mesh: Pistol_Barrel_Torgue
   name: Pocket Rocket
+  rarity: 0
   unique: true
 - _obj_name: GD_Lobelia_Weapons.Pistol.Pistol_Barrel_Alien_Homing_Wanderlust
   bonuses:
@@ -863,6 +891,7 @@ barrels:
     value: 0.8
   mesh: Pistol_Barrel_Alien
   name: Wanderlust
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.Pistol_Barrel_Bandit_3_PartyPopper
   bonuses:
@@ -896,6 +925,7 @@ barrels:
     value: 1.5
   mesh: Pistol_Barrel_Bandit
   name: Party Popper
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.Pistol_Barrel_Jakobs_5_LuckCannon
   bonuses:
@@ -939,6 +969,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Jakobs
   name: Luck Cannon
+  rarity: 5
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.Pistol_Barrel_Maliwan_3_HardReboot
   bonuses:
@@ -968,6 +999,7 @@ barrels:
     value: -0.3
   mesh: Pistol_Barrel_Maliwan
   name: Hard Reboot
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.Pistol_Barrel_Vladof_5_Expander
   bonuses:
@@ -1020,6 +1052,7 @@ barrels:
     value: 6
   mesh: Pistol_Barrel_Vladof
   name: Proleterian Revolution
+  rarity: 5
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed
   bonuses:
@@ -1043,6 +1076,7 @@ barrels:
     value: 5
   mesh: Pistol_Barrel_Jakobs
   name: Greed
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_Vladof_Evie
   bonuses:
@@ -1066,6 +1100,7 @@ barrels:
     value: 6
   mesh: Pistol_Barrel_Vladof
   name: Little Evie
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.Pistol.Devastator.Orchid_Seraph_Devastator_Barrel
   bonuses:
@@ -1098,6 +1133,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Torgue
   name: Devastator
+  rarity: 497
   unique: true
 - _obj_name: GD_Petunia_Weapons.Pistols.Pistol_Barrel_T4sr
   bonuses:
@@ -1142,6 +1178,7 @@ barrels:
     value: 0.15
   mesh: Pistol_Barrel_Hyperion
   name: T4s-R
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_RaidWeapons.Pistol.Pistol_Barrel_Infection
   bonuses:
@@ -1171,6 +1208,7 @@ barrels:
     value: 1.5
   mesh: Pistol_Barrel_Maliwan
   name: Infection
+  rarity: 497
   unique: true
 - _obj_name: GD_Sage_Weapons.Pistols.Pistol_Barrel_Jakobs_Rex
   bonuses:
@@ -1209,6 +1247,7 @@ barrels:
     value: 0.5
   mesh: Pistol_Barrel_Jakobs
   name: Rex
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Fibber.Pistol_Barrel_Bandit_Fibber_1
   bonuses:
@@ -1259,6 +1298,7 @@ barrels:
     value: -3.5
   mesh: Pistol_Barrel_Bandit
   name: Fibber 1 (Shotgun)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Fibber.Pistol_Barrel_Bandit_Fibber_2
   bonuses:
@@ -1304,6 +1344,7 @@ barrels:
     value: -9.5
   mesh: Pistol_Barrel_Bandit
   name: Fibber 2 (Ricochet)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Fibber.Pistol_Barrel_Bandit_Fibber_3
   bonuses:
@@ -1352,6 +1393,7 @@ barrels:
     value: 13.5
   mesh: Pistol_Barrel_Bandit
   name: Fibber 3 (Crit)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Alien
   bonuses:
@@ -1369,6 +1411,7 @@ barrels:
     value: 0.5
   mesh: Pistol_Barrel_Alien
   name: E-Tech
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Alien_Homing
   bonuses:
@@ -1386,6 +1429,7 @@ barrels:
     value: 0.8
   mesh: Pistol_Barrel_Alien
   name: E-Tech (Homing)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Alien_Homing_Dahlminator
   bonuses:
@@ -1403,6 +1447,7 @@ barrels:
     value: 0.8
   mesh: Pistol_Barrel_Alien
   name: Dahlminator
+  rarity: 2
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Bandit
   bonuses:
@@ -1427,6 +1472,7 @@ barrels:
     value: -0.7
   mesh: Pistol_Barrel_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Bandit_CrappyStarter
   bonuses:
@@ -1441,6 +1487,7 @@ barrels:
     value: -4
   mesh: Pistol_Barrel_Bandit
   name: Basic Repeater
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Bandit_Gub
   bonuses:
@@ -1464,6 +1511,7 @@ barrels:
     value: -1
   mesh: Pistol_Barrel_Bandit
   name: Gub
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl
   bonuses:
@@ -1503,6 +1551,7 @@ barrels:
     value: 2
   mesh: Pistol_Barrel_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Hornet
   bonuses:
@@ -1535,6 +1584,7 @@ barrels:
     value: 4
   mesh: Pistol_Barrel_Dahl
   name: Hornet
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_LadyFist
   bonuses:
@@ -1561,6 +1611,7 @@ barrels:
     value: 8
   mesh: Pistol_Barrel_Dahl
   name: Lady Fist
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Law
   bonuses:
@@ -1590,6 +1641,7 @@ barrels:
     value: -0.2
   mesh: Pistol_Barrel_Dahl
   name: Law
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Dahl_Tinderbox
   bonuses:
@@ -1619,6 +1671,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Dahl
   name: Tinderbox
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Hyperion
   bonuses:
@@ -1657,6 +1710,7 @@ barrels:
     value: 0.15
   mesh: Pistol_Barrel_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Hyperion_GwensHead
   bonuses:
@@ -1696,6 +1750,7 @@ barrels:
     value: 5
   mesh: Pistol_Barrel_Hyperion
   name: Gwen's Head
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Hyperion_LogansGun
   bonuses:
@@ -1738,6 +1793,7 @@ barrels:
     value: -0.15
   mesh: Pistol_Barrel_Hyperion
   name: Logan's Gun
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Hyperion_Veritas
   bonuses:
@@ -1767,6 +1823,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Hyperion
   name: Veritas
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Jakobs
   bonuses:
@@ -1802,6 +1859,7 @@ barrels:
     value: -0.15
   mesh: Pistol_Barrel_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Jakobs_Maggie
   bonuses:
@@ -1825,6 +1883,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Jakobs
   name: Maggie
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan
   bonuses:
@@ -1854,6 +1913,7 @@ barrels:
     value: -0.3
   mesh: Pistol_Barrel_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_Rubi
   bonuses:
@@ -1871,6 +1931,7 @@ barrels:
     value: 0.12
   mesh: Pistol_Barrel_Maliwan
   name: Rubi
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Maliwan_ThunderballFists
   bonuses:
@@ -1906,10 +1967,12 @@ barrels:
     value: -0.3
   mesh: Pistol_Barrel_Maliwan
   name: Thunderball Fists
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Tediore
   mesh: Pistol_Barrel_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Tediore_Gunerang
   bonuses:
@@ -1924,6 +1987,7 @@ barrels:
     value: 1
   mesh: Pistol_Barrel_Tediore
   name: Gunerang
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Tediore_Judge
   bonuses:
@@ -1935,10 +1999,12 @@ barrels:
     value: 0.3
   mesh: Pistol_Barrel_Tediore
   name: Judge
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Tediore_Teapot
   mesh: Pistol_Barrel_Tediore
   name: Teapot
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Torgue
   bonuses:
@@ -1974,6 +2040,7 @@ barrels:
     value: 0.2
   mesh: Pistol_Barrel_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Torgue_Calla
   bonuses:
@@ -2007,6 +2074,7 @@ barrels:
     value: 0.2
   mesh: Pistol_Barrel_Torgue
   name: Unkempt Harold
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof
   bonuses:
@@ -2059,6 +2127,7 @@ barrels:
     value: 6
   mesh: Pistol_Barrel_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity
   bonuses:
@@ -2089,6 +2158,7 @@ barrels:
     value: -3
   mesh: Pistol_Barrel_Vladof
   name: Infinity
+  rarity: 5
   unique: true
 bodies:
 - _obj_name: GD_Anemone_Weapons.Body.Pistol_Body_Vladof_4
@@ -2104,10 +2174,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Vladof
   name: Fire Drill/Infinity
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.Body.Pistol_Body_Jakobs_CyberColt
   mesh: Pistol_Body_Jakobs
   name: Cyber Eagle
+  rarity: 3
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Pistol.Pistol_Body_Jakobs_6
   bonuses:
@@ -2122,6 +2194,7 @@ bodies:
     value: 7
   mesh: Pistol_Body_Jakobs
   name: Unforgiven
+  rarity: 500
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Pistol.Pistol_Body_Vladof_6
   bonuses:
@@ -2136,6 +2209,7 @@ bodies:
     value: 7
   mesh: Pistol_Body_Vladof
   name: Stalker
+  rarity: 500
   unique: true
 - _obj_name: GD_Lobelia_Weapons.Pistol.Pistol_Body_Maliwan_6_Wanderlust
   bonuses:
@@ -2150,10 +2224,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Maliwan
   name: Pocket Rocket
+  rarity: 500
   unique: true
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Bandit
   mesh: Pistol_Body_Bandit
   name: Bandit (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Bandit_2
   bonuses:
@@ -2171,6 +2247,7 @@ bodies:
     value: 10
   mesh: Pistol_Body_Bandit
   name: Bandit (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Bandit_3
   bonuses:
@@ -2185,6 +2262,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Bandit
   name: Bandit (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Bandit_4
   bonuses:
@@ -2202,10 +2280,12 @@ bodies:
     value: 10
   mesh: Pistol_Body_Bandit
   name: Bandit (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Dahl
   mesh: Pistol_Body_Dahl
   name: Dahl (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Dahl_2
   bonuses:
@@ -2220,6 +2300,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Dahl
   name: Dahl (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Dahl_3
   bonuses:
@@ -2234,6 +2315,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Dahl
   name: Dahl (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Dahl_4
   bonuses:
@@ -2248,10 +2330,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Dahl
   name: Dahl (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Hyperion
   mesh: Pistol_Body_Hyperion
   name: Hyperion (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Hyperion_2
   bonuses:
@@ -2266,6 +2350,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Hyperion
   name: Hyperion (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Hyperion_3
   bonuses:
@@ -2280,6 +2365,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Hyperion
   name: Hyperion (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Hyperion_4
   bonuses:
@@ -2294,10 +2380,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Hyperion
   name: Hyperion (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Jakobs
   mesh: Pistol_Body_Jakobs
   name: Jakobs (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Jakobs_2
   bonuses:
@@ -2312,6 +2400,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Jakobs
   name: Jakobs (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Jakobs_3
   bonuses:
@@ -2326,6 +2415,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Jakobs
   name: Jakobs (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Jakobs_4
   bonuses:
@@ -2340,10 +2430,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Jakobs
   name: Jakobs (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Maliwan
   mesh: Pistol_Body_Maliwan
   name: Maliwan (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Maliwan_2
   bonuses:
@@ -2358,6 +2450,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Maliwan
   name: Maliwan (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Maliwan_3
   bonuses:
@@ -2372,6 +2465,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Maliwan
   name: Maliwan (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Maliwan_4
   bonuses:
@@ -2386,10 +2480,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Maliwan
   name: Maliwan (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Tediore
   mesh: Pistol_Body_Tediore
   name: Tediore (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Tediore_2
   bonuses:
@@ -2404,6 +2500,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Tediore
   name: Tediore (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Tediore_3
   bonuses:
@@ -2418,6 +2515,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Tediore
   name: Tediore (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Tediore_4
   bonuses:
@@ -2432,10 +2530,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Tediore
   name: Tediore (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Torgue
   mesh: Pistol_Body_Torgue
   name: Torgue (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Torgue_2
   bonuses:
@@ -2450,6 +2550,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Torgue
   name: Torgue (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Torgue_3
   bonuses:
@@ -2464,6 +2565,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Torgue
   name: Torgue (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Torgue_4
   bonuses:
@@ -2478,10 +2580,12 @@ bodies:
     value: 7
   mesh: Pistol_Body_Torgue
   name: Torgue (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Vladof
   mesh: Pistol_Body_Vladof
   name: Vladof (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Vladof_2
   bonuses:
@@ -2496,6 +2600,7 @@ bodies:
     value: 3
   mesh: Pistol_Body_Vladof
   name: Vladof (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Vladof_3
   bonuses:
@@ -2510,6 +2615,7 @@ bodies:
     value: 5
   mesh: Pistol_Body_Vladof
   name: Vladof (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body_Vladof_4
   bonuses:
@@ -2524,6 +2630,7 @@ bodies:
     value: 7
   mesh: Pistol_Body_Vladof
   name: Vladof (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Pistol.Body.Pistol_Body__Unique_Teapot
   bonuses:
@@ -2547,10 +2654,12 @@ bodies:
     value: 1
   mesh: Pistol_Body_Dahl
   name: Teapot
+  rarity: 3
   unique: true
 definitions:
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Bandit_Pistol
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Dahl_Pistol
   bonuses:
@@ -2560,6 +2669,7 @@ definitions:
     type: pre-add
     value: 1
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Hyperion_Pistol
   bonuses:
@@ -2573,6 +2683,7 @@ definitions:
     type: pre-add
     value: 9
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Jakobs_Pistol
   _original:
@@ -2594,6 +2705,7 @@ definitions:
     type: scale
     value: -1
   name: Jakobs (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Jakobs_Pistol
   _original:
@@ -2612,6 +2724,7 @@ definitions:
     type: scale
     value: -1
   name: Jakobs (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Maliwan_Pistol
   bonuses:
@@ -2625,15 +2738,19 @@ definitions:
     type: pre-add
     value: 1
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Tediore_Pistol
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Torgue_Pistol
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.A_Weapons.WeaponType_Vladof_Pistol
   name: Vladof
+  rarity: 0
   unique: false
 elements:
 - _obj_name: GD_Anemone_Weapons.elemental.Pistol_Elemental_Fire
@@ -2643,6 +2760,7 @@ elements:
     value: 40
   mesh: Acc_Barrel_Elemental2
   name: Fire Drill/Infinity
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.elemental.Pistol_Elemental_Ice
   bonuses:
@@ -2651,6 +2769,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental2
   name: Cryo (Hot Head)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.elemental.Pistol_Elemental_Corrosive
   bonuses:
@@ -2659,6 +2778,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Corrosive
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.elemental.Pistol_Elemental_Fire
   bonuses:
@@ -2667,6 +2787,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental2
   name: Fire
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.elemental.Pistol_Elemental_Ice
   bonuses:
@@ -2675,9 +2796,11 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Cryo
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.elemental.Pistol_Elemental_None
   name: '"No Element"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.elemental.Pistol_Elemental_Shock
   bonuses:
@@ -2686,6 +2809,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental1
   name: Shock
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.elemental.Pistol_Elemental_Slag
   bonuses:
@@ -2694,6 +2818,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Slag
+  rarity: 0
   unique: false
 grips:
 - _obj_name: GD_Cork_Weap_Pistol.Grip.Pistol_Grip_Jakobs_CyberColt
@@ -2727,6 +2852,7 @@ grips:
     value: 1
   mesh: Pistol_Grip_Jakobs
   name: Cyber Eagle
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Bandit
   bonuses:
@@ -2751,6 +2877,7 @@ grips:
     value: 4
   mesh: Pistol_Grip_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Dahl
   bonuses:
@@ -2778,6 +2905,7 @@ grips:
     value: 3
   mesh: Pistol_Grip_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Hyperion
   bonuses:
@@ -2802,6 +2930,7 @@ grips:
     value: 3
   mesh: Pistol_Grip_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Jakobs
   bonuses:
@@ -2834,6 +2963,7 @@ grips:
     value: 1
   mesh: Pistol_Grip_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Maliwan
   bonuses:
@@ -2852,6 +2982,7 @@ grips:
     value: 3
   mesh: Pistol_Grip_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Tediore
   bonuses:
@@ -2876,6 +3007,7 @@ grips:
     value: 2
   mesh: Pistol_Grip_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Torgue
   bonuses:
@@ -2903,6 +3035,7 @@ grips:
     value: 3
   mesh: Pistol_Grip_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Grip.Pistol_Grip_Vladof
   bonuses:
@@ -2932,19 +3065,24 @@ grips:
     value: 4
   mesh: Pistol_Grip_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 materials:
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Dahl_5_Legendary_Hector
   name: Hector's Paradise
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Vladof_5_Fire
   name: Fire Drill
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Vladof_5_Legendary
   name: Fire Infinity
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Vladof_5_Stinger
   name: Stinger
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Bandit_4_Quartz_Pistol
   bonuses:
@@ -2961,6 +3099,7 @@ materials:
     type: post-add
     value: -0.2
   name: Quartz
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_Pistol
   bonuses:
@@ -2977,6 +3116,7 @@ materials:
     type: post-add
     value: -0.3
   name: Emerald
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Hyperion_4_Diamond_Pistol
   bonuses:
@@ -2993,6 +3133,7 @@ materials:
     type: post-add
     value: -0.3
   name: Diamond
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Jakobs_4_Citrine_Pistol
   bonuses:
@@ -3009,9 +3150,11 @@ materials:
     type: post-add
     value: -0.3
   name: Citrine
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Maliwan_3_GrogNozzle
   name: Grog Nozzle
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Malwan_4_Aquamarine_Pistol
   bonuses:
@@ -3028,6 +3171,7 @@ materials:
     type: post-add
     value: -0.3
   name: Aquamarine
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Tediore_4_CubicZerconia_Pistol
   bonuses:
@@ -3044,6 +3188,7 @@ materials:
     type: post-add
     value: -0.3
   name: Cubic Zerconia
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_4_Rock_Pistol
   bonuses:
@@ -3060,6 +3205,7 @@ materials:
     type: post-add
     value: -0.3
   name: Rock
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Vladof_4_Garnet_Pistol
   bonuses:
@@ -3076,21 +3222,27 @@ materials:
     type: post-add
     value: -0.3
   name: Garnet
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_3_GwensOtherHead
   name: Gwen's Other Head
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_5_Legendary_Blowfly
   name: Blowfly
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_3_Globber
   name: Globber
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_3_Smasher
   name: Smasher
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_4_CyberColt
   name: Cyber Eagle
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_3_Moxxis_Probe
   bonuses:
@@ -3098,189 +3250,251 @@ materials:
     type: pre-add
     value: 1
   name: Probe
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Scav_5_Legendary_Zim
   name: Zim
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Starter_Dahl_1
   name: Wilhelm Starter
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Pistol.ManufacturerMaterials.Mat_Tediore_5_Legendary_Shooterang
   name: Shooterang
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Unforgiven
   name: Unforgiven
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Vladof_6_Stalker
   name: Stalker
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_Weapons.ManufacturerMaterials.Mat_Torgue_3_PocketRocket
   name: Pocket Rocket
+  rarity: 0
   unique: true
 - _obj_name: GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Maliwan_6_Wanderlust
   name: Wanderlust
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Bandit_3_PartyPopper
   name: Party Popper
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Bandit_6_Glitch
   name: Bandit (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Dahl_6_Glitch
   name: Dahl (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Hyperion_6_Glitch
   name: Hyperion (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Jakobs_5_LuckCannon
   name: Luck Cannon
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Jakobs_6_Glitch
   name: Jakobs (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Maliwan_3_HardReboot
   name: Hard Reboot
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Maliwan_6_Glitch
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Old_Hyperion_6_Glitch
   name: Old Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Tediore_6_Glitch
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Torgue_6_Glitch
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Pistol_Vladof_6_Glitch
   name: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Vladof_5_Legendary_Expander
   name: Proleterian Revolution
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Jakobs_3_Greed
   name: Greed
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Maliwan_2_Evie
   name: Little Evie
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Torgue_1_Devastator
   name: Devastator
+  rarity: 0
   unique: true
 - _obj_name: GD_Petunia_Weapons.ManufacturerMaterials.Pistol.Mat_Hyperion_3_T4sr
   name: T4s-R
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_RaidWeapons.ManufacturerMaterials.Mat_Maliwan_1_Infection
   name: Infection
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_Jakobs_2_Rex
   name: Rex
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Bandit_1
   name: Bandit (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Bandit_2
   name: Bandit (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Bandit_3
   name: Bandit (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Bandit_3_Tinderbox
   name: Tinderbox
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Bandit_4
   name: Bandit (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Bandit_5_Legendary
   name: Gub
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_1
   name: Dahl (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_1_Starter
   name: Basic Repeater
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_2
   name: Dahl (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_3
   name: Dahl (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_3_Dahlminator
   name: Dahlminator
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_3_GwensHead
   name: Gwen's Head
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_3_Teapot
   name: Teapot
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_4
   name: Dahl (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Dahl_5_Legendary
   name: Hornet
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_1
   name: Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_2
   name: Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_3
   name: Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_3_Fibber
   name: Fibber
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_3_LadyFist
   name: Lady Fist
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_4
   name: Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Hyperion_5_Legendary
   name: Logan's Gun
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_1
   name: Jakobs (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_2
   name: Jakobs (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_3
   name: Jakobs (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_3_Judge
   name: Judge
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_3_Law
   name: Law
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_4
   name: Jakobs (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_5_Legendary
   name: Maggie
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_1
   name: Maliwan (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_2
   name: Maliwan (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_3
   name: Maliwan (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_3_Rubi
   name: Rubi
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_4
   name: Maliwan (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Maliwan_5_Legendary
   name: Thunderball Fists
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Old_Hyperion_1
   bonuses:
@@ -3303,6 +3517,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Old_Hyperion_2
   bonuses:
@@ -3325,6 +3540,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Old_Hyperion_3
   bonuses:
@@ -3347,6 +3563,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Old_Hyperion_4
   bonuses:
@@ -3369,54 +3586,71 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Tediore_1
   name: Tediore (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Tediore_2
   name: Tediore (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Tediore_3
   name: Tediore (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Tediore_4
   name: Tediore (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Tediore_5_Legendary
   name: Gunerang
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Torgue_1
   name: Torgue (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Torgue_2
   name: Torgue (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Torgue_3
   name: Torgue (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Torgue_4
   name: Torgue (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Torgue_5_Legendary
   name: Unkempt Harold
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_1
   name: Vladof (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_2
   name: Vladof (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_3
   name: Vladof (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_3_Veritas
   name: Veritas
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_4
   name: Vladof (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_5_Legendary
   name: Infinity
+  rarity: 0
   unique: true
 sights:
 - _obj_name: GD_Cork_Weap_Pistol.Sight.Pistol_Sight_Jakobs_CyberColt
@@ -3436,6 +3670,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Jakobs
   name: Cyber Eagle
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Bandit
   bonuses:
@@ -3449,6 +3684,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Dahl
   bonuses:
@@ -3467,6 +3703,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Hyperion
   bonuses:
@@ -3485,6 +3722,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Jakobs
   bonuses:
@@ -3503,6 +3741,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Maliwan
   bonuses:
@@ -3521,6 +3760,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_None
   bonuses:
@@ -3530,6 +3770,7 @@ sights:
     type: scale
     value: -2
   name: '"No Sight"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Tediore
   bonuses:
@@ -3543,6 +3784,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Torgue
   bonuses:
@@ -3561,6 +3803,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Pistol.Sight.Pistol_Sight_Vladof
   bonuses:
@@ -3579,6 +3822,7 @@ sights:
     value: -2
   mesh: Pistol_Scope_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 meta:
   definitions:

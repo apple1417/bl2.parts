@@ -17,6 +17,7 @@ alpha:
     type: grade
     value: 1
   name: Tediore (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Body.Body3_Vladof
   bonuses:
@@ -31,6 +32,7 @@ alpha:
     value: -1
   mesh: Shield_Accessory_Vladof
   name: Vladof (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Body.Body4_Dahl
   bonuses:
@@ -51,6 +53,7 @@ alpha:
     value: -1
   mesh: Shield_Accessory_Dahl
   name: Dahl (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Body.Body5_Anshin
   bonuses:
@@ -71,6 +74,7 @@ alpha:
     value: 2
   mesh: Shield_Accessory_Anshin
   name: Anshin (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Body.Body5_Maliwan
   bonuses:
@@ -88,6 +92,7 @@ alpha:
     value: 8
   mesh: Shield_Accessory02_Pangolin
   name: Maliwan (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Body.Body7_Hyperion
   bonuses:
@@ -108,6 +113,7 @@ alpha:
     value: 3
   mesh: Shield_Accessory_Hyperion
   name: Hyperion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Body.Body8_Pangolin
   bonuses:
@@ -128,6 +134,7 @@ alpha:
     value: -3
   mesh: Shield_Accessory01_Pangolin
   name: Pangolin (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Body.Body1_Tediore
   bonuses:
@@ -147,6 +154,7 @@ alpha:
     type: grade
     value: 1
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body2_Bandit
   bonuses:
@@ -167,6 +175,7 @@ alpha:
     value: -6
   mesh: Shield_Accessory_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body3_Vladof
   bonuses:
@@ -181,6 +190,7 @@ alpha:
     value: -1
   mesh: Shield_Accessory_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body4_Dahl
   bonuses:
@@ -201,6 +211,7 @@ alpha:
     value: -1
   mesh: Shield_Accessory_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body5_Anshin
   bonuses:
@@ -221,6 +232,7 @@ alpha:
     value: 2
   mesh: Shield_Accessory_Anshin
   name: Anshin
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body5_Anshin_RoidLegendary
   bonuses:
@@ -241,6 +253,7 @@ alpha:
     value: 5
   mesh: Shield_Accessory_Anshin
   name: Anshin (Bigg Thumppr)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Body.Body5_Maliwan
   bonuses:
@@ -258,6 +271,7 @@ alpha:
     value: 8
   mesh: Shield_Accessory02_Pangolin
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body6_Torgue
   bonuses:
@@ -278,6 +292,7 @@ alpha:
     value: -5
   mesh: Shield_Accessory_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body7_Hyperion
   bonuses:
@@ -298,6 +313,7 @@ alpha:
     value: 3
   mesh: Shield_Accessory_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Body.Body8_Pangolin
   bonuses:
@@ -318,6 +334,7 @@ alpha:
     value: -3
   mesh: Shield_Accessory01_Pangolin
   name: Pangolin
+  rarity: 0
   unique: false
 beta:
 - _obj_name: GD_Anemone_Shields.Battery.Battery1_Tediore
@@ -339,6 +356,7 @@ beta:
     value: 1
   mesh: Shield_Battery_Tediore
   name: Tediore (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Battery.Battery3_Vladof
   bonuses:
@@ -353,6 +371,7 @@ beta:
     value: -1
   mesh: Shield_Battery_Vladof
   name: Vladof (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Battery.Battery4_Dahl
   bonuses:
@@ -373,6 +392,7 @@ beta:
     value: -1
   mesh: Shield_Battery_Dahl
   name: Dahl (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Battery.Battery5_Anshin
   bonuses:
@@ -393,6 +413,7 @@ beta:
     value: 2
   mesh: Shield_Battery_Anshin
   name: Anshin (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Battery.Battery5_Maliwan
   bonuses:
@@ -410,6 +431,7 @@ beta:
     value: 8
   mesh: Shield_Battery_Pangolin
   name: Maliwan (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Battery.Battery7_Hyperion
   bonuses:
@@ -430,6 +452,7 @@ beta:
     value: 3
   mesh: Shield_Battery_Hyperion
   name: Hyperion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Battery.Battery8_Pangolin
   bonuses:
@@ -450,6 +473,7 @@ beta:
     value: -3
   mesh: Shield_Battery_Pangolin
   name: Pangolin (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Battery.Battery1_Tediore
   bonuses:
@@ -470,6 +494,7 @@ beta:
     value: 1
   mesh: Shield_Battery_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery2_Bandit
   bonuses:
@@ -490,6 +515,7 @@ beta:
     value: -6
   mesh: Shield_Battery_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery3_Vladof
   bonuses:
@@ -504,6 +530,7 @@ beta:
     value: -1
   mesh: Shield_Battery_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery4_Dahl
   bonuses:
@@ -524,6 +551,7 @@ beta:
     value: -1
   mesh: Shield_Battery_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery5_Anshin
   bonuses:
@@ -544,6 +572,7 @@ beta:
     value: 2
   mesh: Shield_Battery_Anshin
   name: Anshin
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery5_Anshin_RoidLegendary
   bonuses:
@@ -564,6 +593,7 @@ beta:
     value: 5
   mesh: Shield_Battery_Anshin
   name: Anshin (Neogenator)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Battery.Battery5_Anshin_RoidLegendary
   bonuses:
@@ -584,6 +614,7 @@ beta:
     value: 5
   mesh: Shield_Battery_Anshin
   name: Anshin (Bigg Thumppr / M0RQ / Reogenator)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Battery.Battery5_Maliwan
   bonuses:
@@ -601,6 +632,7 @@ beta:
     value: 8
   mesh: Shield_Battery_Pangolin
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery6_Torgue
   bonuses:
@@ -621,6 +653,7 @@ beta:
     value: -5
   mesh: Shield_Battery_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery7_Hyperion
   bonuses:
@@ -641,6 +674,7 @@ beta:
     value: 3
   mesh: Shield_Battery_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Battery.Battery8_Pangolin
   bonuses:
@@ -661,6 +695,7 @@ beta:
     value: -3
   mesh: Shield_Battery_Pangolin
   name: Pangolin
+  rarity: 0
   unique: false
 definitions:
 - _obj_name: GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak
@@ -682,6 +717,7 @@ definitions:
     type: post-add
     value: 1
   name: Easy Mode
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.A_Item.Shield_Worming
   bonuses:
@@ -699,6 +735,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Retainer
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Antagonist_Shield
   bonuses:
@@ -728,6 +765,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Antagonist
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Shields.A_Item.Aster_Seraph_Blockade_Shield
   bonuses:
@@ -769,6 +807,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Blockade
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Shields.A_Item.Shield_Nova_Ice
   bonuses:
@@ -786,6 +825,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Cryo)
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Shields.A_Item.Shield_Spike_Ice
   bonuses:
@@ -803,6 +843,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Cryo)
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Shields.A_Item_Custom.Shield_RapidRelease
   bonuses:
@@ -820,6 +861,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Rapid Release
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster
   bonuses:
@@ -837,6 +879,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Big Boom Blaster
+  rarity: 501
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut
   bonuses:
@@ -860,6 +903,7 @@ definitions:
     type: pre-add
     value: 1
   name: Hoplite
+  rarity: 501
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee
   bonuses:
@@ -877,6 +921,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Pun-chee
+  rarity: 501
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge
   bonuses:
@@ -894,6 +939,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Sponge
+  rarity: 501
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Chimera_05_M0RQ
   bonuses:
@@ -911,6 +957,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: M0RQ
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Legendary.Shield_Impact_05_Rerouter
   bonuses:
@@ -937,6 +984,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Rerouter
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Juggernaut_03_ShieldOfAges
   bonuses:
@@ -963,6 +1011,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Shield of Ages
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.A_Item_Unique.Shield_Standard_Naught
   bonuses:
@@ -980,6 +1029,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Naught
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield
   bonuses:
@@ -997,6 +1047,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Evolution
+  rarity: 501
   unique: true
 - _obj_name: GD_Orchid_Shields.A_Item_Custom.Shield_Blade
   bonuses:
@@ -1014,6 +1065,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Manly Man Shield
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Shields.A_Item_Custom.Shield_Buckler
   bonuses:
@@ -1032,6 +1084,7 @@ definitions:
     type: post-add
     value: 100000
   name: Rough Rider
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption
   _original:
@@ -1052,6 +1105,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Absorption (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Absorption
   _original:
@@ -1072,6 +1126,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Absorption (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
   _original:
@@ -1092,6 +1147,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Sham (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryNormal
   _original:
@@ -1112,6 +1168,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Sham (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
   bonuses:
@@ -1129,6 +1186,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Transformer
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_05_LegendaryShock
   bonuses:
@@ -1146,6 +1204,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Kala
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_1340
   bonuses:
@@ -1163,6 +1222,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: 1340 Shield
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_Aequitas
   bonuses:
@@ -1183,6 +1243,7 @@ definitions:
     type: pre-add
     value: 1
   name: Aequitas
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Absorption_PrismaticBulwark
   bonuses:
@@ -1206,6 +1267,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Prismatic Bulwark
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster
   _original:
@@ -1226,6 +1288,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Booster (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Booster
   _original:
@@ -1246,6 +1309,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Booster (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
   _original:
@@ -1266,6 +1330,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Whisky Tango Foxtrot (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_05_Legendary
   _original:
@@ -1286,6 +1351,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Whisky Tango Foxtrot (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_AsteroidBelt
   bonuses:
@@ -1303,6 +1369,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Asteroid Belt
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_MoxxisSlammer
   bonuses:
@@ -1320,6 +1387,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Moxxi's Slammer
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Booster_PotOGold
   bonuses:
@@ -1337,6 +1405,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Pot O' Gold
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Chimera
   _original:
@@ -1357,6 +1426,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Adaptive (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Chimera
   _original:
@@ -1377,6 +1447,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Adaptive (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
   bonuses:
@@ -1394,6 +1465,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Neogenator
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Chimera_05_Legendary
   bonuses:
@@ -1411,6 +1483,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Reogenator
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Chimera_Haymaker
   bonuses:
@@ -1428,6 +1501,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Haymaker
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Impact
   _original:
@@ -1448,6 +1522,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Amp (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Impact
   _original:
@@ -1468,6 +1543,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Amp (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Impact_05_Legendary
   bonuses:
@@ -1494,6 +1570,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Bee
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
   _original:
@@ -1517,6 +1594,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Turtle (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut
   _original:
@@ -1540,6 +1618,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Turtle (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
   _original:
@@ -1563,6 +1642,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Fabled Tortoise (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Juggernaut_05_Legendary
   _original:
@@ -1586,6 +1666,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Fabled Tortoise (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
   _original:
@@ -1606,6 +1687,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Corrosive, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Corrosive
   _original:
@@ -1626,6 +1708,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Corrosive, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
   _original:
@@ -1646,6 +1729,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Explosive, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive
   _original:
@@ -1666,6 +1750,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Explosive, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
   _original:
@@ -1686,6 +1771,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Deadly Bloom (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Explosive_05_DeadlyBloom
   _original:
@@ -1706,6 +1792,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Deadly Bloom (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
   _original:
@@ -1726,6 +1813,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Fire, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire
   _original:
@@ -1746,6 +1834,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Fire, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Phoenix
   bonuses:
@@ -1763,6 +1852,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Flame of the Firehawk
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Sunshine
   bonuses:
@@ -1780,6 +1870,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Sunshine
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Fire_Supernova
   bonuses:
@@ -1797,6 +1888,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Supernova
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
   _original:
@@ -1817,6 +1909,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Shock, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock
   _original:
@@ -1837,6 +1930,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Nova (Shock, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
   _original:
@@ -1857,6 +1951,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Black Hole (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Nova_Shock_Singularity
   _original:
@@ -1877,6 +1972,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Black Hole (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid
   _original:
@@ -1897,6 +1993,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Roid (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Roid
   _original:
@@ -1917,6 +2014,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Roid (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Roid_05_Legendary
   bonuses:
@@ -1934,6 +2032,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Bigg Thumppr
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_05_ThresherRaid
   bonuses:
@@ -1951,6 +2050,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Hide of Terramorphous
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_Avalanche
   bonuses:
@@ -1968,6 +2068,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Avalanche
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_LoveThumper
   bonuses:
@@ -1985,6 +2086,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Love Thumper
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_Order
   bonuses:
@@ -2002,6 +2104,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Order
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Roid_ShootingStar
   bonuses:
@@ -2019,6 +2122,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Shooting Star
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
   _original:
@@ -2039,6 +2143,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Corrosive, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Corrosive
   _original:
@@ -2059,6 +2164,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Corrosive, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
   _original:
@@ -2079,6 +2185,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Impaler (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Spike_CorrosiveLegendary
   _original:
@@ -2099,6 +2206,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Impaler (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
   _original:
@@ -2119,6 +2227,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Explosive, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Explosive
   _original:
@@ -2139,6 +2248,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Explosive, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
   _original:
@@ -2159,6 +2269,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Fire, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Fire
   _original:
@@ -2179,6 +2290,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Fire, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
   _original:
@@ -2199,6 +2311,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Shock, BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Spike_Shock
   _original:
@@ -2219,6 +2332,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Spike (Shock, TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Standard
   _original:
@@ -2239,6 +2353,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Standard (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Standard
   _original:
@@ -2259,6 +2374,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Standard (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
   _original:
@@ -2288,6 +2404,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Cradle (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_05_Legendary
   _original:
@@ -2317,6 +2434,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Cradle (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
   _original:
@@ -2337,6 +2455,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Cracked Sash (BL2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_CrackedSash
   _original:
@@ -2357,6 +2476,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: Cracked Sash (TPS)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.A_Item.Shield_Standard_MyFirst
   bonuses:
@@ -2374,6 +2494,7 @@ definitions:
     value_formula:
       multiplier_str: '&beta;'
   name: My First Shield
+  rarity: 0
   unique: true
 delta:
 - _obj_name: GD_Anemone_Shields.Accessory.Accessory2_Roid_Order
@@ -2383,34 +2504,42 @@ delta:
     value: 5
   mesh: Shield_Body_Hyperion
   name: Retainer
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Shields.Accessory.Accessory6_Nova_Singularity
   mesh: Shield_Body_Anshin
   name: Easy Mode
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Shields.Accessory.Accessory_Antagonist
   mesh: Shield_Body_Anshin
   name: Antagonist
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Shields.Accessory.Accessory_Blockade
   mesh: Shield_Body_Hyperion
   name: Blockade
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Shields.Accessory.Accessory1_Spike_Ice
   mesh: Shield_Body_Anshin
   name: Spike (Cryo)
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Shields.Accessory.Accessory6_Nova_Ice
   mesh: Shield_Body_Anshin
   name: Nova (Cryo)
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Shields.Accessory.Accessory6_RapidRelease
   mesh: Shield_Body_Hyperion
   name: Rapid Release
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster_Accessory4_Booster
   mesh: Shield_Body_Dahl
   name: Big Boom Blaster
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.Accessory.Accessory5_Chimera_M0RQ
   bonuses:
@@ -2419,14 +2548,17 @@ delta:
     value: 1
   mesh: Shield_Body_Anshin
   name: M0RQ
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.Accessory.Accessory7_Impact_Rerouter
   mesh: Shield_Body_Hyperion
   name: Rerouter
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.Accessory.Accessory8_Juggernaut_ShieldOfAges
   mesh: Shield_Body_Hyperion
   name: Shield of Ages
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.Accessory.Accessory_Naught
   bonuses:
@@ -2435,10 +2567,12 @@ delta:
     value: -20
   mesh: Shield_Body_Tediore
   name: Naught
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield_Accessory
   mesh: Shield_Body_Anshin
   name: Evolution
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_Shields.Accessory.Accessory_Blade
   bonuses:
@@ -2462,6 +2596,7 @@ delta:
     value: 0.65
   mesh: Shield_Body_Torgue
   name: Manly Man Shield
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Shields.Accessory.Accessory_Buckler
   bonuses:
@@ -2470,54 +2605,67 @@ delta:
     value: 25
   mesh: Shield_Body_Pangolin
   name: Rough Rider
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory0_CrackedSash
   mesh: Shield_Body_Tediore
   name: Cracked Sash
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory0_None
   mesh: Shield_Body_Tediore
   name: Standard
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory0_StandardLegendary
   mesh: Shield_Body_Tediore
   name: Cradle
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Corrosive
   mesh: Shield_Body_Anshin
   name: Spike (Corrosive)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Corrosive_Legendary
   mesh: Shield_Body_Anshin
   name: Impaler
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Explosive
   mesh: Shield_Body_Torgue
   name: Spike (Explosive)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Fire
   mesh: Shield_Body_Anshin
   name: Spike (Fire)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory1_Spike_Shock
   mesh: Shield_Body_Anshin
   name: Spike (Shock)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid
   mesh: Shield_Body_Bandit
   name: Roid
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid_Avalanche
   mesh: Shield_Body_Bandit
   name: Avalanche
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid_Legendary
   mesh: Shield_Body_Bandit
   name: Bigg Thumppr
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid_LoveThumper
   mesh: Shield_Body_Torgue
   name: Love Thumper
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid_Order
   bonuses:
@@ -2526,122 +2674,152 @@ delta:
     value: 5
   mesh: Shield_Body_Hyperion
   name: Order
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory2_Roid_ShootingStar
   mesh: Shield_Body_Bandit
   name: Shooting Star
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption
   mesh: Shield_Body_Vladof
   name: Absorption
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_1340
   mesh: Shield_Body_Hyperion
   name: 1340 Shield
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_Aequitas
   mesh: Shield_Body_Vladof
   name: Aequitas
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_LegendaryNormal
   mesh: Shield_Body_Vladof
   name: Sham
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_LegendaryShock
   mesh: Shield_Body_Vladof
   name: Transformer
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_LegendaryShock
   mesh: Shield_Body_Vladof
   name: Kala
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory3_Absorption_PrismaticBulwark
   mesh: Shield_Body_Vladof
   name: Prismatic Bulwark
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory4_Booster
   mesh: Shield_Body_Dahl
   name: Booster
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory4_Booster_AsteroidBelt
   mesh: Shield_Body_Dahl
   name: Asteroid Belt
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory4_Booster_Legendary
   mesh: Shield_Body_Dahl
   name: Whisky Tango Foxtrot
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory4_Booster_PotOGold
   mesh: Shield_Body_Bandit
   name: Pot O' Gold
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory5_Chimera
   mesh: Shield_Body_Anshin
   name: Adaptive
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory5_ChimeraLegendary
   mesh: Shield_Body_Anshin
   name: Neogenator
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory5_ChimeraLegendary
   mesh: Shield_Body_Anshin
   name: Reogenator
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory5_Chimera_Haymaker
   mesh: Shield_Body_Anshin
   name: Haymaker
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Corrosive
   mesh: Shield_Body_Anshin
   name: Nova (Corrosive)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Explosive
   mesh: Shield_Body_Torgue
   name: Nova (Explosive)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Explosive_DeadlyBloom
   mesh: Shield_Body_Torgue
   name: Deadly Bloom
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Fire
   mesh: Shield_Body_Anshin
   name: Nova (Fire)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Phoenix
   mesh: Shield_Body_Anshin
   name: Flame of the Firehawk
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Shock
   mesh: Shield_Body_Anshin
   name: Nova (Shock)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Singularity
   mesh: Shield_Body_Anshin
   name: Black Hole
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Sunshine
   mesh: Shield_Body_Anshin
   name: Sunshine
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory6_Nova_Supernova
   mesh: Shield_Body_Anshin
   name: Supernova
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory7_Impact
   mesh: Shield_Body_Hyperion
   name: Amp
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory7_Impact_Legendary
   mesh: Shield_Body_Hyperion
   name: Bee
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory8_Juggernaut
   mesh: Shield_Body_Pangolin
   name: Turtle
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Accessory.Accessory8_Juggernaut_Legendary
   mesh: Shield_Body_Pangolin
   name: Fabled Tortoise
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory9_01_Roid_ThresherRaid
   bonuses:
@@ -2653,6 +2831,7 @@ delta:
     value: -5
   mesh: Shield_Body_Bandit
   name: Hide of Terramorphous 01
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory9_02_Roid_ThresherRaid
   bonuses:
@@ -2664,10 +2843,12 @@ delta:
     value: -3
   mesh: Shield_Body_Bandit
   name: Hide of Terramorphous 02
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory9_03_Roid_ThresherRaid
   mesh: Shield_Body_Bandit
   name: Hide of Terramorphous 03
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory9_04_Roid_ThresherRaid
   bonuses:
@@ -2679,6 +2860,7 @@ delta:
     value: 3
   mesh: Shield_Body_Bandit
   name: Hide of Terramorphous 04
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Accessory.Accessory9_05_Roid_ThresherRaid
   bonuses:
@@ -2690,10 +2872,12 @@ delta:
     value: 5
   mesh: Shield_Body_Bandit
   name: Hide of Terramorphous 05
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Titles.Accessory4_Booster_MoxxisSlammer
   mesh: Shield_Body_Dahl
   name: Moxxi's Slammer
+  rarity: 0
   unique: true
 gamma:
 - _obj_name: GD_Anemone_Shields.Capacitor.Capacitor5_Maliwan_CorrosiveRes
@@ -2714,6 +2898,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Corrosive, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Shields.Capacitor.Capacitor5_Maliwan_IceRes
   bonuses:
@@ -2733,6 +2918,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Cryo)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor1_Tediore
   bonuses:
@@ -2753,6 +2939,7 @@ gamma:
     value: 1
   mesh: Shield_Capacitor_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor2_Bandit
   bonuses:
@@ -2773,6 +2960,7 @@ gamma:
     value: -6
   mesh: Shield_Capacitor_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor3_Vladof
   bonuses:
@@ -2787,6 +2975,7 @@ gamma:
     value: -1
   mesh: Shield_Capacitor_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor4_Dahl
   bonuses:
@@ -2807,6 +2996,7 @@ gamma:
     value: -1
   mesh: Shield_Capacitor_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Anshin
   bonuses:
@@ -2827,6 +3017,7 @@ gamma:
     value: 2
   mesh: Shield_Capacitor_Anshin
   name: Anshin
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Anshin_RoidLegendary
   bonuses:
@@ -2847,6 +3038,7 @@ gamma:
     value: 5
   mesh: Shield_Capacitor_Anshin
   name: Anshin (Bigg Thumppr)
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_CorrosiveRes
   bonuses:
@@ -2866,6 +3058,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Corrosive)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes
   bonuses:
@@ -2885,6 +3078,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Fire)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_FireRes_Sunshine
   bonuses:
@@ -2904,6 +3098,7 @@ gamma:
     type: grade
     value: 0
   name: Sunshine
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes
   bonuses:
@@ -2923,6 +3118,7 @@ gamma:
     type: grade
     value: 0
   name: Maliwan (Shock)
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
   bonuses:
@@ -2936,6 +3132,7 @@ gamma:
     type: grade
     value: 0
   name: Transformer
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor5_Maliwan_ShockRes_Legendary
   bonuses:
@@ -2949,6 +3146,7 @@ gamma:
     type: grade
     value: 0
   name: Kala
+  rarity: 0
   unique: true
 - _obj_name: GD_Shields.Capacitor.Capacitor6_Torgue_ExplosiveRes
   bonuses:
@@ -2968,6 +3166,7 @@ gamma:
     type: grade
     value: -5
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor7_Hyperion
   bonuses:
@@ -2988,6 +3187,7 @@ gamma:
     value: 3
   mesh: Shield_Capacitor_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Shields.Capacitor.Capacitor8_Pangolin
   bonuses:
@@ -3008,6 +3208,7 @@ gamma:
     value: -3
   mesh: Shield_Capacitor_Pangolin
   name: Pangolin
+  rarity: 0
   unique: false
 material:
 - _obj_name: GD_Anemone_Shields.Material.Material3_Rare_Roid
@@ -3022,6 +3223,7 @@ material:
     type: grade
     value: 12
   name: Retainer
+  rarity: 506
   unique: true
 - _obj_name: GD_Anemone_Shields.Material.Material5_Legendary_Nova_Singularity
   bonuses:
@@ -3032,12 +3234,15 @@ material:
     type: grade
     value: 30
   name: Easy Mode
+  rarity: 506
   unique: true
 - _obj_name: GD_Aster_Shields.Material.Aster_Seraph_Antagonist_Shield_Material
   name: Antagonist
+  rarity: 501
   unique: true
 - _obj_name: GD_Aster_Shields.Material.Aster_Seraph_Blockade_Shield_Material
   name: Blockade
+  rarity: 501
   unique: true
 - _obj_name: GD_Iris_SeraphItems.BigBoomBlaster.Iris_Seraph_Shield_Booster_Material
   bonuses:
@@ -3057,6 +3262,7 @@ material:
     type: grade
     value: 9
   name: Big Boom Blaster
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Hoplite.Iris_Seraph_Shield_Juggernaut_Material
   bonuses:
@@ -3073,6 +3279,7 @@ material:
     type: grade
     value: -30
   name: Hoplite
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Pun-chee.Iris_Seraph_Shield_Pun-chee_Part_Material
   bonuses:
@@ -3086,6 +3293,7 @@ material:
     type: grade
     value: 18
   name: Pun-chee
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Sponge.Iris_Seraph_Shield_Sponge_Part_Material
   bonuses:
@@ -3099,6 +3307,7 @@ material:
     type: grade
     value: 18
   name: Sponge
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Shields.Material.Material3_Rare_Naught
   bonuses:
@@ -3112,6 +3321,7 @@ material:
     type: grade
     value: 4
   name: Naught
+  rarity: 3
   unique: true
 - _obj_name: GD_Ma_Shields.Material.Material3_Rare_ShieldOfAges
   bonuses:
@@ -3125,6 +3335,7 @@ material:
     type: grade
     value: 12
   name: Shield of Ages
+  rarity: 3
   unique: true
 - _obj_name: GD_Ma_Shields.Material.Material5_Legendary_Chimera_M0RQ
   bonuses:
@@ -3141,6 +3352,7 @@ material:
     type: grade
     value: 30
   name: M0RQ
+  rarity: 5
   unique: true
 - _obj_name: GD_Ma_Shields.Material.Material5_Legendary_Rerouter
   bonuses:
@@ -3154,6 +3366,7 @@ material:
     type: grade
     value: 12
   name: Rerouter
+  rarity: 5
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.Shield.Anshin.Orchid_Seraph_Anshin_Shield_Material
   bonuses:
@@ -3167,6 +3380,7 @@ material:
     type: grade
     value: 30
   name: Evolution
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_Shields.Material.Material3_Rare_Blade
   bonuses:
@@ -3180,6 +3394,7 @@ material:
     type: grade
     value: 4
   name: Manly Man Shield
+  rarity: 3
   unique: true
 - _obj_name: GD_Sage_Shields.Material.Material3_Rare_Buckler
   bonuses:
@@ -3190,33 +3405,43 @@ material:
     type: grade
     value: 12
   name: Rough Rider
+  rarity: 3
   unique: true
 - _obj_name: GD_Shields.Material.Material1_Common
   name: Tediore (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_Absorption
   name: Vladof (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_Booster
   name: Dahl (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_Chimera
   name: Anshin (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_Impact
   name: Hyperion (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_Juggernaut
   name: Pangolin (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_NovaSpike_Maliwan
   name: Maliwan (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_NovaSpike_Torgue
   name: Torgue (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material1_Common_Roid
   name: Bandit (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Absorption
   bonuses:
@@ -3230,6 +3455,7 @@ material:
     type: grade
     value: 6
   name: Vladof (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Balanced
   bonuses:
@@ -3243,6 +3469,7 @@ material:
     type: grade
     value: 2
   name: Uncommon Balanced
+  rarity: 2
   unique: true
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Booster
   bonuses:
@@ -3256,6 +3483,7 @@ material:
     type: grade
     value: 6
   name: Dahl (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Capacity
   bonuses:
@@ -3263,6 +3491,7 @@ material:
     type: grade
     value: 5
   name: Uncommon Capacity
+  rarity: 2
   unique: true
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Chimera
   bonuses:
@@ -3276,6 +3505,7 @@ material:
     type: grade
     value: 6
   name: Anshin (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Delay
   bonuses:
@@ -3283,6 +3513,7 @@ material:
     type: grade
     value: 5
   name: Uncommon Delay
+  rarity: 2
   unique: true
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Impact
   bonuses:
@@ -3299,6 +3530,7 @@ material:
     type: grade
     value: 6
   name: Hyperion (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Juggernaut
   bonuses:
@@ -3312,6 +3544,7 @@ material:
     type: grade
     value: 6
   name: Pangolin (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_NoSpecial
   bonuses:
@@ -3325,6 +3558,7 @@ material:
     type: grade
     value: 2
   name: Tediore (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_NovaSpike_Maliwan
   bonuses:
@@ -3338,6 +3572,7 @@ material:
     type: grade
     value: 6
   name: Maliwan (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_NovaSpike_Torgue
   bonuses:
@@ -3351,6 +3586,7 @@ material:
     type: grade
     value: 6
   name: Torgue (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Rate
   bonuses:
@@ -3358,6 +3594,7 @@ material:
     type: grade
     value: 5
   name: Uncommon Recharge Rate
+  rarity: 2
   unique: true
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Roid
   bonuses:
@@ -3371,6 +3608,7 @@ material:
     type: grade
     value: 6
   name: Bandit (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Special01
   bonuses:
@@ -3381,6 +3619,7 @@ material:
     type: grade
     value: 1
   name: Uncommon Special 01
+  rarity: 2
   unique: true
 - _obj_name: GD_Shields.Material.Material2_Uncommon_Special02
   bonuses:
@@ -3391,6 +3630,7 @@ material:
     type: grade
     value: 4
   name: Uncommon Special 02
+  rarity: 2
   unique: true
 - _obj_name: GD_Shields.Material.Material3_Rare_Absorption
   bonuses:
@@ -3404,6 +3644,7 @@ material:
     type: grade
     value: 12
   name: Vladof (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_Booster
   bonuses:
@@ -3417,6 +3658,7 @@ material:
     type: grade
     value: 12
   name: Dahl (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_Chimera
   bonuses:
@@ -3430,6 +3672,7 @@ material:
     type: grade
     value: 12
   name: Anshin (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_Impact
   bonuses:
@@ -3446,6 +3689,7 @@ material:
     type: grade
     value: 12
   name: Hyperion (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_Juggernaut
   bonuses:
@@ -3459,6 +3703,7 @@ material:
     type: grade
     value: 12
   name: Pangolin (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_NoSpecial
   bonuses:
@@ -3472,6 +3717,7 @@ material:
     type: grade
     value: 4
   name: Tediore (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_NovaSpike_Maliwan
   bonuses:
@@ -3485,6 +3731,7 @@ material:
     type: grade
     value: 12
   name: Maliwan (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_NovaSpike_Torgue
   bonuses:
@@ -3498,6 +3745,7 @@ material:
     type: grade
     value: 12
   name: Torgue (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_Roid
   bonuses:
@@ -3511,6 +3759,7 @@ material:
     type: grade
     value: 12
   name: Bandit (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Shields.Material.Material3_Rare_Special
   bonuses:
@@ -3524,6 +3773,7 @@ material:
     type: grade
     value: 12
   name: Sunshine
+  rarity: 3
   unique: true
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Absorption
   bonuses:
@@ -3537,6 +3787,7 @@ material:
     type: grade
     value: 18
   name: Vladof (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Booster
   bonuses:
@@ -3550,6 +3801,7 @@ material:
     type: grade
     value: 18
   name: Dahl (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Booster_PotOGold
   bonuses:
@@ -3557,6 +3809,7 @@ material:
     type: grade
     value: 12
   name: Pot O' Gold
+  rarity: 3
   unique: true
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Chimera
   bonuses:
@@ -3570,6 +3823,7 @@ material:
     type: grade
     value: 18
   name: Anshin (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Impact
   bonuses:
@@ -3586,6 +3840,7 @@ material:
     type: grade
     value: 18
   name: Hyperion (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Juggernaut
   bonuses:
@@ -3599,6 +3854,7 @@ material:
     type: grade
     value: 18
   name: Pangolin (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_NoSpecial
   bonuses:
@@ -3612,6 +3868,7 @@ material:
     type: grade
     value: 40
   name: Tediore (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_NovaSpike_Maliwan
   bonuses:
@@ -3625,6 +3882,7 @@ material:
     type: grade
     value: 18
   name: Maliwan (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_NovaSpike_Torgue
   bonuses:
@@ -3638,6 +3896,7 @@ material:
     type: grade
     value: 18
   name: Torgue (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Nova_Phoenix
   bonuses:
@@ -3651,6 +3910,7 @@ material:
     type: grade
     value: 18
   name: Flame of the Firehawk
+  rarity: 4
   unique: true
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Roid
   bonuses:
@@ -3664,6 +3924,7 @@ material:
     type: grade
     value: 18
   name: Bandit (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Shields.Material.Material4_VeryRare_Roid_LoveThumper
   bonuses:
@@ -3680,6 +3941,7 @@ material:
     type: grade
     value: 18
   name: Love Thumper
+  rarity: 4
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary
   bonuses:
@@ -3696,6 +3958,7 @@ material:
     type: grade
     value: 18
   name: Prismatic Bulwark
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_AbsorptionNormal
   bonuses:
@@ -3709,6 +3972,7 @@ material:
     type: grade
     value: 80
   name: Sham
+  rarity: 4
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_AbsorptionShock
   bonuses:
@@ -3725,6 +3989,7 @@ material:
     type: grade
     value: 18
   name: Transformer
+  rarity: 4
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_AbsorptionShock
   bonuses:
@@ -3741,6 +4006,7 @@ material:
     type: grade
     value: 18
   name: Kala
+  rarity: 4
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Booster
   bonuses:
@@ -3754,6 +4020,7 @@ material:
     type: grade
     value: 18
   name: Whisky Tango Foxtrot
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Chimera
   bonuses:
@@ -3770,6 +4037,7 @@ material:
     type: grade
     value: 30
   name: Neogenator
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Chimera
   bonuses:
@@ -3786,6 +4054,7 @@ material:
     type: grade
     value: 30
   name: Reogenator
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Impact
   bonuses:
@@ -3799,6 +4068,7 @@ material:
     type: grade
     value: 20
   name: Bee
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Juggernaut
   _original:
@@ -3818,6 +4088,7 @@ material:
     type: grade
     value: -25
   name: Fabled Tortoise (BL2)
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Juggernaut
   _original:
@@ -3837,6 +4108,7 @@ material:
     type: grade
     value: -25
   name: Fabled Tortoise (TPS)
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Nova_DeadlyBloom
   bonuses:
@@ -3856,6 +4128,7 @@ material:
     type: grade
     value: 12
   name: Deadly Bloom
+  rarity: 4
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Nova_Singularity
   bonuses:
@@ -3866,6 +4139,7 @@ material:
     type: grade
     value: 30
   name: Black Hole
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Roid
   bonuses:
@@ -3882,6 +4156,7 @@ material:
     type: grade
     value: 44
   name: Avalanche / Bigg Thumppr
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Roid_ShootingStar
   bonuses:
@@ -3898,6 +4173,7 @@ material:
     type: grade
     value: 25
   name: Shooting Star
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Roid_ThresherRaid
   bonuses:
@@ -3920,6 +4196,7 @@ material:
     type: grade
     value: 10
   name: Hide of Terramorphous
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Spike
   bonuses:
@@ -3936,6 +4213,7 @@ material:
     type: grade
     value: 18
   name: Impaler
+  rarity: 5
   unique: true
 - _obj_name: GD_Shields.Material.Material5_Legendary_Standard
   bonuses:
@@ -3946,6 +4224,7 @@ material:
     type: grade
     value: 9
   name: Cradle
+  rarity: 5
   unique: true
 meta:
   definitions:

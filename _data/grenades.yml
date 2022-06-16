@@ -14,6 +14,7 @@ alpha:
     type: scale
     value: -0.8
   name: Area Effect (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_BonusPackage
   bonuses:
@@ -21,6 +22,7 @@ alpha:
     type: scale
     value: -0.7
   name: Bonus Package (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_BouncingBetty
   bonuses:
@@ -31,6 +33,7 @@ alpha:
     type: post-add
     value: 20
   name: Bouncing Bettery (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_BouncingBonny
   bonuses:
@@ -41,12 +44,15 @@ alpha:
     type: post-add
     value: 20
   name: Bouncing Bonny (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Exterminator
   name: Exterminator (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_FlameSpurt
   name: Breath of Terramorphous (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_FusterCluck
   bonuses:
@@ -57,6 +63,7 @@ alpha:
     type: scale
     value: -0.65
   name: Fuster Cluck (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_KissOfDeath
   bonuses:
@@ -76,6 +83,7 @@ alpha:
     type: post-add
     value: 3
   name: Kiss of Death (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Leech
   bonuses:
@@ -86,6 +94,7 @@ alpha:
     type: scale
     value: -5
   name: Leech (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Mirv
   bonuses:
@@ -99,6 +108,7 @@ alpha:
     type: scale
     value: -0.12
   name: MIRV (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Quasar
   bonuses:
@@ -106,6 +116,7 @@ alpha:
     type: scale
     value: -0.17
   name: Quasar (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Singularity
   bonuses:
@@ -116,6 +127,7 @@ alpha:
     type: scale
     value: 0.4
   name: Singularity (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Standard
   bonuses:
@@ -123,6 +135,7 @@ alpha:
     type: scale
     value: 0.1
   name: Standard (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Payload.Payload_Transfusion
   bonuses:
@@ -136,6 +149,7 @@ alpha:
     type: scale
     value: -1.75
   name: Transfusion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_AreaEffect
   bonuses:
@@ -155,6 +169,7 @@ alpha:
     type: grade
     value: 1
   name: Area Effect
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_AreaEffect_AirMask
   bonuses:
@@ -174,6 +189,7 @@ alpha:
     type: scale
     value: -0.8
   name: Area Effect (Shattering)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_BonusPackage
   bonuses:
@@ -181,6 +197,7 @@ alpha:
     type: scale
     value: -0.7
   name: Bonus Package
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_BouncingBetty
   bonuses:
@@ -191,6 +208,7 @@ alpha:
     type: post-add
     value: 20
   name: Bouncing Betty
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_BouncingBetty_AirMask
   bonuses:
@@ -201,6 +219,7 @@ alpha:
     type: post-add
     value: 20
   name: Bouncing Betty (Shattering)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_BouncingBonny
   bonuses:
@@ -211,6 +230,7 @@ alpha:
     type: post-add
     value: 20
   name: Bouncing Bonny
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_BouncingBonny
   bonuses:
@@ -221,12 +241,15 @@ alpha:
     type: post-add
     value: 20
   name: Bouncing Bazza
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_Exterminator
   name: Exterminator
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_FlameSpurt
   name: Breath of Terramorphous
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_FourSeasons
   bonuses:
@@ -249,6 +272,7 @@ alpha:
     type: scale
     value: 0.1
   name: Four Seasons
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_FusterCluck
   bonuses:
@@ -259,6 +283,7 @@ alpha:
     type: scale
     value: -0.65
   name: Fuster Cluck
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_KissOfDeath
   bonuses:
@@ -278,6 +303,7 @@ alpha:
     type: post-add
     value: 3
   name: Kiss of Death
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_Leech
   bonuses:
@@ -288,6 +314,7 @@ alpha:
     type: scale
     value: -5
   name: Leech
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_Mirv
   bonuses:
@@ -301,6 +328,7 @@ alpha:
     type: scale
     value: -0.12
   name: MIRV
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Mirv_AirMask
   bonuses:
@@ -314,6 +342,7 @@ alpha:
     type: scale
     value: -0.12
   name: MIRV (Shattering)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Quasar
   bonuses:
@@ -321,6 +350,7 @@ alpha:
     type: scale
     value: -0.17
   name: Quasar
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Payload.Payload_Singularity
   bonuses:
@@ -331,6 +361,7 @@ alpha:
     type: scale
     value: 0.4
   name: Singularity
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Singularity_AirMask
   bonuses:
@@ -341,6 +372,7 @@ alpha:
     type: scale
     value: 0.4
   name: Singularity (Shattering)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Standard
   bonuses:
@@ -348,6 +380,7 @@ alpha:
     type: scale
     value: 0.1
   name: Standard
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Standard_AirMask
   bonuses:
@@ -355,6 +388,7 @@ alpha:
     type: scale
     value: 0.1
   name: Standard (Shattering)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Transfusion
   bonuses:
@@ -368,6 +402,7 @@ alpha:
     type: scale
     value: -1.75
   name: Transfusion
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Payload.Payload_Transfusion_AirMask
   bonuses:
@@ -381,6 +416,7 @@ alpha:
     type: scale
     value: -1.75
   name: Transfusion (Shattering)
+  rarity: 0
   unique: false
 - _obj_name: GD_Iris_SeraphItems.Crossfire.Iris_Seraph_GrenadeMod_Crossfire_Part_Payload
   bonuses:
@@ -391,6 +427,7 @@ alpha:
     type: post-add
     value: 20
   name: Crossfire
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower_Part_Payload
   bonuses:
@@ -398,10 +435,12 @@ alpha:
     type: scale
     value: -0.7
   name: Meteor Shower
+  rarity: 0
   unique: true
 beta:
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Fastball
   name: Fastball (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Homing
   bonuses:
@@ -410,6 +449,7 @@ beta:
     value: -0.2
   mesh: Grenade_Homing
   name: Homing (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Homing_Sticky
   bonuses:
@@ -421,12 +461,15 @@ beta:
     value: -0.3
   mesh: Grenade_Homing
   name: Sticky Homing (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Lob
   name: Lobbed (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Lob_Flamer
   name: Lobbed Flamer (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Lob_Sticky
   bonuses:
@@ -437,6 +480,7 @@ beta:
     type: scale
     value: -0.35
   name: Sticky (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_LongBow
   bonuses:
@@ -445,6 +489,7 @@ beta:
     value: 0.2
   mesh: Grenade_Longbow
   name: Longbow (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_LongBow_Sticky
   bonuses:
@@ -456,6 +501,7 @@ beta:
     value: -0.4
   mesh: Grenade_Longbow
   name: Sticky Longbow (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_NastySurprise
   bonuses:
@@ -467,10 +513,12 @@ beta:
     value: -0.15
   mesh: Grenade_Longbow
   name: Nasty Surprise (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_RollingThunder
   mesh: Grenade_Rubberized
   name: Rolling Thunder (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_Rubberized
   bonuses:
@@ -482,6 +530,7 @@ beta:
     value: -5
   mesh: Grenade_Rubberized
   name: Rubberized (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Delivery.Delivery_SkyRocket
   bonuses:
@@ -490,6 +539,7 @@ beta:
     value: -0.15
   mesh: Grenade_Area_Affect
   name: Sky Rocket (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.Delivery.Delivery_ChainLightning
   bonuses:
@@ -503,6 +553,7 @@ beta:
     type: scale
     value: -0.03
   name: Chain Lightning
+  rarity: 2
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.Delivery.Delivery_FireStorm
   bonuses:
@@ -513,6 +564,7 @@ beta:
     type: scale
     value: 0.23
   name: Fire Storm
+  rarity: 2
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.Delivery.Delivery_Fireball
   bonuses:
@@ -523,6 +575,7 @@ beta:
     type: scale
     value: -0.012
   name: Fireball
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.Delivery.Delivery_LightningBolt
   bonuses:
@@ -530,6 +583,7 @@ beta:
     type: scale
     value: 0.12
   name: Lightning Bolt
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.Delivery.Delivery_MagicMissile
   bonuses:
@@ -540,6 +594,7 @@ beta:
     type: scale
     value: -0.25
   name: Magic Missile (x2)
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.Delivery.Delivery_MagicMissileRare
   bonuses:
@@ -557,13 +612,16 @@ beta:
     value: 0.06
   mesh: Grenade_Mirv
   name: Magic Missile (x4)
+  rarity: 1
   unique: true
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_BabyBoomer
   mesh: Grenade_Rubberized
   name: Baby Boomer
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Fastball
   name: Fastball
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Homing
   bonuses:
@@ -572,6 +630,7 @@ beta:
     value: -0.2
   mesh: Grenade_Homing
   name: Homing
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Homing_Sticky
   bonuses:
@@ -583,9 +642,11 @@ beta:
     value: -0.3
   mesh: Grenade_Homing
   name: Sticky Homing
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Lob
   name: Lobbed
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Lob_Sticky
   bonuses:
@@ -596,6 +657,7 @@ beta:
     type: scale
     value: -0.35
   name: Sticky
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_LongBow
   bonuses:
@@ -604,6 +666,7 @@ beta:
     value: 0.2
   mesh: Grenade_Longbow
   name: Longbow
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_LongBow_Sticky
   bonuses:
@@ -615,6 +678,7 @@ beta:
     value: -0.4
   mesh: Grenade_Longbow
   name: Sticky Longbow
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_NastySurprise
   bonuses:
@@ -626,10 +690,12 @@ beta:
     value: -0.15
   mesh: Grenade_Longbow
   name: Nasty Surprise
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_RollingThunder
   mesh: Grenade_Rubberized
   name: Rolling Thunder
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Rubberized
   bonuses:
@@ -641,6 +707,7 @@ beta:
     value: -5
   mesh: Grenade_Rubberized
   name: Rubberized
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_SkyRocket
   bonuses:
@@ -649,9 +716,11 @@ beta:
     value: 0.1
   mesh: Grenade_Area_Affect
   name: Sky Rocket
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Delivery.Delivery_Snowball
   name: Snowball
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_GrenadeMods.Delivery.Delivery_DataScrubber
   bonuses:
@@ -662,6 +731,7 @@ beta:
     type: scale
     value: -0.012
   name: Data Scrubber
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_GrenadeMods.Delivery.Delivery_Meganade
   bonuses:
@@ -672,6 +742,7 @@ beta:
     type: scale
     value: -0.012
   name: Meganade
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_GrenadeMods.Delivery.Delivery_Blade
   bonuses:
@@ -682,6 +753,7 @@ beta:
     type: scale
     value: -0.1
   name: Midnight Star
+  rarity: 0
   unique: true
 definitions:
 - _obj_name: GD_Anemone_GrenadeMods.A_Item.GrenadeMod_Standard
@@ -701,6 +773,7 @@ definitions:
     type: pre-add
     value: 1
   name: Standard (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.A_Item_Legendary.GrenadeMod_Exterminator
   bonuses:
@@ -719,6 +792,7 @@ definitions:
     type: pre-add
     value: 1
   name: Exterminator (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_GrenadeMods.A_Item.GrenadeMod_MagicSpell
   bonuses:
@@ -737,9 +811,11 @@ definitions:
     type: pre-add
     value: 1
   name: Magic Spell
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_GrenadeMods.A_Item_Custom.GrenadeMod_MonsterTrap
   name: Monster Trap
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item.GrenadeMod_Standard
   bonuses:
@@ -758,6 +834,7 @@ definitions:
     type: pre-add
     value: 1
   name: Standard
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_BabyBoomer
   bonuses:
@@ -776,6 +853,7 @@ definitions:
     type: pre-add
     value: 1
   name: Baby Boomer
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_FusterCluck
   bonuses:
@@ -794,6 +872,7 @@ definitions:
     type: pre-add
     value: 1
   name: Fuster Cluck
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_SkyRocket
   bonuses:
@@ -812,6 +891,7 @@ definitions:
     type: pre-add
     value: 1
   name: Sky Rocket
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Custom.GrenadeMod_Snowball
   bonuses:
@@ -830,6 +910,7 @@ definitions:
     type: pre-add
     value: 1
   name: Snowball
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BonusPackage
   bonuses:
@@ -848,6 +929,7 @@ definitions:
     type: pre-add
     value: 1
   name: Bonus Package
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BouncingBonny
   bonuses:
@@ -866,6 +948,7 @@ definitions:
     type: pre-add
     value: 1
   name: Bouncing Bonny
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_BouncingBonny
   bonuses:
@@ -884,6 +967,7 @@ definitions:
     type: pre-add
     value: 1
   name: Bouncing Bazza
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Exterminator
   bonuses:
@@ -902,6 +986,7 @@ definitions:
     type: pre-add
     value: 1
   name: Exterminator
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball
   bonuses:
@@ -920,6 +1005,7 @@ definitions:
     type: pre-add
     value: 1
   name: Fastball
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_FlameSpurt
   bonuses:
@@ -938,6 +1024,7 @@ definitions:
     type: pre-add
     value: 1
   name: Breath of Terramorphous
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_FourSeasons
   bonuses:
@@ -956,6 +1043,7 @@ definitions:
     type: pre-add
     value: 1
   name: Four Seasons
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Leech
   bonuses:
@@ -974,6 +1062,7 @@ definitions:
     type: pre-add
     value: 1
   name: Leech
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_NastySurprise
   bonuses:
@@ -992,6 +1081,7 @@ definitions:
     type: pre-add
     value: 1
   name: Nasty Surprise
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Quasar
   bonuses:
@@ -1010,6 +1100,7 @@ definitions:
     type: pre-add
     value: 1
   name: Quasar
+  rarity: 5
   unique: true
 - _obj_name: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_RollingThunder
   bonuses:
@@ -1028,6 +1119,7 @@ definitions:
     type: pre-add
     value: 1
   name: Rolling Thunder
+  rarity: 5
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Crossfire.Iris_Seraph_GrenadeMod_Crossfire
   bonuses:
@@ -1046,6 +1138,7 @@ definitions:
     type: pre-add
     value: 1
   name: Crossfire
+  rarity: 501
   unique: true
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower
   bonuses:
@@ -1064,6 +1157,7 @@ definitions:
     type: pre-add
     value: 1
   name: Meteor Shower
+  rarity: 501
   unique: true
 - _obj_name: GD_Iris_SeraphItems.ONegative.Iris_Seraph_GrenadeMod_ONegative
   bonuses:
@@ -1082,6 +1176,7 @@ definitions:
     type: pre-add
     value: 1
   name: O-Negative
+  rarity: 501
   unique: true
 - _obj_name: GD_Ma_GrenadeMods.A_Item_Legendary.GrenadeMod_Meganade
   bonuses:
@@ -1100,6 +1195,7 @@ definitions:
     type: pre-add
     value: 1
   name: Meganade
+  rarity: 5
   unique: true
 - _obj_name: GD_Ma_GrenadeMods.A_Item_Unique.GrenadeMod_DataScrubber
   bonuses:
@@ -1118,6 +1214,7 @@ definitions:
     type: pre-add
     value: 1
   name: Data Scrubber
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_GrenadeMods.A_Item_Custom.GrenadeMod_Blade
   bonuses:
@@ -1136,10 +1233,12 @@ definitions:
     type: pre-add
     value: 1
   name: Midnight Star
+  rarity: 0
   unique: true
 delta:
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Corrosive
   name: Corrosive Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Corrosive_Grade1
   bonuses:
@@ -1147,6 +1246,7 @@ delta:
     type: grade
     value: 1
   name: Corrosive Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Corrosive_Grade2
   bonuses:
@@ -1154,6 +1254,7 @@ delta:
     type: grade
     value: 2
   name: Corrosive Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Corrosive_Grade3
   bonuses:
@@ -1161,6 +1262,7 @@ delta:
     type: grade
     value: 3
   name: Corrosive Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Corrosive_Grade4
   bonuses:
@@ -1168,12 +1270,15 @@ delta:
     type: grade
     value: 4
   name: Corrosive Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Explosive
   name: Explosive (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Incendiary
   name: Fire Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Incendiary_Grade1
   bonuses:
@@ -1181,6 +1286,7 @@ delta:
     type: grade
     value: 1
   name: Fire Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Incendiary_Grade2
   bonuses:
@@ -1188,6 +1294,7 @@ delta:
     type: grade
     value: 2
   name: Fire Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Incendiary_Grade3
   bonuses:
@@ -1195,6 +1302,7 @@ delta:
     type: grade
     value: 3
   name: Fire Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Incendiary_Grade4
   bonuses:
@@ -1202,9 +1310,11 @@ delta:
     type: grade
     value: 4
   name: Fire Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Shock
   name: Shock Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Shock_Grade1
   bonuses:
@@ -1212,6 +1322,7 @@ delta:
     type: grade
     value: 1
   name: Shock Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Shock_Grade2
   bonuses:
@@ -1219,6 +1330,7 @@ delta:
     type: grade
     value: 2
   name: Shock Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Shock_Grade3
   bonuses:
@@ -1226,6 +1338,7 @@ delta:
     type: grade
     value: 3
   name: Shock Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Shock_Grade4
   bonuses:
@@ -1233,9 +1346,11 @@ delta:
     type: grade
     value: 4
   name: Shock Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Slag
   name: Slag Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Slag_Grade1
   bonuses:
@@ -1243,6 +1358,7 @@ delta:
     type: grade
     value: 1
   name: Slag Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Slag_Grade2
   bonuses:
@@ -1250,6 +1366,7 @@ delta:
     type: grade
     value: 2
   name: Slag Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Slag_Grade3
   bonuses:
@@ -1257,6 +1374,7 @@ delta:
     type: grade
     value: 3
   name: Slag Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Accessory.Accessory_Slag_Grade4
   bonuses:
@@ -1264,12 +1382,15 @@ delta:
     type: grade
     value: 4
   name: Slag Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_GrenadeMods.Accessory.Accessory_MonsterTrap
   name: Monster Trap
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Corrosive
   name: Corrosive Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade1
   bonuses:
@@ -1277,6 +1398,7 @@ delta:
     type: grade
     value: 1
   name: Corrosive Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade2
   bonuses:
@@ -1284,6 +1406,7 @@ delta:
     type: grade
     value: 2
   name: Corrosive Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade3
   bonuses:
@@ -1291,6 +1414,7 @@ delta:
     type: grade
     value: 3
   name: Corrosive Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Corrosive_Grade4
   bonuses:
@@ -1298,12 +1422,15 @@ delta:
     type: grade
     value: 4
   name: Corrosive Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Explosive
   name: Explosive
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Ice
   name: Cryo Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Ice_Grade1
   bonuses:
@@ -1311,6 +1438,7 @@ delta:
     type: grade
     value: 1
   name: Cryo Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Ice_Grade2
   bonuses:
@@ -1318,6 +1446,7 @@ delta:
     type: grade
     value: 2
   name: Cryo Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Ice_Grade3
   bonuses:
@@ -1325,6 +1454,7 @@ delta:
     type: grade
     value: 3
   name: Cryo Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Ice_Grade4
   bonuses:
@@ -1332,9 +1462,11 @@ delta:
     type: grade
     value: 4
   name: Cryo Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Incendiary
   name: Fire Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade1
   bonuses:
@@ -1342,6 +1474,7 @@ delta:
     type: grade
     value: 1
   name: Fire Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade2
   bonuses:
@@ -1349,6 +1482,7 @@ delta:
     type: grade
     value: 2
   name: Fire Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade3
   bonuses:
@@ -1356,6 +1490,7 @@ delta:
     type: grade
     value: 3
   name: Fire Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Incendiary_Grade4
   bonuses:
@@ -1363,9 +1498,11 @@ delta:
     type: grade
     value: 4
   name: Fire Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Shock
   name: Shock Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Shock_Grade1
   bonuses:
@@ -1373,6 +1510,7 @@ delta:
     type: grade
     value: 1
   name: Shock Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Shock_Grade2
   bonuses:
@@ -1380,6 +1518,7 @@ delta:
     type: grade
     value: 2
   name: Shock Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Shock_Grade3
   bonuses:
@@ -1387,6 +1526,7 @@ delta:
     type: grade
     value: 3
   name: Shock Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Shock_Grade4
   bonuses:
@@ -1394,9 +1534,11 @@ delta:
     type: grade
     value: 4
   name: Shock Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Slag
   name: Slag Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Slag_Grade1
   bonuses:
@@ -1404,6 +1546,7 @@ delta:
     type: grade
     value: 1
   name: Slag Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Slag_Grade2
   bonuses:
@@ -1411,6 +1554,7 @@ delta:
     type: grade
     value: 2
   name: Slag Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Slag_Grade3
   bonuses:
@@ -1418,6 +1562,7 @@ delta:
     type: grade
     value: 3
   name: Slag Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Accessory.Accessory_Slag_Grade4
   bonuses:
@@ -1425,10 +1570,12 @@ delta:
     type: grade
     value: 4
   name: Slag Grade 4
+  rarity: 0
   unique: false
 epsilon:
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade0
   name: Grade 0 (Anemone)
+  rarity: 1
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade1
   bonuses:
@@ -1436,6 +1583,7 @@ epsilon:
     type: grade
     value: 1
   name: Grade 1 (Anemone)
+  rarity: 1
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade2
   bonuses:
@@ -1443,6 +1591,7 @@ epsilon:
     type: grade
     value: 2
   name: Grade 2 (Anemone)
+  rarity: 2
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade3
   bonuses:
@@ -1450,6 +1599,7 @@ epsilon:
     type: grade
     value: 3
   name: Grade 3 (Anemone)
+  rarity: 2
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade4
   bonuses:
@@ -1457,6 +1607,7 @@ epsilon:
     type: grade
     value: 4
   name: Grade 4 (Anemone)
+  rarity: 3
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade5
   bonuses:
@@ -1464,6 +1615,7 @@ epsilon:
     type: grade
     value: 5
   name: Grade 5 (Anemone)
+  rarity: 3
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade6
   bonuses:
@@ -1471,6 +1623,7 @@ epsilon:
     type: grade
     value: 6
   name: Grade 6 (Anemone)
+  rarity: 4
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Damage.Damage_Grade7
   bonuses:
@@ -1478,9 +1631,11 @@ epsilon:
     type: grade
     value: 7
   name: Grade 7 (Anemone)
+  rarity: 4
   unique: true
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade0
   name: Grade 0
+  rarity: 1
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade1
   bonuses:
@@ -1488,6 +1643,7 @@ epsilon:
     type: grade
     value: 1
   name: Grade 1
+  rarity: 1
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade2
   bonuses:
@@ -1495,6 +1651,7 @@ epsilon:
     type: grade
     value: 2
   name: Grade 2
+  rarity: 2
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade3
   bonuses:
@@ -1502,6 +1659,7 @@ epsilon:
     type: grade
     value: 3
   name: Grade 3
+  rarity: 2
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade4
   bonuses:
@@ -1509,6 +1667,7 @@ epsilon:
     type: grade
     value: 4
   name: Grade 4
+  rarity: 3
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade5
   bonuses:
@@ -1516,6 +1675,7 @@ epsilon:
     type: grade
     value: 5
   name: Grade 5
+  rarity: 3
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade6
   bonuses:
@@ -1523,6 +1683,7 @@ epsilon:
     type: grade
     value: 6
   name: Grade 6
+  rarity: 4
   unique: false
 - _obj_name: GD_GrenadeMods.Damage.Damage_Grade7
   bonuses:
@@ -1530,6 +1691,7 @@ epsilon:
     type: grade
     value: 7
   name: Grade 7
+  rarity: 4
   unique: false
 - _obj_name: GD_Iris_SeraphItems.Crossfire.Iris_Seraph_GrenadeMod_Crossfire_Part_Damage6
   bonuses:
@@ -1537,6 +1699,7 @@ epsilon:
     type: grade
     value: 6
   name: Grade 6 (Crossfire)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.Crossfire.Iris_Seraph_GrenadeMod_Crossfire_Part_Damage7
   bonuses:
@@ -1544,6 +1707,7 @@ epsilon:
     type: grade
     value: 7
   name: Grade 7 (Crossfire)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower_Part_Damage4
   bonuses:
@@ -1551,6 +1715,7 @@ epsilon:
     type: grade
     value: 4
   name: Grade 4 (Meteor Shower)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower_Part_Damage5
   bonuses:
@@ -1558,6 +1723,7 @@ epsilon:
     type: grade
     value: 5
   name: Grade 5 (Meteor Shower)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower_Part_Damage6
   bonuses:
@@ -1565,6 +1731,7 @@ epsilon:
     type: grade
     value: 6
   name: Grade 6 (Meteor Shower)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.MeteorShower.Iris_Seraph_GrenadeMod_MeteorShower_Part_Damage7
   bonuses:
@@ -1572,6 +1739,7 @@ epsilon:
     type: grade
     value: 7
   name: Grade 7 (Meteor Shower)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.ONegative.Iris_Seraph_GrenadeMod_ONegative_Part_Damage6
   bonuses:
@@ -1579,6 +1747,7 @@ epsilon:
     type: grade
     value: 6
   name: Grade 6 (O-Negative)
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_SeraphItems.ONegative.Iris_Seraph_GrenadeMod_ONegative_Part_Damage7
   bonuses:
@@ -1586,10 +1755,12 @@ epsilon:
     type: grade
     value: 7
   name: Grade 7 (O-Negative)
+  rarity: 0
   unique: true
 eta:
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade0
   name: Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade1
   bonuses:
@@ -1597,6 +1768,7 @@ eta:
     type: grade
     value: 1
   name: Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade2
   bonuses:
@@ -1604,6 +1776,7 @@ eta:
     type: grade
     value: 2
   name: Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade3
   bonuses:
@@ -1611,6 +1784,7 @@ eta:
     type: grade
     value: 3
   name: Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade4
   bonuses:
@@ -1619,6 +1793,7 @@ eta:
     value: 4
   mesh: Grenade_Mirv
   name: Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade5
   bonuses:
@@ -1627,6 +1802,7 @@ eta:
     value: 5
   mesh: Grenade_Mirv
   name: Grade 5 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.ChildCount.ChildCount_Grade6
   bonuses:
@@ -1635,9 +1811,11 @@ eta:
     value: 6
   mesh: Grenade_Mirv
   name: Grade 6 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade0
   name: Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade1
   bonuses:
@@ -1645,6 +1823,7 @@ eta:
     type: grade
     value: 1
   name: Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade2
   bonuses:
@@ -1652,6 +1831,7 @@ eta:
     type: grade
     value: 2
   name: Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade3
   bonuses:
@@ -1659,6 +1839,7 @@ eta:
     type: grade
     value: 3
   name: Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade4
   bonuses:
@@ -1667,6 +1848,7 @@ eta:
     value: 4
   mesh: Grenade_Mirv
   name: Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade5
   bonuses:
@@ -1675,6 +1857,7 @@ eta:
     value: 5
   mesh: Grenade_Mirv
   name: Grade 5
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.ChildCount.ChildCount_Grade6
   bonuses:
@@ -1683,6 +1866,7 @@ eta:
     value: 6
   mesh: Grenade_Mirv
   name: Grade 6
+  rarity: 0
   unique: false
 gamma:
 - _obj_name: GD_Anemone_GrenadeMods.Trigger.Trigger_Grade0
@@ -1692,9 +1876,11 @@ gamma:
     value: -1
   mesh: Grenade_Singularity
   name: Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Trigger.Trigger_Grade1
   name: Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Trigger.Trigger_Grade2
   bonuses:
@@ -1702,6 +1888,7 @@ gamma:
     type: grade
     value: 1
   name: Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Trigger.Trigger_Grade3
   bonuses:
@@ -1709,6 +1896,7 @@ gamma:
     type: grade
     value: 2
   name: Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Trigger.Trigger_Grade4
   bonuses:
@@ -1716,6 +1904,7 @@ gamma:
     type: grade
     value: 3
   name: Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Trigger.Trigger_Grade5
   bonuses:
@@ -1723,6 +1912,7 @@ gamma:
     type: grade
     value: 4
   name: Grade 5 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Trigger.Trigger_Grade0
   bonuses:
@@ -1731,9 +1921,11 @@ gamma:
     value: -1
   mesh: Grenade_Singularity
   name: Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Trigger.Trigger_Grade1
   name: Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Trigger.Trigger_Grade2
   bonuses:
@@ -1741,6 +1933,7 @@ gamma:
     type: grade
     value: 1
   name: Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Trigger.Trigger_Grade3
   bonuses:
@@ -1748,6 +1941,7 @@ gamma:
     type: grade
     value: 2
   name: Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Trigger.Trigger_Grade4
   bonuses:
@@ -1755,6 +1949,7 @@ gamma:
     type: grade
     value: 3
   name: Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Trigger.Trigger_Grade5
   bonuses:
@@ -1762,107 +1957,133 @@ gamma:
     type: grade
     value: 4
   name: Grade 5
+  rarity: 0
   unique: false
 material:
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Bandit
   mesh: Grenade_Bandit
   name: Bandit (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Bandit_2_Uncommon
   mesh: Grenade_Bandit
   name: Bandit (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Bandit_3_Rare
   mesh: Grenade_Bandit
   name: Bandit (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Bandit_4_VeryRare
   mesh: Grenade_Bandit
   name: Bandit (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Bandit_5_Legendary
   mesh: Grenade_Bandit
   name: Bandit (Legendary, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Dahl
   mesh: Grenade_Dahl
   name: Dahl (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Dahl_2_Uncommon
   mesh: Grenade_Dahl
   name: Dahl (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Dahl_3_Rare
   mesh: Grenade_Dahl
   name: Dahl (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Dahl_4_VeryRare
   mesh: Grenade_Dahl
   name: Dahl (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Dahl_5_Legendary
   mesh: Grenade_Dahl
   name: Dahl (Legendary, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Hyperion
   mesh: Grenade_Hyperion
   name: Hyperion (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Hyperion_2_Uncommon
   mesh: Grenade_Hyperion
   name: Hyperion (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Hyperion_3_Rare
   mesh: Grenade_Hyperion
   name: Hyperion (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Hyperion_4_VeryRare
   mesh: Grenade_Hyperion
   name: Hyperion (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Hyperion_5_Legendary
   mesh: Grenade_Hyperion
   name: Hyperion (Legendary, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Maliwan
   mesh: Grenade_Maliwan
   name: Maliwan (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Maliwan_2_Uncommon
   mesh: Grenade_Maliwan
   name: Maliwan (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Maliwan_3_Rare
   mesh: Grenade_Maliwan
   name: Maliwan (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Maliwan_4_VeryRare
   mesh: Grenade_Maliwan
   name: Maliwan (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Maliwan_5_Legendary
   mesh: Grenade_Maliwan
   name: Maliwan (Legendary, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Tedior
   mesh: Grenade_Tediore
   name: Tediore (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Tedior_2_Uncommon
   mesh: Grenade_Tediore
   name: Tediore (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Tedior_3_Rare
   mesh: Grenade_Tediore
   name: Tediore (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Tedior_4_VeryRare
   mesh: Grenade_Tediore
   name: Tediore (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Tedior_5_Legendary
   mesh: Grenade_Tediore
   name: Tediore (Legendary, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Torgue
   bonuses:
@@ -1871,6 +2092,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Torgue_2_Uncommon
   bonuses:
@@ -1879,6 +2101,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Torgue_3_Rare
   bonuses:
@@ -1887,6 +2110,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Torgue_4_VeryRare
   bonuses:
@@ -1895,6 +2119,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Torgue_5_Legendary
   bonuses:
@@ -1903,126 +2128,157 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Legendary, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Vladof
   mesh: Grenade_Vladof
   name: Vladof (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Vladof_2_Uncommon
   mesh: Grenade_Vladof
   name: Vladof (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Vladof_3_Rare
   mesh: Grenade_Vladof
   name: Vladof (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Vladof_4_VeryRare
   mesh: Grenade_Vladof
   name: Vladof (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.Material.Material_Vladof_5_Legendary
   mesh: Grenade_Vladof
   name: Vladof (Legendary, Anemone)
+  rarity: 502
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Bandit
   mesh: Grenade_Bandit
   name: Bandit (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Bandit_2_Uncommon
   mesh: Grenade_Bandit
   name: Bandit (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Bandit_3_Rare
   mesh: Grenade_Bandit
   name: Bandit (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Bandit_4_VeryRare
   mesh: Grenade_Bandit
   name: Bandit (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Bandit_5_Legendary
   mesh: Grenade_Bandit
   name: Bandit (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Dahl
   mesh: Grenade_Dahl
   name: Dahl (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Dahl_2_Uncommon
   mesh: Grenade_Dahl
   name: Dahl (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Dahl_3_Rare
   mesh: Grenade_Dahl
   name: Dahl (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Dahl_4_VeryRare
   mesh: Grenade_Dahl
   name: Dahl (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Dahl_5_Legendary
   mesh: Grenade_Dahl
   name: Dahl (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Hyperion
   mesh: Grenade_Hyperion
   name: Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Hyperion_2_Uncommon
   mesh: Grenade_Hyperion
   name: Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Hyperion_3_Rare
   mesh: Grenade_Hyperion
   name: Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Hyperion_4_VeryRare
   mesh: Grenade_Hyperion
   name: Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Hyperion_5_Legendary
   mesh: Grenade_Hyperion
   name: Hyperion (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Maliwan
   mesh: Grenade_Maliwan
   name: Maliwan (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Maliwan_2_Uncommon
   mesh: Grenade_Maliwan
   name: Maliwan (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Maliwan_3_Rare
   mesh: Grenade_Maliwan
   name: Maliwan (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Maliwan_4_VeryRare
   mesh: Grenade_Maliwan
   name: Maliwan (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Maliwan_5_Legendary
   mesh: Grenade_Maliwan
   name: Maliwan (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Tedior
   mesh: Grenade_Tediore
   name: Tediore (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Tedior_2_Uncommon
   mesh: Grenade_Tediore
   name: Tediore (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Tedior_3_Rare
   mesh: Grenade_Tediore
   name: Tediore (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Tedior_4_VeryRare
   mesh: Grenade_Tediore
   name: Tediore (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Tedior_5_Legendary
   mesh: Grenade_Tediore
   name: Tediore (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Torgue
   bonuses:
@@ -2031,6 +2287,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Torgue_2_Uncommon
   bonuses:
@@ -2039,6 +2296,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Torgue_3_Rare
   bonuses:
@@ -2047,6 +2305,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Torgue_4_VeryRare
   bonuses:
@@ -2055,6 +2314,7 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Torgue_5_Legendary
   bonuses:
@@ -2063,38 +2323,47 @@ material:
     value: 2
   mesh: Grenade_Torgue
   name: Torgue (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.Material.Material_Vladof
   mesh: Grenade_Vladof
   name: Vladof (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Vladof_2_Uncommon
   mesh: Grenade_Vladof
   name: Vladof (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Vladof_3_Rare
   mesh: Grenade_Vladof
   name: Vladof (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Vladof_4_VeryRare
   mesh: Grenade_Vladof
   name: Vladof (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.Material.Material_Vladof_5_Legendary
   mesh: Grenade_Vladof
   name: Vladof (Legendary)
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_GrenadeMods.Material.Material_Maliwan_3_DataScrubber
   mesh: Grenade_Maliwan
   name: Data Scrubber
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_GrenadeMods.Material.Material_Maliwan_5_Meganade
   mesh: Grenade_Maliwan
   name: Meganade
+  rarity: 0
   unique: true
 theta:
 - _obj_name: GD_Anemone_GrenadeMods.StatusDamage.StatusDamage_Grade0
   name: Grade 0 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.StatusDamage.StatusDamage_Grade1
   bonuses:
@@ -2108,6 +2377,7 @@ theta:
     type: grade
     value: 1
   name: Grade 1 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.StatusDamage.StatusDamage_Grade2
   bonuses:
@@ -2121,6 +2391,7 @@ theta:
     type: grade
     value: 2
   name: Grade 2 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.StatusDamage.StatusDamage_Grade3
   bonuses:
@@ -2134,6 +2405,7 @@ theta:
     type: grade
     value: 3
   name: Grade 3 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.StatusDamage.StatusDamage_Grade4
   bonuses:
@@ -2147,6 +2419,7 @@ theta:
     type: grade
     value: 4
   name: Grade 4 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.StatusDamage.StatusDamage_Grade5
   bonuses:
@@ -2160,9 +2433,11 @@ theta:
     type: grade
     value: 5
   name: Grade 5 (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.StatusDamage.StatusDamage_Grade0
   name: Grade 0
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.StatusDamage.StatusDamage_Grade1
   bonuses:
@@ -2179,6 +2454,7 @@ theta:
     type: grade
     value: 1
   name: Grade 1
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.StatusDamage.StatusDamage_Grade2
   bonuses:
@@ -2195,6 +2471,7 @@ theta:
     type: grade
     value: 2
   name: Grade 2
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.StatusDamage.StatusDamage_Grade3
   bonuses:
@@ -2211,6 +2488,7 @@ theta:
     type: grade
     value: 3
   name: Grade 3
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.StatusDamage.StatusDamage_Grade4
   bonuses:
@@ -2227,6 +2505,7 @@ theta:
     type: grade
     value: 4
   name: Grade 4
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.StatusDamage.StatusDamage_Grade5
   bonuses:
@@ -2243,6 +2522,7 @@ theta:
     type: grade
     value: 5
   name: Grade 5
+  rarity: 0
   unique: false
 zeta:
 - _obj_name: GD_Anemone_GrenadeMods.DamageRadius.DamageRadius_ExtraLarge
@@ -2252,6 +2532,7 @@ zeta:
     value: 2
   mesh: Grenade_Area_Affect
   name: Extra Large (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.DamageRadius.DamageRadius_Large
   bonuses:
@@ -2260,9 +2541,11 @@ zeta:
     value: 1
   mesh: Grenade_Area_Affect
   name: Large (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.DamageRadius.DamageRadius_Normal
   name: Normal (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_GrenadeMods.DamageRadius.DamageRadius_Small
   bonuses:
@@ -2270,6 +2553,7 @@ zeta:
     type: grade
     value: -1
   name: Small (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_GrenadeMods.DamageRadius.DamageRadius_ExtraLarge
   bonuses:
@@ -2278,6 +2562,7 @@ zeta:
     value: 2
   mesh: Grenade_Area_Affect
   name: Extra Large
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.DamageRadius.DamageRadius_Large
   bonuses:
@@ -2286,9 +2571,11 @@ zeta:
     value: 1
   mesh: Grenade_Area_Affect
   name: Large
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.DamageRadius.DamageRadius_Normal
   name: Normal
+  rarity: 0
   unique: false
 - _obj_name: GD_GrenadeMods.DamageRadius.DamageRadius_Small
   bonuses:
@@ -2296,6 +2583,7 @@ zeta:
     type: grade
     value: -1
   name: Small
+  rarity: 0
   unique: false
 meta:
   definitions:
