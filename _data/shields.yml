@@ -662,7 +662,7 @@ beta:
   mesh: Shield_Battery_Pangolin
   name: Pangolin
   unique: false
-definition:
+definitions:
 - _obj_name: GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak
   bonuses:
   - attribute: D_Attributes.ShieldResourcePool.ShieldMaxValue

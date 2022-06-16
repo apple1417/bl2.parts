@@ -319,7 +319,7 @@ which go through the grade system as an extra step.
 {%- assign GRADES_SEPERATOR = "&|^|&" -%}
 {%- assign activate_only_defs = "" | split: "" -%}
 {%- for def in page.definitions.activate_only -%}
-    {%- assign def_part = site.data.shields.definition
+    {%- assign def_part = site.data.shields.definitions
                           | where: "_obj_name", def
                           | first -%}
     {%- assign def_meta = site.data.shields.meta.definitions

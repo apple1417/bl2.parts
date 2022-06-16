@@ -683,7 +683,7 @@ beta:
     value: -0.1
   name: Midnight Star
   unique: true
-definition:
+definitions:
 - _obj_name: GD_Anemone_GrenadeMods.A_Item.GrenadeMod_Standard
   bonuses:
   - attribute: D_Attributes.GrenadeMod.GrenadeDamage
