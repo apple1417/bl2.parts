@@ -162,12 +162,15 @@ meshes:
   Acc_Barrel_Blade2:
     name: Bayonet 2
     src: /pistols/^images/accessories/bayonet_2.png
+  Acc_Barrel_Elemental1:
+    invalid: true
 ```
 
 Field | Usage
 :---|:---
 `name` | The mesh's display name.
 `src` | The url of the image for the mesh.
+`invalid` | If this mesh doesn't actually exist, used to act as if there's no mesh assigned. Optional, other options are not required if this is defined.
 
 ### Definition Entries
 ```yml

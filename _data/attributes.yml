@@ -1,6 +1,10 @@
 - obj: D_Attributes.WeaponBullet.WeaponBulletSpeed
   invalid: true
 
+# This exists, but doesn't appear to do anything
+- obj:  D_Attributes.Weapon.WeaponMeleeDamage
+  invalid: true
+
 - obj: D_Attributes.Weapon.WeaponDamage
   name: Weapon Damage
   description: Increases the damage your weapon deals.
@@ -668,7 +672,7 @@
   multi_good: false
 
 - obj: GD_Sage_Shields.Attributes.Attr_BucklerShieldDamageResistance
-  name: Rough Rider Visual Resistance
+  name: Visual Rough Rider Resistance
   description: Has no actual effect, only used for displaying the Rough Rider's damage resistance. Is not synced with the actual bonus value.
   percent: true
   add_good: true
@@ -692,5 +696,40 @@
   name: Continuous Damage Max
   description: Increases the maximum value of the continuous damage counter.
   percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.AmmoResource_Patrol_SMG.Ammo_Patrol_SMG_RegenerationRate
+  name: Ammo Regeneration (SMG)
+  description: Increases the amount of SMG ammo regenerated per second.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: GD_Weap_SMG.Attribute.Att_IrishSwordEquipped
+  name: Chulainns Equipped
+  description: Increases the global amount of Chulainns equipped.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponBurstInterval
+  name: Burst Interval Scale
+  description: Increases the interval after a burst fire before you're allowed to fire again. This is a multiplier of the gun's Fire Interval.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: GD_Balance.Weighting.GearDrops_CommonWeightModifier
+  name: Common Weight Modifier
+  description: Increases the value of the "Common" weight, increasing the chance of rolling anything using it, broadly decreasing the chance of finding rare gear.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: GD_Balance.Weighting.GearDrops_RareWeightModifier
+  name: Visual Rare Loot Chance
+  description: Has no actual effect, only used for displaying the Common Weight Modifier in more easily understandable terms. Is not synced with the actual bonus value.
+  percent: true
   add_good: true
   multi_good: true

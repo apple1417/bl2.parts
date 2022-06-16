@@ -3140,24 +3140,26 @@ meta:
   definitions:
   - _obj_name: GD_Anemone_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.3
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 9
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.15
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 32
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 32
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 32
       value_formula:
@@ -3228,24 +3230,26 @@ meta:
     unique: true
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.15
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 7
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0.1
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 36
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.15
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 36
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 25.6
       value_formula:
@@ -3316,24 +3320,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
       value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: -3.5
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 30
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -3.5
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 30
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 29.6
       value_formula:
@@ -3404,24 +3410,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.3
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 9
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.15
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 32
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 32
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 32
       value_formula:
@@ -3492,24 +3500,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Maliwan_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.7
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 34
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.7
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 34
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 26.4
       value_formula:
@@ -3580,24 +3590,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Vladof_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.25
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 8
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 4
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 38
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.25
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 38
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 24
       value_formula:
@@ -3766,11 +3778,10 @@ meta:
     SR_Stock_Vladof:
       name: Vladof
       src: /snipers/^images/stocks/vladof.png
-    # Cheating a bit to hide these
     Acc_Barrel_Elemental1:
-      name: "No"
+      invalid: true
     Acc_Barrel_Elemental2:
-      name: "No"
+      invalid: true
     Acc_Barrel_Elemental3:
-      name: "No"
+      invalid: true
   standard_definition_idx: 2

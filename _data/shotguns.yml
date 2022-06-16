@@ -3007,24 +3007,26 @@ meta:
   definitions:
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 10
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4.1
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 9.5
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 10
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9.5
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4.1
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 8
       value_formula:
@@ -3095,24 +3097,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Hyperion_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.28
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 7
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 3.5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: -5
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.28
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -5
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 6
       value_formula:
@@ -3183,24 +3187,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.06
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 2
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 2.8
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 7.4
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 11
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.06
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 11
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 7
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.8
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 7.4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 8.8
       value_formula:
@@ -3271,24 +3277,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.66
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 2.5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 6.7
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.66
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 6.7
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 7.12
       value_formula:
@@ -3359,24 +3367,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
       value: 1
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 3.8
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 7.1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 5
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.8
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 7.1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 8.8
       value_formula:

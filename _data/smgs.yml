@@ -2700,24 +2700,26 @@ meta:
   definitions:
   - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Bandit
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.13
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 56
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4.2
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 2.2
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.6
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 45
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 56
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.13
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 2.2
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4.2
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 7.44
       value_formula:
@@ -2788,24 +2790,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Dahl
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.14
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 27
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 3
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1.7
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 1.65
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.4
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0.2
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 45
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 27
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.14
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.65
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.7
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 7.2
       value_formula:
@@ -2876,24 +2880,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Hyperion
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.115
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 24
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 2.7
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: -0.8
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.6
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 45
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.115
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -0.8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.7
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 7.28
       value_formula:
@@ -2964,24 +2970,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Maliwan
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.125
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 20
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 3.2
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1.5
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 1.8
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.6
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 45
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 20
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.125
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.2
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 6.8
       value_formula:
@@ -3052,24 +3060,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SMG.A_Weapons.WT_SMG_Tediore
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.12
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 24
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 1.9
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1.6
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 1.9
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.6
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 45
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.12
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.9
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 1.9
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.6
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 6.88
       value_formula:
@@ -3138,4 +3148,99 @@ meta:
       type: scale
     name: Tediore
     unique: false
+  meshes:
+    Acc_Barrel_Bayonet1:
+      name: Bayonet
+      src: /smgs/^images/accessories/bayonet.png
+    Acc_Body:
+      name: Body Accessory
+      src: /smgs/^images/accessories/body.png
+    Acc_Stock:
+      name: Stock Accessory
+      src: /smgs/^images/accessories/stock.png
+    SMG_Barrel_Bandit:
+      name: Bandit
+      src: /smgs/^images/barrels/bandit.png
+    SMG_Barrel_Dahl:
+      name: Dahl
+      src: /smgs/^images/barrels/dahl.png
+    SMG_Barrel_Alien:
+      name: E-Tech
+      src: /smgs/^images/barrels/etech.png
+    SMG_Barrel_Hyperion:
+      name: Hyperion
+      src: /smgs/^images/barrels/hyperion.png
+    SMG_Barrel_Maliwan:
+      name: Maliwan
+      src: /smgs/^images/barrels/maliwan.png
+    SMG_Barrel_Tediore:
+      name: Tediore
+      src: /smgs/^images/barrels/tediore.png
+    SMG_Body_Bandit:
+      name: Bandit
+      src: /smgs/^images/bodies/bandit.png
+    SMG_Body_Dahl:
+      name: Dahl
+      src: /smgs/^images/bodies/dahl.png
+    SMG_Body_Hyperion:
+      name: Hyperion
+      src: /smgs/^images/bodies/hyperion.png
+    SMG_Body_Maliwan:
+      name: Maliwan
+      src: /smgs/^images/bodies/maliwan.png
+    SMG_Body_Tediore:
+      name: Tediore
+      src: /smgs/^images/bodies/tediore.png
+    SMG_Grip_Bandit:
+      name: Bandit
+      src: /smgs/^images/grips/bandit.png
+    SMG_Grip_Dahl:
+      name: Dahl
+      src: /smgs/^images/grips/dahl.png
+    SMG_Grip_Hyperion:
+      name: Hyperion
+      src: /smgs/^images/grips/hyperion.png
+    SMG_Grip_Maliwan:
+      name: Maliwan
+      src: /smgs/^images/grips/maliwan.png
+    SMG_Grip_Tediore:
+      name: Tediore
+      src: /smgs/^images/grips/tediore.png
+    SMG_Scope_Bandit:
+      name: Bandit
+      src: /smgs/^images/sights/bandit.png
+    SMG_Scope_Dahl:
+      name: Dahl
+      src: /smgs/^images/sights/dahl.png
+    SMG_Scope_Hyperion:
+      name: Hyperion
+      src: /smgs/^images/sights/hyperion.png
+    SMG_Scope_Maliwan:
+      name: Maliwan
+      src: /smgs/^images/sights/maliwan.png
+    SMG_Scope_Tediore:
+      name: Tediore
+      src: /smgs/^images/sights/tediore.png
+    SMG_Stock_Bandit:
+      name: Bandit
+      src: /smgs/^images/stocks/bandit.png
+    SMG_Stock_Dahl:
+      name: Dahl
+      src: /smgs/^images/stocks/dahl.png
+    SMG_Stock_Hyperion:
+      name: Hyperion
+      src: /smgs/^images/stocks/hyperion.png
+    SMG_Stock_Maliwan:
+      name: Maliwan
+      src: /smgs/^images/stocks/maliwan.png
+    SMG_Stock_Tediore:
+      name: Tediore
+      src: /smgs/^images/stocks/tediore.png
+    # TODO: double check
+    Acc_Barrel_Elemental1:
+      invalid: true
+    Acc_Barrel_Elemental2b:
+      invalid: true
+    Acc_Barrel_Elemental3:
+      invalid: true
   standard_definition_idx: 0
