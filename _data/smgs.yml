@@ -48,7 +48,7 @@ accessories:
   - attribute: D_Attributes.Weapon.WeaponMeleeDamage
     type: scale
     value: 1
-  mesh: Acc_Body
+  mesh: Acc_Body_1
   name: Body 1 Accuracy
   prefixes:
   - name: Akurate
@@ -77,7 +77,7 @@ accessories:
   - slot: WeaponAccuracyImpulse
     type: grade
     value: -3
-  mesh: Acc_Body
+  mesh: Acc_Body_2
   name: Body 2 Damage
   prefixes:
   - name: Murduring
@@ -106,7 +106,7 @@ accessories:
   - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
     type: scale
     value: 0.5
-  mesh: Acc_Body
+  mesh: Acc_Body_3
   name: Body 3 Accelerated
   prefixes:
   - name: Bulets Go Fasterifed
@@ -139,7 +139,7 @@ accessories:
   - slot: AccuracyMax
     type: grade
     value: 5
-  mesh: Acc_Stock
+  mesh: Acc_Stock_1
   name: Stock 1 Stability
   prefixes:
   - name: Ballanced
@@ -168,7 +168,7 @@ accessories:
   - slot: WeaponMagSize
     type: grade
     value: 1
-  mesh: Acc_Stock
+  mesh: Acc_Stock_2
   name: Stock 2 Reload
   prefixes:
   - name: Agresive
@@ -3327,13 +3327,22 @@ meta:
   meshes:
     Acc_Barrel_Bayonet1:
       name: Bayonet
-      src: /smgs/^images/accessories/bayonet.png
-    Acc_Body:
-      name: Body Accessory
-      src: /smgs/^images/accessories/body.png
-    Acc_Stock:
-      name: Stock Accessory
-      src: /smgs/^images/accessories/stock.png
+      src: /smgs/^images/parts/accessory.png
+    Acc_Body_1:
+      name: Body 1 Accessory
+      src: /smgs/^images/accessories/body_1.png
+    Acc_Body_2:
+      name: Body 2 Accessory
+      src: /smgs/^images/accessories/body_2.png
+    Acc_Body_3:
+      name: Body 3 Accessory
+      src: /smgs/^images/accessories/body_3.png
+    Acc_Stock_1:
+      name: Stock 1 Accessory
+      src: /smgs/^images/accessories/stock_1.png
+    Acc_Stock_2:
+      name: Stock 2 Accessory
+      src: /smgs/^images/accessories/stock_2.png
     SMG_Barrel_Bandit:
       name: Bandit
       src: /smgs/^images/barrels/bandit.png
