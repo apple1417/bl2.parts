@@ -69,10 +69,7 @@ definition_stat_overrides:
 # Sniper Parts Guide
 Snipers are made out of 6 main visible parts.
 
-{% include part_reference.html
-    parts=page.part_reference
-    image_class="big"
-%}
+{% include part_reference.html parts=page.part_reference image_class="massive" %}
 
 ## Accessories
 There are 8 non-unique accessories, including a "no accessory" part with no model.
