@@ -19,6 +19,13 @@ accessory_overrides:
 - idx: 3
   footnote: same_model
   image_src: /smgs/^images/accessories/bayonet_bandit.png
+
+barrel_overrides:
+  - idx: 3
+    footnote: same_etech_model
+  - idx: 4
+    footnote: same_etech_model
+    image_src: /smgs/^images/barrels/etech_bandit.png
 ---
 
 # SMG Parts Guide
@@ -57,3 +64,23 @@ All accessories have set prefixes associated with them based on manufacturer, wh
 don't get overwritten, are a simple way to tell which one exactly a weapon has.
 
 {% include prefixes.html parts=site.data.smgs.accessories %}
+
+## Barrels
+There are 7 non-unique barrels.
+
+<style>
+#barrels_table > div.part-block {
+    padding: 0 0.35em;
+}
+</style>
+{% include parts.html
+    id="barrels_table"
+    parts=site.data.smgs.barrels
+    meta=site.data.smgs.meta
+    mesh_image=true
+    simple_bonuses=true
+    overrides=page.barrel_overrides
+%}
+{% include footnote_end.html
+    same_etech_model="These both use the same model, but (unsurprisingly) the Bandit version only spawns Bandit guns."
+%}
