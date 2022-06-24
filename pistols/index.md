@@ -215,8 +215,8 @@ There are six non-unique element parts, one for each element, and one for no ele
 %}
 
 ## Materials
-The material parts also have no model, instead defining the actual textures applied ontop of all the
-other models.
+The material parts also have no model, instead defining the actual textures applied on top of all
+the other models.
 
 There are 44 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
 combination. In Tina DLC, each manufacturer gets an additional gemstone material, and in TPS,
@@ -236,7 +236,7 @@ The Weapon Balance defines what parts a certain weapon can have. Balances themse
 stats, but are they very important for the actual generation of weapons.
 
 ## Weapon Type Definitions
-Like the name might suggest, the definition essentialy defines all the unique properties of each
+Like the name might suggest, the definition essentially defines all the unique properties of each
 weapon type. There is one definition per manufacturer.
 
 Definitions may provide stat bonuses. Those which do are listed below.

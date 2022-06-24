@@ -31,8 +31,6 @@ Each override entry can have the following fields:
 {%- endcomment -%}
 
 {%- if include.part.bonuses -%}
-    {%- assign inital_restriction = true -%}
-
     {%- assign grouped_bonuses = include.part.bonuses | group_by: "restrict" | sort_natural: "name" -%}
     {%- for group in grouped_bonuses -%}
         {%- assign group_overrides = include.overrides | where: "group_idx", forloop.index | first -%}
@@ -86,9 +84,9 @@ Each override entry can have the following fields:
 
             {%- assign fake_dict_entry = bonus_data
                                          | strip
-                                         | split: BONUS_SEPERATOR
+                                         | split: BONUS_SEPARATOR
                                          | reverse
-                                         | join: BONUS_SEPERATOR -%}
+                                         | join: BONUS_SEPARATOR -%}
             {%- assign fake_dict = fake_dict | push: fake_dict_entry -%}
         {%- endfor -%}
 
@@ -99,7 +97,7 @@ Each override entry can have the following fields:
                 {%- continue -%}
             {%- endif -%}
 
-            {%- assign bonus_str = entry | split: BONUS_SEPERATOR | reverse | join: " " -%}
+            {%- assign bonus_str = entry | split: BONUS_SEPARATOR | reverse | join: " " -%}
             {%- if overrides.replace.to and overrides.replace.from -%}
                 {%- assign bonus_str = bonus_str
                                        | replace: overrides.replace.from, overrides.replace.to -%}

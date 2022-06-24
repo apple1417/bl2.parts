@@ -1,5 +1,5 @@
 ---
-title: SMG Sight Zoom Comparsion
+title: SMG Sight Zoom Comparison
 layout: zoom
 sights:
   - name: 110 FOV

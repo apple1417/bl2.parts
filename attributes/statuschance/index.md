@@ -32,7 +32,7 @@ Surface Type | *Corrosive*{:.corrosive} | *Cryo*{:.cryo} | *Fire*{:.fire} | *Sho
 ---|---|---|---|---|---
 Generic | 20% | 15% | 20% | 20% | 30% 
 Flesh   | 15% | 15% | 30% | 15% | 30% 
-Armor   | 30% | 15% | 15% | 15% | 30% 
+Armour  | 30% | 15% | 15% | 15% | 30% 
 Shield  | 15% |  5% | 15% | 75% | 30% 
 
 Item cards use the Generic value, along with a Target Status Chance Resistance of 1.

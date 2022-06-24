@@ -1,7 +1,7 @@
 {%- comment -%}
 Creates a table showing off the per grade values for all definitions.
 
-Assumes the standard definition containes all slots used in other definitions.
+Assumes the standard definition contains all slots used in other definitions.
 
 Args:
     meta: The relevant item metadata.
@@ -19,8 +19,8 @@ Each override entry can have the following fields:
   footnote: ""      # The id of a footnote to put after the definition name.
 {%- endcomment -%}
 
-{%- assign COLUMN_SEPERATOR = "&|^|&" -%}
-{%- assign TYPE_SEPERATOR = ":^:" -%}
+{%- assign COLUMN_SEPARATOR = "&|^|&" -%}
+{%- assign TYPE_SEPARATOR = ":^:" -%}
 
 {%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
 
@@ -55,7 +55,7 @@ of strings, with the key at the front.
                          | append: standard_grade_stats.constraint
                          | append: ")" -%}
     {%- endif -%}
-    {%- assign row = row | append: COLUMN_SEPERATOR -%}
+    {%- assign row = row | append: COLUMN_SEPARATOR -%}
 
 
     {%- for definition in ordered_definitions -%}
@@ -65,8 +65,8 @@ of strings, with the key at the front.
         {%- unless inner_grade_stats -%}
             {%- assign row = row
                              | append: "-"
-                             | append: TYPE_SEPERATOR
-                             | append: COLUMN_SEPERATOR -%}
+                             | append: TYPE_SEPARATOR
+                             | append: COLUMN_SEPARATOR -%}
             {%- continue -%}
         {%- endunless -%}
 
@@ -76,9 +76,9 @@ of strings, with the key at the front.
 
         {%- assign row = row
                          | append: grade_str
-                         | append: TYPE_SEPERATOR
+                         | append: TYPE_SEPARATOR
                          | append: inner_grade_stats.type
-                         | append: COLUMN_SEPERATOR -%}
+                         | append: COLUMN_SEPARATOR -%}
     {%- endfor -%}
 
     {%- assign all_rows = all_rows | push: row -%}
@@ -101,7 +101,7 @@ of strings, with the key at the front.
         {%- assign sorted_rows = all_rows | sort_natural -%}
         {%- for row in sorted_rows -%}
             <tr>
-                {%- assign split_row = row | split: COLUMN_SEPERATOR -%}
+                {%- assign split_row = row | split: COLUMN_SEPARATOR -%}
                 {%- assign header = split_row.first -%}
                 {%- assign split_row = split_row | shift -%}
 
@@ -123,7 +123,7 @@ of strings, with the key at the front.
                         {%- endif -%}
                     {%- endfor -%}
 
-                    {%- assign split_column = column | split: TYPE_SEPERATOR -%}
+                    {%- assign split_column = column | split: TYPE_SEPARATOR -%}
                     {%- assign bonus = split_column[0] -%}
                     {%- assign type = split_column[1] -%}
                     {%- if bonus != "-" -%}

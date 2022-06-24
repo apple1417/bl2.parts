@@ -155,7 +155,7 @@ Accessories provide bonuses, and within each manufacturer the non-unique Batteri
 Capacitors all share the exact same bonuses.
 
 ## Materials
-The material parts have no model, instead defining the actual textures applied ontop of all the
+The material parts have no model, instead defining the actual textures applied on top of all the
 other models.
 
 There are 36 non-unique materials, one for each rarity-manufacturer combination. Most of these
@@ -209,7 +209,7 @@ The Inventory Balance defines what parts a certain item can have. Balances thems
 stats, but are they very important for the actual generation of items.
 
 ## Shield Definitions
-Like the name might suggest, the definition essentialy defines all the unique properties of each
+Like the name might suggest, the definition essentially defines all the unique properties of each
 shield type. These are what create all the different special effects. There is one definition per
 shield type.
 
@@ -315,8 +315,8 @@ A few shields have some extra unique grade slots, which only get activated by th
 nothing else, and never have any grades added. These are essentially just extra constant bonuses,
 which go through the grade system as an extra step.
 
-{%- assign DEF_GRADES_SEPERATOR = ":^:" -%}
-{%- assign GRADES_SEPERATOR = "&|^|&" -%}
+{%- assign DEF_GRADES_SEPARATOR = ":^:" -%}
+{%- assign GRADES_SEPARATOR = "&|^|&" -%}
 {%- assign activate_only_defs = "" | split: "" -%}
 {%- for def in page.definitions.activate_only -%}
     {%- assign def_part = site.data.shields.definitions
@@ -337,7 +337,7 @@ which go through the grade system as an extra step.
 
         {%- capture grade_bonus -%}
             {{- attr.name | markdownify | remove: "<p>" | remove: "</p>" | prepend: " " -}}
-            {{- GRADES_SEPERATOR -}}
+            {{- GRADES_SEPARATOR -}}
             <span class="{{- grade_stats.type | append: " " -}} per-grade">
                 {%- include grade.html grade_stats=grade_stats -%}
             </span><br>
@@ -347,9 +347,9 @@ which go through the grade system as an extra step.
     {%- endfor -%}
 
     {%- assign all_grade_bonuses = all_grade_bonuses | sort_natural -%}
-    {%- assign row = def_part.name | append: DEF_GRADES_SEPERATOR -%}
+    {%- assign row = def_part.name | append: DEF_GRADES_SEPARATOR -%}
     {%- for grade_bonus in all_grade_bonuses -%}
-        {%- assign grade_data = grade_bonus | split: GRADES_SEPERATOR | reverse | join: "" -%}
+        {%- assign grade_data = grade_bonus | split: GRADES_SEPARATOR | reverse | join: "" -%}
         {%- assign row = row | append: grade_data -%}
         {%- unless forloop.last -%}
             {%- assign row = row | append: "<br>" -%}
@@ -362,7 +362,7 @@ which go through the grade system as an extra step.
 {% assign activate_only_defs = activate_only_defs | sort_natural %}
 <div class="part-container">
     {%- for def in activate_only_defs -%}
-        {%- assign def_data = def | split: DEF_GRADES_SEPERATOR -%}
+        {%- assign def_data = def | split: DEF_GRADES_SEPARATOR -%}
         <div class="part-block">
             <h4>{{- def_data[0] -}}</h4>
             <div class="part-bonuses">{{- def_data[1] -}}</div>

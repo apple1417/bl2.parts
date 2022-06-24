@@ -1,5 +1,5 @@
 ---
-title: Shotgun Sight Zoom Comparsion
+title: Shotgun Sight Zoom Comparison
 layout: zoom
 sights:
   - name: 110 FOV

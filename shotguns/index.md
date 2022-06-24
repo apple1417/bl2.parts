@@ -47,7 +47,7 @@ barrel_overrides:
   bonus_block:
     - group_idx: 1
       overrides:
-        # Jakobs barrel has two seperate impulse grades, which we can combine into one
+        # Jakobs barrel has two separate impulse grades, which we can combine into one
         - idx: 2
           ignore: true
         - idx: 3
@@ -117,7 +117,7 @@ There are 7 non-unique barrels.
     padding: revert;
 }
 </style>
-{% include parts.html 
+{% include parts.html
     id="barrels_table"
     image_class="big"
     parts=site.data.shotguns.barrels
@@ -202,8 +202,8 @@ There are six non-unique element parts, one for each element, and one for no ele
 give any stat bonuses, good or bad. 
 
 ## Materials
-The material parts also have no model, instead defining the actual textures applied ontop of all the
-other models.
+The material parts also have no model, instead defining the actual textures applied on top of all
+the other models.
 
 There are 29 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
 combination. In Tina DLC, each manufacturer gets an additional gemstone material, and in TPS,
@@ -222,7 +222,7 @@ The Weapon Balance defines what parts a certain weapon can have. Balances themse
 stats, but are they very important for the actual generation of weapons.
 
 ## Weapon Type Definitions
-Like the name might suggest, the definition essentialy defines all the unique properties of each
+Like the name might suggest, the definition essentially defines all the unique properties of each
 weapon type. There is one definition per manufacturer.
 
 <style>

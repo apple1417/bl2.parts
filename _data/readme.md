@@ -20,7 +20,7 @@ Field | Usage
 `description` | A description of the attribute, and what happens when it gets more positive. Use the word "Multiplicatively" when an attribute has a base value of 1, and directly multiplies it's stat.
 `percent` | If to display simple addition bonuses as a percentage.
 `add_good` | If adding to the value gives a good outcome.
-`multi_good` | If multipling the value gives a good outcome.
+`multi_good` | If multiplying the value gives a good outcome.
 `invalid` | If this attribute definition is invalid, and doesn't even resolve to a field. Ignores all bonuses to this attribute.
 
 Attributes which resolve to a valid field but don't appear to do anything should still be defined normally, don't set invalid on them - it's always possible they actually do something minor, and mods can use them as input to something else.
@@ -116,7 +116,7 @@ As with formulas, all fields are optional, but at least one must exist.
 Field | Usage
 :---|:---
 `manu` | A string holding the manufacturer this bonus applies on. 
-`post_init` | If true, this bonus only applies after item initalization (and doesn't show on the item card).
+`post_init` | If true, this bonus only applies after item initialization (and doesn't show on the item card).
 `zoom` | If true, this bonus only applies while zoomed.
 
 ### Prefix Entries
@@ -131,7 +131,7 @@ Field | Usage
 `definitions` | An array of definitions. Note that there is generally also a part slot called `definitions`, but it contains the bonuses the definitions give, while this one contains what they defines.
 `grade_overrides` | A mapping of grade slot names to custom data which overwrites looking up the attribute in the definition.
 `meshes` | A mapping of mesh names to their display names and images.
-`standard_definition_idx` | An index into the definitions array to use as the "standard defintiion", used when converting grade bonuses.
+`standard_definition_idx` | An index into the definitions array to use as the "standard definition", used when converting grade bonuses.
 
 ### Grade Override Entries
 ```yml

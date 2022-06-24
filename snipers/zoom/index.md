@@ -1,5 +1,5 @@
 ---
-title: Sniper Sight Zoom Comparsion
+title: Sniper Sight Zoom Comparison
 layout: zoom
 sights:
   - name: 110 FOV
