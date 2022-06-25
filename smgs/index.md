@@ -26,6 +26,25 @@ barrel_overrides:
   - idx: 4
     footnote: same_etech_model
     image_src: /smgs/^images/barrels/etech_bandit.png
+
+bodies:
+  common_names:
+    - GD_Weap_SMG.Body.SMG_Body_Bandit
+    - GD_Weap_SMG.Body.SMG_Body_Dahl
+    - GD_Weap_SMG.Body.SMG_Body_Hyperion
+    - GD_Weap_SMG.Body.SMG_Body_Maliwan
+    - GD_Weap_SMG.Body.SMG_Body_Tediore
+  overrides:
+    - idx: 1
+      name: Bandit
+    - idx: 2
+      name: Dahl
+    - idx: 3
+      name: Hyperion
+    - idx: 4
+      name: Maliwan
+    - idx: 5
+      name: Tediore
 ---
 
 # SMG Parts Guide
@@ -83,4 +102,28 @@ There are 7 non-unique barrels.
 %}
 {% include footnote_end.html
     same_etech_model="These both use the same model, but (unsurprisingly) the Bandit version only spawns Bandit guns."
+%}
+
+## Bodies
+There are 20 non-unique bodies, one for each rarity-manufacturer combination. All bodies of the
+same rarity share the same stats.
+
+{% assign bodies = site.data.smgs.bodies
+                   | where_exp: "body", "page.bodies.common_names contains body._obj_name" %}
+{% include parts.html
+    parts=bodies
+    meta=site.data.smgs.meta
+    mesh_image=true
+    hide_bonuses=true
+    overrides=page.bodies.overrides
+%}
+
+{% include body_table.html 
+    body_list=site.data.smgs.bodies
+    meta=site.data.smgs.meta
+    common="GD_Weap_SMG.Body.SMG_Body_Bandit"
+    uncommon="GD_Weap_SMG.Body.SMG_Body_Bandit_VarA"
+    rare="GD_Weap_SMG.Body.SMG_Body_Bandit_VarB"
+    very_rare="GD_Weap_SMG.Body.SMG_Body_Bandit_VarC"
+    simple_bonuses=true
 %}
