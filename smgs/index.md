@@ -127,3 +127,13 @@ same rarity share the same stats.
     very_rare="GD_Weap_SMG.Body.SMG_Body_Bandit_VarC"
     simple_bonuses=true
 %}
+
+## Grips
+There are 5 non-unique grips.
+
+{% include parts.html 
+    parts=site.data.smgs.grips
+    meta=site.data.smgs.meta
+    mesh_image=true
+    simple_bonuses=true
+%}
