@@ -137,3 +137,17 @@ There are 5 non-unique grips.
     mesh_image=true
     simple_bonuses=true
 %}
+
+## Sights
+There are 6 non-unique sights, including a "no sight" part with no model. Some sight bonuses are
+only applied while aiming.
+
+{% include parts.html 
+    parts=site.data.smgs.sights
+    meta=site.data.smgs.meta
+    image_class="small"
+    mesh_image=true
+    simple_bonuses=true
+%}
+
+Click [here](/smgs/zoom/) for a comparison of the zoom level of each sight.
