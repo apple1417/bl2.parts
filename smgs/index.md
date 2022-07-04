@@ -160,3 +160,58 @@ There are 5 non-unique stocks.
     mesh_image=true
     simple_bonuses=true
 %}
+
+## Elements
+The element parts have no model, but instead add lights over the weapon in their relevant colours.
+There are six non-unique element parts, one for each element, and one for no element.
+
+{% include parts.html 
+    parts=site.data.smgs.elements
+    meta=site.data.smgs.meta
+    simple_bonuses=true
+%}
+
+## Materials
+The material parts also have no model, instead defining the actual textures applied on top of all
+the other models.
+
+There are 29 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
+combination. In Tina DLC, each manufacturer gets an additional gemstone material, and in TPS,
+Hyperion has an additional "Old Hyperion" material per rarity.
+
+Most materials provide no stat bonuses. The exceptions are listed below.
+{% assign bonus_materials = site.data.smgs.materials | where_exp: "part", "part.bonuses" %}
+{% include parts.html
+    parts=bonus_materials
+    meta=site.data.smgs.meta
+    simple_bonuses=true
+%}
+
+## Weapon Balances
+The Weapon Balance defines what parts a certain weapon can have. Balances themselves do not affect
+stats, but are they very important for the actual generation of weapons.
+
+## Weapon Type Definitions
+Like the name might suggest, the definition essentially defines all the unique properties of each
+weapon type. There are 5 non-unique definitions, one per manufacturer.
+
+{% include parts.html
+    parts=site.data.smgs.definitions
+    meta=site.data.smgs.meta
+    simple_bonuses=true
+%}
+
+Definitions are also very important if you're trying to calculate exact stats.
+
+<details>
+    <summary>Expand</summary>
+
+To start with, they define the base values used by all stats stored on the weapon.
+
+{% include definition_base_table.html meta=site.data.smgs.meta %}
+
+They also define all grade bonuses, and how exactly they get converted into standard bonuses.
+
+{% include definition_grade_table.html meta=site.data.smgs.meta %}
+
+</details>
