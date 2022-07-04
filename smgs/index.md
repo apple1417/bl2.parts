@@ -151,3 +151,12 @@ only applied while aiming.
 %}
 
 Click [here](/smgs/zoom/) for a comparison of the zoom level of each sight.
+
+## Stocks
+There are 5 non-unique stocks.
+{% include parts.html 
+    parts=site.data.smgs.stocks
+    meta=site.data.smgs.meta
+    mesh_image=true
+    simple_bonuses=true
+%}
