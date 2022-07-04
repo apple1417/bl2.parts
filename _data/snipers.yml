@@ -6,6 +6,7 @@ accessories:
     value: 0.5
   mesh: Acc_Barrel_Bayonet1
   name: Bayonet (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod1_Accuracy
   bonuses:
@@ -20,6 +21,7 @@ accessories:
     value: 5
   mesh: Acc_Barrel_Bipod
   name: Bipod 1 Accuracy (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod2_Critical
   bonuses:
@@ -37,6 +39,7 @@ accessories:
     value: 0.2
   mesh: Acc_Barrel_Bipod2
   name: Bipod 2 Crit (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Foregrip_Stability
   bonuses:
@@ -51,6 +54,7 @@ accessories:
     value: -5
   mesh: Acc_Barrel_ForeGrip
   name: Foregrip (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount1_Mag
   bonuses:
@@ -62,6 +66,7 @@ accessories:
     value: -3
   mesh: Acc_Scope_Mount1
   name: Mount 1 Mag (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount2_FireRate
   bonuses:
@@ -78,6 +83,7 @@ accessories:
     value: 2
   mesh: Acc_Scope_Mount2
   name: Mount 2 Firerate (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount3_Damage
   bonuses:
@@ -89,9 +95,11 @@ accessories:
     value: -6
   mesh: Acc_Scope_Mount3
   name: Mount 3 Damage (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Accessory.Sniperl_Accessory_None
   name: '"No Accessory" (Anemone)'
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Bayonet1
   bonuses:
@@ -113,6 +121,7 @@ accessories:
     restrict: Old Hyperion
   - name: Britva
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod1_Accuracy
   bonuses:
@@ -140,6 +149,7 @@ accessories:
     restrict: Old Hyperion
   - name: Zammechat
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Bipod2_Critical
   bonuses:
@@ -170,6 +180,7 @@ accessories:
     restrict: Old Hyperion
   - name: Razrez
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Foregrip_Stability
   bonuses:
@@ -197,6 +208,7 @@ accessories:
     restrict: Old Hyperion
   - name: Dobby
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount1_Mag
   bonuses:
@@ -221,6 +233,7 @@ accessories:
     restrict: Old Hyperion
   - name: Bolshy
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount2_FireRate
   bonuses:
@@ -250,6 +263,7 @@ accessories:
     restrict: Old Hyperion
   - name: Skorry
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniper_Accessory_Mount3_Damage
   bonuses:
@@ -274,9 +288,11 @@ accessories:
     restrict: Old Hyperion
   - name: Gromky
     restrict: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Accessory.Sniperl_Accessory_None
   name: '"No Accessory"'
+  rarity: 0
   unique: false
 barrels:
 - _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Dahl
@@ -317,6 +333,7 @@ barrels:
     value: 2
   mesh: SR_Barrel_Dahl
   name: Dahl (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion
   bonuses:
@@ -352,6 +369,7 @@ barrels:
     value: -0.15
   mesh: SR_Barrel_Hyperion
   name: Hyperion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Morde_Lt
   bonuses:
@@ -384,6 +402,7 @@ barrels:
     value: 100
   mesh: SR_Barrel_Hyperion
   name: 'Amigo Sincero '
+  rarity: 1
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs
   bonuses:
@@ -419,6 +438,7 @@ barrels:
     value: -0.15
   mesh: SR_Barrel_Jakobs
   name: Jakobs (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan
   bonuses:
@@ -453,6 +473,7 @@ barrels:
     value: -0.3
   mesh: SR_Barrel_Maliwan
   name: Maliwan (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Barrel.SR_Barrel_Vladof
   bonuses:
@@ -480,6 +501,7 @@ barrels:
     value: 4
   mesh: SR_Barrel_Vladof
   name: Vladof (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.sniper.SR_Barrel_Dahl_Chaude_Mama
   bonuses:
@@ -503,6 +525,7 @@ barrels:
     value: 7
   mesh: SR_Barrel_Dahl
   name: Hot Mama
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_WetWeek
   bonuses:
@@ -534,6 +557,7 @@ barrels:
     value: -5
   mesh: SR_Barrel_Dahl
   name: Wet Week
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Invader
   _original:
@@ -572,6 +596,7 @@ barrels:
     value: -7
   mesh: SR_Barrel_Hyperion
   name: Invader (TPS)
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Razorback
   bonuses:
@@ -598,6 +623,7 @@ barrels:
     value: 0.5
   mesh: SR_Barrel_Jakobs
   name: Razorback
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Skullmasher
   _original:
@@ -636,6 +662,7 @@ barrels:
     value: 1
   mesh: SR_Barrel_Jakobs
   name: Skullmasher (TPS)
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan_Magma
   bonuses:
@@ -660,6 +687,7 @@ barrels:
     value: -0.3
   mesh: SR_Barrel_Maliwan
   name: Magma
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Vladof_Longnail
   bonuses:
@@ -688,6 +716,7 @@ barrels:
     value: 100
   mesh: SR_Barrel_Vladof
   name: Longnail
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Barrel.SR_Barrel_Vladof_TheMachine
   bonuses:
@@ -721,6 +750,7 @@ barrels:
     value: 1
   mesh: SR_Barrel_Vladof
   name: The Machine
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.sniper.SR_Barrel_Maliwan_Storm
   bonuses:
@@ -746,6 +776,7 @@ barrels:
     value: -0.3
   mesh: SR_Barrel_Maliwan
   name: Storm
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_Weapons.SniperRifles.SR_Barrel_Dahl_Cobra
   bonuses:
@@ -766,6 +797,7 @@ barrels:
     value: 3
   mesh: SR_Barrel_Dahl
   name: Cobra
+  rarity: 0
   unique: true
 - _obj_name: GD_Lobelia_Weapons.sniper.SR_Barrel_Dahl_Godfinger
   bonuses:
@@ -791,6 +823,7 @@ barrels:
     value: -0.3
   mesh: SR_Barrel_Dahl
   name: Godfinger
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.SR_Barrel_Hyperion_5_OmniCannon
   bonuses:
@@ -836,6 +869,7 @@ barrels:
     value: -3
   mesh: SR_Barrel_Hyperion
   name: Omni-Cannon
+  rarity: 5
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.SniperRifles.SR_Barrel_Dahl_Pimpernel
   bonuses:
@@ -875,6 +909,7 @@ barrels:
     value: 2
   mesh: SR_Barrel_Dahl
   name: Pimpernel
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.sniper.Patriot.Orchid_Seraph_Patriot_Barrel
   bonuses:
@@ -904,6 +939,7 @@ barrels:
     value: 0.35
   mesh: SR_Barrel_Vladof
   name: Patriot
+  rarity: 497
   unique: true
 - _obj_name: GD_Petunia_Weapons.Snipers.SR_Barrel_Plunkett
   bonuses:
@@ -942,6 +978,7 @@ barrels:
     value: -0.15
   mesh: SR_Barrel_Jakobs
   name: Plunkett
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_RaidWeapons.sniper.Sniper_Barrel_HawkEye
   bonuses:
@@ -968,6 +1005,7 @@ barrels:
     value: 4.2
   mesh: SR_Barrel_Jakobs
   name: Hawk Eye
+  rarity: 497
   unique: true
 - _obj_name: GD_Sage_Weapons.SniperRifles.SR_Barrel_Hyperion_ElephantGun
   bonuses:
@@ -997,6 +1035,7 @@ barrels:
     value: -1
   mesh: SR_Barrel_Hyperion
   name: Elephant Gun
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Alien_Longbow
   bonuses:
@@ -1023,6 +1062,7 @@ barrels:
     value: 0.5
   mesh: SR_Barrel_Alien
   name: Longbow
+  rarity: 2
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Alien_RailGun
   bonuses:
@@ -1043,6 +1083,7 @@ barrels:
     value: -1
   mesh: SR_Barrel_Alien
   name: E-Tech
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl
   bonuses:
@@ -1082,6 +1123,7 @@ barrels:
     value: 2
   mesh: SR_Barrel_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_FremingtonsEdge
   bonuses:
@@ -1104,6 +1146,7 @@ barrels:
     value: 0.75
   mesh: SR_Barrel_Dahl
   name: Fremington's Edge
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_Pitchfork
   bonuses:
@@ -1144,6 +1187,7 @@ barrels:
     value: 1
   mesh: SR_Barrel_Dahl
   name: Pitchfork
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Dahl_Sloth
   bonuses:
@@ -1175,6 +1219,7 @@ barrels:
     value: -5
   mesh: SR_Barrel_Dahl
   name: Sloth
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion
   bonuses:
@@ -1210,6 +1255,7 @@ barrels:
     value: -0.15
   mesh: SR_Barrel_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_ChereAmie
   bonuses:
@@ -1236,6 +1282,7 @@ barrels:
     value: 0.02
   mesh: SR_Barrel_Hyperion
   name: Chère-amie
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Invader
   bonuses:
@@ -1271,6 +1318,7 @@ barrels:
     value: -7
   mesh: SR_Barrel_Hyperion
   name: Invader
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Hyperion_Tresspasser
   bonuses:
@@ -1300,6 +1348,7 @@ barrels:
     value: 100
   mesh: SR_Barrel_Hyperion
   name: Trespasser
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs
   bonuses:
@@ -1335,6 +1384,7 @@ barrels:
     value: -0.15
   mesh: SR_Barrel_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Buffalo
   bonuses:
@@ -1361,6 +1411,7 @@ barrels:
     value: 0.5
   mesh: SR_Barrel_Jakobs
   name: Buffalo
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Jakobs_Skullmasher
   bonuses:
@@ -1396,6 +1447,7 @@ barrels:
     value: 1
   mesh: SR_Barrel_Jakobs
   name: Skullmasher
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan
   bonuses:
@@ -1430,6 +1482,7 @@ barrels:
     value: -0.3
   mesh: SR_Barrel_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan_Morningstar
   bonuses:
@@ -1444,6 +1497,7 @@ barrels:
     value: 0.15
   mesh: SR_Barrel_Maliwan
   name: Morningstar
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Maliwan_Volcano
   bonuses:
@@ -1468,6 +1522,7 @@ barrels:
     value: -0.3
   mesh: SR_Barrel_Maliwan
   name: Volcano
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Vladof
   bonuses:
@@ -1495,6 +1550,7 @@ barrels:
     value: 4
   mesh: SR_Barrel_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Barrel.SR_Barrel_Vladof_Lyudmila
   bonuses:
@@ -1523,6 +1579,7 @@ barrels:
     value: 0.25
   mesh: SR_Barrel_Vladof
   name: Lyuda
+  rarity: 5
   unique: true
 bodies:
 - _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs
@@ -1535,6 +1592,7 @@ bodies:
     value: 0.15
   mesh: SR_Body_Jakobs
   name: Jakobs (Common, Anemone)
+  rarity: 1
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs_2
   bonuses:
@@ -1549,6 +1607,7 @@ bodies:
     value: 3
   mesh: SR_Body_Jakobs
   name: Jakobs (Uncommon, Anemone)
+  rarity: 2
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs_3
   bonuses:
@@ -1569,6 +1628,7 @@ bodies:
     value: 0.15
   mesh: SR_Body_Jakobs
   name: Jakobs (Rare, Anemone)
+  rarity: 3
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Body.SR_Body_Jakobs_4
   bonuses:
@@ -1583,6 +1643,7 @@ bodies:
     value: 7
   mesh: SR_Body_Jakobs
   name: Jakobs (Very Rare, Anemone)
+  rarity: 4
   unique: true
 - _obj_name: GD_Anemone_Weapons.sniper.SR_Body_Jakobs_6_Chaude_Mama
   bonuses:
@@ -1603,6 +1664,7 @@ bodies:
     value: 0.25
   mesh: SR_Body_Jakobs
   name: Hot Mama
+  rarity: 506
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.sniper.SR_Body_Maliwan_6_Storm
   bonuses:
@@ -1617,6 +1679,7 @@ bodies:
     value: 7
   mesh: SR_Body_Maliwan
   name: Storm
+  rarity: 500
   unique: true
 - _obj_name: GD_Lobelia_Weapons.sniper.SR_Body_Jakobs_6_GodFinger
   bonuses:
@@ -1637,6 +1700,7 @@ bodies:
     value: 0.15
   mesh: SR_Body_Jakobs
   name: Godfinger
+  rarity: 500
   unique: true
 - _obj_name: GD_Sage_Weapons.SniperRifles.SR_Body_Jakobs_ElephantGun
   bonuses:
@@ -1651,10 +1715,12 @@ bodies:
     value: 0.15
   mesh: SR_Body_Jakobs
   name: Elephant Gun
+  rarity: 3
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl
   mesh: SR_Body_Dahl
   name: Dahl (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl_2
   bonuses:
@@ -1669,6 +1735,7 @@ bodies:
     value: 3
   mesh: SR_Body_Dahl
   name: Dahl (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl_3
   bonuses:
@@ -1683,6 +1750,7 @@ bodies:
     value: 5
   mesh: SR_Body_Dahl
   name: Dahl (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Dahl_4
   bonuses:
@@ -1697,6 +1765,7 @@ bodies:
     value: 7
   mesh: SR_Body_Dahl
   name: Dahl (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Gearbox
   bonuses:
@@ -1708,10 +1777,12 @@ bodies:
     value: 0.2
   mesh: SR_Body_Jakobs
   name: Gearbox
+  rarity: 1
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion
   mesh: SR_Body_Hyperion
   name: Hyperion (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion_2
   bonuses:
@@ -1726,6 +1797,7 @@ bodies:
     value: 3
   mesh: SR_Body_Hyperion
   name: Hyperion (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion_3
   bonuses:
@@ -1740,6 +1812,7 @@ bodies:
     value: 5
   mesh: SR_Body_Hyperion
   name: Hyperion (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Hyperion_4
   bonuses:
@@ -1754,6 +1827,7 @@ bodies:
     value: 7
   mesh: SR_Body_Hyperion
   name: Hyperion (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs
   bonuses:
@@ -1765,6 +1839,7 @@ bodies:
     value: 0.15
   mesh: SR_Body_Jakobs
   name: Jakobs (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs_2
   bonuses:
@@ -1779,6 +1854,7 @@ bodies:
     value: 3
   mesh: SR_Body_Jakobs
   name: Jakobs (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs_3
   bonuses:
@@ -1799,6 +1875,7 @@ bodies:
     value: 0.15
   mesh: SR_Body_Jakobs
   name: Jakobs (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Jakobs_4
   bonuses:
@@ -1813,10 +1890,12 @@ bodies:
     value: 7
   mesh: SR_Body_Jakobs
   name: Jakobs (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan
   mesh: SR_Body_Maliwan
   name: Maliwan (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan_2
   bonuses:
@@ -1831,6 +1910,7 @@ bodies:
     value: 3
   mesh: SR_Body_Maliwan
   name: Maliwan (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan_3
   bonuses:
@@ -1845,6 +1925,7 @@ bodies:
     value: 5
   mesh: SR_Body_Maliwan
   name: Maliwan (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Maliwan_4
   bonuses:
@@ -1859,10 +1940,12 @@ bodies:
     value: 7
   mesh: SR_Body_Maliwan
   name: Maliwan (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof
   mesh: SR_Body_Vladof
   name: Vladof (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof_2
   bonuses:
@@ -1877,6 +1960,7 @@ bodies:
     value: 3
   mesh: SR_Body_Vladof
   name: Vladof (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof_3
   bonuses:
@@ -1891,6 +1975,7 @@ bodies:
     value: 5
   mesh: SR_Body_Vladof
   name: Vladof (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Body.SR_Body_Vladof_4
   bonuses:
@@ -1905,6 +1990,7 @@ bodies:
     value: 7
   mesh: SR_Body_Vladof
   name: Vladof (Very Rare)
+  rarity: 4
   unique: false
 definitions:
 - _obj_name: GD_Anemone_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
@@ -1932,6 +2018,7 @@ definitions:
     type: scale
     value: -1
   name: Hot Mama
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
   bonuses:
@@ -1959,6 +2046,7 @@ definitions:
     type: scale
     value: -1
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
   _original:
@@ -1998,6 +2086,7 @@ definitions:
     type: pre-add
     value: -5.5
   name: Hyperion (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
   _original:
@@ -2037,6 +2126,7 @@ definitions:
     type: pre-add
     value: -5.5
   name: Hyperion (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
   bonuses:
@@ -2063,6 +2153,7 @@ definitions:
     type: scale
     value: -1
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Maliwan_Sniper
   bonuses:
@@ -2086,6 +2177,7 @@ definitions:
     type: scale
     value: -1
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Vladof_Sniper
   bonuses:
@@ -2103,6 +2195,7 @@ definitions:
     type: scale
     value: -1
   name: Vladof
+  rarity: 0
   unique: false
 elements:
 - _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Corrosive
@@ -2112,6 +2205,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Corrosive
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Fire
   bonuses:
@@ -2120,6 +2214,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental1
   name: Fire
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Ice
   bonuses:
@@ -2128,9 +2223,11 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Cryo
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_None
   name: '"No Element"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Shock
   bonuses:
@@ -2139,6 +2236,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental2
   name: Shock
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.elemental.SR_Elemental_Slag
   bonuses:
@@ -2147,6 +2245,7 @@ elements:
     value: -0.2
   mesh: Acc_Barrel_Elemental3
   name: Slag
+  rarity: 0
   unique: false
 grips:
 - _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Dahl
@@ -2175,6 +2274,7 @@ grips:
     value: 3
   mesh: SR_Grip_Dahl
   name: Dahl (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Hyperion
   bonuses:
@@ -2199,6 +2299,7 @@ grips:
     value: 3
   mesh: SR_Grip_Hyperion
   name: Hyperion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Jakobs
   bonuses:
@@ -2231,6 +2332,7 @@ grips:
     value: 1
   mesh: SR_Grip_Jakobs
   name: Jakobs (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Maliwan
   bonuses:
@@ -2249,6 +2351,7 @@ grips:
     value: 3
   mesh: SR_Grip_Maliwan
   name: Maliwan (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Grip.SR_Grip_Vladof
   bonuses:
@@ -2278,6 +2381,7 @@ grips:
     value: 3
   mesh: SR_Grip_Vladof
   name: Vladof (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Grip.SR_Grip_Vladof_TheMachine
   bonuses:
@@ -2307,6 +2411,7 @@ grips:
     value: 6
   mesh: SR_Grip_Vladof
   name: The Machine
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Dahl
   bonuses:
@@ -2334,6 +2439,7 @@ grips:
     value: 3
   mesh: SR_Grip_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Hyperion
   bonuses:
@@ -2358,6 +2464,7 @@ grips:
     value: 3
   mesh: SR_Grip_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Jakobs
   bonuses:
@@ -2390,6 +2497,7 @@ grips:
     value: 1
   mesh: SR_Grip_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Maliwan
   bonuses:
@@ -2408,6 +2516,7 @@ grips:
     value: 3
   mesh: SR_Grip_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Grip.SR_Grip_Vladof
   bonuses:
@@ -2437,22 +2546,28 @@ grips:
     value: 3
   mesh: SR_Grip_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 materials:
 - _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_1
   name: Jakobs (Common, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_2
   name: Jakobs (Uncommon, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3
   name: Jakobs (Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_4
   name: Jakobs (Very Rare, Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Godfinger
   name: Hot Mama
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_SR
   bonuses:
@@ -2469,6 +2584,7 @@ materials:
     type: post-add
     value: -0.3
   name: Emerald
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Hyperion_4_Diamond_SR
   bonuses:
@@ -2485,6 +2601,7 @@ materials:
     type: post-add
     value: -0.3
   name: Diamond
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Jakobs_4_Citrine_SR
   bonuses:
@@ -2501,6 +2618,7 @@ materials:
     type: post-add
     value: -0.3
   name: Citrine
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Malwan_4_Aquamarine_SR
   bonuses:
@@ -2517,6 +2635,7 @@ materials:
     type: post-add
     value: -0.3
   name: Aquamarine
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Vladof_4_Garnet_SR
   bonuses:
@@ -2533,147 +2652,195 @@ materials:
     type: post-add
     value: -0.3
   name: Garnet
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_3_WetWeek
   name: Wet Week
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3_Razorback
   name: Razorback
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_3_TheMachine
   name: The Machine
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_5_Legendary_Longnail
   name: Longnail
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Maliwan_6_Storm
   name: Storm
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_Weapons.ManufacturerMaterials.Material_Jakobs_2_Cobra
   name: Cobra
+  rarity: 0
   unique: true
 - _obj_name: GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Godfinger
   name: Godfinger
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Dahl_6_Glitch
   name: Dahl (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Hyperion_6_Glitch
   name: Hyperion (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Jakobs_6_Glitch
   name: Jakobs (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Maliwan_6_Glitch
   name: Maliwan (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Old_Hyperion_5_OmniCannon
   name: Omni-Cannon
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Sniper_Vladof_6_Glitch
   name: Vladof (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Maliwan_3_Pimpernel
   name: Pimpernel
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Material_Vladof_1_Patriot
   name: Patriot
+  rarity: 0
   unique: true
 - _obj_name: GD_Petunia_Weapons.ManufacturerMaterials.sniper.Mat_Jakobs_3_Plunkett
   name: Plunkett
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_RaidWeapons.ManufacturerMaterials.Material_Jakobs_1_HawkEye
   name: Hawk Eye
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Material_Jakobs_2_ElephantGun
   name: Elephant Gun
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Mat_Gearbox_1
   name: Gearbox (Common)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_1
   name: Dahl (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_2
   name: Dahl (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_3
   name: Dahl (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_3_Sloth
   name: Sloth
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_4
   name: Dahl (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Dahl_5_Legendary
   name: Pitchfork
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_1
   name: Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_2
   name: Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3
   name: Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3_FremingtonsEdge
   name: Fremington's Edge
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3_Longbow
   name: Longbow
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_3_Morningstar
   name: Morningstar
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_4
   name: Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Hyperion_5_Legendary
   name: Invader
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_1
   name: Jakobs (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_2
   name: Jakobs (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3
   name: Jakobs (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3_Buffalo
   name: Buffalo
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_3_Trespasser
   name: Trespasser
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_4
   name: Jakobs (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Jakobs_5_Legendary
   name: Skullmasher
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_1
   name: Maliwan (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_2
   name: Maliwan (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_3
   name: Maliwan (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_3_ChereAmie
   name: Chère-amie
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_4
   name: Maliwan (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_5_Legendary
   name: Volcano
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Maliwan_5_Legendary
   name: Magma
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_1
   bonuses:
@@ -2690,6 +2857,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_2
   bonuses:
@@ -2706,6 +2874,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_3
   bonuses:
@@ -2722,6 +2891,7 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Old_Hyperion_4
   bonuses:
@@ -2738,21 +2908,27 @@ materials:
     type: scale
     value: -0.1
   name: Old Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_1
   name: Vladof (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_2
   name: Vladof (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_3
   name: Vladof (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_4
   name: Vladof (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.ManufacturerMaterials.Material_Vladof_5_Legendary
   name: Lyuda
+  rarity: 0
   unique: true
 sights:
 - _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Dahl
@@ -2772,6 +2948,7 @@ sights:
     value: -2
   mesh: SR_Scope_Dahl
   name: Dahl (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Hyperion
   bonuses:
@@ -2790,6 +2967,7 @@ sights:
     value: -2
   mesh: SR_Scope_Hyperion
   name: Hyperion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Jakobs
   bonuses:
@@ -2808,6 +2986,7 @@ sights:
     value: -2
   mesh: SR_Scope_Jakobs
   name: Jakobs (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Maliwan
   bonuses:
@@ -2826,6 +3005,7 @@ sights:
     value: -2
   mesh: SR_Scope_Maliwan
   name: Maliwan (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Sight.Sniper_Sight_Vladof
   bonuses:
@@ -2844,6 +3024,7 @@ sights:
     value: -2
   mesh: SR_Scope_Vladof
   name: Vladof (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_SniperRifles.Sight.Sniper_Sight_None_Razorback
   bonuses:
@@ -2856,6 +3037,7 @@ sights:
     type: scale
     value: -1
   name: Razorback
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Dahl
   bonuses:
@@ -2874,6 +3056,7 @@ sights:
     value: -2
   mesh: SR_Scope_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Hyperion
   bonuses:
@@ -2892,6 +3075,7 @@ sights:
     value: -2
   mesh: SR_Scope_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Hyperion_FremingtonsEdge
   bonuses:
@@ -2910,6 +3094,7 @@ sights:
     value: -3
   mesh: SR_Scope_Hyperion
   name: Fremington's Edge
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Jakobs
   bonuses:
@@ -2928,6 +3113,7 @@ sights:
     value: -2
   mesh: SR_Scope_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Maliwan
   bonuses:
@@ -2946,6 +3132,7 @@ sights:
     value: -2
   mesh: SR_Scope_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_None_Buffalo
   bonuses:
@@ -2958,6 +3145,7 @@ sights:
     type: scale
     value: -1
   name: Buffalo
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_None_Longbow
   bonuses:
@@ -2970,6 +3158,7 @@ sights:
     type: scale
     value: -1
   name: Longbow
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Sight.Sniper_Sight_Vladof
   bonuses:
@@ -2988,6 +3177,7 @@ sights:
     value: -2
   mesh: SR_Scope_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 stocks:
 - _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Dahl
@@ -3012,6 +3202,7 @@ stocks:
     value: 1
   mesh: SR_Stock_Dahl
   name: Dahl (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Hyperion
   bonuses:
@@ -3023,6 +3214,7 @@ stocks:
     value: 4
   mesh: SR_Stock_Hyperion
   name: Hyperion (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Jakobs
   bonuses:
@@ -3040,6 +3232,7 @@ stocks:
     value: -2
   mesh: SR_Stock_Jakobs
   name: Jakobs (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Maliwan
   bonuses:
@@ -3051,6 +3244,7 @@ stocks:
     value: 2
   mesh: SR_Stock_Maliwan
   name: Maliwan (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Vladof
   bonuses:
@@ -3062,6 +3256,7 @@ stocks:
     value: -5
   mesh: SR_Stock_Vladof
   name: Vladof (Anemone)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Dahl
   bonuses:
@@ -3085,6 +3280,7 @@ stocks:
     value: 1
   mesh: SR_Stock_Dahl
   name: Dahl
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Hyperion
   bonuses:
@@ -3096,6 +3292,7 @@ stocks:
     value: 4
   mesh: SR_Stock_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Jakobs
   bonuses:
@@ -3113,6 +3310,7 @@ stocks:
     value: -2
   mesh: SR_Stock_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Maliwan
   bonuses:
@@ -3124,6 +3322,7 @@ stocks:
     value: 2
   mesh: SR_Stock_Maliwan
   name: Maliwan
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_SniperRifles.Stock.SR_Stock_Vladof
   bonuses:
@@ -3135,29 +3334,32 @@ stocks:
     value: -5
   mesh: SR_Stock_Vladof
   name: Vladof
+  rarity: 0
   unique: false
 meta:
   definitions:
   - _obj_name: GD_Anemone_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.3
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 9
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.15
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 32
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 32
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 32
       value_formula:
@@ -3228,24 +3430,26 @@ meta:
     unique: true
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Dahl_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.15
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 7
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0.1
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 36
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.15
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 36
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 25.6
       value_formula:
@@ -3316,24 +3520,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Hyperion_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
       value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: -3.5
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 30
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -3.5
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 30
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 29.6
       value_formula:
@@ -3404,24 +3610,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.3
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 9
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.15
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 32
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 32
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 32
       value_formula:
@@ -3492,24 +3700,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Maliwan_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.7
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 34
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.7
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 34
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 26.4
       value_formula:
@@ -3580,24 +3790,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_SniperRifles.A_Weapons.WeaponType_Vladof_Sniper
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.25
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 8
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 4
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 38
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.25
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 38
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 24
       value_formula:
@@ -3766,11 +3978,10 @@ meta:
     SR_Stock_Vladof:
       name: Vladof
       src: /snipers/^images/stocks/vladof.png
-    # Cheating a bit to hide these
     Acc_Barrel_Elemental1:
-      name: "No"
+      invalid: true
     Acc_Barrel_Elemental2:
-      name: "No"
+      invalid: true
     Acc_Barrel_Elemental3:
-      name: "No"
+      invalid: true
   standard_definition_idx: 2

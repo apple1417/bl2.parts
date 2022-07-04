@@ -64,14 +64,16 @@ Each override entry can have the following fields:
                 {%- endif -%}
             </h4>
 
+            {%- assign mesh_name = "No Mesh" -%}
             {%- assign mesh = include.meta.meshes | map: part.mesh | first -%}
             {%- if mesh -%}
-                {%- assign mesh_name = mesh.name | append: " Mesh" -%}
+                {%- unless mesh.invalid -%}
+                    {%- assign mesh_name = mesh.name | append: " Mesh" -%}
+                {%- endunless -%}
             {%- elsif part.mesh -%}
                 {%- assign mesh_name = part.mesh | append: " Mesh" -%}
-            {%- else -%}
-                {%- assign mesh_name = "No Mesh" -%}
             {%- endif -%}
+
             {%- if include.mesh_image -%}
                 {%- if overrides.image_src -%}
                     <img class="{{- include.image_class -}}"

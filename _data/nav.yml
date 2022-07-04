@@ -9,7 +9,7 @@ parts:
     sub:
       - title: Full Parts Reference
         url: /pistols/all_parts/
-      - title: Zoom Comparsion
+      - title: Zoom Comparison
         url: /pistols/zoom/
   - title: Shields
     url: /shields/
@@ -21,14 +21,21 @@ parts:
     sub:
       - title: Full Parts Reference
         url: /shotguns/all_parts/
-      - title: Zoom Comparsion
+      - title: Zoom Comparison
         url: /shotguns/zoom/
+  - title: SMGs
+    url: /smgs/
+    sub:
+      - title: Full Parts Reference
+        url: /smgs/all_parts/
+      - title: Zoom Comparison
+        url: /smgs/zoom/
   - title: Snipers
     url: /snipers/
     sub:
       - title: Full Parts Reference
         url: /snipers/all_parts/
-      - title: Zoom Comparsion
+      - title: Zoom Comparison
         url: /snipers/zoom/
 misc:
   - title: Attribute Reference

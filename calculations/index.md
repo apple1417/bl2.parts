@@ -10,7 +10,7 @@ your items from scratch.
 Firstly, one of the most important formulas to know is the Base Scaling Formula. A lot of stats get
 bigger as you level up, all of these are eventually based on some multiple of this formula.
 
-For convience, other pages refer to this formula by &beta;.
+For convenience, other pages refer to this formula by &beta;.
 
 <style>
 #base_scaling_table mjx-container {
@@ -95,23 +95,23 @@ Once you've gathered all the bonuses and put them, through this formula, you hav
 final value. Note that some stats are comprised of multiple attributes, this is not always the final
 value of the stat your interested in.
 
-## Base Value Recompution
-So with the above knowlege, you should be able to correctly calculate item stats from their parts.
+## Base Value Recomputation
+So with the above knowledge, you should be able to correctly calculate item stats from their parts.
 If you try including other bonuses, from skills or other items, you might have noticed you start
 having issues. This is because the game actually changes the base value of all stats stored on the
-item during initalization.
+item during initialization.
 
-At the start of item initalization, each attribute has it's regular base value, which you can find
+At the start of item initialization, each attribute has it's regular base value, which you can find
 listed in each of the part guides. The game then applies all bonuses from the parts, finding the
-value that displays on the item card. Near the end of initalization, it recomputes the base values
+value that displays on the item card. Near the end of initialization, it recomputes the base values
 of these stats. It grabs the calculated final value, sets the base value to it, and removes all the
-part bonuses so they don't apply twice. Any bonus applied after item initalization will work off of
+part bonuses so they don't apply twice. Any bonus applied after item initialization will work off of
 this new base value instead.
 
 ### Fibber Example
 The Fibber is a great example of how this works. The barrel gives many large bonuses, which are
 incorporated into the new base value that is shown on the card. A BPD then enables extra bonuses
-after item initalization to give it it's actual stats.
+after item initialization to give it it's actual stats.
 
 To make things easy in this example, we'll look at the mag size on a Crit Fibber, with Maliwan grip
 and no accessory. In game this gives 1970 mag size on the card, but 15 in reality.
@@ -121,7 +121,7 @@ The relevant values here are:
 - Mag size grades on Hyperion Pistols are *0 +0.07*{:.scale.per-grade}
 - Blue Hyperion Body gives *+5*{:.grade}
 - The Crit Fibber's Barrel gives *+130*{:.scale}
-- The Crit Fibber's BPD gives *-128*{:.scale}, which is applied after initalization
+- The Crit Fibber's BPD gives *-128*{:.scale}, which is applied after initialization
 - Mag size is stored as an integer, so decimals are truncated.
 
 Using these numbers we can calculate both values we observed earlier as follows:

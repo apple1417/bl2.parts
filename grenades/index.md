@@ -142,7 +142,7 @@ These child count bonuses only apply if the payload actually supports child gren
 have no effect.
 
 ## Deliveries
-There are 7 non-unique delivieries. The delivery changes how your grenade is thrown.
+There are 7 non-unique deliveries. The delivery changes how your grenade is thrown.
 
 {% include parts.html 
     parts=site.data.grenades.beta
@@ -226,7 +226,7 @@ There are 8 non-unique damage parts.
 %}
 
 ## Payloads
-The payload controls what exactly happens when a grenade expodes. Most unique grenades use unique
+The payload controls what exactly happens when a grenade explodes. Most unique grenades use unique
 payloads to implement their behaviour. Payloads also determine if child grenades are supported -
 even with several bonuses, none will spawn if the payload is incorrect.
 
@@ -253,7 +253,7 @@ The Inventory Balance defines what parts a certain item can have. Balances thems
 stats, but are they very important for the actual generation of items.
 
 ## Grenade Definitions
-Like the name might suggest, the definition essentialy defines all the unique properties of each
+Like the name might suggest, the definition essentially defines all the unique properties of each
 grenade type. There is one standard definition used by all non-unique grenades, while most unique
 grenades use their own unique definition.
 
@@ -268,7 +268,7 @@ weapons, this is simply done using regular *pre-add*{:.pre-add} bonuses, so see 
 [full parts reference](/grenades/all_parts/#definitions) for details.
 
 They also define all grade bonuses, and how exactly they get converted into standard bonuses.
-Definitions do not neccessarily define all grade slots, if a slot's undefined then no grade bonuses
+Definitions do not necessarily define all grade slots, if a slot's undefined then no grade bonuses
 will be applied to it.
 
 {% comment %}
@@ -281,7 +281,7 @@ can just put that once in a level above it.
 We also want one definition per row, rather than per column, cause otherwise the table ends up 3x
 wider than the rest of the page.
 
-With the table transposed, we also don't really care about merging identical cells anymore.
+With the table transposed, we also don't really care about merging identical cells any more.
 {% endcomment %}
 <style>
     #grades {

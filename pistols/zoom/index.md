@@ -1,5 +1,5 @@
 ---
-title: Pistol Sight Zoom Comparsion
+title: Pistol Sight Zoom Comparison
 layout: zoom
 sights:
   - name: 110 FOV

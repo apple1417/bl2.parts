@@ -77,4 +77,4 @@ The same logic holds for accuracy regen.
 Sometimes Gearbox gives a part Hyperion manufacturer bonuses to invert the intended bonus properly, but sometimes they forget and it actually has the opposite effect.
 {% comment %} TODO: are there actually examples where they forgot? {% endcomment %}
 
-It would theoretically be possible for various bonuses combined to push the impulse accuracy or accuracy regen back past 0, removing Hyperion's special behavior, but in practice this never happens.
+It would theoretically be possible for various bonuses combined to push the impulse accuracy or accuracy regen back past 0, removing Hyperion's special behaviour, but in practice this never happens.

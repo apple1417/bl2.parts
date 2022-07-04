@@ -27,6 +27,7 @@ accessories:
     value: 2
   mesh: Acc_VerticalGrip
   name: Vertical Grip (Carnage)
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Bayonet_1
   bonuses:
@@ -44,6 +45,7 @@ accessories:
     restrict: Old Hyperion
   - name: Swiss
     restrict: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Bayonet_2
   bonuses:
@@ -59,6 +61,7 @@ accessories:
     restrict: Scav
   - name: Bad Touch
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_MoonClip
   bonuses:
@@ -85,9 +88,11 @@ accessories:
     restrict: Tediore
   - name: Desperate
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_None
   name: '"No Accessory"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_ShotgunShell
   bonuses:
@@ -120,6 +125,7 @@ accessories:
     restrict: Tediore
   - name: Sinewy
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Tech_1
   bonuses:
@@ -152,6 +158,7 @@ accessories:
     restrict: Tediore
   - name: Potent
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Tech_2
   bonuses:
@@ -181,6 +188,7 @@ accessories:
     restrict: Tediore
   - name: Juicy
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_Tech_3
   bonuses:
@@ -213,6 +221,7 @@ accessories:
     restrict: Tediore
   - name: Impetuous
     restrict: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Accessory.SG_Accessory_VerticalGrip
   bonuses:
@@ -248,6 +257,7 @@ accessories:
     restrict: Tediore
   - name: Casual
     restrict: Torgue
+  rarity: 0
   unique: false
 barrels:
 - _obj_name: GD_Anemone_Weapons.Shotgun.Overcompensator.SG_Barrel_Torgue_Overcompensator
@@ -269,6 +279,7 @@ barrels:
     value: -0.12
   mesh: SG_Barrel_Torgue
   name: Overcompensator
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.Shotguns.SG_Barrel_Alien_Swordsplosion
   bonuses:
@@ -298,6 +309,7 @@ barrels:
     value: -4
   mesh: SG_Barrel_Alien
   name: Unicornsplosion
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_RaidWeapons.Shotguns.SG_Barrel_Alien_Omen
   bonuses:
@@ -309,6 +321,7 @@ barrels:
     value: 0.8
   mesh: SG_Barrel_Alien
   name: Omen
+  rarity: 497
   unique: true
 - _obj_name: GD_Aster_Weapons.Shotguns.SG_Barrel_Alien_Swordsplosion
   bonuses:
@@ -338,6 +351,7 @@ barrels:
     value: -4
   mesh: SG_Barrel_Alien
   name: Swordsplosion
+  rarity: 2
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Bandit_Boganella
   bonuses:
@@ -380,6 +394,7 @@ barrels:
     value: -0.2
   mesh: SG_Barrel_Bandit
   name: Boganella
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Bandit_Torgemada
   bonuses:
@@ -412,6 +427,7 @@ barrels:
     value: -0.3
   mesh: SG_Barrel_Bandit
   name: Torgemada
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_Bullpup
   bonuses:
@@ -453,6 +469,7 @@ barrels:
     value: -0.25
   mesh: SG_Barrel_Hyperion
   name: Bullpup
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_ConferenceCall
   bonuses:
@@ -492,6 +509,7 @@ barrels:
     value: -0.5
   mesh: SG_Barrel_Hyperion
   name: Viral Marketer
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_Striker
   _original:
@@ -521,6 +539,7 @@ barrels:
     value: 0.5
   mesh: SG_Barrel_Hyperion
   name: Striker (TPS)
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Boomacorn
   bonuses:
@@ -568,6 +587,7 @@ barrels:
     value: -0.7
   mesh: SG_Barrel_Jakobs
   name: Boomacorn
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Sledges
   _original:
@@ -603,6 +623,7 @@ barrels:
     value: -10
   mesh: SG_Barrel_Jakobs
   name: Sledge's Shotgun (TPS)
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_TooScoops
   bonuses:
@@ -650,6 +671,7 @@ barrels:
     value: -0.15
   mesh: SG_Barrel_Jakobs
   name: Too Scoops
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Wombat
   bonuses:
@@ -676,6 +698,7 @@ barrels:
     value: 1.3
   mesh: SG_Barrel_Jakobs
   name: Wombat
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Torgue_JackOCannon
   bonuses:
@@ -721,6 +744,7 @@ barrels:
     value: -2
   mesh: SG_Barrel_Torgue
   name: Jack-o'-Cannon
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Moonface
   bonuses:
@@ -744,6 +768,7 @@ barrels:
     value: 5
   mesh: SG_Barrel_Torgue
   name: Moonface
+  rarity: 0
   unique: true
 - _obj_name: GD_Cypressure_Weapons.A_Weapons_Unique.SG_Barrel_Hyperion_CompanyMan
   bonuses:
@@ -773,6 +798,7 @@ barrels:
     value: 18
   mesh: SG_Barrel_Hyperion
   name: Company Man
+  rarity: 0
   unique: true
 - _obj_name: GD_Cypressure_Weapons.A_Weapons_Unique.SG_Barrel_Jakobs_Landscaper2
   bonuses:
@@ -799,6 +825,7 @@ barrels:
     value: 0.7
   mesh: SG_Barrel_Jakobs
   name: Moonscaper
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Shotgun.SG_Barrel_Torgue_Butcher
   bonuses:
@@ -819,6 +846,7 @@ barrels:
     value: -0.12
   mesh: SG_Barrel_Torgue
   name: Butcher
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_Weapons.Shotguns.SG_Barrel_Alien_SlowHand
   bonuses:
@@ -851,6 +879,7 @@ barrels:
     value: 0.035
   mesh: SG_Barrel_Alien
   name: Slow Hand
+  rarity: 2
   unique: true
 - _obj_name: GD_Lobelia_Weapons.Shotguns.SG_Barrel_Torgue_Carnage
   bonuses:
@@ -880,6 +909,7 @@ barrels:
     value: 10
   mesh: SG_Barrel_Torgue
   name: Carnage
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Barrel.SG_Barrel_Jakobs_5_Flayer
   bonuses:
@@ -932,6 +962,7 @@ barrels:
     value: 4
   mesh: SG_Barrel_Jakobs
   name: Flayer
+  rarity: 5
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.Shotgun.SG_Barrel_Bandit_JollyRoger
   bonuses:
@@ -958,6 +989,7 @@ barrels:
     value: -2
   mesh: SG_Barrel_Bandit
   name: Jolly Roger
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.Shotgun.SG_Barrel_Jakobs_OrphanMaker
   bonuses:
@@ -987,6 +1019,7 @@ barrels:
     value: 8.5
   mesh: SG_Barrel_Jakobs
   name: Orphan Maker
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.Shotgun.Spitter.Orchid_Seraph_Spitter_Barrel
   bonuses:
@@ -1016,6 +1049,7 @@ barrels:
     value: 0.35
   mesh: SG_Barrel_Alien
   name: Retcher
+  rarity: 497
   unique: true
 - _obj_name: GD_Sage_RaidWeapons.Shotgun.SG_Barrel_Interfacer
   bonuses:
@@ -1048,6 +1082,7 @@ barrels:
     value: 0.6
   mesh: SG_Barrel_Hyperion
   name: Interfacer
+  rarity: 497
   unique: true
 - _obj_name: GD_Sage_Weapons.Shotgun.SG_Barrel_Bandit_Hydra
   bonuses:
@@ -1080,6 +1115,7 @@ barrels:
     value: 0.5
   mesh: SG_Barrel_Bandit
   name: Hydra
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Weapons.Shotgun.SG_Barrel_Torgue_Twister
   bonuses:
@@ -1109,6 +1145,7 @@ barrels:
     value: 2
   mesh: SG_Barrel_Torgue
   name: Twister
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Alien
   bonuses:
@@ -1155,6 +1192,7 @@ barrels:
     value: 2
   mesh: SG_Barrel_Alien
   name: E-Tech
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Alien_Hyperion
   bonuses:
@@ -1190,6 +1228,7 @@ barrels:
     value: -0.5
   mesh: SG_Barrel_Alien
   name: E-Tech (Hyperion)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Bandit
   bonuses:
@@ -1229,6 +1268,7 @@ barrels:
     value: -0.2
   mesh: SG_Barrel_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Bandit_Dog
   bonuses:
@@ -1271,6 +1311,7 @@ barrels:
     value: -0.2
   mesh: SG_Barrel_Bandit
   name: Dog
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Bandit_Triquetra
   bonuses:
@@ -1300,6 +1341,7 @@ barrels:
     value: -2
   mesh: SG_Barrel_Bandit
   name: Triquetra
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion
   bonuses:
@@ -1340,6 +1382,7 @@ barrels:
     value: -0.15
   mesh: SG_Barrel_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_ConferenceCall
   bonuses:
@@ -1367,6 +1410,7 @@ barrels:
     value: -0.15
   mesh: SG_Barrel_Hyperion
   name: Conference Call
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_HeartBreaker
   bonuses:
@@ -1396,6 +1440,7 @@ barrels:
     value: 0.02
   mesh: SG_Barrel_Hyperion
   name: Heart Breaker
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Hyperion_Striker
   _original:
@@ -1425,6 +1470,7 @@ barrels:
     value: 0.5
   mesh: SG_Barrel_Hyperion
   name: Striker (BL2)
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs
   bonuses:
@@ -1474,6 +1520,7 @@ barrels:
     value: -0.15
   mesh: SG_Barrel_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Landscaper
   bonuses:
@@ -1503,6 +1550,7 @@ barrels:
     value: 1.3
   mesh: SG_Barrel_Jakobs
   name: Landscaper
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_RockSalt
   bonuses:
@@ -1535,6 +1583,7 @@ barrels:
     value: 5
   mesh: SG_Barrel_Jakobs
   name: RokSalt
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Sledges
   _original:
@@ -1570,6 +1619,7 @@ barrels:
     value: -6
   mesh: SG_Barrel_Jakobs
   name: Sledge's Shotgun (BL2)
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_TidalWave
   bonuses:
@@ -1619,10 +1669,12 @@ barrels:
     value: -0.15
   mesh: SG_Barrel_Jakobs
   name: Tidal Wave
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Tediore
   mesh: SG_Barrel_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Tediore_Blockhead
   bonuses:
@@ -1631,10 +1683,12 @@ barrels:
     value: 3
   mesh: SG_Barrel_Tediore
   name: Blockhead
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Tediore_Deliverance
   mesh: SG_Barrel_Tediore
   name: Deliverance
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Tediore_Octo
   bonuses:
@@ -1646,6 +1700,7 @@ barrels:
     value: -5.7
   mesh: SG_Barrel_Tediore
   name: Octo
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Tediore_Shotgun1340
   bonuses:
@@ -1654,6 +1709,7 @@ barrels:
     value: 5
   mesh: SG_Barrel_Tediore
   name: Shotgun 1340
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue
   bonuses:
@@ -1693,6 +1749,7 @@ barrels:
     value: 0.2
   mesh: SG_Barrel_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker
   bonuses:
@@ -1725,6 +1782,7 @@ barrels:
     value: 1
   mesh: SG_Barrel_Torgue
   name: Flakker
+  rarity: 5
   unique: true
 - _obj_name: GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Teeth
   bonuses:
@@ -1748,6 +1806,7 @@ barrels:
     value: 0.4
   mesh: SG_Barrel_Torgue
   name: Teeth of Terramorphous
+  rarity: 0
   unique: true
 bodies:
 - _obj_name: GD_Anemone_Weapons.Body.SG_Body_Torgue_7
@@ -1763,6 +1822,7 @@ bodies:
     value: 7
   mesh: SG_Body_Torgue
   name: Unicornsplosion
+  rarity: 506
   unique: true
 - _obj_name: GD_Anemone_Weapons.Shotgun.Overcompensator.SG_Body_Hyperion_Overcompensator
   bonuses:
@@ -1777,6 +1837,7 @@ bodies:
     value: 7
   mesh: SG_Body_Hyperion
   name: Overcompensator
+  rarity: 5
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Body.SG_Body_Jakobs_3_Moonface
   bonuses:
@@ -1791,14 +1852,17 @@ bodies:
     value: 5
   mesh: SG_Body_Jakobs
   name: Moonface
+  rarity: 3
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Body.SG_Body_Jakobs_Boomacorn
   mesh: SG_Body_Jakobs
   name: Boomacorn
+  rarity: 3
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Body.SG_Body_Jakobs_TooScoops
   mesh: SG_Body_Jakobs
   name: Too Scoops
+  rarity: 3
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.Shotgun.SG_Body_Hyperion_6
   bonuses:
@@ -1813,6 +1877,7 @@ bodies:
     value: 7
   mesh: SG_Body_Hyperion
   name: Butcher
+  rarity: 500
   unique: true
 - _obj_name: GD_Lobelia_Weapons.Shotguns.SG_Body_Torgue_6_Carnage
   bonuses:
@@ -1827,10 +1892,12 @@ bodies:
     value: 7
   mesh: SG_Body_Torgue
   name: Carnage
+  rarity: 500
   unique: true
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Bandit
   mesh: SG_Body_Bandit
   name: Bandit (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Bandit_2
   bonuses:
@@ -1845,6 +1912,7 @@ bodies:
     value: 3
   mesh: SG_Body_Bandit
   name: Bandit (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Bandit_3
   bonuses:
@@ -1859,6 +1927,7 @@ bodies:
     value: 5
   mesh: SG_Body_Bandit
   name: Bandit (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Bandit_4
   bonuses:
@@ -1873,10 +1942,12 @@ bodies:
     value: 7
   mesh: SG_Body_Bandit
   name: Bandit (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Hyperion
   mesh: SG_Body_Hyperion
   name: Hyperion (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Hyperion_2
   bonuses:
@@ -1891,6 +1962,7 @@ bodies:
     value: 3
   mesh: SG_Body_Hyperion
   name: Hyperion (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Hyperion_3
   bonuses:
@@ -1905,6 +1977,7 @@ bodies:
     value: 5
   mesh: SG_Body_Hyperion
   name: Hyperion (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Hyperion_4
   bonuses:
@@ -1919,10 +1992,12 @@ bodies:
     value: 7
   mesh: SG_Body_Hyperion
   name: Hyperion (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Jakobs
   mesh: SG_Body_Jakobs
   name: Jakobs (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Jakobs_2
   bonuses:
@@ -1937,6 +2012,7 @@ bodies:
     value: 3
   mesh: SG_Body_Jakobs
   name: Jakobs (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Jakobs_3
   bonuses:
@@ -1951,6 +2027,7 @@ bodies:
     value: 5
   mesh: SG_Body_Jakobs
   name: Jakobs (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Jakobs_4
   bonuses:
@@ -1965,10 +2042,12 @@ bodies:
     value: 7
   mesh: SG_Body_Jakobs
   name: Jakobs (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Tediore
   mesh: SG_Body_Tediore
   name: Tediore (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Tediore_2
   bonuses:
@@ -1983,6 +2062,7 @@ bodies:
     value: 3
   mesh: SG_Body_Tediore
   name: Tediore (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Tediore_3
   bonuses:
@@ -1997,6 +2077,7 @@ bodies:
     value: 5
   mesh: SG_Body_Tediore
   name: Tediore (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Tediore_4
   bonuses:
@@ -2011,10 +2092,12 @@ bodies:
     value: 7
   mesh: SG_Body_Tediore
   name: Tediore (Very Rare)
+  rarity: 4
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Torgue
   mesh: SG_Body_Torgue
   name: Torgue (Common)
+  rarity: 1
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Torgue_2
   bonuses:
@@ -2029,6 +2112,7 @@ bodies:
     value: 3
   mesh: SG_Body_Torgue
   name: Torgue (Uncommon)
+  rarity: 2
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Torgue_3
   bonuses:
@@ -2043,6 +2127,7 @@ bodies:
     value: 5
   mesh: SG_Body_Torgue
   name: Torgue (Rare)
+  rarity: 3
   unique: false
 - _obj_name: GD_Weap_Shotgun.Body.SG_Body_Torgue_4
   bonuses:
@@ -2057,6 +2142,7 @@ bodies:
     value: 7
   mesh: SG_Body_Torgue
   name: Torgue (Very Rare)
+  rarity: 4
   unique: false
 definitions:
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
@@ -2073,6 +2159,7 @@ definitions:
     type: scale
     value: -1
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Hyperion_Shotgun
   bonuses:
@@ -2093,6 +2180,7 @@ definitions:
     type: scale
     value: -1
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
   _original:
@@ -2120,6 +2208,7 @@ definitions:
     type: scale
     value: -1
   name: Jakobs (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
   _original:
@@ -2147,6 +2236,7 @@ definitions:
     type: scale
     value: -1
   name: Jakobs (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
   _original:
@@ -2165,6 +2255,7 @@ definitions:
     type: scale
     value: -1
   name: Tediore (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
   _original:
@@ -2183,6 +2274,7 @@ definitions:
     type: scale
     value: -1
   name: Tediore (TPS)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
   _original:
@@ -2201,6 +2293,7 @@ definitions:
     type: scale
     value: -1
   name: Torgue (BL2)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
   _original:
@@ -2219,30 +2312,37 @@ definitions:
     type: scale
     value: -1
   name: Torgue (TPS)
+  rarity: 0
   unique: false
 elements:
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Corrosive
   mesh: Acc_Barrel_Elemental3
   name: Corrosive
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Fire
   mesh: Acc_Barrel_Elemental1
   name: Fire
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Ice
   mesh: Acc_Barrel_Elemental3
   name: Cryo
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_None
   name: '"No Element"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Shock
   mesh: Acc_Barrel_Elemental2
   name: Shock
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.elemental.Shotgun_Elemental_Slag
   mesh: Acc_Barrel_Elemental3
   name: Slag
+  rarity: 0
   unique: false
 grips:
 - _obj_name: GD_Cork_Weap_Shotgun.Grip.SG_Grip_Hyperion_Bullpup
@@ -2264,6 +2364,7 @@ grips:
     value: 10
   mesh: SG_FrontGrip_Hyperion
   name: Bullpup
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Grip.SG_Grip_Jakobs_Boomacorn
   bonuses:
@@ -2291,6 +2392,7 @@ grips:
     value: -0.2
   mesh: SG_FrontGrip_Jakobs
   name: Boomacorn
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Grip.SG_Grip_Jakobs_TooScoops
   bonuses:
@@ -2318,6 +2420,7 @@ grips:
     value: -0.2
   mesh: SG_FrontGrip_Jakobs
   name: Too Scoops
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Grip.SG_Grip_Bandit
   bonuses:
@@ -2342,6 +2445,7 @@ grips:
     value: 3
   mesh: SG_FrontGrip_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Grip.SG_Grip_Hyperion
   bonuses:
@@ -2366,6 +2470,7 @@ grips:
     value: 1
   mesh: SG_FrontGrip_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Grip.SG_Grip_Jakobs
   bonuses:
@@ -2398,6 +2503,7 @@ grips:
     value: 1
   mesh: SG_FrontGrip_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Grip.SG_Grip_Tediore
   bonuses:
@@ -2422,6 +2528,7 @@ grips:
     value: 2
   mesh: SG_FrontGrip_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Grip.SG_Grip_Torgue
   bonuses:
@@ -2449,16 +2556,20 @@ grips:
     value: 1
   mesh: SG_FrontGrip_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 materials:
 - _obj_name: GD_Anemone_Weapons.ManufacturerMaterials.Mat_Torgue_3_SwordTEST
   name: Unicornsplosion
+  rarity: 0
   unique: true
 - _obj_name: GD_Anemone_Weapons.Shotgun.Overcompensator.Mat_Hyperion_6_Overcompensator
   name: Overcompensator
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Tediore_5_Omen
   name: Omen
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Bandit_4_Quartz_Shotgun
   bonuses:
@@ -2475,6 +2586,7 @@ materials:
     type: post-add
     value: -0.2
   name: Quartz
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Hyperion_4_Diamond_SG
   bonuses:
@@ -2491,6 +2603,7 @@ materials:
     type: post-add
     value: -0.3
   name: Diamond
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Jakobs_4_Citrine_SG
   bonuses:
@@ -2507,6 +2620,7 @@ materials:
     type: post-add
     value: -0.3
   name: Citrine
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Tediore_4_CubicZerconia_SG
   bonuses:
@@ -2523,9 +2637,11 @@ materials:
     type: post-add
     value: -0.3
   name: Cubic Zerconia
+  rarity: 0
   unique: false
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_3_Swordsplosion
   name: Swordsplosion
+  rarity: 0
   unique: true
 - _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_4_Rock_SG
   bonuses:
@@ -2542,147 +2658,195 @@ materials:
     type: post-add
     value: -0.3
   name: Rock
+  rarity: 0
   unique: false
 - _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_Boomacorn
   name: Boomacorn
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_Moonface
   name: Moon Face
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_TooScoopz
   name: Too Scoops
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_JackOCannon
   name: Jack-o'-Cannon
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_Torgemada
   name: Torgemada
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_Wombat
   name: Wombat
+  rarity: 0
   unique: true
 - _obj_name: GD_Cypressure_Weapons.ManufacturerMaterials.Shotgun.Mat_Hyperion_3_CompanyMan
   name: Company Man
+  rarity: 0
   unique: true
 - _obj_name: GD_Cypressure_Weapons.ManufacturerMaterials.Shotgun.Mat_Torgue_3_Landscaper2
   name: Moonscaper
+  rarity: 0
   unique: true
 - _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Hyperion_6_Butcher
   name: Butcher
+  rarity: 0
   unique: true
 - _obj_name: GD_Iris_Weapons.ManufacturerMaterials.Mat_Hyperion_3_SlowHand
   name: Slow Hand
+  rarity: 0
   unique: true
 - _obj_name: GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Torgue_Pearl_Carnage
   name: Carnage
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_Jakobs_5_Legendary_Flayer
   name: Flayer
+  rarity: 0
   unique: true
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Bandit_6_Glitch
   name: Bandit (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Hyperion_6_Glitch
   name: Hyperion (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Jakobs_6_Glitch
   name: Jakobs (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Old_Hyperion_6_Glitch
   name: Old Hyperion (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Tediore_6_Glitch
   name: Tediore (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Ma_Weapons.Materials.Mat_SG_Torgue_6_Glitch
   name: Torgue (Glitch)
+  rarity: 0
   unique: false
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Bandit_3_JollyRoger
   name: Jolly Roger
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Jakobs_3_OrphanMaker
   name: Orphan Maker
+  rarity: 0
   unique: true
 - _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Tediore_1_Spitter
   name: Retcher
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_RaidWeapons.ManufacturerMaterials.Mat_Hyperion_1_Interfacer
   name: Interfacer
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_Jakobs_2_Hydra
   name: Hydra
+  rarity: 0
   unique: true
 - _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_Jakobs_3_Twister
   name: Twister
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_1
   name: Bandit (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_2
   name: Bandit (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_3
   name: Bandit (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_3_Dog
   name: Dog
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_3_RokSalt
   name: RokSalt
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_3_Teeth
   name: Teeth of Terramorphous
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_4
   name: Bandit (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_5_Legendary
   name: Sledge's Shotgun
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_1
   name: Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_2
   name: Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_3
   name: Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_3_1340
   name: Shotgun 1340
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_3_HeartBreaker
   name: Heart Breaker
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_4
   name: Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_5_Legendary
   name: Conference Call
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Hyperion_5_Legendary
   name: Viral Marketer
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_1
   name: Jakobs (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_2
   name: Jakobs (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3
   name: Jakobs (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_TidalWave
   name: Tidal Wave
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_3_Triquetra
   name: Triquetra
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_4
   name: Jakobs (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Jakobs_5_Legendary
   name: Striker
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_1
   bonuses:
@@ -2705,6 +2869,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_2
   bonuses:
@@ -2727,6 +2892,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_3
   bonuses:
@@ -2749,6 +2915,7 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Old_Hyperion_4
   bonuses:
@@ -2771,45 +2938,59 @@ materials:
     type: scale
     value: 2
   name: Old Hyperion (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_1
   name: Tediore (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_2
   name: Tediore (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_3
   name: Tediore (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_3_Blockhead
   name: Blockhead
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_3_Octo
   name: Octo
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_4
   name: Tediore (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Tediore_5_Legendary
   name: Deliverance
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_1
   name: Torgue (Common)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_2
   name: Torgue (Uncommon)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3
   name: Torgue (Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_3_Landscaper
   name: Landscaper
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_4
   name: Torgue (Very Rare)
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_5_Legendary
   name: Flakker
+  rarity: 0
   unique: true
 sights:
 - _obj_name: GD_Weap_Shotgun.Sight.SG_Sight_Bandit
@@ -2829,6 +3010,7 @@ sights:
     value: -2
   mesh: SG_Scope_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Sight.SG_Sight_Hyperion
   bonuses:
@@ -2847,6 +3029,7 @@ sights:
     value: -2
   mesh: SG_Scope_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Sight.SG_Sight_Jakobs
   bonuses:
@@ -2865,6 +3048,7 @@ sights:
     value: -2
   mesh: SG_Scope_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Sight.SG_Sight_None
   bonuses:
@@ -2879,6 +3063,7 @@ sights:
     type: scale
     value: -2
   name: '"No Sight"'
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Sight.SG_Sight_Tediore
   bonuses:
@@ -2892,6 +3077,7 @@ sights:
     value: -2
   mesh: SG_Scope_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Sight.SG_Sight_Torgue
   bonuses:
@@ -2910,6 +3096,7 @@ sights:
     value: -2
   mesh: SG_Scope_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 stocks:
 - _obj_name: GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_Boomacorn
@@ -2928,6 +3115,7 @@ stocks:
     value: -2
   mesh: SG_Stock_Jakobs
   name: Boomacorn
+  rarity: 0
   unique: true
 - _obj_name: GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_TooScoops
   bonuses:
@@ -2945,10 +3133,12 @@ stocks:
     value: -2
   mesh: SG_Stock_Jakobs
   name: Too Scoops
+  rarity: 0
   unique: true
 - _obj_name: GD_Weap_Shotgun.Stock.SG_Stock_Bandit
   mesh: SG_Stock_Bandit
   name: Bandit
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Stock.SG_Stock_Hyperion
   bonuses:
@@ -2960,6 +3150,7 @@ stocks:
     value: 4
   mesh: SG_Stock_Hyperion
   name: Hyperion
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Stock.SG_Stock_Jakobs
   bonuses:
@@ -2977,6 +3168,7 @@ stocks:
     value: -2
   mesh: SG_Stock_Jakobs
   name: Jakobs
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Stock.SG_Stock_Tediore
   bonuses:
@@ -2991,6 +3183,7 @@ stocks:
     value: 2
   mesh: SG_Stock_Tediore
   name: Tediore
+  rarity: 0
   unique: false
 - _obj_name: GD_Weap_Shotgun.Stock.SG_Stock_Torgue
   bonuses:
@@ -3002,29 +3195,32 @@ stocks:
     value: 5
   mesh: SG_Stock_Torgue
   name: Torgue
+  rarity: 0
   unique: false
 meta:
   definitions:
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Bandit_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.8
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 10
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 4.1
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 8
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 9.5
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 10
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.8
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 9.5
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4.1
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 8
       value_formula:
@@ -3095,24 +3291,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Hyperion_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.28
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 7
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 3.5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 6
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: -5
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.28
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -5
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 6
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 6
       value_formula:
@@ -3183,24 +3381,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Jakobs_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.06
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 2
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 2.8
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 7.4
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 11
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.06
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 11
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 7
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.8
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 7.4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 8.8
       value_formula:
@@ -3271,24 +3471,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Tediore_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
-      value: 0.66
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 5
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 2.5
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 6.7
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 8
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.66
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 6
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.5
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 6.7
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 7.12
       value_formula:
@@ -3359,24 +3561,26 @@ meta:
     unique: false
   - _obj_name: GD_Weap_Shotgun.A_Weapons.WT_Torgue_Shotgun
     base:
-    - attribute: D_Attributes.Weapon.WeaponFireInterval
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
       value: 1
-    - attribute: D_Attributes.Weapon.WeaponClipSize
-      value: 4
-    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
-      value: 3.8
-    - attribute: D_Attributes.Weapon.WeaponSpread
-      value: 7.1
-    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
-      value: 8
     - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
       value: 0
-    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
-      value: 60
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 8
     - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
       value: 5
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.8
     - attribute: D_Attributes.Weapon.WeaponShotCost
       value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 7.1
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
     - attribute: D_Attributes.Weapon.WeaponDamage
       value: 8.8
       value_formula:

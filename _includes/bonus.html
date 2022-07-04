@@ -3,7 +3,7 @@ Gets the exact value of a bonus entry and it's attribute name. Intended to be ca
 variable.
 
 Outputs in the format `<value>&|^|&<name>`.
-The seperator `&|^|&` is exported in the variable `BONUS_SEPERATOR`. You can convert to a usable
+The separator `&|^|&` is exported in the variable `BONUS_SEPARATOR`. You can convert to a usable
  string by simply replacing it with a space.
 
 May output an empty string, if the bonus uses an invalid attribute, or if it's a grade which is
@@ -16,7 +16,7 @@ Args:
                      good/bad instead of proper bonus type.
 {%- endcomment -%}
 
-{%- assign BONUS_SEPERATOR = "&|^|&" -%}
+{%- assign BONUS_SEPARATOR = "&|^|&" -%}
 {%- assign standard_definition = include.meta.definitions[include.meta.standard_definition_idx] -%}
 {%- assign output = "" -%}
 {%- if include.bonus.slot -%}
@@ -173,7 +173,7 @@ Args:
     {%- assign output = output | append: value_str | append: "</span>" -%}
 {%- endif -%}
 
-{%- assign output = output | append: BONUS_SEPERATOR -%}
+{%- assign output = output | append: BONUS_SEPARATOR -%}
 
 {%- if attr -%}
     {%- assign name = attr.name -%}

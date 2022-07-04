@@ -52,7 +52,13 @@ of strings, with the key at the front.
     {%- if name_mapping -%}
         {%- assign name = name_mapping  -%}
     {%- else -%}
-        {%- assign name = slot | capitalize -%}
+        {%- assign words = slot | split: "_" -%}
+        {%- assign capitalized_words = "" | split: "" -%}
+        {%- for word in words -%}
+            {%- assign capital_word = word | capitalize -%}
+            {%- assign capitalized_words = capitalized_words | push: capital_word -%}
+        {%- endfor -%}
+        {%- assign name = capitalized_words | join: " " -%}
     {%- endif -%}
 
     {%- assign order_entry = name | append: SLOT_NAME_SEPERATOR | append: slot -%}

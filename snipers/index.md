@@ -18,7 +18,7 @@ barrel_overrides:
     bonus_block:
       - group_idx: 2
         overrides:
-          # Matching maliwan barrel has two seperate damage bonuses, which we can combine into one
+          # Matching maliwan barrel has two separate damage bonuses, which we can combine into one
           - idx: 2
             ignore: true
           - idx: 3
@@ -69,10 +69,7 @@ definition_stat_overrides:
 # Sniper Parts Guide
 Snipers are made out of 6 main visible parts.
 
-{% include part_reference.html
-    parts=page.part_reference
-    image_class="big"
-%}
+{% include part_reference.html parts=page.part_reference image_class="massive" %}
 
 ## Accessories
 There are 8 non-unique accessories, including a "no accessory" part with no model.
@@ -207,8 +204,8 @@ There are six non-unique element parts, one for each element, and one for no ele
 %}
 
 ## Materials
-The material parts also have no model, instead defining the actual textures applied ontop of all the
-other models.
+The material parts also have no model, instead defining the actual textures applied on top of all
+the other models.
 
 There are 29 non-unique material parts. Like with bodies, there's one for each rarity-manufacturer
 combination. In Tina DLC, each manufacturer gets an additional gemstone material, and in TPS,
@@ -227,7 +224,7 @@ The Weapon Balance defines what parts a certain weapon can have. Balances themse
 stats, but are they very important for the actual generation of weapons.
 
 ## Weapon Type Definitions
-Like the name might suggest, the definition essentialy defines all the unique properties of each
+Like the name might suggest, the definition essentially defines all the unique properties of each
 weapon type. There are 5 non-unique definitions, one per manufacturer.
 
 {% include parts.html
