@@ -246,8 +246,8 @@ Because of this, a bonus with value 0 actually still has an effect.
   <tr>
     <th rowspan="2"></th>
     <th rowspan="2">Capacity</th>
-    <th rowspan="2">Recharge Delay</th>
     <th rowspan="2">Recharge Rate</th>
+    <th rowspan="2">Recharge Delay</th>
     <th colspan="4">Special</th>
     <th colspan="4">Status Chance Resistance</th>
   </tr><tr>
