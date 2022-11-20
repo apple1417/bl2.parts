@@ -1,6 +1,13 @@
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - Readme.md
 logo: /^images/logo.png
 theme: null
 title: bl2parts
