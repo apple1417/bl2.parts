@@ -21,11 +21,14 @@
     --img-size-big: calc(var(--img-size-base) + var(--img-size-increment));
     --img-size-massive: calc(var(--img-size-base) + 2*var(--img-size-increment));
 
-    --nav-width: 10em;
+    --nav-width: 11.5em;
+    --nav-colour: rgba(0, 0, 0, 0.5);
+    --nav-border-format: 1px solid #000;
+
     --content-width: 50em;
 }
 
-
+/* Basic Formatting */
 
 html {
     min-height: 100%;
@@ -37,6 +40,10 @@ body {
     color: var(--text-colour);
     background: linear-gradient(#2c5364, #203a43 60%, #0f2027);
 }
+body > div.content {
+    max-width: var(--content-width);
+    margin: 0 auto;
+}
 
 h1, h2, h3, h4, h5, h6, th {
     font-family: var(--header-font-family);
@@ -45,8 +52,6 @@ h1, h2, h3, h4, h5, h6, th {
 h1 {
     text-align: center;
 }
-
-
 
 a {
     color: palevioletred;
@@ -62,38 +67,97 @@ a:visited {
     color: darkred;
 }
 
+/* Responsive Navigation Bar */
 
-
+body > a.nav-link {
+    z-index: 2;
+}
 body > aside.nav-container {
     position: fixed;
     left: 0;
     top: 0;
-    min-width: var(--nav-width);
-    max-width: var(--nav-width);
+    width: var(--nav-width);
     height: 100%;
     overflow-y: auto;
+    margin-left: calc(-1 * var(--nav-width));
+    background: var(--nav-colour);
+    border-right: var(--nav-border-format);
+    z-index: 1;
+}
+body > aside.nav-container > nav {
     padding: 0.5em 0.75em;
-    background: rgba(0, 0, 0, 0.5);
-    border-right: 1px solid #000;
-}
-body > aside.nav-container > :last-child {
-    margin-bottom: 1em;
-}
-body > div.nav-offset {
-    margin-left: var(--nav-width);
-    padding-left: 1.5em;
 }
 
-@media (max-width: 900px) {
-    body > aside.nav-container  {
+body {
+    transition: padding-left 0.1s ease-out;
+}
+body > aside.nav-container,
+body > a.nav-link {
+    transition: left 0.1s ease-out;
+}
+
+body.nav-active {
+    padding-left: var(--nav-width);
+}
+body.nav-active > a.nav-link,
+body.nav-active > aside.nav-container {
+    left: var(--nav-width);
+}
+
+@media (min-width: 900px) { /* Big Screen */
+    body {
+        padding-left: var(--nav-width);
+    }
+    body > a.nav-link,
+    body > aside.nav-container {
+        left: var(--nav-width);
+    }
+
+    body > a.nav-link {
         display: none;
     }
-
-    body > div.nav-offset {
-        margin-left: unset;
-        padding-left: unset;
-    }
 }
+
+/* Navigation Bar Link */
+/* Create a hamburger menu icon using css */
+body > a.nav-link {
+    background: var(--nav-colour);
+    border-bottom: var(--nav-border-format);
+    border-right: var(--nav-border-format);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    padding: 21px 16px;
+}
+body > a.nav-link:hover {
+    background: #000;
+}
+
+body > a.nav-link span {
+    position: relative;
+    display: block;
+}
+body > a.nav-link span:before,
+body > a.nav-link span:after {
+    position: absolute;
+    content: " ";
+}
+body > a.nav-link span,
+body > a.nav-link span:before,
+body > a.nav-link span:after {
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+}
+body > a.nav-link span:before {
+    margin-top: -6px;
+}
+body > a.nav-link span:after {
+    margin-top: 6px;
+}
+
+/* Navigation Styling */
 
 nav ul {
     list-style: none;
@@ -123,12 +187,7 @@ nav a.nav-current {
     text-decoration: underline;
 }
 
-div.content {
-    max-width: var(--content-width);
-    margin: 0 auto;
-}
-
-
+/* Images */
 
 img.small {
     max-width: var(--img-size-small);
@@ -148,7 +207,7 @@ img.massive {
     max-height: var(--img-size-massive);
 }
 
-
+/* Tables */
 
 table, td, th {
     text-align: center;
@@ -174,7 +233,7 @@ table.left, table.left td, table.left th {
     margin: revert;
 }
 
-
+/* Footnotes */
 
 sup {
     font-family: var(--main-font-family);
@@ -192,7 +251,7 @@ sup {
     text-align: right;
 }
 
-
+/* Part Stat Boxes */
 
 div.part-container {
     display: flex;
@@ -233,7 +292,7 @@ div.part-block img.massive[src=""] {
     font-size: var(--small-text-size);
 }
 
-
+/* Expandable Details */
 
 details > summary {
     cursor: pointer;
@@ -243,7 +302,7 @@ details > summary {
     margin-bottom: 2px;
 }
 
-
+/* Bonus Colouring */
 
 .good {
     color: lime;
@@ -271,6 +330,7 @@ details > summary {
     font-size: 0.83em;
 }
 
+/* In markdown we use itallics to display these colours, so revert the styling */
 em.good, em.bad, em.pre-add, em.scale, em.post-add, em.grade, em.per-grade,
 em.explosive, em.fire, em.shock, em.corrosive, em.slag, em.cryo, em.non-elemental,
 em.common, em.uncommon, em.rare, em.very-rare, em.etech,

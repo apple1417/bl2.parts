@@ -1,13 +1,11 @@
 {%- comment -%}
-Inserts the navbar. Should be followed by something with the `nav-offset` class.
+Inserts the navbar.
 {%- endcomment -%}
 
-<aside class="nav-container">
-    <nav>
-        <a href="/"><img src="/^images/logo.png" alt="Home"></a>
-        <hr>
-        {%- include _nav_nest.html nav=site.data.nav.parts -%}
-        <hr>
-        {%- include _nav_nest.html nav=site.data.nav.misc classes="nav-misc" -%}
-    </nav>
-</aside>
+<nav>
+    <a href="/"><img src="/^images/logo.png" alt="Home"></a>
+    <hr>
+    {%- include _nav_nest.html nav=site.data.nav.parts -%}
+    <hr>
+    {%- include _nav_nest.html nav=site.data.nav.misc classes="nav-misc" -%}
+</nav>

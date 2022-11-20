@@ -40,14 +40,13 @@ Args:
 </head>
 <body>
     {%- unless page.hide_sidebar -%}
-        {%- include nav.html -%}
-        <div class="nav-offset">
+        <a class="nav-link" onclick="document.body.classList.toggle('nav-active')"><span></span></a>
+        <aside class="nav-container">
+            {%- include nav.html -%}
+        </aside>
     {%- endunless -%}
-            <div class="content">
-                {{- content -}}
-            </div>
-    {%- unless page.hide_sidebar -%}
-        </div>
-    {%- endunless -%}
+    <div class="content">
+        {{- content -}}
+    </div>
     <script>anchors.add("h2, h3");</script>
 </body>
