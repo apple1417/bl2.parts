@@ -6,7 +6,9 @@ Args:
     table_classes: A string of custom classes to apply to the attribute table.
 {%- endcomment -%}
 
-{%- assign attributes = site.data.attributes | sort_natural: "name" -%}
+{%- assign attributes = site.data.attributes
+                        | where_exp: "item", "item.invalid != true"
+                        | sort_natural: "name" -%}
 {%- if include.filter -%}
     {%- assign attributes = attributes | where_exp: "item", "include.filter contains item.obj" -%}
 {%- endif -%}
