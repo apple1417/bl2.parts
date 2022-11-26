@@ -2246,3 +2246,110 @@ meta:
       type: scale
     name: Vladof
     unique: false
+  meshes:
+    Acc_BodyMod1:
+      name: Body 1 Accessory
+      src: /launchers/^images/accessories/body_1.png
+    Acc_BodyMod2:
+      name: Body 2 Accessory
+      src: /launchers/^images/accessories/body_2.png
+    Acc_Gripper:
+      name: Grip Accessory
+      src: /launchers/^images/accessories/gripper.png
+    Acc_Handle:
+      name: Handle
+      src: /launchers/^images/accessories/handle.png
+    Acc_StockCover:
+      name: Stock Cover
+      src: /launchers/^images/accessories/stock_cover.png
+    Acc_StockTube:
+      name: Stock Tube
+      src: /launchers/^images/accessories/stock_tube.png
+    Acc_TipCover:
+      name: Tip Cover
+      src: /launchers/^images/accessories/tip_cover.png
+    L_Barrel_Bandit:
+      name: Bandit
+      src: /launchers/^images/barrels/bandit.png
+    L_Barrel_Alien:
+      name: E-Tech
+      src: /launchers/^images/barrels/etech.png
+    L_Barrel_Maliwan:
+      name: Maliwan
+      src: /launchers/^images/barrels/maliwan.png
+    L_Barrel_Tediore:
+      name: Tediore
+      src: /launchers/^images/barrels/tediore.png
+    L_Barrel_Torgue:
+      name: Torgue
+      src: /launchers/^images/barrels/torgue.png
+    L_Barrel_Vladof:
+      name: Vladof
+      src: /launchers/^images/barrels/vladof.png
+    L_Body_Bandit:
+      name: Bandit
+      src: /launchers/^images/bodies/bandit.png
+    L_Body_Maliwan:
+      name: Maliwan
+      src: /launchers/^images/bodies/maliwan.png
+    L_Body_Tediore:
+      name: Tediore
+      src: /launchers/^images/bodies/tediore.png
+    L_Body_Torgue:
+      name: Torgue
+      src: /launchers/^images/bodies/torgue.png
+    L_Body_Vladof:
+      name: Vladof
+      src: /launchers/^images/bodies/vladof.png
+    Acc_Barrel_Elemental1:
+      invalid: true
+    Acc_Barrel_Elemental2:
+      invalid: true
+    Acc_Barrel_Elemental3:
+      invalid: true
+    L_Grip_Bandit:
+      name: Bandit
+      src: /launchers/^images/grips/bandit.png
+    L_Grip_Maliwan:
+      name: Maliwan
+      src: /launchers/^images/grips/maliwan.png
+    L_Grip_Tediore:
+      name: Tediore
+      src: /launchers/^images/grips/tediore.png
+    L_Grip_Torgue:
+      name: Torgue
+      src: /launchers/^images/grips/torgue.png
+    L_Grip_Vladof:
+      name: Vladof
+      src: /launchers/^images/grips/vladof.png
+    L_Scope_Bandit:
+      name: Bandit
+      src: /launchers/^images/sights/bandit.png
+    L_Scope_Maliwan:
+      name: Maliwan
+      src: /launchers/^images/sights/maliwan.png
+    L_Scope_Tediore:
+      name: Tediore
+      src: /launchers/^images/sights/tediore.png
+    L_Scope_Torgue:
+      name: Torgue
+      src: /launchers/^images/sights/torgue.png
+    L_Scope_Vladof:
+      name: Vladof
+      src: /launchers/^images/sights/vladof.png
+    L_Exhaust_Bandit:
+      name: Bandit
+      src: /launchers/^images/stocks/bandit.png
+    L_Exhaust_Maliwan:
+      name: Maliwan
+      src: /launchers/^images/stocks/maliwan.png
+    L_Exhaust_Tediore:
+      name: Tediore
+      src: /launchers/^images/stocks/tediore.png
+    L_Exhaust_Torgue:
+      name: Torgue
+      src: /launchers/^images/stocks/torgue.png
+    L_Exhaust_Vladof:
+      name: Vladof
+      src: /launchers/^images/stocks/vladof.png
+  standard_definition_idx: 0

@@ -252,10 +252,17 @@
 
 - obj: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
   name: Barrel Spin Up Time
-  description: Increases the time it takes your weapon to spin up to it's full fire rate, if the it supports spin up.
+  description: Increases the time it takes your weapon to spin up to it's full fire rate, if it supports spin up.
   percent: false
   add_good: false
   multi_good: false
+
+- obj: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+  name: Barrel Spin Down Time
+  description: Increases the time it takes your weapon to spin down to it's original fire rate, if it supports spin up.
+  percent: false
+  add_good: true
+  multi_good: true
 
 - obj: D_Attributes.Weapon.WeaponExtraShotChance
   name: Extra Shot Chance
@@ -665,8 +672,8 @@
   multi_good: true
 
 - obj: D_Attributes.DamageSourceModifiers.ReceivedLaserDamageModifier
-  name: Laser Damage Modifier
-  description: Increases the damage laser projectiles deal multiplicatively.
+  name: Received Laser Damage
+  description: Increases the damage laser projectiles deal to yourself multiplicatively.
   percent: true
   add_good: false
   multi_good: false
@@ -706,6 +713,13 @@
   add_good: true
   multi_good: true
 
+- obj: D_Attributes.AmmoResource_Rocket_Launcher.Ammo_Rocket_Launcher_RegenerationRate
+  name: Ammo Regeneration (Launcher)
+  description: Increases the amount of launcher ammo regenerated per second.
+  percent: false
+  add_good: true
+  multi_good: true
+
 - obj: GD_Weap_SMG.Attribute.Att_IrishSwordEquipped
   name: Chulainns Equipped
   description: Increases the global amount of Chulainns equipped.
@@ -731,5 +745,33 @@
   name: Visual Rare Loot Chance
   description: Has no actual effect, only used for displaying the Common Weight Modifier in more easily understandable terms. Is not synced with the actual bonus value.
   percent: true
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.Weapon.WeaponEquipTime
+  name: Weapon Equip Time
+  description: Increases the amount of time it takes to equip the weapon, after the previous weapon was put down.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.Weapon.WeaponPutDownTime
+  name: Weapon Put Down
+  description: Increases the amount of time it takes to put down the weapon, before the next weapon is equipped.
+  percent: false
+  add_good: false
+  multi_good: false
+
+- obj: D_Attributes.DamageSourceModifiers.ReceivedMeleeDamageModifier
+  name: Received Melee Damage
+  description: Increases the damage melee attacks deal to yourself multiplicatively.
+  percent: true
+  add_good: false
+  multi_good: false
+
+- obj: GD_Weap_AssaultRifle.WeaponIsIceScream
+  name: Ice Screams Equipped
+  description: Increases the amount of Ice Screams you've got equipped.
+  percent: false
   add_good: true
   multi_good: true

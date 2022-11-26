@@ -3540,3 +3540,113 @@ meta:
       type: scale
     name: Vladof
     unique: false
+  meshes:
+    Acc_Barrel_Bayonet1:
+      name: Bayonet 1
+      src: /rifles/^images/accessories/bayonet_1.png
+    Acc_Barrel_Bayonet2:
+      name: Bayonet 2
+      src: /rifles/^images/accessories/bayonet_2.png
+    Acc_Body_Box:
+      name: Box
+      src: /rifles/^images/accessories/box.png
+    Acc_Body_BanditClamp:
+      name: Clamp
+      src: /rifles/^images/accessories/clamp.png
+    Acc_Barrel_Grip:
+      name: Foregrip
+      src: /rifles/^images/accessories/foregrip.png
+    Acc_Stock_Shroud1:
+      name: Shroud 1
+      src: /rifles/^images/accessories/shroud_1.png
+    Acc_Stock_Shroud2:
+      name: Shroud 2
+      src: /rifles/^images/accessories/shroud_2.png
+    AR_Barrel_Bandit:
+      name: Bandit
+      src: /rifles/^images/barrels/bandit.png
+    AR_Barrel_Dahl:
+      name: Dahl
+      src: /rifles/^images/barrels/dahl.png
+    AR_Barrel_Alien:
+      name: E-Tech
+      src: /rifles/^images/barrels/etech.png
+    AR_Barrel_Jakobs:
+      name: Jakobs
+      src: /rifles/^images/barrels/jakobs.png
+    AR_Barrel_Torgue:
+      name: Torgue
+      src: /rifles/^images/barrels/torgue.png
+    AR_Barrel_Vladof_Alt:
+      name: Vladof
+      src: /rifles/^images/barrels/vladof.png
+    AR_Barrel_Vladof:
+      name: Vladof Minigun
+      src: /rifles/^images/barrels/vladof_minigun.png
+    AR_Body_Bandit:
+      name: Bandit
+      src: /rifles/^images/bodies/bandit.png
+    AR_Body_Dahl:
+      name: Dahl
+      src: /rifles/^images/bodies/dahl.png
+    AR_Body_Jakobs:
+      name: Jakobs
+      src: /rifles/^images/bodies/jakobs.png
+    AR_Body_Torgue:
+      name: Torgue
+      src: /rifles/^images/bodies/torgue.png
+    AR_Body_Vladof:
+      name: Vladof
+      src: /rifles/^images/bodies/vladof.png
+    Acc_Barrel_Elemental1:
+      invalid: true
+    Acc_Barrel_Elemental2:
+      invalid: true
+    Acc_Barrel_Elemental3:
+      invalid: true
+    AR_Grip_Bandit:
+      name: Bandit
+      src: /rifles/^images/grips/bandit.png
+    AR_Grip_Dahl:
+      name: Dahl
+      src: /rifles/^images/grips/dahl.png
+    AR_Grip_Jakobs:
+      name: Jakobs
+      src: /rifles/^images/grips/jakobs.png
+    AR_Grip_Torgue:
+      name: Torgue
+      src: /rifles/^images/grips/torgue.png
+    AR_Grip_Vladof:
+      name: Vladof
+      src: /rifles/^images/grips/vladof.png
+    AR_Scope_Bandit:
+      name: Bandit
+      src: /rifles/^images/sights/bandit.png
+    AR_Scope_Dahl:
+      name: Dahl
+      src: /rifles/^images/sights/dahl.png
+    AR_Scope_Jakobs:
+      name: Jakobs
+      src: /rifles/^images/sights/jakobs.png
+    AR_Scope_Torgue:
+      name: Torgue
+      src: /rifles/^images/sights/torgue.png
+    AR_Scope_Vladof:
+      name: Vladof
+      src: /rifles/^images/sights/vladof.png
+    AR_Stock_Bandit:
+      name: Bandit
+      src: /rifles/^images/stocks/bandit.png
+    AR_Stock_Dahl:
+      name: Dahl
+      src: /rifles/^images/stocks/dahl.png
+    AR_Stock_Jakobs:
+      name: Jakobs
+      src: /rifles/^images/stocks/jakobs.png
+    AR_Stock_Torgue:
+      name: Torgue
+      src: /rifles/^images/stocks/torgue.png
+    AR_Stock_Vladof:
+      name: Vladof
+      src: /rifles/^images/stocks/vladof.png
+  standard_definition_idx: 0
