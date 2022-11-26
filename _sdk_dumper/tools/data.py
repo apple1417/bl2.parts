@@ -53,6 +53,13 @@ class BasePartTypeEnum(Enum):
         # Deliberately using a list + index 0 to force an IndexError
         return [d for d in cls if d.index == idx][0]
 
+    @classmethod
+    def from_plural(cls, plural: str) -> BasePartTypeEnum:
+        val = next((x for x in cls if x.plural == plural), None)
+        if val is None:
+            raise ValueError(f"Couldn't find plural '{plural}'")
+        return val
+
     def title(self) -> str:
         return self.value.title()
 
@@ -146,6 +153,13 @@ ALL_DEFINITIONS: Dict[str, Tuple[str, ...]] = {
     "grenade": (
         "GD_GrenadeMods.A_Item.GrenadeMod_Standard",
     ),
+    "launcher": (
+        "GD_Weap_Launchers.A_Weapons.WT_Bandit_Launcher",
+        "GD_Weap_Launchers.A_Weapons.WT_Maliwan_Launcher",
+        "GD_Weap_Launchers.A_Weapons.WT_Tediore_Launcher",
+        "GD_Weap_Launchers.A_Weapons.WT_Torgue_Launcher",
+        "GD_Weap_Launchers.A_Weapons.WT_Vladof_Launcher",
+    ),
     "pistol": (
         "GD_Weap_Pistol.A_Weapons.WeaponType_Bandit_Pistol",
         "GD_Weap_Pistol.A_Weapons.WeaponType_Dahl_Pistol",
@@ -155,6 +169,13 @@ ALL_DEFINITIONS: Dict[str, Tuple[str, ...]] = {
         "GD_Weap_Pistol.A_Weapons.WeaponType_Tediore_Pistol",
         "GD_Weap_Pistol.A_Weapons.WeaponType_Torgue_Pistol",
         "GD_Weap_Pistol.A_Weapons.WeaponType_Vladof_Pistol",
+    ),
+    "rifle": (
+        "GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle",
+        "GD_Weap_AssaultRifle.A_Weapons.WT_Dahl_AssaultRifle",
+        "GD_Weap_AssaultRifle.A_Weapons.WT_Jakobs_AssaultRifle",
+        "GD_Weap_AssaultRifle.A_Weapons.WT_Torgue_AssaultRifle",
+        "GD_Weap_AssaultRifle.A_Weapons.WT_Vladof_AssaultRifle",
     ),
     "shield": (
         "GD_Cork_Shields.A_Item.Shield_Nova_Ice",
@@ -221,6 +242,22 @@ NON_UNIQUE_BALANCES: Dict[str, Tuple[str, ...]] = {
         )
         for suffix in ("", "_2_Uncommon", "_3_Rare", "_4_VeryRare")
     ),
+    "launcher": (
+        "GD_Ma_Weapons.A_Weapons.RL_Bandit_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.RL_Maliwan_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.RL_Tediore_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.RL_Torgue_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.RL_Vladof_6_Glitch",
+        "GD_Weap_Launchers.A_Weapons.RL_Bandit_4_VeryRare",
+        "GD_Weap_Launchers.A_Weapons.RL_Bandit_5_Alien",
+        "GD_Weap_Launchers.A_Weapons.RL_Maliwan_4_VeryRare",
+        "GD_Weap_Launchers.A_Weapons.RL_Maliwan_5_Alien",
+        "GD_Weap_Launchers.A_Weapons.RL_Tediore_4_VeryRare",
+        "GD_Weap_Launchers.A_Weapons.RL_Tediore_5_Alien",
+        "GD_Weap_Launchers.A_Weapons.RL_Torgue_4_VeryRare",
+        "GD_Weap_Launchers.A_Weapons.RL_Vladof_4_VeryRare",
+        "GD_Weap_Launchers.A_Weapons.RL_Vladof_5_Alien",
+    ),
     "pistol": (
         "GD_Aster_Weapons.Pistols.Pistol_Bandit_4_Quartz",
         "GD_Aster_Weapons.Pistols.Pistol_Dahl_4_Emerald",
@@ -257,6 +294,26 @@ NON_UNIQUE_BALANCES: Dict[str, Tuple[str, ...]] = {
         "GD_Weap_Pistol.A_Weapons.Pistol_Torgue_4_VeryRare",
         "GD_Weap_Pistol.A_Weapons.Pistol_Vladof_4_VeryRare",
         "GD_Weap_Pistol.A_Weapons.Pistol_Vladof_5_Alien",
+    ),
+    "rifle": (
+        "GD_Aster_Weapons.AssaultRifles.AR_Bandit_4_Quartz",
+        "GD_Aster_Weapons.AssaultRifles.AR_Dahl_4_Emerald",
+        "GD_Aster_Weapons.AssaultRifles.AR_Jakobs_4_Citrine",
+        "GD_Aster_Weapons.AssaultRifles.AR_Torgue_4_Rock",
+        "GD_Aster_Weapons.AssaultRifles.AR_Vladof_4_Garnet",
+        "GD_Ma_Weapons.A_Weapons.AR_Bandit_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.AR_Dahl_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.AR_Jakobs_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.AR_Torgue_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.AR_Vladof_6_Glitch",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Bandit_4_VeryRare",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Bandit_5_Alien",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Dahl_4_VeryRare",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Dahl_5_Alien",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Jakobs_4_VeryRare",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Torgue_4_VeryRare",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Vladof_4_VeryRare",
+        "GD_Weap_AssaultRifle.A_Weapons.AR_Vladof_5_Alien",
     ),
     "shield": tuple([
         "GD_Cork_ItemGrades.Shields.ItemGrade_Gear_Shield_Spike_Ice_01_Common",
@@ -364,31 +421,31 @@ MODIFIER_NAMES: Tuple[str, ...] = (
 
 # Probably should have a better way of doing this ¯\_(ツ)_/¯
 class GenericPartType(BasePartTypeEnum):
-    Definition: _PartTypeData = _PartTypeData(-9999, "definition", "definitions", "")
+    Definition: _PartTypeData = _PartTypeData(-9999, "Definition", "definitions", "")
 
 
 class WeaponPartType(BasePartTypeEnum):
-    Body: _PartTypeData = _PartTypeData(0, "body", "bodies", "BodyPartData")
-    Grip: _PartTypeData = _PartTypeData(1, "grip", "grips", "GripPartData")
-    Barrel: _PartTypeData = _PartTypeData(2, "barrel", "barrels", "BarrelPartData")
-    Sight: _PartTypeData = _PartTypeData(3, "sight", "sights", "SightPartData")
-    Stock: _PartTypeData = _PartTypeData(4, "stock", "stocks", "StockPartData")
-    Element: _PartTypeData = _PartTypeData(5, "element", "elements", "ElementalPartData")
-    Accessory: _PartTypeData = _PartTypeData(6, "accessory", "accessories", "Accessory1PartData")
-    AltAccessory: _PartTypeData = _PartTypeData(7, "alt_accessory", "alt_accessories", "Accessory2PartData")
-    Material: _PartTypeData = _PartTypeData(8, "material", "materials", "MaterialPartData")
+    Body: _PartTypeData = _PartTypeData(0, "Body", "bodies", "BodyPartData")
+    Grip: _PartTypeData = _PartTypeData(1, "Grip", "grips", "GripPartData")
+    Barrel: _PartTypeData = _PartTypeData(2, "Barrel", "barrels", "BarrelPartData")
+    Sight: _PartTypeData = _PartTypeData(3, "Sight", "sights", "SightPartData")
+    Stock: _PartTypeData = _PartTypeData(4, "Stock", "stocks", "StockPartData")
+    Element: _PartTypeData = _PartTypeData(5, "Element", "elements", "ElementalPartData")
+    Accessory: _PartTypeData = _PartTypeData(6, "Accessory", "accessories", "Accessory1PartData")
+    AltAccessory: _PartTypeData = _PartTypeData(7, "Alt Accessory", "alt_accessories", "Accessory2PartData")
+    Material: _PartTypeData = _PartTypeData(8, "Material", "materials", "MaterialPartData")
 
 
 class ItemPartType(BasePartTypeEnum):
-    Alpha: _PartTypeData = _PartTypeData(0, "alpha", "alpha", "AlphaPartData")
-    Beta: _PartTypeData = _PartTypeData(1, "beta", "beta", "BetaPartData")
-    Gamma: _PartTypeData = _PartTypeData(2, "gamma", "gamma", "GammaPartData")
-    Delta: _PartTypeData = _PartTypeData(3, "delta", "delta", "DeltaPartData")
-    Epsilon: _PartTypeData = _PartTypeData(4, "epsilon", "epsilon", "EpsilonPartData")
-    Zeta: _PartTypeData = _PartTypeData(5, "zeta", "zeta", "ZetaPartData")
-    Eta: _PartTypeData = _PartTypeData(6, "eta", "eta", "EtaPartData")
-    Theta: _PartTypeData = _PartTypeData(7, "theta", "theta", "ThetaPartData")
-    Material: _PartTypeData = _PartTypeData(8, "material", "material", "MaterialPartData")
+    Alpha: _PartTypeData = _PartTypeData(0, "Alpha", "alpha", "AlphaPartData")
+    Beta: _PartTypeData = _PartTypeData(1, "Beta", "beta", "BetaPartData")
+    Gamma: _PartTypeData = _PartTypeData(2, "Gamma", "gamma", "GammaPartData")
+    Delta: _PartTypeData = _PartTypeData(3, "Delta", "delta", "DeltaPartData")
+    Epsilon: _PartTypeData = _PartTypeData(4, "Epsilon", "epsilon", "EpsilonPartData")
+    Zeta: _PartTypeData = _PartTypeData(5, "Zeta", "zeta", "ZetaPartData")
+    Eta: _PartTypeData = _PartTypeData(6, "Eta", "eta", "EtaPartData")
+    Theta: _PartTypeData = _PartTypeData(7, "Theta", "theta", "ThetaPartData")
+    Material: _PartTypeData = _PartTypeData(8, "Material", "material", "MaterialPartData")
 
     def get_def_slot(self) -> str:
         definition_slots: Tuple[str, ...] = (
@@ -405,6 +462,24 @@ class ItemPartType(BasePartTypeEnum):
         return definition_slots[self.index]
 
 
+def part_type_from_plural(plural: str) -> BasePartTypeEnum:
+    """
+    Given a part type plural, return it's corosponding part type enum value.
+
+    Args:
+        plural: The plural to look up.
+    Returns:
+        The part type enum where the plural came from.
+    """
+    try:
+        return GenericPartType.from_plural(plural)
+    except ValueError:
+        try:
+            return WeaponPartType.from_plural(plural)
+        except ValueError:
+            return ItemPartType.from_plural(plural)
+
+
 PART_LIST_SLOTS: Tuple[str, ...] = (
     "RuntimePartListCollection",
     "PartListCollection"
@@ -416,10 +491,26 @@ PART_TYPE_OVERRIDES: Dict[str, BasePartTypeEnum] = {
     "GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Jakobs": WeaponPartType.Stock,
     "GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Maliwan": WeaponPartType.Stock,
     "GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Vladof": WeaponPartType.Stock,
+    "GD_Anemone_Weapons.Rocket_Launcher.WorldBurn.L_Barrel_Torgue_WorldBurn": WeaponPartType.Barrel,
     "GD_Anemone_Weapons.Shotguns.SG_Barrel_Alien_Swordsplosion": WeaponPartType.Barrel,
     "GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_Boomacorn": WeaponPartType.Stock,
     "GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_TooScoops": WeaponPartType.Stock,
     "GD_Cork_Weap_SMG.Sight.SMG_Sight_Hyperion_BlackSnake": WeaponPartType.Sight,
+    "GD_Orchid_BossWeapons.AssaultRifle.AR_Accessory_Bayonet_Rapier": WeaponPartType.AltAccessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_BanditClamp_Damage": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_BanditClamp_Wild": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_1": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_2": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Box_BulletSpeed": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Foregrip_Stability": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_None": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Shroud1_MagSize": WeaponPartType.Accessory,
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Shroud2_Accuracy": WeaponPartType.Accessory,
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Bandit": WeaponPartType.Stock,
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Maliwan": WeaponPartType.Stock,
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Tediore": WeaponPartType.Stock,
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Torgue": WeaponPartType.Stock,
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Vladof": WeaponPartType.Stock,
     "GD_Weap_Shotgun.Stock.SG_Stock_Bandit": WeaponPartType.Stock,
     "GD_Weap_Shotgun.Stock.SG_Stock_Hyperion": WeaponPartType.Stock,
     "GD_Weap_Shotgun.Stock.SG_Stock_Jakobs": WeaponPartType.Stock,

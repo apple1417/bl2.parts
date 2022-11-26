@@ -1461,6 +1461,666 @@
         "slot": "Delivery",
         "type": "Grenade"
     },
+    "GD_Anemone_Weapons.Rocket_Launcher.L_Barrel_Maliwan_Pyrophobia": {
+        "name": "Pyrophobia (Anemone)",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Anemone_Weapons.Rocket_Launcher.WorldBurn.L_Barrel_Torgue_WorldBurn": {
+        "name": "World Burn",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Anemone_Weapons.Rocket_Launcher.WorldBurn.Mat_Torgue_5_WorldBurn": {
+        "name": "World Burn",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Bandit_BadaBoom": {
+        "name": "Badaboom",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Bandit_Thingy": {
+        "name": "Thingy",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer": {
+        "name": "Creamer",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Maliwan_Cryophobia": {
+        "name": "Cryophobia",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Tediore_Rocketeer": {
+        "name": "Volt Thrower",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Torgue_Nukem": {
+        "name": "Nukem",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.Barrel.L_Barrel_Vladof_Mongol": {
+        "name": "Mongol",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_5_Thingy": {
+        "name": "Thingy",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_5_Legendary_Cryophobia": {
+        "name": "Cryophobia",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_3_Creamer": {
+        "name": "Creamer",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_3_Rocketeer": {
+        "name": "Volt Thrower",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Gladiolus_Weapons.Launchers.L_Barrel_Bandit_Tunguska": {
+        "name": "Tunguska",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Gladiolus_Weapons.Launchers.L_Body_Torgue_6": {
+        "name": "Tunguska",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Torgue_6_Tunguska": {
+        "name": "Tunguska",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Barrel.L_Barrel_Tediore_KanedasLaser": {
+        "name": "Kaneda's Laser",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Materials.Mat_RL_Bandit_6_Glitch": {
+        "name": "Bandit (Glitch)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Materials.Mat_RL_Maliwan_6_Glitch": {
+        "name": "Maliwan (Glitch)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Materials.Mat_RL_Tediore_5_KanedasLaser": {
+        "name": "Kaneda's Laser",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Materials.Mat_RL_Tediore_6_Glitch": {
+        "name": "Tediore (Glitch)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Materials.Mat_RL_Torgue_6_Glitch": {
+        "name": "Torgue (Glitch)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Ma_Weapons.Materials.Mat_RL_Vladof_6_Glitch": {
+        "name": "Vladof (Glitch)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Orchid_BossWeapons.Launcher.L_Barrel_Torgue_12Pounder": {
+        "name": "12 Pounder",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Torgue_3_12Pounder": {
+        "name": "12 Pounder",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Orchid_BossWeapons.RPG.Ahab.Orchid_Boss_Ahab_Barrel": {
+        "name": "Error Message",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Orchid_BossWeapons.RPG.Ahab.Orchid_Boss_Ahab_Body": {
+        "name": "Ahab",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Torgue_1_Ahab": {
+        "name": "Ahab",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Orchid_RaidWeapons.RPG.Ahab.Orchid_Seraph_Ahab_Barrel": {
+        "name": "Ahab",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Sage_HarpoonGun.Barrel.Sage_HarpoonGun_Barrel": {
+        "name": "Harpoon Gun",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.A_Weapons.WT_Bandit_Launcher": {
+        "name": "Bandit",
+        "slot": "Definition",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.A_Weapons.WT_Maliwan_Launcher": {
+        "name": "Maliwan",
+        "slot": "Definition",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.A_Weapons.WT_Tediore_Launcher": {
+        "name": "Tediore",
+        "slot": "Definition",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.A_Weapons.WT_Torgue_Launcher": {
+        "name": "Torgue",
+        "slot": "Definition",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.A_Weapons.WT_Vladof_Launcher": {
+        "name": "Vladof",
+        "slot": "Definition",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_BodyMod_1_Mag": {
+        "name": "Body 1 Mag",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_BodyMod_2_Acc": {
+        "name": "Body 2 Accuracy",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_Gripper_Reload": {
+        "name": "Reload Grip",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_Handle_SwapSpeed": {
+        "name": "Swap Speed Handle",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_None": {
+        "name": "\"No Accessory\"",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_StockCover_RocketSpeed": {
+        "name": "Rocket Speed Stock",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_StockTube_FireRate": {
+        "name": "Fire Rate Stock",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Accessory.RL_Accessory_TipCover_Damage": {
+        "name": "Damage Tip",
+        "slot": "Accessory",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Alien": {
+        "name": "E-Tech (Tediore)",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Alien_Bandit": {
+        "name": "E-Tech (Bandit)",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Alien_Maliwan": {
+        "name": "E-Tech (Maliwan)",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Alien_Maliwan_Norfleet": {
+        "name": "Norfleet",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Alien_Vladof": {
+        "name": "E-Tech (Vladof)",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Bandit": {
+        "name": "Bandit",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Bandit_BadaBoom": {
+        "name": "Badaboom",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer": {
+        "name": "Creamer",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Pyrophobia": {
+        "name": "Pyrophobia",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Tediore": {
+        "name": "Tediore",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Tediore_Bunny": {
+        "name": "Bunny",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Tediore_Roaster": {
+        "name": "Roaster",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Torgue": {
+        "name": "Torgue",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Torgue_Nukem": {
+        "name": "Nukem",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Torgue_TheHive": {
+        "name": "Hive",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Vladof": {
+        "name": "Vladof",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Barrel.L_Barrel_Vladof_Mongol": {
+        "name": "Mongol",
+        "slot": "Barrel",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Bandit": {
+        "name": "Bandit (Common)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Bandit_2": {
+        "name": "Bandit (Uncommon)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Bandit_3": {
+        "name": "Bandit (Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Bandit_4": {
+        "name": "Bandit (Very Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Maliwan": {
+        "name": "Maliwan (Common)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Maliwan_2": {
+        "name": "Maliwan (Uncommon)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Maliwan_3": {
+        "name": "Maliwan (Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Maliwan_4": {
+        "name": "Maliwan (Very Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Tediore": {
+        "name": "Tediore (Common)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Tediore_2": {
+        "name": "Tediore (Uncommon)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Tediore_3": {
+        "name": "Tediore (Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Tediore_4": {
+        "name": "Tediore (Very Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Torgue": {
+        "name": "Torgue (Common)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Torgue_2": {
+        "name": "Torgue (Uncommon)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Torgue_3": {
+        "name": "Torgue (Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Torgue_4": {
+        "name": "Torgue (Very Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Vladof": {
+        "name": "Vladof (Common)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Vladof_2": {
+        "name": "Vladof (Uncommon)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Vladof_3": {
+        "name": "Vladof (Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Body.L_Body_Vladof_4": {
+        "name": "Vladof (Very Rare)",
+        "slot": "Body",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Bandit": {
+        "name": "Bandit",
+        "slot": "Stock",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Stock",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Tediore": {
+        "name": "Tediore",
+        "slot": "Stock",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Torgue": {
+        "name": "Torgue",
+        "slot": "Stock",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Exhaust.L_Exhaust_Vladof": {
+        "name": "Vladof",
+        "slot": "Stock",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Grip.L_Grip_Bandit": {
+        "name": "Bandit",
+        "slot": "Grip",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Grip.L_Grip_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Grip",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Grip.L_Grip_Tediore": {
+        "name": "Tediore",
+        "slot": "Grip",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Grip.L_Grip_Torgue": {
+        "name": "Torgue",
+        "slot": "Grip",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Grip.L_Grip_Vladof": {
+        "name": "Vladof",
+        "slot": "Grip",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_1": {
+        "name": "Bandit (Common)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_2": {
+        "name": "Bandit (Uncommon)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_3": {
+        "name": "Bandit (Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_3_Roaster": {
+        "name": "Roaster",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_4": {
+        "name": "Bandit (Very Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_5_Legendary": {
+        "name": "Badaboom",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_1": {
+        "name": "Maliwan (Common)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_2": {
+        "name": "Maliwan (Uncommon)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_3": {
+        "name": "Maliwan (Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_3_Hive": {
+        "name": "Hive",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_3_Norfleet": {
+        "name": "Norfleet",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_4": {
+        "name": "Maliwan (Very Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_5_Legendary": {
+        "name": "Pyrophobia",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_1": {
+        "name": "Tediore (Common)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_2": {
+        "name": "Tediore (Uncommon)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_3": {
+        "name": "Tediore (Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_4": {
+        "name": "Tediore (Very Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_5_Legendary": {
+        "name": "Bunny",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_1": {
+        "name": "Torgue (Common)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_2": {
+        "name": "Torgue (Uncommon)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_3": {
+        "name": "Tediore (Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_3_Creamer": {
+        "name": "Creamer",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_4": {
+        "name": "Torgue (Very Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_5_Legendary": {
+        "name": "Nukem",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_1": {
+        "name": "Vladof (Common)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_2": {
+        "name": "Vladof (Uncommon)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_3": {
+        "name": "Vladof (Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_4": {
+        "name": "Vladof (Very Rare)",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_5_Legendary": {
+        "name": "Mongol",
+        "slot": "Material",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Sight.RL_Sight_Bandit": {
+        "name": "Bandit",
+        "slot": "Sight",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Sight.RL_Sight_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Sight",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Sight.RL_Sight_Tediore": {
+        "name": "Tediore",
+        "slot": "Sight",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Sight.RL_Sight_Torgue": {
+        "name": "Torgue",
+        "slot": "Sight",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.Sight.RL_Sight_Vladof": {
+        "name": "Vladof",
+        "slot": "Sight",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.elemental.RL_Elemental_Corrosive": {
+        "name": "Corrosive",
+        "slot": "Element",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.elemental.RL_Elemental_Fire": {
+        "name": "Fire",
+        "slot": "Element",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.elemental.RL_Elemental_Ice": {
+        "name": "Cryo",
+        "slot": "Element",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.elemental.RL_Elemental_None": {
+        "name": "\"No Element\"",
+        "slot": "Element",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.elemental.RL_Elemental_Shock": {
+        "name": "Shock",
+        "slot": "Element",
+        "type": "Launcher"
+    },
+    "GD_Weap_Launchers.elemental.RL_Elemental_Slag": {
+        "name": "Slag",
+        "slot": "Element",
+        "type": "Launcher"
+    },
     "GD_Anemone_Weapons.Barrel.Pistol_Barrel_Dahl_Hornet_Hector": {
         "name": "Hector's Paradise",
         "slot": "Barrel",
@@ -2710,6 +3370,886 @@
         "name": "Slag",
         "slot": "Element",
         "type": "Pistol"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.AR_Barrel_Torgue_Dahl_Worming": {
+        "name": "Toothpick",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.AR_Body_Dahl_6_Worming": {
+        "name": "Toothpick",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.Brothers.AR_Barrel_Dahl_Brothers": {
+        "name": "M2828 Thumpson",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.Brothers.Mat_Jakobs_5_Brothers": {
+        "name": "M2828 Thumpson",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.Mat_Dahl_6_Worming": {
+        "name": "Toothpick",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_RaidWeapons.AssaultRifles.AR_Barrel_Vladof_Seeker": {
+        "name": "Seeker",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Torgue_5_Seeker": {
+        "name": "Seeker",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.AssaultRifles.AR_Barrel_Vladof_Ogre": {
+        "name": "Ogre",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.ManufacturerMaterials.Mat_Bandit_4_Quartz_AR": {
+        "name": "Quartz",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_AR": {
+        "name": "Emerald",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.ManufacturerMaterials.Mat_Jakobs_4_Citrine_AR": {
+        "name": "Citrine",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_3_Ogre": {
+        "name": "Ogre",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_4_Rock_AR": {
+        "name": "Rock",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Aster_Weapons.ManufacturerMaterials.Mat_Vladof_4_Garnet_AR": {
+        "name": "Garnet",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Gladiolus_Weapons.AssaultRifle.AR_Barrel_Jakobs_Sawbar": {
+        "name": "Sawbar",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Gladiolus_Weapons.AssaultRifle.AR_Barrel_Torgue_Dahl_Bearcat": {
+        "name": "Bearcat",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Gladiolus_Weapons.AssaultRifle.AR_Body_Bandit_6_Sawbar": {
+        "name": "Sawbar",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Gladiolus_Weapons.AssaultRifle.AR_Body_Dahl_6_Bearcat": {
+        "name": "Bearcat",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Bandit_6_Sawbar": {
+        "name": "Sawbar",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Dahl_6_Bearcat": {
+        "name": "Bearcat",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Iris_Weapons.AssaultRifles.AR_Barrel_Torgue_BoomPuppy": {
+        "name": "Boom Puppy",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten": {
+        "name": "Kitten",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Iris_Weapons.ManufacturerMaterials.Mat_Torgue_2_BoomPuppy": {
+        "name": "Boom Puppy",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Iris_Weapons.ManufacturerMaterials.Mat_Vladof_3_Kitten": {
+        "name": "Kitten",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Lobelia_Weapons.AssaultRifles.AR_Barrel_Bandit_Bekah": {
+        "name": "Bekah",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Lobelia_Weapons.AssaultRifles.AR_Body_Jakobs_6_Bekah": {
+        "name": "Bekah",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Bekah": {
+        "name": "Bekah",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Barrel.AR_Barrel_Bandit_5_Fusillade": {
+        "name": "Fusillade",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Materials.Mat_AR_Bandit_5_Fusilade": {
+        "name": "Fusillade",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Materials.Mat_AR_Bandit_6_Glitch": {
+        "name": "Bandit (Glitch)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Materials.Mat_AR_Dahl_6_Glitch": {
+        "name": "Dahl (Glitch)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Materials.Mat_AR_Jakobs_6_Glitch": {
+        "name": "Jakobs (Glitch)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Materials.Mat_AR_Torgue_6_Glitch": {
+        "name": "Torgue (Glitch)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Ma_Weapons.Materials.Mat_AR_Vladof_6_Glitch": {
+        "name": "Vladof (Glitch)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Orchid_BossWeapons.AssaultRifle.AR_Accessory_Bayonet_Rapier": {
+        "name": "Rapier",
+        "slot": "Alt Accessory",
+        "type": "Rifle"
+    },
+    "GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier": {
+        "name": "Rapier",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Torgue_Stinkpot": {
+        "name": "Stinkpot",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Jakobs_3_Stinkpot": {
+        "name": "Stinkpot",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Vladof_2_Rapier": {
+        "name": "Rapier",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Barrel": {
+        "name": "Seraphim",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Dahl_1_Seraphim": {
+        "name": "Seraphim",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.AssaultRifles.AR_Accessory_CryBaby_Rapid": {
+        "name": "Cry Baby (Rapid)",
+        "slot": "Alt Accessory",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.AssaultRifles.AR_Accessory_CryBaby_Triple": {
+        "name": "Cry Baby (Triple)",
+        "slot": "Alt Accessory",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.AssaultRifles.AR_Barrel_CryBaby_Default": {
+        "name": "Cry Baby",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.AssaultRifles.AR_Barrel_CryBaby_Wiggle": {
+        "name": "Cry Baby (Wiggle)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.AssaultRifles.AR_Elemental_CryBaby_Piercing": {
+        "name": "Cry Baby (Piercing)",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.AssaultRifles.AR_Elemental_CryBaby_Rage": {
+        "name": "Cry Baby (Rage)",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Petunia_Weapons.ManufacturerMaterials.AssaultRifle.Mat_Bandit_3_CryBaby": {
+        "name": "Cry Baby",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Sage_RaidWeapons.AssaultRifle.AR_Barrel_LeadStorm": {
+        "name": "Lead Storm",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Sage_RaidWeapons.ManufacturerMaterials.Mat_Vladof_1_Leadstorm": {
+        "name": "Lead Storm",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Sage_Weapons.AssaultRifle.AR_Barrel_Bandit_DamnedCowboy": {
+        "name": "Damned Cowboy",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Sage_Weapons.AssaultRifle.AR_Barrel_Vladof_Minigun_Chopper": {
+        "name": "Chopper",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Sage_Weapons.ManufacturerMaterials.Mat_BanditMade_3_Chopper": {
+        "name": "Chopper",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Sage_Weapons.ManufacturerMaterials.Mat_Jakobs_2_DamnedCowboy": {
+        "name": "Damned Cowboy",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle": {
+        "name": "Bandit",
+        "slot": "Definition",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.A_Weapons.WT_Dahl_AssaultRifle": {
+        "name": "Dahl",
+        "slot": "Definition",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.A_Weapons.WT_Jakobs_AssaultRifle": {
+        "name": "Jakobs",
+        "slot": "Definition",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.A_Weapons.WT_Torgue_AssaultRifle": {
+        "name": "Torgue",
+        "slot": "Definition",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.A_Weapons.WT_Vladof_AssaultRifle": {
+        "name": "Vladof",
+        "slot": "Definition",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_BanditClamp_Damage": {
+        "name": "Damage Clamp",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_BanditClamp_Wild": {
+        "name": "Wild Clamp",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_1": {
+        "name": "Bayonet 1",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_2": {
+        "name": "Bayonet 2",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Box_BulletSpeed": {
+        "name": "Box",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Foregrip_Stability": {
+        "name": "Foregrip",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_None": {
+        "name": "\"No Accessory\"",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Shroud1_MagSize": {
+        "name": "Shroud 1 Mag",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Accessory.AR_Accessory_Shroud2_Accuracy": {
+        "name": "Shroud 2 Accuracy",
+        "slot": "Accessory",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Alien": {
+        "name": "E-Tech",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Alien_Dahl": {
+        "name": "E-Tech (Dahl)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Bandit": {
+        "name": "Bandit",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Bandit_Madhouse": {
+        "name": "Madhous",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl": {
+        "name": "Dahl",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail": {
+        "name": "Hail",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_HammerBuster": {
+        "name": "Hammer Buster",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc": {
+        "name": "Veruc",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Jakobs": {
+        "name": "Jakobs",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Jakobs_Scorpio": {
+        "name": "Scorpio",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Jakobs_Stomper": {
+        "name": "Stomper",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Bandit": {
+        "name": "Torgue (Bandit)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Dahl": {
+        "name": "Torgue (Dahl)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Jakobs": {
+        "name": "Torgue (Jakobs)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_KerBlaster": {
+        "name": "KerBlaster",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Torgue": {
+        "name": "Torgue (Torgue)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Vladof": {
+        "name": "Torgue (Vladof)",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof": {
+        "name": "Vladof",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof_EvilSmasher": {
+        "name": "Evil Smasher",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof_Minigun": {
+        "name": "Vladof Minigun",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof_Shredifier": {
+        "name": "Shredifier",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Bandit": {
+        "name": "Bandit (Common)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Bandit_2": {
+        "name": "Bandit (Uncommon)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Bandit_3": {
+        "name": "Bandit (Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Bandit_4": {
+        "name": "Bandit (Very Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Dahl": {
+        "name": "Dahl (Common)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Dahl_2": {
+        "name": "Dahl (Uncommon)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Dahl_3": {
+        "name": "Dahl (Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Dahl_4": {
+        "name": "Dahl (Very Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Gearbox_1": {
+        "name": "Gearbox",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Jakobs": {
+        "name": "Jakobs (Common)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Jakobs_2": {
+        "name": "Jakobs (Uncommon)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Jakobs_3": {
+        "name": "Jakobs (Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Jakobs_4": {
+        "name": "Jakobs (Very Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Torgue": {
+        "name": "Torgue (Common)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Torgue_2": {
+        "name": "Torgue (Uncommon)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Torgue_3": {
+        "name": "Torgue (Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Torgue_4": {
+        "name": "Torgue (Very Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Vladof": {
+        "name": "Vladof (Common)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Vladof_2": {
+        "name": "Vladof (Uncommon)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Vladof_3": {
+        "name": "Vladof (Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Body.AR_Body_Vladof_4": {
+        "name": "Vladof (Very Rare)",
+        "slot": "Body",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Grip.AR_Grip_Bandit": {
+        "name": "Bandit",
+        "slot": "Grip",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Grip.AR_Grip_Dahl": {
+        "name": "Dahl",
+        "slot": "Grip",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Grip.AR_Grip_Jakobs": {
+        "name": "Jakobs",
+        "slot": "Grip",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Grip.AR_Grip_Torgue": {
+        "name": "Torgue",
+        "slot": "Grip",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Grip.AR_Grip_Vladof": {
+        "name": "Vladof",
+        "slot": "Grip",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_1": {
+        "name": "Bandit (Common)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_2": {
+        "name": "Bandit (Uncommon)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_3": {
+        "name": "Bandit (Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_4": {
+        "name": "Bandit (Very Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_5_Legendary": {
+        "name": "Madhous",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_1": {
+        "name": "Dahl (Common)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_2": {
+        "name": "Dahl (Uncommon)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_3": {
+        "name": "Dahl (Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_3_Scorpio": {
+        "name": "Scorpio",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_4": {
+        "name": "Dahl (Very Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_5_Legendary": {
+        "name": "Veruc",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Gearbox_1": {
+        "name": "Gearbox",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_1": {
+        "name": "Jakobs (Common)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_2": {
+        "name": "Jakobs (Uncommon)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_3": {
+        "name": "Jakobs (Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_3_Stomper": {
+        "name": "Stomper",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_4": {
+        "name": "Jakobs (Very Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_5_Legendary": {
+        "name": "Hammer Buster",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_1": {
+        "name": "Torgue (Common)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_2": {
+        "name": "Torgue (Uncommon)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_3": {
+        "name": "Torgue (Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_3_EvilSmasher": {
+        "name": "Evil Smasher",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_4": {
+        "name": "Torgue (Very Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_5_Legendary": {
+        "name": "KerBlaster",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_1": {
+        "name": "Vladof (Common)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_2": {
+        "name": "Vladof (Uncommon)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_3": {
+        "name": "Vladof (Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_3_Hail": {
+        "name": "Hail",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_4": {
+        "name": "Vladof (Very Rare)",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_5_Legendary": {
+        "name": "Shredifier",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Sight.AR_Sight_Bandit": {
+        "name": "Bandit",
+        "slot": "Sight",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Sight.AR_Sight_Dahl": {
+        "name": "Dahl",
+        "slot": "Sight",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Sight.AR_Sight_Jakobs": {
+        "name": "Jakobs",
+        "slot": "Sight",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Sight.AR_Sight_None": {
+        "name": "\"No Sight\"",
+        "slot": "Sight",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Sight.AR_Sight_Torgue": {
+        "name": "Torgue",
+        "slot": "Sight",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Sight.AR_Sight_Vladof": {
+        "name": "Vladof",
+        "slot": "Sight",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Stock.AR_Stock_Bandit": {
+        "name": "Bandit",
+        "slot": "Stock",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Stock.AR_Stock_Dahl": {
+        "name": "Dahl",
+        "slot": "Stock",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Stock.AR_Stock_Jakobs": {
+        "name": "Jakobs",
+        "slot": "Stock",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Stock.AR_Stock_Torgue": {
+        "name": "Torgue",
+        "slot": "Stock",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.Stock.AR_Stock_Vladof": {
+        "name": "Vladof",
+        "slot": "Stock",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.elemental.AR_Elemental_Corrosive": {
+        "name": "Corrosive",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.elemental.AR_Elemental_Fire": {
+        "name": "Fire",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.elemental.AR_Elemental_Ice": {
+        "name": "Cryo",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.elemental.AR_Elemental_None": {
+        "name": "\"No Element\"",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.elemental.AR_Elemental_Shock": {
+        "name": "Shock",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "GD_Weap_AssaultRifle.elemental.AR_Elemental_Slag": {
+        "name": "Slag",
+        "slot": "Element",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Dahl_Hail": {
+        "name": "Hail",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Dahl_HammerBreaker": {
+        "name": "Hammer Buster II",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Dahl_MajorTom": {
+        "name": "Major Tom",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Jakobs_Wallop": {
+        "name": "Wallop",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Torgue_KerBoom": {
+        "name": "KerBoom",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Vladof_IceScream": {
+        "name": "Ice Scream",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Vladof_OldPainful": {
+        "name": "Ol' Painful",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Vladof_Shredifier": {
+        "name": "Shredifier",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Dahl_5_Legendary_MajorTom": {
+        "name": "Major Tom",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Jakobs_3_Wallop": {
+        "name": "Wallop",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Vladof_3_Hail": {
+        "name": "Hail",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Vladof_3_IceScream": {
+        "name": "Ice Scream",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Vladof_3_OlPainful": {
+        "name": "Ol' Painful",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Vladof_5_Legendary_Shredifier": {
+        "name": "Shredifier",
+        "slot": "Material",
+        "type": "Rifle"
     },
     "GD_Anemone_Shields.A_Item.Shield_Nova_Shock_Singularity_Peak": {
         "name": "Easy Mode",

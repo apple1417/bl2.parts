@@ -1,0 +1,2248 @@
+accessories:
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_BodyMod_1_Mag
+  bonuses:
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -3
+  mesh: Acc_BodyMod1
+  name: Body 1 Mag
+  prefixes:
+  - name: Roket Pawket
+    restrict: Bandit
+  - name: Plenteous
+    restrict: Maliwan
+  - name: Deep Pokket
+    restrict: Scav
+  - name: Bonus
+    restrict: Tediore
+  - name: Deep a
+    restrict: Torgue
+  - name: Worker's
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_BodyMod_2_Acc
+  bonuses:
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 2
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 5
+  mesh: Acc_BodyMod2
+  name: Body 2 Accuracy
+  prefixes:
+  - name: Snyper
+    restrict: Bandit
+  - name: Pertinent
+    restrict: Maliwan
+  - name: Zero'd-In
+    restrict: Scav
+  - name: Ultraprecise
+    restrict: Tediore
+  - name: gaa dunk ga
+    restrict: Torgue
+  - name: Victorious
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_Gripper_Reload
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 6
+  mesh: Acc_Gripper
+  name: Reload Grip
+  prefixes:
+  - name: fast actons
+    restrict: Bandit
+  - name: Prudential
+    restrict: Maliwan
+  - name: Clever
+    restrict: Scav
+  - name: Stocking
+    restrict: Tediore
+  - name: dippity
+    restrict: Torgue
+  - name: Ruthless
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_Handle_SwapSpeed
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponEquipTime
+    type: scale
+    value: -1.5
+  - attribute: D_Attributes.Weapon.WeaponPutDownTime
+    type: scale
+    value: -1.5
+  mesh: Acc_Handle
+  name: Swap Speed Handle
+  prefixes:
+  - name: Quik Drawler
+    restrict: Bandit
+  - name: Parataxis
+    restrict: Maliwan
+  - name: Kwik-Change
+    restrict: Scav
+  - name: Swapper's
+    restrict: Tediore
+  - name: fwap a
+    restrict: Torgue
+  - name: Moscovite's
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_None
+  name: '"No Accessory"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_StockCover_RocketSpeed
+  bonuses:
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 7
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 2
+  mesh: Acc_StockCover
+  name: Rocket Speed Stock
+  prefixes:
+  - name: Speeedee
+    restrict: Bandit
+  - name: Punitory
+    restrict: Maliwan
+  - name: Rev'd-Up
+    restrict: Scav
+  - name: Rocket Speed
+    restrict: Tediore
+  - name: fidle dee
+    restrict: Torgue
+  - name: Paritisan
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_StockTube_FireRate
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 6
+  - slot: WeaponDamage
+    type: grade
+    value: -1
+  mesh: Acc_StockTube
+  name: Fire Rate Stock
+  prefixes:
+  - name: Rappid
+    restrict: Bandit
+  - name: Predacious
+    restrict: Maliwan
+  - name: Kiwk-Smart
+    restrict: Scav
+  - name: Bustling
+    restrict: Tediore
+  - name: dum pa
+    restrict: Torgue
+  - name: Turbulent
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Accessory.RL_Accessory_TipCover_Damage
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 7
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -6
+  - slot: WeaponFireRate
+    type: grade
+    value: -5
+  mesh: Acc_TipCover
+  name: Damage Tip
+  prefixes:
+  - name: Big
+    restrict: Bandit
+  - name: Puissant
+    restrict: Maliwan
+  - name: Heap'd
+    restrict: Scav
+  - name: Large
+    restrict: Tediore
+  - name: derp
+    restrict: Torgue
+  - name: Rugged
+    restrict: Vladof
+  rarity: 0
+  unique: false
+barrels:
+- _obj_name: GD_Anemone_Weapons.Rocket_Launcher.L_Barrel_Maliwan_Pyrophobia
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 10
+  - slot: AccuracyMax
+    type: grade
+    value: 100
+  - slot: AccuracyMin
+    type: grade
+    value: 100
+  - slot: AccuracyRegen
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 1000
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AmmoResource_Rocket_Launcher.Ammo_Rocket_Launcher_RegenerationRate
+    type: pre-add
+    value: 4
+  mesh: L_Barrel_Maliwan
+  name: Pyrophobia (Anemone)
+  rarity: 5
+  unique: true
+- _obj_name: GD_Anemone_Weapons.Rocket_Launcher.WorldBurn.L_Barrel_Torgue_WorldBurn
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 2
+  mesh: L_Barrel_Torgue
+  name: World Burn
+  rarity: 502
+  unique: true
+- _obj_name: GD_Cork_Weap_Launchers.Barrel.L_Barrel_Bandit_Thingy
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  mesh: L_Barrel_Bandit
+  name: Thingy
+  rarity: 5
+  unique: true
+- _obj_name: GD_Cork_Weap_Launchers.Barrel.L_Barrel_Maliwan_Cryophobia
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: L_Barrel_Maliwan
+  name: Cryophobia
+  rarity: 5
+  unique: true
+- _obj_name: GD_Cork_Weap_Launchers.Barrel.L_Barrel_Tediore_Rocketeer
+  bonuses:
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -0.7
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1.1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.5
+  mesh: L_Barrel_Tediore
+  name: Volt Thrower
+  rarity: 0
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.Launchers.L_Barrel_Bandit_Tunguska
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  mesh: L_Barrel_Bandit
+  name: Tunguska
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.L_Barrel_Tediore_KanedasLaser
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -0.7
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: -5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  mesh: L_Barrel_Tediore
+  name: Kaneda's Laser
+  rarity: 5
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.Launcher.L_Barrel_Torgue_12Pounder
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 18
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1
+  mesh: L_Barrel_Torgue
+  name: 12 Pounder
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.RPG.Ahab.Orchid_Boss_Ahab_Barrel
+  mesh: L_Barrel_Maliwan
+  name: Error Message
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.RPG.Ahab.Orchid_Seraph_Ahab_Barrel
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: -20
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -0.2
+  mesh: L_Barrel_Maliwan
+  name: Ahab
+  rarity: 497
+  unique: true
+- _obj_name: GD_Sage_HarpoonGun.Barrel.Sage_HarpoonGun_Barrel
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: L_Barrel_Bandit
+  name: Harpoon Gun
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Alien
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  mesh: L_Barrel_Alien
+  name: E-Tech (Tediore)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Alien_Bandit
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 7
+  mesh: L_Barrel_Alien
+  name: E-Tech (Bandit)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Alien_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  mesh: L_Barrel_Alien
+  name: E-Tech (Maliwan)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Alien_Maliwan_Norfleet
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  mesh: L_Barrel_Alien
+  name: Norfleet
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Alien_Vladof
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  mesh: L_Barrel_Alien
+  name: E-Tech (Vladof)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Bandit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: L_Barrel_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Bandit_BadaBoom
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 3
+  mesh: L_Barrel_Bandit
+  name: Badaboom
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Maliwan
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: L_Barrel_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Creamer
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.35
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.02
+  mesh: L_Barrel_Maliwan
+  name: Creamer
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Maliwan_Pyrophobia
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -0.3
+  mesh: L_Barrel_Maliwan
+  name: Pyrophobia
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Tediore
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -0.7
+  mesh: L_Barrel_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Tediore_Bunny
+  mesh: L_Barrel_Tediore
+  name: Bunny
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Tediore_Roaster
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  mesh: L_Barrel_Tediore
+  name: Roaster
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Torgue
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -5
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: -0.05
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Torgue
+    type: scale
+    value: 0.2
+  mesh: L_Barrel_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Torgue_Nukem
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -10
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1
+  mesh: L_Barrel_Torgue
+  name: Nukem
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Torgue_TheHive
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -10
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -25
+  - slot: WeaponFireRate
+    type: grade
+    value: -25
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  mesh: L_Barrel_Torgue
+  name: Hive
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 8
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Vladof
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: -0.25
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 2.5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 1
+  mesh: L_Barrel_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Barrel.L_Barrel_Vladof_Mongol
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  mesh: L_Barrel_Vladof
+  name: Mongol
+  rarity: 5
+  unique: true
+bodies:
+- _obj_name: GD_Gladiolus_Weapons.Launchers.L_Body_Torgue_6
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: L_Body_Torgue
+  name: Tunguska
+  rarity: 500
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.RPG.Ahab.Orchid_Boss_Ahab_Body
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 20
+  - slot: WeaponMagSize
+    type: grade
+    value: 8
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: L_Body_Torgue
+  name: Ahab
+  rarity: 501
+  unique: true
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Bandit
+  mesh: L_Body_Bandit
+  name: Bandit (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Bandit_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: L_Body_Bandit
+  name: Bandit (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Bandit_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: L_Body_Bandit
+  name: Bandit (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Bandit_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: L_Body_Bandit
+  name: Bandit (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Maliwan
+  mesh: L_Body_Maliwan
+  name: Maliwan (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Maliwan_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: L_Body_Maliwan
+  name: Maliwan (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Maliwan_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: L_Body_Maliwan
+  name: Maliwan (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Maliwan_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: L_Body_Maliwan
+  name: Maliwan (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Tediore
+  mesh: L_Body_Tediore
+  name: Tediore (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Tediore_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: L_Body_Tediore
+  name: Tediore (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Tediore_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: L_Body_Tediore
+  name: Tediore (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Tediore_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: L_Body_Tediore
+  name: Tediore (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Torgue
+  mesh: L_Body_Torgue
+  name: Torgue (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Torgue_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: L_Body_Torgue
+  name: Torgue (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Torgue_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: L_Body_Torgue
+  name: Torgue (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Torgue_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: L_Body_Torgue
+  name: Torgue (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Vladof
+  mesh: L_Body_Vladof
+  name: Vladof (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Vladof_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: L_Body_Vladof
+  name: Vladof (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Vladof_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: L_Body_Vladof
+  name: Vladof (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_Launchers.Body.L_Body_Vladof_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: L_Body_Vladof
+  name: Vladof (Very Rare)
+  rarity: 4
+  unique: false
+definitions:
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Bandit_Launcher
+  _original:
+    game: BL2
+    name: Bandit
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  name: Bandit (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Bandit_Launcher
+  _original:
+    game: TPS
+    name: Bandit
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Bandit (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Maliwan_Launcher
+  _original:
+    game: BL2
+    name: Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.45
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  name: Maliwan (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Maliwan_Launcher
+  _original:
+    game: TPS
+    name: Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.45
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Maliwan (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Tediore_Launcher
+  _original:
+    game: BL2
+    name: Tediore
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  name: Tediore (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Tediore_Launcher
+  _original:
+    game: TPS
+    name: Tediore
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Tediore (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Torgue_Launcher
+  _original:
+    game: BL2
+    name: Torgue
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  name: Torgue (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Torgue_Launcher
+  _original:
+    game: TPS
+    name: Torgue
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Torgue (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Vladof_Launcher
+  _original:
+    game: BL2
+    name: Vladof
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  name: Vladof (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.A_Weapons.WT_Vladof_Launcher
+  _original:
+    game: TPS
+    name: Vladof
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Vladof (TPS)
+  rarity: 0
+  unique: false
+elements:
+- _obj_name: GD_Weap_Launchers.elemental.RL_Elemental_Corrosive
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2
+  name: Corrosive
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.elemental.RL_Elemental_Fire
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Fire
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.elemental.RL_Elemental_Ice
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental1
+  name: Cryo
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.elemental.RL_Elemental_None
+  name: '"No Element"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.elemental.RL_Elemental_Shock
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2
+  name: Shock
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.elemental.RL_Elemental_Slag
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental1
+  name: Slag
+  rarity: 0
+  unique: false
+grips:
+- _obj_name: GD_Weap_Launchers.Grip.L_Grip_Bandit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -2
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Bandit
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: L_Grip_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Grip.L_Grip_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 1
+  mesh: L_Grip_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Grip.L_Grip_Tediore
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 4
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: 1
+  mesh: L_Grip_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Grip.L_Grip_Torgue
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: -2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Torgue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 1
+  mesh: L_Grip_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Grip.L_Grip_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: AccuracyRegen
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Vladof
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 1
+  mesh: L_Grip_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+materials:
+- _obj_name: GD_Anemone_Weapons.Rocket_Launcher.WorldBurn.Mat_Torgue_5_WorldBurn
+  name: World Burn
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_5_Thingy
+  name: Thingy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_5_Legendary_Cryophobia
+  name: Cryophobia
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_3_Rocketeer
+  name: Volt Thrower
+  rarity: 0
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Torgue_6_Tunguska
+  name: Tunguska
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_RL_Bandit_6_Glitch
+  name: Bandit (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_RL_Maliwan_6_Glitch
+  name: Maliwan (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_RL_Tediore_5_KanedasLaser
+  name: Kaneda's Laser
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_RL_Tediore_6_Glitch
+  name: Tediore (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_RL_Torgue_6_Glitch
+  name: Torgue (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_RL_Vladof_6_Glitch
+  name: Vladof (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Torgue_3_12Pounder
+  name: 12 Pounder
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Torgue_1_Ahab
+  name: Ahab
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_1
+  name: Bandit (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_2
+  name: Bandit (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_3
+  name: Bandit (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_3_Roaster
+  name: Roaster
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_4
+  name: Bandit (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_BanditMade_5_Legendary
+  name: Badaboom
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_1
+  name: Maliwan (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_2
+  name: Maliwan (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_3
+  name: Maliwan (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_3_Hive
+  name: Hive
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_3_Norfleet
+  name: Norfleet
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_4
+  name: Maliwan (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Maliwan_5_Legendary
+  name: Pyrophobia
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_1
+  name: Tediore (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_2
+  name: Tediore (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_3
+  name: Tediore (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_4
+  name: Tediore (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Tediore_5_Legendary
+  name: Bunny
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_1
+  name: Torgue (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_2
+  name: Torgue (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_3_Creamer
+  name: Creamer
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_4
+  name: Torgue (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Torgue_5_Legendary
+  name: Nukem
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_1
+  name: Vladof (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_2
+  name: Vladof (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_3
+  name: Vladof (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_4
+  name: Vladof (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.ManufacturerMaterials.Mat_Vladof_5_Legendary
+  name: Mongol
+  rarity: 0
+  unique: true
+sights:
+- _obj_name: GD_Weap_Launchers.Sight.RL_Sight_Bandit
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 3
+  - slot: AccuracyMax
+    type: grade
+    value: 4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: L_Scope_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Sight.RL_Sight_Maliwan
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 12
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: L_Scope_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Sight.RL_Sight_Tediore
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 6
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: L_Scope_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Sight.RL_Sight_Torgue
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 4
+  - slot: AccuracyMin
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: L_Scope_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Sight.RL_Sight_Vladof
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 8
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: L_Scope_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+stocks:
+- _obj_name: GD_Weap_Launchers.Exhaust.L_Exhaust_Bandit
+  bonuses:
+  - slot: WeaponMagSize
+    type: grade
+    value: 4
+  - slot: AccuracyMin
+    type: grade
+    value: -2
+  mesh: L_Exhaust_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Exhaust.L_Exhaust_Maliwan
+  bonuses:
+  - slot: WeaponRocketSpeed
+    type: grade
+    value: 4
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: -2
+  mesh: L_Exhaust_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Exhaust.L_Exhaust_Tediore
+  mesh: L_Exhaust_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Exhaust.L_Exhaust_Torgue
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponFireRate
+    type: grade
+    value: -2
+  mesh: L_Exhaust_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_Launchers.Exhaust.L_Exhaust_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - slot: WeaponZoomFOV
+    type: grade
+    value: -2
+  mesh: L_Exhaust_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+meta:
+  definitions:
+  - _obj_name: GD_Weap_Launchers.A_Weapons.WT_Bandit_Launcher
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 3
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 8
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 96
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.1
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+      base: 0
+      per_grade: 0.4
+      slot: WeaponRocketSpeed
+      type: scale
+    name: Bandit
+    unique: false
+  - _obj_name: GD_Weap_Launchers.A_Weapons.WT_Maliwan_Launcher
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 3
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 6.2
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 3
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 200
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.1
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+      base: 0
+      per_grade: 0.4
+      slot: WeaponRocketSpeed
+      type: scale
+    name: Maliwan
+    unique: false
+  - _obj_name: GD_Weap_Launchers.A_Weapons.WT_Tediore_Launcher
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 200
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.1
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+      base: 0
+      per_grade: 0.4
+      slot: WeaponRocketSpeed
+      type: scale
+    name: Tediore
+    unique: false
+  - _obj_name: GD_Weap_Launchers.A_Weapons.WT_Torgue_Launcher
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 10
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 280
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.1
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+      base: 0
+      per_grade: 0.4
+      slot: WeaponRocketSpeed
+      type: scale
+    name: Torgue
+    unique: false
+  - _obj_name: GD_Weap_Launchers.A_Weapons.WT_Vladof_Launcher
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 7
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 4.8
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 136
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.1
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+      base: 0
+      per_grade: 0.4
+      slot: WeaponRocketSpeed
+      type: scale
+    name: Vladof
+    unique: false

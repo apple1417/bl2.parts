@@ -1,0 +1,3542 @@
+accessories:
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_BanditClamp_Damage
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 7
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -7
+  - slot: WeaponFireRate
+    type: grade
+    value: -4
+  mesh: Acc_Body_BanditClamp
+  name: Damage Clamp
+  prefixes:
+  - name: Nassty
+    restrict: Bandit
+  - name: Attack
+    restrict: Dahl
+  - name: Deadly
+    restrict: Default
+  - name: Boss
+    restrict: Jakobs
+  - name: Severe
+    restrict: Scav
+  - name: Nasty
+    restrict: Torgue
+  - name: Ferocious
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_BanditClamp_Wild
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: -24
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  mesh: Acc_Body_BanditClamp
+  name: Wild Clamp
+  prefixes:
+  - name: Wyld Asss
+    restrict: Bandit
+  - name: Feral
+    restrict: Dahl
+  - name: Wild
+    restrict: Default
+  - name: Wild
+    restrict: Jakobs
+  - name: Savage
+    restrict: Scav
+  - name: Wild
+    restrict: Torgue
+  - name: Rabid
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_1
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Barrel_Bayonet1
+  name: Bayonet 1
+  prefixes:
+  - name: Breach
+    restrict: Dahl
+  - name: Bladed
+    restrict: Default
+  - name: Razor
+    restrict: Jakobs
+  - name: Skewering
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_Bayonet_2
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Barrel_Bayonet2
+  name: Bayonet 2
+  prefixes:
+  - name: Nifed
+    restrict: Bandit
+  - name: Bladed
+    restrict: Default
+  - name: Pointy
+    restrict: Scav
+  - name: Stabbing
+    restrict: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_Box_BulletSpeed
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: scale
+    value: 1
+  mesh: Acc_Body_Box
+  name: Box
+  prefixes:
+  - name: Fast Bulets
+    restrict: Bandit
+  - name: Deep
+    restrict: Dahl
+  - name: Accelerated
+    restrict: Default
+  - name: Cowboy
+    restrict: Jakobs
+  - name: Over-Drive
+    restrict: Scav
+  - name: Slippery
+    restrict: Torgue
+  - name: Swift
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_Foregrip_Stability
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  mesh: Acc_Barrel_Grip
+  name: Foregrip
+  prefixes:
+  - name: Taktikal
+    restrict: Bandit
+  - name: Patrol
+    restrict: Dahl
+  - name: Tactical
+    restrict: Default
+  - name: Horse
+    restrict: Jakobs
+  - name: Stable
+    restrict: Scav
+  - name: Rhythmic
+    restrict: Torgue
+  - name: Resolute
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_None
+  name: '"No Accessory"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_Shroud1_MagSize
+  bonuses:
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 3
+  mesh: Acc_Stock_Shroud1
+  name: Shroud 1 Mag
+  prefixes:
+  - name: Expandifide
+    restrict: Bandit
+  - name: Onslaught
+    restrict: Dahl
+  - name: Expanded
+    restrict: Default
+  - name: Flush
+    restrict: Jakobs
+  - name: Engorg'd
+    restrict: Scav
+  - name: Plump
+    restrict: Torgue
+  - name: Exspansive
+    restrict: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Accessory.AR_Accessory_Shroud2_Accuracy
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  mesh: Acc_Stock_Shroud2
+  name: Shroud 2 Accuracy
+  prefixes:
+  - name: Akurate
+    restrict: Bandit
+  - name: Scout
+    restrict: Dahl
+  - name: Fine
+    restrict: Default
+  - name: Deadshot
+    restrict: Jakobs
+  - name: Dead-On
+    restrict: Scav
+  - name: Rigorous
+    restrict: Torgue
+  - name: Severe
+    restrict: Vladof
+  rarity: 0
+  unique: false
+alt_accessories:
+- _obj_name: GD_Orchid_BossWeapons.AssaultRifle.AR_Accessory_Bayonet_Rapier
+  mesh: Acc_Barrel_Bayonet2
+  name: Rapier
+  rarity: 0
+  unique: true
+- _obj_name: GD_Petunia_Weapons.AssaultRifles.AR_Accessory_CryBaby_Rapid
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.3
+  name: Cry Baby (Rapid)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Petunia_Weapons.AssaultRifles.AR_Accessory_CryBaby_Triple
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: post-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.35
+  name: Cry Baby (Triple)
+  rarity: 0
+  unique: true
+barrels:
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.AR_Barrel_Torgue_Dahl_Worming
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -25
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -8
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.9
+  mesh: AR_Barrel_Vladof_Alt
+  name: Toothpick
+  rarity: 0
+  unique: true
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.Brothers.AR_Barrel_Dahl_Brothers
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 35
+  mesh: AR_Barrel_Dahl
+  name: M2828 Thumpson
+  rarity: 5
+  unique: true
+- _obj_name: GD_Aster_RaidWeapons.AssaultRifles.AR_Barrel_Vladof_Seeker
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 2
+  mesh: AR_Barrel_Vladof_Alt
+  name: Seeker
+  rarity: 497
+  unique: true
+- _obj_name: GD_Aster_Weapons.AssaultRifles.AR_Barrel_Vladof_Ogre
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 14
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.17
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 1.5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 28
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 0.25
+  mesh: AR_Barrel_Vladof
+  name: Ogre
+  rarity: 5
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.AssaultRifle.AR_Barrel_Jakobs_Sawbar
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.15
+  mesh: AR_Barrel_Jakobs
+  name: Sawbar
+  rarity: 0
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.AssaultRifle.AR_Barrel_Torgue_Dahl_Bearcat
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -25
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.6
+  mesh: AR_Barrel_Torgue
+  name: Bearcat
+  rarity: 0
+  unique: true
+- _obj_name: GD_Iris_Weapons.AssaultRifles.AR_Barrel_Torgue_BoomPuppy
+  bonuses:
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 0.6
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.5
+  mesh: AR_Barrel_Torgue
+  name: Boom Puppy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Iris_Weapons.AssaultRifles.AR_Barrel_Vladof_Kitten
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: WeaponFireRate
+    type: grade
+    value: -10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: AccuracyMin
+    type: grade
+    value: 8
+  - slot: AccuracyMax
+    type: grade
+    value: 15
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 10
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.04
+  mesh: AR_Barrel_Vladof_Alt
+  name: Kitten
+  rarity: 0
+  unique: true
+- _obj_name: GD_Lobelia_Weapons.AssaultRifles.AR_Barrel_Bandit_Bekah
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.5
+  mesh: AR_Barrel_Bandit
+  name: Bekah
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.AR_Barrel_Bandit_5_Fusillade
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.2
+  mesh: AR_Barrel_Bandit
+  name: Fusillade
+  rarity: 5
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Bandit_Rapier
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 10
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 35
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.DamageSourceModifiers.ReceivedMeleeDamageModifier
+    type: pre-add
+    value: 1
+  mesh: AR_Barrel_Bandit
+  name: Rapier
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.AssaultRifle.AR_Barrel_Torgue_Stinkpot
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -30
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2.5
+  mesh: AR_Barrel_Torgue
+  name: Stinkpot
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.AssaultRifle.Seraphim.Orchid_Seraph_Seraphim_Barrel
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -20
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2.2
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 1
+  mesh: AR_Barrel_Dahl
+  name: Seraphim
+  rarity: 497
+  unique: true
+- _obj_name: GD_Petunia_Weapons.AssaultRifles.AR_Barrel_CryBaby_Default
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponFireRate
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: AR_Barrel_Bandit
+  name: Cry Baby
+  rarity: 0
+  unique: true
+- _obj_name: GD_Petunia_Weapons.AssaultRifles.AR_Barrel_CryBaby_Wiggle
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - slot: WeaponFireRate
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: AR_Barrel_Alien
+  name: Cry Baby (Wiggle)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Sage_RaidWeapons.AssaultRifle.AR_Barrel_LeadStorm
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.23
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    type: pre-add
+    value: 0.35
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: pre-add
+    value: 0.3
+  mesh: AR_Barrel_Vladof
+  name: Lead Storm
+  rarity: 497
+  unique: true
+- _obj_name: GD_Sage_Weapons.AssaultRifle.AR_Barrel_Bandit_DamnedCowboy
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: 0.4
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: pre-add
+    value: 0.35
+  mesh: AR_Barrel_Bandit
+  name: Damned Cowboy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Sage_Weapons.AssaultRifle.AR_Barrel_Vladof_Minigun_Chopper
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  - slot: AccuracyMax
+    type: grade
+    value: -10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: pre-add
+    value: -0.08
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    type: pre-add
+    value: 1500
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 760
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 3
+  mesh: AR_Barrel_Vladof
+  name: Chopper
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Alien
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 30
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponAdditionalRicochets
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.5
+  mesh: AR_Barrel_Alien
+  name: E-Tech
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Alien_Dahl
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 1
+  mesh: AR_Barrel_Alien
+  name: E-Tech (Dahl)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Bandit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Bandit
+    type: scale
+    value: 0.05
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: AR_Barrel_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Bandit_Madhouse
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 24
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: -0.7
+  mesh: AR_Barrel_Bandit
+  name: Madhous
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: AR_Barrel_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Hail
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 10
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 2
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.03
+  mesh: AR_Barrel_Dahl
+  name: Hail
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_HammerBuster
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.15
+  mesh: AR_Barrel_Dahl
+  name: Hammer Buster
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Dahl_Veruc
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 12
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: AR_Barrel_Dahl
+  name: Veruc
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Jakobs
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 6
+  - slot: AccuracyMin
+    type: grade
+    value: 5
+  - slot: WeaponDamage
+    type: grade
+    value: 6
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Jakobs
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.15
+  mesh: AR_Barrel_Jakobs
+  name: Jakobs
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Jakobs_Scorpio
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 6
+  - slot: WeaponFireRate
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: AR_Barrel_Jakobs
+  name: Scorpio
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Jakobs_Stomper
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 7
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -15
+  - slot: WeaponFireRate
+    type: grade
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Jakobs
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.5
+  mesh: AR_Barrel_Jakobs
+  name: Stomper
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Bandit
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -30
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.5
+  mesh: AR_Barrel_Torgue
+  name: Torgue (Bandit)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Dahl
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -25
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.6
+  mesh: AR_Barrel_Torgue
+  name: Torgue (Dahl)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Jakobs
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -30
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.5
+  mesh: AR_Barrel_Torgue
+  name: Torgue (Jakobs)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_KerBlaster
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -20
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 4.3
+  mesh: AR_Barrel_Torgue
+  name: KerBlaster
+  rarity: 5
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Torgue
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -30
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 2.6
+  mesh: AR_Barrel_Torgue
+  name: Torgue (Torgue)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Torgue_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -20
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.7
+  mesh: AR_Barrel_Torgue
+  name: Torgue (Vladof)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -5
+  - slot: WeaponFireRate
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  - slot: WeaponMagSize
+    type: grade
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Vladof
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -1
+  mesh: AR_Barrel_Vladof_Alt
+  name: Vladof
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof_EvilSmasher
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -20
+  - slot: WeaponSpread
+    type: grade
+    value: -20
+  - slot: WeaponFireRate
+    type: grade
+    value: -20
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -20
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -5
+  - slot: WeaponMagSize
+    type: grade
+    value: -20
+  - slot: AccuracyMin
+    type: grade
+    value: -20
+  - slot: AccuracyMax
+    type: grade
+    value: -20
+  mesh: AR_Barrel_Vladof_Alt
+  name: Evil Smasher
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof_Minigun
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: WeaponFireRate
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Vladof
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: -0.25
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 0.03
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: AR_Barrel_Vladof
+  name: Vladof Minigun
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Barrel.AR_Barrel_Vladof_Shredifier
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponFireRate
+    type: grade
+    value: 18
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Vladof
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 20
+  mesh: AR_Barrel_Vladof
+  name: Shredifier
+  rarity: 5
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Dahl_HammerBreaker
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 8
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.125
+  mesh: AR_Barrel_Dahl
+  name: Hammer Buster II
+  rarity: 5
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Dahl_MajorTom
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 5
+  - slot: AccuracyMax
+    type: grade
+    value: 5
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 12
+  - slot: WeaponBurstImpulse
+    type: grade
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -0.4
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: AR_Barrel_Dahl
+  name: Major Tom
+  rarity: 5
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Jakobs_Wallop
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 7
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -15
+  - slot: WeaponFireRate
+    type: grade
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Jakobs
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.6
+  mesh: AR_Barrel_Jakobs
+  name: Wallop
+  rarity: 0
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Torgue_KerBoom
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -70
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 4.3
+  mesh: AR_Barrel_Torgue
+  name: KerBoom
+  rarity: 5
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Vladof_IceScream
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -4
+  - slot: WeaponFireRate
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: -0.25
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinUpDuration
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponBarrelSpinDownDuration
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponExtraShotChance
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 0.25
+  - attribute: GD_Weap_AssaultRifle.WeaponIsIceScream
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 0.03
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: AR_Barrel_Vladof
+  name: Ice Scream
+  rarity: 0
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.Barrel.AR_Barrel_Vladof_OldPainful
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponFireRate
+    type: grade
+    value: 18
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 10
+  - slot: WeaponMagSize
+    type: grade
+    value: 10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Vladof
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 20
+  mesh: AR_Barrel_Vladof
+  name: Ol' Painful
+  rarity: 0
+  unique: true
+bodies:
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.AR_Body_Dahl_6_Worming
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Dahl
+  name: Toothpick
+  rarity: 506
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.AssaultRifle.AR_Body_Bandit_6_Sawbar
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 3
+  mesh: AR_Body_Bandit
+  name: Sawbar
+  rarity: 500
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.AssaultRifle.AR_Body_Dahl_6_Bearcat
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Dahl
+  name: Bearcat
+  rarity: 500
+  unique: true
+- _obj_name: GD_Lobelia_Weapons.AssaultRifles.AR_Body_Jakobs_6_Bekah
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Jakobs
+  name: Bekah
+  rarity: 500
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Bandit
+  mesh: AR_Body_Bandit
+  name: Bandit (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Bandit_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: AR_Body_Bandit
+  name: Bandit (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Bandit_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 3
+  mesh: AR_Body_Bandit
+  name: Bandit (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Bandit_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: pre-add
+    value: 3
+  mesh: AR_Body_Bandit
+  name: Bandit (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Dahl
+  mesh: AR_Body_Dahl
+  name: Dahl (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Dahl_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: AR_Body_Dahl
+  name: Dahl (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Dahl_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: AR_Body_Dahl
+  name: Dahl (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Dahl_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Dahl
+  name: Dahl (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Gearbox_1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.1
+  mesh: AR_Body_Vladof
+  name: Gearbox
+  rarity: 1
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Jakobs
+  mesh: AR_Body_Jakobs
+  name: Jakobs (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Jakobs_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: AR_Body_Jakobs
+  name: Jakobs (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Jakobs_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: AR_Body_Jakobs
+  name: Jakobs (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Jakobs_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Jakobs
+  name: Jakobs (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Torgue
+  mesh: AR_Body_Torgue
+  name: Torgue (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Torgue_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: AR_Body_Torgue
+  name: Torgue (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Torgue_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: AR_Body_Torgue
+  name: Torgue (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Torgue_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Torgue
+  name: Torgue (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Vladof
+  mesh: AR_Body_Vladof
+  name: Vladof (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Vladof_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  mesh: AR_Body_Vladof
+  name: Vladof (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Vladof_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: AR_Body_Vladof
+  name: Vladof (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Body.AR_Body_Vladof_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  mesh: AR_Body_Vladof
+  name: Vladof (Very Rare)
+  rarity: 4
+  unique: false
+definitions:
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle
+  _original:
+    game: BL2
+    name: Bandit
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.1
+  name: Bandit (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle
+  _original:
+    game: TPS
+    name: Bandit
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Bandit (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Dahl_AssaultRifle
+  _original:
+    game: BL2
+    name: Dahl
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.08
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.1
+  name: Dahl (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Dahl_AssaultRifle
+  _original:
+    game: TPS
+    name: Dahl
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.08
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Dahl (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Jakobs_AssaultRifle
+  _original:
+    game: BL2
+    name: Jakobs
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Jakobs (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Jakobs_AssaultRifle
+  _original:
+    game: TPS
+    name: Jakobs
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponProjectileSpeedMultiplier
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: pre-add
+    value: 0.3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Jakobs (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Torgue_AssaultRifle
+  _original:
+    game: BL2
+    name: Torgue
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.1
+  name: Torgue (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Torgue_AssaultRifle
+  _original:
+    game: TPS
+    name: Torgue
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Torgue (TPS)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Vladof_AssaultRifle
+  _original:
+    game: BL2
+    name: Vladof
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.1
+  name: Vladof (BL2)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Vladof_AssaultRifle
+  _original:
+    game: TPS
+    name: Vladof
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  name: Vladof (TPS)
+  rarity: 0
+  unique: false
+elements:
+- _obj_name: GD_Petunia_Weapons.AssaultRifles.AR_Elemental_CryBaby_Piercing
+  mesh: Acc_Barrel_Elemental1
+  name: Cry Baby (Piercing)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Petunia_Weapons.AssaultRifles.AR_Elemental_CryBaby_Rage
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.25
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.6
+  mesh: Acc_Barrel_Elemental2
+  name: Cry Baby (Rage)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.elemental.AR_Elemental_Corrosive
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2
+  name: Corrosive
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.elemental.AR_Elemental_Fire
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental3
+  name: Fire
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.elemental.AR_Elemental_Ice
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2
+  name: Cryo
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.elemental.AR_Elemental_None
+  name: '"No Element"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.elemental.AR_Elemental_Shock
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental2
+  name: Shock
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.elemental.AR_Elemental_Slag
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.2
+  mesh: Acc_Barrel_Elemental1
+  name: Slag
+  rarity: 0
+  unique: false
+grips:
+- _obj_name: GD_Weap_AssaultRifle.Grip.AR_Grip_Bandit
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -2
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Bandit
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Bandit
+    type: pre-add
+    value: 6
+  mesh: AR_Grip_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Grip.AR_Grip_Dahl
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 4
+  mesh: AR_Grip_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Grip.AR_Grip_Jakobs
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 4
+  - slot: WeaponFireRate
+    type: grade
+    value: -3
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -1
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Jakobs
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Jakobs
+    type: pre-add
+    value: 2
+  mesh: AR_Grip_Jakobs
+  name: Jakobs
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Grip.AR_Grip_Torgue
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: -2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: -2
+  - slot: WeaponDamage
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Torgue
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Torgue
+    type: pre-add
+    value: 4
+  mesh: AR_Grip_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Grip.AR_Grip_Vladof
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: 4
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: AccuracyRegen
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Jakobs
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Vladof
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Vladof
+    type: pre-add
+    value: 5
+  mesh: AR_Grip_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+materials:
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.Brothers.Mat_Jakobs_5_Brothers
+  name: M2828 Thumpson
+  rarity: 0
+  unique: true
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.Mat_Dahl_6_Worming
+  name: Toothpick
+  rarity: 0
+  unique: true
+- _obj_name: GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Torgue_5_Seeker
+  name: Seeker
+  rarity: 0
+  unique: true
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Bandit_4_Quartz_AR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.2
+  name: Quartz
+  rarity: 0
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Dahl_4_Emerald_AR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Emerald
+  rarity: 0
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Jakobs_4_Citrine_AR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Citrine
+  rarity: 0
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_3_Ogre
+  name: Ogre
+  rarity: 0
+  unique: true
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Torgue_4_Rock_AR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Rock
+  rarity: 0
+  unique: false
+- _obj_name: GD_Aster_Weapons.ManufacturerMaterials.Mat_Vladof_4_Garnet_AR
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectionOffSelfChance
+    type: post-add
+    value: 0.15
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+    type: post-add
+    value: -0.8
+  - attribute: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+    type: post-add
+    value: -0.3
+  name: Garnet
+  rarity: 0
+  unique: false
+- _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Bandit_6_Sawbar
+  name: Sawbar
+  rarity: 0
+  unique: true
+- _obj_name: GD_Gladiolus_Weapons.ManufacturerMaterials.Mat_Dahl_6_Bearcat
+  name: Bearcat
+  rarity: 0
+  unique: true
+- _obj_name: GD_Iris_Weapons.ManufacturerMaterials.Mat_Torgue_2_BoomPuppy
+  name: Boom Puppy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Iris_Weapons.ManufacturerMaterials.Mat_Vladof_3_Kitten
+  name: Kitten
+  rarity: 0
+  unique: true
+- _obj_name: GD_Lobelia_Weapons.ManufacturerMaterials.Mat_Jakobs_6_Bekah
+  name: Bekah
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_AR_Bandit_5_Fusilade
+  name: Fusillade
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_AR_Bandit_6_Glitch
+  name: Bandit (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_AR_Dahl_6_Glitch
+  name: Dahl (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_AR_Jakobs_6_Glitch
+  name: Jakobs (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_AR_Torgue_6_Glitch
+  name: Torgue (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_AR_Vladof_6_Glitch
+  name: Vladof (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Jakobs_3_Stinkpot
+  name: Stinkpot
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Vladof_2_Rapier
+  name: Rapier
+  rarity: 0
+  unique: true
+- _obj_name: GD_Orchid_RaidWeapons.ManufacturerMaterials.Mat_Dahl_1_Seraphim
+  name: Seraphim
+  rarity: 0
+  unique: true
+- _obj_name: GD_Petunia_Weapons.ManufacturerMaterials.AssaultRifle.Mat_Bandit_3_CryBaby
+  name: Cry Baby
+  rarity: 0
+  unique: true
+- _obj_name: GD_Sage_RaidWeapons.ManufacturerMaterials.Mat_Vladof_1_Leadstorm
+  name: Lead Storm
+  rarity: 0
+  unique: true
+- _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_BanditMade_3_Chopper
+  name: Chopper
+  rarity: 0
+  unique: true
+- _obj_name: GD_Sage_Weapons.ManufacturerMaterials.Mat_Jakobs_2_DamnedCowboy
+  name: Damned Cowboy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_1
+  name: Bandit (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_2
+  name: Bandit (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_3
+  name: Bandit (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_4
+  name: Bandit (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_BanditMade_5_Legendary
+  name: Madhous
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_1
+  name: Dahl (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_2
+  name: Dahl (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_3
+  name: Dahl (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_3_Scorpio
+  name: Scorpio
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_4
+  name: Dahl (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Dahl_5_Legendary
+  name: Veruc
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Gearbox_1
+  name: Gearbox
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_1
+  name: Jakobs (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_2
+  name: Jakobs (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_3
+  name: Jakobs (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_3_Stomper
+  name: Stomper
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_4
+  name: Jakobs (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Jakobs_5_Legendary
+  name: Hammer Buster
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_1
+  name: Torgue (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_2
+  name: Torgue (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_3
+  name: Torgue (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_3_EvilSmasher
+  name: Evil Smasher
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_4
+  name: Torgue (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Torgue_5_Legendary
+  name: KerBlaster
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_1
+  name: Vladof (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_2
+  name: Vladof (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_3
+  name: Vladof (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_3_Hail
+  name: Hail
+  rarity: 0
+  unique: true
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_4
+  name: Vladof (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.ManufacturerMaterials.Mat_Vladof_5_Legendary
+  name: Shredifier
+  rarity: 0
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Dahl_5_Legendary_MajorTom
+  name: Major Tom
+  rarity: 0
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Jakobs_3_Wallop
+  name: Wallop
+  rarity: 0
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Vladof_3_IceScream
+  name: Ice Scream
+  rarity: 0
+  unique: true
+- _obj_name: gd_cork_weap_assaultrifle.ManufacturerMaterials.Mat_Vladof_3_OlPainful
+  name: Ol' Painful
+  rarity: 0
+  unique: true
+sights:
+- _obj_name: GD_Weap_AssaultRifle.Sight.AR_Sight_Bandit
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: AR_Scope_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Sight.AR_Sight_Dahl
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: AR_Scope_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Sight.AR_Sight_Jakobs
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 14
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: AR_Scope_Jakobs
+  name: Jakobs
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Sight.AR_Sight_None
+  bonuses:
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  name: '"No Sight"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Sight.AR_Sight_Torgue
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: AR_Scope_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Sight.AR_Sight_Vladof
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 8
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: AR_Scope_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+stocks:
+- _obj_name: GD_Weap_AssaultRifle.Stock.AR_Stock_Bandit
+  mesh: AR_Stock_Bandit
+  name: Bandit
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Stock.AR_Stock_Dahl
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 4
+  mesh: AR_Stock_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Stock.AR_Stock_Jakobs
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 10
+  - slot: AccuracyMax
+    type: grade
+    value: -5
+  - slot: AccuracyRegen
+    type: grade
+    value: -5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -2
+  mesh: AR_Stock_Jakobs
+  name: Jakobs
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Stock.AR_Stock_Torgue
+  bonuses:
+  - slot: AccuracyRegen
+    type: grade
+    value: -4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 5
+  mesh: AR_Stock_Torgue
+  name: Torgue
+  rarity: 0
+  unique: false
+- _obj_name: GD_Weap_AssaultRifle.Stock.AR_Stock_Vladof
+  bonuses:
+  - slot: AccuracyRegen
+    type: grade
+    value: 5
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  mesh: AR_Stock_Vladof
+  name: Vladof
+  rarity: 0
+  unique: false
+meta:
+  definitions:
+  - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 44
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.15
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 3.5
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 5
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 2.5
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 7.6
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.3
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Bandit
+    unique: false
+  - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Dahl_AssaultRifle
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 18
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.17
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 2.3
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.6
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.9
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.3
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Dahl
+    unique: false
+  - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Jakobs_AssaultRifle
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.05
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 10
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.06
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 3.5
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.8
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.2
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 14.4
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.3
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Jakobs
+    unique: false
+  - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Torgue_AssaultRifle
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 12
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.25
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.8
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.7
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 1.9
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 13.2
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.3
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Torgue
+    unique: false
+  - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Vladof_AssaultRifle
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 20
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.115
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 2.3
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.5
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 8.64
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.3
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Vladof
+    unique: false

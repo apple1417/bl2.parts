@@ -32,3 +32,9 @@ The following parts all have some bonuses adjusted:
 - Tattler Barrel
   - +1 projectile count turns into +2
   - +10 weapon spread turns into +6
+- Ahab Barrel
+  - +0.5 damage turns into +2
+- Seraphim Barrel
+  - +0.6 damage turns into 2.2
+  - -0.2 mag size turns into +0.5
+  - +3 weapon spread is removed

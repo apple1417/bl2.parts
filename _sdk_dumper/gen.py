@@ -34,7 +34,7 @@ from tools import YAML  # noqa: E402
 from tools.balances import get_parts_for_definitions, get_parts_on_balance  # noqa: E402
 from tools.data import (ALL_DEFINITIONS, GLITCH_PARTS, ITEM_CLASS_OVERRIDES,  # noqa: E402
                         MOONSTONE_PARTS, NON_UNIQUE_BALANCES, UNIQUE_WEAPON_DEFINITIONS,
-                        GenericPartType, WeaponPartType)
+                        GenericPartType, WeaponPartType, part_type_from_plural)
 from tools.definitions import get_definition_data  # noqa: E402
 from tools.parts import get_part_data  # noqa: E402
 from tools.prefixes import get_prefix_data  # noqa: E402
@@ -125,9 +125,9 @@ for item_type, def_list in ALL_DEFINITIONS.items():
                     part_data["_obj_name"]: {
                         "name": "",
                         "type": item_type_title_case,
-                        "slot": part_type.title(),
+                        "slot": part_type_from_plural(part_type_plural).name,
                     }
-                    for part_type, part_list in data.items()
+                    for part_type_plural, part_list in data.items()
                     for part_data in part_list
                 },
                 file,
