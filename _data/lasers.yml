@@ -3104,3 +3104,77 @@ meta:
       type: scale
     name: Tediore
     unique: false
+  grade_overrides:
+   # Both used by the Mining Laser
+    ContinuousDamageRegenDelay:
+      hide: true
+    ContinuousDamageRegenRate:
+      hide: true
+  meshes:
+    Acc_Bayonet1:
+      name: Bayonet
+      src: /lasers/^images/accessories/bayonet.png
+    Acc_Body_2:
+      name: Body Accessory
+      src: /lasers/^images/accessories/body.png
+    Laser_Barrel_Dahl:
+      name: Dahl
+      src: /lasers/^images/barrels/dahl.png
+    Laser_Barrel_Hyperion:
+      name: Hyperion
+      src: /lasers/^images/barrels/hyperion.png
+    Laser_Barrel_Maliwan:
+      name: Maliwan
+      src: /lasers/^images/barrels/maliwan.png
+    Laser_Barrel_Tediore:
+      name: Tediore
+      src: /lasers/^images/barrels/tediore.png
+    Laser_Body_Dahl:
+      name: Dahl
+      src: /lasers/^images/bodies/dahl.png
+    Laser_Body_Hyperion:
+      name: Hyperion
+      src: /lasers/^images/bodies/hyperion.png
+    Laser_Body_Maliwan:
+      name: Maliwan
+      src: /lasers/^images/bodies/maliwan.png
+    Laser_Body_Tediore:
+      name: Tediore
+      src: /lasers/^images/bodies/tediore.png
+    Laser_FrontGrip_Dahl:
+      name: Dahl
+      src: /lasers/^images/grips/dahl.png
+    Laser_FrontGrip_Hyperion:
+      name: Hyperion
+      src: /lasers/^images/grips/hyperion.png
+    Laser_FrontGrip_Maliwan:
+      name: Maliwan
+      src: /lasers/^images/grips/maliwan.png
+    Laser_FrontGrip_Tediore:
+      name: Tediore
+      src: /lasers/^images/grips/tediore.png
+    Laser_Sight_Dahl:
+      name: Dahl
+      src: /lasers/^images/sights/dahl.png
+    Laser_Sight_Hyperion:
+      name: Hyperion
+      src: /lasers/^images/sights/hyperion.png
+    Laser_Sight_Maliwan:
+      name: Maliwan
+      src: /lasers/^images/sights/maliwan.png
+    Laser_Sight_Tediore:
+      name: Tediore
+      src: /lasers/^images/sights/tediore.png
+    Laser_Stock_Dahl:
+      name: Dahl
+      src: /lasers/^images/stocks/dahl.png
+    Laser_Stock_Hyperion:
+      name: Hyperion
+      src: /lasers/^images/stocks/hyperion.png
+    Laser_Stock_Maliwan:
+      name: Maliwan
+      src: /lasers/^images/stocks/maliwan.png
+    Laser_Stock_Tediore:
+      name: Tediore
+      src: /lasers/^images/stocks/tediore.png
+  standard_definition_idx: 0

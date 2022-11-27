@@ -706,6 +706,20 @@
   add_good: true
   multi_good: true
 
+- obj: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationDelay
+  name: Continuous Damage Delay
+  description: Increases the duration of the idle period before the continuous damage counter starts decaying.
+  percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationRate
+  name: Continuous Damage Regen
+  description: Decreases how quickly the continuous damage counter decays after you stop shooting. This is a negative value.
+  percent: false
+  add_good: false
+  multi_good: true
+
 - obj: D_Attributes.AmmoResource_Patrol_SMG.Ammo_Patrol_SMG_RegenerationRate
   name: Ammo Regeneration (SMG)
   description: Increases the amount of SMG ammo regenerated per second.
@@ -773,5 +787,12 @@
   name: Ice Screams Equipped
   description: Increases the amount of Ice Screams you've got equipped.
   percent: false
+  add_good: true
+  multi_good: true
+
+- obj: D_Attributes.GameplayAttributes.PlayerAirborneTargetBonus
+  name: Player Airborne Target Bonus
+  description: Increases the damage player attacks against airborne largets deal to multiplicatively.
+  percent: true
   add_good: true
   multi_good: true
