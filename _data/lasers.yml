@@ -1,0 +1,3106 @@
+accessories:
+- _obj_name: GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_Bayonet_1
+  bonuses:
+  - attribute: D_Attributes.DamageSourceModifiers.InstigatedMeleeDamageModifier
+    type: pre-add
+    value: 0.5
+  mesh: Acc_Bayonet1
+  name: Bayonet
+  prefixes:
+  - name: Bladed
+    restrict: Default
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_None
+  name: '"No Accessory"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_Rosie_Thorns
+  bonuses:
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: -7
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationDelay
+    type: pre-add
+    value: 1.5
+  mesh: Acc_Body_2
+  name: Ol' Rosie
+  rarity: 0
+  unique: true
+barrels:
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  mesh: Laser_Barrel_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl_Firestarta
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -3.25
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.05
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  mesh: Laser_Barrel_Dahl
+  name: Firestarta
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl_Ricochet
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  mesh: Laser_Barrel_Dahl
+  name: Cat o' Nine Tails
+  rarity: 5
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl_ZX1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -3
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -10
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.45
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  mesh: Laser_Barrel_Dahl
+  name: ZX-1
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Hyperion
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Old Hyperion
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -3.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 3.6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 3.6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 3.6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 3.3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 3.5
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Old Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationDelay
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: -1
+  mesh: Laser_Barrel_Hyperion
+  name: Hyperion
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Hyperion_Excalibastard
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Old Hyperion
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -3.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 3.6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 3.6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 3.6
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 3.3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 3.5
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Old Hyperion
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 6
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationDelay
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: -1
+  mesh: Laser_Barrel_Hyperion
+  name: Excalibastard
+  rarity: 5
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Hyperion_Mining
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 80
+  - slot: WeaponSpread
+    type: grade
+    value: 10
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -60
+  - slot: WeaponBurstInterval
+    type: grade
+    value: 100
+  - slot: WeaponFireInterval
+    type: grade
+    value: 10
+  - slot: ContinuousDamageRegenDelay
+    type: grade
+    value: 4
+  - slot: ContinuousDamageRegenRate
+    type: grade
+    value: -2
+  - slot: ProjectilesPerShot
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 6
+  mesh: Laser_Barrel_Hyperion
+  name: Mining Laser
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  mesh: Laser_Barrel_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Blizzard
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  mesh: Laser_Barrel_Maliwan
+  name: Lazlo's Freezeasy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Deadlift
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -1.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1.1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.GameplayAttributes.PlayerAirborneTargetBonus
+    type: scale
+    value: 0.3
+  mesh: Laser_Barrel_Maliwan
+  name: Vandergraffen
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Egun
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: 15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 5
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  mesh: Laser_Barrel_Dahl
+  name: E-GUN
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_PerfectHibernation
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -7
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  mesh: Laser_Barrel_Maliwan
+  name: Lazlo's Freezeasy (Mission)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Rosie
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  mesh: Laser_Barrel_Maliwan
+  name: Ol' Rosie
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_SavorySideSaber
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -10
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: post-add
+    value: 200
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  mesh: Laser_Barrel_Maliwan
+  name: Toby's Bright Spadroon
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Vibrapulse
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.65
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.DamageEnhancementModifiers.PlayerConvertDamageToHealingPercent
+    type: pre-add
+    value: 0.025
+  mesh: Laser_Barrel_Maliwan
+  name: Vibra-Pulse
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Tediore
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+    restrict:
+      manu: Tediore
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 4
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  mesh: Laser_Barrel_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Tediore_Tesla
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 1.5
+  mesh: Laser_Barrel_Tediore
+  name: Min Min Lighter
+  rarity: 5
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.Laser_Barrel_Dahl_3_Minac
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 1.2
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: post-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  mesh: Laser_Barrel_Dahl
+  name: MINAC's Atonement
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.Laser_Barrel_Dahl_5_Thunderfire
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: pre-add
+    value: -3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -3.3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: -1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.1
+  mesh: Laser_Barrel_Dahl
+  name: Thunderfire
+  rarity: 5
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.Laser_Barrel_Hyperion_5_LongestYard
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1.1
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: scale
+    value: -9999
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: post-add
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Old Hyperion
+    type: pre-add
+    value: -4
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: -3.2
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -2.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -9999
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: post-add
+    value: 50
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.33
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: -1.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: -3
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationDelay
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: -0.75
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      manu: Dahl
+      zoom: true
+    type: pre-add
+    value: -1
+  mesh: Laser_Barrel_Hyperion
+  name: Longest Yard
+  rarity: 5
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.Laser_Barrel_Maliwan_3_Enlightenment
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: -0.45
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  mesh: Laser_Barrel_Maliwan
+  name: Tannis' Laser of Enlightenment
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.Laser_Barrel_Maliwan_5_FusionBeam
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.25
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.3
+  - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    type: scale
+    value: -1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -9
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -9999
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: post-add
+    value: 12
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: scale
+    value: 2.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.2
+  mesh: Laser_Barrel_Maliwan
+  name: Absolute Zero
+  rarity: 5
+  unique: true
+- _obj_name: GD_Ma_Weapons.Barrel.Laser_Barrel_Tediore_5_LaserDisker
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 1
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 22
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: scale
+    value: -0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 1.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      manu: Dahl
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 4
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.PlayerAirborneTargetBonus
+    type: scale
+    value: 1
+  mesh: Laser_Barrel_Tediore
+  name: Laser Disker
+  rarity: 5
+  unique: true
+bodies:
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 1
+  mesh: Laser_Body_Dahl
+  name: Dahl (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 2
+  mesh: Laser_Body_Dahl
+  name: Dahl (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  mesh: Laser_Body_Dahl
+  name: Dahl (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 4
+  mesh: Laser_Body_Dahl
+  name: Dahl (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_4_ZX1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 1
+  mesh: Laser_Body_Dahl
+  name: ZX-1
+  rarity: 5
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion
+  bonuses:
+  - slot: WeaponSpread
+    type: grade
+    value: 4
+  mesh: Laser_Body_Hyperion
+  name: Hyperion (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 8
+  mesh: Laser_Body_Hyperion
+  name: Hyperion (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 16
+  mesh: Laser_Body_Hyperion
+  name: Hyperion (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_3_Mining
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  mesh: Laser_Body_Hyperion
+  name: Mining Laser
+  rarity: 3
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 24
+  mesh: Laser_Body_Hyperion
+  name: Hyperion (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.05
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.1
+  mesh: Laser_Body_Maliwan
+  name: Maliwan (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 0.4
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.4
+  mesh: Laser_Body_Maliwan
+  name: Maliwan (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.8
+  mesh: Laser_Body_Maliwan
+  name: Maliwan (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_3_Blizzard
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 0.8
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.15
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.8
+  mesh: Laser_Body_Maliwan
+  name: Lazlo's Freezeasy
+  rarity: 3
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 1.6
+  mesh: Laser_Body_Maliwan
+  name: Maliwan (Very Rare)
+  rarity: 4
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4_Egun
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 1.6
+  mesh: Laser_Body_Maliwan
+  name: E-GUN
+  rarity: 4
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4_Rosie
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 1.6
+  mesh: Laser_Body_Maliwan
+  name: Ol' Rosie
+  rarity: 4
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4_SavorySideSaber
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: scale
+    value: 1.6
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 1.6
+  mesh: Laser_Body_Maliwan
+  name: Toby's Bright Spadroon
+  rarity: 3
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.3
+  mesh: Laser_Body_Tediore
+  name: Tediore (Common)
+  rarity: 1
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore_2
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 8
+  - slot: WeaponMagSize
+    type: grade
+    value: 3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.35
+  mesh: Laser_Body_Tediore
+  name: Tediore (Uncommon)
+  rarity: 2
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore_3
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 16
+  - slot: WeaponMagSize
+    type: grade
+    value: 5
+  - slot: WeaponSpread
+    type: grade
+    value: 5
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.4
+  mesh: Laser_Body_Tediore
+  name: Tediore (Rare)
+  rarity: 3
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore_4
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: 24
+  - slot: WeaponMagSize
+    type: grade
+    value: 7
+  - slot: WeaponSpread
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.45
+  mesh: Laser_Body_Tediore
+  name: Tediore (Very Rare)
+  rarity: 4
+  unique: false
+definitions:
+- _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Dahl_Laser
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.1
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.5
+  - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.04
+  - attribute: D_Attributes.Weapon.WeaponAutomaticBurstCount
+    restrict:
+      zoom: true
+    type: pre-add
+    value: 2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.1
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Hyperion_Laser
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: pre-add
+    value: -6
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    type: pre-add
+    value: 9
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: 0.5
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -0.8
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -3
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+    restrict:
+      zoom: true
+    type: pre-add
+    value: -5.5
+  name: Hyperion
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Maliwan_Laser
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponContinuousDamageScale
+    type: pre-add
+    value: 0.05
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: pre-add
+    value: 0.75
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationRate
+    type: pre-add
+    value: -0.3
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_OnIdleRegenerationDelay
+    type: pre-add
+    value: 0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Tediore_Laser
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.15
+  name: Tediore
+  rarity: 0
+  unique: false
+elements:
+- _obj_name: GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Corrosive
+  mesh: Laser_Elemental3
+  name: Corrosive
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Egun
+  mesh: Laser_Elemental1
+  name: E-GUN
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Fire
+  mesh: Laser_Elemental1
+  name: Fire
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Ice
+  mesh: Laser_Elemental1
+  name: Cryo
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Shock
+  mesh: Laser_Elemental2
+  name: Shock
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.elemental.Laser_Elemental_Explosive
+  mesh: Laser_Elemental3
+  name: Laser Disker
+  rarity: 0
+  unique: true
+grips:
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Dahl
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 4
+  mesh: Laser_FrontGrip_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Dahl_ZX1
+  bonuses:
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Dahl
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Dahl
+    type: pre-add
+    value: 26
+  mesh: Laser_FrontGrip_Dahl
+  name: ZX-1
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Hyperion
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -3
+  - slot: WeaponSpread
+    type: grade
+    value: 3
+  - slot: AccuracyRegen
+    type: grade
+    value: 2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Hyperion
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Old Hyperion
+    type: pre-add
+    value: 3
+  mesh: Laser_FrontGrip_Hyperion
+  name: Hyperion
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.1
+  mesh: Laser_FrontGrip_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan_Egun
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.1
+  mesh: Laser_FrontGrip_Tediore
+  name: E-GUN
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan_Rosie
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.1
+  mesh: Laser_FrontGrip_Maliwan
+  name: Ol' Rosie
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan_SavorySideSaber
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponStatusEffectChanceModifier
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Maliwan
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Maliwan
+    type: pre-add
+    value: 4
+  - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+    type: scale
+    value: 0.1
+  mesh: Laser_FrontGrip_Maliwan
+  name: Toby's Bright Spadroon
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Tediore
+  bonuses:
+  - slot: WeaponDamage
+    type: grade
+    value: -2
+  - slot: WeaponReloadSpeed
+    type: grade
+    value: 4
+  - slot: WeaponMagSize
+    type: grade
+    value: -2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: -0.15
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    restrict:
+      manu: Tediore
+    type: pre-add
+    value: 2
+  mesh: Laser_FrontGrip_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+materials:
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_1
+  name: Dahl (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_1_Zap1
+  name: Zappinator (Mission)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_2
+  name: Dahl (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_3_Firestarta
+  name: Firestarta
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_3_Zap4
+  name: Zappinator
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_4
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_5_Legendary_Ricochet
+  name: Cat o' Nine Tails
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_5_Legendary_ZX1
+  name: ZX-1
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_1
+  name: Hyperion (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_2
+  name: Hyperion (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_3
+  name: Hyperion (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_3_Unique_MiningLaser
+  name: Mining Laser
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_4
+  name: Hyperion (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_1
+  name: Maliwan (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_2
+  name: Maliwan (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3
+  name: Maliwan (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Blizzard
+  name: Lazlo's Freezeasy
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Egun
+  name: E-GUN
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_SideSaber
+  name: Toby's Bright Spadroon
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Vandergraffen
+  name: Vandergraffen
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Vibrapulse
+  name: Vibra-Pulse
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_4
+  name: Maliwan (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_4_Unique_Rosie
+  name: Ol' Rosie
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_1
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.1
+  name: Old_Hyperion (Common)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_2
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.1
+  name: Old_Hyperion (Uncommon)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_3
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.1
+  name: Old_Hyperion (Rare)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_4
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.1
+  name: Old_Hyperion (Very Rare)
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_5_Legendary
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    type: scale
+    value: -0.1
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 0.15
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    type: scale
+    value: 0.2
+  - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+    type: scale
+    value: -0.1
+  name: Excalibastard
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_1
+  name: Tediore (Common)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_2
+  name: Tediore (Uncommon)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_3
+  name: Tediore (Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_4
+  name: Tediore (Very Rare)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_5_Legendary_Tesla
+  name: Min Min Lighter
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Dahl_6_Glitch
+  name: Dahl (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Dahl_6_Glitch_HeartfullSplodger
+  name: Heartfull Splodger
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Hyperion_5_LongestYard
+  name: Longest Yard
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Hyperion_6_Glitch
+  name: Hyperion (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_3_Enlightenment
+  name: Tannis' Laser of Enlightenment
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_3_Minac
+  name: MINAC's Atonement
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_5_FusionBeam
+  name: Absolute Zero
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_5_Thunderfire
+  name: Thunderfire
+  rarity: 0
+  unique: true
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_6_Glitch
+  name: Maliwan (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Laser_Tediore_6_Glitch
+  name: Tediore (Glitch)
+  rarity: 0
+  unique: false
+- _obj_name: GD_Ma_Weapons.Materials.Mat_Tediore_5_LaserDisker
+  name: Laser Disker
+  rarity: 0
+  unique: true
+sights:
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_Dahl
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: Laser_Sight_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_Dahl_ZX1
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 7
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.3
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: Laser_Sight_Dahl
+  name: ZX-1
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_Hyperion
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 18
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.4
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: Laser_Sight_Hyperion
+  name: Hyperion
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_Maliwan
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 11
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: Laser_Sight_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_Maliwan_Rosie
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 11
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: Laser_Sight_Maliwan
+  name: Ol' Rosie
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_None
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.25
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  name: '"No Sight"'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_None_Maliwan
+  bonuses:
+  - attribute: D_Attributes.Weapon.WeaponSpread
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.25
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  name: '"No Sight" (Maliwan)'
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Sight.Laser_Sight_Tediore
+  bonuses:
+  - slot: WeaponZoomFOV
+    type: grade
+    value: 6
+  - attribute: D_Attributes.GameplayAttributes.FootSpeed
+    restrict:
+      zoom: true
+    type: scale
+    value: -2
+  mesh: Laser_Sight_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+stocks:
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Dahl
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 4
+  mesh: Laser_Stock_Dahl
+  name: Dahl
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Dahl_ZX1
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -6
+  - slot: AccuracyMax
+    type: grade
+    value: 6
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 4
+  mesh: Laser_Stock_Dahl
+  name: ZX-1
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Hyperion
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 8
+  - slot: AccuracyRegen
+    type: grade
+    value: 4
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Hyperion
+    type: scale
+    value: 0.1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    restrict:
+      manu: Old Hyperion
+    type: scale
+    value: 0.1
+  mesh: Laser_Stock_Hyperion
+  name: Hyperion
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: Laser_Stock_Maliwan
+  name: Maliwan
+  rarity: 0
+  unique: false
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan_Egun
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: Laser_Stock_Dahl
+  name: E-GUN
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan_Rosie
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: Laser_Stock_Maliwan
+  name: Ol' Rosie
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan_SavorySideSaber
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: 2
+  - slot: AccuracyMax
+    type: grade
+    value: 2
+  mesh: Laser_Stock_Maliwan
+  name: Toby's Bright Spadroon
+  rarity: 0
+  unique: true
+- _obj_name: GD_Cork_Weap_Lasers.Stock.Laser_Stock_Tediore
+  bonuses:
+  - slot: AccuracyMin
+    type: grade
+    value: -3
+  - slot: AccuracyMax
+    type: grade
+    value: -3
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: 2
+  mesh: Laser_Stock_Tediore
+  name: Tediore
+  rarity: 0
+  unique: false
+meta:
+  definitions:
+  - _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Dahl_Laser
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0.3
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.3
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 7.2
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      base: 0
+      per_grade: 1
+      slot: ProjectilesPerShot
+      type: pre-add
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponFireInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      base: 0
+      per_grade: -0.05
+      slot: ShotCost
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyOnIdleRegen
+      type: scale
+    name: Dahl
+    unique: false
+  - _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Hyperion_Laser
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: -1
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.5
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 6.4
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      base: 0
+      per_grade: 1
+      slot: ProjectilesPerShot
+      type: pre-add
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponFireInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      base: 0
+      per_grade: -0.05
+      slot: ShotCost
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyOnIdleRegen
+      type: scale
+    name: Hyperion
+    unique: false
+  - _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Maliwan_Laser
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1.1
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.1
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 7.2
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.WeaponContinuousDamageResourcePool.ContinuousDamage_MaxValue
+      base: 0
+      per_grade: 0.05
+      slot: ContinuousDamageScaleMax
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      base: 0
+      per_grade: 1
+      slot: ProjectilesPerShot
+      type: pre-add
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponFireInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      base: 0
+      per_grade: -0.05
+      slot: ShotCost
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyOnIdleRegen
+      type: scale
+    name: Maliwan
+    unique: false
+  - _obj_name: GD_Cork_Weap_Lasers.A_Weapons.WT_Tediore_Laser
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 24
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 2.5
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 4
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 60
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 5.6
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 1
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      base: 0
+      per_grade: 1
+      slot: ProjectilesPerShot
+      type: pre-add
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.05
+      slot: WeaponFireInterval
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      base: 0
+      per_grade: -0.05
+      slot: ShotCost
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyOnIdleRegen
+      type: scale
+    name: Tediore
+    unique: false

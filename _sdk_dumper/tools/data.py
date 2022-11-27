@@ -160,6 +160,12 @@ ALL_DEFINITIONS: Dict[str, Tuple[str, ...]] = {
         "GD_Weap_Launchers.A_Weapons.WT_Torgue_Launcher",
         "GD_Weap_Launchers.A_Weapons.WT_Vladof_Launcher",
     ),
+    "laser": (
+        "GD_Cork_Weap_Lasers.A_Weapons.WT_Dahl_Laser",
+        "GD_Cork_Weap_Lasers.A_Weapons.WT_Hyperion_Laser",
+        "GD_Cork_Weap_Lasers.A_Weapons.WT_Maliwan_Laser",
+        "GD_Cork_Weap_Lasers.A_Weapons.WT_Tediore_Laser",
+    ),
     "pistol": (
         "GD_Weap_Pistol.A_Weapons.WeaponType_Bandit_Pistol",
         "GD_Weap_Pistol.A_Weapons.WeaponType_Dahl_Pistol",
@@ -241,6 +247,17 @@ NON_UNIQUE_BALANCES: Dict[str, Tuple[str, ...]] = {
             "GD_GrenadeMods.A_Item.GM_Transfusion",
         )
         for suffix in ("", "_2_Uncommon", "_3_Rare", "_4_VeryRare")
+    ),
+    "laser": (
+        "GD_Cork_Weap_Lasers.A_Weapons.Laser_Dahl_4_VeryRare",
+        "GD_Cork_Weap_Lasers.A_Weapons.Laser_Hyperion_4_VeryRare",
+        "GD_Cork_Weap_Lasers.A_Weapons.Laser_Maliwan_4_VeryRare",
+        "GD_Cork_Weap_Lasers.A_Weapons.Laser_Old_Hyperion_4_VeryRar",
+        "GD_Cork_Weap_Lasers.A_Weapons.Laser_Tediore_4_VeryRare",
+        "GD_Ma_Weapons.A_Weapons.Laser_Dahl_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.Laser_Hyperion_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.Laser_Maliwan_6_Glitch",
+        "GD_Ma_Weapons.A_Weapons.Laser_Tediore_6_Glitch",
     ),
     "launcher": (
         "GD_Ma_Weapons.A_Weapons.RL_Bandit_6_Glitch",
@@ -493,6 +510,7 @@ PART_TYPE_OVERRIDES: Dict[str, BasePartTypeEnum] = {
     "GD_Anemone_Weap_SniperRifles.Stock.SR_Stock_Vladof": WeaponPartType.Stock,
     "GD_Anemone_Weapons.Rocket_Launcher.WorldBurn.L_Barrel_Torgue_WorldBurn": WeaponPartType.Barrel,
     "GD_Anemone_Weapons.Shotguns.SG_Barrel_Alien_Swordsplosion": WeaponPartType.Barrel,
+    "GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_Rosie_Thorns": WeaponPartType.Accessory,
     "GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_Boomacorn": WeaponPartType.Stock,
     "GD_Cork_Weap_Shotgun.Stock.SG_Stock_Jakobs_TooScoops": WeaponPartType.Stock,
     "GD_Cork_Weap_SMG.Sight.SMG_Sight_Hyperion_BlackSnake": WeaponPartType.Sight,

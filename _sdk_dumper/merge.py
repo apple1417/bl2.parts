@@ -104,20 +104,38 @@ META_TO_NAIVE_BONUS_MERGE: Tuple[str, ...] = (
 BASE_DATA_FOLDER: str = "bl2parts/data"
 GAMES: Tuple[str, ...] = ("BL2", "TPS")
 
+EXPECTED_SINGLE_DATA_FILES: Tuple[str, ...] = (
+    "laser_names.json",
+    "lasers.yml",
+)
+
 OUTPUT_DIR: str = "bl2parts/merged"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 # {"filename": [("path_to_file", "game"), ("path_to_matching_file", "game")]}
 def get_file_mappings(extension: str) -> Dict[str, List[Tuple[str, str]]]:
-    return {
-        file: [
-            (os.path.join(BASE_DATA_FOLDER, game, file), game)
-            for game in GAMES
-        ]
-        for file in os.listdir(os.path.join(BASE_DATA_FOLDER, GAMES[0]))
-        if file.endswith(extension)
-    }
+    file_names = set()
+    for game in GAMES:
+        file_names.update({
+            os.path.basename(file)
+            for file in os.listdir(os.path.join(BASE_DATA_FOLDER, game))
+            if file.endswith(extension)
+        })
+
+    output = {}
+    for name in file_names:
+        file_pairs = []
+        for game in GAMES:
+            path = os.path.join(BASE_DATA_FOLDER, game, name)
+            if not os.path.exists(path):
+                if name not in EXPECTED_SINGLE_DATA_FILES:
+                    print(f"Unexpected single data file {name}")
+                continue
+            file_pairs.append((path, game))
+        output[name] = file_pairs
+
+    return output
 
 
 _K = TypeVar("_K")

@@ -1461,6 +1461,641 @@
         "slot": "Delivery",
         "type": "Grenade"
     },
+    "GD_Cork_Weap_Lasers.A_Weapons.WT_Dahl_Laser": {
+        "name": "Dahl",
+        "slot": "Definition",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.A_Weapons.WT_Hyperion_Laser": {
+        "name": "Hyperion",
+        "slot": "Definition",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.A_Weapons.WT_Maliwan_Laser": {
+        "name": "Maliwan",
+        "slot": "Definition",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.A_Weapons.WT_Tediore_Laser": {
+        "name": "Tediore",
+        "slot": "Definition",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_Bayonet_1": {
+        "name": "Bayonet",
+        "slot": "Accessory",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_None": {
+        "name": "\"No Accessory\"",
+        "slot": "Accessory",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Accessory.Laser_Accessory_Rosie_Thorns": {
+        "name": "Ol' Rosie",
+        "slot": "Element",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl": {
+        "name": "Dahl",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl_Firestarta": {
+        "name": "Firestarta",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl_Ricochet": {
+        "name": "Cat o' Nine Tails",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Dahl_ZX1": {
+        "name": "ZX-1",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Hyperion": {
+        "name": "Hyperion",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Hyperion_Excalibastard": {
+        "name": "Excalibastard",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Hyperion_Mining": {
+        "name": "Mining Laser",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Blizzard": {
+        "name": "Lazlo's Freezeasy",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Deadlift": {
+        "name": "Vandergraffen",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Egun": {
+        "name": "E-GUN",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_PerfectHibernation": {
+        "name": "Lazlo's Freezeasy (Mission)",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Rosie": {
+        "name": "Ol' Rosie",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_SavorySideSaber": {
+        "name": "Toby's Bright Spadroon",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Maliwan_Vibrapulse": {
+        "name": "Vibra-Pulse",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Tediore": {
+        "name": "Tediore",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Barrel.Laser_Barrel_Tediore_Tesla": {
+        "name": "Min Min Lighter",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl": {
+        "name": "Dahl (Common)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_2": {
+        "name": "Dahl (Uncommon)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_3": {
+        "name": "Dahl (Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_4": {
+        "name": "Dahl (Very Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Dahl_4_ZX1": {
+        "name": "ZX-1",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion": {
+        "name": "Hyperion (Common)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_2": {
+        "name": "Hyperion (Uncommon)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_3": {
+        "name": "Hyperion (Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_3_Mining": {
+        "name": "Mining Laser",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Hyperion_4": {
+        "name": "Hyperion (Very Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan": {
+        "name": "Maliwan (Common)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_2": {
+        "name": "Maliwan (Uncommon)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_3": {
+        "name": "Maliwan (Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_3_Blizzard": {
+        "name": "Lazlo's Freezeasy",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4": {
+        "name": "Maliwan (Very Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4_Egun": {
+        "name": "E-GUN",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4_Rosie": {
+        "name": "Ol' Rosie",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Maliwan_4_SavorySideSaber": {
+        "name": "Toby's Bright Spadroon",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore": {
+        "name": "Tediore (Common)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore_2": {
+        "name": "Tediore (Uncommon)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore_3": {
+        "name": "Tediore (Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Body.Laser_Body_Tediore_4": {
+        "name": "Tediore (Very Rare)",
+        "slot": "Body",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Dahl": {
+        "name": "Dahl",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Dahl_ZX1": {
+        "name": "ZX-1",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Hyperion": {
+        "name": "Hyperion",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan_Egun": {
+        "name": "E-GUN",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan_Rosie": {
+        "name": "Ol' Rosie",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Maliwan_SavorySideSaber": {
+        "name": "Toby's Bright Spadroon",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.FrontGrip.Laser_FrontGrip_Tediore": {
+        "name": "Tediore",
+        "slot": "Grip",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_1": {
+        "name": "Dahl (Common)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_1_Zap1": {
+        "name": "Zappinator (Mission)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_2": {
+        "name": "Dahl (Uncommon)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_3": {
+        "name": "Dahl (Uncommon)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_3_Firestarta": {
+        "name": "Firestarta",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_3_Zap4": {
+        "name": "Zappinator",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_4": {
+        "name": "Dahl",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_5_Legendary_Ricochet": {
+        "name": "Cat o' Nine Tails",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Dahl_5_Legendary_ZX1": {
+        "name": "ZX-1",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_1": {
+        "name": "Hyperion (Common)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_2": {
+        "name": "Hyperion (Uncommon)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_3": {
+        "name": "Hyperion (Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_3_Unique_MiningLaser": {
+        "name": "Mining Laser",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Hyperion_4": {
+        "name": "Hyperion (Very Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_1": {
+        "name": "Maliwan (Common)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_2": {
+        "name": "Maliwan (Uncommon)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3": {
+        "name": "Maliwan (Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Blizzard": {
+        "name": "Lazlo's Freezeasy",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Egun": {
+        "name": "E-GUN",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_SideSaber": {
+        "name": "Toby's Bright Spadroon",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Vandergraffen": {
+        "name": "Vandergraffen",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_3_Unique_Vibrapulse": {
+        "name": "Vibra-Pulse",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_4": {
+        "name": "Maliwan (Very Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Maliwan_4_Unique_Rosie": {
+        "name": "Ol' Rosie",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_1": {
+        "name": "Old_Hyperion (Common)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_2": {
+        "name": "Old_Hyperion (Uncommon)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_3": {
+        "name": "Old_Hyperion (Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_4": {
+        "name": "Old_Hyperion (Very Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Old_Hyperion_5_Legendary": {
+        "name": "Excalibastard",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_1": {
+        "name": "Tediore (Common)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_2": {
+        "name": "Tediore (Uncommon)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_3": {
+        "name": "Tediore (Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_4": {
+        "name": "Tediore (Very Rare)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.ManufacturerMaterials.Mat_Tediore_5_Legendary_Tesla": {
+        "name": "Min Min Lighter",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_Dahl": {
+        "name": "Dahl",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_Dahl_ZX1": {
+        "name": "ZX-1",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_Hyperion": {
+        "name": "Hyperion",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_Maliwan_Rosie": {
+        "name": "Ol' Rosie",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_None": {
+        "name": "\"No Sight\"",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_None_Maliwan": {
+        "name": "\"No Sight\" (Maliwan)",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Sight.Laser_Sight_Tediore": {
+        "name": "Tediore",
+        "slot": "Sight",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Dahl": {
+        "name": "Dahl",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Dahl_ZX1": {
+        "name": "ZX-1",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Hyperion": {
+        "name": "Hyperion",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan": {
+        "name": "Maliwan",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan_Egun": {
+        "name": "E-GUN",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan_Rosie": {
+        "name": "Ol' Rosie",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Maliwan_SavorySideSaber": {
+        "name": "Toby's Bright Spadroon",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.Stock.Laser_Stock_Tediore": {
+        "name": "Tediore",
+        "slot": "Stock",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Corrosive": {
+        "name": "Corrosive",
+        "slot": "Element",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Egun": {
+        "name": "E-GUN",
+        "slot": "Element",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Fire": {
+        "name": "Fire",
+        "slot": "Element",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Ice": {
+        "name": "Cryo",
+        "slot": "Element",
+        "type": "Laser"
+    },
+    "GD_Cork_Weap_Lasers.elemental.Laser_Elemental_Shock": {
+        "name": "Shock",
+        "slot": "Element",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Barrel.Laser_Barrel_Dahl_3_Minac": {
+        "name": "MINAC's Atonement",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Barrel.Laser_Barrel_Dahl_5_Thunderfire": {
+        "name": "Thunderfire",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Barrel.Laser_Barrel_Hyperion_5_LongestYard": {
+        "name": "Longest Yard",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Barrel.Laser_Barrel_Maliwan_3_Enlightenment": {
+        "name": "Tannis' Laser of Enlightenment",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Barrel.Laser_Barrel_Maliwan_5_FusionBeam": {
+        "name": "Absolute Zero",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Barrel.Laser_Barrel_Tediore_5_LaserDisker": {
+        "name": "Laser Disker",
+        "slot": "Barrel",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Dahl_6_Glitch": {
+        "name": "Dahl (Glitch)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Dahl_6_Glitch_HeartfullSplodger": {
+        "name": "Heartfull Splodger",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Hyperion_5_LongestYard": {
+        "name": "Longest Yard",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Hyperion_6_Glitch": {
+        "name": "Hyperion (Glitch)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_3_Enlightenment": {
+        "name": "Tannis' Laser of Enlightenment",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_3_Minac": {
+        "name": "MINAC's Atonement",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_5_FusionBeam": {
+        "name": "Absolute Zero",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_5_Thunderfire": {
+        "name": "Thunderfire",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Maliwan_6_Glitch": {
+        "name": "Maliwan (Glitch)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Laser_Tediore_6_Glitch": {
+        "name": "Tediore (Glitch)",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.Materials.Mat_Tediore_5_LaserDisker": {
+        "name": "Laser Disker",
+        "slot": "Material",
+        "type": "Laser"
+    },
+    "GD_Ma_Weapons.elemental.Laser_Elemental_Explosive": {
+        "name": "Laser Disker",
+        "slot": "Element",
+        "type": "Laser"
+    },
     "GD_Anemone_Weapons.Rocket_Launcher.L_Barrel_Maliwan_Pyrophobia": {
         "name": "Pyrophobia (Anemone)",
         "slot": "Barrel",
