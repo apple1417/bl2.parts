@@ -16,6 +16,13 @@ parts:
     sub:
       - title: Full Parts Reference
         url: /shields/all_parts/
+  - title: Rifles
+    url: /rifles/
+    sub:
+      - title: Full Parts Reference
+        url: /rifles/all_parts/
+      - title: Zoom Comparison
+        url: /rifles/zoom/
   - title: Shotguns
     url: /shotguns/
     sub:
