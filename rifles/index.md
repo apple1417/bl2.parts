@@ -26,6 +26,23 @@ accessory_overrides:
             footnote: different_times
 - idx: 9
   footnote: same_model
+
+barrel_overrides:
+- idx: 3
+  footnote: same_etech_model
+- idx: 4
+  footnote: same_etech_model
+  image_src: /rifles/^images/barrels/etech_dahl.png
+- idx: 6
+  footnote: same_torgue_model
+- idx: 7
+  footnote: same_torgue_model
+- idx: 8
+  footnote: same_torgue_model
+- idx: 9
+  footnote: same_torgue_model
+- idx: 10
+  footnote: same_torgue_model
 ---
 
 # Rifle Parts Guide
@@ -61,3 +78,20 @@ All accessories have set prefixes associated with them based on manufacturer, wh
 don't get overwritten, are a simple way to tell which one exactly a weapon has.
 
 {% include prefixes.html parts=site.data.rifles.accessories %}
+
+## Barrels
+There are 12 non-unique barrels, using 7 different models.
+
+{% include parts.html
+    id="barrels_table"
+    parts=site.data.rifles.barrels
+    meta=site.data.rifles.meta
+    mesh_image=true
+    simple_bonuses=true
+    overrides=page.barrel_overrides
+%}
+
+{% include footnote_end.html
+    same_etech_model="These both use the same model, but (unsurprisingly) the Dahl version only spawns on Dahl guns."
+    same_torgue_model="These all use the same model, but only spawn on their relevant manufacturer."
+%}
