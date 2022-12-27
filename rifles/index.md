@@ -43,6 +43,53 @@ barrel_overrides:
   footnote: same_torgue_model
 - idx: 10
   footnote: same_torgue_model
+
+bodies:
+  common_names:
+    - GD_Weap_AssaultRifle.Body.AR_Body_Bandit
+    - GD_Weap_AssaultRifle.Body.AR_Body_Dahl
+    - GD_Weap_AssaultRifle.Body.AR_Body_Jakobs
+    - GD_Weap_AssaultRifle.Body.AR_Body_Torgue
+    - GD_Weap_AssaultRifle.Body.AR_Body_Vladof
+  overrides:
+    - idx: 1
+      name: Bandit
+    - idx: 2
+      name: Dahl
+    - idx: 3
+      name: Jakobs
+    - idx: 4
+      name: Torgue
+    - idx: 5
+      name: Vladof
+  extra_stats:
+    - GD_Weap_AssaultRifle.Body.AR_Body_Bandit_3
+    - GD_Weap_AssaultRifle.Body.AR_Body_Bandit_4
+  extra_stats_overrides:
+    - idx: 1
+      bonus_block:
+      - group_idx: 1
+        overrides:
+          - idx: 1
+            footnote: different_times
+          - idx: 2
+            footnote: different_times
+          - idx: 4
+            footnote: different_times
+          - idx: 5
+            footnote: different_times
+    - idx: 2
+      bonus_block:
+      - group_idx: 1
+        overrides:
+          - idx: 1
+            footnote: different_times
+          - idx: 2
+            footnote: different_times
+          - idx: 4
+            footnote: different_times
+          - idx: 5
+            footnote: different_times
 ---
 
 # Rifle Parts Guide
@@ -94,4 +141,44 @@ There are 12 non-unique barrels, using 7 different models.
 {% include footnote_end.html
     same_etech_model="These both use the same model, but (unsurprisingly) the Dahl version only spawns on Dahl guns."
     same_torgue_model="These all use the same model, but only spawn on their relevant manufacturer."
+%}
+
+## Bodies
+There are 20 non-unique bodies, one for each rarity-manufacturer combination. Most bodies share the
+same stats, based on rarity.
+
+{% assign bodies = site.data.rifles.bodies
+                   | where_exp: "body", "page.bodies.common_names contains body._obj_name" %}
+{% include parts.html
+    parts=bodies
+    meta=site.data.rifles.meta
+    mesh_image=true
+    hide_bonuses=true
+    overrides=page.bodies.overrides
+%}
+
+{% include body_table.html 
+    body_list=site.data.rifles.bodies
+    meta=site.data.rifles.meta
+    common="GD_Weap_AssaultRifle.Body.AR_Body_Bandit"
+    uncommon="GD_Weap_AssaultRifle.Body.AR_Body_Bandit_2"
+    rare="GD_Weap_AssaultRifle.Body.AR_Body_Bandit_3"
+    very_rare="GD_Weap_AssaultRifle.Body.AR_Body_Bandit_4"
+    simple_bonuses=true
+%}
+
+The *Rare*{:.rare} and *Very Rare*{:.very-rare} Bandit bodies break this pattern. These are both
+belt-fed with a box mag rather than a stick, and thus have an extra mag size bonus.
+
+{% assign bodies = site.data.rifles.bodies
+                   | where_exp: "body", "page.bodies.extra_stats contains body._obj_name" %}
+{% include parts.html
+    parts=bodies
+    meta=site.data.rifles.meta
+    simple_bonuses=true
+    overrides=page.bodies.extra_stats_overrides
+%}
+
+{% include footnote_end.html
+    different_times="The bonuses in each pair are applied at different times of the calculation."
 %}
