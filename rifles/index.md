@@ -182,3 +182,13 @@ belt-fed with a box mag rather than a stick, and thus have an extra mag size bon
 {% include footnote_end.html
     different_times="The bonuses in each pair are applied at different times of the calculation."
 %}
+
+## Grips
+There are 5 non-unique grips.
+
+{% include parts.html 
+    parts=site.data.rifles.grips
+    meta=site.data.rifles.meta
+    mesh_image=true
+    simple_bonuses=true
+%}
