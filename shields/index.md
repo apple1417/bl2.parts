@@ -301,7 +301,7 @@ Because of this, a bonus with value 0 actually still has an effect.
                         {%- include grade.html grade_stats=grade_stats -%}
                     </span>
                     {%- if forloop.index > 3 -%}
-                        <br>{{- attr_name | markdownify | remove: "<p>" | remove: "</p>" -}}
+                        <br>{{- attr_name | markdownify | remove: "<p>" | remove: "</p>" | strip -}}
                     {%- endif -%}
                 </td>
             {%- endfor -%}
@@ -336,7 +336,7 @@ which go through the grade system as an extra step.
                          | first -%}
 
         {%- capture grade_bonus -%}
-            {{- attr.name | markdownify | remove: "<p>" | remove: "</p>" | prepend: " " -}}
+            {{- attr.name | markdownify | remove: "<p>" | remove: "</p>" | strip | prepend: " " -}}
             {{- GRADES_SEPARATOR -}}
             <span class="{{- grade_stats.type | append: " " -}} per-grade">
                 {%- include grade.html grade_stats=grade_stats -%}

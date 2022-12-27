@@ -180,7 +180,7 @@ Args:
     {%- if include.bonus.slot and grade_stats.constraint -%}
         {%- assign name = name | append: " (" | append: grade_stats.constraint | append: ")" -%}
     {%- endif -%}
-    {%- assign name = name | markdownify | remove: "<p>" | remove: "</p>" -%}
+    {%- assign name = name | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
     {%- assign output = output | append: name -%}
 {%- elsif include.bonus.slot -%}
     {%- assign output = output
