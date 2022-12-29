@@ -3546,7 +3546,7 @@ meta:
       src: /rifles/^images/accessories/bayonet_1.png
     Acc_Barrel_Bayonet2:
       name: Bayonet 2
-      src: /rifles/^images/accessories/bayonet_2.png
+      src: /rifles/^images/parts/accessory.png
     Acc_Body_Box:
       name: Box
       src: /rifles/^images/accessories/box.png

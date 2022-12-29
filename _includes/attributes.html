@@ -20,8 +20,8 @@ Args:
 <table class="{{- classes -}}">
     {%- for attr in attributes -%}
         <tr>
-            <th>{{- attr.name | markdownify | remove: "<p>" | remove: "</p>" -}}</th>
-            <td>{{- attr.description | markdownify | remove: "<p>" | remove: "</p>" -}}</td>
+            <th>{{- attr.name | markdownify | remove: "<p>" | remove: "</p>" | strip -}}</th>
+            <td>{{- attr.description | markdownify | remove: "<p>" | remove: "</p>" | strip -}}</td>
         </tr>
     {%- endfor -%}
 </table>

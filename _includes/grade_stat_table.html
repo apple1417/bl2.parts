@@ -14,7 +14,7 @@ Args:
 
 <table><thead><tr>
     {%- for column in include.column_headers -%}
-        <th>{{- column | markdownify | remove: "<p>" | remove: "</p>" -}}</th>
+        <th>{{- column | markdownify | remove: "<p>" | remove: "</p>" | strip -}}</th>
     {%- endfor -%}
 </tr></thead><tbody>
     {%- for part in include.parts -%}
