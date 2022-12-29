@@ -206,3 +206,13 @@ only applied while aiming.
 %}
 
 Click [here](/rifles/zoom/) for a comparison of the zoom level of each sight.
+
+## Stocks
+There are 5 non-unique stocks.
+
+{% include parts.html 
+    parts=site.data.rifles.stocks
+    meta=site.data.rifles.meta
+    mesh_image=true
+    simple_bonuses=true
+%}
