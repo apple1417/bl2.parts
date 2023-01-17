@@ -298,6 +298,32 @@ barrels:
   name: M2828 Thumpson
   rarity: 5
   unique: true
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.PeakOpener.AR_Barrel_Torgue_PeakOpener
+  bonuses:
+  - slot: WeaponFireRate
+    type: grade
+    value: -20
+  - slot: WeaponAccuracyImpulse
+    type: grade
+    value: -5
+  - attribute: D_Attributes.Weapon.WeaponClipSize
+    type: pre-add
+    value: 20
+  - attribute: D_Attributes.Weapon.WeaponShotCost
+    type: pre-add
+    value: 3
+  - attribute: D_Attributes.Weapon.WeaponDamage
+    type: scale
+    value: 3.4
+  - attribute: D_Attributes.Weapon.WeaponFireInterval
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.9
+  mesh: AR_Barrel_Torgue
+  name: Peak Opener
+  rarity: 502
+  unique: true
 - _obj_name: GD_Aster_RaidWeapons.AssaultRifles.AR_Barrel_Vladof_Seeker
   bonuses:
   - slot: WeaponSpread
@@ -2131,6 +2157,27 @@ bodies:
   rarity: 4
   unique: false
 definitions:
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.PeakOpener.WT_PeakOpener
+  bonuses:
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    type: pre-add
+    value: -1
+  - attribute: D_Attributes.GameplayAttributes.PlayerCriticalHitBonus
+    type: scale
+    value: -0.2
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -1
+  - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+    restrict:
+      zoom: true
+    type: scale
+    value: -0.1
+  name: Peak Opener
+  rarity: 0
+  unique: true
 - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle
   _original:
     game: BL2
@@ -2620,6 +2667,10 @@ materials:
   name: Toothpick
   rarity: 0
   unique: true
+- _obj_name: GD_Anemone_Weapons.AssaultRifle.PeakOpener.Mat_Torgue_5_PeakOpener
+  name: Peak Opener
+  rarity: 0
+  unique: true
 - _obj_name: GD_Aster_RaidWeapons.ManufacturerMaterials.Mat_Torgue_5_Seeker
   name: Seeker
   rarity: 0
@@ -3090,6 +3141,96 @@ stocks:
   unique: false
 meta:
   definitions:
+  - _obj_name: GD_Anemone_Weapons.AssaultRifle.PeakOpener.WT_PeakOpener
+    base:
+    - attribute: D_Attributes.Weapon.WeaponBurstInterval
+      value: 0.5
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      value: 0
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      value: 20
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      value: 0.115
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      value: 2.3
+    - attribute: D_Attributes.Weapon.WeaponProjectilesPerShot
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      value: 3.5
+    - attribute: D_Attributes.Weapon.WeaponShotCost
+      value: 1
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      value: 2
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      value: 45
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      value: 8.64
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponStatusEffectDamage
+      value: 8
+      value_formula:
+        multiplier_str: '&beta;'
+    - attribute: D_Attributes.Weapon.WeaponBaseStatusEffectChanceModifier
+      value: 0.3
+    grades:
+    - attribute: D_Attributes.Weapon.WeaponDamage
+      base: 0
+      per_grade: 0.03
+      slot: WeaponDamage
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponFireInterval
+      base: 0
+      per_grade: -0.03
+      slot: WeaponFireRate
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponClipSize
+      base: 0
+      per_grade: 0.05
+      slot: WeaponMagSize
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponReloadSpeed
+      base: 0
+      per_grade: -0.05
+      slot: WeaponReloadSpeed
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponSpread
+      base: 0
+      per_grade: -0.05
+      slot: WeaponSpread
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMinValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMin
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyMaxValue
+      base: 0
+      per_grade: -0.05
+      slot: AccuracyMax
+      type: scale
+    - attribute: D_Attributes.AccuracyResourcePool.AccuracyOnIdleRegenerationRate
+      base: 0
+      per_grade: 0.05
+      slot: AccuracyRegen
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponPerShotAccuracyImpulse
+      base: 0
+      per_grade: -0.05
+      slot: WeaponAccuracyImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponBurstShotAccuracyImpulseScale
+      base: 0
+      per_grade: -0.05
+      slot: WeaponBurstImpulse
+      type: scale
+    - attribute: D_Attributes.Weapon.WeaponZoomEndFOV
+      base: 0
+      per_grade: -0.13
+      slot: WeaponZoomFOV
+      type: scale
+    name: Peak Opener
+    unique: true
   - _obj_name: GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle
     base:
     - attribute: D_Attributes.Weapon.WeaponBurstInterval

@@ -90,6 +90,10 @@ bodies:
             footnote: different_times
           - idx: 5
             footnote: different_times
+
+definition_stat_overrides:
+  - idx: 6
+    footnote: "peak_opener_definition"
 ---
 
 # Rifle Parts Guide
@@ -263,10 +267,20 @@ Definitions are also very important if you're trying to calculate exact stats.
 
 To start with, they define the base values used by all stats stored on the weapon.
 
-{% include definition_base_table.html meta=site.data.rifles.meta %}
+{% include definition_base_table.html
+    meta=site.data.rifles.meta
+    overrides=page.definition_stat_overrides
+%}
 
 They also define all grade bonuses, and how exactly they get converted into standard bonuses.
 
-{% include definition_grade_table.html meta=site.data.rifles.meta %}
+{% include definition_grade_table.html
+    meta=site.data.rifles.meta
+    overrides=page.definition_stat_overrides
+%}
 
+<br>
+{% include footnote_end.html
+    peak_opener_definition="The Peak Opener uses it's own unique definition, listed in this section to help you calculate it's stats."
+%}
 </details>

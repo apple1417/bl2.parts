@@ -4031,6 +4031,21 @@
         "slot": "Material",
         "type": "Rifle"
     },
+    "GD_Anemone_Weapons.AssaultRifle.PeakOpener.AR_Barrel_Torgue_PeakOpener": {
+        "name": "Peak Opener",
+        "slot": "Barrel",
+        "type": "Rifle"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.PeakOpener.Mat_Torgue_5_PeakOpener": {
+        "name": "Peak Opener",
+        "slot": "Material",
+        "type": "Rifle"
+    },
+    "GD_Anemone_Weapons.AssaultRifle.PeakOpener.WT_PeakOpener": {
+        "name": "Peak Opener",
+        "slot": "Definition",
+        "type": "Rifle"
+    },
     "GD_Aster_RaidWeapons.AssaultRifles.AR_Barrel_Vladof_Seeker": {
         "name": "Seeker",
         "slot": "Barrel",

@@ -6,6 +6,8 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Any, Collection, Dict, Mapping, Optional, Set, Tuple, TypeVar, Union
 
+from Mods.ModMenu import Game  # type: ignore
+
 from . import YAML, float_error
 
 
@@ -177,6 +179,7 @@ ALL_DEFINITIONS: Dict[str, Tuple[str, ...]] = {
         "GD_Weap_Pistol.A_Weapons.WeaponType_Vladof_Pistol",
     ),
     "rifle": (
+        "GD_Anemone_Weapons.AssaultRifle.PeakOpener.WT_PeakOpener",
         "GD_Weap_AssaultRifle.A_Weapons.WT_Bandit_AssaultRifle",
         "GD_Weap_AssaultRifle.A_Weapons.WT_Dahl_AssaultRifle",
         "GD_Weap_AssaultRifle.A_Weapons.WT_Jakobs_AssaultRifle",
@@ -227,6 +230,7 @@ ALL_DEFINITIONS: Dict[str, Tuple[str, ...]] = {
 }
 
 UNIQUE_WEAPON_DEFINITIONS: Set[unrealsdk.UObject] = _load_obj_set("WeaponTypeDefinition", {
+    "GD_Anemone_Weapons.AssaultRifle.PeakOpener.WT_PeakOpener",
     "GD_Anemone_Weap_SniperRifles.A_Weapons.WeaponType_Jakobs_Sniper"
 })
 
@@ -426,6 +430,12 @@ NON_UNIQUE_BALANCES: Dict[str, Tuple[str, ...]] = {
         "GD_Weap_SniperRifles.A_Weapons.Sniper_Old_Hyperion_4_VeryRare",
         "GD_Weap_SniperRifles.A_Weapons.Sniper_Vladof_4_VeryRare",
         "GD_Weap_SniperRifles.A_Weapons.Sniper_Vladof_5_Alien",
+    ),
+}
+
+ITEM_TYPE_IGNORES: Dict[Game, Tuple[str, ...]] = {
+    Game.BL2: (
+        "laser",
     ),
 }
 
