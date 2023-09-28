@@ -187,14 +187,14 @@
   add_good: true
   multi_good: true
 
-- obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
+- obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
   name: Reflect Off Self Damage
   description: Increases the amount of damage that self reflected bullets deal multiplicatively.
   percent: true
   add_good: true
   multi_good: true
 
-- obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageScale
+- obj: D_Attributes.BulletReflection.BulletReflectedOffSelfDamageTakenScale
   name: Reflect Off Self Self-Damage
   description: Increases the amount of damage that self reflected bullets deal to yourself multiplicatively.
   percent: true
