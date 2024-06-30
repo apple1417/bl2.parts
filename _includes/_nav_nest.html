@@ -14,8 +14,13 @@ Args:
             {%- if item.url == page.url -%}
                 {%- assign classes = classes | append: " nav-current" -%}
             {%- endif -%}
+            {%- if item.url -%}
+                {%- assign href = 'href="' | append: item.url | append: '"' -%}
+            {%- else -%}
+                {%- assign href = "" -%}
+            {%- endif -%}
 
-            <a href="{{- item.url -}}" class="{{- classes -}}">{{- item.title -}}</a>
+            <a {{ href }} class="{{- classes -}}">{{- item.title -}}</a>
         </li>
         {%- if item.sub -%}
             {%- include _nav_nest.html nav=item.sub classes=include.classes -%}

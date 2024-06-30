@@ -202,6 +202,12 @@ nav a.nav-current {
     font-weight: bold;
     text-decoration: underline;
 }
+nav a:not([href]) {
+    color: var(--footnote-colour);
+}
+nav a:not([href]):hover {
+    text-decoration: none;
+}
 
 /* Images */
 

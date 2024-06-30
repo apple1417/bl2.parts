@@ -4,6 +4,14 @@ parts:
     sub:
       - title: Full Parts Reference
         url: /grenades/all_parts/
+  - title: Lasers
+    sub:
+    - title: Full Parts Reference
+      url: /lasers/all_parts/
+  - title: Launchers
+    sub:
+    - title: Full Parts Reference
+      url: /launchers/all_parts/
   - title: Pistols
     url: /pistols/
     sub:
